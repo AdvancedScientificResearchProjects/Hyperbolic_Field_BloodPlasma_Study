@@ -171,13 +171,13 @@ flowchart LR
 | **❓ Unclassified / Неклассифицированные** | 12 photos | No protocol label available / Нет метки протокола |
 
 **📁 Browse All Photos / Просмотреть Все Фото:**
-- [📂 data/patient-01/photos/](original_research/data/patient-01/photos/) — Patient 01 (13 photos)
-- [📂 data/patient-02/photos/](original_research/data/patient-02/photos/) — Patient 02 (25 photos)
-- [📂 data/patient-03/photos/](original_research/data/patient-03/photos/) — Patient 03 (16 photos)
-- [📂 data/patient-04/photos/](original_research/data/patient-04/photos/) — Patient 04 (4 photos)
-- [📂 data/patient-05/photos/](original_research/data/patient-05/photos/) — Patient 05 (10 photos)
-- [📂 data/patient-06/photos/](original_research/data/patient-06/photos/) — Patient 06 (3 photos)
-- [📂 data/patient-07/photos/](original_research/data/patient-07/photos/) — Patient 07 (30 photos)
+[📂 original_research/data/patient-01/photos/](original_research/data/patient-01/photos/) — Patient 01 (13 photos)
+[📂 original_research/data/patient-02/photos/](original_research/data/patient-02/photos/) — Patient 02 (25 photos)
+[📂 original_research/data/patient-03/photos/](original_research/data/patient-03/photos/) — Patient 03 (16 photos)
+[📂 original_research/data/patient-04/photos/](original_research/data/patient-04/photos/) — Patient 04 (4 photos)
+[📂 original_research/data/patient-05/photos/](original_research/data/patient-05/photos/) — Patient 05 (10 photos)
+[📂 original_research/data/patient-06/photos/](original_research/data/patient-06/photos/) — Patient 06 (3 photos)
+[📂 original_research/data/patient-07/photos/](original_research/data/patient-07/photos/) — Patient 07 (30 photos)
 
 ---
 
@@ -260,11 +260,11 @@ Hyperbolic_Field_BloodPlasma_Study/
 
 | # | Report / Отчёт | Date / Дата | Status / Статус | Direct Link / Прямая Ссылка |
 |---|----------------|-------------|-----------------|----------------------------|
-| 1 | **📋 Experiment Protocol / Протокол Эксперимента** | 2026-02 | ✅ Complete | [🇬🇧 EN](original_research/reports/experiment_protocol_en.md) \| [🇷🇺 RU](original_research/reports/experiment_protocol_ru.md) |
-| 2 | **🤖 Multi-AI Image Analysis / Мультипровайдерный AI-анализ Изображений** | 2026-02-25 | ✅ Complete | [🇬🇧 EN](original_research/reports/2026-02-25_ai-analysis/) \| [🇷🇺 RU](original_research/reports/2026-02-25_ai-analysis/) |
-| 3 | **👁️ LLM Vision Clot Analysis / LLM Vision Анализ Сгустков** | 2026-02-26 | ✅ Complete | [🇬🇧 EN](original_research/reports/2026-02-26_llm-vision-analysis/) \| [🇷🇺 RU](original_research/reports/2026-02-26_llm-vision-analysis/) |
-| 4 | **📊 Comparative LLM Analysis / Сравнительный Анализ LLM** | 2026-03-12 | ✅ Complete | [🇬🇧 EN](original_research/reports/2026-03-12_comparative/) \| [🇷🇺 RU](original_research/reports/2026-03-12_comparative/) |
-| 5 | **👁️ CV/ML Analysis / Computer Vision + ML Анализ** | 2026-03-14 | ✅ Complete | [🇬🇧 EN](original_research/reports/2026-03-14_cv-ml-analysis/) \| [🇷🇺 RU](original_research/reports/2026-03-14_cv-ml-analysis/) |
+| 1 | **📋 Experiment Protocol / Протокол Эксперимента** | 2026-02 | ✅ Complete | [🇬🇧 EN](reports/experiment_protocol_en.md) \| [🇷🇺 RU](reports/experiment_protocol_ru.md) |
+| 2 | **🤖 Multi-AI Image Analysis / Мультипровайдерный AI-анализ Изображений** | 2026-02-25 | ✅ Complete | [🇬🇧 EN](reports/2026-02-25_ai-analysis/) \| [🇷🇺 RU](reports/2026-02-25_ai-analysis/) |
+| 3 | **👁️ LLM Vision Clot Analysis / LLM Vision Анализ Сгустков** | 2026-02-26 | ✅ Complete | [🇬🇧 EN](reports/2026-02-26_llm-vision-analysis/) \| [🇷🇺 RU](reports/2026-02-26_llm-vision-analysis/) |
+| 4 | **📊 Comparative LLM Analysis / Сравнительный Анализ LLM** | 2026-03-12 | ✅ Complete | [🇬🇧 EN](reports/2026-03-12_comparative/) \| [🇷🇺 RU](reports/2026-03-12_comparative/) |
+| 5 | **👁️ CV/ML Analysis / Computer Vision + ML Анализ** | 2026-03-14 | ✅ Complete | [🇬🇧 EN](reports/2026-03-14_cv-ml-analysis/) \| [🇷🇺 RU](reports/2026-03-14_cv-ml-analysis/) |
 | 6 | **🧪 Biochemical Analysis Integration / Интеграция Биохимического Анализа** | In Progress | 🟡 In Production | [📋 Issue #5](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/5) |
 
 ### 📊 ANALYSIS PIPELINE / КОНВЕЙЕР АНАЛИЗА
@@ -476,11 +476,11 @@ flowchart TD
 
 | # | Report / Отчёт | Date / Дата | Status / Статус | Link / Ссылка |
 |---|----------------|-------------|-----------------|---------------|
-| 1 | Experiment Protocol / Протокол Эксперимента | 2026-02 | ✅ Completed | [EN](original_research/reports/experiment_protocol_en.md) \| [RU](original_research/reports/experiment_protocol_ru.md) |
-| 2 | Multi-AI Image Analysis / Мультипровайдерный AI-анализ | 2026-02-25 | ✅ Completed | [View](original_research/reports/2026-02-25_ai-analysis/) |
-| 3 | LLM Vision Clot Analysis / LLM Vision Анализ | 2026-02-26 | ✅ Completed | [View](original_research/reports/2026-02-26_llm-vision-analysis/) |
-| 4 | Comparative LLM Analysis / Сравнительный Анализ LLM | 2026-03-12 | ✅ Completed | [View](original_research/reports/2026-03-12_comparative/) |
-| 5 | CV/ML Analysis / Computer Vision + ML Анализ | 2026-03-14 | ✅ Completed | [View](original_research/reports/2026-03-14_cv-ml-analysis/) |
+| 1 | Experiment Protocol / Протокол Эксперимента | 2026-02 | ✅ Completed | [EN](reports/experiment_protocol_en.md) \| [RU](reports/experiment_protocol_ru.md) |
+| 2 | Multi-AI Image Analysis / Мультипровайдерный AI-анализ | 2026-02-25 | ✅ Completed | [View](reports/2026-02-25_ai-analysis/) |
+| 3 | LLM Vision Clot Analysis / LLM Vision Анализ | 2026-02-26 | ✅ Completed | [View](reports/2026-02-26_llm-vision-analysis/) |
+| 4 | Comparative LLM Analysis / Сравнительный Анализ LLM | 2026-03-12 | ✅ Completed | [View](reports/2026-03-12_comparative/) |
+| 5 | CV/ML Analysis / Computer Vision + ML Анализ | 2026-03-14 | ✅ Completed | [View](reports/2026-03-14_cv-ml-analysis/) |
 
 ### 🧠 ML MODELS USED / ИСПОЛЬЗОВАННЫЕ МЛ МОДЕЛИ
 
