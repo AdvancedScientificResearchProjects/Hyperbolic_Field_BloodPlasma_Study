@@ -260,11 +260,11 @@ Hyperbolic_Field_BloodPlasma_Study/
 
 | # | Report / Отчёт | Date / Дата | Status / Статус | Direct Link / Прямая Ссылка |
 |---|----------------|-------------|-----------------|----------------------------|
-| 1 | **📋 Experiment Protocol / Протокол Эксперимента** | 2026-02 | ✅ Complete | [🇬🇧 EN](reports/experiment_protocol_en.md) \| [🇷🇺 RU](reports/experiment_protocol_ru.md) |
-| 2 | **🤖 Multi-AI Image Analysis / Мультипровайдерный AI-анализ Изображений** | 2026-02-25 | ✅ Complete | [🇬🇧 EN](reports/2026-02-25_ai-analysis/) \| [🇷🇺 RU](reports/2026-02-25_ai-analysis/) |
-| 3 | **👁️ LLM Vision Clot Analysis / LLM Vision Анализ Сгустков** | 2026-02-26 | ✅ Complete | [🇬🇧 EN](reports/2026-02-26_llm-vision-analysis/) \| [🇷🇺 RU](reports/2026-02-26_llm-vision-analysis/) |
-| 4 | **📊 Comparative LLM Analysis / Сравнительный Анализ LLM** | 2026-03-12 | ✅ Complete | [🇬🇧 EN](reports/2026-03-12_comparative/) \| [🇷🇺 RU](reports/2026-03-12_comparative/) |
-| 5 | **👁️ CV/ML Analysis / Computer Vision + ML Анализ** | 2026-03-14 | ✅ Complete | [🇬🇧 EN](reports/2026-03-14_cv-ml-analysis/) \| [🇷🇺 RU](reports/2026-03-14_cv-ml-analysis/) |
+| 1 | **📋 Experiment Protocol / Протокол Эксперимента** | 2026-02 | ✅ Complete | [🇬🇧 EN](original_research/reports/experiment_protocol_en.md) \| [🇷🇺 RU](original_research/reports/experiment_protocol_ru.md) |
+| 2 | **🤖 Multi-AI Image Analysis / Мультипровайдерный AI-анализ Изображений** | 2026-02-25 | ✅ Complete | [🇬🇧 EN](original_research/reports/2026-02-25_ai-analysis/) \| [🇷🇺 RU](original_research/reports/2026-02-25_ai-analysis/) |
+| 3 | **👁️ LLM Vision Clot Analysis / LLM Vision Анализ Сгустков** | 2026-02-26 | ✅ Complete | [🇬🇧 EN](original_research/reports/2026-02-26_llm-vision-analysis/) \| [🇷🇺 RU](original_research/reports/2026-02-26_llm-vision-analysis/) |
+| 4 | **📊 Comparative LLM Analysis / Сравнительный Анализ LLM** | 2026-03-12 | ✅ Complete | [🇬🇧 EN](original_research/reports/2026-03-12_comparative/) \| [🇷🇺 RU](original_research/reports/2026-03-12_comparative/) |
+| 5 | **👁️ CV/ML Analysis / Computer Vision + ML Анализ** | 2026-03-14 | ✅ Complete | [🇬🇧 EN](original_research/reports/2026-03-14_cv-ml-analysis/) \| [🇷🇺 RU](original_research/reports/2026-03-14_cv-ml-analysis/) |
 | 6 | **🧪 Biochemical Analysis Integration / Интеграция Биохимического Анализа** | In Progress | 🟡 In Production | [📋 Issue #5](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/5) |
 
 ### 📊 ANALYSIS PIPELINE / КОНВЕЙЕР АНАЛИЗА
@@ -476,11 +476,11 @@ flowchart TD
 
 | # | Report / Отчёт | Date / Дата | Status / Статус | Link / Ссылка |
 |---|----------------|-------------|-----------------|---------------|
-| 1 | Experiment Protocol / Протокол Эксперимента | 2026-02 | ✅ Completed | [EN](reports/experiment_protocol_en.md) \| [RU](reports/experiment_protocol_ru.md) |
-| 2 | Multi-AI Image Analysis / Мультипровайдерный AI-анализ | 2026-02-25 | ✅ Completed | [View](reports/2026-02-25_ai-analysis/) |
-| 3 | LLM Vision Clot Analysis / LLM Vision Анализ | 2026-02-26 | ✅ Completed | [View](reports/2026-02-26_llm-vision-analysis/) |
-| 4 | Comparative LLM Analysis / Сравнительный Анализ LLM | 2026-03-12 | ✅ Completed | [View](reports/2026-03-12_comparative/) |
-| 5 | CV/ML Analysis / Computer Vision + ML Анализ | 2026-03-14 | ✅ Completed | [View](reports/2026-03-14_cv-ml-analysis/) |
+| 1 | Experiment Protocol / Протокол Эксперимента | 2026-02 | ✅ Completed | [EN](original_research/reports/experiment_protocol_en.md) \| [RU](original_research/reports/experiment_protocol_ru.md) |
+| 2 | Multi-AI Image Analysis / Мультипровайдерный AI-анализ | 2026-02-25 | ✅ Completed | [View](original_research/reports/2026-02-25_ai-analysis/) |
+| 3 | LLM Vision Clot Analysis / LLM Vision Анализ | 2026-02-26 | ✅ Completed | [View](original_research/reports/2026-02-26_llm-vision-analysis/) |
+| 4 | Comparative LLM Analysis / Сравнительный Анализ LLM | 2026-03-12 | ✅ Completed | [View](original_research/reports/2026-03-12_comparative/) |
+| 5 | CV/ML Analysis / Computer Vision + ML Анализ | 2026-03-14 | ✅ Completed | [View](original_research/reports/2026-03-14_cv-ml-analysis/) |
 
 ### 🧠 ML MODELS USED / ИСПОЛЬЗОВАННЫЕ МЛ МОДЕЛИ
 
