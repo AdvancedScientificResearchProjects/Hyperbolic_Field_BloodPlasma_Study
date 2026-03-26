@@ -1,0 +1,1234 @@
+{
+  "metadata": {
+    "generated": "2026-03-12T22:41:44.644604+00:00",
+    "mode": "comparative_blinded",
+    "blinded": true,
+    "blind_map": {
+      "0": "A",
+      "19": "B",
+      "21": "C"
+    },
+    "providers": [
+      "google"
+    ],
+    "total_comparisons": 19
+  },
+  "comparisons": [
+    {
+      "patient": "02",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3268",
+          "sample_ids": [
+            "0.2.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3265",
+          "sample_ids": [
+            "19.2.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3270",
+          "sample_ids": [
+            "21.2.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 1714,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Clear, uniform yellow liquid. No visible particulate matter or fibrin strands.\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"Slightly less transparent than Sample A. Fine, wispy strands are visible throughout the liquid, suggestive of early fibrin formation. A small, dark, circular object is present at the bottom.\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Clear, uniform yellow liquid, similar to Sample A. No visible particulate matter or fibrin strands. A very faint, thin layer is visible at the surface.\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Sample B exhibits signs of early coagulation with visible fibrin strands, making it appear less transparent than Samples A and C. Samples A and C are visually similar, both appearing as clear, transparent yellow liquids with no signs of coagulation. Sample C has a very subtle surface film not present in Sample A.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellow",
+              "transparency": "transparent",
+              "notes": "Clear, uniform yellow liquid. No visible particulate matter or fibrin strands.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "Slightly less transparent than Sample A. Fine, wispy strands are visible throughout the liquid, suggestive of early fibrin formation. A small, dark, circular object is present at the bottom.",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "transparent",
+              "notes": "Clear, uniform yellow liquid, similar to Sample A. No visible particulate matter or fibrin strands. A very faint, thin layer is visible at the surface.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "moderate",
+            "comparison_notes": "Sample B exhibits signs of early coagulation with visible fibrin strands, making it appear less transparent than Samples A and C. Samples A and C are visually similar, both appearing as clear, transparent yellow liquids with no signs of coagulation. Sample C has a very subtle surface film not present in Sample A."
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3269",
+          "sample_ids": [
+            "0.2.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3266",
+          "sample_ids": [
+            "19.2.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3271",
+          "sample_ids": [
+            "21.2.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 1961,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"The plasma appears clear and uniform. There are no visible particulate matter or fibrin strands.\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Visible particulate matter and some stringy, web-like structures are present, indicative of early fibrin formation or a partial clot. The plasma is less transparent than Sample A.\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"The plasma is clear and transparent, similar to Sample A. A faint horizontal line is visible within the plasma, which may be a reflection or a subtle density variation, but not indicative of coagulation.\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Sample B clearly shows signs of coagulation with the presence of particulate matter and fibrin-like structures, making it appear less transparent than Samples A and C. Samples A and C are visually similar, both appearing as clear, transparent yellow plasma, with Sample A appearing slightly more uniformly transparent.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellow",
+              "transparency": "transparent",
+              "notes": "The plasma appears clear and uniform. There are no visible particulate matter or fibrin strands.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "Visible particulate matter and some stringy, web-like structures are present, indicative of early fibrin formation or a partial clot. The plasma is less transparent than Sample A.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "transparent",
+              "notes": "The plasma is clear and transparent, similar to Sample A. A faint horizontal line is visible within the plasma, which may be a reflection or a subtle density variation, but not indicative of coagulation.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "moderate",
+            "comparison_notes": "Sample B clearly shows signs of coagulation with the presence of particulate matter and fibrin-like structures, making it appear less transparent than Samples A and C. Samples A and C are visually similar, both appearing as clear, transparent yellow plasma, with Sample A appearing slightly more uniformly transparent."
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3278",
+          "sample_ids": [
+            "0.2.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3267",
+          "sample_ids": [
+            "19.2.2"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3272",
+          "sample_ids": [
+            "21.2.2"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 1920,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"The sample appears to be a gel-like substance with a central, more liquid-like, brighter yellow region. The outer edge is less transparent and appears somewhat cloudy or fibrous.\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"The sample is a solid, opaque yellow mass filling the bottom of the test tube. There is no visible liquid plasma. The texture appears dense and homogeneous.\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"The sample is a liquid with a uniform yellow color. It appears to have some suspended particles or slight turbidity, making it semi-transparent. There are no visible clots or fibrin strands.\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_c\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Sample B shows complete coagulation, appearing as a solid mass. Sample A exhibits some degree of gelation or partial coagulation, with a distinct difference between the central and peripheral regions. Sample C is a liquid plasma with no visible signs of coagulation, appearing to be the least coagulated. The color is generally consistent across samples, but the transparency and physical state vary significantly.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "The sample appears to be a gel-like substance with a central, more liquid-like, brighter yellow region. The outer edge is less transparent and appears somewhat cloudy or fibrous.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "yellow",
+              "transparency": "opaque",
+              "notes": "The sample is a solid, opaque yellow mass filling the bottom of the test tube. There is no visible liquid plasma. The texture appears dense and homogeneous.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "The sample is a liquid with a uniform yellow color. It appears to have some suspended particles or slight turbidity, making it semi-transparent. There are no visible clots or fibrin strands.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Sample B shows complete coagulation, appearing as a solid mass. Sample A exhibits some degree of gelation or partial coagulation, with a distinct difference between the central and peripheral regions. Sample C is a liquid plasma with no visible signs of coagulation, appearing to be the least coagulated. The color is generally consistent across samples, but the transparency and physical state vary significantly."
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3286",
+          "sample_ids": [
+            "0.2.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3277",
+          "sample_ids": [
+            "19.2.2"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3279",
+          "sample_ids": [
+            "21.2.2"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 1802,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"A distinct, semi-solid, pale yellow mass is present, appearing to be a partial clot. The surrounding plasma is somewhat turbid.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"A rounded, semi-solid, pale yellow mass is visible within the plasma. The plasma itself appears slightly turbid.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"The plasma is clear and transparent with a pale yellow hue. No visible clots or coagulation structures are observed. Small droplets are present on the surface.\"\n  },\n  \"most_coagulated\": \"sample_a\",\n  \"least_coagulated\": \"sample_c\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Sample C is clearly the least coagulated, appearing as clear, liquid plasma. Samples A and B both show evidence of partial coagulation, with distinct semi-solid masses. Sample A appears to have a more defined and possibly larger clot structure compared to Sample B, suggesting a slightly more advanced or different form of coagulation. The surrounding plasma in A and B is also more turbid than in C.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "A distinct, semi-solid, pale yellow mass is present, appearing to be a partial clot. The surrounding plasma is somewhat turbid.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "A rounded, semi-solid, pale yellow mass is visible within the plasma. The plasma itself appears slightly turbid.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "The plasma is clear and transparent with a pale yellow hue. No visible clots or coagulation structures are observed. Small droplets are present on the surface.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "control",
+            "least_coagulated": "ch21",
+            "overall_difference": "moderate",
+            "comparison_notes": "Sample C is clearly the least coagulated, appearing as clear, liquid plasma. Samples A and B both show evidence of partial coagulation, with distinct semi-solid masses. Sample A appears to have a more defined and possibly larger clot structure compared to Sample B, suggesting a slightly more advanced or different form of coagulation. The surrounding plasma in A and B is also more turbid than in C."
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3287",
+          "sample_ids": [
+            "0.2.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3284",
+          "sample_ids": [
+            "19.2.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3285",
+          "sample_ids": [
+            "21.2.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 1774,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Sample appears as a clear, pale yellow liquid with a distinct, rounded, semi-solid mass suspended within it. The mass is opaque and lighter yellow than the surrounding liquid.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"Sample shows extensive, reticulated structures resembling a fibrin network. These structures are white and opaque, with a cracked, dried appearance in some areas. Within this network, there are pockets of pale yellow liquid. The overall impression is of a significantly coagulated sample.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Sample exhibits a less extensive fibrin network compared to Sample B. The network is visible as fine, web-like strands, predominantly white and semi-transparent. There are also small, dark circular inclusions within the network. Pockets of pale yellow liquid are present. The overall structure suggests partial coagulation.\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Sample A is the least coagulated, appearing as a clear liquid with a suspended mass. Sample C shows early signs of coagulation with a fine fibrin network. Sample B exhibits the most advanced coagulation, with a dense, cracked fibrin network encompassing most of the sample. The presence and extent of fibrin structures are the primary distinguishing features.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Sample appears as a clear, pale yellow liquid with a distinct, rounded, semi-solid mass suspended within it. The mass is opaque and lighter yellow than the surrounding liquid.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Sample shows extensive, reticulated structures resembling a fibrin network. These structures are white and opaque, with a cracked, dried appearance in some areas. Within this network, there are pockets of pale yellow liquid. The overall impression is of a significantly coagulated sample.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Sample exhibits a less extensive fibrin network compared to Sample B. The network is visible as fine, web-like strands, predominantly white and semi-transparent. There are also small, dark circular inclusions within the network. Pockets of pale yellow liquid are present. The overall structure suggests partial coagulation.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Sample A is the least coagulated, appearing as a clear liquid with a suspended mass. Sample C shows early signs of coagulation with a fine fibrin network. Sample B exhibits the most advanced coagulation, with a dense, cracked fibrin network encompassing most of the sample. The presence and extent of fibrin structures are the primary distinguishing features."
+          }
+        }
+      }
+    },
+    {
+      "patient": "03",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3292",
+          "sample_ids": [
+            "0.3.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3296",
+          "sample_ids": [
+            "19.3.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3290",
+          "sample_ids": [
+            "21.3.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 4139,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"deep yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Visible amorphous, yellowish-white material suspended within the plasma. Some swirling patterns are apparent, suggesting partial coagulation or aggregation.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Uniformly pale yellow and clear. No visible particulate matter or fibrin strands. A few small air bubbles are present at the bottom.\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Clear yellow plasma. A single thin, dark line is visible across the lower portion, which appears to be a foreign object (e.g., hair) rather than a coagulation structure. No other visible aggregations.\"\n  },\n  \"most_coagulated\": \"sample_a\",\n  \"least_coagulated\": \"sample_b\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Sample A clearly shows signs of partial coagulation with suspended material. Sample B appears to be completely uncoagulated and is the most transparent. Sample C is also uncoagulated but has a slightly deeper yellow hue than Sample B and contains a visible foreign line. The difference between Sample A and the other two is the most significant.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "deep yellow",
+              "transparency": "semi-transparent",
+              "notes": "Visible amorphous, yellowish-white material suspended within the plasma. Some swirling patterns are apparent, suggesting partial coagulation or aggregation.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Uniformly pale yellow and clear. No visible particulate matter or fibrin strands. A few small air bubbles are present at the bottom.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "transparent",
+              "notes": "Clear yellow plasma. A single thin, dark line is visible across the lower portion, which appears to be a foreign object (e.g., hair) rather than a coagulation structure. No other visible aggregations.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "control",
+            "least_coagulated": "ch19",
+            "overall_difference": "moderate",
+            "comparison_notes": "Sample A clearly shows signs of partial coagulation with suspended material. Sample B appears to be completely uncoagulated and is the most transparent. Sample C is also uncoagulated but has a slightly deeper yellow hue than Sample B and contains a visible foreign line. The difference between Sample A and the other two is the most significant."
+          }
+        }
+      }
+    },
+    {
+      "patient": "03",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3293",
+          "sample_ids": [
+            "0.3.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3297",
+          "sample_ids": [
+            "19.3.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3291",
+          "sample_ids": [
+            "21.3.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 1978,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"A significant portion of the sample appears to be a semi-solid, yellowish mass with some visible particulate matter. The surrounding liquid is clear and pale yellow.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"The sample is predominantly a clear, pale yellow liquid with a diffuse network of fine, white fibrin strands suspended throughout. No solid clot is visible.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"A distinct, yellowish, semi-solid mass is present, occupying a significant portion of the sample. The surrounding liquid is clear and pale yellow. The mass appears less consolidated than in Sample A.\"\n  },\n  \"most_coagulated\": \"sample_a\",\n  \"least_coagulated\": \"sample_b\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Sample B shows the least advanced coagulation, characterized by dispersed fibrin strands in a clear liquid. Samples A and C both exhibit partial clot formation, with A appearing to have a more consolidated clot than C. The overall visual differences are moderate, primarily due to the varying degrees of clot formation and the presence of suspended fibrin.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "A significant portion of the sample appears to be a semi-solid, yellowish mass with some visible particulate matter. The surrounding liquid is clear and pale yellow.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "The sample is predominantly a clear, pale yellow liquid with a diffuse network of fine, white fibrin strands suspended throughout. No solid clot is visible.",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "A distinct, yellowish, semi-solid mass is present, occupying a significant portion of the sample. The surrounding liquid is clear and pale yellow. The mass appears less consolidated than in Sample A.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "control",
+            "least_coagulated": "ch19",
+            "overall_difference": "moderate",
+            "comparison_notes": "Sample B shows the least advanced coagulation, characterized by dispersed fibrin strands in a clear liquid. Samples A and C both exhibit partial clot formation, with A appearing to have a more consolidated clot than C. The overall visual differences are moderate, primarily due to the varying degrees of clot formation and the presence of suspended fibrin."
+          }
+        }
+      }
+    },
+    {
+      "patient": "03",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3294",
+          "sample_ids": [
+            "0.3.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3300",
+          "sample_ids": [
+            "19.3.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3298",
+          "sample_ids": [
+            "21.3.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 1911,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"A large, amorphous, pale yellow mass is present, with a denser, orange-colored region within it. The surrounding plasma is semi-transparent. Appears to be a partially formed clot with some cellular debris or aggregated material.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"The plasma is uniformly pale yellow and appears transparent. No visible clots or fibrin strands. There are some faint, wispy structures that could be artifacts or very early fibrin formation, but not definitive.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"The plasma is pale yellow and semi-transparent. There are numerous fine, thread-like structures dispersed throughout the sample, consistent with early fibrin formation. These structures are more diffuse than a formed clot.\"\n  },\n  \"most_coagulated\": \"sample_a\",\n  \"least_coagulated\": \"sample_b\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Sample A shows the most advanced coagulation with a distinct, partially formed clot. Sample C exhibits early fibrin formation, indicating a less advanced stage than A but more than B. Sample B appears to be the least coagulated, with clear plasma and no definitive clotting structures, though some very faint wispy elements are present.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "A large, amorphous, pale yellow mass is present, with a denser, orange-colored region within it. The surrounding plasma is semi-transparent. Appears to be a partially formed clot with some cellular debris or aggregated material.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "The plasma is uniformly pale yellow and appears transparent. No visible clots or fibrin strands. There are some faint, wispy structures that could be artifacts or very early fibrin formation, but not definitive.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "The plasma is pale yellow and semi-transparent. There are numerous fine, thread-like structures dispersed throughout the sample, consistent with early fibrin formation. These structures are more diffuse than a formed clot.",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "most_coagulated": "control",
+            "least_coagulated": "ch19",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Sample A shows the most advanced coagulation with a distinct, partially formed clot. Sample C exhibits early fibrin formation, indicating a less advanced stage than A but more than B. Sample B appears to be the least coagulated, with clear plasma and no definitive clotting structures, though some very faint wispy elements are present."
+          }
+        }
+      }
+    },
+    {
+      "patient": "03",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3295",
+          "sample_ids": [
+            "0.3.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3301",
+          "sample_ids": [
+            "19.3.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3299",
+          "sample_ids": [
+            "21.3.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 2165,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Appears to have some small bubbles at the top. The bottom shows some particulate matter.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"Visible fibrin strands are present throughout the sample, appearing as delicate, web-like structures. The sample is otherwise clear.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"A large, dense, amorphous clot occupies most of the volume. The clot appears to be a solid mass with some internal structure. The surrounding fluid is cloudy.\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Sample A shows no signs of coagulation and is clear. Sample B exhibits early fibrin formation, with visible strands. Sample C is almost entirely clotted, forming a dense mass, and the surrounding fluid is opaque, suggesting significant coagulation and possibly some breakdown products or cellular debris.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellow",
+              "transparency": "transparent",
+              "notes": "Appears to have some small bubbles at the top. The bottom shows some particulate matter.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Visible fibrin strands are present throughout the sample, appearing as delicate, web-like structures. The sample is otherwise clear.",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "opaque",
+              "notes": "A large, dense, amorphous clot occupies most of the volume. The clot appears to be a solid mass with some internal structure. The surrounding fluid is cloudy.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Sample A shows no signs of coagulation and is clear. Sample B exhibits early fibrin formation, with visible strands. Sample C is almost entirely clotted, forming a dense mass, and the surrounding fluid is opaque, suggesting significant coagulation and possibly some breakdown products or cellular debris."
+          }
+        }
+      }
+    },
+    {
+      "patient": "04",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3307",
+          "sample_ids": [
+            "0.4.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3308",
+          "sample_ids": [
+            "19.4.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3309",
+          "sample_ids": [
+            "21.4.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 1806,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Appears to contain a partially formed clot or aggregated material, visible as a darker, less transparent region within the plasma. Some small bubbles are present.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Similar to Sample A, this sample shows evidence of partial coagulation. A central, darker, and less transparent area suggests the presence of aggregated material or a developing clot. The texture appears slightly more granular than Sample A.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"This sample is the most transparent of the three. It appears homogeneous with no visible clots or significant aggregated material. The color is a uniform pale yellow.\"\n  },\n  \"most_coagulated\": \"sample_a\",\n  \"least_coagulated\": \"sample_c\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Sample C is clearly the least coagulated, appearing as clear, transparent plasma. Samples A and B both show signs of partial coagulation, with less transparency and visible aggregated material. Sample A appears to have a slightly more defined central mass compared to Sample B, which has a more diffuse granular appearance. The difference between A and B is subtle, but both are distinctly different from C.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Appears to contain a partially formed clot or aggregated material, visible as a darker, less transparent region within the plasma. Some small bubbles are present.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Similar to Sample A, this sample shows evidence of partial coagulation. A central, darker, and less transparent area suggests the presence of aggregated material or a developing clot. The texture appears slightly more granular than Sample A.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "This sample is the most transparent of the three. It appears homogeneous with no visible clots or significant aggregated material. The color is a uniform pale yellow.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "control",
+            "least_coagulated": "ch21",
+            "overall_difference": "moderate",
+            "comparison_notes": "Sample C is clearly the least coagulated, appearing as clear, transparent plasma. Samples A and B both show signs of partial coagulation, with less transparency and visible aggregated material. Sample A appears to have a slightly more defined central mass compared to Sample B, which has a more diffuse granular appearance. The difference between A and B is subtle, but both are distinctly different from C."
+          }
+        }
+      }
+    },
+    {
+      "patient": "05",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3316",
+          "sample_ids": [
+            "0.5.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3312",
+          "sample_ids": [
+            "19.5.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3319",
+          "sample_ids": [
+            "21.5.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 1782,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Visible fibrin strands and a partially formed clot are present, appearing as cloudy, irregular structures within the plasma. The plasma itself is a uniform yellow. There are some small bubbles at the bottom.\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"The plasma is clear and transparent with a uniform yellow color. No visible clots or fibrin strands are observed. The meniscus is sharp.\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"The sample appears to be a solid or semi-solid mass, indicating complete coagulation. The color is a more intense yellow, and the texture is opaque and irregular. It occupies most of the visible volume of the tube.\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_b\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Sample B is completely liquid and transparent, indicating no significant coagulation. Sample A shows partial coagulation with visible fibrin strands and a developing clot. Sample C is a solid mass, representing complete coagulation. The differences in transparency and the presence/absence of visible coagulation structures are significant.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "Visible fibrin strands and a partially formed clot are present, appearing as cloudy, irregular structures within the plasma. The plasma itself is a uniform yellow. There are some small bubbles at the bottom.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "yellow",
+              "transparency": "transparent",
+              "notes": "The plasma is clear and transparent with a uniform yellow color. No visible clots or fibrin strands are observed. The meniscus is sharp.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "opaque",
+              "notes": "The sample appears to be a solid or semi-solid mass, indicating complete coagulation. The color is a more intense yellow, and the texture is opaque and irregular. It occupies most of the visible volume of the tube.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "ch19",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Sample B is completely liquid and transparent, indicating no significant coagulation. Sample A shows partial coagulation with visible fibrin strands and a developing clot. Sample C is a solid mass, representing complete coagulation. The differences in transparency and the presence/absence of visible coagulation structures are significant."
+          }
+        }
+      }
+    },
+    {
+      "patient": "05",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3317",
+          "sample_ids": [
+            "0.5.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3313",
+          "sample_ids": [
+            "19.5.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3320",
+          "sample_ids": [
+            "21.5.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 2552,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"Visible white, wispy fibrin strands are present throughout the plasma. The plasma itself is a pale yellow and appears somewhat cloudy.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"A distinct, denser white clot-like structure is visible, occupying a significant portion of the sample. Fibrin strands are also apparent, more concentrated around the clot. The plasma is pale yellow and cloudy.\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"The plasma is a clear, bright yellow and appears completely transparent. No visible clots or fibrin strands are present. There is a slight sedimentation at the bottom, but it does not appear to be a coagulation structure.\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_c\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Sample C shows no signs of coagulation, appearing as clear, yellow plasma. Sample A exhibits early signs of coagulation with dispersed fibrin strands. Sample B shows the most advanced coagulation, with a dense clot-like structure and concentrated fibrin. The color of sample C is a more vibrant yellow compared to the paler yellow of samples A and B, which may be related to the presence of coagulation components.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Visible white, wispy fibrin strands are present throughout the plasma. The plasma itself is a pale yellow and appears somewhat cloudy.",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "A distinct, denser white clot-like structure is visible, occupying a significant portion of the sample. Fibrin strands are also apparent, more concentrated around the clot. The plasma is pale yellow and cloudy.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "transparent",
+              "notes": "The plasma is a clear, bright yellow and appears completely transparent. No visible clots or fibrin strands are present. There is a slight sedimentation at the bottom, but it does not appear to be a coagulation structure.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Sample C shows no signs of coagulation, appearing as clear, yellow plasma. Sample A exhibits early signs of coagulation with dispersed fibrin strands. Sample B shows the most advanced coagulation, with a dense clot-like structure and concentrated fibrin. The color of sample C is a more vibrant yellow compared to the paler yellow of samples A and B, which may be related to the presence of coagulation components."
+          }
+        }
+      }
+    },
+    {
+      "patient": "05",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3318",
+          "sample_ids": [
+            "0.5.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3314",
+          "sample_ids": [
+            "19.5.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3321",
+          "sample_ids": [
+            "21.5.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 1910,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Appears to be a partially formed clot with some surrounding liquid plasma. The clot is opaque and yellowish-white. Some fine strands are visible within the clot.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"A dense, opaque, yellowish-white mass occupying most of the visible volume. This appears to be a fully formed clot. The surrounding liquid is minimal.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Clear, transparent pale yellow liquid plasma. No visible clots or fibrin strands.\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_c\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Sample C is clear and liquid, indicating no coagulation. Sample A shows a partial clot, with a distinct opaque mass within the liquid. Sample B is almost entirely a dense, opaque clot, representing the most advanced stage of coagulation among the three. The differences in opacity and the presence/extent of solid structures are significant.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Appears to be a partially formed clot with some surrounding liquid plasma. The clot is opaque and yellowish-white. Some fine strands are visible within the clot.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "A dense, opaque, yellowish-white mass occupying most of the visible volume. This appears to be a fully formed clot. The surrounding liquid is minimal.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Clear, transparent pale yellow liquid plasma. No visible clots or fibrin strands.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Sample C is clear and liquid, indicating no coagulation. Sample A shows a partial clot, with a distinct opaque mass within the liquid. Sample B is almost entirely a dense, opaque clot, representing the most advanced stage of coagulation among the three. The differences in opacity and the presence/extent of solid structures are significant."
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3341",
+          "sample_ids": [
+            "0.7.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3329",
+          "sample_ids": [
+            "19.7.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3335",
+          "sample_ids": [
+            "21.7.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 1249,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"The sample appears as a clear, pale yellow liquid with some subtle, wispy structures that could be very fine fibrin strands, but they are not distinct enough to confirm. The overall appearance is homogeneous.\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"This sample contains a significant amount of coagulated material. The plasma is a deeper yellow and appears less transparent than Sample A. There are visible, irregular, yellowish-white structures that are consistent with a partial clot. Some liquid plasma is still present around the clot.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Similar to Sample A, this sample is a clear, pale yellow liquid. No distinct clots or fibrin strands are visible. The sample appears homogeneous.\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Sample B clearly shows evidence of coagulation with a partial clot, making it the most coagulated sample. Samples A and C are both clear, pale yellow liquids with no visible signs of significant coagulation. Sample A might have very fine, indistinct fibrin strands, suggesting it is slightly more advanced in coagulation than Sample C, or it could be an artifact. The difference between A and C is subtle, while the difference between B and the other two is pronounced.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "The sample appears as a clear, pale yellow liquid with some subtle, wispy structures that could be very fine fibrin strands, but they are not distinct enough to confirm. The overall appearance is homogeneous.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "This sample contains a significant amount of coagulated material. The plasma is a deeper yellow and appears less transparent than Sample A. There are visible, irregular, yellowish-white structures that are consistent with a partial clot. Some liquid plasma is still present around the clot.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Similar to Sample A, this sample is a clear, pale yellow liquid. No distinct clots or fibrin strands are visible. The sample appears homogeneous.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "moderate",
+            "comparison_notes": "Sample B clearly shows evidence of coagulation with a partial clot, making it the most coagulated sample. Samples A and C are both clear, pale yellow liquids with no visible signs of significant coagulation. Sample A might have very fine, indistinct fibrin strands, suggesting it is slightly more advanced in coagulation than Sample C, or it could be an artifact. The difference between A and C is subtle, while the difference between B and the other two is pronounced."
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3342",
+          "sample_ids": [
+            "0.7.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3330",
+          "sample_ids": [
+            "19.7.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3336",
+          "sample_ids": [
+            "21.7.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 1998,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Appears to be a homogeneous liquid with some fine, linear structures visible, possibly artifacts or very early fibrin formation. The overall appearance is clear.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Contains visible, irregular, whitish-yellow structures that appear to be partially formed clots or aggregates. The liquid is less transparent than sample A, with some turbidity.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Appears as a homogeneous liquid. There are some faint linear structures, similar to sample A, but less prominent. The sample is clear and transparent.\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_c\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Sample B clearly shows signs of partial coagulation with visible clot-like structures and reduced transparency. Samples A and C are both transparent and appear to be in a non-coagulated state, though sample A has slightly more prominent linear structures. Sample C appears to be the least coagulated, with the clearest appearance and fewest visible internal structures.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Appears to be a homogeneous liquid with some fine, linear structures visible, possibly artifacts or very early fibrin formation. The overall appearance is clear.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Contains visible, irregular, whitish-yellow structures that appear to be partially formed clots or aggregates. The liquid is less transparent than sample A, with some turbidity.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Appears as a homogeneous liquid. There are some faint linear structures, similar to sample A, but less prominent. The sample is clear and transparent.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "moderate",
+            "comparison_notes": "Sample B clearly shows signs of partial coagulation with visible clot-like structures and reduced transparency. Samples A and C are both transparent and appear to be in a non-coagulated state, though sample A has slightly more prominent linear structures. Sample C appears to be the least coagulated, with the clearest appearance and fewest visible internal structures."
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3343",
+          "sample_ids": [
+            "0.7.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3331",
+          "sample_ids": [
+            "19.7.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3337",
+          "sample_ids": [
+            "21.7.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 1838,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"A distinct, semi-solid mass is visible, occupying a significant portion of the sample. The surrounding liquid appears slightly turbid.\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"The sample is dominated by a large, dense, and opaque coagulum. The color is a deeper yellow than sample A. No clear liquid phase is discernible.\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"The sample is a clear, homogeneous yellow liquid. No solid structures or turbidity are visible.\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_c\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Sample C is a clear liquid, indicating no coagulation. Sample A shows partial coagulation with a distinct clot. Sample B exhibits complete coagulation, forming a dense, opaque mass that fills most of the tube. The color intensity also appears to increase with the degree of coagulation, being palest in C, intermediate in A, and deepest in B.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "A distinct, semi-solid mass is visible, occupying a significant portion of the sample. The surrounding liquid appears slightly turbid.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "yellow",
+              "transparency": "opaque",
+              "notes": "The sample is dominated by a large, dense, and opaque coagulum. The color is a deeper yellow than sample A. No clear liquid phase is discernible.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "transparent",
+              "notes": "The sample is a clear, homogeneous yellow liquid. No solid structures or turbidity are visible.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Sample C is a clear liquid, indicating no coagulation. Sample A shows partial coagulation with a distinct clot. Sample B exhibits complete coagulation, forming a dense, opaque mass that fills most of the tube. The color intensity also appears to increase with the degree of coagulation, being palest in C, intermediate in A, and deepest in B."
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3344",
+          "sample_ids": [
+            "0.7.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3332",
+          "sample_ids": [
+            "19.7.2"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3338",
+          "sample_ids": [
+            "21.7.2"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 2415,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"bright yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"The sample is a clear, bright yellow liquid. There are no visible clots or fibrin strands. The liquid appears homogeneous.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"The sample contains a semi-solid, pale yellow mass that appears to be a partial clot. The surrounding liquid is also pale yellow and slightly turbid. Some small, dark particles are visible within the liquid.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"The sample is a cohesive, pale yellow mass that appears to be a fully formed clot. The clot is semi-transparent and fills a significant portion of the tube. The surrounding liquid is minimal and appears turbid.\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Sample A is a clear, liquid plasma with no signs of coagulation. Sample B shows early signs of coagulation with a partial clot forming. Sample C exhibits a fully formed clot, indicating the most advanced stage of coagulation among the three. The color also shifts from bright yellow in sample A to a paler yellow in samples B and C, potentially due to the presence of fibrin and other coagulation components.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "bright yellow",
+              "transparency": "transparent",
+              "notes": "The sample is a clear, bright yellow liquid. There are no visible clots or fibrin strands. The liquid appears homogeneous.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "The sample contains a semi-solid, pale yellow mass that appears to be a partial clot. The surrounding liquid is also pale yellow and slightly turbid. Some small, dark particles are visible within the liquid.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "The sample is a cohesive, pale yellow mass that appears to be a fully formed clot. The clot is semi-transparent and fills a significant portion of the tube. The surrounding liquid is minimal and appears turbid.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Sample A is a clear, liquid plasma with no signs of coagulation. Sample B shows early signs of coagulation with a partial clot forming. Sample C exhibits a fully formed clot, indicating the most advanced stage of coagulation among the three. The color also shifts from bright yellow in sample A to a paler yellow in samples B and C, potentially due to the presence of fibrin and other coagulation components."
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3345",
+          "sample_ids": [
+            "0.7.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3333",
+          "sample_ids": [
+            "19.7.2"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3339",
+          "sample_ids": [
+            "21.7.2"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 4679,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"The plasma is clear and yellow. There are no visible clots or fibrin strands. The liquid appears homogeneous.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"The plasma is a paler yellow and appears less transparent than Sample A. There are visible structures resembling early fibrin formation or a partial clot, with some cloudiness and irregular texture within the liquid.\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"The plasma is yellow and appears to be a solid or semi-solid mass, indicating full coagulation. The structure is dense and homogeneous, filling a significant portion of the tube. It is opaque in the center and semi-transparent at the edges.\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Sample A shows no signs of coagulation, appearing as clear, liquid plasma. Sample B exhibits early signs of coagulation with visible fibrin strands or a partial clot, and reduced transparency. Sample C demonstrates complete coagulation, forming a dense, solid mass. The progression from liquid to solid is clearly visible across the three samples.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellow",
+              "transparency": "transparent",
+              "notes": "The plasma is clear and yellow. There are no visible clots or fibrin strands. The liquid appears homogeneous.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "The plasma is a paler yellow and appears less transparent than Sample A. There are visible structures resembling early fibrin formation or a partial clot, with some cloudiness and irregular texture within the liquid.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "The plasma is yellow and appears to be a solid or semi-solid mass, indicating full coagulation. The structure is dense and homogeneous, filling a significant portion of the tube. It is opaque in the center and semi-transparent at the edges.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Sample A shows no signs of coagulation, appearing as clear, liquid plasma. Sample B exhibits early signs of coagulation with visible fibrin strands or a partial clot, and reduced transparency. Sample C demonstrates complete coagulation, forming a dense, solid mass. The progression from liquid to solid is clearly visible across the three samples."
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3346",
+          "sample_ids": [
+            "0.7.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3334",
+          "sample_ids": [
+            "19.7.2"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3340",
+          "sample_ids": [
+            "21.7.2"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 19240,
+          "error": null,
+          "fallback": false,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"A large, amorphous, semi-transparent yellowish mass is present, occupying a significant portion of the sample. The mass appears to be a developing clot with some internal structure visible. The surrounding liquid is clear.\"\n  },\n  \"sample_b\": {\n    \"color\": \"bright yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"The sample is a clear, bright yellow liquid with no visible solid structures or turbidity. The surface appears smooth.\"\n  },\n  \"sample_c\": {\n    \"color\": \"bright yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"The sample is a clear, bright yellow liquid. There are some faint, wispy structures visible within the liquid, possibly indicating very early fibrin formation or cellular debris, but no distinct clots or significant turbidity are present. The surface shows some slight undulation.\"\n  },\n  \"most_coagulated\": \"sample_a\",\n  \"least_coagulated\": \"sample_b\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Sample A clearly shows the most advanced stage of coagulation with a large, partially formed clot. Sample B appears to be completely uncoagulated and is the most transparent. Sample C shows no definitive clot but has some fine, wispy structures within the plasma, suggesting it is either uncoagulated or in a very early stage of fibrin formation, but less so than Sample A.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "A large, amorphous, semi-transparent yellowish mass is present, occupying a significant portion of the sample. The mass appears to be a developing clot with some internal structure visible. The surrounding liquid is clear.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "bright yellow",
+              "transparency": "transparent",
+              "notes": "The sample is a clear, bright yellow liquid with no visible solid structures or turbidity. The surface appears smooth.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "bright yellow",
+              "transparency": "transparent",
+              "notes": "The sample is a clear, bright yellow liquid. There are some faint, wispy structures visible within the liquid, possibly indicating very early fibrin formation or cellular debris, but no distinct clots or significant turbidity are present. The surface shows some slight undulation.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "control",
+            "least_coagulated": "ch19",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Sample A clearly shows the most advanced stage of coagulation with a large, partially formed clot. Sample B appears to be completely uncoagulated and is the most transparent. Sample C shows no definitive clot but has some fine, wispy structures within the plasma, suggesting it is either uncoagulated or in a very early stage of fibrin formation, but less so than Sample A."
+          }
+        }
+      }
+    }
+  ]
+}

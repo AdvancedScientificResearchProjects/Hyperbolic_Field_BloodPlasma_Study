@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "generated": "2026-03-13T08:55:00Z",
+    "mode": "batch",
+    "blinded": false,
+    "blind_map": null,
+    "provider": "openai",
+    "n_patients": 5,
+    "n_images": 15,
+    "patients": [
+      "02",
+      "03",
+      "04",
+      "05",
+      "07"
+    ]
+  },
+  "triplets": [
+    {
+      "patient": "02",
+      "control": "IMG_3268",
+      "ch19": "IMG_3265",
+      "ch21": "IMG_3270"
+    },
+    {
+      "patient": "03",
+      "control": "IMG_3292",
+      "ch19": "IMG_3296",
+      "ch21": "IMG_3290"
+    },
+    {
+      "patient": "04",
+      "control": "IMG_3307",
+      "ch19": "IMG_3308",
+      "ch21": "IMG_3309"
+    },
+    {
+      "patient": "05",
+      "control": "IMG_3316",
+      "ch19": "IMG_3312",
+      "ch21": "IMG_3319"
+    },
+    {
+      "patient": "07",
+      "control": "IMG_3341",
+      "ch19": "IMG_3329",
+      "ch21": "IMG_3335"
+    }
+  ],
+  "result": {
+    "provider": "openai",
+    "latency_ms": 98301,
+    "error": null,
+    "raw": "```json\n{\n  \"per_patient\": [\n    {\n      \"patient\": \"P02\",\n      \"most_coagulated\": \"ch21\",\n      \"least_coagulated\": \"control\",\n      \"difference\": \"pronounced\",\n      \"notes\": \"CH21 shows a large, dense gel-like mass; control and CH19 remain mostly clear with only minor sediment.\"\n    },\n    {\n      \"patient\": \"P03\",\n      \"most_coagulated\": \"ch19\",\n      \"least_coagulated\": \"control\",\n      \"difference\": \"pronounced\",\n      \"notes\": \"CH19 displays strong turbidity and a compact central clot; CH21 shows a sizeable but less turbid clot; control has a smaller, less opaque aggregate.\"\n    },\n    {\n      \"patient\": \"P04\",\n      \"most_coagulated\": \"ch21\",\n      \"least_coagulated\": \"control\",\n      \"difference\": \"pronounced\",\n      \"notes\": \"Control looks largely clear; CH21 has a thicker, more textured central coagulum than CH19.\"\n    },\n    {\n      \"patient\": \"P05\",\n      \"most_coagulated\": \"ch21\",\n      \"least_coagulated\": \"control\",\n      \"difference\": \"moderate\",\n      \"notes\": \"All show a central clot, but CH21 is more opaque with surrounding haze; CH19 is slightly less opaque; control is clearer.\"\n    },\n    {\n      \"patient\": \"P07\",\n      \"most_coagulated\": \"ch19\",\n      \"least_coagulated\": \"control\",\n      \"difference\": \"pronounced\",\n      \"notes\": \"CH19 exhibits marked cloudiness with multiple aggregates; CH21 has a sizeable clot but less diffuse haze; control is comparatively clear.\"\n    }\n  ],\n  \"summary\": {\n    \"ch19_most_coagulated_count\": 2,\n    \"ch21_most_coagulated_count\": 3,\n    \"control_most_coagulated_count\": 0,\n    \"pattern_strength\": \"moderate\",\n    \"pattern_description\": \"In all 5 donors, an exposed sample (CH19 or CH21) shows more advanced coagulation than the control; CH21 is most coagulated in 3/5 donors, CH19 in 2/5.\",\n    \"conclusion\": \"Across this small set, exposure increases visible coagulation, with CH21 slightly more often producing the most advanced clot.\"\n  }\n}\n```"
+  }
+}

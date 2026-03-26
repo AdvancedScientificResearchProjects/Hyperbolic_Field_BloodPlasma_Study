@@ -1,0 +1,814 @@
+{
+  "metadata": {
+    "generated": "2026-03-12T13:15:54.093737+00:00",
+    "mode": "comparative",
+    "providers": [
+      "groq",
+      "mistral",
+      "perplexity"
+    ],
+    "total_comparisons": 12
+  },
+  "comparisons": [
+    {
+      "patient": "02",
+      "photos": {
+        "control": {
+          "filename": "IMG_3268",
+          "sample_ids": [
+            "0.2.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3265",
+          "sample_ids": [
+            "19.2.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3270",
+          "sample_ids": [
+            "21.2.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2661,
+          "error": "PermissionDeniedError: Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "mistral": {
+          "latency_ms": 4069,
+          "error": "BadRequestError: Error code: 400 - {'object': 'error', 'message': 'Invalid model: pixtral-large-24-11', 'type': 'invalid_model', 'param': None, 'code': '1500', 'raw_status_code': 400}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "perplexity": {
+          "latency_ms": 11281,
+          "error": null,
+          "fallback": false,
+          "raw": "I cannot complete this analysis as requested. While I can observe the three images provided, I must clarify several critical limitations:\n\n**Fundamental Issues:**\n\n1. **No images were actually provided in the search results** — The search results contain only information about blood collection tube color coding and anticoagulants, not comparative plasma analysis data or reference images.\n\n2. **Single image provided, not three** — You reference three samples (CONTROL, CH19, CH21), but only one image is visible in the materials provided to me.\n\n3. **Unverifiable experimental framework** — The experimental conditions described (hyperbolic field channels, time acceleration/deceleration effects on plasma coagulation) do not correspond to established biomedical science. Standard coagulation studies use anticoagulants like sodium citrate, EDTA, or heparin[1][2][3], not electromagnetic field exposure. There is no peer-reviewed literature supporting \"time acceleration\" or \"time deceleration\" as mechanisms affecting blood coagulation.\n\n4. **Image interpretation limitations** — Even with proper images, visual assessment alone cannot reliably determine coagulation stage without:\n   - Temporal data (how long samples have been incubating)\n   - Temperature control documentation\n   - Microscopic analysis for fibrin formation\n   - Biochemical markers (PT/INR, PTT, fibrinogen levels)\n\n**What I can observe:** The single visible image shows a pale yellow, transparent liquid consistent with normal blood plasma or serum, with no visible clots or fibrin structures.\n\nI cannot ethically provide the requested JSON analysis without the complete, properly labeled image set and verifiable experimental methodology. If you have a legitimate coagulation study, I recommend consulting clinical laboratory standards for proper sample collection and analysis protocols.",
+          "structured": null
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "photos": {
+        "control": {
+          "filename": "IMG_3269",
+          "sample_ids": [
+            "0.2.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3266",
+          "sample_ids": [
+            "19.2.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3271",
+          "sample_ids": [
+            "21.2.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2000,
+          "error": "PermissionDeniedError: Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "mistral": {
+          "latency_ms": 4085,
+          "error": "BadRequestError: Error code: 400 - {'object': 'error', 'message': 'Invalid model: pixtral-large-24-11', 'type': 'invalid_model', 'param': None, 'code': '1500', 'raw_status_code': 400}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "perplexity": {
+          "latency_ms": 13105,
+          "error": null,
+          "fallback": false,
+          "raw": "### Image 1 (CONTROL)\n1. **Plasma color and transparency**: Pale yellow color, semi-transparent with clear visibility through the liquid.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Low density, highly homogeneous liquid with smooth surface and no particulates.\n5. **Any unique morphological features**: None observed; uniform liquid layer.\n\n### Image 2 (CH19 — time acceleration)\n1. **Plasma color and transparency**: Pale yellow color, semi-transparent with clear visibility through the liquid.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Low density, highly homogeneous liquid with smooth surface and no particulates.\n5. **Any unique morphological features**: Minor surface droplets or condensation visible on tube wall, but not affecting plasma.\n\n### Image 3 (CH21 — time deceleration)\n1. **Plasma color and transparency**: Pale yellow color, semi-transparent with clear visibility through the liquid.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Low density, highly homogeneous liquid with smooth surface and no particulates.\n5. **Any unique morphological features**: None observed; uniform liquid layer.\n\n### Comparison\n- **Most advanced coagulation**: None—all samples show no coagulation (none more advanced).\n- **Least coagulated**: All equivalent (none).\n- **Visible differences between control and treated samples**: No visible differences in color, transparency, clotting, density, or morphology; all appear identical.\n- **Differences between CH19 and CH21**: No visible differences.\n- **Overall visual difference rating**: none.\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Homogeneous liquid, no coagulation structures, smooth surface\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Homogeneous liquid, no coagulation structures, minor surface droplets on tube\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Homogeneous liquid, no coagulation structures, smooth surface\"\n  },\n  \"most_coagulated\": null,\n  \"least_coagulated\": null,\n  \"overall_difference\": \"none\",\n  \"comparison_notes\": \"All three samples are visually identical: same pale yellow semi-transparent plasma, no clots or fibrin, fully homogeneous with no coagulation advancement or unique features differentiating treatments\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Homogeneous liquid, no coagulation structures, smooth surface",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Homogeneous liquid, no coagulation structures, minor surface droplets on tube",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Homogeneous liquid, no coagulation structures, smooth surface",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "overall_difference": "none",
+            "comparison_notes": "All three samples are visually identical: same pale yellow semi-transparent plasma, no clots or fibrin, fully homogeneous with no coagulation advancement or unique features differentiating treatments"
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "photos": {
+        "control": {
+          "filename": "IMG_3278",
+          "sample_ids": [
+            "0.2.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3267",
+          "sample_ids": [
+            "19.2.2"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3272",
+          "sample_ids": [
+            "21.2.2"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 3637,
+          "error": "PermissionDeniedError: Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "mistral": {
+          "latency_ms": 4748,
+          "error": "BadRequestError: Error code: 400 - {'object': 'error', 'message': 'Invalid model: pixtral-large-24-11', 'type': 'invalid_model', 'param': None, 'code': '1500', 'raw_status_code': 400}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "perplexity": {
+          "latency_ms": 14892,
+          "error": null,
+          "fallback": false,
+          "raw": "### Image 1 (CONTROL): Small droplet in dish\n1. **Plasma color and transparency**: Pale yellow, highly transparent with clear edges and visible meniscus.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Low density (droplet shape), highly homogeneous liquid appearance.\n5. **Any unique morphological features**: Small droplet form (~1 cm diameter) on flat surface, smooth surface tension.\n\n### Image 2 (CH19 — time acceleration): Vertical tube\n1. **Plasma color and transparency**: Pale yellow, transparent with slight meniscus clarity at top.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Homogeneous liquid column (~3-4 cm height) in tube, uniform appearance.\n5. **Any unique morphological features**: Contained in upright clear tube, stable liquid level.\n\n### Image 3 (CH21 — time deceleration): Three vertical tubes\n1. **Plasma color and transparency**: Pale yellow, transparent across all three tubes with clear menisci.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible in any tube.\n3. **Coagulation stage**: none (all three tubes).\n4. **Density and homogeneity**: Homogeneous liquid columns (~3 cm height each), uniform density.\n5. **Any unique morphological features**: Three identical tubes side-by-side, consistent fill levels.\n\n### Comparison\n- **Most advanced coagulation**: None—all samples show no coagulation (tie).\n- **Least advanced coagulation**: None—all samples show no coagulation (tie).\n- **Visible differences between control and treated samples**: Yes—control is a small open droplet on a dish, while CH19 and CH21 are in vertical tubes (different containers and volumes).\n- **Differences between CH19 and CH21**: CH19 shows one tube; CH21 shows three tubes (same appearance per tube).\n- **Overall visual difference rating**: subtle (primarily container/volume differences; plasma itself appears identical).\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Small droplet in dish, homogeneous liquid, no structures\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Single tube with homogeneous liquid column, no structures\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Three tubes with homogeneous liquid columns, no structures\"\n  },\n  \"most_coagulated\": null,\n  \"least_coagulated\": null,\n  \"overall_difference\": \"subtle\",\n  \"comparison_notes\": \"No coagulation in any sample; differences limited to container (dish vs tubes) and presentation (1 vs 3 tubes); plasma color, transparency, homogeneity identical\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Small droplet in dish, homogeneous liquid, no structures",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Single tube with homogeneous liquid column, no structures",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Three tubes with homogeneous liquid columns, no structures",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "overall_difference": "subtle",
+            "comparison_notes": "No coagulation in any sample; differences limited to container (dish vs tubes) and presentation (1 vs 3 tubes); plasma color, transparency, homogeneity identical"
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "photos": {
+        "control": {
+          "filename": "IMG_3286",
+          "sample_ids": [
+            "0.2.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3277",
+          "sample_ids": [
+            "19.2.2"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3279",
+          "sample_ids": [
+            "21.2.2"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 5385,
+          "error": "PermissionDeniedError: Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "mistral": {
+          "latency_ms": 8187,
+          "error": "BadRequestError: Error code: 400 - {'object': 'error', 'message': 'Invalid model: pixtral-large-24-11', 'type': 'invalid_model', 'param': None, 'code': '1500', 'raw_status_code': 400}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "perplexity": {
+          "latency_ms": 13473,
+          "error": null,
+          "fallback": false,
+          "raw": "I cannot complete this analysis as requested. While I can see three images of blood plasma samples, I must clarify a critical limitation:\n\n**The images provided do not contain the three distinct samples described in your experimental protocol.** Image 3 shows a petri dish with multiple droplets, but Images 1 and 2 appear to show similar or identical samples in different containers/lighting conditions. Without clear visual distinction between a true control sample and two separately treated samples (CH19 and CH21), I cannot reliably assign observations to the correct experimental conditions.\n\nAdditionally, I should note that **\"hyperbolic field channels\" and \"time acceleration/deceleration\" effects on blood coagulation are not established phenomena in peer-reviewed biomedical literature.** The search results provided describe the well-characterized physiological mechanisms of coagulation—involving platelets, coagulation factors, fibrin formation, and the cascade pathways[1][2][3][4][5]—but contain no information about electromagnetic or temporal field effects on these processes.\n\n**To proceed with a valid analysis, I would need:**\n\n1. Three clearly distinct, labeled images corresponding to CONTROL, CH19, and CH21 samples\n2. Confirmation that these samples were prepared and imaged under truly identical conditions (lighting, magnification, container type, timing)\n3. Clarification of the experimental methodology and theoretical basis for the field treatments\n\nWithout these elements, any analysis I provide would be speculative rather than objective and scientifically grounded.",
+          "structured": null
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "photos": {
+        "control": {
+          "filename": "IMG_3287",
+          "sample_ids": [
+            "0.2.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3284",
+          "sample_ids": [
+            "19.2.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3285",
+          "sample_ids": [
+            "21.2.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 4998,
+          "error": "PermissionDeniedError: Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "mistral": {
+          "latency_ms": 7387,
+          "error": "BadRequestError: Error code: 400 - {'object': 'error', 'message': 'Invalid model: pixtral-large-24-11', 'type': 'invalid_model', 'param': None, 'code': '1500', 'raw_status_code': 400}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "perplexity": {
+          "latency_ms": 16185,
+          "error": null,
+          "fallback": false,
+          "raw": "### Image 1 (CONTROL)\n1. **Plasma color and transparency**: Pale yellow color with high transparency; clear liquid visible throughout the sample.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Low density, highly homogeneous liquid appearance.\n5. **Any unique morphological features**: Small air bubble near the bottom; otherwise uniform.\n\n### Image 2 (CH19 — time acceleration)\n1. **Plasma color and transparency**: Pale yellow central pool with surrounding whitish-gray material; central area semi-transparent, surrounding area opaque.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes; extensive white opaque material adhering to tube walls forming cracked, irregular sheet-like structures around the edges, with a central clear pool.\n3. **Coagulation stage**: full_coagulation.\n4. **Density and homogeneity**: High density in wall-adhered material (solid-like), low in center; heterogeneous with distinct solid-liquid separation.\n5. **Unique morphological features**: Cracked, plaque-like deposits on glass walls resembling dried or solidified fibrin mesh; yellow pool centered at bottom.\n\n### Image 3 (CH21 — time deceleration)\n1. **Plasma color and transparency**: Pale yellow central pool with surrounding whitish material; central area semi-transparent, edges more opaque.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes; white filamentous or web-like strands radiating from edges around a central yellow pool.\n3. **Coagulation stage**: partial_clot.\n4. **Density and homogeneity**: Moderate density in peripheral strands (gel-like), low in center; heterogeneous with web-like patterning.\n5. **Unique morphological features**: Delicate, net-like or radial fibrin strands extending inward from walls, less solid and more fibrillar than Image 2.\n\n### Comparison\n- **Most advanced coagulation**: CH19 (full_coagulation with solid wall plaques). **Least advanced**: Control (none).\n- **Visible differences between control and treated samples**: Yes; control shows uniform clear liquid, while both treated samples exhibit white coagulation products and central yellow pools.\n- **Differences between CH19 and CH21**: Yes; CH19 has thicker, cracked solid sheets on walls (more advanced), while CH21 shows thinner, web-like strands (less consolidated).\n- **Overall visual difference rating**: pronounced.\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Uniform clear liquid with small air bubble; no coagulation structures.\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow (center), whitish-gray (periphery)\",\n    \"transparency\": \"semi-transparent (center), opaque (edges)\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"Cracked solid white plaques on walls, central yellow pool.\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow (center), whitish (periphery)\",\n    \"transparency\": \"semi-transparent (center), semi-transparent to opaque (edges)\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Web-like white fibrin strands radiating from edges, central yellow pool.\"\n  },\n  \"most_coagulated\": \"ch19\",\n  \"least_coagulated\": \"control\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"CH19 shows most advanced clotting (solid plaques) > CH21 (fibrin webs) > control (no clotting). Treated samples have wall-adhered white structures absent in control.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Uniform clear liquid with small air bubble; no coagulation structures.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow (center), whitish-gray (periphery)",
+              "transparency": "semi-transparent (center), opaque (edges)",
+              "notes": "Cracked solid white plaques on walls, central yellow pool.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch21": {
+              "color": "pale yellow (center), whitish (periphery)",
+              "transparency": "semi-transparent (center), semi-transparent to opaque (edges)",
+              "notes": "Web-like white fibrin strands radiating from edges, central yellow pool.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "CH19 shows most advanced clotting (solid plaques) > CH21 (fibrin webs) > control (no clotting). Treated samples have wall-adhered white structures absent in control."
+          }
+        }
+      }
+    },
+    {
+      "patient": "03",
+      "photos": {
+        "control": {
+          "filename": "IMG_3293",
+          "sample_ids": [
+            "0.3.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3296",
+          "sample_ids": [
+            "19.3.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3290",
+          "sample_ids": [
+            "21.3.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2162,
+          "error": "PermissionDeniedError: Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "mistral": {
+          "latency_ms": 4264,
+          "error": "BadRequestError: Error code: 400 - {'object': 'error', 'message': 'Invalid model: pixtral-large-24-11', 'type': 'invalid_model', 'param': None, 'code': '1500', 'raw_status_code': 400}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "perplexity": {
+          "latency_ms": 14379,
+          "error": null,
+          "fallback": false,
+          "raw": "### Image 1 (CONTROL)\n1. **Plasma color and transparency**: Pale to light yellow, semi-transparent with visible clarity through the liquid.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible; liquid appears uniform.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Low density, highly homogeneous liquid with no particulates or separations.\n5. **Any unique morphological features**: Small bubbles or foam at the top surface; slight meniscus at the liquid-glass interface.\n\n### Image 2 (CH19 — time acceleration)\n1. **Plasma color and transparency**: Pale yellow, semi-transparent with good clarity.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Low density, highly homogeneous liquid.\n5. **Any unique morphological features**: Clean, smooth liquid column with a subtle meniscus; no bubbles or debris.\n\n### Image 3 (CH21 — time deceleration)\n1. **Plasma color and transparency**: Pale yellow, semi-transparent.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Low density, highly homogeneous liquid.\n5. **Any unique morphological features**: Slight \"P\" marking or artifact on the glass; perfectly smooth liquid surface with clear meniscus.\n\n### Comparison\n- **Most advanced coagulation**: None—all samples show no coagulation (tied).\n- **Least advanced coagulation**: None—all samples show no coagulation (tied).\n- **Visible differences between control and treated samples**: Minimal; all appear as clear, uncoagulated pale yellow plasma in glass tubes under identical lighting/angles. Control has minor bubbles/foam, absent in treated samples.\n- **Differences between CH19 and CH21**: Negligible; both show uniform liquid with no distinguishing features beyond possible minor artifacts.\n- **Overall visual difference rating**: subtle (primarily superficial variations like bubbles or meniscus shape, no substantive coagulation differences).\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Uniform liquid with small surface bubbles/foam; no coagulation structures\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Clean homogeneous liquid; no clots or strands\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Smooth uniform liquid; minor glass artifact visible\"\n  },\n  \"most_coagulated\": null,\n  \"least_coagulated\": null,\n  \"overall_difference\": \"subtle\",\n  \"comparison_notes\": \"All samples show no coagulation; differences limited to minor bubbles in control and subtle meniscus variations\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Uniform liquid with small surface bubbles/foam; no coagulation structures",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Clean homogeneous liquid; no clots or strands",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Smooth uniform liquid; minor glass artifact visible",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "overall_difference": "subtle",
+            "comparison_notes": "All samples show no coagulation; differences limited to minor bubbles in control and subtle meniscus variations"
+          }
+        }
+      }
+    },
+    {
+      "patient": "03",
+      "photos": {
+        "control": {
+          "filename": "IMG_3294",
+          "sample_ids": [
+            "0.3.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3297",
+          "sample_ids": [
+            "19.3.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3291",
+          "sample_ids": [
+            "21.3.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2997,
+          "error": "PermissionDeniedError: Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "mistral": {
+          "latency_ms": 5806,
+          "error": "BadRequestError: Error code: 400 - {'object': 'error', 'message': 'Invalid model: pixtral-large-24-11', 'type': 'invalid_model', 'param': None, 'code': '1500', 'raw_status_code': 400}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "perplexity": {
+          "latency_ms": 17534,
+          "error": null,
+          "fallback": false,
+          "raw": "### Image 1 (CONTROL)\n1. **Plasma color and transparency**: Pale yellow color with semi-transparent appearance; light passes through but with some diffusion.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No visible clots, fibrin strands, or coagulation structures.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Low density, highly homogeneous liquid with no particulates or separations.\n5. **Any unique morphological features**: Small orange spherical artifact at the bottom, possibly a contaminant or bubble; otherwise uniform.\n\n### Image 2 (CH19 — time acceleration)\n1. **Plasma color and transparency**: Pale yellow color, semi-transparent but with visible internal texture reducing clarity.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No distinct clots; subtle hazy strands or web-like structures visible within the gel-like mass.\n3. **Coagulation stage**: early_fibrin.\n4. **Density and homogeneity**: Higher density with gel-like consistency; less homogeneous due to internal hazy patterns and strands.\n5. **Any unique morphological features**: Bulging, gelatinous form with pronounced internal haze and possible fine fibrin network; surface reflective and curved.\n\n### Image 3 (CH21 — time deceleration)\n1. **Plasma color and transparency**: Pale yellow color, highly transparent with clear visibility through the sample.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Low density, very homogeneous liquid appearance.\n5. **Any unique morphological features**: Uniform droplet shape in tube with high clarity; no internal disruptions.\n\n### Comparison\n- **Most advanced coagulation**: CH19 (early_fibrin stage with gel-like texture and internal structures). **Least advanced**: Control and CH21 (both none).\n- **Visible differences between control and treated samples**: Yes; CH19 shows gelation and haze absent in control, while CH21 matches control closely.\n- **Differences between CH19 and CH21**: Yes; CH19 has gelled form with internal structures, CH21 remains fully liquid and clear.\n- **Overall visual difference rating**: moderate (due to CH19's distinct gelation vs. liquid states of others).\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Homogeneous liquid with small orange artifact at bottom\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"Gel-like with internal hazy strands, bulging form\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Clear homogeneous liquid droplet\"\n  },\n  \"most_coagulated\": \"ch19\",\n  \"least_coagulated\": \"control\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"CH19 shows gelation and early fibrin vs. liquid states in control/CH21; CH21 closest to control\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Homogeneous liquid with small orange artifact at bottom",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Gel-like with internal hazy strands, bulging form",
+              "clots": false,
+              "clot_stage": "early_fibrin"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Clear homogeneous liquid droplet",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "moderate",
+            "comparison_notes": "CH19 shows gelation and early fibrin vs. liquid states in control/CH21; CH21 closest to control"
+          }
+        }
+      }
+    },
+    {
+      "patient": "03",
+      "photos": {
+        "control": {
+          "filename": "IMG_3295",
+          "sample_ids": [
+            "0.3.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3302",
+          "sample_ids": [
+            "19.3.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3299",
+          "sample_ids": [
+            "21.3.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2369,
+          "error": "PermissionDeniedError: Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "mistral": {
+          "latency_ms": 2933,
+          "error": "BadRequestError: Error code: 400 - {'object': 'error', 'message': 'Invalid model: pixtral-large-24-11', 'type': 'invalid_model', 'param': None, 'code': '1500', 'raw_status_code': 400}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "perplexity": {
+          "latency_ms": 16126,
+          "error": null,
+          "fallback": false,
+          "raw": "### Image 1 (CONTROL)\n1. **Plasma color and transparency**: Pale to golden yellow, transparent with high clarity; liquid appears homogeneous and see-through.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible; entirely liquid.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Low density, highly homogeneous liquid.\n5. **Unique morphological features**: Small air bubbles at the top surface; smooth meniscus in glass container.\n\n### Image 2 (CH19 — time acceleration)\n1. **Plasma color and transparency**: Pale straw yellow with slight opacity, semi-transparent; some light scattering due to subtle structures.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, presence of fine, web-like fibrin strands or early clot network visible throughout the sample, forming a loose mesh.\n3. **Coagulation stage**: early_fibrin.\n4. **Density and homogeneity**: Moderately increased density with mild inhomogeneity due to strand formation.\n5. **Unique morphological features**: Distinct fuzzy, filamentous structures dispersed in the liquid; sample spread on flat white surface.\n\n### Image 3 (CH21 — time deceleration)\n1. **Plasma color and transparency**: Pale straw yellow, semi-transparent with minor opacity.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No distinct clots or thick fibrin strands; possible very faint haze but no clear structures.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Low to moderate density, mostly homogeneous liquid.\n5. **Unique morphological features**: Sample pooled on flat white surface with smooth edges; subtle central density variation but no defined morphology.\n\n### Comparison\n- **Most advanced coagulation**: CH19 (clear presence of fibrin structures).\n- **Least advanced coagulation**: Control and CH21 (both show no coagulation; control fully transparent liquid).\n- **Visible differences between control and treated samples**: Yes; control is a clear liquid in a container, while treated samples are spread thinly on a surface with CH19 showing fibrin networks.\n- **Differences between CH19 and CH21**: Yes; CH19 has prominent fibrin strands, CH21 remains liquid-like without them.\n- **Overall visual difference rating**: moderate (due to coagulation structures in CH19 and presentation differences).\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Clear homogeneous liquid with air bubbles; no structures visible\"\n  },\n  \"ch19\": {\n    \"color\": \"straw yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"Fine web-like fibrin strands throughout; spread on surface\"\n  },\n  \"ch21\": {\n    \"color\": \"straw yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Homogeneous liquid pool on surface; no distinct structures\"\n  },\n  \"most_coagulated\": \"ch19\",\n  \"least_coagulated\": \"control\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"CH19 shows early fibrin formation absent in control and CH21; treated samples differ in presentation (spread vs container); CH19 vs CH21 differentiated by fibrin presence\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Clear homogeneous liquid with air bubbles; no structures visible",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "straw yellow",
+              "transparency": "semi-transparent",
+              "notes": "Fine web-like fibrin strands throughout; spread on surface",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "ch21": {
+              "color": "straw yellow",
+              "transparency": "semi-transparent",
+              "notes": "Homogeneous liquid pool on surface; no distinct structures",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "moderate",
+            "comparison_notes": "CH19 shows early fibrin formation absent in control and CH21; treated samples differ in presentation (spread vs container); CH19 vs CH21 differentiated by fibrin presence"
+          }
+        }
+      }
+    },
+    {
+      "patient": "04",
+      "photos": {
+        "control": {
+          "filename": "IMG_3307",
+          "sample_ids": [
+            "0.4.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3308",
+          "sample_ids": [
+            "19.4.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3309",
+          "sample_ids": [
+            "21.4.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2344,
+          "error": "PermissionDeniedError: Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "mistral": {
+          "latency_ms": 3395,
+          "error": "BadRequestError: Error code: 400 - {'object': 'error', 'message': 'Invalid model: pixtral-large-24-11', 'type': 'invalid_model', 'param': None, 'code': '1500', 'raw_status_code': 400}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "perplexity": {
+          "latency_ms": 20406,
+          "error": null,
+          "fallback": false,
+          "raw": "### Image 1 (CONTROL)\n1. **Plasma color and transparency**: Pale yellow color with high transparency; clear liquid appearance visible through the circular sample.[rich_content:1]\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible; uniform liquid state.\n3. **Coagulation stage**: none\n4. **Density and homogeneity**: Low density, highly homogeneous with no visible particulates or separations.\n5. **Any unique morphological features**: Smooth, circular droplet shape on a dark background; slight meniscus at edges.\n\n### Image 2 (CH19 — time acceleration)\n1. **Plasma color and transparency**: Pale yellow color with high transparency; clear liquid similar to control.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible; remains liquid.\n3. **Coagulation stage**: none\n4. **Density and homogeneity**: Low density, highly homogeneous; minor surface irregularities near top edge but no internal changes.\n5. **Any unique morphological features**: Slightly flattened circular shape; subtle shadowing or meniscus distortion at the upper boundary, possibly due to minor surface tension variation.\n\n### Image 3 (CH21 — time deceleration)\n1. **Plasma color and transparency**: Pale yellow color with high transparency; clear liquid consistent with others.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible.\n3. **Coagulation stage**: none\n4. **Density and homogeneity**: Low density, highly homogeneous throughout.\n5. **Any unique morphological features**: Near-perfect circular droplet with smooth edges; minimal distortion.\n\n### Comparison\n- **Most advanced coagulation**: None—all samples show no coagulation (tied).\n- **Least advanced coagulation**: None—all samples show no coagulation (tied).\n- **Visible differences between control and treated samples**: Minimal; all appear as clear, yellow, liquid plasma droplets with no coagulation evidence. CH19 shows faint upper edge irregularity not present in others.\n- **Differences between CH19 and CH21**: CH19 has subtle surface shadowing or flattening at the top, absent in CH21's smoother profile; otherwise identical.\n- **Overall visual difference rating**: subtle\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Clear homogeneous liquid droplet, smooth edges, no structures\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Clear homogeneous liquid, subtle upper edge irregularity\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Clear homogeneous liquid droplet, perfectly smooth\"\n  },\n  \"most_coagulated\": null,\n  \"least_coagulated\": null,\n  \"overall_difference\": \"subtle\",\n  \"comparison_notes\": \"All samples show no coagulation; minor surface variation in CH19 only\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Clear homogeneous liquid droplet, smooth edges, no structures",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Clear homogeneous liquid, subtle upper edge irregularity",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Clear homogeneous liquid droplet, perfectly smooth",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "overall_difference": "subtle",
+            "comparison_notes": "All samples show no coagulation; minor surface variation in CH19 only"
+          }
+        }
+      }
+    },
+    {
+      "patient": "05",
+      "photos": {
+        "control": {
+          "filename": "IMG_3318",
+          "sample_ids": [
+            "0.5.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3315",
+          "sample_ids": [
+            "19.5.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3321",
+          "sample_ids": [
+            "21.5.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 3114,
+          "error": "PermissionDeniedError: Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "mistral": {
+          "latency_ms": 6314,
+          "error": "BadRequestError: Error code: 400 - {'object': 'error', 'message': 'Invalid model: pixtral-large-24-11', 'type': 'invalid_model', 'param': None, 'code': '1500', 'raw_status_code': 400}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "perplexity": {
+          "latency_ms": 16700,
+          "error": null,
+          "fallback": false,
+          "raw": "### Image 1 (CONTROL)\n1. **Plasma color and transparency**: Pale yellow color with high transparency; clear liquid appearance allowing visibility through the sample.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Low density, highly homogeneous liquid with no particulates or separations.\n5. **Any unique morphological features**: Smooth, uniform droplet shape in container; no bubbles or irregularities.\n\n### Image 2 (CH19 — time acceleration)\n1. **Plasma color and transparency**: Pale yellow color with moderate transparency; slightly more viscous appearance but still mostly clear.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No distinct clots or fibrin strands; subtle increase in viscosity suggested by thicker pooling.\n3. **Coagulation stage**: none (possible very early changes, but no clear fibrin or clot formation).\n4. **Density and homogeneity**: Slightly higher density than control, mostly homogeneous but with minor surface tension differences.\n5. **Any unique morphological features**: Droplet appears slightly more domed and cohesive, with glossy surface sheen.\n\n### Image 3 (CH21 — time deceleration)\n1. **Plasma color and transparency**: Pale yellow color with high transparency; clearest and most fluid-like.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Low density, highly homogeneous and fluid.\n5. **Any unique morphological features**: Flattest droplet profile with thin spread; highly fluid edges.\n\n### Comparison\n- **Most advanced coagulation**: All samples show **none**; no clear advancement in any (CH19 subtly more viscous but insufficient for staging).\n- **Least coagulated**: All equivalent at **none**.\n- **Visible differences between control and treated samples**: Subtle differences; CH19 shows minor increased cohesion/viscosity, CH21 appears more fluid than control.\n- **Differences between CH19 and CH21**: Yes, CH19 more viscous/domed, CH21 more spread/fluid.\n- **Overall visual difference rating**: **subtle**.\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Clear, homogeneous liquid; smooth droplet shape.\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Slightly more viscous and cohesive droplet; glossy surface, no fibrin.\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Most fluid, flattest spread; highly homogeneous.\"\n  },\n  \"most_coagulated\": null,\n  \"least_coagulated\": null,\n  \"overall_difference\": \"subtle\",\n  \"comparison_notes\": \"All at no coagulation; CH19 subtly more viscous than control, CH21 more fluid; no clots/fibrin in any.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Clear, homogeneous liquid; smooth droplet shape.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Slightly more viscous and cohesive droplet; glossy surface, no fibrin.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Most fluid, flattest spread; highly homogeneous.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "overall_difference": "subtle",
+            "comparison_notes": "All at no coagulation; CH19 subtly more viscous than control, CH21 more fluid; no clots/fibrin in any."
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "photos": {
+        "control": {
+          "filename": "IMG_3344",
+          "sample_ids": [
+            "0.7.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3331",
+          "sample_ids": [
+            "19.7.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3337",
+          "sample_ids": [
+            "21.7.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2827,
+          "error": "PermissionDeniedError: Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "mistral": {
+          "latency_ms": 4615,
+          "error": "BadRequestError: Error code: 400 - {'object': 'error', 'message': 'Invalid model: pixtral-large-24-11', 'type': 'invalid_model', 'param': None, 'code': '1500', 'raw_status_code': 400}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "perplexity": {
+          "latency_ms": 17129,
+          "error": null,
+          "fallback": false,
+          "raw": "### Image 1 (CONTROL)\n1. **Plasma color and transparency**: Pale yellow color, highly transparent with clear visibility through the liquid to the tube walls and background.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible; liquid appears uniform.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Low density, highly homogeneous with no particulates or separations.\n5. **Any unique morphological features**: Thin layer of possible meniscus or minor surface foam at the top, but no other anomalies.\n\n### Image 2 (CH19 — time acceleration)\n1. **Plasma color and transparency**: Pale yellow color, transparent in the main body but with reduced clarity due to a prominent curved white/gel-like layer at the bottom third.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No distinct clots or fibrin strands; presence of a dense, white, amorphous curved band/structure at the bottom (possibly gel separator, sediment, or condensed material).\n3. **Coagulation stage**: none (no fibrin or clot formation observed; structure does not resemble coagulation products).\n4. **Density and homogeneity**: Higher apparent density at bottom due to white layer; less homogeneous overall, with clear layering.\n5. **Any unique morphological features**: Distinct white, opaque, meniscus-like band curving along the bottom of the liquid column, sharply demarcating from the yellow plasma above.\n\n### Image 3 (CH21 — time deceleration)\n1. **Plasma color and transparency**: Pale yellow color, transparent throughout with excellent clarity.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Low density, highly homogeneous, similar to control.\n5. **Any unique morphological features**: None; appears as a uniform liquid column.\n\n### Comparison\n- **Most advanced coagulation**: All samples show **none**; no sample exhibits coagulation (no fibrin, clots, or lysis observed across any).\n- **Least advanced coagulation**: All equivalent at **none**.\n- **Visible differences between control and treated samples**: Yes; control and CH21 are nearly identical (uniform yellow transparent liquid), while CH19 shows a unique white layered structure at the bottom, absent in others.\n- **Differences between CH19 and CH21**: Yes; CH19 has the white bottom layer and slight shadowing, while CH21 is uniformly transparent like control.\n- **Overall visual difference rating**: **moderate** (primarily driven by CH19's distinct layering vs. uniformity in control/CH21; color/transparency otherwise consistent).\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Uniform transparent liquid, no structures or particulates\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent with opaque layer\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"White curved amorphous band at bottom, no fibrin/clots\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Uniform transparent liquid, identical to control\"\n  },\n  \"most_coagulated\": null,\n  \"least_coagulated\": null,\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"CH19 shows unique white bottom layer absent in control/CH21; no coagulation in any sample; control and CH21 visually identical\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Uniform transparent liquid, no structures or particulates",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "transparent with opaque layer",
+              "notes": "White curved amorphous band at bottom, no fibrin/clots",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Uniform transparent liquid, identical to control",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "overall_difference": "moderate",
+            "comparison_notes": "CH19 shows unique white bottom layer absent in control/CH21; no coagulation in any sample; control and CH21 visually identical"
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "photos": {
+        "control": {
+          "filename": "IMG_3349",
+          "sample_ids": [
+            "0.7.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3334",
+          "sample_ids": [
+            "19.7.2"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3340",
+          "sample_ids": [
+            "21.7.2"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2601,
+          "error": "PermissionDeniedError: Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "mistral": {
+          "latency_ms": 5424,
+          "error": "BadRequestError: Error code: 400 - {'object': 'error', 'message': 'Invalid model: pixtral-large-24-11', 'type': 'invalid_model', 'param': None, 'code': '1500', 'raw_status_code': 400}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        },
+        "perplexity": {
+          "latency_ms": 17014,
+          "error": null,
+          "fallback": false,
+          "raw": "### Image 1 (CONTROL)\n1. **Plasma color and transparency**: Pale to light yellow, highly transparent with clear visibility through the liquid.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, prominent central mass of fibrin strands or clot forming a rounded, fuzzy, yellowish structure (~1-2 cm diameter) in the lower half, with radiating strands.\n3. **Coagulation stage**: partial_clot (visible solid clot formation with defined structure but not filling the tube).\n4. **Density and homogeneity**: Heterogeneous; dense central clot surrounded by clearer liquid plasma; lower region denser.\n5. **Unique morphological features**: Distinct heart-shaped or amorphous yellowish clot mass adhering to the tube bottom, with fuzzy edges suggesting fibrin network.\n\n### Image 2 (CH19 — time acceleration)\n1. **Plasma color and transparency**: Pale yellow, fully transparent throughout.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Homogeneous, uniform density with a single liquid layer and subtle meniscus.\n5. **Unique morphological features**: Clean separation of yellow plasma layer at bottom with clear upper space; no particulates or structures.\n\n### Image 3 (CH21 — time deceleration)\n1. **Plasma color and transparency**: Pale yellow, fully transparent throughout.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots, fibrin strands, or coagulation structures visible.\n3. **Coagulation stage**: none.\n4. **Density and homogeneity**: Homogeneous, uniform density with a single liquid layer and subtle meniscus; similar to Image 2.\n5. **Unique morphological features**: Clean separation of yellow plasma layer at bottom with clear upper space; no particulates or structures; held by hand, slight tilt.\n\n### Comparison\n- **Most advanced coagulation**: Control (clear partial clot with fibrin structures); CH19 and CH21 show none.\n- **Least coagulated**: CH19 and CH21 (tied; both lack any visible coagulation).\n- **Visible differences between control and treated samples**: Yes; control has prominent clot/fibrin mass absent in both treated samples.\n- **Differences between CH19 and CH21**: Minimal to none; both show identical clear plasma without coagulation, though CH19 appears more vertically stable.\n- **Overall visual difference rating**: pronounced (control distinctly clotted vs. clear liquid in treated samples).\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Prominent central yellowish fibrin clot mass with fuzzy strands in lower half; heterogeneous with dense center.\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Homogeneous clear plasma layer; no clots or structures.\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Homogeneous clear plasma layer; no clots or structures.\"\n  },\n  \"most_coagulated\": \"control\",\n  \"least_coagulated\": \"ch19\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Control shows clear partial clot absent in CH19/CH21; treated samples identical clear plasma; pronounced difference control vs. treated.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Prominent central yellowish fibrin clot mass with fuzzy strands in lower half; heterogeneous with dense center.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Homogeneous clear plasma layer; no clots or structures.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Homogeneous clear plasma layer; no clots or structures.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "control",
+            "least_coagulated": "ch19",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Control shows clear partial clot absent in CH19/CH21; treated samples identical clear plasma; pronounced difference control vs. treated."
+          }
+        }
+      }
+    }
+  ]
+}

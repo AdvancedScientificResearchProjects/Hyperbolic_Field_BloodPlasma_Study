@@ -1,0 +1,131 @@
+{
+  "patient_id": "04",
+  "donor_code": "04",
+  "blood_group": "IV+",
+  "experiment_date": "2026-01-30",
+  "protocol": {
+    "start_time": null,
+    "blood_collection": null,
+    "centrifugation": {
+      "rpm": 2000,
+      "duration_min": 5,
+      "start": "16:00:40",
+      "end": "16:06:02"
+    },
+    "plasma_volume_ml": 6,
+    "samples": [
+      {
+        "id": "0.4.1",
+        "number": 1,
+        "type": "control",
+        "label": "Control 1"
+      },
+      {
+        "id": "0.4.2",
+        "number": 2,
+        "type": "control",
+        "label": "Control 2"
+      },
+      {
+        "id": "19.4.1",
+        "number": 3,
+        "type": "sample",
+        "label": "Sample 1"
+      },
+      {
+        "id": "21.4.1",
+        "number": 4,
+        "type": "sample",
+        "label": "Sample 2"
+      }
+    ],
+    "radiation": {
+      "start": "16:13:41",
+      "end": "17:47:32"
+    }
+  },
+  "photos": [
+    {
+      "filename": "IMG_3307.HEIC",
+      "exif_datetime": "2026-01-30 17:36:05",
+      "pdf_caption": "0.4.1",
+      "pdf_page": 3,
+      "samples_shown": [
+        "0.4.1"
+      ],
+      "visual_description": {
+        "scene": "test tube on light illuminated surface, top view through open end",
+        "sample_count": 1,
+        "view": "close-up of test tube bottom from above",
+        "plasma": {
+          "color": "light yellow with darker zone in center",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "dark amorphous formation visible at center of bottom -- presumably clot or sediment; plasma is lighter and more transparent at edges; marking visible on test tube wall at upper right"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3308.HEIC",
+      "exif_datetime": "2026-01-30 17:36:33",
+      "pdf_caption": "19.4.1",
+      "pdf_page": 4,
+      "samples_shown": [
+        "19.4.1"
+      ],
+      "visual_description": {
+        "scene": "test tube on light illuminated surface, top view through open end",
+        "sample_count": 1,
+        "view": "close-up of test tube bottom from above",
+        "plasma": {
+          "color": "light yellow with olive tinge in central part",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "loose dark mass visible at center of bottom -- clot/sediment occupying significant part of bottom; test tube edges are white (plastic); plasma around clot is more transparent"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3309.HEIC",
+      "exif_datetime": "2026-01-30 17:36:57",
+      "pdf_caption": "21.4.1",
+      "pdf_page": 5,
+      "samples_shown": [
+        "21.4.1"
+      ],
+      "visual_description": {
+        "scene": "test tube on light illuminated surface, top view through open end",
+        "sample_count": 1,
+        "view": "close-up of test tube bottom from above",
+        "plasma": {
+          "color": "light yellow, uniform",
+          "transparency": "translucent",
+          "clots": false,
+          "notes": "plasma appears more homogeneous compared to other samples; bottom is clean, without pronounced clots; thin linear structures barely visible at bottom; overall appearance significantly more transparent than previous samples"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3310.HEIC",
+      "exif_datetime": "2026-01-30 17:39:01",
+      "pdf_caption": "Top to bottom 21.4.1/0.4.1/19.4.1",
+      "pdf_page": 6,
+      "samples_shown": [
+        "21.4.1",
+        "0.4.1",
+        "19.4.1"
+      ],
+      "visual_description": {
+        "scene": "three test tubes lying horizontally on LED panel (white backlighting), side view",
+        "sample_count": 3,
+        "view": "general side view, three test tubes parallel",
+        "plasma": {
+          "color": "yellow with greenish tinge",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "light rounded clots/sediment visible at bottom (rounded part) of all three test tubes; upper test tube (21.4.1) -- sediment less pronounced; middle (0.4.1) and lower (19.4.1) -- sediment more noticeable and larger; marking visible on middle test tube; lower test tube also has marking; air bubbles visible on walls of middle and lower test tubes"
+        }
+      }
+    }
+  ]
+}

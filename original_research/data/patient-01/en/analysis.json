@@ -1,0 +1,359 @@
+{
+  "patient_id": "01",
+  "donor_code": "01",
+  "blood_group": "II+",
+  "experiment_date": "2026-01-24",
+  "protocol": {
+    "start_time": "18:56",
+    "blood_collection": [
+      {
+        "tube": 1,
+        "start": "18:56:10",
+        "end": "18:56:42"
+      },
+      {
+        "tube": 2,
+        "start": "18:57:03",
+        "end": "18:57:43"
+      },
+      {
+        "tube": 3,
+        "start": "18:57:56",
+        "end": "18:58:48"
+      },
+      {
+        "tube": 4,
+        "start": "18:59:10",
+        "end": "18:59:59"
+      }
+    ],
+    "blood_collection_note": "4 test tubes for centrifuge",
+    "centrifugation": {
+      "rpm": 2000,
+      "duration_min": 5,
+      "start": "19:00:30",
+      "end": "19:06:10"
+    },
+    "plasma_volume_ml": 5,
+    "plasma_volume_per_sample_ml": 1,
+    "samples": [
+      {
+        "id": "0.1.1",
+        "number": 1,
+        "type": "control",
+        "label": "Control 1",
+        "time": "19:12:30"
+      },
+      {
+        "id": "0.1.2",
+        "number": 2,
+        "type": "control",
+        "label": "Control 2",
+        "time": "19:14:20"
+      },
+      {
+        "id": "19.1.1",
+        "number": 3,
+        "type": "sample",
+        "label": "Sample 1",
+        "time": "19:13:25"
+      },
+      {
+        "id": "21.1.1",
+        "number": 4,
+        "type": "sample",
+        "label": "Sample 2",
+        "time": "19:13:40"
+      }
+    ],
+    "radiation": {
+      "start": "19:18:29",
+      "end": "20:30:00"
+    }
+  },
+  "photos": [
+    {
+      "filename": "IMG_3250.HEIC",
+      "exif_datetime": "2026-01-24 19:00:33",
+      "pdf_caption": "19.1.1/21.1.1",
+      "pdf_page": 3,
+      "samples_shown": [
+        "19.1.1",
+        "21.1.1"
+      ],
+      "visual_description": {
+        "scene": "two test tubes on LED panel with backlighting from below, dark background",
+        "sample_count": 2,
+        "view": "close-up of test tube bottoms",
+        "plasma": {
+          "color": "yellow-greenish",
+          "transparency": "translucent",
+          "clots": false,
+          "notes": "plasma is homogeneous, without visible clots or sediment; left test tube slightly darker than right; rounded meniscus shadows visible at bottom of both"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3251.HEIC",
+      "exif_datetime": "2026-01-24 19:02:24",
+      "pdf_caption": "21.1.1",
+      "pdf_page": 4,
+      "samples_shown": [
+        "21.1.1"
+      ],
+      "visual_description": {
+        "scene": "one test tube on LED panel with backlighting from below, dark background",
+        "sample_count": 1,
+        "view": "macro of test tube bottom",
+        "plasma": {
+          "color": "yellow-greenish",
+          "transparency": "translucent",
+          "clots": false,
+          "notes": "small air bubbles visible in lower part; plasma is homogeneous; rounded meniscus shadow at bottom"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3252.HEIC",
+      "exif_datetime": "2026-01-24 19:02:07",
+      "pdf_caption": "19.1.1",
+      "pdf_page": 5,
+      "samples_shown": [
+        "19.1.1"
+      ],
+      "visual_description": {
+        "scene": "one test tube on LED panel with backlighting from below, dark background",
+        "sample_count": 1,
+        "view": "macro of test tube bottom",
+        "plasma": {
+          "color": "yellow-greenish",
+          "transparency": "translucent",
+          "clots": false,
+          "notes": "plasma is homogeneous, without bubbles; rounded meniscus shadow visible at bottom; slightly more saturated color than 21.1.1"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3253.HEIC",
+      "exif_datetime": "2026-01-24 17:32:09",
+      "pdf_caption": "Top to bottom: 19.1.1, 21.1.1, 0.1.1",
+      "pdf_page": 6,
+      "samples_shown": [
+        "19.1.1",
+        "21.1.1",
+        "0.1.1"
+      ],
+      "visual_description": {
+        "scene": "three test tubes on light surface (paper), held by hand",
+        "sample_count": 3,
+        "view": "horizontal side view, test tubes lying parallel",
+        "plasma": {
+          "color": "yellowish-beige",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "rounded gelatinous clots (thrombi) visible at bottom of all three test tubes; clots are beige-yellowish in color; plasma around clots is transparent; label visible on bottom test tube; text on paper visible under test tubes"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3254.HEIC",
+      "exif_datetime": "2026-01-23 20:46:15",
+      "pdf_caption": "4 test tubes with labels: 0.1.2, 21.1.1, 19.1.1, 0.1...",
+      "pdf_page": 7,
+      "samples_shown": [
+        "0.1.2",
+        "21.1.1",
+        "19.1.1",
+        "0.1.1"
+      ],
+      "visual_description": {
+        "scene": "four test tubes on light surface (paper with protocol text)",
+        "sample_count": 4,
+        "view": "horizontal side view, test tubes lying parallel",
+        "plasma": {
+          "color": "light yellow with greenish tinge",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "rounded gelatinous clot visible at bottom of each test tube; labels with markings: 0.1.2, 21.1.1, 19.1.1, 0.1 (partially visible); clots of unequal size; printed experiment protocol text visible under test tubes"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3255.HEIC",
+      "exif_datetime": "2026-01-23 20:44:22",
+      "pdf_caption": "3 test tubes on a dark surface",
+      "pdf_page": 8,
+      "samples_shown": [
+        "21.1.1",
+        "19.1.1",
+        "0.1.1"
+      ],
+      "visual_description": {
+        "scene": "three test tubes on dark textured surface",
+        "sample_count": 3,
+        "view": "horizontal side view, test tubes lying parallel",
+        "plasma": {
+          "color": "pale yellow, nearly colorless",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "rounded white-yellowish clots visible in all three test tubes; clots are compact, positioned at bottom; plasma around them appears transparent; dark background allows better visibility of clot contours"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3256.HEIC",
+      "exif_datetime": "2026-01-24 16:53:57",
+      "pdf_caption": "Top to bottom: 21.1.1, 19.1.1, 0.1.1",
+      "pdf_page": 9,
+      "samples_shown": [
+        "21.1.1",
+        "19.1.1",
+        "0.1.1"
+      ],
+      "visual_description": {
+        "scene": "three test tubes on light surface, horizontal view",
+        "sample_count": 3,
+        "view": "horizontal side view, macro on clot area",
+        "plasma": {
+          "color": "light yellow with greenish tinge",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "rounded gelatinous yellowish-beige clots visible in all three test tubes; clots are approximately equal in size; plasma around clots is transparent"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3257.HEIC",
+      "exif_datetime": "2026-01-24 16:53:09",
+      "pdf_caption": "Left to right 0.1.1, 19.1.1, 21.1.1",
+      "pdf_page": 10,
+      "samples_shown": [
+        "0.1.1",
+        "19.1.1",
+        "21.1.1"
+      ],
+      "visual_description": {
+        "scene": "three test tubes on light surface (paper), top view of bottom",
+        "sample_count": 3,
+        "view": "top view of test tube bottoms with labels",
+        "plasma": {
+          "color": "light yellow",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "beige-yellowish gelatinous clot visible at bottom of each test tube; labels with markings: 0.1.1, 19.1.1 (inverted), 21.1.1; clots are rounded; plasma level is low"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3258.HEIC",
+      "exif_datetime": "2026-01-24 19:11:17",
+      "pdf_caption": "Left to right 21.1.1, 0.1.1, 19.1.1",
+      "pdf_page": 11,
+      "samples_shown": [
+        "21.1.1",
+        "0.1.1",
+        "19.1.1"
+      ],
+      "visual_description": {
+        "scene": "three test tubes in hand, on dark surface background, vacutainers and blue glove visible in background",
+        "sample_count": 3,
+        "view": "vertical, view of test tube bottoms from below",
+        "plasma": {
+          "color": "yellow-orange",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "pronounced rounded yellow clot visible at bottom of each test tube; clots are bright yellow, contrasting well with transparent plasma above; labels 21.1.1 and 0.1.1 visible on left test tube; vacutainers with red caps visible in background"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3259.HEIC",
+      "exif_datetime": "2026-01-23 20:46:28",
+      "pdf_caption": "Top to bottom: 19.1.1, 21.1.1, 0.1.1, 0.1.2",
+      "pdf_page": 12,
+      "samples_shown": [
+        "19.1.1",
+        "21.1.1",
+        "0.1.1",
+        "0.1.2"
+      ],
+      "visual_description": {
+        "scene": "four test tubes on light surface (paper), horizontal",
+        "sample_count": 4,
+        "view": "horizontal side view, macro on clot area",
+        "plasma": {
+          "color": "light yellow with greenish tinge",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "rounded gelatinous clots visible in all four test tubes; upper clot (19.1.1) is larger with visible whitish film; lower clots are more compact; plasma around them is transparent; text shows through under test tubes"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3260.HEIC",
+      "exif_datetime": "2026-01-23 20:38:53",
+      "pdf_caption": "Left to right 21.1.1, 0.1.1, 19.1.1",
+      "pdf_page": 13,
+      "samples_shown": [
+        "21.1.1",
+        "0.1.1",
+        "19.1.1"
+      ],
+      "visual_description": {
+        "scene": "three test tubes in hand on dark background",
+        "sample_count": 3,
+        "view": "vertical, view of test tube bottoms from below",
+        "plasma": {
+          "color": "yellow",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "rounded gelatinous yellow clot visible at bottom of each test tube; plasma above clots is transparent; clot in middle test tube appears slightly less dense; plasma volume in test tubes is approximately equal"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3261.HEIC",
+      "exif_datetime": "2026-01-24 17:32:54",
+      "pdf_caption": "Top to bottom 0.1.1, 21.1.1, 19.1.1",
+      "pdf_page": 14,
+      "samples_shown": [
+        "0.1.1",
+        "21.1.1",
+        "19.1.1"
+      ],
+      "visual_description": {
+        "scene": "three test tubes on light surface, finger holding the top one",
+        "sample_count": 3,
+        "view": "horizontal side view, macro on clot area",
+        "plasma": {
+          "color": "yellowish-brownish",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "large rounded dark beige clots visible in all three test tubes; clots appear dense with sharply defined edges; plasma around them is transparent with slight yellowish tinge"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3262.HEIC",
+      "exif_datetime": "2026-01-24 19:11:05",
+      "pdf_caption": "Left to right 21.1.1, 0.1.1, 19.1.1",
+      "pdf_page": 15,
+      "samples_shown": [
+        "21.1.1",
+        "0.1.1",
+        "19.1.1"
+      ],
+      "visual_description": {
+        "scene": "three test tubes in hand on dark background, lit from below",
+        "sample_count": 3,
+        "view": "vertical, view of test tube bottoms from below",
+        "plasma": {
+          "color": "yellow",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "rounded yellowish-whitish clot visible at bottom of each test tube; clots are compact, approximately equal in size; plasma above is transparent with yellowish tinge; plasma volume in all three test tubes is similar"
+        }
+      }
+    }
+  ]
+}

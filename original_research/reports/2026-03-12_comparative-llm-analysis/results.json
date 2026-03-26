@@ -1,0 +1,264 @@
+{
+  "metadata": {
+    "generated": "2026-03-12",
+    "analysis_type": "comparative",
+    "providers": [
+      "mistral_pixtral_large_2411",
+      "perplexity_sonar_pro"
+    ],
+    "total_sets": 12,
+    "patients": [
+      "02",
+      "03",
+      "04",
+      "05",
+      "07"
+    ]
+  },
+  "summary": {
+    "mistral": {
+      "completed": 12,
+      "ch19_most_coagulated": 7,
+      "ch21_most_coagulated": 1,
+      "control_most_coagulated": 1,
+      "no_difference": 3
+    },
+    "perplexity": {
+      "completed": 10,
+      "ch19_most_coagulated": 3,
+      "ch21_most_coagulated": 0,
+      "control_most_coagulated": 1,
+      "no_difference": 1
+    }
+  },
+  "per_set": [
+    {
+      "set_number": 1,
+      "patient": "02",
+      "photos": {
+        "control": "IMG_3268",
+        "ch19": "IMG_3265",
+        "ch21": "IMG_3270"
+      },
+      "mistral": {
+        "overall_difference": "none",
+        "most_coagulated": null,
+        "notes": "No visible differences observed between control and treated samples. All samples appear homogeneous with no signs of coagulation."
+      },
+      "perplexity": {
+        "overall_difference": "N/A",
+        "most_coagulated": null,
+        "notes": ""
+      }
+    },
+    {
+      "set_number": 2,
+      "patient": "02",
+      "photos": {
+        "control": "IMG_3269",
+        "ch19": "IMG_3266",
+        "ch21": "IMG_3271"
+      },
+      "mistral": {
+        "overall_difference": "none",
+        "most_coagulated": null,
+        "notes": "No visible differences observed between control and treated samples. CH19 and CH21 samples also show no visible differences."
+      },
+      "perplexity": {
+        "overall_difference": "none",
+        "most_coagulated": null,
+        "notes": "All three samples are visually identical: same pale yellow semi-transparent plasma, no clots or fibrin, fully homogeneous with no coagulation advancement or unique features differentiating treatments"
+      }
+    },
+    {
+      "set_number": 3,
+      "patient": "02",
+      "photos": {
+        "control": "IMG_3278",
+        "ch19": "IMG_3267",
+        "ch21": "IMG_3272"
+      },
+      "mistral": {
+        "overall_difference": "none",
+        "most_coagulated": null,
+        "notes": "No visible differences observed between control and treated samples. All samples appear homogeneous with no signs of coagulation."
+      },
+      "perplexity": {
+        "overall_difference": "subtle",
+        "most_coagulated": null,
+        "notes": "No coagulation in any sample; differences limited to container (dish vs tubes) and presentation (1 vs 3 tubes); plasma color, transparency, homogeneity identical"
+      }
+    },
+    {
+      "set_number": 4,
+      "patient": "02",
+      "photos": {
+        "control": "IMG_3286",
+        "ch19": "IMG_3277",
+        "ch21": "IMG_3279"
+      },
+      "mistral": {
+        "overall_difference": "moderate",
+        "most_coagulated": "ch19",
+        "notes": "CH19 shows partial clot formation, while control and CH21 show no coagulation. Visible differences in clot presence and homogeneity."
+      },
+      "perplexity": {
+        "overall_difference": "N/A",
+        "most_coagulated": null,
+        "notes": ""
+      }
+    },
+    {
+      "set_number": 5,
+      "patient": "02",
+      "photos": {
+        "control": "IMG_3287",
+        "ch19": "IMG_3284",
+        "ch21": "IMG_3285"
+      },
+      "mistral": {
+        "overall_difference": "pronounced",
+        "most_coagulated": "ch19",
+        "notes": "CH19 shows more advanced coagulation compared to CH21. Both treated samples differ significantly from the control."
+      },
+      "perplexity": {
+        "overall_difference": "pronounced",
+        "most_coagulated": "ch19",
+        "notes": "CH19 shows most advanced clotting (solid plaques) > CH21 (fibrin webs) > control (no clotting). Treated samples have wall-adhered white structures absent in control."
+      }
+    },
+    {
+      "set_number": 6,
+      "patient": "03",
+      "photos": {
+        "control": "IMG_3293",
+        "ch19": "IMG_3296",
+        "ch21": "IMG_3290"
+      },
+      "mistral": {
+        "overall_difference": "moderate",
+        "most_coagulated": "ch19",
+        "notes": "CH19 shows early fibrin formation, while control and CH21 do not. CH19 is slightly heterogeneous due to fibrin strands."
+      },
+      "perplexity": {
+        "overall_difference": "subtle",
+        "most_coagulated": null,
+        "notes": "All samples show no coagulation; differences limited to minor bubbles in control and subtle meniscus variations"
+      }
+    },
+    {
+      "set_number": 7,
+      "patient": "03",
+      "photos": {
+        "control": "IMG_3294",
+        "ch19": "IMG_3297",
+        "ch21": "IMG_3291"
+      },
+      "mistral": {
+        "overall_difference": "moderate",
+        "most_coagulated": "ch19",
+        "notes": "CH19 shows early fibrin formation, while control and CH21 show no coagulation. CH19 differs from CH21 in the presence of fibrin strands."
+      },
+      "perplexity": {
+        "overall_difference": "moderate",
+        "most_coagulated": "ch19",
+        "notes": "CH19 shows gelation and early fibrin vs. liquid states in control/CH21; CH21 closest to control"
+      }
+    },
+    {
+      "set_number": 8,
+      "patient": "03",
+      "photos": {
+        "control": "IMG_3295",
+        "ch19": "IMG_3302",
+        "ch21": "IMG_3299"
+      },
+      "mistral": {
+        "overall_difference": "pronounced",
+        "most_coagulated": "ch21",
+        "notes": "CH21 shows the most advanced coagulation, followed by CH19. Control sample shows no coagulation."
+      },
+      "perplexity": {
+        "overall_difference": "moderate",
+        "most_coagulated": "ch19",
+        "notes": "CH19 shows early fibrin formation absent in control and CH21; treated samples differ in presentation (spread vs container); CH19 vs CH21 differentiated by fibrin presence"
+      }
+    },
+    {
+      "set_number": 9,
+      "patient": "04",
+      "photos": {
+        "control": "IMG_3307",
+        "ch19": "IMG_3308",
+        "ch21": "IMG_3309"
+      },
+      "mistral": {
+        "overall_difference": "moderate",
+        "most_coagulated": "ch19",
+        "notes": "CH19 shows early fibrin formation, unlike the control and CH21. CH21 and control are similar with no visible coagulation."
+      },
+      "perplexity": {
+        "overall_difference": "subtle",
+        "most_coagulated": null,
+        "notes": "All samples show no coagulation; minor surface variation in CH19 only"
+      }
+    },
+    {
+      "set_number": 10,
+      "patient": "05",
+      "photos": {
+        "control": "IMG_3318",
+        "ch19": "IMG_3315",
+        "ch21": "IMG_3321"
+      },
+      "mistral": {
+        "overall_difference": "moderate",
+        "most_coagulated": "ch19",
+        "notes": "CH19 shows early fibrin formation, while control and CH21 show no coagulation. CH19 differs from CH21 in the presence of fibrin strands."
+      },
+      "perplexity": {
+        "overall_difference": "subtle",
+        "most_coagulated": null,
+        "notes": "All at no coagulation; CH19 subtly more viscous than control, CH21 more fluid; no clots/fibrin in any."
+      }
+    },
+    {
+      "set_number": 11,
+      "patient": "07",
+      "photos": {
+        "control": "IMG_3344",
+        "ch19": "IMG_3331",
+        "ch21": "IMG_3337"
+      },
+      "mistral": {
+        "overall_difference": "moderate",
+        "most_coagulated": "ch19",
+        "notes": "CH19 shows partial clotting, while control and CH21 show no coagulation. Visible differences in coagulation stages and morphological features."
+      },
+      "perplexity": {
+        "overall_difference": "moderate",
+        "most_coagulated": null,
+        "notes": "CH19 shows unique white bottom layer absent in control/CH21; no coagulation in any sample; control and CH21 visually identical"
+      }
+    },
+    {
+      "set_number": 12,
+      "patient": "07",
+      "photos": {
+        "control": "IMG_3349",
+        "ch19": "IMG_3334",
+        "ch21": "IMG_3340"
+      },
+      "mistral": {
+        "overall_difference": "pronounced",
+        "most_coagulated": "control",
+        "notes": "Control sample shows partial coagulation with a visible clot, while CH19 and CH21 show no coagulation and appear uniform."
+      },
+      "perplexity": {
+        "overall_difference": "pronounced",
+        "most_coagulated": "control",
+        "notes": "Control shows clear partial clot absent in CH19/CH21; treated samples identical clear plasma; pronounced difference control vs. treated."
+      }
+    }
+  ]
+}

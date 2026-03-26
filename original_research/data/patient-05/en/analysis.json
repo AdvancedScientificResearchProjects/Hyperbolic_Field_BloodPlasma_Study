@@ -1,0 +1,227 @@
+{
+  "patient_id": "05",
+  "donor_code": "05",
+  "blood_group": null,
+  "experiment_date": "2026-01-31",
+  "protocol": {
+    "start_time": null,
+    "blood_collection": null,
+    "centrifugation": null,
+    "plasma_volume_ml": 6,
+    "samples": [
+      {
+        "id": "0.5.1",
+        "number": 1,
+        "type": "control",
+        "label": "Control 1",
+        "volume_ml": 1.5
+      },
+      {
+        "id": "19.5.1",
+        "number": 2,
+        "type": "sample",
+        "label": "Sample 1",
+        "volume_ml": 1.5
+      },
+      {
+        "id": "21.5.1",
+        "number": 3,
+        "type": "sample",
+        "label": "Sample 2",
+        "volume_ml": 1.5
+      }
+    ],
+    "radiation": {
+      "start": null,
+      "end": "01:21:41"
+    }
+  },
+  "photos": [
+    {
+      "filename": "IMG_3312.HEIC",
+      "exif_datetime": "2026-01-31 01:37:50",
+      "pdf_caption": null,
+      "pdf_page": 3,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "test tube on LED panel (white backlight strip), side view",
+        "sample_count": 1,
+        "view": "frontal view of lower half of test tube",
+        "plasma": {
+          "color": "yellow with greenish tinge",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "dark zone visible in lower part of test tube -- sediment or clot; plasma fills test tube approximately halfway; marking visible at bottom; meniscus clearly visible at top"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3313.HEIC",
+      "exif_datetime": "2026-01-31 01:38:02",
+      "pdf_caption": null,
+      "pdf_page": 4,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "test tube held by hand on dark background, side view",
+        "sample_count": 1,
+        "view": "side close-up, test tube tilted",
+        "plasma": {
+          "color": "light yellow",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "plasma shifted to one edge due to tilt; whitish meniscus/film visible on surface; small inclusions visible within plasma volume; test tube walls are transparent"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3314.HEIC",
+      "exif_datetime": "2026-01-31 01:41:03",
+      "pdf_caption": null,
+      "pdf_page": 5,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "test tube held by hand on dark background, macro photography",
+        "sample_count": 1,
+        "view": "side close-up of lower part of test tube",
+        "plasma": {
+          "color": "light yellow with whitish inclusions",
+          "transparency": "turbid",
+          "clots": true,
+          "notes": "large whitish clot/film clearly visible in upper part of liquid; clot has loose fibrous structure; plasma below is more transparent and yellow; pronounced stratification -- turbid top and more transparent bottom"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3315.HEIC",
+      "exif_datetime": "2026-01-31 01:46:59",
+      "pdf_caption": "19.5.1",
+      "pdf_page": 6,
+      "samples_shown": [
+        "19.5.1"
+      ],
+      "visual_description": {
+        "scene": "Petri dish on dark textured surface, top view",
+        "sample_count": 1,
+        "view": "top view of Petri dish",
+        "plasma": {
+          "color": "pale yellow / yellowish-greenish",
+          "transparency": "turbid",
+          "clots": true,
+          "notes": "large translucent rounded gelatinous clot visible in Petri dish; clot occupies most of the dish; liquid fraction visible at clot edges; glare and small air bubbles noticeable on clot surface; edges of other test tubes visible nearby"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3316.HEIC",
+      "exif_datetime": "2026-01-31 01:39:23",
+      "pdf_caption": null,
+      "pdf_page": 7,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "test tube on LED panel (white backlight strip), side view",
+        "sample_count": 1,
+        "view": "frontal view of lower half of test tube",
+        "plasma": {
+          "color": "yellow with olive tinge",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "darker zone visible in central and lower part -- sediment; compared to IMG_3312 the dark zone appears more pronounced; small bubbles visible on meniscus surface; test tube fill level similar"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3317.HEIC",
+      "exif_datetime": "2026-01-31 01:40:01",
+      "pdf_caption": null,
+      "pdf_page": 8,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "test tube held by hand on dark background, macro photography",
+        "sample_count": 1,
+        "view": "side close-up of lower part of test tube",
+        "plasma": {
+          "color": "pale yellow with whitish areas",
+          "transparency": "turbid",
+          "clots": true,
+          "notes": "large whitish/milky clot clearly visible, occupying central part of test tube; clot has dense rounded shape with fibrous edges; plasma around clot is more transparent; upper part of liquid is hazy"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3318.HEIC",
+      "exif_datetime": "2026-01-31 01:47:05",
+      "pdf_caption": "0.5.1",
+      "pdf_page": 9,
+      "samples_shown": [
+        "0.5.1"
+      ],
+      "visual_description": {
+        "scene": "Petri dish on dark textured surface, top view",
+        "sample_count": 1,
+        "view": "top view of Petri dish",
+        "plasma": {
+          "color": "pale yellow / greenish-yellow",
+          "transparency": "turbid",
+          "clots": true,
+          "notes": "large teardrop-shaped gelatinous clot visible in dish; clot is translucent with whitish areas; glare visible on surface; liquid plasma fraction at edges; edges of test tubes visible nearby; textured dark surface under dish"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3319.HEIC",
+      "exif_datetime": "2026-01-31 01:41:56",
+      "pdf_caption": null,
+      "pdf_page": 10,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "test tube held by hand, backlit by LED panel from behind",
+        "sample_count": 1,
+        "view": "side close-up of lower part of test tube",
+        "plasma": {
+          "color": "yellow with whitish inclusions",
+          "transparency": "turbid",
+          "clots": true,
+          "notes": "large whitish fibrous clot visible in upper part of liquid; clot is less dense than in other test tubes -- more loose and distributed; lower part of plasma is more transparent and yellow; thin thread-like structures visible in volume"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3320.HEIC",
+      "exif_datetime": "2026-01-31 01:42:01",
+      "pdf_caption": null,
+      "pdf_page": 11,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "test tube on LED panel (white backlight strip), side view",
+        "sample_count": 1,
+        "view": "frontal view of lower half of test tube",
+        "plasma": {
+          "color": "yellow, saturated",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "plasma is more saturated yellow compared to other samples; dark sediment zone visible in lower part; meniscus clearly visible; small bubbles on surface; overall fill volume similar to other test tubes"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3321.HEIC",
+      "exif_datetime": "2026-01-31 01:47:10",
+      "pdf_caption": "21.5.1",
+      "pdf_page": 12,
+      "samples_shown": [
+        "21.5.1"
+      ],
+      "visual_description": {
+        "scene": "Petri dish on dark textured surface, top view",
+        "sample_count": 1,
+        "view": "top view of Petri dish",
+        "plasma": {
+          "color": "pale yellow / greenish-yellow",
+          "transparency": "turbid",
+          "clots": true,
+          "notes": "large translucent rounded gelatinous clot visible in dish; clot is denser and whiter than sample 19.5.1; whitish fibrous structures on clot surface; liquid fraction at edges; edges of other test tubes visible nearby; overall clot size comparable to previous samples"
+        }
+      }
+    }
+  ]
+}

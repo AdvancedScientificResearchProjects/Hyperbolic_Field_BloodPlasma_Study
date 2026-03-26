@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "generated": "2026-03-13T08:29:25Z",
+    "mode": "multi_tube",
+    "blinded": false,
+    "blind_map": null,
+    "providers": [
+      "google"
+    ],
+    "total_comparisons": 1,
+    "model": "gemini-2.5-flash"
+  },
+  "comparisons": [
+    {
+      "patient": "01",
+      "blinded": false,
+      "blind_map": null,
+      "photo": {
+        "filename": "IMG_3253",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "arrangement": "Top to bottom: 19.1.1, 21.1.1, 0.1.1"
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 1424,
+          "error": "QUOTA_EXHAUSTED",
+          "raw": null,
+          "structured": null,
+          "fallback": false
+        }
+      }
+    }
+  ]
+}

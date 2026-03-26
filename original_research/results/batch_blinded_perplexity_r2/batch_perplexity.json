@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated": "2026-03-13T09:08:46Z",
+    "mode": "batch_blinded",
+    "blinded": true,
+    "blind_map": {
+      "0": "A",
+      "19": "B",
+      "21": "C"
+    },
+    "provider": "perplexity",
+    "n_patients": 5,
+    "n_images": 15,
+    "patients": [
+      "02",
+      "03",
+      "04",
+      "05",
+      "07"
+    ]
+  },
+  "triplets": [
+    {
+      "patient": "02",
+      "control": "IMG_3268",
+      "ch19": "IMG_3265",
+      "ch21": "IMG_3270"
+    },
+    {
+      "patient": "03",
+      "control": "IMG_3292",
+      "ch19": "IMG_3296",
+      "ch21": "IMG_3290"
+    },
+    {
+      "patient": "04",
+      "control": "IMG_3307",
+      "ch19": "IMG_3308",
+      "ch21": "IMG_3309"
+    },
+    {
+      "patient": "05",
+      "control": "IMG_3316",
+      "ch19": "IMG_3312",
+      "ch21": "IMG_3319"
+    },
+    {
+      "patient": "07",
+      "control": "IMG_3341",
+      "ch19": "IMG_3329",
+      "ch21": "IMG_3335"
+    }
+  ],
+  "result": {
+    "provider": "perplexity",
+    "latency_ms": 31406,
+    "error": null,
+    "raw": "```json\n{\n  \"per_patient\": [\n    {\n      \"patient\": \"Patient 1\",\n      \"most_coagulated\": \"sample_c\",\n      \"least_coagulated\": \"sample_a\",\n      \"difference\": \"subtle\",\n      \"notes\": \"Sample C shows small opaque white mass at bottom; A and B clear yellow liquid.\"\n    },\n    {\n      \"patient\": \"Patient 2\",\n      \"most_coagulated\": \"sample_b\",\n      \"least_coagulated\": \"sample_a\",\n      \"difference\": \"subtle\",\n      \"notes\": \"Sample B has small white dot at bottom; A and C clear.\"\n    },\n    {\n      \"patient\": \"Patient 3\",\n      \"most_coagulated\": \"sample_b\",\n      \"least_coagulated\": \"sample_a\",\n      \"difference\": \"moderate\",\n      \"notes\": \"Sample B shows large circular white mass; A clear, C smaller mass.\"\n    },\n    {\n      \"patient\": \"Patient 4\",\n      \"most_coagulated\": \"sample_c\",\n      \"least_coagulated\": \"sample_a\",\n      \"difference\": \"moderate\",\n      \"notes\": \"Sample C has prominent white mass; A clear liquid, B intermediate.\"\n    },\n    {\n      \"patient\": \"Patient 5\",\n      \"most_coagulated\": \"sample_b\",\n      \"least_coagulated\": \"sample_a\",\n      \"difference\": \"pronounced\",\n      \"notes\": \"Sample B shows large white clot mass; A clear, C smaller gel-like mass.\"\n    }\n  ],\n  \"summary\": {\n    \"sample_a_most_coagulated_count\": 0,\n    \"sample_b_most_coagulated_count\": 3,\n    \"sample_c_most_coagulated_count\": 2,\n    \"pattern_strength\": \"moderate\",\n    \"pattern_description\": \"Sample B most coagulated in 3/5 patients, C in 2/5; A never most coagulated. Coagulation indicated by white opaque masses or clots at tube bottom, increasing from clear yellow plasma in A.\",\n    \"conclusion\": \"Moderate trend shows Sample B tending toward most advanced coagulation across patients.\"\n  }\n}\n```"
+  }
+}

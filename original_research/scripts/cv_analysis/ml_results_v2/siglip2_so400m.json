@@ -1,0 +1,2844 @@
+[
+  {
+    "filename": "IMG_3250",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.4902,
+    "coag_score": 0.1532,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.4902
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2041
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0625
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0625
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0457
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3251",
+    "channel": 21,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.4336,
+    "coag_score": 0.3315,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.4336
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1602
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1406
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.0664
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0459
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3252",
+    "channel": 19,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.416,
+    "coag_score": 0.197,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.416
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1963
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1055
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0928
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0466
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3253",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.5117,
+    "coag_score": 0.138,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.5117
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.165
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1465
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0537
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0325
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3254",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.4316,
+    "coag_score": 0.1786,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.4316
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.2314
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.0962
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.085
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0483
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3255",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.4844,
+    "coag_score": 0.2164,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.4844
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2012
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.084
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0654
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.0579
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3256",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.416,
+    "coag_score": 0.1094,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.416
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.3242
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.105
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0386
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0342
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3257",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.6055,
+    "coag_score": 0.0688,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.6055
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1738
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.082
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0342
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0266
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3258",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.375,
+    "coag_score": 0.0691,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.375
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2578
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1221
+      },
+      {
+        "label": "normal blood plasma sample",
+        "score": 0.1079
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0396
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3259",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.4746,
+    "coag_score": 0.169,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.4746
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1748
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1543
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0566
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0566
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3260",
+    "channel": null,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.3828,
+    "coag_score": 0.111,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.3828
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2637
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1592
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0552
+      },
+      {
+        "label": "blood plasma with fibrin clots",
+        "score": 0.0295
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3261",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.5977,
+    "coag_score": 0.0608,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.5977
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1719
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.104
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0491
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0264
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3262",
+    "channel": null,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.252,
+    "coag_score": 0.0503,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.252
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.2227
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.209
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.209
+      },
+      {
+        "label": "normal blood plasma sample",
+        "score": 0.0302
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3265",
+    "channel": 19,
+    "top_label": "turbid cloudy blood plasma",
+    "top_score": 0.291,
+    "coag_score": 0.1039,
+    "labels": [
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.291
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.291
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2559
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0347
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0347
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3266",
+    "channel": 19,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.4062,
+    "coag_score": 0.0541,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.4062
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.2168
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2168
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0623
+      },
+      {
+        "label": "normal blood plasma sample",
+        "score": 0.0259
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3267",
+    "channel": 19,
+    "top_label": "turbid cloudy blood plasma",
+    "top_score": 0.3652,
+    "coag_score": 0.0339,
+    "labels": [
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.3652
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.3652
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1523
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0559
+      },
+      {
+        "label": "normal blood plasma sample",
+        "score": 0.0182
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3268",
+    "channel": 0,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.3867,
+    "coag_score": 0.0825,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.3867
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.2656
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2061
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0408
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0359
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3269",
+    "channel": 0,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.3047,
+    "coag_score": 0.0986,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.3047
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.2695
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1631
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0991
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0413
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3270",
+    "channel": 21,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.3242,
+    "coag_score": 0.1105,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.3242
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.2871
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2227
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0388
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0342
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3271",
+    "channel": 21,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.4355,
+    "coag_score": 0.0724,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.4355
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2324
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1602
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0588
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0315
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3272",
+    "channel": 21,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.4355,
+    "coag_score": 0.0912,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.4355
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.2324
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1816
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0315
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0278
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3273",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.4531,
+    "coag_score": 0.0986,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.4531
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.2422
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1475
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0371
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0289
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3274",
+    "channel": null,
+    "top_label": "turbid cloudy blood plasma",
+    "top_score": 0.3887,
+    "coag_score": 0.0448,
+    "labels": [
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.3887
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.3418
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.126
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0464
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0299
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3275",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.4941,
+    "coag_score": 0.1854,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.4941
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1602
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1245
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.052
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.052
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3276",
+    "channel": null,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.2148,
+    "coag_score": 0.3907,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2148
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.168
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.1572
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1572
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.0791
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3277",
+    "channel": 19,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.2969,
+    "coag_score": 0.4296,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2969
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.2041
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1162
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.085
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0752
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3278",
+    "channel": 0,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.4004,
+    "coag_score": 0.2368,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.4004
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1221
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1147
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0742
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0654
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3279",
+    "channel": 21,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.3008,
+    "coag_score": 0.1788,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.3008
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2656
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.1108
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.104
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0762
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3282",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.3086,
+    "coag_score": 0.4193,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.3086
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1865
+      },
+      {
+        "label": "blood plasma with fibrin clots",
+        "score": 0.165
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.1064
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0781
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3283",
+    "channel": null,
+    "top_label": "blood plasma with early fibrin strand formation",
+    "top_score": 0.6211,
+    "coag_score": 0.8369,
+    "labels": [
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.6211
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1016
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.0845
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.0544
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0481
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3284",
+    "channel": 19,
+    "top_label": "blood plasma with early fibrin strand formation",
+    "top_score": 0.4199,
+    "coag_score": 0.5887,
+    "labels": [
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.4199
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1992
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.083
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.083
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.0732
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3285",
+    "channel": 21,
+    "top_label": "blood plasma with early fibrin strand formation",
+    "top_score": 0.2891,
+    "coag_score": 0.6558,
+    "labels": [
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.2891
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1865
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1641
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1064
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0732
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3286",
+    "channel": 0,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.3945,
+    "coag_score": 0.1479,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.3945
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1865
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.1367
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0879
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0776
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3287",
+    "channel": 0,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.2969,
+    "coag_score": 0.1071,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2969
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2617
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1494
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.1094
+      },
+      {
+        "label": "normal blood plasma sample",
+        "score": 0.0623
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3288",
+    "channel": 19,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.4375,
+    "coag_score": 0.2265,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.4375
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1611
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1514
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0713
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0557
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3290",
+    "channel": 21,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.2637,
+    "coag_score": 0.3958,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2637
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1602
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1602
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.1416
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1416
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3291",
+    "channel": 21,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.3887,
+    "coag_score": 0.2233,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.3887
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2676
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0986
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0679
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0679
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3292",
+    "channel": 0,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.2891,
+    "coag_score": 0.4854,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2891
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1992
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.1367
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1069
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0942
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3293",
+    "channel": 0,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.3086,
+    "coag_score": 0.2748,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.3086
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.3086
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1279
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0688
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0605
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3294",
+    "channel": 0,
+    "top_label": "clear transparent blood plasma",
+    "top_score": 0.4004,
+    "coag_score": 0.2346,
+    "labels": [
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.4004
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1475
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.0947
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0786
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0786
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3295",
+    "channel": 0,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.375,
+    "coag_score": 0.1758,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.375
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2012
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1777
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.084
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0396
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3296",
+    "channel": 19,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.3594,
+    "coag_score": 0.1321,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.3594
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.2471
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2188
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0552
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.043
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3297",
+    "channel": 19,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.2139,
+    "coag_score": 0.4294,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2139
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.1885
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.1377
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1377
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1011
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3298",
+    "channel": 21,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.2773,
+    "coag_score": 0.4563,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2773
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2158
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.1309
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1309
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.1021
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3299",
+    "channel": 21,
+    "top_label": "blood plasma with early fibrin strand formation",
+    "top_score": 0.3516,
+    "coag_score": 0.7427,
+    "labels": [
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.3516
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.2129
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1216
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.0889
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.0889
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3300",
+    "channel": 19,
+    "top_label": "turbid cloudy blood plasma",
+    "top_score": 0.3398,
+    "coag_score": 0.1131,
+    "labels": [
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.3398
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2061
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1416
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.1104
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0859
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3301",
+    "channel": 19,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.3477,
+    "coag_score": 0.3961,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.3477
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.1855
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1128
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.0996
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.0879
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3302",
+    "channel": 19,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.2871,
+    "coag_score": 0.3209,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2871
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.1738
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1533
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1533
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0933
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3303",
+    "channel": 0,
+    "top_label": "blood plasma with partially formed fibrin clot",
+    "top_score": 0.2393,
+    "coag_score": 0.6226,
+    "labels": [
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.2393
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1641
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.1455
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1279
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.1133
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3304",
+    "channel": 0,
+    "top_label": "blood plasma with partially formed fibrin clot",
+    "top_score": 0.2656,
+    "coag_score": 0.7185,
+    "labels": [
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.2656
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.1611
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1426
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.1426
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.1108
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3305",
+    "channel": null,
+    "top_label": "blood plasma with partially formed fibrin clot",
+    "top_score": 0.3809,
+    "coag_score": 0.7324,
+    "labels": [
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.3809
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1797
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.1592
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.0752
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0623
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3307",
+    "channel": 0,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.2969,
+    "coag_score": 0.2468,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2969
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2305
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1235
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.085
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.0659
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3308",
+    "channel": 19,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.2891,
+    "coag_score": 0.4143,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2891
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2256
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.1758
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1553
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.0444
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3309",
+    "channel": 21,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.2734,
+    "coag_score": 0.4692,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2734
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.2422
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1465
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.1299
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.061
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3310",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.2637,
+    "coag_score": 0.1963,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2637
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.2324
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2051
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0801
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0664
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3312",
+    "channel": 19,
+    "top_label": "turbid cloudy blood plasma",
+    "top_score": 0.2734,
+    "coag_score": 0.2341,
+    "labels": [
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.2734
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2734
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1885
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1006
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0786
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3313",
+    "channel": 19,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.3789,
+    "coag_score": 0.1527,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.3789
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2158
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.1309
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0747
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0547
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3314",
+    "channel": 19,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.375,
+    "coag_score": 0.2644,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.375
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2275
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1216
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0889
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0786
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3315",
+    "channel": 19,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.3789,
+    "coag_score": 0.2871,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.3789
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1396
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1235
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1235
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.062
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3316",
+    "channel": 0,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.2539,
+    "coag_score": 0.4517,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2539
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1973
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1357
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1357
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.1055
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3317",
+    "channel": 0,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.1924,
+    "coag_score": 0.3836,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1924
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1699
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1592
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1406
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.1094
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3318",
+    "channel": 0,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.3145,
+    "coag_score": 0.2471,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.3145
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1396
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.1235
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1021
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.0747
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3319",
+    "channel": 21,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.252,
+    "coag_score": 0.5111,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.252
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.2363
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1348
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.1118
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.0986
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3320",
+    "channel": 21,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.2295,
+    "coag_score": 0.3438,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2295
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.2021
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2021
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1787
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.0581
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3321",
+    "channel": 21,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.3184,
+    "coag_score": 0.3943,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.3184
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1934
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1328
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0806
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0806
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3323",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.5586,
+    "coag_score": 0.1552,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.5586
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2061
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0554
+      },
+      {
+        "label": "blood plasma with fibrin clots",
+        "score": 0.0488
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0359
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3324",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.248,
+    "coag_score": 0.4272,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.248
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2061
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.1035
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1035
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0859
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3325",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.3613,
+    "coag_score": 0.1014,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.3613
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.2334
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1416
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1172
+      },
+      {
+        "label": "blood plasma with fibrin clots",
+        "score": 0.0315
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3327",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.543,
+    "coag_score": 0.2222,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.543
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1211
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.083
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0732
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0688
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3328",
+    "channel": null,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.334,
+    "coag_score": 0.3185,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.334
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1582
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.123
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0957
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0845
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3329",
+    "channel": 19,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.4258,
+    "coag_score": 0.2158,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.4258
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2578
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0952
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.051
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0449
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3330",
+    "channel": 19,
+    "top_label": "blood plasma with partially formed fibrin clot",
+    "top_score": 0.332,
+    "coag_score": 0.5664,
+    "labels": [
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.332
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2021
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1777
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.084
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0654
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3331",
+    "channel": 19,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.2119,
+    "coag_score": 0.5122,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2119
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1875
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1875
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.165
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.0942
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3332",
+    "channel": 19,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.2852,
+    "coag_score": 0.4032,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2852
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1963
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1963
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.082
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0562
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3333",
+    "channel": 19,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.3535,
+    "coag_score": 0.1254,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.3535
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1777
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.1562
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1562
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0508
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3334",
+    "channel": 19,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.5078,
+    "coag_score": 0.0471,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.5078
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2402
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0884
+      },
+      {
+        "label": "normal blood plasma sample",
+        "score": 0.0608
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0325
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3335",
+    "channel": 21,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.2373,
+    "coag_score": 0.3906,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2373
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2373
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.2373
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0601
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0601
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3336",
+    "channel": 21,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.3281,
+    "coag_score": 0.232,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.3281
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1992
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1992
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1211
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0393
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3337",
+    "channel": 21,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.3887,
+    "coag_score": 0.1312,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.3887
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.3027
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0674
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0674
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0525
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3338",
+    "channel": 21,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.2969,
+    "coag_score": 0.3094,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2969
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2305
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1396
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.0752
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0659
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3339",
+    "channel": 21,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.2402,
+    "coag_score": 0.4901,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2402
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.2402
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1133
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.1001
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.0884
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3340",
+    "channel": 21,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.4141,
+    "coag_score": 0.0745,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.4141
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2852
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1187
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0386
+      },
+      {
+        "label": "normal blood plasma sample",
+        "score": 0.0386
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3341",
+    "channel": 0,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.3984,
+    "coag_score": 0.3328,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.3984
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1885
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1885
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.0476
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.042
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3342",
+    "channel": 0,
+    "top_label": "blood plasma with partially formed fibrin clot",
+    "top_score": 0.21,
+    "coag_score": 0.5142,
+    "labels": [
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.21
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1855
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1855
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.1855
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0532
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3343",
+    "channel": 0,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.375,
+    "coag_score": 0.3275,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.375
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.2002
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1562
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1074
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0508
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3344",
+    "channel": 0,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.5273,
+    "coag_score": 0.0679,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.5273
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1719
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1719
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0299
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0264
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3345",
+    "channel": 0,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.4883,
+    "coag_score": 0.23,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.4883
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1396
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1089
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1089
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.0454
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3346",
+    "channel": 0,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.3438,
+    "coag_score": 0.1525,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.3438
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.2363
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.126
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.126
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0767
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3347",
+    "channel": 0,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.4199,
+    "coag_score": 0.1041,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.4199
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.2246
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1543
+      },
+      {
+        "label": "normal blood plasma sample",
+        "score": 0.0391
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0391
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3348",
+    "channel": 0,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.2451,
+    "coag_score": 0.4646,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2451
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.2168
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1914
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.1318
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.0547
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3349",
+    "channel": 0,
+    "top_label": "blood plasma with partially formed fibrin clot",
+    "top_score": 0.2832,
+    "coag_score": 0.5449,
+    "labels": [
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.2832
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1943
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1719
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.1045
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.063
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3350",
+    "channel": null,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.3047,
+    "coag_score": 0.3411,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.3047
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1973
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1445
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0933
+      },
+      {
+        "label": "blood plasma with fibrin clots",
+        "score": 0.0771
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3351",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.2422,
+    "coag_score": 0.2521,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2422
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2422
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.2129
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0889
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.054
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3352",
+    "channel": null,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.293,
+    "coag_score": 0.2085,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.293
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2285
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.1787
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0791
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0742
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3353",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.373,
+    "coag_score": 0.2028,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.373
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2266
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.083
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.083
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0649
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3354",
+    "channel": null,
+    "top_label": "blood plasma with no fibrin formation",
+    "top_score": 0.3418,
+    "coag_score": 0.2781,
+    "labels": [
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.3418
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2344
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1108
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0811
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0593
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3355",
+    "channel": null,
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.2158,
+    "coag_score": 0.3591,
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2158
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.2158
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1904
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.168
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.0845
+      }
+    ]
+  },
+  {
+    "filename": "IMG_3356",
+    "channel": null,
+    "top_label": "clear transparent blood plasma",
+    "top_score": 0.3184,
+    "coag_score": 0.2705,
+    "labels": [
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.3184
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1816
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1709
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.1099
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.0432
+      }
+    ]
+  }
+]

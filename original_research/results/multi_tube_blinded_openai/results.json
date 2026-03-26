@@ -1,0 +1,1309 @@
+{
+  "metadata": {
+    "generated": "2026-03-12T23:22:28.184884+00:00",
+    "mode": "multi_tube_blinded",
+    "blinded": true,
+    "blind_map": {
+      "0": "A",
+      "19": "B",
+      "21": "C"
+    },
+    "providers": [
+      "openai"
+    ],
+    "total_comparisons": 22
+  },
+  "comparisons": [
+    {
+      "patient": "01",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3253",
+        "sample_ids": [
+          "19.1.1",
+          "21.1.1",
+          "0.1.1"
+        ],
+        "caption_original": "Top to bottom: 19.1.1, 21.1.1, 0.1.1",
+        "caption_sent": "Top to bottom: B, C, A",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 3
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 56590,
+          "error": null,
+          "raw": "Observations by tube (top to bottom: B, C, A)\n\nTube B (top):\n- Plasma color and transparency: pale yellow-beige; opaque\n- Clots/fibrin: single cohesive, domed plug; no visible fibrin strands; no free liquid\n- Coagulation stage: appears fully clotted\n- Density/homogeneity: dense, uniform, smooth surface\n\nTube C (middle):\n- Plasma color and transparency: pale yellow-beige; opaque\n- Clots/fibrin: cohesive plug present, with a distinct adjacent clear droplet of free liquid; no visible strands\n- Coagulation stage: partial clot\n- Density/homogeneity: less compact than B/A; slight heterogeneity due to nearby free liquid\n\nTube A (bottom):\n- Plasma color and transparency: pale yellow-beige; opaque\n- Clots/fibrin: single cohesive, domed plug; no visible strands; no free liquid\n- Coagulation stage: appears fully clotted\n- Density/homogeneity: dense and homogeneous\n\nComparison:\n- Most advanced coagulation: Tube B (top) and Tube A (bottom) look very similar; B appears marginally most compact.\n- Least advanced coagulation: Tube C (middle), due to visible free liquid.\n- Visible differences: All share similar color. C shows residual liquid and slightly less compact clot; B and A show dense, uniform plugs without free liquid.\n- Overall visual difference: moderate.\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow-beige\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"Cohesive domed plug; no visible fibrin strands; no free liquid; dense and homogeneous.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow-beige\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"Cohesive domed plug; no visible fibrin strands; no free liquid; dense and uniform—appears slightly more compact than others.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow-beige\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Cohesive plug present with a distinct adjacent clear droplet (residual liquid); no visible fibrin strands; slightly less compact.\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_c\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"All three are similar in color. B and A show dense, uniform clots without free liquid; C shows nearby clear liquid, indicating less advanced coagulation.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow-beige",
+              "transparency": "opaque",
+              "notes": "Cohesive domed plug; no visible fibrin strands; no free liquid; dense and homogeneous.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch19": {
+              "color": "pale yellow-beige",
+              "transparency": "opaque",
+              "notes": "Cohesive domed plug; no visible fibrin strands; no free liquid; dense and uniform—appears slightly more compact than others.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch21": {
+              "color": "pale yellow-beige",
+              "transparency": "opaque",
+              "notes": "Cohesive plug present with a distinct adjacent clear droplet (residual liquid); no visible fibrin strands; slightly less compact.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "moderate",
+            "comparison_notes": "All three are similar in color. B and A show dense, uniform clots without free liquid; C shows nearby clear liquid, indicating less advanced coagulation."
+          }
+        }
+      }
+    },
+    {
+      "patient": "01",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3254",
+        "sample_ids": [
+          "0.1.2",
+          "21.1.1",
+          "19.1.1",
+          "0.1.1"
+        ],
+        "caption_original": "4 test tubes with labels: 0.1.2, 21.1.1, 19.1.1, 0.1...",
+        "caption_sent": "4 test tubes with labels: A, C, B, 0.1...",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 4
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 61473,
+          "error": null,
+          "raw": "Observations per tube (top to bottom assumed: A, C, B, 0.1):\n- All tubes contain pale yellow (straw-colored) plasma that looks clear in the bulk phase.\n- Each tube shows a localized, opaque yellow gel-like mass adhered to the inner wall near one end; the rest of the liquid remains fluid and clear.\n- No obvious fine fibrin strands spanning the lumen; coagulation appears as compact clumps.\n- Relative clot prominence: C > B ≈ A > 0.1. A shows two separate clumps; 0.1 shows the smallest single clump.\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow (straw)\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Two discrete opaque gel-like clumps attached to the wall; supernatant clear and homogeneous.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow (straw)\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Single compact opaque clot; supernatant clear and homogeneous. Clot size moderately large.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow (straw)\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Single opaque clot, largest among the tubes; supernatant clear and homogeneous.\"\n  },\n  \"sample_0_1\": {\n    \"color\": \"pale yellow (straw)\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Single small opaque clot; supernatant clear and homogeneous.\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_0_1\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"All show localized opaque clots with otherwise clear plasma. Sample C has the largest clot (most advanced), A has two separate clumps, B has a single moderately large clot, and 0.1 has the smallest clot (least advanced). No visible fibrin strands bridging the lumen; no full-tube coagulation or lysis observed.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow (straw)",
+              "transparency": "transparent",
+              "notes": "Two discrete opaque gel-like clumps attached to the wall; supernatant clear and homogeneous.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow (straw)",
+              "transparency": "transparent",
+              "notes": "Single compact opaque clot; supernatant clear and homogeneous. Clot size moderately large.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow (straw)",
+              "transparency": "transparent",
+              "notes": "Single opaque clot, largest among the tubes; supernatant clear and homogeneous.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "sample_0_1",
+            "overall_difference": "moderate",
+            "comparison_notes": "All show localized opaque clots with otherwise clear plasma. Sample C has the largest clot (most advanced), A has two separate clumps, B has a single moderately large clot, and 0.1 has the smallest clot (least advanced). No visible fibrin strands bridging the lumen; no full-tube coagulation or lysis observed."
+          }
+        }
+      }
+    },
+    {
+      "patient": "01",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3255",
+        "sample_ids": [
+          "21.1.1",
+          "19.1.1",
+          "0.1.1"
+        ],
+        "caption_original": "Top to bottom: 19.1.1, 21.1.1, 0.1.1 (3 test tubes on a dark surface)",
+        "caption_sent": "Top to bottom: B, C, A (3 test tubes on a dark surface)",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 3
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 44799,
+          "error": null,
+          "raw": "Per-tube assessment (top to bottom: B, C, A)\n\nTube B (top):\n- Plasma color and transparency: Straw/pale yellow; surrounding liquid appears clear/transparent.\n- Clots/fibrin: Present. A dense, rounded clot with a relatively long, thick, white fibrin strand/ribbon adherent to the tube wall.\n- Coagulation stage: partial_clot (localized clot and organized fibrin; not the entire volume gelled; no signs of lysis).\n- Density and homogeneity: Clot core looks dense and cohesive; fibrin extension is continuous; surrounding plasma appears homogeneous and particle-free.\n\nTube C (middle):\n- Plasma color and transparency: Straw/pale yellow; surrounding liquid clear/transparent.\n- Clots/fibrin: Present. Dense rounded clot with a moderate-length white fibrin strand; shorter/thinner than in tube B.\n- Coagulation stage: partial_clot.\n- Density and homogeneity: Clot core dense and cohesive; fibrin organized but less extensive than B; surrounding plasma homogeneous.\n\nTube A (bottom):\n- Plasma color and transparency: Straw/pale yellow; surrounding liquid clear/transparent.\n- Clots/fibrin: Present. Dense rounded clot with the shortest/least extensive fibrin strand among the three.\n- Coagulation stage: partial_clot.\n- Density and homogeneity: Clot core dense and compact; minimal fibrin extension; surrounding plasma homogeneous.\n\nComparison:\n- Most advanced coagulation: Tube B (largest/most extensive fibrin strand).\n- Least advanced coagulation: Tube A (smallest fibrin extension).\n- Visible differences: Mainly in the extent/length/thickness of fibrin strands; clot cores similar in size/opacity; plasma color and clarity similar across tubes.\n- Overall visual difference: Moderate (consistent presence of clots in all, but noticeable variation in fibrin extent).\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Dense rounded clot with the shortest fibrin strand; surrounding plasma clear and homogeneous; clot itself opaque.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Dense rounded clot with the longest/thickest fibrin strand adherent to the tube wall; surrounding plasma clear; no signs of lysis.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Dense rounded clot with a moderate-length fibrin strand; extent between B and A; surrounding plasma clear.\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"All tubes show localized opaque clots within clear straw-colored plasma. The primary difference is fibrin extent: B shows the longest/thickest fibrin strand, C is intermediate, A is the least. Clot core size and plasma clarity are otherwise similar across tubes.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Dense rounded clot with the shortest fibrin strand; surrounding plasma clear and homogeneous; clot itself opaque.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Dense rounded clot with the longest/thickest fibrin strand adherent to the tube wall; surrounding plasma clear; no signs of lysis.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Dense rounded clot with a moderate-length fibrin strand; extent between B and A; surrounding plasma clear.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "moderate",
+            "comparison_notes": "All tubes show localized opaque clots within clear straw-colored plasma. The primary difference is fibrin extent: B shows the longest/thickest fibrin strand, C is intermediate, A is the least. Clot core size and plasma clarity are otherwise similar across tubes."
+          }
+        }
+      }
+    },
+    {
+      "patient": "01",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3256",
+        "sample_ids": [
+          "21.1.1",
+          "19.1.1",
+          "0.1.1"
+        ],
+        "caption_original": "Top to bottom: 21.1.1, 19.1.1, 0.1.1",
+        "caption_sent": "Top to bottom: C, B, A",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 3
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 48445,
+          "error": null,
+          "raw": "Observations by tube (top to bottom: C, B, A)\n\nTube C (top):\n- Plasma: pale yellow, mostly clear\n- Clotting structures: one small, rounded, opaque/semi-opaque gel-like mass attached to the tube wall; no visible strands\n- Coagulation stage: localized partial clot; bulk plasma remains fluid\n- Density/homogeneity: dense discrete clot; sample is heterogeneous (fluid + small clot)\n\nTube B (middle):\n- Plasma: pale yellow, slightly less clear than C\n- Clotting structures: one rounded gel-like mass, larger and more opaque than C; no strands\n- Coagulation stage: partial clot\n- Density/homogeneity: dense discrete clot; heterogeneous\n\nTube A (bottom):\n- Plasma: pale yellow, mild haze\n- Clotting structures: one rounded gel-like mass, largest and most opaque of the three; no strands\n- Coagulation stage: partial clot (more advanced locally than B and C)\n- Density/homogeneity: densest-appearing discrete clot; heterogeneous\n\nComparison:\n- Most advanced coagulation: A (largest/most opaque localized clot)\n- Least advanced coagulation: C (smallest/least opaque clot)\n- Differences: progressive increase in clot size and opacity from C → B → A; plasma color similar across tubes; no diffuse fibrin networks or complete gelation; no signs of lysis\n- Overall visual difference: moderate\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Single rounded, opaque gel-like clot (largest of the three) adhered to wall; no visible fibrin strands; sample is heterogeneous with dense localized clot and fluid plasma.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Single rounded gel-like clot larger and more opaque than C but smaller than A; no visible strands; heterogeneous (fluid + discrete clot).\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Single small rounded gel-like clot (least pronounced); no visible strands; mostly clear plasma; heterogeneous due to localized clot.\"\n  },\n  \"most_coagulated\": \"sample_a\",\n  \"least_coagulated\": \"sample_c\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Gradient in clot size and opacity from C < B < A; plasma color similar across all; no diffuse fibrin networks, complete gelation, or lysis visible.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Single rounded, opaque gel-like clot (largest of the three) adhered to wall; no visible fibrin strands; sample is heterogeneous with dense localized clot and fluid plasma.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Single rounded gel-like clot larger and more opaque than C but smaller than A; no visible strands; heterogeneous (fluid + discrete clot).",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Single small rounded gel-like clot (least pronounced); no visible strands; mostly clear plasma; heterogeneous due to localized clot.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "control",
+            "least_coagulated": "ch21",
+            "overall_difference": "moderate",
+            "comparison_notes": "Gradient in clot size and opacity from C < B < A; plasma color similar across all; no diffuse fibrin networks, complete gelation, or lysis visible."
+          }
+        }
+      }
+    },
+    {
+      "patient": "01",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3257",
+        "sample_ids": [
+          "0.1.1",
+          "19.1.1",
+          "21.1.1"
+        ],
+        "caption_original": "Left to right 0.1.1, 19.1.1, 21.1.1",
+        "caption_sent": "Left to right A, B, C",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 3
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 59838,
+          "error": null,
+          "raw": "Per-tube assessment (left to right A, B, C):\n- A: Pale yellow, clear supernatant. One rounded yellow-beige mass adhered to the inner wall in the upper third. No visible fibrin strands spanning the lumen. A narrow dark compact sediment at the bottom. Liquid phase appears uniform.\n- B: Pale yellow, clear supernatant. One rounded wall-adherent mass, slightly larger than in A. No visible fibrin strands. Similar dark compact sediment at the bottom. Liquid phase uniform.\n- C: Pale yellow, clear supernatant. One rounded wall-adherent mass, largest of the three. No visible fibrin strands. Similar dark compact sediment at the bottom. Liquid phase uniform.\n\nComparison:\n- Most advanced coagulation: C (largest discrete coagulum)\n- Least advanced coagulation: A (smallest discrete coagulum)\n- Visible differences: Primarily the size of the wall-adherent coagulum; supernatant clarity and bottom sediment look similar across tubes.\n- Overall visual difference: subtle\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Single rounded yellow-beige coagulum adhered to inner wall (upper third). No visible fibrin strands across the lumen. Clear, homogeneous supernatant; narrow dark compact sediment at bottom.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Single wall-adherent rounded coagulum, slightly larger than in A. No visible fibrin strands. Clear, homogeneous supernatant; dark compact sediment at bottom.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Single wall-adherent rounded coagulum, largest among the three. No visible fibrin strands. Clear, homogeneous supernatant; dark compact sediment at bottom.\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"subtle\",\n  \"comparison_notes\": \"All tubes show clear pale-yellow supernatant with a single wall-adherent rounded coagulum and a similar dark compact sediment at the bottom. The main difference is coagulum size: A < B < C.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Single rounded yellow-beige coagulum adhered to inner wall (upper third). No visible fibrin strands across the lumen. Clear, homogeneous supernatant; narrow dark compact sediment at bottom.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Single wall-adherent rounded coagulum, slightly larger than in A. No visible fibrin strands. Clear, homogeneous supernatant; dark compact sediment at bottom.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Single wall-adherent rounded coagulum, largest among the three. No visible fibrin strands. Clear, homogeneous supernatant; dark compact sediment at bottom.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "control",
+            "overall_difference": "subtle",
+            "comparison_notes": "All tubes show clear pale-yellow supernatant with a single wall-adherent rounded coagulum and a similar dark compact sediment at the bottom. The main difference is coagulum size: A < B < C."
+          }
+        }
+      }
+    },
+    {
+      "patient": "01",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3258",
+        "sample_ids": [
+          "21.1.1",
+          "0.1.1",
+          "19.1.1"
+        ],
+        "caption_original": "Left to right 21.1.1, 0.1.1, 19.1.1",
+        "caption_sent": "Left to right C, A, B",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 3
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 63136,
+          "error": null,
+          "raw": "Observations by tube (left to right C, A, B):\n\n- Tube C (left):\n  - Plasma appears pale straw-yellow confined to the bottom; large volume above is clear and colorless.\n  - A cohesive, yellow, gel-like plug at the very bottom; no loose fibrin strands seen on the walls or in the supernatant.\n  - Overall mostly transparent with a small opaque/sem i-opaque base.\n  - Smallest coagulum among the three; boundary between gel and supernatant is gradual.\n\n- Tube A (middle):\n  - Pale yellow zone at the bottom, thicker than in C; supernatant above is clear and colorless.\n  - Cohesive yellow gel/plug at the base; no filamentous strands visible.\n  - Transparency similar to C: clear supernatant, semi-opaque base.\n  - Coagulum larger and slightly denser-looking than C; fairly homogeneous within the gel zone.\n\n- Tube B (right):\n  - More saturated yellow zone at the bottom extending slightly higher up the tube; supernatant remains clear.\n  - Most prominent cohesive gel/plug; appears the thickest and most opaque near the base.\n  - Sharpest interface between gel and supernatant; no free strands noted.\n  - Largest, densest-appearing coagulum of the three.\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Middle tube. Clear, colorless supernatant with a cohesive yellow gel-like plug at the bottom; thicker than sample_c, thinner than sample_b; appears homogeneous within the gel region.\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellow (more saturated)\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Right tube. Largest and most opaque yellow gel/plug at the bottom; extends slightly higher; sharp interface; densest-appearing coagulum.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Left tube. Smallest yellow gel-like plug at the bottom; supernatant is clear and colorless; gradual boundary; no visible fibrin strands.\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_c\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"All tubes show a clear supernatant and a yellow gel/plug at the bottom consistent with a localized coagulum. Relative gel size/opacity: B > A > C. No free fibrin strands or full-tube solidification observed.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Middle tube. Clear, colorless supernatant with a cohesive yellow gel-like plug at the bottom; thicker than sample_c, thinner than sample_b; appears homogeneous within the gel region.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "yellow (more saturated)",
+              "transparency": "semi-transparent",
+              "notes": "Right tube. Largest and most opaque yellow gel/plug at the bottom; extends slightly higher; sharp interface; densest-appearing coagulum.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Left tube. Smallest yellow gel-like plug at the bottom; supernatant is clear and colorless; gradual boundary; no visible fibrin strands.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "moderate",
+            "comparison_notes": "All tubes show a clear supernatant and a yellow gel/plug at the bottom consistent with a localized coagulum. Relative gel size/opacity: B > A > C. No free fibrin strands or full-tube solidification observed."
+          }
+        }
+      }
+    },
+    {
+      "patient": "01",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3259",
+        "sample_ids": [
+          "19.1.1",
+          "21.1.1",
+          "0.1.1",
+          "0.1.2"
+        ],
+        "caption_original": "Top to bottom: 19.1.1, 21.1.1, 0.1.1, 0.1.2",
+        "caption_sent": "Top to bottom: B, C, A, A",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 4
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 72032,
+          "error": null,
+          "raw": "Per-tube visual assessment (top to bottom: B, C, A, A)\n\n- Tube B (top):\n  1) Plasma color/transparency: pale straw-yellow; transparent\n  2) Structures: one small, localized gelatinous mass adhered to the wall; thin whitish rim; no long fibrin strands; no dispersed aggregates\n  3) Stage: partial_clot (localized clot present, not filling the tube)\n  4) Density/homogeneity: lowest density among the four; heterogeneous (denser core with a lighter rim); surrounding plasma uniformly clear\n\n- Tube C (second):\n  1) Plasma color/transparency: pale straw-yellow; transparent\n  2) Structures: single clot larger than in B; more opaque with a well-defined border; no visible strands or fragmentation\n  3) Stage: partial_clot\n  4) Density/homogeneity: moderate-to-high density; relatively uniform interior; plasma homogeneous\n\n- Tube A (third; A replicate 1):\n  1) Plasma color/transparency: pale straw-yellow; transparent\n  2) Structures: largest and most opaque clot of the set; dense core with a bright semicircular rim; no visible lysis\n  3) Stage: partial_clot (most advanced among the four)\n  4) Density/homogeneity: high-density core; mildly heterogeneous (core vs rim); plasma homogeneous\n\n- Tube A (bottom; A replicate 2):\n  1) Plasma color/transparency: pale straw-yellow; transparent\n  2) Structures: clot size between C and the third tube; moderately opaque with a defined rim; no visible strands\n  3) Stage: partial_clot\n  4) Density/homogeneity: moderate-to-high density; fairly uniform; plasma homogeneous\n\nComparison\n- Most advanced coagulation: third tube (sample A replicate 1)\n- Least advanced coagulation: top tube (sample B)\n- Visible differences: progressive increase in clot size and opacity from B → C → A (replicate 1), with the bottom A slightly smaller/less opaque than the third tube; plasma appearance similar across all tubes (clear, pale yellow); no tube shows complete gelation of the entire volume or signs of lysis\n- Overall visual difference: moderate\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Two A replicates (third and bottom tubes). Both show compact localized clots; the third tube has the largest/most opaque clot; the bottom tube is slightly smaller/less opaque. Plasma in both is clear and homogeneous; no visible fibrin strands or lysis.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Top tube. Smallest and most translucent clot with a thin rim; surrounding plasma uniformly clear; lowest apparent clot density among the set.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Second tube. Clot larger and more opaque than in sample B but smaller/less dense than the larger A replicate; well-defined border; plasma clear and homogeneous.\"\n  },\n  \"most_coagulated\": \"sample_a\",\n  \"least_coagulated\": \"sample_b\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Clot size/opacity increases from B to C to A (replicate 1); bottom A replicate is intermediate between C and the larger A replicate. All plasmas appear similarly clear and pale yellow; no full-tube coagulation or visible lysis.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Two A replicates (third and bottom tubes). Both show compact localized clots; the third tube has the largest/most opaque clot; the bottom tube is slightly smaller/less opaque. Plasma in both is clear and homogeneous; no visible fibrin strands or lysis.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Top tube. Smallest and most translucent clot with a thin rim; surrounding plasma uniformly clear; lowest apparent clot density among the set.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Second tube. Clot larger and more opaque than in sample B but smaller/less dense than the larger A replicate; well-defined border; plasma clear and homogeneous.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "control",
+            "least_coagulated": "ch19",
+            "overall_difference": "moderate",
+            "comparison_notes": "Clot size/opacity increases from B to C to A (replicate 1); bottom A replicate is intermediate between C and the larger A replicate. All plasmas appear similarly clear and pale yellow; no full-tube coagulation or visible lysis."
+          }
+        }
+      }
+    },
+    {
+      "patient": "01",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3260",
+        "sample_ids": [
+          "21.1.1",
+          "0.1.1",
+          "19.1.1"
+        ],
+        "caption_original": "Left to right 21.1.1, 0.1.1, 19.1.1",
+        "caption_sent": "Left to right C, A, B",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 3
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 53450,
+          "error": null,
+          "raw": "Observations by tube (left to right: C, A, B)\n\n- Tube C (left):\n  - Plasma is bright yellow and appears clear/transparent.\n  - A single pale beige, cohesive, rounded clot-like mass sits at the bottom; few to no visible strands in the supernatant.\n  - Supernatant looks homogeneous with minimal particulate matter.\n  - Interpreted stage from appearance: advanced partial clot formation.\n\n- Tube A (middle):\n  - Plasma is bright yellow, mostly clear with a very slight haze.\n  - A pale beige clot-like mass at the bottom; faint short strands or edges around it may be present.\n  - Supernatant is nearly homogeneous but a touch less than C.\n  - Interpreted stage from appearance: mid partial clot formation.\n\n- Tube B (right):\n  - Plasma is bright yellow, slightly more hazy than C and A.\n  - A pale beige clot-like mass at the bottom; thin wispy fibrin-like strands/small particulates are more visible in the lower fluid.\n  - Supernatant shows mild heterogeneity due to these wisps/particulates.\n  - Interpreted stage from appearance: earlier end of partial clot formation.\n\nComparison\n- Most advanced coagulation: Tube C (clearest supernatant, most compact clot).\n- Least advanced coagulation: Tube B (more visible strands/particulates, less homogeneous).\n- Visible differences: clarity/turbidity of supernatant (C clearest, B most turbid), compactness of the bottom clot (C most compact > A > B), presence of fine strands (B > A ≈ C). Color is similar across tubes.\n- Overall visual difference: moderate.\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"bright yellow\",\n    \"transparency\": \"mostly transparent, slight haze\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Single pale beige clot at bottom; possible short peripheral strands; supernatant nearly homogeneous; clot moderately compact/dense.\"\n  },\n  \"sample_b\": {\n    \"color\": \"bright yellow\",\n    \"transparency\": \"slightly hazy\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Pale beige clot at bottom with visible thin wisps/particulates in lower fluid; supernatant less homogeneous; clot appears less compact.\"\n  },\n  \"sample_c\": {\n    \"color\": \"bright yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Single pale beige, cohesive rounded clot at bottom; minimal to no visible strands; supernatant clear and homogeneous; clot appears most compact/dense.\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_b\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"All three show similar yellow plasma and a pale beige bottom clot. Tube C shows the clearest supernatant and most compact clot; Tube B shows more fibrin-like wisps/particulates and mild turbidity; Tube A is intermediate in clarity and clot compactness.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "bright yellow",
+              "transparency": "mostly transparent, slight haze",
+              "notes": "Single pale beige clot at bottom; possible short peripheral strands; supernatant nearly homogeneous; clot moderately compact/dense.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "bright yellow",
+              "transparency": "slightly hazy",
+              "notes": "Pale beige clot at bottom with visible thin wisps/particulates in lower fluid; supernatant less homogeneous; clot appears less compact.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "bright yellow",
+              "transparency": "transparent",
+              "notes": "Single pale beige, cohesive rounded clot at bottom; minimal to no visible strands; supernatant clear and homogeneous; clot appears most compact/dense.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "ch19",
+            "overall_difference": "moderate",
+            "comparison_notes": "All three show similar yellow plasma and a pale beige bottom clot. Tube C shows the clearest supernatant and most compact clot; Tube B shows more fibrin-like wisps/particulates and mild turbidity; Tube A is intermediate in clarity and clot compactness."
+          }
+        }
+      }
+    },
+    {
+      "patient": "01",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3261",
+        "sample_ids": [
+          "0.1.1",
+          "21.1.1",
+          "19.1.1"
+        ],
+        "caption_original": "Top to bottom 0.1.1, 21.1.1, 19.1.1",
+        "caption_sent": "Top to bottom A, C, B",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 3
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 29735,
+          "error": null,
+          "raw": "Observations are based solely on visible features of the three tubes (arranged top to bottom: A, C, B). All three contain a small volume of pale tan, uniformly cloudy liquid with smooth menisci. I do not see discrete clots, fibrin strands, or gelled masses in any tube. No phase separation or layering is apparent.\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"pale tan (yellow-brown)\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Uniform turbidity; smooth meniscus; no visible fibrin strands or clumps. Appears slightly more opaque/darker than the others; no layering or sediment.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale tan\",\n    \"transparency\": \"semi-transparent (slightly more translucent than A)\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Uniform turbidity; smooth meniscus; no visible fibrin strands/clots; no layering or sediment. Looks marginally lighter/clearer than A.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale tan\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Uniform turbidity; smooth meniscus; no visible fibrin strands/clots; no layering or sediment. Appearance intermediate between A and B.\"\n  },\n  \"most_coagulated\": null,\n  \"least_coagulated\": null,\n  \"overall_difference\": \"subtle\",\n  \"comparison_notes\": \"All three tubes show similarly cloudy, pale tan plasma without visible coagulation structures or phase separation. A appears slightly more opaque/darker; B slightly lighter/more translucent; C is intermediate. No tube shows visible evidence of early fibrin, partial clots, full coagulation, or lysis.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale tan (yellow-brown)",
+              "transparency": "semi-transparent",
+              "notes": "Uniform turbidity; smooth meniscus; no visible fibrin strands or clumps. Appears slightly more opaque/darker than the others; no layering or sediment.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale tan",
+              "transparency": "semi-transparent (slightly more translucent than A)",
+              "notes": "Uniform turbidity; smooth meniscus; no visible fibrin strands/clots; no layering or sediment. Looks marginally lighter/clearer than A.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "pale tan",
+              "transparency": "semi-transparent",
+              "notes": "Uniform turbidity; smooth meniscus; no visible fibrin strands/clots; no layering or sediment. Appearance intermediate between A and B.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "overall_difference": "subtle",
+            "comparison_notes": "All three tubes show similarly cloudy, pale tan plasma without visible coagulation structures or phase separation. A appears slightly more opaque/darker; B slightly lighter/more translucent; C is intermediate. No tube shows visible evidence of early fibrin, partial clots, full coagulation, or lysis."
+          }
+        }
+      }
+    },
+    {
+      "patient": "01",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3262",
+        "sample_ids": [
+          "21.1.1",
+          "0.1.1",
+          "19.1.1"
+        ],
+        "caption_original": "Left to right 21.1.1, 0.1.1, 19.1.1",
+        "caption_sent": "Left to right C, A, B",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 3
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 49335,
+          "error": null,
+          "raw": "Per-tube assessment (arranged left to right: C, A, B)\n\nSample C (leftmost):\n- Plasma color/transparency: pale yellow; transparent\n- Clots/fibrin: present — compact, rounded opaque deposit at the bottom; only minimal wispy material near the deposit\n- Coagulation stage: partial_clot (localized coagulum with clear supernatant)\n- Density/homogeneity: dense bottom mass; supernatant appears uniform and clear\n\nSample A (middle):\n- Plasma color/transparency: pale yellow; transparent\n- Clots/fibrin: present — largest opaque bottom coagulum; faint upward fibrin-like filaments and slight haze adjacent to the deposit\n- Coagulation stage: partial_clot (most advanced among the three, but bulk plasma remains liquid)\n- Density/homogeneity: dense central plug; supernatant mostly clear with localized turbidity near the clot\n\nSample B (rightmost):\n- Plasma color/transparency: pale yellow; transparent\n- Clots/fibrin: present — smallest compact opaque deposit at the bottom; no obvious strands in the liquid column\n- Coagulation stage: partial_clot (least advanced)\n- Density/homogeneity: compact small mass; supernatant is the most homogeneous and clear\n\nComparison:\n- Most advanced coagulation: sample_a\n- Least advanced coagulation: sample_b\n- Visible differences: size of bottom coagulum (A > C > B); presence of wispy strands/turbidity is most evident in A; B has the clearest, most homogeneous supernatant; all deposits are localized at the tube bottoms.\n- Overall visual difference: moderate\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Largest opaque coagulum at bottom with faint upward strands; slight local haze; supernatant otherwise clear.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Smallest compact opaque deposit at bottom; no obvious strands; supernatant most homogeneous and clear.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Compact rounded opaque deposit at bottom; minimal wispy material; clear, uniform supernatant.\"\n  },\n  \"most_coagulated\": \"sample_a\",\n  \"least_coagulated\": \"sample_b\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Bottom coagulum size differs (A > C > B). A shows faint fibrin-like strands and localized turbidity; B is clearest with the smallest clot; C is intermediate.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Largest opaque coagulum at bottom with faint upward strands; slight local haze; supernatant otherwise clear.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Smallest compact opaque deposit at bottom; no obvious strands; supernatant most homogeneous and clear.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Compact rounded opaque deposit at bottom; minimal wispy material; clear, uniform supernatant.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "control",
+            "least_coagulated": "ch19",
+            "overall_difference": "moderate",
+            "comparison_notes": "Bottom coagulum size differs (A > C > B). A shows faint fibrin-like strands and localized turbidity; B is clearest with the smallest clot; C is intermediate."
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3273",
+        "sample_ids": [
+          "19.2.1",
+          "0.2.1",
+          "21.2.1"
+        ],
+        "caption_original": "19.2.1 / 0.2.1 / 21.2.1 ((no caption))",
+        "caption_sent": "B / A / C ((no caption))",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 3
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 33874,
+          "error": null,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"straw-yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Middle tube. Uniform appearance with slight haze; a few tiny surface bubbles/adhesions on the wall. No visible fibrin strands or aggregates. Density appears even without layers or sediment.\"\n  },\n  \"sample_b\": {\n    \"color\": \"straw-yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Left tube. Similar to A; mild turbidity and small wall-adherent microbubbles. No strands, clumps, or gel-like regions. Homogeneous density.\"\n  },\n  \"sample_c\": {\n    \"color\": \"straw-yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Right tube. Slightly clearer than A and B but still faintly hazy. No visible coagulation structures. Homogeneous density; smooth meniscus.\"\n  },\n  \"most_coagulated\": null,\n  \"least_coagulated\": null,\n  \"overall_difference\": \"subtle\",\n  \"comparison_notes\": \"All three tubes show yellow plasma with mild haze and no visible fibrin strands, clots, or phase separation. If any difference, C appears marginally clearer than A and B; A and B have a few more wall-adherent bubbles. No tube displays signs of early fibrin, partial, or full coagulation.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "straw-yellow",
+              "transparency": "semi-transparent",
+              "notes": "Middle tube. Uniform appearance with slight haze; a few tiny surface bubbles/adhesions on the wall. No visible fibrin strands or aggregates. Density appears even without layers or sediment.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "straw-yellow",
+              "transparency": "semi-transparent",
+              "notes": "Left tube. Similar to A; mild turbidity and small wall-adherent microbubbles. No strands, clumps, or gel-like regions. Homogeneous density.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "straw-yellow",
+              "transparency": "semi-transparent",
+              "notes": "Right tube. Slightly clearer than A and B but still faintly hazy. No visible coagulation structures. Homogeneous density; smooth meniscus.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "overall_difference": "subtle",
+            "comparison_notes": "All three tubes show yellow plasma with mild haze and no visible fibrin strands, clots, or phase separation. If any difference, C appears marginally clearer than A and B; A and B have a few more wall-adherent bubbles. No tube displays signs of early fibrin, partial, or full coagulation."
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3274",
+        "sample_ids": [
+          "19.2.1",
+          "0.2.1",
+          "21.2.1"
+        ],
+        "caption_original": "19.2.1 / 0.2.1 / 21.2.1",
+        "caption_sent": "B / A / C",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 3
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 34271,
+          "error": null,
+          "raw": "Observations by tube (arranged left-to-right as B / A / C):\n- Sample B (left): Yellow to amber plasma with mild haze. Light passes through but not perfectly clear. No visible fibrin strands or discrete clots. Slight bottom-to-top color/intensity gradient; otherwise uniform with no layered sediment.\n- Sample A (center): Golden-yellow plasma, similar turbidity to B. No visible fibrin strands or clots. Mild vertical gradient; overall homogeneous without aggregates.\n- Sample C (right): Yellow plasma, appears marginally clearer than A and B. No visible fibrin strands or clots. Subtle gradient near the bottom; otherwise homogeneous.\n\nComparison:\n- Most advanced coagulation: None evident; no tube shows visible coagulation structures.\n- Least coagulated: Indistinguishable; all appear non-coagulated. If forced, C looks slightly clearer.\n- Visible differences: Primarily small differences in clarity and shade; C is slightly brighter/clearer; B and A a touch more turbid.\n- Overall visual difference: Subtle.\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"golden yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Center tube. No visible fibrin strands or clumps; mild bottom-to-top color gradient; generally homogeneous.\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellow to amber\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Left tube. Slight haze with darker tone near the bottom; no discrete clots or strands; largely homogeneous.\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Right tube. Slightly clearer than A and B; mild bottom shading; no visible coagulation structures; homogeneous.\"\n  },\n  \"most_coagulated\": null,\n  \"least_coagulated\": null,\n  \"overall_difference\": \"subtle\",\n  \"comparison_notes\": \"All three appear non-coagulated without visible fibrin or clots. Differences are minor: tube C is marginally clearer/brighter; tubes A and B are slightly more turbid with gentle vertical color gradients.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "golden yellow",
+              "transparency": "semi-transparent",
+              "notes": "Center tube. No visible fibrin strands or clumps; mild bottom-to-top color gradient; generally homogeneous.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "yellow to amber",
+              "transparency": "semi-transparent",
+              "notes": "Left tube. Slight haze with darker tone near the bottom; no discrete clots or strands; largely homogeneous.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "Right tube. Slightly clearer than A and B; mild bottom shading; no visible coagulation structures; homogeneous.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "overall_difference": "subtle",
+            "comparison_notes": "All three appear non-coagulated without visible fibrin or clots. Differences are minor: tube C is marginally clearer/brighter; tubes A and B are slightly more turbid with gentle vertical color gradients."
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3275",
+        "sample_ids": [
+          "19.2.1",
+          "0.2.1",
+          "21.2.1"
+        ],
+        "caption_original": "19.2.1 / 0.2.1 / 21.2.1 ((no caption))",
+        "caption_sent": "B / A / C ((no caption))",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 3
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 44889,
+          "error": null,
+          "raw": "Assessment by tube (left to right: B / A / C)\n\n- Sample B (left)\n  - Color/transparency: yellow; semi-transparent\n  - Clots/structures: no discrete clots or fibrin strands visible\n  - Coagulation stage: none\n  - Density/homogeneity: visually uniform; slight diffuse haze; smooth meniscus\n\n- Sample A (middle)\n  - Color/transparency: yellow; semi-transparent liquid with an opaque, whitish, flat mass/film at the liquid surface\n  - Clots/structures: present (discrete opaque coagulum/film)\n  - Coagulation stage: partial_clot\n  - Density/homogeneity: heterogeneous due to the solid mass at the surface; remaining liquid below appears uniform\n\n- Sample C (right)\n  - Color/transparency: yellow; most transparent of the three (still slightly translucent)\n  - Clots/structures: none visible\n  - Coagulation stage: none\n  - Density/homogeneity: homogeneous; smooth meniscus; no visible particulates\n\nComparison\n- Most advanced coagulation: sample A (visible coagulum/film)\n- Least: sample C (clearest, no visible structures; B also without clots but slightly hazier)\n- Visible differences: presence of an opaque surface coagulum in A; B and C lack discrete structures, with C appearing clearer than B\n- Overall visual difference: moderate (one tube clearly different; others similar)\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Opaque whitish flat mass/film at the liquid surface; underlying liquid appears uniform; heterogeneous overall.\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Uniform appearance with slight diffuse haze; smooth meniscus; no discrete strands or clumps seen.\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Clearest of the three; homogeneous with smooth meniscus; no visible particulates.\"\n  },\n  \"most_coagulated\": \"sample_a\",\n  \"least_coagulated\": \"sample_c\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Sample A shows a distinct opaque coagulum/film at the surface, unlike B and C. Sample C appears the clearest; B is slightly hazier but without discrete coagulation structures.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "Opaque whitish flat mass/film at the liquid surface; underlying liquid appears uniform; heterogeneous overall.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "Uniform appearance with slight diffuse haze; smooth meniscus; no discrete strands or clumps seen.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "Clearest of the three; homogeneous with smooth meniscus; no visible particulates.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "control",
+            "least_coagulated": "ch21",
+            "overall_difference": "moderate",
+            "comparison_notes": "Sample A shows a distinct opaque coagulum/film at the surface, unlike B and C. Sample C appears the clearest; B is slightly hazier but without discrete coagulation structures."
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3276",
+        "sample_ids": [
+          "19.2.2",
+          "0.2.2",
+          "21.2.2"
+        ],
+        "caption_original": "19.2.2 / 0.2.2 / 21.2.2",
+        "caption_sent": "B / A / C",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 3
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 42260,
+          "error": null,
+          "raw": "I only see one test tube in the provided image (no visible labels or neighboring tubes), so I cannot determine which of A, B, or C it corresponds to, nor can I compare across tubes.\n\nVisible tube (unlabeled) observations:\n- Plasma color/transparency: pale yellow core surrounded by a whitish/opal, turbid halo; overall semi‑transparent to opaque.\n- Coagulation structures: a contiguous gelatinous mass occupying the bottom/side of the tube, with smooth convex surface; faint sheet-like fibrin; no free clear supernatant layer visible.\n- Coagulation stage: consistent with full_coagulation (dense fibrin gel), no evident lysis.\n- Density/homogeneity: high apparent density; heterogeneous (denser yellow core with more opaque peripheral gel).\n\n```json\n{\n  \"sample_a\": {\n    \"color\": null,\n    \"transparency\": null,\n    \"clots\": null,\n    \"clot_stage\": null,\n    \"notes\": \"Not visible in the provided photo.\"\n  },\n  \"sample_b\": {\n    \"color\": null,\n    \"transparency\": null,\n    \"clots\": null,\n    \"clot_stage\": null,\n    \"notes\": \"Not visible in the provided photo.\"\n  },\n  \"sample_c\": {\n    \"color\": null,\n    \"transparency\": null,\n    \"clots\": null,\n    \"clot_stage\": null,\n    \"notes\": \"Not visible in the provided photo.\"\n  },\n  \"most_coagulated\": null,\n  \"least_coagulated\": null,\n  \"overall_difference\": null,\n  \"comparison_notes\": \"Only one tube is visible (unlabeled). It shows a dense, gelatinous fibrin mass (full_coagulation) with a pale-yellow core and turbid peripheral gel; no clear liquid phase. Cannot compare A/B/C without an image showing all three tubes together or clear labeling.\"\n}\n```",
+          "structured": {
+            "control": {
+              "notes": "Not visible in the provided photo."
+            },
+            "ch19": {
+              "notes": "Not visible in the provided photo."
+            },
+            "ch21": {
+              "notes": "Not visible in the provided photo."
+            },
+            "comparison_notes": "Only one tube is visible (unlabeled). It shows a dense, gelatinous fibrin mass (full_coagulation) with a pale-yellow core and turbid peripheral gel; no clear liquid phase. Cannot compare A/B/C without an image showing all three tubes together or clear labeling."
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3280",
+        "sample_ids": [
+          "21.2.1",
+          "19.2.1",
+          "0.2.1"
+        ],
+        "caption_original": "Left 21, right 19, bottom 0",
+        "caption_sent": "Left C, right B, bottom A",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 3
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 34248,
+          "error": null,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent (clearest of the three)\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Single compact yellow clot at the perimeter; surrounding liquid largely clear with low turbidity. Appearance suggests a dense clot plus a relatively thin, fluid supernatant. Heterogeneous.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow with slight greenish tint\",\n    \"transparency\": \"semi-transparent to opaque (most turbid)\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Dense yellow clot with broad cloudy/gel-like surrounding zone; largest area of opacity. No discrete fibrin strands clearly visible, but matrix looks thicker. Markedly heterogeneous.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent (intermediate turbidity)\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Compact yellow clot plus an elongated opaque tail/film along the edge. More cloudy than A, less than B. Heterogeneous.\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"All three show discrete clots with remaining liquid, indicating partial coagulation. B has the most extensive turbidity/gel-like area; C shows an intermediate opacity with an elongated opaque streak; A is the clearest with the smallest cloudy region. Differences are visually obvious.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent (clearest of the three)",
+              "notes": "Single compact yellow clot at the perimeter; surrounding liquid largely clear with low turbidity. Appearance suggests a dense clot plus a relatively thin, fluid supernatant. Heterogeneous.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow with slight greenish tint",
+              "transparency": "semi-transparent to opaque (most turbid)",
+              "notes": "Dense yellow clot with broad cloudy/gel-like surrounding zone; largest area of opacity. No discrete fibrin strands clearly visible, but matrix looks thicker. Markedly heterogeneous.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent (intermediate turbidity)",
+              "notes": "Compact yellow clot plus an elongated opaque tail/film along the edge. More cloudy than A, less than B. Heterogeneous.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "All three show discrete clots with remaining liquid, indicating partial coagulation. B has the most extensive turbidity/gel-like area; C shows an intermediate opacity with an elongated opaque streak; A is the clearest with the smallest cloudy region. Differences are visually obvious."
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3281",
+        "sample_ids": [
+          "19.2.1",
+          "0.2.1",
+          "21.2.1"
+        ],
+        "caption_original": "19.2.1 / 0.2.1 / 21.2.1 (After 6 hours)",
+        "caption_sent": "B / A / C (After 6 hours)",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 3
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 60391,
+          "error": null,
+          "raw": "Assessment by tube (arranged left-to-right as B / A / C):\n\n- Sample B (left):\n  - Color/transparency: pale yellow; mostly semi-transparent film\n  - Structures: clear fibrin-like sheets/strands with a small denser yellow nodule\n  - Coagulation stage: partial_clot (dispersed network with limited consolidated mass)\n  - Density/homogeneity: lowest overall density; very heterogeneous with large clear gaps\n\n- Sample A (center-left/bottom-left):\n  - Color/transparency: pale yellow; semi-transparent with opaque ridges\n  - Structures: thicker reticular band of fibrin-like material and a larger nodular focus\n  - Coagulation stage: partial_clot (more consolidated than B but still reticular)\n  - Density/homogeneity: medium density; heterogeneous (thickened ridges plus thinner areas)\n\n- Sample C (right):\n  - Color/transparency: yellow; predominantly opaque compact mass\n  - Structures: rounded, dense plug with only short peripheral strands\n  - Coagulation stage: full_coagulation (most consolidated)\n  - Density/homogeneity: highest density; relatively homogeneous core\n\nComparison:\n- Most advanced coagulation: Sample C\n- Least advanced coagulation: Sample B\n- Visible differences: C forms a compact, rounded clot; A shows a thicker reticular sheet with a larger node; B is spread into thin sheets/strands with only a small node.\n- Overall visual difference: pronounced\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Thicker reticular band with a larger nodular focus; medium density, heterogeneous (thick ridges and thinner areas).\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Dispersed thin sheets/strands along the rim with a small dense nodule; lowest density and most heterogeneous.\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"Compact, rounded clot with minimal peripheral strands; highest density and relatively homogeneous core.\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_b\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"C is a dense, rounded plug; A is a thicker reticular clot; B is mainly thin fibrin-like sheets with a small nodule. Consolidation increases from B < A < C.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Thicker reticular band with a larger nodular focus; medium density, heterogeneous (thick ridges and thinner areas).",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Dispersed thin sheets/strands along the rim with a small dense nodule; lowest density and most heterogeneous.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "opaque",
+              "notes": "Compact, rounded clot with minimal peripheral strands; highest density and relatively homogeneous core.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "ch19",
+            "overall_difference": "pronounced",
+            "comparison_notes": "C is a dense, rounded plug; A is a thicker reticular clot; B is mainly thin fibrin-like sheets with a small nodule. Consolidation increases from B < A < C."
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3282",
+        "sample_ids": [
+          "19.2.1",
+          "0.2.1",
+          "21.2.1"
+        ],
+        "caption_original": "19.2.1 / 0.2.1 / 21.2.1 (After 16 hours)",
+        "caption_sent": "B / A / C (After 16 hours)",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 3
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 50474,
+          "error": null,
+          "raw": "Observations by tube position (left to right: B / A / C):\n\n- Sample B (left): Pale-yellow, semi-transparent film adhered to the glass near the rim. Thin fibrinous sheet with a foam-like microbubble rim. One small, more opaque nodule suggestive of a compact clot. Heterogeneous; lowest apparent density among the three.\n- Sample A (bottom/center-left): Pale-yellow, semi-transparent to locally opaque. Broader fibrin film than B with a foamy peripheral rim and one denser nodule. Heterogeneous; moderate density.\n- Sample C (right): Pale-yellow to slightly deeper yellow, semi-transparent with a thicker, continuous bubble-lined rim. Two denser opaque nodules within the film. Heterogeneous; highest apparent density and extent of fibrin film.\n\nComparison:\n- Most advanced coagulation: Sample C (thickest peripheral mesh, multiple dense nodules).\n- Least advanced coagulation: Sample B (thinnest film, smallest single nodule).\n- Visible differences: Extent/thickness of fibrin film, number and size of opaque nodules, and prominence of the foamy rim increase from B → A → C.\n- Overall visual difference: Moderate.\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Broader fibrin film with foamy rim; one dense opaque nodule; heterogeneous with moderate density.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Thin fibrinous film along rim with microbubble edge; one small opaque nodule; lowest apparent density and most homogeneous of the three.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow to slightly deeper yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Thick, continuous bubble-lined rim; two dense opaque nodules; most extensive and dense fibrin film; markedly heterogeneous.\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_b\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"All samples show fibrin films and localized opaque nodules. Density and extent of coagulum increase from B to C; C has the thickest rim and multiple nodules, B the thinnest film with a single small nodule. No visual signs of lysis.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Broader fibrin film with foamy rim; one dense opaque nodule; heterogeneous with moderate density.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Thin fibrinous film along rim with microbubble edge; one small opaque nodule; lowest apparent density and most homogeneous of the three.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow to slightly deeper yellow",
+              "transparency": "semi-transparent",
+              "notes": "Thick, continuous bubble-lined rim; two dense opaque nodules; most extensive and dense fibrin film; markedly heterogeneous.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "ch19",
+            "overall_difference": "moderate",
+            "comparison_notes": "All samples show fibrin films and localized opaque nodules. Density and extent of coagulum increase from B to C; C has the thickest rim and multiple nodules, B the thinnest film with a single small nodule. No visual signs of lysis."
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3283",
+        "sample_ids": [
+          "19.2.1",
+          "0.2.1",
+          "21.2.1"
+        ],
+        "caption_original": "19.2.1 / 0.2.1 / 21.2.1 (After 21 hours)",
+        "caption_sent": "B / A / C (After 21 hours)",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 1
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 28182,
+          "error": null,
+          "raw": "I’m not able to identify any test tubes or distinct samples in this image. It appears to be a close-up of a translucent yellowish structure on a dark textured background, without visible cylindrical tubes, liquid columns, or labels for A/B/C. Therefore I cannot assess plasma appearance or coagulation per tube from this photo.\n\n```json\n{\n  \"sample_a\": {\n    \"color\": null,\n    \"transparency\": null,\n    \"clots\": null,\n    \"clot_stage\": null,\n    \"notes\": \"Tube A not visible/identifiable in the provided image; no discernible test tube or plasma layer.\"\n  },\n  \"sample_b\": {\n    \"color\": null,\n    \"transparency\": null,\n    \"clots\": null,\n    \"clot_stage\": null,\n    \"notes\": \"Tube B not visible/identifiable in the provided image; no discernible test tube or plasma layer.\"\n  },\n  \"sample_c\": {\n    \"color\": null,\n    \"transparency\": null,\n    \"clots\": null,\n    \"clot_stage\": null,\n    \"notes\": \"Tube C not visible/identifiable in the provided image; no discernible test tube or plasma layer.\"\n  },\n  \"most_coagulated\": null,\n  \"least_coagulated\": null,\n  \"overall_difference\": null,\n  \"comparison_notes\": \"The photo does not show multiple test tubes or labeled samples; unable to compare coagulation across A/B/C.\"\n}\n```",
+          "structured": {
+            "control": {
+              "notes": "Tube A not visible/identifiable in the provided image; no discernible test tube or plasma layer."
+            },
+            "ch19": {
+              "notes": "Tube B not visible/identifiable in the provided image; no discernible test tube or plasma layer."
+            },
+            "ch21": {
+              "notes": "Tube C not visible/identifiable in the provided image; no discernible test tube or plasma layer."
+            },
+            "comparison_notes": "The photo does not show multiple test tubes or labeled samples; unable to compare coagulation across A/B/C."
+          }
+        }
+      }
+    },
+    {
+      "patient": "04",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3310",
+        "sample_ids": [
+          "21.4.1",
+          "0.4.1",
+          "19.4.1"
+        ],
+        "caption_original": "Top to bottom 21.4.1/0.4.1/19.4.1",
+        "caption_sent": "Top to bottom C/A/B",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 3
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 42373,
+          "error": null,
+          "raw": "Per-tube assessment (top to bottom: C / A / B)\n\n- Sample C (top):\n  - Plasma color/transparency: straw–yellow, transparent\n  - Clots/fibrin: single rounded coagulum present; no visible free fibrin strands in the surrounding fluid\n  - Coagulation stage: appears as a formed, compact clot\n  - Density/homogeneity: most opaque and compact of the three; sharp boundary; slight internal density gradient (denser central area)\n\n- Sample A (middle):\n  - Plasma color/transparency: straw–yellow, transparent\n  - Clots/fibrin: single rounded coagulum present; no visible free fibrin strands\n  - Coagulation stage: formed clot present\n  - Density/homogeneity: smallest and most translucent; softer edges; relatively homogeneous appearance\n\n- Sample B (bottom):\n  - Plasma color/transparency: straw–yellow, transparent\n  - Clots/fibrin: single rounded coagulum present; no visible free fibrin strands\n  - Coagulation stage: formed clot present\n  - Density/homogeneity: intermediate size and opacity; fairly uniform; well-defined boundary\n\nComparison\n- Most advanced coagulation (most compact/opaque clot): Sample C\n- Least advanced coagulation (smallest/most translucent clot): Sample A\n- Visible differences: size, opacity, and compactness of the coagulum vary (C > B > A). Surrounding plasma appears similarly clear and colored across all tubes.\n- Overall visual difference: moderate\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"straw-yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"Smallest, most translucent rounded coagulum with softer edges; surrounding plasma clear; no visible free fibrin strands; relatively homogeneous.\"\n  },\n  \"sample_b\": {\n    \"color\": \"straw-yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"Intermediate-size coagulum; moderate opacity; fairly uniform with a well-defined boundary; surrounding plasma clear; no visible free fibrin strands.\"\n  },\n  \"sample_c\": {\n    \"color\": \"straw-yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"Largest and most opaque/compact coagulum; sharp boundary with slight internal density gradient; surrounding plasma clear; no visible free fibrin strands.\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"All tubes contain clear straw-yellow plasma with a single rounded coagulum. The coagulum in C is most compact/opaque, B is intermediate, and A is smallest/most translucent.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "straw-yellow",
+              "transparency": "transparent",
+              "notes": "Smallest, most translucent rounded coagulum with softer edges; surrounding plasma clear; no visible free fibrin strands; relatively homogeneous.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch19": {
+              "color": "straw-yellow",
+              "transparency": "transparent",
+              "notes": "Intermediate-size coagulum; moderate opacity; fairly uniform with a well-defined boundary; surrounding plasma clear; no visible free fibrin strands.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch21": {
+              "color": "straw-yellow",
+              "transparency": "transparent",
+              "notes": "Largest and most opaque/compact coagulum; sharp boundary with slight internal density gradient; surrounding plasma clear; no visible free fibrin strands.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "control",
+            "overall_difference": "moderate",
+            "comparison_notes": "All tubes contain clear straw-yellow plasma with a single rounded coagulum. The coagulum in C is most compact/opaque, B is intermediate, and A is smallest/most translucent."
+          }
+        }
+      }
+    },
+    {
+      "patient": "06",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3324",
+        "sample_ids": [
+          "21.6.2",
+          "0.6.2",
+          "19.6.2",
+          "21.6.1",
+          "0.6.1",
+          "19.6.1"
+        ],
+        "caption_original": "Top to bottom: 21.6.2, 0.6.2, 19.6.2, 21.6.1, 0.6.1, 19.6.1",
+        "caption_sent": "Top to bottom: C, A, B, C, A, B",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 6
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 59915,
+          "error": null,
+          "raw": "Per-tube assessment (top to bottom: C, A, B, C, A, B)\n\nTube 1 (C)\n- Color/transparency: pale yellow, transparent\n- Clots/fibrin: single round, opaque yellow clot at the tip; no obvious free strands\n- Coagulation stage: full_coagulation\n- Density/homogeneity: high density, smooth edges, homogeneous\n\nTube 2 (A)\n- Color/transparency: pale yellow, slightly hazy (semi‑transparent)\n- Clots/fibrin: irregular, mottled clot with wispy/fibrinous fringes; a few fine strands visible\n- Coagulation stage: partial_clot (closer to early_fibrin than to full)\n- Density/homogeneity: low–moderate density, heterogeneous\n\nTube 3 (B)\n- Color/transparency: pale yellow, transparent\n- Clots/fibrin: compact circular clot; mostly smooth margins\n- Coagulation stage: full_coagulation\n- Density/homogeneity: high density, fairly homogeneous\n\nTube 4 (C)\n- Color/transparency: pale yellow, transparent\n- Clots/fibrin: small, less opaque clot with somewhat fuzzy margins; scant strands possible\n- Coagulation stage: partial_clot\n- Density/homogeneity: moderate density, moderately heterogeneous\n\nTube 5 (A)\n- Color/transparency: pale yellow, slightly hazy (semi‑transparent)\n- Clots/fibrin: irregular, friable/mottled clot with feathery edges\n- Coagulation stage: partial_clot\n- Density/homogeneity: low–moderate density, heterogeneous\n\nTube 6 (B)\n- Color/transparency: pale yellow, transparent\n- Clots/fibrin: large, opaque, compact circular clot; smooth margins\n- Coagulation stage: full_coagulation\n- Density/homogeneity: very high density, homogeneous\n\nComparison\n- Most advanced coagulation: B (tube 6 is the largest, densest clot; tube 3 also compact)\n- Least advanced coagulation: A (both A tubes show irregular, less dense, fibrinous clots and haze)\n- Visible differences: B shows large, smooth, compact clots; A shows wispy/irregular, mottled clots with slight turbidity; C is intermediate with one compact clot (tube 1) and one smaller/less dense clot (tube 4).\n- Overall visual difference: pronounced\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Irregular, mottled clots with wispy/fibrinous fringes; slight turbidity; lower density and higher heterogeneity than others.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"Large, opaque, compact circular clots with smooth edges; highest density and homogeneity among samples.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": null,\n    \"notes\": \"One replicate shows a dense, compact clot (consistent with full coagulation); the other shows a smaller, less dense clot with slightly fuzzy margins (partial).\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"B forms the largest, smoothest, most opaque clots; A shows less compact, fibrinous clots with haze; C is intermediate with variability between replicates.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Irregular, mottled clots with wispy/fibrinous fringes; slight turbidity; lower density and higher heterogeneity than others.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Large, opaque, compact circular clots with smooth edges; highest density and homogeneity among samples.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "One replicate shows a dense, compact clot (consistent with full coagulation); the other shows a smaller, less dense clot with slightly fuzzy margins (partial).",
+              "clots": true
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "B forms the largest, smoothest, most opaque clots; A shows less compact, fibrinous clots with haze; C is intermediate with variability between replicates."
+          }
+        }
+      }
+    },
+    {
+      "patient": "06",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3325",
+        "sample_ids": [
+          "21.6.1",
+          "0.6.1",
+          "19.6.1"
+        ],
+        "caption_original": "Left to right: 21.6.1, 0.6.1, 19.6.1",
+        "caption_sent": "Left to right: C, A, B",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 3
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 46313,
+          "error": null,
+          "raw": "Observations\n- All three tubes contain a small amount of straw‑yellow liquid that appears clear when backlit. Each tube shows a pale, gel-like mass adhered to the inner wall near the top, with varying size/opacities. No obvious dissolution or fragmentation is seen.\n\n- Tube C (left): smallest, more translucent clot with fine wispy strands around it.\n- Tube A (middle): medium-sized, more opaque/compact clot; a few thin strands.\n- Tube B (right): largest and most opaque/compact clot; few if any strands.\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"straw yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Moderate-sized, opaque/compact gel-like mass adhered to wall with a few thin strands; surrounding liquid clear. Inhomogeneous distribution with a localized dense area.\"\n  },\n  \"sample_b\": {\n    \"color\": \"straw yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Largest, most opaque/compact mass; minimal visible strands. Surrounding liquid clear. Most dense/contracted appearance; markedly inhomogeneous.\"\n  },\n  \"sample_c\": {\n    \"color\": \"straw yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Smallest, more translucent mass with visible wispy strands around it. Surrounding liquid clear. Least dense/compact; inhomogeneous with a localized clot.\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_c\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"All tubes show localized clot-like masses with clear plasma. Sample B exhibits the largest and most opaque/compact mass; sample C shows the smallest and most translucent mass with more strands; sample A is intermediate. No tube shows whole-volume gelation or visible lysis.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "straw yellow",
+              "transparency": "transparent",
+              "notes": "Moderate-sized, opaque/compact gel-like mass adhered to wall with a few thin strands; surrounding liquid clear. Inhomogeneous distribution with a localized dense area.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "straw yellow",
+              "transparency": "transparent",
+              "notes": "Largest, most opaque/compact mass; minimal visible strands. Surrounding liquid clear. Most dense/contracted appearance; markedly inhomogeneous.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "straw yellow",
+              "transparency": "transparent",
+              "notes": "Smallest, more translucent mass with visible wispy strands around it. Surrounding liquid clear. Least dense/compact; inhomogeneous with a localized clot.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "moderate",
+            "comparison_notes": "All tubes show localized clot-like masses with clear plasma. Sample B exhibits the largest and most opaque/compact mass; sample C shows the smallest and most translucent mass with more strands; sample A is intermediate. No tube shows whole-volume gelation or visible lysis."
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "mode": "multi_tube_blinded",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3352",
+        "sample_ids": [
+          "0.7.1",
+          "0.7.2",
+          "19.7.1",
+          "19.7.2",
+          "21.7.1",
+          "21.7.2"
+        ],
+        "caption_original": "Left to right 0, 19, 21",
+        "caption_sent": "Left to right A, B, C",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "sample_count": 4
+      },
+      "providers": {
+        "openai": {
+          "latency_ms": 69666,
+          "error": null,
+          "raw": "Observations by tube (left to right A, B, C):\n\nA:\n- Plasma is straw/pale yellow and appears transparent.\n- A distinct circular, semi-opaque coagulum is attached at the rounded end of the tube; internal fibrin-like web visible. No long strands extending into the bulk fluid.\n- Coagulation stage consistent with a localized formed clot (not the entire volume).\n- Density/homogeneity: heterogeneous—dense clot region with otherwise uniform clear plasma.\n\nB:\n- Plasma is straw/pale yellow and transparent.\n- A smaller, more translucent circular coagulum at the tube end; internal structure less defined than in A. No extended strands.\n- Coagulation present but less developed than A.\n- Density/homogeneity: heterogeneous but with the smallest/diffusest clot of the three.\n\nC:\n- Plasma is straw/pale yellow and transparent.\n- A comparatively larger and more opaque circular coagulum at the tube end; visible internal fibrin network.\n- Coagulation present and appears most developed among the three (still localized).\n- Density/homogeneity: heterogeneous—largest dense clot with clear surrounding plasma.\n\nComparison:\n- Most advanced coagulation: C (largest/most opaque clot).\n- Least advanced coagulation: B (smallest/most translucent clot).\n- Visible differences: mainly the size, opacity, and internal network prominence of the localized coagulum; all have similarly clear straw-colored plasma and no tube-spanning fibrin strands.\n- Overall visual difference: moderate.\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Disc-like semi-opaque coagulum at tube end with visible internal web; surrounding plasma clear; heterogeneous due to localized dense clot.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Smaller, more translucent coagulum at tube end; weakest internal structure; surrounding plasma clear; least advanced among the three.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Largest and most opaque coagulum at tube end with prominent internal network; surrounding plasma clear; most advanced localized clot.\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_b\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"All tubes contain clear straw-colored plasma with a localized circular coagulum at the tube end; clot size and opacity increase from B < A ≤ C; no tube-spanning fibrin strands, no whole-tube gelation, and no signs of lysis.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Disc-like semi-opaque coagulum at tube end with visible internal web; surrounding plasma clear; heterogeneous due to localized dense clot.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Smaller, more translucent coagulum at tube end; weakest internal structure; surrounding plasma clear; least advanced among the three.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Largest and most opaque coagulum at tube end with prominent internal network; surrounding plasma clear; most advanced localized clot.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "ch19",
+            "overall_difference": "moderate",
+            "comparison_notes": "All tubes contain clear straw-colored plasma with a localized circular coagulum at the tube end; clot size and opacity increase from B < A ≤ C; no tube-spanning fibrin strands, no whole-tube gelation, and no signs of lysis."
+          }
+        }
+      }
+    }
+  ]
+}

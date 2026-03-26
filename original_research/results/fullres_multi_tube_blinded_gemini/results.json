@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "generated": "2026-03-13T08:29:55Z",
+    "mode": "multi_tube_blinded",
+    "blinded": true,
+    "blind_map": {
+      "0": "A",
+      "19": "B",
+      "21": "C"
+    },
+    "providers": [
+      "google"
+    ],
+    "total_comparisons": 4,
+    "model": "gemini-2.5-flash-lite"
+  },
+  "comparisons": [
+    {
+      "patient": "01",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3253",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "arrangement": "Top to bottom: B, C, A"
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 3754,
+          "error": null,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"The plasma is a clear, bright yellow. The lower portion shows some settled cells or particulate matter.\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"The plasma is a slightly darker yellow than sample A. There are visible fibrin strands and small clot structures suspended within the plasma. The liquid appears less transparent than sample A.\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"The plasma is a clear, pale yellow, similar to sample A but potentially lighter. The liquid appears clear and homogeneous.\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Sample B clearly shows signs of partial coagulation with visible fibrin strands and clot structures, whereas samples A and C appear to be uncoagulated or minimally coagulated. Samples A and C have clear, yellow plasma, with sample C appearing slightly paler yellow than sample A. Sample A has some settled material at the bottom.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellow",
+              "transparency": "transparent",
+              "notes": "The plasma is a clear, bright yellow. The lower portion shows some settled cells or particulate matter.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "The plasma is a slightly darker yellow than sample A. There are visible fibrin strands and small clot structures suspended within the plasma. The liquid appears less transparent than sample A.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "transparent",
+              "notes": "The plasma is a clear, pale yellow, similar to sample A but potentially lighter. The liquid appears clear and homogeneous.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "moderate",
+            "comparison_notes": "Sample B clearly shows signs of partial coagulation with visible fibrin strands and clot structures, whereas samples A and C appear to be uncoagulated or minimally coagulated. Samples A and C have clear, yellow plasma, with sample C appearing slightly paler yellow than sample A. Sample A has some settled material at the bottom."
+          },
+          "fallback": false
+        }
+      }
+    },
+    {
+      "patient": "01",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3254",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "arrangement": "4 test tubes with labels: A, C, B, 0.1..."
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 6121,
+          "error": null,
+          "raw": "Here's an analysis of the visible test tubes:\n\n**Sample A:**\n- **Color:** Pale yellow\n- **Transparency:** Semi-transparent\n- **Clots:** False\n- **Clot stage:** None\n- **Density and homogeneity:** The plasma appears homogenous with some small, indistinct particles.\n\n**Sample C:**\n- **Color:** Pale yellow\n- **Transparency:** Transparent\n- **Clots:** False\n- **Clot stage:** None\n- **Density and homogeneity:** The plasma appears homogenous and clear.\n\n**Sample B:**\n- **Color:** Pale yellow\n- **Transparency:** Semi-transparent to opaque in areas.\n- **Clots:** True\n- **Clot stage:** Partial clot\n- **Density and homogeneity:** There are visible structures resembling fibrin strands and partially formed clots within the plasma. The plasma is less homogenous and more opaque due to these structures.\n\n**Sample 0.1:** (This is the lowest tube, but appears to be labeled \"0.1\")\n- **Color:** Pale yellow\n- **Transparency:** Semi-transparent\n- **Clots:** False\n- **Clot stage:** None\n- **Density and homogeneity:** The plasma appears homogenous with some small, indistinct particles, similar to sample A.\n\n**Comparison:**\n\n- **Most advanced coagulation:** Sample B shows the most advanced coagulation, with visible clots and fibrin strands.\n- **Least advanced coagulation:** Samples A, C, and 0.1 all show no visible signs of coagulation. They are essentially in the same state in terms of coagulation.\n\n**Visible differences between the tubes:**\nThe most striking difference is the presence of visible coagulation structures (fibrin strands and partial clots) in sample B, which are absent in samples A, C, and 0.1. Samples A and 0.1 appear very similar to each other, both being semi-transparent. Sample C is the clearest and most transparent of the non-coagulated samples.\n\n**Overall visual difference:** Pronounced\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Homogenous plasma with some indistinct particles.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent / opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Visible fibrin strands and partial clot structures present.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Clear and homogenous plasma.\"\n  },\n  \"sample_0.1\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Homogenous plasma with some indistinct particles, similar to sample A.\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Sample B exhibits clear signs of partial coagulation with visible fibrin strands and clots, unlike samples A, C, and 0.1 which show no coagulation. Sample C is the most transparent among the non-coagulated samples.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Homogenous plasma with some indistinct particles.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent / opaque",
+              "notes": "Visible fibrin strands and partial clot structures present.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Clear and homogenous plasma.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Sample B exhibits clear signs of partial coagulation with visible fibrin strands and clots, unlike samples A, C, and 0.1 which show no coagulation. Sample C is the most transparent among the non-coagulated samples."
+          },
+          "fallback": false
+        }
+      }
+    },
+    {
+      "patient": "01",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3255",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "arrangement": "Top to bottom: B, C, A (3 test tubes on a dark surface)"
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 5895,
+          "error": null,
+          "raw": "```json\n{\n  \"sample_a\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Fluid plasma, no visible clotting structures. Appears to be the clearest and most liquid.\"\n  },\n  \"sample_b\": {\n    \"color\": \"pale yellow with some cloudiness\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"Significant opaque white coagulated material is visible, occupying a substantial portion of the tube. Some liquid appears to be present around the clot, possibly serum separation.\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Visible fibrin strands and some clumping are present. It is not a complete clot like in sample B, but shows definite signs of coagulation.\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Sample B shows the most advanced coagulation, appearing as a nearly solid mass. Sample C exhibits partial coagulation with visible fibrin strands. Sample A shows no signs of coagulation and appears to be entirely liquid plasma.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Fluid plasma, no visible clotting structures. Appears to be the clearest and most liquid.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow with some cloudiness",
+              "transparency": "semi-transparent",
+              "notes": "Significant opaque white coagulated material is visible, occupying a substantial portion of the tube. Some liquid appears to be present around the clot, possibly serum separation.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Visible fibrin strands and some clumping are present. It is not a complete clot like in sample B, but shows definite signs of coagulation.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Sample B shows the most advanced coagulation, appearing as a nearly solid mass. Sample C exhibits partial coagulation with visible fibrin strands. Sample A shows no signs of coagulation and appears to be entirely liquid plasma."
+          },
+          "fallback": false
+        }
+      }
+    },
+    {
+      "patient": "01",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photo": {
+        "filename": "IMG_3256",
+        "channels": [
+          "0",
+          "19",
+          "21"
+        ],
+        "arrangement": "Top to bottom: C, B, A"
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 653,
+          "error": "QUOTA_EXHAUSTED",
+          "raw": null,
+          "structured": null,
+          "fallback": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1076 @@
+{
+  "metadata": {
+    "generated": "2026-03-12T21:53:02.233175+00:00",
+    "mode": "comparative",
+    "blinded": false,
+    "blind_map": null,
+    "providers": [
+      "google"
+    ],
+    "total_comparisons": 19
+  },
+  "comparisons": [
+    {
+      "patient": "02",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3268",
+          "sample_ids": [
+            "0.2.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3265",
+          "sample_ids": [
+            "19.2.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3270",
+          "sample_ids": [
+            "21.2.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 15081,
+          "error": null,
+          "fallback": false,
+          "raw": "Based on a visual analysis of the provided images, here is the comparative study of the blood plasma samples.\n\n### Independent Assessment\n\n#### Image 1: CONTROL (No exposure)\n1.  **Plasma color and transparency**: Pale yellow/amber; semi-transparent.\n2.  **Presence/absence of clots**: Yes. There is a visible, cloudy, inhomogeneous mass in the upper two-thirds of the liquid, characteristic of early fibrin network formation.\n3.  **Coagulation stage**: Partial clot / early fibrin.\n4.  **Density and homogeneity**: Inhomogeneous; denser cloudiness is concentrated toward the top and center.\n5.  **Unique morphological features**: The fibrin mass appears relatively soft and diffuse.\n\n#### Image 2: CH19 (Time acceleration)\n1.  **Plasma color and transparency**: Pale yellow/amber; semi-transparent to opaque in denser areas.\n2.  **Presence/absence of clots**: Yes. Shows a more pronounced and slightly more structured cloudiness compared to the control.\n3.  **Coagulation stage**: Partial clot. The fibrin network appears more polymerized and dense than the control.\n4.  **Density and homogeneity**: Inhomogeneous; shows more defined \"wisps\" or strands within the cloudy mass.\n5.  **Unique morphological features**: Increased opacity in the central region of the tube suggests a more advanced stage of fibrin cross-linking.\n\n#### Image 3: CH21 (Time deceleration)\n1.  **Plasma color and transparency**: Pale yellow/amber; semi-transparent.\n2.  **Presence/absence of clots**: Yes. Cloudiness is present, but it appears more diffuse and less \"clumped\" than in CH19.\n3.  **Coagulation stage**: Early fibrin / partial clot.\n4.  **Density and homogeneity**: Inhomogeneous; the cloudiness is more evenly distributed throughout the upper volume compared to the more \"knotted\" appearance of CH19.\n5.  **Unique morphological features**: Appears slightly more translucent in the lower regions of the plasma compared to the other two samples.\n\n---\n\n### Comparative Analysis\n\n*   **Most advanced coagulation**: **CH19**. It exhibits the highest density of fibrin structures and the greatest degree of opacity within the clot mass, consistent with the \"time acceleration\" treatment.\n*   **Least advanced coagulation**: **CH21** or **Control**. CH21 appears slightly more diffuse and less structured than the control, though the difference is marginal.\n*   **Visible differences**: All three samples have begun the coagulation process. The differences are primarily in the density and structural definition of the fibrin networks.\n*   **CH19 vs CH21**: CH19 shows a more \"mature\" partial clot with higher internal density, while CH21 shows a more \"suspended\" or diffuse fibrin state.\n*   **Overall visual difference**: **Subtle**. While differences in density and structure are observable, all samples remain in the \"partial clot\" phase without full retraction or complete solidification visible in these static images.\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Visible cloudy fibrin mass in the upper portion of the tube; inhomogeneous density.\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Most pronounced coagulation; fibrin structures appear denser and more structured/opaque than control.\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"Fibrin mass appears more diffuse and less polymerized than CH19; slightly more translucent.\"\n  },\n  \"most_coagulated\": \"ch19\",\n  \"least_coagulated\": \"ch21\",\n  \"overall_difference\": \"subtle\",\n  \"comparison_notes\": \"CH19 (acceleration) shows slightly more advanced fibrin polymerization and density. CH21 (deceleration) shows the most diffuse and least structured fibrin network of the three.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Visible cloudy fibrin mass in the upper portion of the tube; inhomogeneous density.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Most pronounced coagulation; fibrin structures appear denser and more structured/opaque than control.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Fibrin mass appears more diffuse and less polymerized than CH19; slightly more translucent.",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "subtle",
+            "comparison_notes": "CH19 (acceleration) shows slightly more advanced fibrin polymerization and density. CH21 (deceleration) shows the most diffuse and least structured fibrin network of the three."
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3269",
+          "sample_ids": [
+            "0.2.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3266",
+          "sample_ids": [
+            "19.2.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3271",
+          "sample_ids": [
+            "21.2.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 15138,
+          "error": null,
+          "fallback": false,
+          "raw": "Based on a visual analysis of the provided images, here is the comparative study of the blood plasma samples.\n\n### Independent Assessment\n\n**Image 1: Control**\n1.  **Plasma color and transparency**: Pale yellow; semi-transparent.\n2.  **Presence/absence of clots**: No visible clots or fibrin strands; appears as a homogeneous liquid.\n3.  **Coagulation stage**: None.\n4.  **Density and homogeneity**: High homogeneity throughout the sample.\n5.  **Unique morphological features**: Standard appearance of liquid plasma.\n\n**Image 2: CH19 (Time Acceleration)**\n1.  **Plasma color and transparency**: Pale yellow; semi-transparent to opaque. It appears cloudier than the control.\n2.  **Presence/absence of clots**: Yes; there is visible thickening and a non-homogeneous texture in the center of the tube, suggesting the formation of a partial clot or gel-like structure.\n3.  **Coagulation stage**: Partial_clot.\n4.  **Density and homogeneity**: Reduced homogeneity; visible denser regions within the plasma volume.\n5.  **Unique morphological features**: Increased turbidity and internal structural shadows indicating fibrin network formation.\n\n**Image 3: CH21 (Time Deceleration)**\n1.  **Plasma color and transparency**: Pale yellow; transparent to semi-transparent.\n2.  **Presence/absence of clots**: No visible clots or fibrin strands.\n3.  **Coagulation stage**: None.\n4.  **Density and homogeneity**: Highly homogeneous.\n5.  **Unique morphological features**: Appears slightly more transparent and \"thinner\" than the control sample.\n\n### Comparative Analysis\n\n*   **Most advanced coagulation**: **CH19** shows the most advanced signs of coagulation, with visible turbidity and structural changes indicating clot formation.\n*   **Least advanced coagulation**: **CH21** appears the least advanced, maintaining the highest level of transparency and homogeneity.\n*   **Visible differences**: There is a clear difference between the treated CH19 sample and the control. CH19 is significantly more opaque. CH21 is very similar to the control but appears slightly clearer.\n*   **CH19 vs. CH21**: These two samples represent opposite ends of the spectrum in this set; CH19 is noticeably thickened/coagulated, while CH21 remains a clear liquid.\n*   **Overall visual difference**: **Moderate**. The change in CH19 is distinct and easily identifiable compared to the other two samples.\n\n### JSON Data\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Homogeneous liquid appearance typical of fresh plasma.\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent to opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Visible thickening and increased turbidity compared to control, indicating the onset of coagulation structures.\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Maintains high transparency and homogeneity; appears slightly less settled than the control.\"\n  },\n  \"most_coagulated\": \"ch19\",\n  \"least_coagulated\": \"ch21\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"CH19 shows a distinct increase in opacity and structural density, suggesting accelerated coagulation. CH21 remains highly transparent and liquid, appearing the most stable of the three samples.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Homogeneous liquid appearance typical of fresh plasma.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent to opaque",
+              "notes": "Visible thickening and increased turbidity compared to control, indicating the onset of coagulation structures.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Maintains high transparency and homogeneity; appears slightly less settled than the control.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "moderate",
+            "comparison_notes": "CH19 shows a distinct increase in opacity and structural density, suggesting accelerated coagulation. CH21 remains highly transparent and liquid, appearing the most stable of the three samples."
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3278",
+          "sample_ids": [
+            "0.2.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3267",
+          "sample_ids": [
+            "19.2.2"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3272",
+          "sample_ids": [
+            "21.2.2"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 38212,
+          "error": null,
+          "fallback": false,
+          "raw": "Based on a comparative visual analysis of the provided images, here is the assessment of the blood plasma samples under the specified experimental conditions.\n\n### 1. Image 1 (CONTROL)\n*   **Plasma color and transparency**: Pale yellow and semi-transparent. The liquid appears clear enough to see the texture of the underlying surface.\n*   **Presence/absence of clots**: No visible clots, fibrin strands, or coagulation structures.\n*   **Coagulation stage**: **none**. The sample remains in a fully liquid state.\n*   **Density and homogeneity**: Appears as a homogeneous, low-viscosity liquid drop.\n*   **Unique morphological features**: Standard appearance of fresh, non-coagulated plasma.\n\n### 2. Image 2 (CH19 — time acceleration)\n*   **Plasma color and transparency**: Deeper yellow and largely opaque/turbid.\n*   **Presence/absence of clots**: Yes; while no large solid mass is visible, the high degree of turbidity indicates the formation of an extensive early fibrin network throughout the volume.\n*   **Coagulation stage**: **early_fibrin**. The loss of transparency is a hallmark of the initial stages of gelation.\n*   **Density and homogeneity**: Appears significantly more dense and viscous than the control.\n*   **Unique morphological features**: Pronounced cloudiness throughout the tube, suggesting accelerated protein polymerization.\n\n### 3. Image 3 (CH21 — time deceleration)\n*   **Plasma color and transparency**: Yellow and semi-transparent.\n*   **Presence/absence of clots**: No distinct clots or fibrin strands are visible.\n*   **Coagulation stage**: **none**. The plasma appears to have maintained its liquid state.\n*   **Density and homogeneity**: Generally homogeneous, though there is a slight increase in cloudiness compared to the control drop, possibly due to the depth of the liquid in the test tubes.\n*   **Unique morphological features**: This image shows three test tubes. Notably, the leftmost tube bears a \"C19\" label, which may indicate a cross-sample comparison within this specific image.\n\n### Comparison Summary\n*   **Most advanced coagulation**: **CH19 (Image 2)** shows the most advanced state, characterized by significant turbidity and opacity consistent with early fibrin formation.\n*   **Least advanced coagulation**: **Control (Image 1)** shows the least advancement, appearing as a perfectly clear liquid.\n*   **Visible differences**: There is a marked difference between the control and the treated samples. CH19 is significantly more opaque than both the Control and CH21.\n*   **CH19 vs. CH21**: CH19 (acceleration) is visibly more \"advanced\" in its transition toward coagulation (higher turbidity) than CH21 (deceleration), which remains relatively clear.\n*   **Overall visual difference**: **pronounced**.\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Appears as a clear, homogeneous liquid drop with no signs of fibrin formation.\"\n  },\n  \"ch19\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"Significant turbidity and loss of transparency indicate an accelerated transition toward gelation.\"\n  },\n  \"ch21\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Shows three tubes; plasma remains mostly clear, appearing less advanced than CH19.\"\n  },\n  \"most_coagulated\": \"ch19\",\n  \"least_coagulated\": \"control\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"CH19 (time acceleration) exhibits the highest degree of turbidity, suggesting the most advanced early-stage coagulation. The control is the most liquid/clear. CH21 (time deceleration) appears intermediate but closer to the control in transparency.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Appears as a clear, homogeneous liquid drop with no signs of fibrin formation.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "yellow",
+              "transparency": "opaque",
+              "notes": "Significant turbidity and loss of transparency indicate an accelerated transition toward gelation.",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "Shows three tubes; plasma remains mostly clear, appearing less advanced than CH19.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "CH19 (time acceleration) exhibits the highest degree of turbidity, suggesting the most advanced early-stage coagulation. The control is the most liquid/clear. CH21 (time deceleration) appears intermediate but closer to the control in transparency."
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3286",
+          "sample_ids": [
+            "0.2.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3277",
+          "sample_ids": [
+            "19.2.2"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3279",
+          "sample_ids": [
+            "21.2.2"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 21701,
+          "error": null,
+          "fallback": false,
+          "raw": "Based on a comparative visual analysis of the provided blood plasma samples, here is the biomedical assessment:\n\n### 1. Image 1: CONTROL (No exposure)\n*   **Plasma color and transparency**: The sample is a pale, straw-yellow color. It is semi-transparent at the periphery, becoming more opaque toward the center.\n*   **Presence/absence of clots**: **Yes**. There is a well-defined, opaque central yellow mass, which represents a partial clot or a significant concentration of fibrin.\n*   **Coagulation stage**: **partial_clot**. The sample shows a clear differentiation between the liquid phase and a forming solid phase.\n*   **Density and homogeneity**: Non-homogeneous; density is significantly higher in the central region.\n*   **Unique morphological features**: A smooth, rounded central mass within a larger, more translucent drop.\n\n### 2. Image 2: CH19 (Time acceleration)\n*   **Plasma color and transparency**: Pale yellow, appearing slightly more \"milky\" or cloudy than the control. The central region is highly opaque.\n*   **Presence/absence of clots**: **Yes**. A large, dense, and highly opaque central mass is present.\n*   **Coagulation stage**: **full_coagulation** (relative to the drop volume). The central mass is more developed and occupies a larger proportion of the sample compared to the control.\n*   **Density and homogeneity**: Highly non-homogeneous; the central mass appears very dense and structured.\n*   **Unique morphological features**: The central mass shows visible surface irregularities and \"wrinkling,\" suggesting a more mature and contracted fibrin network.\n\n### 3. Image 3: CH21 (Time deceleration)\n*   **Plasma color and transparency**: Pale yellow and generally more translucent/transparent than the other two samples.\n*   **Presence/absence of clots**: **Yes (minimal)**. Each of the three drops shows a very small, faint central spot of increased density.\n*   **Coagulation stage**: **early_fibrin**. The sample appears mostly liquid with only the earliest signs of central thickening.\n*   **Density and homogeneity**: Relatively homogeneous compared to the others; the central concentrations are small and lack the opacity of the control or CH19.\n*   **Unique morphological features**: Multiple small drops showing very limited progression of coagulation structures.\n\n---\n\n### Comparative Analysis\n*   **Most advanced coagulation**: **CH19** shows the largest, densest, and most structured central clot.\n*   **Least advanced coagulation**: **CH21** shows the smallest and least defined areas of coagulation.\n*   **Visible differences**: There is a clear gradient in the size and opacity of the central coagulated mass across the three samples.\n*   **CH19 vs. CH21**: These samples represent opposite ends of the spectrum in this study; CH19 is significantly more coagulated than CH21.\n*   **Overall visual difference**: **Pronounced**. The differences in the volume and density of the formed structures are easily distinguishable.\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Shows a distinct, opaque central yellow mass surrounded by a more translucent periphery.\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent to opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"The central mass is significantly larger and more opaque than the control, with visible surface texture suggesting a dense fibrin network.\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"Shows only very small, faint central concentrations within the drops, indicating minimal coagulation activity.\"\n  },\n  \"most_coagulated\": \"ch19\",\n  \"least_coagulated\": \"ch21\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"There is a visible gradient in coagulation progress. CH19 (time acceleration) exhibits the most advanced clot formation, while CH21 (time deceleration) exhibits the least, with the control sample positioned between them.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Shows a distinct, opaque central yellow mass surrounded by a more translucent periphery.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent to opaque",
+              "notes": "The central mass is significantly larger and more opaque than the control, with visible surface texture suggesting a dense fibrin network.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Shows only very small, faint central concentrations within the drops, indicating minimal coagulation activity.",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "pronounced",
+            "comparison_notes": "There is a visible gradient in coagulation progress. CH19 (time acceleration) exhibits the most advanced clot formation, while CH21 (time deceleration) exhibits the least, with the control sample positioned between them."
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3287",
+          "sample_ids": [
+            "0.2.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3284",
+          "sample_ids": [
+            "19.2.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3285",
+          "sample_ids": [
+            "21.2.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 14835,
+          "error": null,
+          "fallback": false,
+          "raw": "Based on a comparative biomedical analysis of the provided images, here is the assessment of the blood plasma samples.\n\n### Independent Sample Assessment\n\n**Image 1: CONTROL**\n*   **Plasma color and transparency:** Pale yellow and semi-transparent.\n*   **Presence/absence of clots:** No visible clots or fibrin strands; the sample appears as a homogeneous liquid.\n*   **Coagulation stage:** None.\n*   **Density and homogeneity:** High homogeneity, typical of liquid plasma.\n*   **Unique morphological features:** Standard appearance of anticoagulated or fresh liquid plasma in a clinical test tube.\n\n**Image 2: CH19 (Time Acceleration)**\n*   **Plasma color and transparency:** Pale yellow center with translucent/white peripheral structures; semi-transparent to opaque in denser areas.\n*   **Presence/absence of clots:** Yes. Shows an extremely dense, intricate network of fine, interconnected fibrin-like structures.\n*   **Coagulation stage:** Full coagulation (advanced structural development).\n*   **Density and homogeneity:** Very high density of micro-structures; non-homogeneous due to the complex mesh.\n*   **Unique morphological features:** Characterized by a very fine, \"cracked\" or \"cellular\" morphology with high connectivity, suggesting rapid or advanced structural formation.\n\n**Image 3: CH21 (Time Deceleration)**\n*   **Plasma color and transparency:** Pale yellow center, translucent periphery; generally semi-transparent.\n*   **Presence/absence of clots:** Yes. Shows a visible network of structures, but they are significantly coarser than CH19.\n*   **Coagulation stage:** Partial clot / early fibrin development.\n*   **Density and homogeneity:** Moderate density; structures are larger and less tightly packed than in CH19.\n*   **Unique morphological features:** The \"cellular\" patterns are much larger and the overall network is less complex than the accelerated sample, indicating a slower or less advanced stage of structural organization.\n\n### Comparative Analysis\n*   **Most advanced coagulation:** **CH19** shows the most advanced and densest structural organization.\n*   **Least advanced coagulation:** **Control** remains in a completely liquid state.\n*   **Visible differences:** There is a pronounced difference between the control (liquid) and the treated samples (structured). \n*   **CH19 vs. CH21:** There is a clear morphological difference; CH19 exhibits a much finer, more complex, and denser meshwork compared to the coarser, larger structures in CH21.\n*   **Overall visual difference rating:** **Pronounced**.\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Homogeneous liquid state in a test tube; no visible fibrin or solid structures.\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow to translucent\",\n    \"transparency\": \"semi-transparent to opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"Extremely dense and fine network of interconnected fibrin-like structures; indicates advanced structural development.\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow to translucent\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Visible structural network, but significantly coarser and less dense than CH19; larger 'cellular' patterns suggest slower formation.\"\n  },\n  \"most_coagulated\": \"ch19\",\n  \"least_coagulated\": \"control\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"CH19 exhibits the most complex and dense micro-structural mesh, consistent with accelerated development. CH21 shows similar but much coarser and less developed patterns. The control remains entirely liquid.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Homogeneous liquid state in a test tube; no visible fibrin or solid structures.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow to translucent",
+              "transparency": "semi-transparent to opaque",
+              "notes": "Extremely dense and fine network of interconnected fibrin-like structures; indicates advanced structural development.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch21": {
+              "color": "pale yellow to translucent",
+              "transparency": "semi-transparent",
+              "notes": "Visible structural network, but significantly coarser and less dense than CH19; larger 'cellular' patterns suggest slower formation.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "CH19 exhibits the most complex and dense micro-structural mesh, consistent with accelerated development. CH21 shows similar but much coarser and less developed patterns. The control remains entirely liquid."
+          }
+        }
+      }
+    },
+    {
+      "patient": "03",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3292",
+          "sample_ids": [
+            "0.3.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3296",
+          "sample_ids": [
+            "19.3.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3290",
+          "sample_ids": [
+            "21.3.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 13263,
+          "error": null,
+          "fallback": false,
+          "raw": "Based on a visual analysis of the provided blood plasma samples, here is the comparative study:\n\n### 1. Image 1: Control (No Exposure)\n*   **Color and Transparency**: Pale yellow and semi-transparent.\n*   **Presence of Clots/Fibrin**: Yes. There is a visible, centralized cloudy mass within the plasma, indicating the formation of a fibrin network.\n*   **Coagulation Stage**: **Partial_clot**. The process has begun significantly but hasn't reached a fully opaque, solid state throughout the entire volume.\n*   **Density and Homogeneity**: Non-homogeneous; the density is higher in the center where the fibrin has aggregated.\n*   **Unique Morphological Features**: A distinct, somewhat amorphous \"cloud\" suspended in the middle of the liquid phase.\n\n### 2. Image 2: CH19 (Time Acceleration)\n*   **Color and Transparency**: Pale yellow, but notably **opaque**. The sample has lost most of its transparency.\n*   **Presence of Clots/Fibrin**: Yes. The high turbidity suggests a dense, widespread fibrin network that has likely gelled the entire sample.\n*   **Coagulation Stage**: **Full_coagulation**. The sample appears to have transitioned from a liquid to a solid or semi-solid gel state.\n*   **Density and Homogeneity**: Relatively homogeneous in its high density/opacity compared to the control.\n*   **Unique Morphological Features**: Uniformly turbid appearance with no distinct liquid phase visible, suggesting a complete structural change.\n\n### 3. Image 3: CH21 (Time Deceleration)\n*   **Color and Transparency**: Pale yellow and **semi-transparent**. It appears slightly clearer than the control.\n*   **Presence of Clots/Fibrin**: Yes, but minimal. There are very faint, wispy structures visible, but they are much less dense than the control's central mass.\n*   **Coagulation Stage**: **Early_fibrin**. This sample shows the least progression toward a solid clot.\n*   **Density and Homogeneity**: Mostly homogeneous and low density, with only minor localized variations.\n*   **Unique Morphological Features**: Maintains the highest degree of transparency among the three samples.\n\n---\n\n### Comparative Summary\n*   **Most advanced coagulation**: **CH19**. It shows the highest opacity and most complete transition to a gelled state.\n*   **Least advanced coagulation**: **CH21**. It remains the most transparent with the least visible fibrin aggregation.\n*   **Control vs. Treated**: The control sits exactly in the middle. CH19 is significantly more advanced than the control, while CH21 appears slightly less advanced/more liquid than the control.\n*   **CH19 vs. CH21**: There is a stark contrast between these two. CH19 is a dense, opaque mass, while CH21 is a mostly clear liquid.\n*   **Overall visual difference**: **Pronounced**.\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Centralized cloudy fibrin mass visible; intermediate coagulation state.\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"Sample is highly turbid and appears to have formed a complete gel/clot throughout the volume.\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"Highest transparency of the three; only very fine, wispy fibrin strands are visible.\"\n  },\n  \"most_coagulated\": \"ch19\",\n  \"least_coagulated\": \"ch21\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"CH19 (acceleration) shows a significant increase in coagulation density and opacity compared to the control. CH21 (deceleration) shows a visible retardation of the coagulation process, remaining clearer and more liquid than the control.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Centralized cloudy fibrin mass visible; intermediate coagulation state.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "opaque",
+              "notes": "Sample is highly turbid and appears to have formed a complete gel/clot throughout the volume.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Highest transparency of the three; only very fine, wispy fibrin strands are visible.",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "pronounced",
+            "comparison_notes": "CH19 (acceleration) shows a significant increase in coagulation density and opacity compared to the control. CH21 (deceleration) shows a visible retardation of the coagulation process, remaining clearer and more liquid than the control."
+          }
+        }
+      }
+    },
+    {
+      "patient": "03",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3293",
+          "sample_ids": [
+            "0.3.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3297",
+          "sample_ids": [
+            "19.3.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3291",
+          "sample_ids": [
+            "21.3.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 11045,
+          "error": null,
+          "fallback": false,
+          "raw": "Based on a visual analysis of the provided images, here is the comparative study of the blood plasma samples:\n\n### Independent Assessments\n\n**Image 1: CONTROL**\n1.  **Plasma color and transparency:** Pale yellow and transparent.\n2.  **Presence/absence of clots:** No visible clots or fibrin strands.\n3.  **Coagulation stage:** None. The sample appears as a homogeneous liquid.\n4.  **Density and homogeneity:** Highly homogeneous.\n5.  **Unique morphological features:** Standard appearance of liquid plasma.\n\n**Image 2: CH19 (Time Acceleration)**\n1.  **Plasma color and transparency:** Pale yellow, semi-transparent to opaque in areas of structural formation.\n2.  **Presence/absence of clots:** Yes. A pronounced, dense network of white fibrin strands is clearly visible, forming a reticulated mesh throughout the central portion of the sample.\n3.  **Coagulation stage:** Partial clot / Early full coagulation. The fibrin network is well-developed.\n4.  **Density and homogeneity:** Heterogeneous; clear differentiation between the developing solid fibrin structure and the remaining liquid phase.\n5.  **Unique morphological features:** Distinct, visible \"honeycomb\" or mesh-like fibrin structure.\n\n**Image 3: CH21 (Time Deceleration)**\n1.  **Plasma color and transparency:** Pale yellow, semi-transparent.\n2.  **Presence/absence of clots:** No distinct clots, though very faint, wispy textures may be present upon close inspection.\n3.  **Coagulation stage:** Early fibrin (minimal) to none.\n4.  **Density and homogeneity:** Mostly homogeneous, though slightly more turbid/cloudy than the control.\n5.  **Unique morphological features:** Lacks the defined structural mesh seen in CH19; appears very similar to the control but with a slight increase in turbidity.\n\n### Comparative Analysis\n\n*   **Most advanced coagulation:** **CH19** shows the most advanced stage, with a clearly defined and dense fibrin network.\n*   **Least advanced coagulation:** **Control** shows the least, appearing entirely liquid.\n*   **Visible differences:** There is a pronounced difference between the Control and CH19. The difference between the Control and CH21 is subtle.\n*   **CH19 vs. CH21:** These samples differ significantly; CH19 has a high density of visible fibrin structures, while CH21 remains largely liquid and homogeneous.\n*   **Overall visual difference rating:** **Pronounced** (primarily due to the significant structural development in CH19).\n\n### JSON Analysis Data\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Appears as a standard homogeneous liquid plasma sample with no visible structural formations.\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Highly visible and dense network of fibrin strands forming a reticulated mesh throughout the sample.\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"Slightly more turbid than control with very faint, wispy textures, but lacks the defined mesh seen in CH19.\"\n  },\n  \"most_coagulated\": \"ch19\",\n  \"least_coagulated\": \"control\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"CH19 shows a significantly more advanced stage of coagulation compared to both the control and CH21, characterized by a prominent and well-defined fibrin network. CH21 shows minimal change from the control, appearing only slightly more turbid.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Appears as a standard homogeneous liquid plasma sample with no visible structural formations.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Highly visible and dense network of fibrin strands forming a reticulated mesh throughout the sample.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Slightly more turbid than control with very faint, wispy textures, but lacks the defined mesh seen in CH19.",
+              "clots": false,
+              "clot_stage": "early_fibrin"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "CH19 shows a significantly more advanced stage of coagulation compared to both the control and CH21, characterized by a prominent and well-defined fibrin network. CH21 shows minimal change from the control, appearing only slightly more turbid."
+          }
+        }
+      }
+    },
+    {
+      "patient": "03",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3294",
+          "sample_ids": [
+            "0.3.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3300",
+          "sample_ids": [
+            "19.3.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3298",
+          "sample_ids": [
+            "21.3.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 15776,
+          "error": null,
+          "fallback": false,
+          "raw": "Based on a comparative visual analysis of the provided blood plasma samples, here is the biomedical assessment:\n\n### 1. Image 1: CONTROL (No exposure)\n*   **Color and Transparency**: Pale yellow/straw-colored and primarily transparent.\n*   **Clots/Fibrin**: No significant clots or fibrin networks are visible. The sample appears largely liquid and homogeneous.\n*   **Coagulation Stage**: **none**.\n*   **Density and Homogeneity**: High homogeneity.\n*   **Unique Morphological Features**: A small, localized orange-red spot is visible at the bottom, likely a small amount of erythrocyte sedimentation or a minor impurity.\n\n### 2. Image 2: CH19 (Time acceleration)\n*   **Color and Transparency**: Pale yellow, but notably more turbid (semi-opaque) compared to the control.\n*   **Clots/Fibrin**: Yes. Subtle, wispy internal structures and faint web-like patterns are visible throughout the volume, suggesting the beginning of a gel matrix.\n*   **Coagulation Stage**: **early_fibrin**.\n*   **Density and Homogeneity**: Reduced homogeneity compared to control; the plasma appears thicker and more structured.\n*   **Unique Morphological Features**: Increased overall turbidity suggests a more widespread, fine-grained fibrin formation.\n\n### 3. Image 3: CH21 (Time deceleration)\n*   **Color and Transparency**: Pale yellow; semi-opaque in the center due to dense structures, semi-transparent at the periphery.\n*   **Clots/Fibrin**: Yes. A very pronounced, dense, and coarse yellowish-white fibrin meshwork is clearly visible, concentrated in the center of the sample.\n*   **Coagulation Stage**: **partial_clot**.\n*   **Density and Homogeneity**: Highly non-homogeneous. There is a distinct separation between the dense central fibrin network and the surrounding fluid.\n*   **Unique Morphological Features**: The fibrin strands are much thicker and more defined than in the other two samples.\n\n---\n\n### Comparative Summary\n*   **Most advanced coagulation**: **CH21** shows the most advanced visible structural development with a well-defined, dense fibrin mesh.\n*   **Least advanced coagulation**: **Control** shows the least advancement, remaining largely liquid and transparent.\n*   **Visible differences**: Both treated samples (CH19 and CH21) show clear signs of coagulation compared to the control. CH19 shows a more uniform, fine-grained transition toward a gel state, while CH21 shows a highly localized and dense macro-structural fibrin network.\n*   **Overall visual difference**: **pronounced**.\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Homogeneous liquid appearance; small reddish sediment spot at the bottom.\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"Increased turbidity with subtle, wispy internal structures throughout.\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Very prominent, dense, and coarse central fibrin meshwork.\"\n  },\n  \"most_coagulated\": \"ch21\",\n  \"least_coagulated\": \"control\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Both treated samples show significantly more coagulation than the control. CH21 exhibits the most advanced morphological structure with a thick fibrin mesh, while CH19 shows a more diffuse, early-stage fibrin formation.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Homogeneous liquid appearance; small reddish sediment spot at the bottom.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-opaque",
+              "notes": "Increased turbidity with subtle, wispy internal structures throughout.",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "semi-opaque",
+              "notes": "Very prominent, dense, and coarse central fibrin meshwork.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Both treated samples show significantly more coagulation than the control. CH21 exhibits the most advanced morphological structure with a thick fibrin mesh, while CH19 shows a more diffuse, early-stage fibrin formation."
+          }
+        }
+      }
+    },
+    {
+      "patient": "03",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3295",
+          "sample_ids": [
+            "0.3.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3301",
+          "sample_ids": [
+            "19.3.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3299",
+          "sample_ids": [
+            "21.3.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 17851,
+          "error": null,
+          "fallback": false,
+          "raw": "Based on a visual analysis of the provided images, here is the comparative study of the blood plasma samples:\n\n### 1. Control Sample (Image 1)\n*   **Color and Transparency:** The plasma is a clear, pale yellow/amber color. It is fully transparent, with the background visible through the liquid.\n*   **Clots/Fibrin:** No visible clots, fibrin strands, or solid structures are present.\n*   **Coagulation Stage:** **none**. The sample remains in a completely liquid state.\n*   **Density and Homogeneity:** The sample is homogeneous. Small air bubbles are visible at the meniscus (top surface).\n*   **Unique Features:** Presence of typical surface tension bubbles; no signs of protein aggregation.\n\n### 2. CH19 — Time Acceleration (Image 2)\n*   **Color and Transparency:** Pale yellow, but appears slightly more turbid/milky than the control. It is semi-transparent.\n*   **Clots/Fibrin:** **Yes**. There is an extensive, well-defined network of fine fibrin strands throughout the entire visible volume.\n*   **Coagulation Stage:** **partial_clot** (approaching full coagulation). The formation of a structural gel/mesh is evident.\n*   **Density and Homogeneity:** Non-homogeneous. The sample has transitioned from a simple liquid to a complex fibrin matrix.\n*   **Unique Features:** The fibrin network is very dense and uniform, suggesting a rapid, widespread initiation of the coagulation cascade.\n\n### 3. CH21 — Time Deceleration (Image 3)\n*   **Color and Transparency:** Pale yellow/tan. The surrounding fluid is semi-transparent, while the central structure is opaque.\n*   **Clots/Fibrin:** **Yes**. There is a distinct, dense, dark-colored mass or \"clump\" in the center of the sample.\n*   **Coagulation Stage:** **partial_clot**. While a solid mass has formed, it appears more localized than the network in CH19.\n*   **Density and Homogeneity:** Highly non-homogeneous. There is a clear separation between a dense central aggregate and the surrounding fluid.\n*   **Unique Features:** The central mass has a \"wispy\" but dense morphology, differing significantly from the fine, organized network seen in CH19.\n\n---\n\n### Comparison and Conclusion\n*   **Most Advanced Coagulation:** **CH19**. It shows a complete transformation of the plasma volume into a structured fibrin network, consistent with \"time acceleration.\"\n*   **Least Advanced Coagulation:** **Control**. It remains a simple liquid with no structural changes.\n*   **Visible Differences:** There are pronounced differences between the control and both treated samples. The control is liquid, while both CH19 and CH21 show significant protein polymerization and structural formation.\n*   **CH19 vs. CH21:** The morphology of the coagulation differs. CH19 shows a widespread, fine-mesh fibrin network, whereas CH21 shows a more localized, dense, and darker aggregation.\n*   **Overall Visual Difference:** **Pronounced**.\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Homogeneous liquid with typical air bubbles at the meniscus; no visible structural changes.\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Extensive and uniform network of fine fibrin strands throughout the sample, indicating advanced gelation.\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow / tan\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Presence of a dense, localized, dark-colored central mass; distinct separation between the clot and surrounding fluid.\"\n  },\n  \"most_coagulated\": \"ch19\",\n  \"least_coagulated\": \"control\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Both treated samples show significant coagulation compared to the liquid control. CH19 exhibits a widespread fibrin matrix consistent with accelerated reaction, while CH21 shows a more localized, dense aggregation.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Homogeneous liquid with typical air bubbles at the meniscus; no visible structural changes.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Extensive and uniform network of fine fibrin strands throughout the sample, indicating advanced gelation.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow / tan",
+              "transparency": "semi-transparent",
+              "notes": "Presence of a dense, localized, dark-colored central mass; distinct separation between the clot and surrounding fluid.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Both treated samples show significant coagulation compared to the liquid control. CH19 exhibits a widespread fibrin matrix consistent with accelerated reaction, while CH21 shows a more localized, dense aggregation."
+          }
+        }
+      }
+    },
+    {
+      "patient": "04",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3307",
+          "sample_ids": [
+            "0.4.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3308",
+          "sample_ids": [
+            "19.4.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3309",
+          "sample_ids": [
+            "21.4.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 12387,
+          "error": null,
+          "fallback": false,
+          "raw": "Based on a comparative visual analysis of the three blood plasma samples, here is the assessment:\n\n### 1. Image 1: CONTROL (No exposure)\n*   **Plasma color and transparency**: Pale yellow; semi-transparent.\n*   **Presence/absence of clots**: Yes. A diffuse, darker central mass is visible, indicating the beginning of aggregation.\n*   **Coagulation stage**: `partial_clot`.\n*   **Density and homogeneity**: Non-homogeneous due to the central density.\n*   **Unique morphological features**: A single small air bubble is visible near the bottom-left periphery of the droplet.\n\n### 2. Image 2: CH19 (Time acceleration)\n*   **Plasma color and transparency**: Pale yellow, appearing slightly more turbid/milky; opaque in the center.\n*   **Presence/absence of clots**: Yes. A pronounced, dense, and well-defined central clot structure is visible.\n*   **Coagulation stage**: `partial_clot` (advanced). This sample shows the most significant progression toward full coagulation.\n*   **Density and homogeneity**: Highly non-homogeneous with a high-density central core.\n*   **Unique morphological features**: The central mass has a more granular, textured appearance compared to the control.\n\n### 3. Image 3: CH21 (Time deceleration)\n*   **Plasma color and transparency**: Pale yellow; semi-transparent. This sample appears the clearest of the three.\n*   **Presence/absence of clots**: Yes (minimal). Only very faint, poorly defined shadows are visible in the center.\n*   **Coagulation stage**: `early_fibrin`.\n*   **Density and homogeneity**: Mostly homogeneous; the most uniform droplet in the set.\n*   **Unique morphological features**: Lack of a defined central mass compared to the other two samples.\n\n---\n\n### Comparative Summary\n*   **Most advanced coagulation**: **CH19** (Image 2) shows the most developed and densest central clot structure.\n*   **Least advanced coagulation**: **CH21** (Image 3) shows the least amount of fibrin aggregation and remains the most transparent.\n*   **Control vs. Treated**: The control sits between the two treated samples. CH19 has accelerated the natural coagulation process seen in the control, while CH21 appears to have inhibited or slowed it.\n*   **CH19 vs. CH21**: There is a stark contrast between these two; CH19 is significantly more opaque and structured than CH21.\n*   **Overall visual difference**: **Pronounced**.\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Shows a diffuse central mass indicating standard initial coagulation for the timeframe.\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Most advanced coagulation; central mass is dense, dark, and well-defined.\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"Least amount of coagulation; droplet is mostly clear and homogeneous with minimal fibrin structure.\"\n  },\n  \"most_coagulated\": \"ch19\",\n  \"least_coagulated\": \"ch21\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"The samples show a clear gradient of coagulation. CH19 (acceleration) has a significantly more developed clot than the control, while CH21 (deceleration) shows noticeably less development than the control.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Shows a diffuse central mass indicating standard initial coagulation for the timeframe.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "opaque",
+              "notes": "Most advanced coagulation; central mass is dense, dark, and well-defined.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Least amount of coagulation; droplet is mostly clear and homogeneous with minimal fibrin structure.",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "pronounced",
+            "comparison_notes": "The samples show a clear gradient of coagulation. CH19 (acceleration) has a significantly more developed clot than the control, while CH21 (deceleration) shows noticeably less development than the control."
+          }
+        }
+      }
+    },
+    {
+      "patient": "05",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3316",
+          "sample_ids": [
+            "0.5.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3312",
+          "sample_ids": [
+            "19.5.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3319",
+          "sample_ids": [
+            "21.5.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 45229,
+          "error": null,
+          "fallback": false,
+          "raw": "Based on a comparative visual analysis of the provided blood plasma samples, here is the assessment of their coagulation states:\n\n### 1. Image 1 (CONTROL)\n*   **Color and Transparency**: Pale yellow; largely opaque with high turbidity.\n*   **Clots/Fibrin**: No distinct macro-clots or isolated strands are visible. The sample appears as a homogeneous, cloudy liquid.\n*   **Coagulation Stage**: **early_fibrin**. The high turbidity suggests the initial formation of a diffuse fibrin mesh throughout the volume, but it has not yet organized into visible structures.\n*   **Density and Homogeneity**: High homogeneity; the density appears uniform across the visible portion of the tube.\n\n### 2. Image 2 (CH19 — Time Acceleration)\n*   **Color and Transparency**: Pale yellow; semi-transparent.\n*   **Clots/Fibrin**: **Yes**. There is visible evidence of wispy, thread-like fibrin strands and small, localized aggregations.\n*   **Coagulation Stage**: **partial_clot**. The sample shows a clear progression from the control, with the fibrin mesh beginning to coalesce into discrete structural elements.\n*   **Density and Homogeneity**: Moderate homogeneity; the presence of strands creates a textured, non-uniform appearance.\n\n### 3. Image 3 (CH21 — Time Deceleration)\n*   **Color and Transparency**: Pale yellow (concentrated at the base); the surrounding fluid is transparent, while the central mass is semi-transparent/translucent.\n*   **Clots/Fibrin**: **Yes**. A large, well-defined, solid-looking mass (clot) is clearly visible, occupying a significant portion of the tube.\n*   **Coagulation Stage**: **full_coagulation**. This sample shows the most advanced stage, characterized by clear phase separation (clot retraction), where the solid fibrin mass has contracted, leaving behind clear serum.\n*   **Density and Homogeneity**: Low homogeneity; there is a sharp distinction between the solid clot and the surrounding liquid phase.\n\n---\n\n### Comparison Summary\n*   **Most Advanced Coagulation**: **CH21 (Image 3)**. It exhibits a fully formed, structured mass and clear phase separation, which are hallmarks of late-stage coagulation.\n*   **Least Advanced Coagulation**: **Control (Image 1)**. It remains a relatively homogeneous turbid liquid without discrete structural formations.\n*   **Visible Differences**: There is a clear morphological gradient across the three samples. The control is a simple turbid liquid; CH19 introduces fine structural \"wisps\"; CH21 features a large, organized solid mass.\n*   **Overall Visual Difference**: **Pronounced**. The transition from a cloudy liquid (Control) to a fully retracted solid clot (CH21) represents a significant change in the physical state of the plasma.\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"opaque\",\n    \"clots\": false,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"High turbidity throughout the sample with no distinct structural formations, suggesting early-stage fibrin mesh development.\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Presence of visible wispy fibrin strands and small aggregations, indicating an intermediate stage of coagulation.\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"Formation of a large, well-defined solid clot with clear serum separation, characteristic of advanced coagulation and retraction.\"\n  },\n  \"most_coagulated\": \"ch21\",\n  \"least_coagulated\": \"control\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"The samples show a clear progression in structural complexity. The control is the least advanced (homogeneous turbidity), CH19 shows moderate advancement (fibrin strands), and CH21 is the most advanced (fully formed and retracted clot).\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "opaque",
+              "notes": "High turbidity throughout the sample with no distinct structural formations, suggesting early-stage fibrin mesh development.",
+              "clots": false,
+              "clot_stage": "early_fibrin"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Presence of visible wispy fibrin strands and small aggregations, indicating an intermediate stage of coagulation.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Formation of a large, well-defined solid clot with clear serum separation, characteristic of advanced coagulation and retraction.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "The samples show a clear progression in structural complexity. The control is the least advanced (homogeneous turbidity), CH19 shows moderate advancement (fibrin strands), and CH21 is the most advanced (fully formed and retracted clot)."
+          }
+        }
+      }
+    },
+    {
+      "patient": "05",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3317",
+          "sample_ids": [
+            "0.5.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3313",
+          "sample_ids": [
+            "19.5.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3320",
+          "sample_ids": [
+            "21.5.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 15291,
+          "error": null,
+          "fallback": false,
+          "raw": "Based on a visual analysis of the provided images, here is the comparative study of the blood plasma samples.\n\n### Independent Assessment\n\n**Image 1: CONTROL**\n*   **Color and Transparency:** Pale yellow and semi-transparent. The sample appears relatively uniform throughout.\n*   **Clots/Fibrin:** No distinct solid clots or thick fibrin strands are clearly visible. The sample maintains a largely liquid appearance.\n*   **Coagulation Stage:** None to early_fibrin.\n*   **Density and Homogeneity:** High homogeneity; the density appears consistent across the visible volume.\n*   **Unique Morphological Features:** Lack of defined internal structures.\n\n**Image 2: CH19 (Time Acceleration)**\n*   **Color and Transparency:** Pale yellow and semi-transparent.\n*   **Clots/Fibrin:** Yes. A distinct, somewhat globular central mass is visible, suspended within the surrounding fluid.\n*   **Coagulation Stage:** Partial_clot.\n*   **Density and Homogeneity:** Non-homogeneous; there is a clear density gradient between the central mass and the peripheral fluid.\n*   **Unique Morphological Features:** Formation of a localized, semi-opaque central structure.\n\n**Image 3: CH21 (Time Deceleration)**\n*   **Color and Transparency:** Pale yellow; the central area is more opaque due to the density of the internal structure.\n*   **Clots/Fibrin:** Yes. A large, dense, and well-defined mass occupies a significant portion of the tube's volume.\n*   **Coagulation Stage:** Full_coagulation.\n*   **Density and Homogeneity:** Highly non-homogeneous; a large, dense solid phase is clearly separated from a smaller volume of surrounding liquid (likely serum).\n*   **Unique Morphological Features:** The central coagulum is much larger and more structurally defined than in the other two samples.\n\n---\n\n### Comparative Analysis\n\n*   **Most advanced coagulation:** **CH21** shows the most advanced state, with a large, dense, and well-defined coagulum.\n*   **Least advanced coagulation:** **Control** shows the least advancement, remaining largely homogeneous and liquid.\n*   **Visible differences:** There are clear differences between all three. The control is liquid, CH19 shows a small central clot, and CH21 shows a very large, advanced clot.\n*   **CH19 vs CH21:** CH21 exhibits a significantly more voluminous and dense coagulation structure compared to the smaller, more localized mass in CH19.\n*   **Overall visual difference:** **Pronounced**. The transition from a homogeneous liquid to a large solid mass is highly visible.\n\n---\n\n### JSON Output\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Sample appears mostly homogeneous and liquid with no visible solid structures.\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"A distinct, small globular mass has formed in the center of the tube.\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"opaque in center\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"A large, dense, and well-defined coagulum occupies most of the sample volume.\"\n  },\n  \"most_coagulated\": \"ch21\",\n  \"least_coagulated\": \"control\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"There is a visible progression in coagulation density and volume from Control (least) to CH19 (moderate) to CH21 (most). CH21 shows the most significant structural change.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Sample appears mostly homogeneous and liquid with no visible solid structures.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "A distinct, small globular mass has formed in the center of the tube.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "opaque in center",
+              "notes": "A large, dense, and well-defined coagulum occupies most of the sample volume.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "There is a visible progression in coagulation density and volume from Control (least) to CH19 (moderate) to CH21 (most). CH21 shows the most significant structural change."
+          }
+        }
+      }
+    },
+    {
+      "patient": "05",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3318",
+          "sample_ids": [
+            "0.5.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3314",
+          "sample_ids": [
+            "19.5.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3321",
+          "sample_ids": [
+            "21.5.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 34277,
+          "error": null,
+          "fallback": false,
+          "raw": "Based on a comparative visual analysis of the provided biomedical images, here is the assessment of the blood plasma samples:\n\n### 1. Image 1 (CONTROL)\n*   **Color and Transparency**: Pale yellow; semi-transparent. The mass allows some light to pass through but has a distinct cloudy appearance.\n*   **Clots/Fibrin**: Yes; a single, cohesive, gel-like mass is present with smooth, well-defined margins.\n*   **Coagulation Stage**: **Full coagulation**. The sample has transitioned from a liquid state to a stable solid/semi-solid mass.\n*   **Density and Homogeneity**: Moderate density; high homogeneity throughout the mass.\n*   **Unique Features**: Standard appearance of a healthy plasma clot under these conditions.\n\n### 2. Image 2 (CH19 — Time Acceleration)\n*   **Color and Transparency**: Yellow; **opaque**. This sample shows significantly less light transmission than the control.\n*   **Clots/Fibrin**: Yes; a very dense, solid-looking mass.\n*   **Coagulation Stage**: **Full coagulation**. The increased opacity suggests a more mature or highly retracted fibrin network compared to the control.\n*   **Density and Homogeneity**: High density; very homogeneous.\n*   **Unique Features**: The high degree of opacity is the most striking feature, indicating a much tighter or thicker protein matrix.\n\n### 3. Image 3 (CH21 — Time Deceleration)\n*   **Color and Transparency**: Pale yellow; **transparent**. This sample is the most translucent of the three.\n*   **Clots/Fibrin**: Yes; a cohesive mass is present, but it appears \"looser\" and less structurally sound than the others.\n*   **Coagulation Stage**: **Partial clot**. While it has formed a shape, the high transparency suggests the fibrin polymerization is less advanced or less dense than the control.\n*   **Density and Homogeneity**: Low density; moderate homogeneity.\n*   **Unique Features**: Visible fine surface striations or \"wrinkles,\" which may represent an early or fragile fibrin network that has not yet fully consolidated.\n\n---\n\n### Comparative Summary\n*   **Most Advanced Coagulation**: **CH19**. It exhibits the highest opacity and apparent structural density, consistent with accelerated coagulation processes.\n*   **Least Advanced Coagulation**: **CH21**. It remains highly transparent and appears structurally \"softer,\" consistent with decelerated or inhibited coagulation.\n*   **Visible Differences**: There is a clear gradient of opacity from CH21 (most transparent) to Control (semi-transparent) to CH19 (most opaque).\n*   **Overall Visual Difference**: **Moderate**. While all three samples have formed a cohesive mass, the differences in light transmission and apparent density are distinct and measurable.\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"Forms a cohesive, semi-opaque mass with smooth margins and moderate density.\"\n  },\n  \"ch19\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"Shows the highest opacity and apparent density; the mass appears more consolidated and mature than the control.\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"The mass is significantly more translucent than the others, suggesting a less dense or early-stage fibrin network.\"\n  },\n  \"most_coagulated\": \"ch19\",\n  \"least_coagulated\": \"ch21\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"A clear progression in clot density is observed. CH19 (time acceleration) resulted in a denser, more opaque clot, while CH21 (time deceleration) resulted in a much more transparent and less consolidated mass compared to the control.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Forms a cohesive, semi-opaque mass with smooth margins and moderate density.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch19": {
+              "color": "yellow",
+              "transparency": "opaque",
+              "notes": "Shows the highest opacity and apparent density; the mass appears more consolidated and mature than the control.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "The mass is significantly more translucent than the others, suggesting a less dense or early-stage fibrin network.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "moderate",
+            "comparison_notes": "A clear progression in clot density is observed. CH19 (time acceleration) resulted in a denser, more opaque clot, while CH21 (time deceleration) resulted in a much more transparent and less consolidated mass compared to the control."
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3341",
+          "sample_ids": [
+            "0.7.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3329",
+          "sample_ids": [
+            "19.7.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3335",
+          "sample_ids": [
+            "21.7.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 12053,
+          "error": null,
+          "fallback": false,
+          "raw": "Based on a visual analysis of the provided images, here is the comparative study of the blood plasma samples.\n\n### Independent Assessment\n\n**Image 1: CONTROL**\n1.  **Plasma color and transparency:** Pale yellow; semi-transparent with some turbidity.\n2.  **Presence/absence of clots:** Yes; fine, wispy fibrin strands are visible throughout the sample, forming a delicate web-like network.\n3.  **Coagulation stage:** early_fibrin.\n4.  **Density and homogeneity:** Relatively homogeneous, though the internal fibrin network creates some visual texture.\n5.  **Unique morphological features:** Even distribution of fine fibrin threads.\n\n**Image 2: CH19 (Time Acceleration)**\n1.  **Plasma color and transparency:** Deeper yellow/golden; semi-transparent.\n2.  **Presence/absence of clots:** Yes; a large, distinct, and well-defined solid clot mass is visible in the center of the tube.\n3.  **Coagulation stage:** partial_clot (approaching full coagulation of the primary protein mass).\n4.  **Density and homogeneity:** Inhomogeneous; clear differentiation between the dense central clot and the surrounding fluid.\n5.  **Unique morphological features:** A singular, large, rounded coagulum that has significantly contracted compared to the initial liquid state.\n\n**Image 3: CH21 (Time Deceleration)**\n1.  **Plasma color and transparency:** Pale yellow; mostly transparent.\n2.  **Presence/absence of clots:** No; there are no clearly visible fibrin strands or clot structures. The sample appears largely liquid.\n3.  **Coagulation stage:** none.\n4.  **Density and homogeneity:** Highly homogeneous.\n5.  **Unique morphological features:** Notable for its lack of internal structure and higher transparency compared to the control.\n\n### Comparative Analysis\n\n*   **Most advanced coagulation:** **CH19** shows the most advanced state, with a fully formed central clot mass.\n*   **Least advanced coagulation:** **CH21** shows the least advancement, appearing more liquid and transparent than even the control.\n*   **Visible differences:** There are distinct differences. The control shows early signs of fibrin formation. CH19 has progressed much further into a solid clot. CH21 appears to have had its coagulation inhibited or delayed relative to the control.\n*   **CH19 vs. CH21:** These two samples represent opposite ends of the spectrum: one is heavily coagulated (CH19), and the other remains a clear liquid (CH21).\n*   **Overall visual difference:** **Pronounced**.\n\n### Summary Data\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"Visible network of fine, wispy fibrin strands throughout the volume.\"\n  },\n  \"ch19\": {\n    \"color\": \"deep yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Presence of a large, well-defined central coagulum; most advanced stage of the three.\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Sample remains mostly liquid and clear with no visible fibrin formation.\"\n  },\n  \"most_coagulated\": \"ch19\",\n  \"least_coagulated\": \"ch21\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"CH19 shows significant acceleration of clot formation compared to control. CH21 shows a visible delay or inhibition of the early fibrin formation seen in the control sample.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Visible network of fine, wispy fibrin strands throughout the volume.",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "ch19": {
+              "color": "deep yellow",
+              "transparency": "semi-transparent",
+              "notes": "Presence of a large, well-defined central coagulum; most advanced stage of the three.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "Sample remains mostly liquid and clear with no visible fibrin formation.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "pronounced",
+            "comparison_notes": "CH19 shows significant acceleration of clot formation compared to control. CH21 shows a visible delay or inhibition of the early fibrin formation seen in the control sample."
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3342",
+          "sample_ids": [
+            "0.7.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3330",
+          "sample_ids": [
+            "19.7.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3336",
+          "sample_ids": [
+            "21.7.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 15871,
+          "error": null,
+          "fallback": false,
+          "raw": "Based on a comparative visual analysis of the three blood plasma samples, here is the assessment:\n\n### 1. Image 1: CONTROL\n*   **Color and Transparency**: Pale yellow and semi-transparent. The sample has a uniform straw-like hue.\n*   **Clots/Fibrin**: Yes. Fine, wispy linear structures (fibrin strands) are visible, particularly in the central region, indicating the beginning of the coagulation cascade.\n*   **Coagulation Stage**: **early_fibrin**. The sample is no longer perfectly liquid but has not yet formed a solid mass.\n*   **Density and Homogeneity**: Relatively homogeneous with some internal texture provided by the developing fibrin network.\n\n### 2. Image 2: CH19 (Time Acceleration)\n*   **Color and Transparency**: Pale yellow, appearing semi-opaque in the center due to increased density.\n*   **Clots/Fibrin**: Yes. There is a distinct, dense, and irregular central mass. This represents a much more advanced stage of protein aggregation compared to the control.\n*   **Coagulation Stage**: **partial_clot**. The formation of a centralized, opaque coagulum is clearly visible.\n*   **Density and Homogeneity**: Highly heterogeneous. There is a clear distinction between the dense central clot and the surrounding serum/plasma.\n*   **Unique Morphological Features**: The central mass has \"ragged\" edges and a three-dimensional appearance, suggesting significant contraction of the fibrin mesh.\n\n### 3. Image 3: CH21 (Time Deceleration)\n*   **Color and Transparency**: Pale yellow and semi-transparent.\n*   **Clots/Fibrin**: No. The sample appears very smooth and lacks the visible fibrin strands seen in the control or the mass seen in CH19.\n*   **Coagulation Stage**: **none**. The sample appears to be in a stable, liquid state.\n*   **Density and Homogeneity**: Highly homogeneous. The light passes through the sample with minimal scattering from internal structures.\n*   **Unique Morphological Features**: Notable for its lack of internal features, appearing \"fresher\" or more inhibited than the control.\n\n### Comparative Summary\n*   **Most Advanced Coagulation**: **CH19** shows the most advanced state, having progressed to a visible partial clot.\n*   **Least Advanced Coagulation**: **CH21** shows the least advancement, appearing even more liquid and homogeneous than the control.\n*   **Overall Visual Difference**: **Pronounced**. There is a clear gradient of coagulation from CH21 (none) to Control (early fibrin) to CH19 (partial clot).\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"Visible wispy fibrin strands forming a light network in the center.\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Formation of a dense, irregular central coagulum; significantly more advanced than control.\"\n  },\n  \"ch21\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Highly homogeneous and smooth appearance; lacks the fibrin structures visible in the control.\"\n  },\n  \"most_coagulated\": \"ch19\",\n  \"least_coagulated\": \"ch21\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"The samples show a clear progression: CH21 appears inhibited/liquid, the Control shows baseline early fibrin formation, and CH19 shows accelerated development into a distinct central clot mass.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Visible wispy fibrin strands forming a light network in the center.",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "ch19": {
+              "color": "pale yellow",
+              "transparency": "semi-opaque",
+              "notes": "Formation of a dense, irregular central coagulum; significantly more advanced than control.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Highly homogeneous and smooth appearance; lacks the fibrin structures visible in the control.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "pronounced",
+            "comparison_notes": "The samples show a clear progression: CH21 appears inhibited/liquid, the Control shows baseline early fibrin formation, and CH19 shows accelerated development into a distinct central clot mass."
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3343",
+          "sample_ids": [
+            "0.7.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3331",
+          "sample_ids": [
+            "19.7.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3337",
+          "sample_ids": [
+            "21.7.1"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 15670,
+          "error": null,
+          "fallback": false,
+          "raw": "Based on a comparative visual analysis of the three blood plasma samples, here is the assessment of their coagulation states:\n\n### 1. Image 1: Control (No Exposure)\n*   **Color and Transparency**: Pale yellow (straw-colored) and semi-transparent.\n*   **Clots/Fibrin**: Yes. A distinct, rounded, semi-opaque gelatinous mass is visible, suspended within the clearer liquid phase.\n*   **Coagulation Stage**: **Partial clot**. The sample has progressed beyond initial fibrin formation but has not formed a solid, retracted plug.\n*   **Density and Homogeneity**: Non-homogeneous; there is a clear differentiation between the liquid serum and the developing clot.\n*   **Unique Features**: The clot appears relatively smooth and centrally located.\n\n### 2. Image 2: CH19 (Time Acceleration)\n*   **Color and Transparency**: Pale yellow, appearing more opaque and \"milky\" than the control.\n*   **Clots/Fibrin**: Yes. A large, dense, and highly structured mass is visible.\n*   **Coagulation Stage**: **Full coagulation / Advanced partial clot**. This sample shows the most significant structural development, with the clot appearing thicker and more voluminous than the control.\n*   **Density and Homogeneity**: High density in the coagulated area; very low transparency due to the thickness of the fibrin network.\n*   **Unique Features**: The clot structure appears more complex and \"folded\" compared to the control.\n\n### 3. Image 3: CH21 (Time Deceleration)\n*   **Color and Transparency**: Bright yellow and highly transparent.\n*   **Clots/Fibrin**: Yes, but minimal. There is a very faint, translucent \"ghost\" of a clot or a loose fibrin network visible in the center.\n*   **Coagulation Stage**: **Early fibrin**. The sample remains largely liquid with very little structural consolidation.\n*   **Density and Homogeneity**: Mostly homogeneous and low density. It is significantly more liquid than both the control and CH19.\n*   **Unique Features**: Notable for its high degree of clarity and the lack of a dense central mass.\n\n---\n\n### Comparative Summary\n*   **Most Advanced Coagulation**: **CH19** shows the most dense and developed clot structure.\n*   **Least Advanced Coagulation**: **CH21** remains the most liquid and transparent.\n*   **Control vs. Treated**: The control sits exactly between the two treated samples. CH19 appears \"accelerated\" relative to the control, while CH21 appears \"decelerated\" or inhibited.\n*   **Overall Visual Difference**: **Pronounced**. There is a clear gradient of coagulation density from CH21 (least) to Control (medium) to CH19 (most).\n\n```json\n{\n  \"control\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Distinct semi-opaque central mass suspended in clearer liquid.\"\n  },\n  \"ch19\": {\n    \"color\": \"pale yellow / milky\",\n    \"transparency\": \"semi-opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"Dense, voluminous, and highly structured clot; most advanced stage.\"\n  },\n  \"ch21\": {\n    \"color\": \"bright yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"Very faint, translucent fibrin network; remains largely liquid.\"\n  },\n  \"most_coagulated\": \"ch19\",\n  \"least_coagulated\": \"ch21\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"The samples show a clear progression: CH21 is the least developed (most liquid), the control is intermediate, and CH19 is the most developed (densest clot). This aligns with the described experimental conditions of acceleration (CH19) and deceleration (CH21).\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "Distinct semi-opaque central mass suspended in clearer liquid.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "pale yellow / milky",
+              "transparency": "semi-opaque",
+              "notes": "Dense, voluminous, and highly structured clot; most advanced stage.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch21": {
+              "color": "bright yellow",
+              "transparency": "transparent",
+              "notes": "Very faint, translucent fibrin network; remains largely liquid.",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "pronounced",
+            "comparison_notes": "The samples show a clear progression: CH21 is the least developed (most liquid), the control is intermediate, and CH19 is the most developed (densest clot). This aligns with the described experimental conditions of acceleration (CH19) and deceleration (CH21)."
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3344",
+          "sample_ids": [
+            "0.7.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3332",
+          "sample_ids": [
+            "19.7.2"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3338",
+          "sample_ids": [
+            "21.7.2"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 34856,
+          "error": "ChatGoogleGenerativeAIError: Error calling model 'gemini-3-flash-preview' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 16.97872557s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '16s'}]}}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3345",
+          "sample_ids": [
+            "0.7.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3333",
+          "sample_ids": [
+            "19.7.2"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3339",
+          "sample_ids": [
+            "21.7.2"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 34538,
+          "error": "ChatGoogleGenerativeAIError: Error calling model 'gemini-3-flash-preview' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 37.227806025s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "blinded": false,
+      "blind_map": null,
+      "photos": {
+        "control": {
+          "filename": "IMG_3346",
+          "sample_ids": [
+            "0.7.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3334",
+          "sample_ids": [
+            "19.7.2"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3340",
+          "sample_ids": [
+            "21.7.2"
+          ]
+        }
+      },
+      "providers": {
+        "google": {
+          "latency_ms": 34213,
+          "error": "ChatGoogleGenerativeAIError: Error calling model 'gemini-3-flash-preview' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 57.809807826s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        }
+      }
+    }
+  ]
+}

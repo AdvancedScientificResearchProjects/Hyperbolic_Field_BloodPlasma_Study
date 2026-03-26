@@ -1,0 +1,786 @@
+[
+  {
+    "filename": "IMG_3250",
+    "channel": null,
+    "predicted": "ch21",
+    "prob_control": 0.0087,
+    "prob_ch19": 0.001,
+    "prob_ch21": 0.9902
+  },
+  {
+    "filename": "IMG_3251",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0011,
+    "prob_ch19": 0.006,
+    "prob_ch21": 0.9929
+  },
+  {
+    "filename": "IMG_3252",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.002,
+    "prob_ch19": 0.9856,
+    "prob_ch21": 0.0124
+  },
+  {
+    "filename": "IMG_3253",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.9987,
+    "prob_ch19": 0.0002,
+    "prob_ch21": 0.0011
+  },
+  {
+    "filename": "IMG_3254",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.9994,
+    "prob_ch19": 0.0003,
+    "prob_ch21": 0.0002
+  },
+  {
+    "filename": "IMG_3255",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.9886,
+    "prob_ch19": 0.0107,
+    "prob_ch21": 0.0007
+  },
+  {
+    "filename": "IMG_3256",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.7976,
+    "prob_ch19": 0.1176,
+    "prob_ch21": 0.0847
+  },
+  {
+    "filename": "IMG_3257",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.9926,
+    "prob_ch19": 0.0012,
+    "prob_ch21": 0.0061
+  },
+  {
+    "filename": "IMG_3258",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.9978,
+    "prob_ch19": 0.0015,
+    "prob_ch21": 0.0008
+  },
+  {
+    "filename": "IMG_3259",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.5958,
+    "prob_ch19": 0.0193,
+    "prob_ch21": 0.3849
+  },
+  {
+    "filename": "IMG_3260",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.8098,
+    "prob_ch19": 0.0085,
+    "prob_ch21": 0.1817
+  },
+  {
+    "filename": "IMG_3261",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.982,
+    "prob_ch19": 0.0068,
+    "prob_ch21": 0.0113
+  },
+  {
+    "filename": "IMG_3262",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.4884,
+    "prob_ch19": 0.3942,
+    "prob_ch21": 0.1174
+  },
+  {
+    "filename": "IMG_3265",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.009,
+    "prob_ch19": 0.9889,
+    "prob_ch21": 0.002
+  },
+  {
+    "filename": "IMG_3266",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0007,
+    "prob_ch19": 0.9937,
+    "prob_ch21": 0.0056
+  },
+  {
+    "filename": "IMG_3267",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0008,
+    "prob_ch19": 0.997,
+    "prob_ch21": 0.0022
+  },
+  {
+    "filename": "IMG_3268",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9855,
+    "prob_ch19": 0.0108,
+    "prob_ch21": 0.0037
+  },
+  {
+    "filename": "IMG_3269",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9952,
+    "prob_ch19": 0.0011,
+    "prob_ch21": 0.0037
+  },
+  {
+    "filename": "IMG_3270",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0058,
+    "prob_ch19": 0.0061,
+    "prob_ch21": 0.9881
+  },
+  {
+    "filename": "IMG_3271",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0029,
+    "prob_ch19": 0.0047,
+    "prob_ch21": 0.9924
+  },
+  {
+    "filename": "IMG_3272",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0021,
+    "prob_ch19": 0.0031,
+    "prob_ch21": 0.9947
+  },
+  {
+    "filename": "IMG_3273",
+    "channel": null,
+    "predicted": "ch21",
+    "prob_control": 0.0272,
+    "prob_ch19": 0.0018,
+    "prob_ch21": 0.971
+  },
+  {
+    "filename": "IMG_3274",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.8983,
+    "prob_ch19": 0.0027,
+    "prob_ch21": 0.0991
+  },
+  {
+    "filename": "IMG_3275",
+    "channel": null,
+    "predicted": "ch21",
+    "prob_control": 0.0053,
+    "prob_ch19": 0.0023,
+    "prob_ch21": 0.9925
+  },
+  {
+    "filename": "IMG_3276",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.9283,
+    "prob_ch19": 0.0707,
+    "prob_ch21": 0.001
+  },
+  {
+    "filename": "IMG_3277",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0051,
+    "prob_ch19": 0.9921,
+    "prob_ch21": 0.0028
+  },
+  {
+    "filename": "IMG_3278",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9888,
+    "prob_ch19": 0.0095,
+    "prob_ch21": 0.0017
+  },
+  {
+    "filename": "IMG_3279",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0012,
+    "prob_ch19": 0.0027,
+    "prob_ch21": 0.9961
+  },
+  {
+    "filename": "IMG_3282",
+    "channel": null,
+    "predicted": "ch21",
+    "prob_control": 0.0058,
+    "prob_ch19": 0.0019,
+    "prob_ch21": 0.9923
+  },
+  {
+    "filename": "IMG_3283",
+    "channel": null,
+    "predicted": "ch21",
+    "prob_control": 0.1528,
+    "prob_ch19": 0.0874,
+    "prob_ch21": 0.7598
+  },
+  {
+    "filename": "IMG_3284",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0006,
+    "prob_ch19": 0.9953,
+    "prob_ch21": 0.0041
+  },
+  {
+    "filename": "IMG_3285",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0015,
+    "prob_ch19": 0.0016,
+    "prob_ch21": 0.997
+  },
+  {
+    "filename": "IMG_3286",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9913,
+    "prob_ch19": 0.0078,
+    "prob_ch21": 0.0009
+  },
+  {
+    "filename": "IMG_3287",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9938,
+    "prob_ch19": 0.0039,
+    "prob_ch21": 0.0022
+  },
+  {
+    "filename": "IMG_3288",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0106,
+    "prob_ch19": 0.9874,
+    "prob_ch21": 0.0021
+  },
+  {
+    "filename": "IMG_3290",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0024,
+    "prob_ch19": 0.003,
+    "prob_ch21": 0.9946
+  },
+  {
+    "filename": "IMG_3291",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0021,
+    "prob_ch19": 0.0051,
+    "prob_ch21": 0.9928
+  },
+  {
+    "filename": "IMG_3292",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9942,
+    "prob_ch19": 0.0,
+    "prob_ch21": 0.0058
+  },
+  {
+    "filename": "IMG_3293",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9929,
+    "prob_ch19": 0.0061,
+    "prob_ch21": 0.0011
+  },
+  {
+    "filename": "IMG_3294",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9999,
+    "prob_ch19": 0.0,
+    "prob_ch21": 0.0001
+  },
+  {
+    "filename": "IMG_3295",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9977,
+    "prob_ch19": 0.002,
+    "prob_ch21": 0.0002
+  },
+  {
+    "filename": "IMG_3296",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.001,
+    "prob_ch19": 0.9975,
+    "prob_ch21": 0.0015
+  },
+  {
+    "filename": "IMG_3297",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0037,
+    "prob_ch19": 0.9944,
+    "prob_ch21": 0.0019
+  },
+  {
+    "filename": "IMG_3298",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0005,
+    "prob_ch19": 0.0051,
+    "prob_ch21": 0.9944
+  },
+  {
+    "filename": "IMG_3299",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0056,
+    "prob_ch19": 0.0028,
+    "prob_ch21": 0.9917
+  },
+  {
+    "filename": "IMG_3300",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0039,
+    "prob_ch19": 0.9941,
+    "prob_ch21": 0.0019
+  },
+  {
+    "filename": "IMG_3301",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0018,
+    "prob_ch19": 0.9979,
+    "prob_ch21": 0.0003
+  },
+  {
+    "filename": "IMG_3302",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0006,
+    "prob_ch19": 0.9958,
+    "prob_ch21": 0.0036
+  },
+  {
+    "filename": "IMG_3303",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9935,
+    "prob_ch19": 0.0042,
+    "prob_ch21": 0.0023
+  },
+  {
+    "filename": "IMG_3304",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9939,
+    "prob_ch19": 0.0039,
+    "prob_ch21": 0.0021
+  },
+  {
+    "filename": "IMG_3305",
+    "channel": null,
+    "predicted": "ch21",
+    "prob_control": 0.1749,
+    "prob_ch19": 0.3057,
+    "prob_ch21": 0.5194
+  },
+  {
+    "filename": "IMG_3307",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9925,
+    "prob_ch19": 0.0035,
+    "prob_ch21": 0.004
+  },
+  {
+    "filename": "IMG_3308",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.006,
+    "prob_ch19": 0.9887,
+    "prob_ch21": 0.0053
+  },
+  {
+    "filename": "IMG_3309",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0052,
+    "prob_ch19": 0.002,
+    "prob_ch21": 0.9928
+  },
+  {
+    "filename": "IMG_3310",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.8132,
+    "prob_ch19": 0.0773,
+    "prob_ch21": 0.1095
+  },
+  {
+    "filename": "IMG_3312",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0041,
+    "prob_ch19": 0.9898,
+    "prob_ch21": 0.0062
+  },
+  {
+    "filename": "IMG_3313",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0058,
+    "prob_ch19": 0.992,
+    "prob_ch21": 0.0022
+  },
+  {
+    "filename": "IMG_3314",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0021,
+    "prob_ch19": 0.9907,
+    "prob_ch21": 0.0071
+  },
+  {
+    "filename": "IMG_3315",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0076,
+    "prob_ch19": 0.9892,
+    "prob_ch21": 0.0032
+  },
+  {
+    "filename": "IMG_3316",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9971,
+    "prob_ch19": 0.0018,
+    "prob_ch21": 0.0012
+  },
+  {
+    "filename": "IMG_3317",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9918,
+    "prob_ch19": 0.0056,
+    "prob_ch21": 0.0026
+  },
+  {
+    "filename": "IMG_3318",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9949,
+    "prob_ch19": 0.0043,
+    "prob_ch21": 0.0008
+  },
+  {
+    "filename": "IMG_3319",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0042,
+    "prob_ch19": 0.006,
+    "prob_ch21": 0.9897
+  },
+  {
+    "filename": "IMG_3320",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0039,
+    "prob_ch19": 0.0046,
+    "prob_ch21": 0.9915
+  },
+  {
+    "filename": "IMG_3321",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0028,
+    "prob_ch19": 0.0049,
+    "prob_ch21": 0.9924
+  },
+  {
+    "filename": "IMG_3323",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.9866,
+    "prob_ch19": 0.0007,
+    "prob_ch21": 0.0127
+  },
+  {
+    "filename": "IMG_3324",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.9915,
+    "prob_ch19": 0.0016,
+    "prob_ch21": 0.0069
+  },
+  {
+    "filename": "IMG_3325",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.9975,
+    "prob_ch19": 0.0007,
+    "prob_ch21": 0.0019
+  },
+  {
+    "filename": "IMG_3327",
+    "channel": null,
+    "predicted": "ch19",
+    "prob_control": 0.1197,
+    "prob_ch19": 0.7268,
+    "prob_ch21": 0.1535
+  },
+  {
+    "filename": "IMG_3328",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.6002,
+    "prob_ch19": 0.0335,
+    "prob_ch21": 0.3664
+  },
+  {
+    "filename": "IMG_3329",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0045,
+    "prob_ch19": 0.9932,
+    "prob_ch21": 0.0023
+  },
+  {
+    "filename": "IMG_3330",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0032,
+    "prob_ch19": 0.9953,
+    "prob_ch21": 0.0015
+  },
+  {
+    "filename": "IMG_3331",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0027,
+    "prob_ch19": 0.9949,
+    "prob_ch21": 0.0023
+  },
+  {
+    "filename": "IMG_3332",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0054,
+    "prob_ch19": 0.9914,
+    "prob_ch21": 0.0033
+  },
+  {
+    "filename": "IMG_3333",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0026,
+    "prob_ch19": 0.9953,
+    "prob_ch21": 0.0021
+  },
+  {
+    "filename": "IMG_3334",
+    "channel": 19,
+    "predicted": "ch19",
+    "prob_control": 0.0029,
+    "prob_ch19": 0.9835,
+    "prob_ch21": 0.0136
+  },
+  {
+    "filename": "IMG_3335",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0031,
+    "prob_ch19": 0.0067,
+    "prob_ch21": 0.9902
+  },
+  {
+    "filename": "IMG_3336",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0038,
+    "prob_ch19": 0.0059,
+    "prob_ch21": 0.9903
+  },
+  {
+    "filename": "IMG_3337",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0102,
+    "prob_ch19": 0.0037,
+    "prob_ch21": 0.986
+  },
+  {
+    "filename": "IMG_3338",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0006,
+    "prob_ch19": 0.0001,
+    "prob_ch21": 0.9993
+  },
+  {
+    "filename": "IMG_3339",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0018,
+    "prob_ch19": 0.0019,
+    "prob_ch21": 0.9963
+  },
+  {
+    "filename": "IMG_3340",
+    "channel": 21,
+    "predicted": "ch21",
+    "prob_control": 0.0098,
+    "prob_ch19": 0.011,
+    "prob_ch21": 0.9792
+  },
+  {
+    "filename": "IMG_3341",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9897,
+    "prob_ch19": 0.0063,
+    "prob_ch21": 0.004
+  },
+  {
+    "filename": "IMG_3342",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9885,
+    "prob_ch19": 0.0045,
+    "prob_ch21": 0.0071
+  },
+  {
+    "filename": "IMG_3343",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9959,
+    "prob_ch19": 0.0018,
+    "prob_ch21": 0.0023
+  },
+  {
+    "filename": "IMG_3344",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.993,
+    "prob_ch19": 0.0057,
+    "prob_ch21": 0.0013
+  },
+  {
+    "filename": "IMG_3345",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9907,
+    "prob_ch19": 0.0028,
+    "prob_ch21": 0.0065
+  },
+  {
+    "filename": "IMG_3346",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9978,
+    "prob_ch19": 0.0008,
+    "prob_ch21": 0.0014
+  },
+  {
+    "filename": "IMG_3347",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9845,
+    "prob_ch19": 0.0029,
+    "prob_ch21": 0.0126
+  },
+  {
+    "filename": "IMG_3348",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9959,
+    "prob_ch19": 0.0001,
+    "prob_ch21": 0.004
+  },
+  {
+    "filename": "IMG_3349",
+    "channel": 0,
+    "predicted": "control",
+    "prob_control": 0.9992,
+    "prob_ch19": 0.0,
+    "prob_ch21": 0.0007
+  },
+  {
+    "filename": "IMG_3350",
+    "channel": null,
+    "predicted": "ch21",
+    "prob_control": 0.0946,
+    "prob_ch19": 0.0473,
+    "prob_ch21": 0.8582
+  },
+  {
+    "filename": "IMG_3351",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.8391,
+    "prob_ch19": 0.0673,
+    "prob_ch21": 0.0936
+  },
+  {
+    "filename": "IMG_3352",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.9916,
+    "prob_ch19": 0.0005,
+    "prob_ch21": 0.008
+  },
+  {
+    "filename": "IMG_3353",
+    "channel": null,
+    "predicted": "ch21",
+    "prob_control": 0.1219,
+    "prob_ch19": 0.0016,
+    "prob_ch21": 0.8765
+  },
+  {
+    "filename": "IMG_3354",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.6397,
+    "prob_ch19": 0.3234,
+    "prob_ch21": 0.0368
+  },
+  {
+    "filename": "IMG_3355",
+    "channel": null,
+    "predicted": "ch21",
+    "prob_control": 0.3024,
+    "prob_ch19": 0.0412,
+    "prob_ch21": 0.6564
+  },
+  {
+    "filename": "IMG_3356",
+    "channel": null,
+    "predicted": "control",
+    "prob_control": 0.5358,
+    "prob_ch19": 0.0608,
+    "prob_ch21": 0.4034
+  }
+]

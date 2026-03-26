@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+wlcopy
+.env
+notebooks/.ipynb_checkpoints/
+results/**/.progress.json

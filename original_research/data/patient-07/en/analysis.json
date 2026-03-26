@@ -1,0 +1,692 @@
+{
+  "patient_id": "07",
+  "donor_code": "07",
+  "blood_group": null,
+  "experiment_date": "2026-02-07",
+  "protocol": {
+    "start_time": "19:57",
+    "blood_collection": [
+      {
+        "tube": 1,
+        "start": "19:57:47",
+        "end": "19:58:45"
+      },
+      {
+        "tube": 2,
+        "start": "19:59:11",
+        "end": "20:00:05"
+      },
+      {
+        "tube": 3,
+        "start": "20:00:30",
+        "end": "20:01:47"
+      },
+      {
+        "tube": 4,
+        "start": "20:02:10",
+        "end": "20:03:17"
+      }
+    ],
+    "blood_collection_note": "4 test tubes for centrifuge",
+    "centrifugation": {
+      "rpm": 2000,
+      "duration_min": 5,
+      "start": "20:03:45",
+      "end": "20:09:15"
+    },
+    "plasma_volume_ml": 8.5,
+    "samples": [
+      {
+        "id": "0.7.1",
+        "number": 1,
+        "type": "control",
+        "label": "Control 1",
+        "volume_ml": 1,
+        "time": "20:10:41"
+      },
+      {
+        "id": "0.7.2",
+        "number": 2,
+        "type": "control",
+        "label": "Control 2",
+        "volume_ml": 1.5,
+        "time": "20:09:59"
+      },
+      {
+        "id": "19.7.1",
+        "number": 3,
+        "type": "sample",
+        "label": "Sample 1",
+        "volume_ml": 1.5,
+        "time": "20:10:15"
+      },
+      {
+        "id": "21.7.1",
+        "number": 4,
+        "type": "sample",
+        "label": "Sample 2",
+        "volume_ml": 1.5,
+        "time": "20:11:07"
+      },
+      {
+        "id": "19.7.2",
+        "number": 5,
+        "type": "sample",
+        "label": "Sample 3",
+        "volume_ml": 1,
+        "time": "20:11:31"
+      },
+      {
+        "id": "21.7.2",
+        "number": 6,
+        "type": "sample",
+        "label": "Sample 4",
+        "volume_ml": 1,
+        "time": "20:11:56"
+      }
+    ],
+    "radiation": {
+      "start": "20:15:10",
+      "end": "21:36:07"
+    }
+  },
+  "photos": [
+    {
+      "filename": "IMG_3327.HEIC",
+      "exif_datetime": "2026-02-07 19:58:17",
+      "pdf_caption": null,
+      "pdf_page": 3,
+      "pdf_part": 1,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Two glass test tubes with plasma close-up on dark background, illuminated from the side",
+        "sample_count": 2,
+        "view": "frontal, lower part of test tubes",
+        "plasma": {
+          "color": "yellow-green, saturated",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "A large irregularly shaped gelatinous clot is visible in the left test tube. The right test tube has more homogeneous plasma, but slight turbidity is also visible"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3328.HEIC",
+      "exif_datetime": "2026-02-07 19:59:42",
+      "pdf_caption": "Left 19.7.1, right 21.7.1",
+      "pdf_page": 4,
+      "pdf_part": 1,
+      "samples_shown": [
+        "19.7.1",
+        "21.7.1"
+      ],
+      "visual_description": {
+        "scene": "Two glass test tubes with plasma, vertical, on gray background",
+        "sample_count": 2,
+        "view": "frontal, full length of test tubes",
+        "plasma": {
+          "color": "light yellow with greenish tinge",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Rounded gelatinous clots visible in both test tubes. Left test tube (19.7.1) -- clot is compact, closer to the bottom. Right (21.7.1) -- clot is larger, positioned slightly higher. Plasma volume is small"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3329.HEIC",
+      "exif_datetime": "2026-02-07 20:01:42",
+      "pdf_caption": null,
+      "pdf_page": 5,
+      "pdf_part": 1,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "One glass test tube with plasma, held vertically, laboratory setting in background",
+        "sample_count": 1,
+        "view": "frontal, lower part of test tube",
+        "plasma": {
+          "color": "yellow-green, saturated",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Large dense irregularly shaped clot visible in lower part of test tube. Small bubbles and condensation drops noticeable on test tube walls"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3330.HEIC",
+      "exif_datetime": "2026-02-07 20:01:12",
+      "pdf_caption": null,
+      "pdf_page": 6,
+      "pdf_part": 1,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Test tube with plasma close-up, tilted, against backlighting",
+        "sample_count": 1,
+        "view": "macro, side view at an angle",
+        "plasma": {
+          "color": "yellow, moderately saturated",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Large gelatinous clot occupies significant portion of volume. Clot is heterogeneous, with darker center and lighter edges. Gelatinous texture is clearly visible"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3331.HEIC",
+      "exif_datetime": "2026-02-07 20:00:45",
+      "pdf_caption": "19.7.1",
+      "pdf_page": 7,
+      "pdf_part": 1,
+      "samples_shown": [
+        "19.7.1"
+      ],
+      "visual_description": {
+        "scene": "Test tube with plasma, horizontal position, macro photography against backlighting",
+        "sample_count": 1,
+        "view": "macro, side view, horizontal",
+        "plasma": {
+          "color": "light yellow",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Large gelatinous clot with uneven contours. Wavy texture visible inside clot. Clot occupies main volume of plasma"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3332.HEIC",
+      "exif_datetime": "2026-02-07 20:03:46",
+      "pdf_caption": null,
+      "pdf_page": 8,
+      "pdf_part": 1,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Test tube with plasma, slightly tilted, on black-and-white backlighting background",
+        "sample_count": 1,
+        "view": "frontal with slight tilt",
+        "plasma": {
+          "color": "pale yellow with greenish tinge",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Rounded clot visible in middle part of test tube. Pipette visible next to test tube. Clot is compact, clearly stands out against transparent plasma"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3333.HEIC",
+      "exif_datetime": "2026-02-07 20:03:37",
+      "pdf_caption": null,
+      "pdf_page": 9,
+      "pdf_part": 1,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Top view into plasma test tube, macro photography",
+        "sample_count": 1,
+        "view": "top view, into test tube",
+        "plasma": {
+          "color": "yellow-green",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Clot visible on plasma surface. Heterogeneous structure visible through glass. One small air bubble on surface"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3334.HEIC",
+      "exif_datetime": "2026-02-07 20:02:26",
+      "pdf_caption": "19.7.2",
+      "pdf_page": 10,
+      "pdf_part": 1,
+      "samples_shown": [
+        "19.7.2"
+      ],
+      "visual_description": {
+        "scene": "Test tube with plasma, held vertically by hand, laboratory setting in background",
+        "sample_count": 1,
+        "view": "frontal, lower part of test tube",
+        "plasma": {
+          "color": "bright yellow, saturated",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Large dense clot visible inside plasma. Plasma is bright yellow. Small light area visible at bottom of test tube -- possibly sedimentation"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3335.HEIC",
+      "exif_datetime": "2026-02-07 20:06:30",
+      "pdf_caption": null,
+      "pdf_page": 11,
+      "pdf_part": 1,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Test tube with plasma in horizontal position, against backlighting",
+        "sample_count": 1,
+        "view": "side, horizontal, macro",
+        "plasma": {
+          "color": "yellow, moderately saturated",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Compact rounded clot visible in center of volume. Plasma surrounds the clot, clear boundary between clot and liquid part is visible"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3336.HEIC",
+      "exif_datetime": "2026-02-07 20:06:22",
+      "pdf_caption": null,
+      "pdf_page": 12,
+      "pdf_part": 1,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Test tube with plasma, close-up view through glass, backlighting from behind",
+        "sample_count": 1,
+        "view": "macro, frontal through glass",
+        "plasma": {
+          "color": "yellow-green, moderately saturated",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Large oval-shaped clot, occupies most of visible volume. Uneven meniscus line visible in upper part. Clot has heterogeneous texture"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3337.HEIC",
+      "exif_datetime": "2026-02-07 20:06:38",
+      "pdf_caption": "21.7.1",
+      "pdf_page": 13,
+      "pdf_part": 1,
+      "samples_shown": [
+        "21.7.1"
+      ],
+      "visual_description": {
+        "scene": "Test tube with plasma, held vertically, laboratory equipment in background",
+        "sample_count": 1,
+        "view": "frontal, lower part of test tube",
+        "plasma": {
+          "color": "bright yellow, saturated",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Large dense clot visible inside yellow plasma. Wires and electronic equipment visible in background. Plasma has saturated color, clot is clearly defined"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3338.HEIC",
+      "exif_datetime": "2026-02-07 20:05:29",
+      "pdf_caption": null,
+      "pdf_page": 14,
+      "pdf_part": 1,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Test tube with plasma, macro photography through glass, backlighting from behind",
+        "sample_count": 1,
+        "view": "macro, frontal",
+        "plasma": {
+          "color": "pale yellow with greenish tinge",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Large rounded clot in center of test tube. Clot texture is slightly heterogeneous with turbid areas. Surrounding plasma is lighter than clot"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3339.HEIC",
+      "exif_datetime": "2026-02-07 20:05:16",
+      "pdf_caption": null,
+      "pdf_page": 15,
+      "pdf_part": 1,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Test tube with plasma in horizontal position, macro photography",
+        "sample_count": 1,
+        "view": "macro, side, horizontal",
+        "plasma": {
+          "color": "pale yellow",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Rounded gelatinous clot shifted to one edge. Clot texture is heterogeneous -- darker areas visible. Clear clot boundary visible"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3340.HEIC",
+      "exif_datetime": "2026-02-07 20:05:04",
+      "pdf_caption": "21.7.2",
+      "pdf_page": 16,
+      "pdf_part": 1,
+      "samples_shown": [
+        "21.7.2"
+      ],
+      "visual_description": {
+        "scene": "Test tube with plasma, held tilted by hand, against backlighting. Marking visible on test tube",
+        "sample_count": 1,
+        "view": "frontal, middle part of test tube",
+        "plasma": {
+          "color": "pale yellow",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Rounded clot visible in middle part of test tube. Handwritten marking visible on glass. Plasma is pale, clot is compact"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3341.HEIC",
+      "exif_datetime": "2026-02-07 20:09:55",
+      "pdf_caption": null,
+      "pdf_page": 1,
+      "pdf_part": 2,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Test tube with plasma, vertical, laboratory setting in background",
+        "sample_count": 1,
+        "view": "frontal, lower part of test tube",
+        "plasma": {
+          "color": "bright yellow, saturated",
+          "transparency": "transparent",
+          "clots": false,
+          "notes": "Plasma is bright yellow, homogeneous, without visible clots. Fill level about one third of test tube. Clear meniscus boundary visible"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3342.HEIC",
+      "exif_datetime": "2026-02-07 20:09:35",
+      "pdf_caption": null,
+      "pdf_page": 2,
+      "pdf_part": 2,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Test tube with plasma in horizontal position, macro photography through glass",
+        "sample_count": 1,
+        "view": "macro, side, horizontal",
+        "plasma": {
+          "color": "yellow, moderately saturated",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Clot visible in center of plasma volume. Clot center darker than edges. Plasma partially fills test tube"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3343.HEIC",
+      "exif_datetime": "2026-02-07 20:09:41",
+      "pdf_caption": null,
+      "pdf_page": 3,
+      "pdf_part": 2,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Test tube with plasma tilted, against backlighting",
+        "sample_count": 1,
+        "view": "side, at an angle, middle part of test tube",
+        "plasma": {
+          "color": "pale yellow",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Rounded clot visible in lower part of tilted test tube. Small plasma volume. Clot is yellowish-brownish in center"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3344.HEIC",
+      "exif_datetime": "2026-02-07 20:10:01",
+      "pdf_caption": "0.7.1",
+      "pdf_page": 4,
+      "pdf_part": 2,
+      "samples_shown": [
+        "0.7.1"
+      ],
+      "visual_description": {
+        "scene": "Test tube with plasma, held vertically, laboratory setting in background",
+        "sample_count": 1,
+        "view": "frontal, lower part of test tube",
+        "plasma": {
+          "color": "yellow, saturated",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Large gelatinous clot visible in plasma. Plasma is yellow. Bubbles on surface"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3345.HEIC",
+      "exif_datetime": "2026-02-07 20:09:06",
+      "pdf_caption": null,
+      "pdf_page": 5,
+      "pdf_part": 2,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Test tube with plasma, held vertically by hand, laboratory equipment in background",
+        "sample_count": 1,
+        "view": "frontal, lower part of test tube",
+        "plasma": {
+          "color": "yellow, saturated",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Large clot visible inside plasma. Plasma is yellow with noticeable turbidity"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3346.HEIC",
+      "exif_datetime": "2026-02-07 20:08:06",
+      "pdf_caption": null,
+      "pdf_page": 6,
+      "pdf_part": 2,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Test tube with plasma against backlighting, vertical position",
+        "sample_count": 1,
+        "view": "frontal, middle part of test tube",
+        "plasma": {
+          "color": "pale yellow with greenish tinge",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Clot with uneven contours visible in middle part of test tube. Small bubbles on walls. Plasma volume is small"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3347.HEIC",
+      "exif_datetime": "2026-02-07 20:07:48",
+      "pdf_caption": null,
+      "pdf_page": 7,
+      "pdf_part": 2,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Test tube with plasma, held vertically, laboratory equipment and wires in background",
+        "sample_count": 1,
+        "view": "frontal, lower part of test tube",
+        "plasma": {
+          "color": "bright yellow, saturated",
+          "transparency": "transparent",
+          "clots": false,
+          "notes": "Plasma is bright yellow, visually homogeneous. Fill level about one third of test tube. Wires and electronic equipment visible in background"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3348.HEIC",
+      "exif_datetime": "2026-02-07 20:08:19",
+      "pdf_caption": null,
+      "pdf_page": 8,
+      "pdf_part": 2,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Test tube with plasma in horizontal position, macro photography through glass with backlighting",
+        "sample_count": 1,
+        "view": "macro, side, horizontal",
+        "plasma": {
+          "color": "yellow-green, pale",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Clot with thin fibrous structure visible. Thread-like formations visible inside clot. Central part darker than edges"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3349.HEIC",
+      "exif_datetime": "2026-02-07 20:07:58",
+      "pdf_caption": "0.7.2",
+      "pdf_page": 9,
+      "pdf_part": 2,
+      "samples_shown": [
+        "0.7.2"
+      ],
+      "visual_description": {
+        "scene": "Test tube with plasma in horizontal position, macro photography against backlighting",
+        "sample_count": 1,
+        "view": "macro, side, horizontal",
+        "plasma": {
+          "color": "pale yellow with greenish tinge",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Irregularly shaped clot with wavy contours visible. Small bubbles on liquid surface. Clot texture is heterogeneous"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3350.HEIC",
+      "exif_datetime": "2026-02-07 20:14:07",
+      "pdf_caption": null,
+      "pdf_page": 10,
+      "pdf_part": 2,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Three test tubes with plasma, held vertically by hand, against backlighting",
+        "sample_count": 3,
+        "view": "frontal, bottom part of test tubes, from below",
+        "plasma": {
+          "color": "yellow, moderately saturated",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Clots visible in all three test tubes. Left -- clot is compact. Middle -- clot is larger, with darker center. Right -- clot is lighter and more diffuse. Plasma volume varies"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3351.HEIC",
+      "exif_datetime": "2026-02-07 20:11:26",
+      "pdf_caption": null,
+      "pdf_page": 11,
+      "pdf_part": 2,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Three test tubes with plasma, held vertically by hand, against backlighting",
+        "sample_count": 3,
+        "view": "frontal, lower part of test tubes",
+        "plasma": {
+          "color": "pale yellow with greenish tinge",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Clots visible in all three test tubes. Marking visible on middle test tube. Clots differ in size -- middle is the largest. Right test tube has air bubble near wall"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3352.HEIC",
+      "exif_datetime": "2026-02-07 20:12:07",
+      "pdf_caption": "Left to right 0, 19, 21",
+      "pdf_page": 12,
+      "pdf_part": 2,
+      "samples_shown": [
+        "0.7.1",
+        "0.7.2",
+        "19.7.1",
+        "19.7.2",
+        "21.7.1",
+        "21.7.2"
+      ],
+      "visual_description": {
+        "scene": "Four test tubes with plasma arranged horizontally in pairs (two on top, two on bottom), held by hand, against backlighting",
+        "sample_count": 4,
+        "view": "macro, side, horizontal, pairwise arrangement",
+        "plasma": {
+          "color": "pale yellow with greenish tinge",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Clots of different sizes visible in all four test tubes. Upper left -- clot is compact. Upper right -- clot is larger. Lower test tubes also contain clots. Air bubble visible near lower right test tube"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3353.HEIC",
+      "exif_datetime": "2026-02-07 20:30:48",
+      "pdf_caption": null,
+      "pdf_page": 13,
+      "pdf_part": 2,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Two test tubes with plasma close-up, bottom part, dark background",
+        "sample_count": 2,
+        "view": "frontal from below, close-up of bottom part",
+        "plasma": {
+          "color": "yellow-green, saturated",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Both test tubes contain significant plasma volume. Clots visible in both. Plasma has more saturated color compared to earlier photos -- possibly time has passed since irradiation"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3354.HEIC",
+      "exif_datetime": "2026-02-07 20:32:52",
+      "pdf_caption": null,
+      "pdf_page": 14,
+      "pdf_part": 2,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Two test tubes with plasma in horizontal position, one above the other, with backlighting from behind",
+        "sample_count": 2,
+        "view": "side, horizontal, test tubes parallel",
+        "plasma": {
+          "color": "yellow, saturated",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Rounded clots visible in both test tubes. Upper test tube -- clot is brighter and more compact. Lower -- clot is larger and paler. Condensation drops visible on walls"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3355.HEIC",
+      "exif_datetime": "2026-02-07 20:34:10",
+      "pdf_caption": null,
+      "pdf_page": 15,
+      "pdf_part": 2,
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Two test tubes with plasma in horizontal position, one above the other, against backlighting",
+        "sample_count": 2,
+        "view": "side, horizontal, macro",
+        "plasma": {
+          "color": "pale yellow",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Upper test tube -- clot is compact, rounded, with sharp contours. Lower -- clot is smaller, paler. Difference in clot sizes between test tubes is visible"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3356.HEIC",
+      "exif_datetime": "2026-02-07 20:34:35",
+      "pdf_caption": "Left/bottom 19, right/top 21",
+      "pdf_page": 16,
+      "pdf_part": 2,
+      "samples_shown": [
+        "19.7.1",
+        "19.7.2",
+        "21.7.1",
+        "21.7.2"
+      ],
+      "visual_description": {
+        "scene": "Two test tubes with plasma in horizontal position, one above the other, held by hand, against backlighting",
+        "sample_count": 2,
+        "view": "side, horizontal, macro",
+        "plasma": {
+          "color": "pale yellow with greenish tinge",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Clots visible in both test tubes. Upper test tube (21) -- clot is larger, rounded, with sharp contours. Lower (19) -- clot is smaller, paler. Difference in clot formation intensity between samples 19 and 21 is visible"
+        }
+      }
+    }
+  ]
+}

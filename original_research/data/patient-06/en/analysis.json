@@ -1,0 +1,130 @@
+{
+  "patient_id": "06",
+  "donor_code": "06",
+  "blood_group": "I+",
+  "experiment_date": "2026-02-01",
+  "protocol": {
+    "start_time": null,
+    "blood_collection": null,
+    "centrifugation": null,
+    "plasma_volume_ml": 8.5,
+    "samples": [
+      {
+        "id": "0.6.1",
+        "number": 1,
+        "type": "control",
+        "label": "Control 1",
+        "volume_ml": 1
+      },
+      {
+        "id": "0.6.2",
+        "number": 2,
+        "type": "control",
+        "label": "Control 2",
+        "volume_ml": 1.5
+      },
+      {
+        "id": "19.6.1",
+        "number": 3,
+        "type": "sample",
+        "label": "Sample 1",
+        "volume_ml": 1
+      },
+      {
+        "id": "21.6.1",
+        "number": 4,
+        "type": "sample",
+        "label": "Sample 2",
+        "volume_ml": 1
+      },
+      {
+        "id": "19.6.2",
+        "number": 5,
+        "type": "sample",
+        "label": "Sample 3",
+        "volume_ml": 1.5
+      },
+      {
+        "id": "21.6.2",
+        "number": 6,
+        "type": "sample",
+        "label": "Sample 4",
+        "volume_ml": 1.5
+      }
+    ],
+    "radiation": {
+      "start": null,
+      "end": "22:17:03"
+    }
+  },
+  "photos": [
+    {
+      "filename": "IMG_3323.HEIC",
+      "exif_datetime": "2026-02-01 22:29:11",
+      "pdf_caption": "Left 21.6.2, right 19.6.2",
+      "pdf_page": 3,
+      "samples_shown": [
+        "21.6.2",
+        "19.6.2"
+      ],
+      "visual_description": {
+        "scene": "two test tubes held by hand on dark background, horizontal position",
+        "sample_count": 2,
+        "view": "top view of lying test tubes, close-up of bottom part",
+        "plasma": {
+          "color": "transparent with yellowish tinge; clots from pale yellow to orange",
+          "transparency": "transparent (liquid fraction), clots opaque",
+          "clots": true,
+          "notes": "compact rounded clots visible at bottom of both test tubes; left test tube (21.6.2) -- clot is smaller, pale yellow/cream, more loose; right test tube (19.6.2) -- clot is larger, with pronounced orange-brown center and light periphery; liquid fraction in both test tubes is nearly transparent; dark equipment visible in background"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3324.HEIC",
+      "exif_datetime": "2026-02-01 22:27:42",
+      "pdf_caption": "Top to bottom: 21.6.2, 0.6.2, 19.6.2, 21.6.1, 0.6.1, 19.6.1",
+      "pdf_page": 4,
+      "samples_shown": [
+        "21.6.2",
+        "0.6.2",
+        "19.6.2",
+        "21.6.1",
+        "0.6.1",
+        "19.6.1"
+      ],
+      "visual_description": {
+        "scene": "six test tubes lying horizontally parallel to each other on light surface",
+        "sample_count": 6,
+        "view": "general top view, all six samples visible",
+        "plasma": {
+          "color": "from transparent to pale yellow; clots from whitish to orange",
+          "transparency": "transparent (liquid fraction)",
+          "clots": true,
+          "notes": "clots of various sizes and colors visible in all six test tubes; top (21.6.2) -- small light clot; second (0.6.2) -- whitish scattered inclusions; third (19.6.2) -- large clot with orange center; fourth (21.6.1) -- small whitish inclusions; fifth (0.6.1) -- small pale clot; sixth (19.6.1) -- small yellowish clot; liquid fraction in all test tubes is nearly transparent; glass test tubes, no marking on visible side"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3325.HEIC",
+      "exif_datetime": "2026-02-01 22:25:48",
+      "pdf_caption": "Left to right: 21.6.1, 0.6.1, 19.6.1",
+      "pdf_page": 5,
+      "samples_shown": [
+        "21.6.1",
+        "0.6.1",
+        "19.6.1"
+      ],
+      "visual_description": {
+        "scene": "three test tubes held by hand on dark background, spotlight from the left",
+        "sample_count": 3,
+        "view": "side view at an angle, test tubes slightly tilted",
+        "plasma": {
+          "color": "yellow with golden tinge",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "left test tube (21.6.1) -- plasma is yellow, small whitish clots/sediment visible at bottom, least filled; middle (0.6.1) -- plasma is yellow, medium-sized whitish clot visible within liquid; right (19.6.1) -- plasma is more saturated yellow, rounded compact yellowish clot visible; all test tubes are glass; white label visible at bottom of left test tube; point light source (flashlight) creates glare and overexposure on the left"
+        }
+      }
+    }
+  ]
+}

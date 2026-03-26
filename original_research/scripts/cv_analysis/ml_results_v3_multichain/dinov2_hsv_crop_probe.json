@@ -1,0 +1,18 @@
+{
+  "accuracy": 0.3284,
+  "n_samples": 67,
+  "per_channel": {
+    "control": {
+      "n": 24,
+      "accuracy": 0.3333
+    },
+    "ch19": {
+      "n": 23,
+      "accuracy": 0.4348
+    },
+    "ch21": {
+      "n": 20,
+      "accuracy": 0.2
+    }
+  }
+}

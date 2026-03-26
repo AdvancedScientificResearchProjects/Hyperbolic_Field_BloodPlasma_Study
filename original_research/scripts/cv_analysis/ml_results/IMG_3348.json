@@ -1,0 +1,175 @@
+{
+  "filename": "IMG_3348",
+  "patient": "07",
+  "dinov2": {
+    "embedding_norm": 46.739,
+    "embedding_first10": [
+      2.5625,
+      -3.3906,
+      -1.3047,
+      0.1855,
+      -3.1406,
+      -0.9531,
+      -4.8438,
+      -1.3672,
+      1.3984,
+      -0.4531
+    ]
+  },
+  "siglip2": {
+    "labels": [
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.2637
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.1807
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.1592
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0854
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.0854
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.0664
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0518
+      },
+      {
+        "label": "blood plasma with fibrin clots",
+        "score": 0.0403
+      },
+      {
+        "label": "normal blood plasma sample",
+        "score": 0.0403
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.019
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0075
+      }
+    ],
+    "top_label": "blood plasma with sediment",
+    "top_score": 0.2637
+  },
+  "medsiglip": {
+    "labels": [
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.1726
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.1114
+      },
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.1085
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0965
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0872
+      },
+      {
+        "label": "normal blood plasma sample",
+        "score": 0.0836
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.0835
+      },
+      {
+        "label": "blood plasma with fibrin clots",
+        "score": 0.072
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0717
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.0593
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.0537
+      }
+    ],
+    "top_label": "clear transparent blood plasma",
+    "top_score": 0.1726
+  },
+  "biomedclip": {
+    "labels": [
+      {
+        "label": "blood plasma showing fibrinolysis with dissolving clot",
+        "score": 0.2549
+      },
+      {
+        "label": "blood plasma with early fibrin strand formation",
+        "score": 0.1768
+      },
+      {
+        "label": "normal blood plasma sample",
+        "score": 0.1322
+      },
+      {
+        "label": "hemolyzed blood plasma",
+        "score": 0.0999
+      },
+      {
+        "label": "blood plasma with fibrin clots",
+        "score": 0.0986
+      },
+      {
+        "label": "blood plasma with dense mature fibrin clot",
+        "score": 0.0744
+      },
+      {
+        "label": "blood plasma with partially formed fibrin clot",
+        "score": 0.0521
+      },
+      {
+        "label": "turbid cloudy blood plasma",
+        "score": 0.0496
+      },
+      {
+        "label": "blood plasma with no fibrin formation",
+        "score": 0.0328
+      },
+      {
+        "label": "clear transparent blood plasma",
+        "score": 0.0177
+      },
+      {
+        "label": "blood plasma with sediment",
+        "score": 0.0111
+      }
+    ],
+    "top_label": "blood plasma showing fibrinolysis with dissolving clot",
+    "top_score": 0.2549
+  },
+  "errors": {},
+  "visual_assessment": {
+    "expected_clots": 0,
+    "match": true,
+    "needs_manual_review": false
+  }
+}

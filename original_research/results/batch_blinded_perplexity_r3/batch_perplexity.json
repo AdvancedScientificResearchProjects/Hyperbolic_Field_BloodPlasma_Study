@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated": "2026-03-13T09:08:44Z",
+    "mode": "batch_blinded",
+    "blinded": true,
+    "blind_map": {
+      "0": "A",
+      "19": "B",
+      "21": "C"
+    },
+    "provider": "perplexity",
+    "n_patients": 5,
+    "n_images": 15,
+    "patients": [
+      "02",
+      "03",
+      "04",
+      "05",
+      "07"
+    ]
+  },
+  "triplets": [
+    {
+      "patient": "02",
+      "control": "IMG_3268",
+      "ch19": "IMG_3265",
+      "ch21": "IMG_3270"
+    },
+    {
+      "patient": "03",
+      "control": "IMG_3292",
+      "ch19": "IMG_3296",
+      "ch21": "IMG_3290"
+    },
+    {
+      "patient": "04",
+      "control": "IMG_3307",
+      "ch19": "IMG_3308",
+      "ch21": "IMG_3309"
+    },
+    {
+      "patient": "05",
+      "control": "IMG_3316",
+      "ch19": "IMG_3312",
+      "ch21": "IMG_3319"
+    },
+    {
+      "patient": "07",
+      "control": "IMG_3341",
+      "ch19": "IMG_3329",
+      "ch21": "IMG_3335"
+    }
+  ],
+  "result": {
+    "provider": "perplexity",
+    "latency_ms": 25361,
+    "error": null,
+    "raw": "```json\n{\n  \"per_patient\": [\n    {\n      \"patient\": \"Patient 1\",\n      \"most_coagulated\": \"sample_c\",\n      \"least_coagulated\": \"sample_a\",\n      \"difference\": \"subtle\",\n      \"notes\": \"Sample C shows small opaque circular clot at bottom; A and B show clear yellow plasma.\"\n    },\n    {\n      \"patient\": \"Patient 2\",\n      \"most_coagulated\": \"sample_b\",\n      \"least_coagulated\": \"sample_a\",\n      \"difference\": \"subtle\",\n      \"notes\": \"Sample B has small bubble-like opacity at bottom; A clear; C similar to A but slightly less transparent.\"\n    },\n    {\n      \"patient\": \"Patient 3\",\n      \"most_coagulated\": \"sample_b\",\n      \"least_coagulated\": \"sample_a\",\n      \"difference\": \"moderate\",\n      \"notes\": \"Sample B shows large round whitish clot mass; A clear plasma; C intermediate with smaller opacity.\"\n    },\n    {\n      \"patient\": \"Patient 4\",\n      \"most_coagulated\": \"sample_c\",\n      \"least_coagulated\": \"sample_a\",\n      \"difference\": \"moderate\",\n      \"notes\": \"Sample C has prominent gel-like separator disk; A clear plasma; B intermediate.\"\n    },\n    {\n      \"patient\": \"Patient 5\",\n      \"most_coagulated\": \"sample_c\",\n      \"least_coagulated\": \"sample_a\",\n      \"difference\": \"pronounced\",\n      \"notes\": \"Sample C shows large solid whitish clot mass; A clear with thin meniscus; B has gel separator.\"\n    }\n  ],\n  \"summary\": {\n    \"sample_a_most_coagulated_count\": 0,\n    \"sample_b_most_coagulated_count\": 2,\n    \"sample_c_most_coagulated_count\": 3,\n    \"pattern_strength\": \"moderate\",\n    \"pattern_description\": \"Sample C most coagulated in 3/5 patients, B in 2/5; A never most coagulated. Typical differences: A clear yellow plasma, B small-mid opacities or gel, C larger clots or separators.\",\n    \"conclusion\": \"Moderate trend indicates Sample C consistently shows most advanced coagulation across patients.\"\n  }\n}\n```"
+  }
+}

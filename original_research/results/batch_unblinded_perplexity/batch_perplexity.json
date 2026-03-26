@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "generated": "2026-03-13T08:53:45Z",
+    "mode": "batch",
+    "blinded": false,
+    "blind_map": null,
+    "provider": "perplexity",
+    "n_patients": 5,
+    "n_images": 15,
+    "patients": [
+      "02",
+      "03",
+      "04",
+      "05",
+      "07"
+    ]
+  },
+  "triplets": [
+    {
+      "patient": "02",
+      "control": "IMG_3268",
+      "ch19": "IMG_3265",
+      "ch21": "IMG_3270"
+    },
+    {
+      "patient": "03",
+      "control": "IMG_3292",
+      "ch19": "IMG_3296",
+      "ch21": "IMG_3290"
+    },
+    {
+      "patient": "04",
+      "control": "IMG_3307",
+      "ch19": "IMG_3308",
+      "ch21": "IMG_3309"
+    },
+    {
+      "patient": "05",
+      "control": "IMG_3316",
+      "ch19": "IMG_3312",
+      "ch21": "IMG_3319"
+    },
+    {
+      "patient": "07",
+      "control": "IMG_3341",
+      "ch19": "IMG_3329",
+      "ch21": "IMG_3335"
+    }
+  ],
+  "result": {
+    "provider": "perplexity",
+    "latency_ms": 21860,
+    "error": null,
+    "raw": "```json\n{\n  \"per_patient\": [\n    {\n      \"patient\": \"P02\",\n      \"most_coagulated\": \"ch21\",\n      \"least_coagulated\": \"ch19\",\n      \"difference\": \"subtle\",\n      \"notes\": \"CH21 shows small central opacity; CH19 clearest plasma; control intermediate\"\n    },\n    {\n      \"patient\": \"P03\",\n      \"most_coagulated\": \"control\",\n      \"least_coagulated\": \"ch19\",\n      \"difference\": \"subtle\",\n      \"notes\": \"Control has more central turbidity; CH19 very clear; CH21 similar to control\"\n    },\n    {\n      \"patient\": \"P04\",\n      \"most_coagulated\": \"ch21\",\n      \"least_coagulated\": \"control\",\n      \"difference\": \"moderate\",\n      \"notes\": \"CH21 shows pronounced central opacity; control clearer; CH19 intermediate\"\n    },\n    {\n      \"patient\": \"P05\",\n      \"most_coagulated\": \"ch21\",\n      \"least_coagulated\": \"ch19\",\n      \"difference\": \"moderate\",\n      \"notes\": \"CH21 has cloudy center and opacity; CH19 clear; control intermediate\"\n    },\n    {\n      \"patient\": \"P07\",\n      \"most_coagulated\": \"ch21\",\n      \"least_coagulated\": \"control\",\n      \"difference\": \"subtle\",\n      \"notes\": \"CH21 shows central haze; control clearer; CH19 similar to CH21\"\n    }\n  ],\n  \"summary\": {\n    \"ch19_most_coagulated_count\": 0,\n    \"ch21_most_coagulated_count\": 3,\n    \"control_most_coagulated_count\": 1,\n    \"pattern_strength\": \"moderate\",\n    \"pattern_description\": \"CH21 frequently shows most advanced coagulation with central opacities or cloudiness, CH19 often least coagulated with clearer plasma, control variable\",\n    \"conclusion\": \"Moderate trend indicates CH21 accelerates coagulation relative to CH19 and control across most patients.\"\n  }\n}\n```"
+  }
+}

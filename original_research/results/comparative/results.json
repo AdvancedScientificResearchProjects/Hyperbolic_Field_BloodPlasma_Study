@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "generated": "2026-03-12T13:35:41.341697+00:00",
+    "mode": "comparative",
+    "providers": [
+      "mistral"
+    ],
+    "total_comparisons": 1
+  },
+  "comparisons": [
+    {
+      "patient": "02",
+      "photos": {
+        "control": {
+          "filename": "IMG_3268",
+          "sample_ids": [
+            "0.2.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3265",
+          "sample_ids": [
+            "19.2.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3270",
+          "sample_ids": [
+            "21.2.1"
+          ]
+        }
+      },
+      "providers": {
+        "mistral": {
+          "latency_ms": 2481,
+          "error": "RateLimitError: Error code: 429 - {'object': 'error', 'message': 'Rate limit exceeded', 'type': 'rate_limited', 'param': None, 'code': '1300', 'raw_status_code': 429}",
+          "fallback": false,
+          "raw": null,
+          "structured": null
+        }
+      }
+    }
+  ]
+}

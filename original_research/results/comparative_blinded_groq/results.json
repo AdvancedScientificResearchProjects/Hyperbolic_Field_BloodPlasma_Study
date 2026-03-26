@@ -1,0 +1,1234 @@
+{
+  "metadata": {
+    "generated": "2026-03-12T22:12:15.048044+00:00",
+    "mode": "comparative_blinded",
+    "blinded": true,
+    "blind_map": {
+      "0": "A",
+      "19": "B",
+      "21": "C"
+    },
+    "providers": [
+      "groq"
+    ],
+    "total_comparisons": 19
+  },
+  "comparisons": [
+    {
+      "patient": "02",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3268",
+          "sample_ids": [
+            "0.2.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3265",
+          "sample_ids": [
+            "19.2.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3270",
+          "sample_ids": [
+            "21.2.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 1842,
+          "error": null,
+          "fallback": false,
+          "raw": "## Sample Analysis\n\n### Sample A (Image 1)\n1. **Plasma color and transparency**: The plasma appears yellow with semi-transparency.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots or fibrin strands are visible.\n3. **Coagulation stage**: The coagulation stage appears to be **none**.\n4. **Density and homogeneity**: The plasma seems homogeneous.\n5. **Any unique morphological features**: No unique features are observed.\n\n### Sample B (Image 2)\n1. **Plasma color and transparency**: The plasma is also yellow with semi-transparency.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots or fibrin strands are visible.\n3. **Coagulation stage**: The coagulation stage appears to be **none**.\n4. **Density and homogeneity**: The plasma seems homogeneous.\n5. **Any unique morphological features**: A few air bubbles are visible on the inner wall of the tube.\n\n### Sample C (Image 3)\n1. **Plasma color and transparency**: The plasma appears yellow with semi-transparency.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: A clot or coagulation structure is visible.\n3. **Coagulation stage**: The coagulation stage appears to be **early_fibrin** or **partial_clot**.\n4. **Density and homogeneity**: The plasma does not seem homogeneous due to the presence of a clot.\n5. **Any unique morphological features**: A distinct clot or aggregated structure is visible within the plasma.\n\n## Comparison\n- **Most advanced coagulation**: Sample C shows the most advanced coagulation.\n- **Least coagulated**: Samples A and B appear to be equally the least coagulated.\n- **Visible differences**: The main difference is the presence of a clot in Sample C, while Samples A and B appear similar but with Sample B having a few air bubbles.\n- **Overall visual difference rating**: The overall visual difference is **moderate**.\n\n## JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"homogeneous, no unique features\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"homogeneous, a few air bubbles on the wall\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"presence of a clot, not homogeneous\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Sample C has a visible clot, Samples A and B are similar but Sample B has air bubbles\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "homogeneous, no unique features",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "homogeneous, a few air bubbles on the wall",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "presence of a clot, not homogeneous",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "control",
+            "overall_difference": "moderate",
+            "comparison_notes": "Sample C has a visible clot, Samples A and B are similar but Sample B has air bubbles"
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3269",
+          "sample_ids": [
+            "0.2.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3266",
+          "sample_ids": [
+            "19.2.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3271",
+          "sample_ids": [
+            "21.2.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2371,
+          "error": null,
+          "fallback": false,
+          "raw": "## Step 1: Assess Sample A (Image 1)\n- **Plasma color and transparency**: The plasma appears yellow and semi-transparent.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There are no visible clots or fibrin strands.\n- **Coagulation stage**: The sample appears to be in the \"none\" coagulation stage, as there are no signs of clotting or coagulation.\n- **Density and homogeneity**: The sample appears homogeneous.\n- **Any unique morphological features**: No unique features are observed.\n\n## Step 2: Assess Sample B (Image 2)\n- **Plasma color and transparency**: The plasma appears lighter yellow and more transparent compared to Sample A.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There are no visible clots or fibrin strands.\n- **Coagulation stage**: This sample also appears to be in the \"none\" coagulation stage.\n- **Density and homogeneity**: The sample appears homogeneous.\n- **Any unique morphological features**: No unique features are observed.\n\n## 3: Assess Sample C (Image 3)\n- **Plasma color and transparency**: The plasma appears yellow and semi-transparent, similar to Sample A but with a slightly different shade.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There are no visible clots or fibrin strands.\n- **Coagulation stage**: This sample appears to be in the \"none\" coagulation stage as well.\n- **Density and homogeneity**: The sample appears homogeneous.\n- **Any unique morphological features**: A thin line or sediment is visible at the bottom of the tube, which could indicate some level of settling but not coagulation.\n\n## 4: Compare Samples\n- **Most advanced coagulation**: All samples appear to have no coagulation.\n- **Least coagulated**: Since all samples show no signs of coagulation, they are equally coagulated, or rather, not coagulated at all.\n- **Visible differences**: The main differences are in color and transparency. Sample B appears lighter and more transparent than Samples A and C. Sample A and C have similar colors but differ slightly in shade and transparency.\n- **Overall visual difference rating**: The overall visual difference is subtle.\n\n## 5: JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"homogeneous, no unique features\"\n  },\n  \"sample_b\": {\n    \"color\": \"light yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"homogeneous, no unique features\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"homogeneous, thin line or sediment at the bottom\"\n  },\n  \"most_coagulated\": \"sample_a\",\n  \"least_coagulated\": \"sample_a | sample_b | sample_c\",\n  \"overall_difference\": \"subtle\",\n  \"comparison_notes\": \"Differences in color and transparency, but no coagulation observed\"\n}\n```\n\nThe final answer is:\n\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"homogeneous, no unique features\"\n  },\n  \"sample_b\": {\n    \"color\": \"light yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"homogeneous, no unique features\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"homogeneous, thin line or sediment at the bottom\"\n  },\n  \"most_coagulated\": \"sample_a\",\n  \"least_coagulated\": \"sample_a | sample_b | sample_c\",\n  \"overall_difference\": \"subtle\",\n  \"comparison_notes\": \"Differences in color and transparency, but no coagulation observed\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "homogeneous, no unique features",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "light yellow",
+              "transparency": "transparent",
+              "notes": "homogeneous, no unique features",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "homogeneous, thin line or sediment at the bottom",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "control",
+            "least_coagulated": "sample_a | sample_b | sample_c",
+            "overall_difference": "subtle",
+            "comparison_notes": "Differences in color and transparency, but no coagulation observed"
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3278",
+          "sample_ids": [
+            "0.2.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3267",
+          "sample_ids": [
+            "19.2.2"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3272",
+          "sample_ids": [
+            "21.2.2"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2126,
+          "error": null,
+          "fallback": false,
+          "raw": "## Step 1: Analyze Sample A (Image 1)\n- **Plasma color and transparency**: The plasma appears yellowish with a semi-transparent to opaque appearance, depending on the thickness of the sample.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There is a visible clot or coagulation structure in the center, which appears as a more opaque, yellowish mass.\n- **Coagulation stage**: Given the presence of a distinct clot, it seems to be at a stage of **partial_clot**.\n- **Density and homogeneity**: The sample shows a clear density gradient with the clot being more dense. It is not homogeneous due to the clot formation.\n- **Unique morphological features**: A distinct clot is visible in the center of the sample.\n\n## 2: Analyze Sample B (Image 2)\n- **Plasma color and transparency**: The plasma is yellowish and appears transparent.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There are no visible clots or fibrin strands.\n- **Coagulation stage**: The sample appears to be at the **none** stage of coagulation.\n- **Density and homogeneity**: The sample appears homogeneous and of uniform density.\n- **Unique morphological features**: No unique features are observed.\n\n## 3: Analyze Sample C (Image 3)\n- Since Image 3 shows three samples, we'll assume it represents Samples B, C, and possibly another. However, based on the description, we focus on one sample for consistency. Assuming the left sample in Image 3 is Sample C:\n- **Plasma color and transparency**: The plasma is yellowish and appears transparent.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There are no visible clots or fibrin strands.\n- **Coagulation stage**: This sample also appears to be at the **none** stage of coagulation.\n- **Density and homogeneity**: The sample appears homogeneous and of uniform density.\n- **Unique morphological features**: No unique features are observed.\n\n## 4: Comparison\n- **Most advanced coagulation**: Sample A shows the most advanced coagulation due to the presence of a clot.\n- **Least coagulated**: Samples B and C appear to be equally the least coagulated, with no visible signs of coagulation.\n- **Overall visual difference**: The overall visual difference between the samples is **moderate** to **pronounced**, primarily due to the clot in Sample A.\n- **Comparison notes**: The key observation is the presence of a clot in Sample A, which distinguishes it significantly from Samples B and C.\n\n## 5: JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"A distinct clot is visible in the center.\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"No clots or fibrin strands observed.\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"No clots or fibrin strands observed.\"\n  },\n  \"most_coagulated\": \"sample_a\",\n  \"least_coagulated\": \"sample_b or sample_c\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"The presence of a clot in sample A distinguishes it from samples B and C.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellowish",
+              "transparency": "semi-transparent",
+              "notes": "A distinct clot is visible in the center.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "yellowish",
+              "transparency": "transparent",
+              "notes": "No clots or fibrin strands observed.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "yellowish",
+              "transparency": "transparent",
+              "notes": "No clots or fibrin strands observed.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "control",
+            "least_coagulated": "sample_b or sample_c",
+            "overall_difference": "moderate",
+            "comparison_notes": "The presence of a clot in sample A distinguishes it from samples B and C."
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3286",
+          "sample_ids": [
+            "0.2.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3277",
+          "sample_ids": [
+            "19.2.2"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3279",
+          "sample_ids": [
+            "21.2.2"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2067,
+          "error": null,
+          "fallback": false,
+          "raw": "## Step 1: Analyze Sample A (Image 1)\n- **Plasma color and transparency**: The plasma has a yellow color and appears semi-transparent.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There is a visible clot or coagulation structure that is separated from the tube wall.\n- **Coagulation stage**: The presence of a distinct clot suggests a stage of partial_clot.\n- **Density and homogeneity**: The clot appears dense and distinct from the rest of the plasma, which seems less dense.\n- **Unique morphological features**: The clot is rounded at the bottom and has a clear separation from the plasma.\n\n## 2: Analyze Sample B (Image 2)\n- **Plasma color and transparency**: The plasma appears more opaque compared to Sample A, with a yellowish color.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There is a clot or coagulation structure present.\n- **Coagulation stage**: The clot seems more integrated with the plasma, suggesting a possible early_fibrin or partial_clot stage, but it's harder to determine the exact stage without more information.\n- **Density and homogeneity**: The sample appears less homogeneous due to the clot formation.\n- **Unique morphological features**: The clot seems to be more gel-like and integrated into the plasma.\n\n## 3: Analyze Sample C (Image 3)\n- **Plasma color and transparency**: The plasma appears more transparent compared to Samples A and B, with a lighter yellow color.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There are no visible clots or coagulation structures.\n- **Coagulation stage**: This suggests a stage of none or very early stages of coagulation.\n- **Density and homogeneity**: The plasma appears more homogeneous.\n- **Unique morphological features**: There are no visible clots or fibrin strands.\n\n## 4: Compare Samples\n- **Most advanced coagulation**: Sample A shows a clear clot formation, suggesting it has the most advanced coagulation.\n- **Least coagulated**: Sample C shows no visible clots or coagulation structures, indicating it is the least coagulated.\n- **Visible differences**: The main differences are the presence and appearance of clots in Samples A and B versus the clear, homogeneous appearance of Sample C.\n- **Overall visual difference rating**: The overall visual difference between the samples is moderate to pronounced, given the presence of clots in two samples and the absence in one.\n\n## 5: JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"distinct clot formation\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin or partial_clot\",\n    \"notes\": \"gel-like clot integrated into plasma\"\n  },\n  \"sample_c\": {\n    \"color\": \"light yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"homogeneous, no clots\"\n  },\n  \"most_coagulated\": \"sample_a\",\n  \"least_coagulated\": \"sample_c\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Presence of clots in Samples A and B, absence in Sample C\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "distinct clot formation",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "yellowish",
+              "transparency": "opaque",
+              "notes": "gel-like clot integrated into plasma",
+              "clots": true,
+              "clot_stage": "early_fibrin_or_partial_clot"
+            },
+            "ch21": {
+              "color": "light yellow",
+              "transparency": "transparent",
+              "notes": "homogeneous, no clots",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "control",
+            "least_coagulated": "ch21",
+            "overall_difference": "moderate",
+            "comparison_notes": "Presence of clots in Samples A and B, absence in Sample C"
+          }
+        }
+      }
+    },
+    {
+      "patient": "02",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3287",
+          "sample_ids": [
+            "0.2.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3284",
+          "sample_ids": [
+            "19.2.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3285",
+          "sample_ids": [
+            "21.2.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2312,
+          "error": null,
+          "fallback": false,
+          "raw": "## Step 1: Analyze Sample A (Image 1)\n- **Plasma color and transparency**: The plasma appears yellowish with a clear serum layer on top, indicating some level of separation. The transparency is semi-transparent.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There are no visible clots or fibrin strands.\n- **Coagulation stage**: The sample appears to be in the early stages of coagulation, if any, but it seems mostly liquid with a possible slight gel-like formation at the bottom.\n- **Density and homogeneity**: The sample seems to have some density variation with the yellowish color concentrated at the bottom, suggesting some settling.\n- **Unique morphological features**: A distinct yellowish layer at the bottom with a clearer layer on top.\n\n## 2: Analyze Sample B (Image 2)\n- **Plasma color and transparency**: The plasma has a yellowish hue with a cracked, gel-like appearance on the surface, suggesting coagulation has occurred.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, there are visible coagulation structures, evidenced by the cracked surface.\n- **Coagulation stage**: The sample appears to be in an advanced stage of coagulation, likely partial_clot or full_coagulation given the surface texture.\n- **Density and homogeneity**: The sample shows a clear density gradient and is not homogeneous due to the coagulation.\n- **Unique morphological features**: The surface resembles a cracked, dried mudflat, indicating significant coagulation and possibly some level of dehydration.\n\n## 3: Analyze Sample C (Image 3)\n- **Plasma color and transparency**: The plasma is yellowish with a smooth, shiny surface, indicating a more homogeneous state compared to Sample B.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There are no obvious clots but a smooth gel-like surface.\n- **Coagulation stage**: This sample seems to be in an early stage of coagulation, with a gel-like consistency but no distinct clots.\n- **Density and homogeneity**: More homogeneous than Sample B but less than Sample A, with a uniform yellowish color.\n- **Unique morphological features**: A smooth, shiny surface without cracks.\n\n## 4: Compare Samples\n- **Most advanced coagulation**: Sample B shows the most advanced coagulation, with a clear indication of clot formation and a cracked surface.\n- **Least coagulated**: Sample A appears to be the least coagulated, with minimal evidence of clot formation.\n- **Visible differences**: The main differences are the extent of coagulation (Sample B > Sample C > Sample A) and the surface texture (cracked in B, smooth in C, and separated in A).\n- **Overall visual difference rating**: The overall visual difference between the samples is pronounced.\n\n## 5: JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"Distinct yellowish layer at the bottom with a clearer layer on top\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"Cracked surface indicating advanced coagulation\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"Smooth, shiny surface\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Samples show varying degrees of coagulation and surface texture\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellowish",
+              "transparency": "semi-transparent",
+              "notes": "Distinct yellowish layer at the bottom with a clearer layer on top",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "yellowish",
+              "transparency": "opaque",
+              "notes": "Cracked surface indicating advanced coagulation",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch21": {
+              "color": "yellowish",
+              "transparency": "semi-transparent",
+              "notes": "Smooth, shiny surface",
+              "clots": false,
+              "clot_stage": "early_fibrin"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Samples show varying degrees of coagulation and surface texture"
+          }
+        }
+      }
+    },
+    {
+      "patient": "03",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3292",
+          "sample_ids": [
+            "0.3.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3296",
+          "sample_ids": [
+            "19.3.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3290",
+          "sample_ids": [
+            "21.3.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2013,
+          "error": null,
+          "fallback": false,
+          "raw": "## Step 1: Analyze Sample A (Image 1)\n- **Plasma color and transparency**: The plasma appears yellow and semi-transparent.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, there are clots or coagulation structures visible.\n- **Coagulation stage**: The presence of visible clots suggests a stage of partial_clot.\n- **Density and homogeneity**: The sample shows some density and homogeneity loss due to the clot formation.\n- **Unique morphological features**: Visible clots.\n\n## 2: Analyze Sample B (Image 2)\n- **Plasma color and transparency**: The plasma is yellow and appears less transparent than Sample A, possibly due to a more homogeneous mixture or different lighting conditions.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, there are fibrin strands or clots.\n- **Coagulation stage**: The sample seems to be in an early_fibrin or partial_clot stage, but it's hard to determine precisely without more information.\n- **Density and homogeneity**: The sample seems less homogeneous than Sample A, with a possible finer clot or fibrin network.\n- **Unique morphological features**: Fibrin strands or a fine clot network.\n\n## 3: Analyze Sample C (Image 3)\n- **Plasma color and transparency**: The plasma is yellow and transparent.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: No visible clots or fibrin strands.\n- **Coagulation stage**: none\n- **Density and homogeneity**: The sample appears more homogeneous and less dense compared to the others with clots.\n- **Unique morphological features**: Clear, no visible clots or fibrin.\n\n## 4: Compare Samples\n- **Most advanced coagulation**: Sample A shows the most advanced coagulation with visible clots.\n- **Least coagulated**: Sample C shows the least coagulation with no visible clots or fibrin strands.\n- **Visible differences**: The main differences are the presence and extent of clotting. Sample A has distinct clots, Sample B seems to have a finer network or early fibrin formation, and Sample C shows no clotting.\n- **Overall visual difference rating**: moderate\n\n## 5: JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"visible clots\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"fibrin strands or fine clot network\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"no visible clots or fibrin\"\n  },\n  \"most_coagulated\": \"sample_a\",\n  \"least_coagulated\": \"sample_c\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Samples show varying degrees of coagulation, from no clot formation in Sample C to visible clots in Sample A and a possible early fibrin network in Sample B.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "visible clots",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "fibrin strands or fine clot network",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "transparent",
+              "notes": "no visible clots or fibrin",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "control",
+            "least_coagulated": "ch21",
+            "overall_difference": "moderate",
+            "comparison_notes": "Samples show varying degrees of coagulation, from no clot formation in Sample C to visible clots in Sample A and a possible early fibrin network in Sample B."
+          }
+        }
+      }
+    },
+    {
+      "patient": "03",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3293",
+          "sample_ids": [
+            "0.3.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3297",
+          "sample_ids": [
+            "19.3.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3291",
+          "sample_ids": [
+            "21.3.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2189,
+          "error": null,
+          "fallback": false,
+          "raw": "## Sample Analysis\n\n### Sample A (Image 1)\n1. **Plasma color and transparency**: The plasma appears yellow with a semi-transparent clarity.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, there are clots or coagulation structures visible.\n3. **Coagulation stage**: The sample appears to be in an **early-fibrin** or **partial_clot** stage, given the presence of what seems to be a forming clot.\n4. **Density and homogeneity**: The sample shows some density and homogeneity, but it's not uniform due to the clot formation.\n5. **Unique morphological features**: There are noticeable clumps or aggregates within the plasma.\n\n### Sample B (Image 2)\n1. **Plasma color and transparency**: The plasma is yellow and semi-transparent.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No obvious clots are visible, but there might be subtle fibrin strands.\n3. **Coagulation stage**: This seems to be at a **none** or **early_fibrin** stage, as no significant clot is visible.\n4. **Density and homogeneity**: The sample appears relatively homogeneous.\n5. **Unique morphological features**: The surface shows a reflective, smooth appearance.\n\n### Sample C (Image 3)\n1. **Plasma color and transparency**: The plasma is yellow with a semi-transparent clarity.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, there is a distinct clot.\n3. **Coagulation stage**: This sample appears to be in a **partial_clot** stage.\n4. **Density and homogeneity**: The sample shows some inhomogeneity due to the clot.\n5. **Unique morphological features**: A clear separation between the clot and the liquid plasma is visible.\n\n## Comparison\n- **Most advanced coagulation**: Sample C shows the most advanced coagulation with a clear, distinct clot.\n- **Least coagulated**: Sample B appears to be the least coagulated with no obvious clots.\n- **Visible differences**: The main differences are the presence and extent of clot formation. Sample B seems to have no clot, Sample A has a developing clot, and Sample C has a more formed clot.\n- **Overall visual difference rating**: The overall visual difference is **moderate**.\n\n## JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin / partial_clot\",\n    \"notes\": \"noticeable clumps or aggregates\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"relatively homogeneous\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"clear separation between clot and plasma\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_b\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"differences mainly in clot formation and plasma homogeneity\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "noticeable clumps or aggregates",
+              "clots": true,
+              "clot_stage": "early_fibrin_/_partial_clot"
+            },
+            "ch19": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "relatively homogeneous",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "clear separation between clot and plasma",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "ch19",
+            "overall_difference": "moderate",
+            "comparison_notes": "differences mainly in clot formation and plasma homogeneity"
+          }
+        }
+      }
+    },
+    {
+      "patient": "03",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3294",
+          "sample_ids": [
+            "0.3.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3300",
+          "sample_ids": [
+            "19.3.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3298",
+          "sample_ids": [
+            "21.3.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2335,
+          "error": null,
+          "fallback": false,
+          "raw": "## Step 1: Analyze Sample A (Image 1)\n- **Color and Transparency**: The plasma appears yellowish with visible structures within, suggesting it is not fully transparent but semi-transparent.\n- **Presence/Absence of Clots, Fibrin Strands, or Coagulation Structures**: There are visible clots or coagulation structures within the sample.\n- **Coagulation Stage**: Given the presence of distinct, rounded structures, it seems to be in an early stage of coagulation, possibly with early fibrin formation.\n- **Density and Homogeneity**: The sample shows some density and is not homogeneous due to the presence of clots.\n- **Unique Morphological Features**: Visible rounded clots or aggregates.\n\n## 2: Analyze Sample B (Image 2)\n- **Color and Transparency**: The plasma has a more opaque appearance compared to Sample A, with a yellowish color.\n- **Presence/Absence of Clots, Fibrin Strands, or Coagulation Structures**: There are clots or coagulation structures present.\n- **Coagulation Stage**: The sample appears to be in a more advanced stage of coagulation than Sample A, with a possible partial clot formation.\n- **Density and Homogeneity**: It is denser and less homogeneous than Sample A.\n- **Unique Morphological Features**: A network of fibrin strands is visible.\n\n## 3: Analyze Sample C (Image 3)\n- **Color and Transparency**: The sample is yellowish and appears more opaque than Samples A and B.\n- **Presence/Absence of Clots, Fibrin Strands, or Coagulation Structures**: There are clots or fibrin strands present.\n- **Coagulation Stage**: This sample seems to be in a further advanced stage of coagulation, possibly with full coagulation or lysis beginning.\n- **Density and Homogeneity**: It appears denser and less homogeneous.\n- **Unique Morphological Features**: A dense network of fibrin strands or a clot is visible.\n\n## 4: Compare Samples\n- **Most Advanced Coagulation**: Sample C appears to have the most advanced coagulation due to its opaque nature and dense network.\n- **Least Coagulated**: Sample A seems to be the least coagulated, given its semi-transparent nature and early-stage clot formation.\n- **Visible Differences**: The main differences are in the transparency, presence of clots, and the stage of coagulation. Sample A is more transparent with early clot formation, Sample B shows a partial clot with a fibrin network, and Sample C is more opaque with advanced coagulation.\n- **Overall Visual Difference Rating**: The overall visual difference between the samples is moderate to pronounced, given the changes in transparency, clot formation, and coagulation stage.\n\n## 5: JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"Visible rounded clots or aggregates\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"semi-opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"Network of fibrin strands visible\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"Dense network of fibrin strands or clot\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Differences in transparency, clot presence, and coagulation stage\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellowish",
+              "transparency": "semi-transparent",
+              "notes": "Visible rounded clots or aggregates",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "ch19": {
+              "color": "yellowish",
+              "transparency": "semi-opaque",
+              "notes": "Network of fibrin strands visible",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "yellowish",
+              "transparency": "opaque",
+              "notes": "Dense network of fibrin strands or clot",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "control",
+            "overall_difference": "moderate",
+            "comparison_notes": "Differences in transparency, clot presence, and coagulation stage"
+          }
+        }
+      }
+    },
+    {
+      "patient": "03",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3295",
+          "sample_ids": [
+            "0.3.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3301",
+          "sample_ids": [
+            "19.3.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3299",
+          "sample_ids": [
+            "21.3.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 1744,
+          "error": null,
+          "fallback": false,
+          "raw": "## Sample Analysis\n\n### Sample A (Image 1)\n1. **Plasma color and transparency**: The plasma appears yellow and is transparent.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots or fibrin strands are visible.\n3. **Coagulation stage**: The coagulation stage appears to be \"none\".\n4. **Density and homogeneity**: The plasma seems homogeneous.\n5. **Any unique morphological features**: No unique features are observed.\n\n### Sample B (Image 2)\n1. **Plasma color and transparency**: The plasma is yellow but less transparent than Sample A, with visible fibrin strands.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Fibrin strands are visible.\n3. **Coagulation stage**: The coagulation stage appears to be \"early_fibrin\".\n4. **Density and homogeneity**: The plasma seems less homogeneous than Sample A due to the presence of fibrin strands.\n5. **Any unique morphological features**: Fibrin strands are visible, indicating early coagulation.\n\n### Sample C (Image 3)\n1. **Plasma color and transparency**: The plasma appears brownish and opaque.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: A clot is present.\n3. **Coagulation stage**: The coagulation stage appears to be \"full_coagulation\".\n4. **Density and homogeneity**: The sample is inhomogeneous due to the clot.\n5. **Any unique morphological features**: A distinct clot is visible.\n\n## Comparison\n- **Most advanced coagulation**: Sample C shows the most advanced coagulation with a visible clot.\n- **Least coagulated**: Sample A appears to be the least coagulated with no visible clots or fibrin strands.\n- **Visible differences**: The main differences are the presence of a clot in Sample C, fibrin strands in Sample B, and the clear, homogeneous appearance of Sample A.\n- **Overall visual difference rating**: The overall visual difference between the samples is pronounced.\n\n## JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"homogeneous, no clots or fibrin strands\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"fibrin strands visible\"\n  },\n  \"sample_c\": {\n    \"color\": \"brownish\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"distinct clot present\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Samples show progressive coagulation from A to C.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellow",
+              "transparency": "transparent",
+              "notes": "homogeneous, no clots or fibrin strands",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "fibrin strands visible",
+              "clots": false,
+              "clot_stage": "early_fibrin"
+            },
+            "ch21": {
+              "color": "brownish",
+              "transparency": "opaque",
+              "notes": "distinct clot present",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Samples show progressive coagulation from A to C."
+          }
+        }
+      }
+    },
+    {
+      "patient": "04",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3307",
+          "sample_ids": [
+            "0.4.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3308",
+          "sample_ids": [
+            "19.4.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3309",
+          "sample_ids": [
+            "21.4.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2149,
+          "error": null,
+          "fallback": false,
+          "raw": "## Step 1: Analyze Sample A (Image 1)\n- **Plasma color and transparency**: The plasma appears yellowish with a semi-transparent clarity.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There are visible structures within the plasma that could indicate early stages of coagulation or fibrin formation.\n- **Coagulation stage**: Given the presence of structures, it seems to be at an early stage of coagulation, possibly \"early_fibrin\".\n- **Density and homogeneity**: The sample seems to have a relatively uniform density but with noticeable inclusions or structures.\n- **Unique morphological features**: There are distinct, somewhat linear structures suggestive of fibrin strands.\n\n## 2: Analyze Sample B (Image 2)\n- **Plasma color and transparency**: The plasma has a similar yellowish hue but appears more transparent than Sample A.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There are no obvious clots or fibrin strands visible.\n- **Coagulation stage**: It appears to be at a \"none\" or very early stage of coagulation.\n- **Density and homogeneity**: The sample looks more homogeneous compared to Sample A.\n- **Unique morphological features**: Less noticeable structures compared to Sample A.\n\n## 3: Analyze Sample C (Image 3)\n- **Plasma color and transparency**: The plasma color is also yellowish but seems less transparent than Sample B and more than Sample A.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There are visible fibrin strands or clot formations, more pronounced than in Sample A.\n- **Coagulation stage**: This sample appears to be at a more advanced stage of coagulation than Sample A, possibly \"partial_clot\".\n- **Density and homogeneity**: The sample shows areas of different density, indicating coagulation.\n- **Unique morphological features**: More pronounced and extensive fibrin strands or clots compared to Sample A.\n\n## 4: Compare Samples\n- **Most advanced coagulation**: Sample C shows the most advanced coagulation with visible fibrin strands or partial clot formation.\n- **Least coagulated**: Sample B appears to be the least coagulated with no visible clots or fibrin strands.\n- **Visible differences**: The main differences are the presence and extent of fibrin strands or clots, with Sample C showing the most coagulation and Sample B showing the least.\n- **Overall visual difference rating**: The overall visual difference between the samples is moderate.\n\n## 5: JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"presence of fibrin strands\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"homogeneous, no visible clots or fibrin\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"more pronounced fibrin strands or clots\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_b\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Samples show varying degrees of coagulation, with Sample C being the most coagulated and Sample B the least.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellowish",
+              "transparency": "semi-transparent",
+              "notes": "presence of fibrin strands",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "ch19": {
+              "color": "yellowish",
+              "transparency": "transparent",
+              "notes": "homogeneous, no visible clots or fibrin",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "yellowish",
+              "transparency": "semi-transparent",
+              "notes": "more pronounced fibrin strands or clots",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "ch19",
+            "overall_difference": "moderate",
+            "comparison_notes": "Samples show varying degrees of coagulation, with Sample C being the most coagulated and Sample B the least."
+          }
+        }
+      }
+    },
+    {
+      "patient": "05",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3316",
+          "sample_ids": [
+            "0.5.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3312",
+          "sample_ids": [
+            "19.5.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3319",
+          "sample_ids": [
+            "21.5.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2113,
+          "error": null,
+          "fallback": false,
+          "raw": "## Sample Analysis\n\n### Sample A (Image 1)\n1. **Plasma color and transparency**: The plasma appears yellow with semi-transparency.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, there is a visible clot.\n3. **Coagulation stage**: The sample appears to be in the **partial_clot** stage, as there is a distinct clot forming but the plasma is not fully coagulated.\n4. **Density and homogeneity**: The sample shows some density variation due to the clot, but overall, it seems relatively homogeneous except for the clot formation.\n5. **Unique morphological features**: A distinct clot is visible, suggesting active coagulation.\n\n### Sample B (Image 2)\n1. **Plasma color and transparency**: The plasma also appears yellow with semi-transparency, similar to Sample A.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, there is a visible clot.\n3. **Coagulation stage**: This sample also appears to be in the **partial_clot** stage, similar to Sample A, with a clot forming.\n4. **Density and homogeneity**: Similar to Sample A, there's a variation in density due to the clot, but it seems relatively homogeneous otherwise.\n5. **Unique morphological features**: The clot appears similar to that in Sample A.\n\n### Sample C (Image 3)\n1. **Plasma color and transparency**: The plasma appears more opaque or turbid compared to Samples A and B, with a yellow color.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, there is a clot or coagulated structure.\n3. **Coagulation stage**: This sample seems to be in a more advanced stage of coagulation, possibly **full_coagulation**, as the clot appears more solid and defined.\n4. **Density and homogeneity**: There is a noticeable density variation, and it seems less homogeneous compared to Samples A and B due to the solid clot.\n5. **Unique morphological features**: The clot appears more solid and well-defined, suggesting a more advanced coagulation stage.\n\n## Comparison\n- **Most advanced coagulation**: Sample C shows the most advanced coagulation.\n- **Least coagulated**: Samples A and B appear similarly coagulated, but if I had to choose, they seem equally less coagulated than Sample C, so they are tied for the least coagulated.\n- **Visible differences**: The main difference is the appearance of the clot's solidity and the plasma's transparency, with Sample C having a more solid clot and slightly different plasma appearance.\n- **Overall visual difference rating**: The overall visual difference is **moderate**.\n\n## JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"distinct clot forming\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"clot similar to Sample A\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"solid and well-defined clot\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Sample C has a more solid clot and different plasma appearance\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "distinct clot forming",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "clot similar to Sample A",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "opaque",
+              "notes": "solid and well-defined clot",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "control",
+            "overall_difference": "moderate",
+            "comparison_notes": "Sample C has a more solid clot and different plasma appearance"
+          }
+        }
+      }
+    },
+    {
+      "patient": "05",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3317",
+          "sample_ids": [
+            "0.5.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3313",
+          "sample_ids": [
+            "19.5.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3320",
+          "sample_ids": [
+            "21.5.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 1742,
+          "error": null,
+          "fallback": false,
+          "raw": "## Sample Analysis\n\n### Sample A (Image 1)\n1. **Plasma color and transparency**: The plasma appears yellowish with semi-transparency.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No visible clots or fibrin strands.\n3. **Coagulation stage**: none\n4. **Density and homogeneity**: The sample seems relatively homogeneous.\n5. **Any unique morphological features**: The sample has a somewhat irregular surface.\n\n### Sample B (Image 2)\n1. **Plasma color and transparency**: The plasma is yellowish and semi-transparent.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No visible clots or fibrin strands.\n3. **Coagulation stage**: none\n4. **Density and homogeneity**: This sample also appears homogeneous.\n5. **Any unique morphological features**: There's a notable meniscus formation at the top.\n\n### Sample C (Image 3)\n1. **Plasma color and transparency**: The plasma is more opaque and has a milky or cloudy appearance.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, there are visible clots or coagulation structures.\n3. **Coagulation stage**: partial_clot\n4. **Density and homogeneity**: The sample is less homogeneous due to the presence of clots.\n5. **Any unique morphological features**: Large clots are visible.\n\n## Comparison\n- **Most advanced coagulation**: Sample C shows the most advanced coagulation with visible clots.\n- **Least coagulated**: Samples A and B appear to be equally least coagulated with no visible signs of coagulation.\n- **Visible differences**: The main difference is the presence of clots in Sample C and its more opaque and cloudy appearance compared to A and B. Samples A and B are relatively similar but differ from C.\n- **Overall visual difference rating**: moderate\n\n## JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"homogeneous, irregular surface\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"homogeneous, meniscus formation\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"less homogeneous, large clots visible\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Sample C shows significant coagulation with clot formation, while Samples A and B show no coagulation.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellowish",
+              "transparency": "semi-transparent",
+              "notes": "homogeneous, irregular surface",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "yellowish",
+              "transparency": "semi-transparent",
+              "notes": "homogeneous, meniscus formation",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "yellowish",
+              "transparency": "opaque",
+              "notes": "less homogeneous, large clots visible",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "control",
+            "overall_difference": "moderate",
+            "comparison_notes": "Sample C shows significant coagulation with clot formation, while Samples A and B show no coagulation."
+          }
+        }
+      }
+    },
+    {
+      "patient": "05",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3318",
+          "sample_ids": [
+            "0.5.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3314",
+          "sample_ids": [
+            "19.5.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3321",
+          "sample_ids": [
+            "21.5.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 1888,
+          "error": null,
+          "fallback": false,
+          "raw": "## Sample Analysis\n\n### Sample A (Image 1)\n1. **Plasma color and transparency**: The plasma appears yellowish with semi-transparency.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, there is a distinct clot.\n3. **Coagulation stage**: partial_clot\n4. **Density and homogeneity**: The clot is dense and appears somewhat homogeneous within itself but distinct from the surrounding plasma.\n5. **Any unique morphological features**: The clot is rounded and well-defined.\n\n### Sample B (Image 2)\n1. **Plasma color and transparency**: The plasma is yellowish and semi-transparent.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, there is a clot.\n3. **Coagulation stage**: partial_clot\n4. **Density and homogeneity**: The clot appears denser and more solid compared to Sample A.\n5. **Any unique morphological features**: The clot has a more irregular shape compared to Sample A.\n\n### Sample C (Image 3)\n1. **Plasma color and transparency**: The plasma appears pale yellow and semi-transparent.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, there is a clot.\n3. **Coagulation stage**: early_fibrin or partial_clot\n4. **Density and homogeneity**: The clot seems less dense and more gel-like compared to Samples A and B.\n5. **Any unique morphological features**: The clot is irregularly shaped and seems to have a smoother surface.\n\n## Comparison\n- **Most advanced coagulation**: Sample B appears to have the most advanced coagulation due to its clot being more solid and defined.\n- **Least advanced coagulation**: Sample C seems to have the least advanced coagulation, given its clot appears less dense and possibly earlier in formation.\n- **Visible differences**: The main differences are in the clot's shape, density, and the plasma's clarity. Sample B has a more solid clot, while Sample C's clot appears less dense. Sample A has a well-defined rounded clot.\n- **Overall visual difference rating**: moderate\n\n## JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"well-defined rounded clot\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"irregularly shaped, dense clot\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin or partial_clot\",\n    \"notes\": \"irregularly shaped, smooth surface, less dense\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_c\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Differences in clot density, shape, and plasma clarity\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellowish",
+              "transparency": "semi-transparent",
+              "notes": "well-defined rounded clot",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "yellowish",
+              "transparency": "semi-transparent",
+              "notes": "irregularly shaped, dense clot",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "semi-transparent",
+              "notes": "irregularly shaped, smooth surface, less dense",
+              "clots": true,
+              "clot_stage": "early_fibrin_or_partial_clot"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "moderate",
+            "comparison_notes": "Differences in clot density, shape, and plasma clarity"
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3341",
+          "sample_ids": [
+            "0.7.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3329",
+          "sample_ids": [
+            "19.7.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3335",
+          "sample_ids": [
+            "21.7.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 1768,
+          "error": null,
+          "fallback": false,
+          "raw": "## Sample Analysis\n\n### Sample A (Image 1)\n1. **Plasma color and transparency**: The plasma appears yellowish with a semi-transparent to opaque appearance due to the clot formation.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, there is a visible clot.\n3. **Coagulation stage**: full_coagulation\n4. **Density and homogeneity**: The clot appears dense and somewhat homogeneous.\n5. **Unique morphological features**: A distinct clot has formed, separated from the tube walls.\n\n### Sample B (Image 2)\n1. **Plasma color and transparency**: The plasma is yellowish and appears transparent.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No visible clots or fibrin strands.\n3. **Coagulation stage**: none\n4. **Density and homogeneity**: The plasma appears homogeneous and fluid.\n5. **Unique morphological features**: No unique features; the sample looks like liquid plasma.\n\n### Sample C (Image 3)\n1. **Plasma color and transparency**: The plasma is yellowish with a semi-transparent appearance.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, there seems to be some clot formation or gel-like substance.\n3. **Coagulation stage**: early_fibrin or partial_clot\n4. **Density and homogeneity**: The sample shows some density variation with a less defined structure compared to Sample A.\n5. **Unique morphological features**: The clot or gel-like substance is not as defined as in Sample A.\n\n## Comparison\n- **Most advanced coagulation**: Sample A shows the most advanced coagulation with a fully formed clot.\n- **Least coagulated**: Sample B shows the least coagulation, appearing as liquid plasma without clots.\n- **Visible differences**: The main difference is the presence of a fully formed clot in Sample A, the absence of clotting in Sample B, and an intermediate state in Sample C.\n- **Overall visual difference rating**: moderate\n\n## JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"distinct clot formed\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"no clots visible\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin or partial_clot\",\n    \"notes\": \"some clot or gel-like substance\"\n  },\n  \"most_coagulated\": \"sample_a\",\n  \"least_coagulated\": \"sample_b\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"Samples show varying degrees of coagulation, from full coagulation to no coagulation.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellowish",
+              "transparency": "semi-transparent",
+              "notes": "distinct clot formed",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch19": {
+              "color": "yellowish",
+              "transparency": "transparent",
+              "notes": "no clots visible",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "yellowish",
+              "transparency": "semi-transparent",
+              "notes": "some clot or gel-like substance",
+              "clots": true,
+              "clot_stage": "early_fibrin_or_partial_clot"
+            },
+            "most_coagulated": "control",
+            "least_coagulated": "ch19",
+            "overall_difference": "moderate",
+            "comparison_notes": "Samples show varying degrees of coagulation, from full coagulation to no coagulation."
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3342",
+          "sample_ids": [
+            "0.7.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3330",
+          "sample_ids": [
+            "19.7.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3336",
+          "sample_ids": [
+            "21.7.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2171,
+          "error": null,
+          "fallback": false,
+          "raw": "## Step 1: Assess Sample A (Image 1)\n- **Plasma color and transparency**: The plasma appears yellowish with a darker spot or area in the center, suggesting some level of sedimentation or aggregation. The transparency seems semi-transparent.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There are no clear clots visible, but there might be some fibrin strands or early signs of coagulation given the darker areas.\n- **Coagulation stage**: Given the appearance, it seems to be at an early stage of coagulation, possibly \"early_fibrin\".\n- **Density and homogeneity**: The sample does not appear homogeneous due to the darker central area.\n- **Unique morphological features**: A distinct darker area is visible, possibly indicating beginning stages of clot formation.\n\n## 2: Assess Sample B (Image 2)\n- **Plasma color and transparency**: The plasma is yellowish and seems more opaque compared to the others, with a less defined boundary between the plasma and any formed elements.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There appears to be a clot or coagulated structure forming, given the opacity and the central darker area.\n- **Coagulation stage**: This seems to be at a more advanced stage, possibly \"partial_clot\".\n- **Density and homogeneity**: The sample appears less homogeneous and more dense in certain areas.\n- **Unique morphological features**: The sample shows a more pronounced central area that could be a clot.\n\n## 3: Assess Sample C (Image 3)\n- **Plasma color and transparency**: The plasma is pale yellow and appears more transparent compared to Samples A and B.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There are no obvious clots or fibrin strands visible.\n- **Coagulation stage**: This seems to be at the \"none\" or very early stages of coagulation.\n- **Density and homogeneity**: The sample appears more homogeneous and less dense than Samples A and B.\n- **Unique morphological features**: It appears more uniform with minimal visible structures.\n\n## 4: Compare Samples\n- **Most advanced coagulation**: Sample B appears to have the most advanced coagulation based on its opacity and the presence of what seems to be a partial clot.\n- **Least coagulated**: Sample C appears to be the least coagulated, given its transparency and lack of visible clots or fibrin strands.\n- **Visible differences**: The main differences are in the opacity, homogeneity, and the presence of coagulation structures. Sample B is the most opaque and shows signs of a forming clot, while Sample C is the most transparent and homogeneous.\n- **Overall visual difference rating**: The overall visual difference between the samples is moderate.\n\n## 5: JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"darker central area\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"opaque\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"more pronounced central clot area\"\n  },\n  \"sample_c\": {\n    \"color\": \"pale yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"uniform, minimal structures\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_c\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"differences in opacity, homogeneity, and presence of coagulation structures\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellowish",
+              "transparency": "semi-transparent",
+              "notes": "darker central area",
+              "clots": false,
+              "clot_stage": "early_fibrin"
+            },
+            "ch19": {
+              "color": "yellowish",
+              "transparency": "opaque",
+              "notes": "more pronounced central clot area",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "pale yellow",
+              "transparency": "transparent",
+              "notes": "uniform, minimal structures",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "moderate",
+            "comparison_notes": "differences in opacity, homogeneity, and presence of coagulation structures"
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3343",
+          "sample_ids": [
+            "0.7.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3331",
+          "sample_ids": [
+            "19.7.1"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3337",
+          "sample_ids": [
+            "21.7.1"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2072,
+          "error": null,
+          "fallback": false,
+          "raw": "## Sample Analysis\n\n### Sample A (Image 1)\n1. **Plasma color and transparency**: The plasma appears to have a yellowish color with a darker center, suggesting some level of clotting or sedimentation. Transparency is semi-transparent.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, there appears to be a distinct clot or coagulation structure forming, which is rounded and separated from the tube walls.\n3. **Coagulation stage**: partial_clot\n4. **Density and homogeneity**: The sample shows some density variation with the clot being more dense. Homogeneity is low due to the presence of the clot.\n5. **Any unique morphological features**: A distinct rounded clot is visible, which seems to have retracted from the sides of the tube.\n\n### Sample B (Image 2)\n1. **Plasma color and transparency**: The plasma has a yellowish color. The transparency seems to be semi-transparent.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, there are clots or coagulation structures visible; the sample seems to have a more advanced clot formation with what appears to be fibrin strands.\n3. **Coagulation stage**: full_coagulation\n4. **Density and homogeneity**: The sample shows variations in density, particularly with the clot being denser. Homogeneity is low.\n5. **Any unique morphological features**: The clot appears more contracted and possibly has fibrin strands within or around it.\n\n### Sample C (Image 3)\n1. **Plasma color and transparency**: The plasma is yellow and appears transparent.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No visible clots or coagulation structures.\n3. **Coagulation stage**: none\n4. **Density and homogeneity**: The sample seems to have uniform density and high homogeneity with no visible clots or structures.\n5. **Any unique morphological features**: The sample appears to be in a liquid state with no clot formation.\n\n## Comparison\n- **Most advanced coagulation**: Sample B shows the most advanced coagulation with a fully formed clot.\n- **Least coagulated**: Sample C shows the least coagulation with no visible clots or coagulation structures.\n- **Visible differences**: The main differences are the presence and progression of clot formation. Sample C is fully liquid, Sample A shows a partial clot, and Sample B shows a fully coagulated state with apparent fibrin strands.\n- **Overall visual difference rating**: moderate to pronounced\n\n## JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"A distinct rounded clot is visible.\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"The clot appears more contracted and possibly has fibrin strands.\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"The sample appears to be in a liquid state with no clot formation.\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_c\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"The main differences are the presence and progression of clot formation.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellowish",
+              "transparency": "semi-transparent",
+              "notes": "A distinct rounded clot is visible.",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch19": {
+              "color": "yellowish",
+              "transparency": "semi-transparent",
+              "notes": "The clot appears more contracted and possibly has fibrin strands.",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "transparent",
+              "notes": "The sample appears to be in a liquid state with no clot formation.",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "ch21",
+            "overall_difference": "moderate",
+            "comparison_notes": "The main differences are the presence and progression of clot formation."
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3344",
+          "sample_ids": [
+            "0.7.1"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3332",
+          "sample_ids": [
+            "19.7.2"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3338",
+          "sample_ids": [
+            "21.7.2"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 1873,
+          "error": null,
+          "fallback": false,
+          "raw": "## Sample Analysis\n\n### Sample A (Image 1)\n1. **Plasma color and transparency**: The plasma appears yellow and semi-transparent.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots or fibrin strands are visible.\n3. **Coagulation stage**: none\n4. **Density and homogeneity**: The sample appears to have a distinct separation or sedimentation, indicating possible settling of components.\n5. **Any unique morphological features**: A clear separation or layering within the sample is observed.\n\n### Sample B (Image 2)\n1. **Plasma color and transparency**: The plasma appears light yellow and semi-transparent.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: A clot or coagulum is present.\n3. **Coagulation stage**: partial_clot\n4. **Density and homogeneity**: The sample shows a clear clot formation, which is denser than the surrounding plasma.\n5. **Any unique morphological features**: A distinct clot is visible, which seems to have retracted.\n\n### Sample C (Image 3)\n1. **Plasma color and transparency**: The plasma appears light yellow and semi-transparent.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No distinct clots are visible, but there might be some fibrin strands or a very fine network.\n3. **Coagulation stage**: early_fibrin\n4. **Density and homogeneity**: The sample seems more homogeneous compared to Sample A but shows some network formation.\n5. **Any unique morphological features**: A fine network or web-like structure is observed throughout the sample.\n\n## Comparison\n- **Most advanced coagulation**: Sample B shows the most advanced coagulation with a clear partial clot.\n- **Least coagulated**: Sample A appears to be the least coagulated with no visible clots or fibrin strands.\n- **Visible differences**: The main differences are the presence of a distinct clot in Sample B, a network in Sample C, and a clear, separated layer in Sample A.\n- **Overall visual difference rating**: moderate\n\n## JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"layering observed\"\n  },\n  \"sample_b\": {\n    \"color\": \"light yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"distinct clot formation\"\n  },\n  \"sample_c\": {\n    \"color\": \"light yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"fine network observed\"\n  },\n  \"most_coagulated\": \"sample_b\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"moderate\",\n  \"comparison_notes\": \"distinct clot in B, network in C, layering in A\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "layering observed",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "light yellow",
+              "transparency": "semi-transparent",
+              "notes": "distinct clot formation",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "ch21": {
+              "color": "light yellow",
+              "transparency": "semi-transparent",
+              "notes": "fine network observed",
+              "clots": false,
+              "clot_stage": "early_fibrin"
+            },
+            "most_coagulated": "ch19",
+            "least_coagulated": "control",
+            "overall_difference": "moderate",
+            "comparison_notes": "distinct clot in B, network in C, layering in A"
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3345",
+          "sample_ids": [
+            "0.7.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3333",
+          "sample_ids": [
+            "19.7.2"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3339",
+          "sample_ids": [
+            "21.7.2"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 2042,
+          "error": null,
+          "fallback": false,
+          "raw": "## Step 1: Analyze Sample A (Image 1)\n- **Plasma color and transparency**: The plasma appears yellow and semi-transparent.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There are no visible clots or fibrin strands.\n- **Coagulation stage**: The sample appears to be in the \"none\" coagulation stage, as there's no visible clot formation.\n- **Density and homogeneity**: The sample seems homogeneous.\n- **Any unique morphological features**: A distinct separation or layering is observed within the plasma.\n\n## 2: Analyze Sample B (Image 2)\n- **Plasma color and transparency**: The plasma is yellowish and semi-transparent.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There appears to be a clot or coagulation structure present.\n- **Coagulation stage**: This sample seems to be in an \"early_fibrin\" or possibly \"partial_clot\" stage due to the presence of a clot.\n- **Density and homogeneity**: The sample is not homogeneous due to the clot.\n- **Any unique morphological features**: A clot is visible, which seems to be in the early stages of formation.\n\n## 3: Analyze Sample C (Image 3)\n- **Plasma color and transparency**: The plasma appears yellow and is less transparent compared to the others, possibly due to a more advanced coagulation state.\n- **Presence/absence of clots, fibrin strands, or coagulation structures**: There is a large clot present.\n- **Coagulation stage**: This sample appears to be in a \"partial_clot\" or possibly \"full_coagulation\" stage.\n- **Density and homogeneity**: The sample is not homogeneous due to the large clot.\n- **Any unique morphological features**: A large, possibly more mature clot compared to Sample B is observed.\n\n## 4: Compare Samples\n- **Most advanced coagulation**: Sample C shows the most advanced coagulation with a large clot.\n- **Least coagulated**: Sample A shows the least coagulation with no visible clots.\n- **Visible differences**: The main difference is the progression from no clot (Sample A) to an early clot (Sample B) to a more developed clot (Sample C).\n- **Overall visual difference rating**: The overall visual difference between the samples is pronounced.\n\n## 5: JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"homogeneous, possible layering\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"early_fibrin\",\n    \"notes\": \"clot present, early formation\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"less transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"partial_clot\",\n    \"notes\": \"large clot, possibly more mature\"\n  },\n  \"most_coagulated\": \"sample_c\",\n  \"least_coagulated\": \"sample_a\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Samples show progression from no clot to clot formation and maturation.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "homogeneous, possible layering",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch19": {
+              "color": "yellowish",
+              "transparency": "semi-transparent",
+              "notes": "clot present, early formation",
+              "clots": true,
+              "clot_stage": "early_fibrin"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "less transparent",
+              "notes": "large clot, possibly more mature",
+              "clots": true,
+              "clot_stage": "partial_clot"
+            },
+            "most_coagulated": "ch21",
+            "least_coagulated": "control",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Samples show progression from no clot to clot formation and maturation."
+          }
+        }
+      }
+    },
+    {
+      "patient": "07",
+      "blinded": true,
+      "blind_map": {
+        "0": "A",
+        "19": "B",
+        "21": "C"
+      },
+      "photos": {
+        "control": {
+          "filename": "IMG_3346",
+          "sample_ids": [
+            "0.7.2"
+          ]
+        },
+        "ch19": {
+          "filename": "IMG_3334",
+          "sample_ids": [
+            "19.7.2"
+          ]
+        },
+        "ch21": {
+          "filename": "IMG_3340",
+          "sample_ids": [
+            "21.7.2"
+          ]
+        }
+      },
+      "providers": {
+        "groq": {
+          "latency_ms": 1775,
+          "error": null,
+          "fallback": false,
+          "raw": "## Sample Analysis\n\n### Sample A (Image 1)\n1. **Plasma color and transparency**: The plasma appears yellowish with a significant lack of transparency due to a large clot.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: Yes, there is a large clot present.\n3. **Coagulation stage**: full_coagulation\n4. **Density and homogeneity**: The sample is not homogeneous due to the presence of a large clot.\n5. **Any unique morphological features**: A large, possibly retracted clot is visible.\n\n### Sample B (Image 2)\n1. **Plasma color and transparency**: The plasma is yellow and semi-transparent.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots or fibrin strands are visible.\n3. **Coagulation stage**: none\n4. **Density and homogeneity**: The sample appears homogeneous.\n5. **Any unique morphological features**: No unique features are noted.\n\n### Sample C (Image 3)\n1. **Plasma color and transparency**: The plasma is yellow and transparent.\n2. **Presence/absence of clots, fibrin strands, or coagulation structures**: No clots or fibrin strands are visible.\n3. **Coagulation stage**: none\n4. **Density and homogeneity**: The sample appears homogeneous.\n5. **Any unique morphological features**: No unique features are noted.\n\n## Comparison\n- **Most advanced coagulation**: Sample A shows the most advanced coagulation with a large clot.\n- **Least coagulated**: Samples B and C show no signs of coagulation and are equally the least coagulated.\n- **Overall visual difference**: The overall visual difference between the samples is pronounced.\n- **Comparison notes**: The key observation is the presence of a large clot in Sample A, which is not seen in Samples B and C. Samples B and C appear similar, with no clots or fibrin strands visible.\n\n## JSON Output\n```json\n{\n  \"sample_a\": {\n    \"color\": \"yellowish\",\n    \"transparency\": \"not transparent\",\n    \"clots\": true,\n    \"clot_stage\": \"full_coagulation\",\n    \"notes\": \"large clot present\"\n  },\n  \"sample_b\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"semi-transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"no clots or fibrin strands\"\n  },\n  \"sample_c\": {\n    \"color\": \"yellow\",\n    \"transparency\": \"transparent\",\n    \"clots\": false,\n    \"clot_stage\": \"none\",\n    \"notes\": \"no clots or fibrin strands\"\n  },\n  \"most_coagulated\": \"sample_a\",\n  \"least_coagulated\": \"sample_b\",\n  \"overall_difference\": \"pronounced\",\n  \"comparison_notes\": \"Sample A has a large clot, while Samples B and C show no coagulation.\"\n}\n```",
+          "structured": {
+            "control": {
+              "color": "yellowish",
+              "transparency": "not transparent",
+              "notes": "large clot present",
+              "clots": true,
+              "clot_stage": "full_coagulation"
+            },
+            "ch19": {
+              "color": "yellow",
+              "transparency": "semi-transparent",
+              "notes": "no clots or fibrin strands",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "ch21": {
+              "color": "yellow",
+              "transparency": "transparent",
+              "notes": "no clots or fibrin strands",
+              "clots": false,
+              "clot_stage": "none"
+            },
+            "most_coagulated": "control",
+            "least_coagulated": "ch19",
+            "overall_difference": "pronounced",
+            "comparison_notes": "Sample A has a large clot, while Samples B and C show no coagulation."
+          }
+        }
+      }
+    }
+  ]
+}

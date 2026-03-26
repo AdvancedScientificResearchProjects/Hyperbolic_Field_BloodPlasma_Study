@@ -1,0 +1,2640 @@
+{
+  "total_photos": 101,
+  "metadata": {
+    "source": "LLM Vision (Claude Opus 4.6 multimodal) + README enrichment",
+    "readme_enrichment": "Channel assignments from patient README protocol tables",
+    "temporal_inference": "Patient-07 unlabeled photos assigned by EXIF temporal proximity to labeled photos"
+  },
+  "single_channel": [
+    {
+      "filename": "IMG_3268.jpg",
+      "patient": "patient-02",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "none",
+      "plasma_clarity": "clear",
+      "description": "Yellow plasma in a glass test tube, backlit. The plasma is uniformly golden-yellow with no visible fibrin strands, clumps, or cloudy masses. Good light transmission throughout the sample.",
+      "batch": 1,
+      "channel": "control",
+      "readme_label": "0.2.1",
+      "sample_ids": [
+        "0.2.1"
+      ],
+      "channels_from_readme": [
+        "0"
+      ]
+    },
+    {
+      "filename": "IMG_3269.jpg",
+      "patient": "patient-02",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "none",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Same tube as IMG_3268 from a slightly different angle. The plasma is golden-yellow and mostly homogeneous, with very faint lighter streaks that may be early optical density variations or glass refraction artifacts. No definitive fibrin structures.",
+      "batch": 1,
+      "channel": "control",
+      "readme_label": "0.2.2",
+      "sample_ids": [
+        "0.2.2"
+      ],
+      "channels_from_readme": [
+        "0"
+      ]
+    },
+    {
+      "filename": "IMG_3278.jpg",
+      "patient": "patient-02",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "none",
+      "plasma_clarity": "clear",
+      "description": "Top-down view of plasma forming a rounded drop on a surface. Pale yellow-green, transparent, with a more intensely yellow center zone. A few tiny white specks visible (likely light reflections). No significant clot structures present.",
+      "batch": 1,
+      "channel": "control",
+      "readme_label": "0.2.2",
+      "sample_ids": [
+        "0.2.2"
+      ],
+      "channels_from_readme": [
+        "0"
+      ]
+    },
+    {
+      "filename": "IMG_3286.jpg",
+      "patient": "patient-02",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Close-up of test tube showing a distinct whitish fibrin film forming at the air-plasma interface. The thin membrane-like structure at the surface indicates early fibrin formation. Plasma beneath is pale yellow with slight turbidity.",
+      "batch": 1,
+      "channel": "control",
+      "readme_label": "0",
+      "sample_ids": [
+        "0.2.1"
+      ],
+      "channels_from_readme": [
+        "0"
+      ]
+    },
+    {
+      "filename": "IMG_3287.jpg",
+      "patient": "patient-02",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Test tube tilted at an angle showing a prominent whitish fibrin ring and thickened film at the top of the plasma column. The fibrin structure is more developed than in IMG_3286, with a defined whitish border around the meniscus. Plasma below is yellowish and slightly turbid.",
+      "batch": 1,
+      "channel": "control",
+      "readme_label": "0.2.1",
+      "sample_ids": [
+        "0.2.1"
+      ],
+      "channels_from_readme": [
+        "0"
+      ]
+    },
+    {
+      "filename": "IMG_3293.jpg",
+      "patient": "patient-03",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Test tube held at an angle containing a visible yellowish-orange dense mass floating within the plasma -- a distinct formed fibrin clot. The surrounding plasma is yellow with moderate turbidity. The clot appears as a cohesive lump indicating partial coagulation.",
+      "batch": 1,
+      "channel": "control",
+      "readme_label": "0.3.1 (сгустки)",
+      "sample_ids": [
+        "0.3.1"
+      ],
+      "channels_from_readme": [
+        "0"
+      ]
+    },
+    {
+      "filename": "IMG_3294.jpg",
+      "patient": "patient-03",
+      "clots_visible": true,
+      "clot_count": "2-3",
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Yellow-green plasma with subtle translucent fibrin strands visible as lighter web-like formations. A small orange-brown deposit is present near the bottom of the tube. Plasma is slightly turbid with early signs of fibrin formation.",
+      "batch": 2,
+      "channel": "control",
+      "readme_label": "0.3.1",
+      "sample_ids": [
+        "0.3.1"
+      ],
+      "channels_from_readme": [
+        "0"
+      ]
+    },
+    {
+      "filename": "IMG_3295.jpg",
+      "patient": "patient-03",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "none",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Side view of test tube with uniformly yellow plasma, backlit. A few small air bubbles at the surface but no visible fibrin clots or dense structures. Plasma appears homogeneous with only slight turbidity.",
+      "batch": 2,
+      "channel": "control",
+      "readme_label": "0.3.2",
+      "sample_ids": [
+        "0.3.2"
+      ],
+      "channels_from_readme": [
+        "0"
+      ]
+    },
+    {
+      "filename": "IMG_3305.jpg",
+      "patient": "patient-03",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "full_coagulation",
+      "plasma_clarity": "turbid",
+      "description": "Top-down view showing a large, dense brown-tan fibrin mass in the center of the plasma, with web-like extensions radiating outward. This is a substantial solid clot indicating advanced coagulation. Surrounding plasma is turbid and pale.",
+      "batch": 2,
+      "channel": "control",
+      "readme_label": "0",
+      "sample_ids": [
+        "0.3.1",
+        "0.3.2"
+      ],
+      "channels_from_readme": [
+        "0"
+      ]
+    },
+    {
+      "filename": "IMG_3307.jpg",
+      "patient": "patient-04",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Top-down view through test tube opening. Yellow-green plasma with a darker greenish mass visible near the center-left, consistent with a moderate fibrin clot formation. The image is slightly out of focus but the denser region is distinguishable from surrounding plasma.",
+      "batch": 2,
+      "channel": "control",
+      "readme_label": "0.4.1",
+      "sample_ids": [
+        "0.4.1"
+      ],
+      "channels_from_readme": [
+        "0"
+      ]
+    },
+    {
+      "filename": "IMG_3318.jpg",
+      "patient": "patient-05",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "none",
+      "plasma_clarity": "clear",
+      "description": "Light yellow-green plasma in a glass container, viewed at an angle. The plasma appears clear and homogeneous with no visible fibrin clots or dense structures. Glass reflections are present but no coagulation signs detected.",
+      "batch": 2,
+      "channel": "control",
+      "readme_label": "0.5.1",
+      "sample_ids": [
+        "0.5.1"
+      ],
+      "channels_from_readme": [
+        "0"
+      ]
+    },
+    {
+      "filename": "IMG_3344.jpg",
+      "patient": "patient-07",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Side view of test tube with yellow plasma backlit from below. A whitish semi-translucent fibrin mass is visible as a cloud-like structure in the upper portion of the plasma. Partial clot formation with the plasma slightly turbid around the clot region.",
+      "batch": 2,
+      "channel": "control",
+      "readme_label": "0.7.1",
+      "sample_ids": [
+        "0.7.1"
+      ],
+      "channels_from_readme": [
+        "0"
+      ]
+    },
+    {
+      "filename": "IMG_3349.jpg",
+      "patient": "patient-07",
+      "clots_visible": true,
+      "clot_count": "2-3",
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Test tube on its side showing yellow plasma with visible thin fibrin strands extending through the liquid in a web-like pattern. A darker central region indicates denser fibrin accumulation. Multiple fibrin structures visible, indicating active partial coagulation.",
+      "batch": 2,
+      "channel": "control",
+      "readme_label": "0.7.2",
+      "sample_ids": [
+        "0.7.2"
+      ],
+      "channels_from_readme": [
+        "0"
+      ]
+    },
+    {
+      "filename": "IMG_3252.jpg",
+      "patient": "patient-01",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Yellow plasma in a glass tube viewed from below with LED backlighting. A single darker, denser region is visible near the bottom of the tube, suggesting early fibrin accumulation. The surrounding plasma is slightly turbid with a uniform golden-yellow color.",
+      "batch": 3,
+      "channel": "ch19_acceleration",
+      "readme_label": "19.1.1",
+      "sample_ids": [
+        "19.1.1"
+      ],
+      "channels_from_readme": [
+        "19"
+      ]
+    },
+    {
+      "filename": "IMG_3265.jpg",
+      "patient": "patient-02",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "none",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Side view of test tube with yellow-green plasma under backlighting. The plasma is homogeneous and slightly turbid with no visible fibrin strands or clot structures. Minor condensation droplets on inner glass above the meniscus.",
+      "batch": 3,
+      "channel": "ch19_acceleration",
+      "readme_label": "19.2.1",
+      "sample_ids": [
+        "19.2.1"
+      ],
+      "channels_from_readme": [
+        "19"
+      ]
+    },
+    {
+      "filename": "IMG_3266.jpg",
+      "patient": "patient-02",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "none",
+      "plasma_clarity": "clear",
+      "description": "Side view of test tube with light yellow plasma. The plasma appears mostly clear and homogeneous with no discernible fibrin structures or clots. Faint yellowish tint, glass walls show minor condensation above liquid level.",
+      "batch": 3,
+      "channel": "ch19_acceleration",
+      "readme_label": "19.2.1",
+      "sample_ids": [
+        "19.2.1"
+      ],
+      "channels_from_readme": [
+        "19"
+      ]
+    },
+    {
+      "filename": "IMG_3267.jpg",
+      "patient": "patient-02",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Side view of test tube with yellow-green plasma. A faint whitish haze is visible near the meniscus surface, suggesting early fibrin formation at the liquid-air interface. The bulk plasma is slightly turbid but mostly homogeneous.",
+      "batch": 3,
+      "channel": "ch19_acceleration",
+      "readme_label": "19.2.2",
+      "sample_ids": [
+        "19.2.2"
+      ],
+      "channels_from_readme": [
+        "19"
+      ]
+    },
+    {
+      "filename": "IMG_3277.jpg",
+      "patient": "patient-02",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "full_coagulation",
+      "plasma_clarity": "clear",
+      "description": "Tube tilted to reveal a large, well-defined gelatinous fibrin clot that has fully formed and separated from the surrounding serum. The clot appears as a solid, cohesive whitish-translucent mass, while the remaining serum is clear and pale yellow.",
+      "batch": 3,
+      "channel": "ch19_acceleration",
+      "readme_label": "19.2.2",
+      "sample_ids": [
+        "19.2.2"
+      ],
+      "channels_from_readme": [
+        "19"
+      ]
+    },
+    {
+      "filename": "IMG_3284.jpg",
+      "patient": "patient-02",
+      "clots_visible": true,
+      "clot_count": "many",
+      "clot_stage": "lysis",
+      "plasma_clarity": "turbid",
+      "description": "Close-up showing an extensive cracked fibrin network with a mosaic/crackle pattern of whitish fragments covering a large area. A small pocket of yellow serum remains. The fibrin structure has fractured into many pieces, consistent with a clot undergoing lysis or decomposition after full coagulation.",
+      "batch": 3,
+      "channel": "ch19_acceleration",
+      "readme_label": "19",
+      "sample_ids": [
+        "19.2.1"
+      ],
+      "channels_from_readme": [
+        "19"
+      ]
+    },
+    {
+      "filename": "IMG_3288.jpg",
+      "patient": "patient-02",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "full_coagulation",
+      "plasma_clarity": "clear",
+      "description": "Test tube held between fingers with backlighting revealing a distinct, cohesive whitish-translucent fibrin clot suspended in the middle of the tube. The clot has well-defined borders and appears semi-solid, surrounded by relatively clear pale yellow serum.",
+      "batch": 3,
+      "channel": "ch19_acceleration",
+      "readme_label": "19.2.1",
+      "sample_ids": [
+        "19.2.1"
+      ],
+      "channels_from_readme": [
+        "19"
+      ]
+    },
+    {
+      "filename": "IMG_3296.jpg",
+      "patient": "patient-03",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Yellow-green plasma with a whitish film forming at the meniscus surface. Subtle cloudy areas near the top suggest early fibrin formation. The bulk plasma is slightly turbid but mostly homogeneous.",
+      "batch": 4,
+      "channel": "ch19_acceleration",
+      "readme_label": "19.3.1",
+      "sample_ids": [
+        "19.3.1"
+      ],
+      "channels_from_readme": [
+        "19"
+      ]
+    },
+    {
+      "filename": "IMG_3297.jpg",
+      "patient": "patient-03",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Top-down view showing a distinct whitish fibrin strand/film on the plasma surface. Below the surface, a mottled web-like pattern of darker and lighter regions indicates fibrin network formation throughout the volume.",
+      "batch": 4,
+      "channel": "ch19_acceleration",
+      "readme_label": "19.3.1",
+      "sample_ids": [
+        "19.3.1"
+      ],
+      "channels_from_readme": [
+        "19"
+      ]
+    },
+    {
+      "filename": "IMG_3302.jpg",
+      "patient": "patient-03",
+      "clots_visible": true,
+      "clot_count": "2-3",
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "clear",
+      "description": "Pale, nearly colorless plasma spread on a light surface with clearly visible thin fibrin strands running through the sample, forming a loose web pattern. The plasma itself is mostly clear.",
+      "batch": 4,
+      "channel": "ch19_acceleration",
+      "readme_label": "19",
+      "sample_ids": [
+        "19.3.1"
+      ],
+      "channels_from_readme": [
+        "19"
+      ]
+    },
+    {
+      "filename": "IMG_3308.jpg",
+      "patient": "patient-04",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "none",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Light yellow plasma viewed from above. Faint diffuse turbidity in the upper region but no definitive fibrin strands or solid clot structures. Slight cloudiness near the meniscus may be optical artifact.",
+      "batch": 4,
+      "channel": "ch19_acceleration",
+      "readme_label": "19.4.1",
+      "sample_ids": [
+        "19.4.1"
+      ],
+      "channels_from_readme": [
+        "19"
+      ]
+    },
+    {
+      "filename": "IMG_3315.jpg",
+      "patient": "patient-05",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "full_coagulation",
+      "plasma_clarity": "slightly_turbid",
+      "description": "A large, prominent gelatinous clot mass is visible filling much of the tube cross-section. The clot appears translucent-white and semi-solid with smooth rounded contours, indicating full coagulation.",
+      "batch": 4,
+      "channel": "ch19_acceleration",
+      "readme_label": "19.5.1",
+      "sample_ids": [
+        "19.5.1"
+      ],
+      "channels_from_readme": [
+        "19"
+      ]
+    },
+    {
+      "filename": "IMG_3331.jpg",
+      "patient": "patient-07",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "turbid",
+      "description": "A clearly visible darker, amorphous fibrin mass is suspended within vivid yellow plasma. The clot has irregular, diffuse boundaries suggesting an intermediate coagulation stage or early signs of breakdown.",
+      "batch": 4,
+      "channel": "ch19_acceleration",
+      "readme_label": "19.7.1",
+      "sample_ids": [
+        "19.7.1"
+      ],
+      "channels_from_readme": [
+        "19"
+      ]
+    },
+    {
+      "filename": "IMG_3334.jpg",
+      "patient": "patient-07",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "none",
+      "plasma_clarity": "clear",
+      "description": "Bright saturated yellow plasma that appears homogeneous and transparent with no visible clot structures, fibrin strands, or turbidity. Notably clear compared to other samples in this channel.",
+      "batch": 4,
+      "channel": "ch19_acceleration",
+      "readme_label": "19.7.2",
+      "sample_ids": [
+        "19.7.2"
+      ],
+      "channels_from_readme": [
+        "19"
+      ]
+    },
+    {
+      "filename": "IMG_3251.jpg",
+      "patient": "patient-01",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Yellow plasma in a backlit glass test tube. A denser region is visible at the bottom with faint thin fibrin-like strands. Small air bubbles present in the mid-section. Plasma is slightly turbid overall, suggesting onset of coagulation.",
+      "batch": 5,
+      "channel": "ch21_deceleration",
+      "readme_label": "21.1.1",
+      "sample_ids": [
+        "21.1.1"
+      ],
+      "channels_from_readme": [
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3270.jpg",
+      "patient": "patient-02",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "none",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Yellow plasma with a whitish foam or surface film at the top. The bulk plasma has a slight greenish tint and appears slightly turbid but without distinct fibrin clots or strands visible in the body of the liquid.",
+      "batch": 5,
+      "channel": "ch21_deceleration",
+      "readme_label": "21.2.1",
+      "sample_ids": [
+        "21.2.1"
+      ],
+      "channels_from_readme": [
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3271.jpg",
+      "patient": "patient-02",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "none",
+      "plasma_clarity": "clear",
+      "description": "Bright golden-yellow plasma viewed at an angle. The plasma appears clear and homogeneous with no visible fibrin structures or clots. A small air bubble is present near the surface. No signs of coagulation.",
+      "batch": 5,
+      "channel": "ch21_deceleration",
+      "readme_label": "21.2.1",
+      "sample_ids": [
+        "21.2.1"
+      ],
+      "channels_from_readme": [
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3272.jpg",
+      "patient": "patient-02",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "none",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Three test tubes side by side, all backlit, containing yellow plasma at similar fill levels. All three show slightly turbid plasma with subtle darker zones in lower portions, but no distinct fibrin clots or web-like structures are identifiable.",
+      "batch": 5,
+      "channel": "ch21_deceleration",
+      "readme_label": "21.2.2",
+      "sample_ids": [
+        "21.2.2"
+      ],
+      "channels_from_readme": [
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3279.jpg",
+      "patient": "patient-02",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "none",
+      "plasma_clarity": "clear",
+      "description": "Top-down view of three test tubes in a round holder (Petri dish). Small yellowish-green plasma pools visible at the bottom of each tube. Plasma appears clear from this angle with no visible clot structures.",
+      "batch": 5,
+      "channel": "ch21_deceleration",
+      "readme_label": "21.2.2",
+      "sample_ids": [
+        "21.2.2"
+      ],
+      "channels_from_readme": [
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3285.jpg",
+      "patient": "patient-02",
+      "clots_visible": true,
+      "clot_count": "many",
+      "clot_stage": "full_coagulation",
+      "plasma_clarity": "opaque",
+      "description": "Close-up macro of plasma spread on a surface showing an extensive, well-developed fibrin network with dense web-like branching strands and numerous dark round inclusions trapped within the mesh. A thick yellow clot mass is visible at center-right. This represents advanced full coagulation with a complex fibrin architecture.",
+      "batch": 5,
+      "channel": "ch21_deceleration",
+      "readme_label": "21",
+      "sample_ids": [
+        "21.2.1"
+      ],
+      "channels_from_readme": [
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3290.jpg",
+      "patient": "patient-03",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "clear",
+      "description": "Bright golden-yellow plasma in a backlit test tube. Mostly clear and homogeneous, but very faint darker wisps/streaks are visible in the lower portion, suggesting the earliest stage of fibrin strand formation. Overall plasma clarity remains high.",
+      "batch": 5,
+      "channel": "ch21_deceleration",
+      "readme_label": "21.3.1",
+      "sample_ids": [
+        "21.3.1"
+      ],
+      "channels_from_readme": [
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3291.jpg",
+      "patient": "patient-03",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Yellow plasma in a glass test tube with a distinct rounded denser mass in the center, indicating a forming fibrin clot. A small white crescent-shaped fibrin structure is visible near the bottom. Plasma around the clot shows slight turbidity.",
+      "batch": 6,
+      "channel": "ch21_deceleration",
+      "readme_label": "21.3.1",
+      "sample_ids": [
+        "21.3.1"
+      ],
+      "channels_from_readme": [
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3299.jpg",
+      "patient": "patient-03",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "full_coagulation",
+      "plasma_clarity": "opaque",
+      "description": "Plasma poured onto a flat surface showing a large dense fibrin clot mass occupying nearly the entire plasma volume. The clot has a textured, bumpy surface with darker brownish regions and visible fibrin web-like structures throughout, indicating complete coagulation.",
+      "batch": 6,
+      "channel": "ch21_deceleration",
+      "readme_label": "21",
+      "sample_ids": [
+        "21.3.1"
+      ],
+      "channels_from_readme": [
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3309.jpg",
+      "patient": "patient-04",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Top-down view into a test tube with pale yellow plasma. Very faint thin fibrin strands are visible within the plasma. Overall the plasma is mostly clear with only slight turbidity, suggesting the very earliest stage of fibrin formation.",
+      "batch": 6,
+      "channel": "ch21_deceleration",
+      "readme_label": "21.4.1",
+      "sample_ids": [
+        "21.4.1"
+      ],
+      "channels_from_readme": [
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3321.jpg",
+      "patient": "patient-05",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "full_coagulation",
+      "plasma_clarity": "opaque",
+      "description": "Plasma poured out onto a surface has formed a single large dome-shaped gel-like coagulated mass. The entire plasma volume has solidified into a dense, pale yellow-white clot with a smooth surface and visible fibrin membrane edges, indicating complete coagulation.",
+      "batch": 6,
+      "channel": "ch21_deceleration",
+      "readme_label": "21.5.1",
+      "sample_ids": [
+        "21.5.1"
+      ],
+      "channels_from_readme": [
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3337.jpg",
+      "patient": "patient-07",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "none",
+      "plasma_clarity": "clear",
+      "description": "Bright yellow clear plasma in a glass test tube with no visible clots, fibrin strands, or turbidity. A subtle curved line in the upper portion is likely a meniscus or surface film rather than a fibrin structure. The plasma is fully transparent.",
+      "batch": 6,
+      "channel": "ch21_deceleration",
+      "readme_label": "21.7.1",
+      "sample_ids": [
+        "21.7.1"
+      ],
+      "channels_from_readme": [
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3340.jpg",
+      "patient": "patient-07",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "none",
+      "plasma_clarity": "clear",
+      "description": "Clear bright yellow plasma in a glass test tube with no visible coagulation, fibrin strands, or turbidity. The plasma is fully transparent with a clean meniscus at the bottom. Small marks on the outer glass are not internal structures.",
+      "batch": 6,
+      "channel": "ch21_deceleration",
+      "readme_label": "21.7.2",
+      "sample_ids": [
+        "21.7.2"
+      ],
+      "channels_from_readme": [
+        "21"
+      ]
+    }
+  ],
+  "single_channel_inferred": [
+    {
+      "file": "IMG_3329.jpg",
+      "patient": "patient-07",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-07/photos/jpg/IMG_3329.jpg",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": "yes",
+      "clot_count": 1,
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Single glass test tube with a small volume of dark yellow-green plasma at the bottom. A distinct rounded clot mass is visible within the plasma. The tube walls show residual droplets and smearing above the plasma level, suggesting the tube was tilted or agitated. Background shows laboratory environment.",
+      "batch": 9,
+      "channel": "ch19",
+      "readme_label": "(без подписи)",
+      "readme_notes": "1 tube; EXIF 20:01:42 near 19.7.1 (20:00:45) → likely ch19",
+      "temporal_inference": {
+        "inferred_channel": "ch19",
+        "inferred_sample": "19.7.1",
+        "confidence": "high",
+        "reason": "EXIF 20:01:42, 57s from labeled 19.7.1 (20:00:45)"
+      }
+    },
+    {
+      "file": "IMG_3330.jpg",
+      "patient": "patient-07",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-07/photos/jpg/IMG_3330.jpg",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": "yes",
+      "clot_count": 1,
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Close-up of a single glass test tube tilted at an angle, showing yellow plasma with a large semi-solid clot mass occupying much of the visible plasma volume. The clot has an irregular yellowish-white appearance and is clearly separated from the surrounding fluid. Backlit against LED panel.",
+      "batch": 9,
+      "channel": "ch19",
+      "readme_label": "(без подписи)",
+      "readme_notes": "1 tube; EXIF 20:01:12 near 19.7.1 (20:00:45) → likely ch19",
+      "temporal_inference": {
+        "inferred_channel": "ch19",
+        "inferred_sample": "19.7.1",
+        "confidence": "high",
+        "reason": "EXIF 20:01:12, 27s from labeled 19.7.1 (20:00:45)"
+      }
+    },
+    {
+      "file": "IMG_3332.jpg",
+      "patient": "patient-07",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-07/photos/jpg/IMG_3332.jpg",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": "yes",
+      "clot_count": 1,
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "turbid",
+      "description": "Single glass test tube with yellow-green plasma viewed from the side. A large, amorphous clot mass is visible in the center of the plasma column, with visible fibrin strands and dark inclusions. The surrounding plasma appears turbid. A second glass tube or stirring rod is partially visible at left edge.",
+      "batch": 9,
+      "channel": "ch19",
+      "readme_label": "(без подписи)",
+      "readme_notes": "1 tube; EXIF 20:03:46 near 19.7.2 (20:02:26) → likely ch19",
+      "temporal_inference": {
+        "inferred_channel": "ch19",
+        "inferred_sample": "19.7.2",
+        "confidence": "high",
+        "reason": "EXIF 20:03:46, 80s from labeled 19.7.2 (20:02:26)"
+      }
+    },
+    {
+      "file": "IMG_3333.jpg",
+      "patient": "patient-07",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-07/photos/jpg/IMG_3333.jpg",
+      "content_type": "poured_plasma",
+      "likely_channel": "unknown",
+      "clots_visible": "yes",
+      "clot_count": 1,
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Top-down or angled view into a small container (possibly a cuvette or poured-out tube) with yellow-green plasma. A diffuse yellowish clot or fibrin mass is visible in the center of the fluid, with slightly darker coloring indicating protein aggregation. The meniscus and container walls are clearly visible.",
+      "batch": 9,
+      "channel": "ch19",
+      "readme_label": "(без подписи)",
+      "readme_notes": "1 tube; EXIF 20:03:37 near 19.7.2 (20:02:26) → likely ch19",
+      "temporal_inference": {
+        "inferred_channel": "ch19",
+        "inferred_sample": "19.7.2",
+        "confidence": "high",
+        "reason": "EXIF 20:03:37, 71s from labeled 19.7.2 (20:02:26)"
+      }
+    },
+    {
+      "file": "IMG_3335.jpg",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-07/photos/jpg/IMG_3335.jpg",
+      "patient": "patient-07",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Single glass tube lying horizontally with backlit yellow plasma. Faint darker area in the center suggests very early fibrin network formation, but no distinct clots are visible.",
+      "batch": 10,
+      "channel": "ch21",
+      "readme_label": "(без подписи)",
+      "readme_notes": "1 tube; EXIF 20:06:30 near 21.7.1 (20:06:38) → likely ch21",
+      "temporal_inference": {
+        "inferred_channel": "ch21",
+        "inferred_sample": "21.7.1",
+        "confidence": "high",
+        "reason": "EXIF 20:06:30, 8s from labeled 21.7.1 (20:06:38)"
+      }
+    },
+    {
+      "file": "IMG_3336.jpg",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-07/photos/jpg/IMG_3336.jpg",
+      "patient": "patient-07",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Close-up of a single tube showing yellowish-green plasma with irregular meniscus. Faint darker region in center and fine thread-like structures suggest early fibrin formation.",
+      "batch": 10,
+      "channel": "ch21",
+      "readme_label": "(без подписи)",
+      "readme_notes": "1 tube; EXIF 20:06:22 near 21.7.1 (20:06:38) → likely ch21",
+      "temporal_inference": {
+        "inferred_channel": "ch21",
+        "inferred_sample": "21.7.1",
+        "confidence": "high",
+        "reason": "EXIF 20:06:22, 16s from labeled 21.7.1 (20:06:38)"
+      }
+    },
+    {
+      "file": "IMG_3338.jpg",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-07/photos/jpg/IMG_3338.jpg",
+      "patient": "patient-07",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Front close-up of plasma in single tube. Pale yellow, slightly turbid with faint wispy structures throughout, indicating early fibrin network development without formed clots.",
+      "batch": 10,
+      "channel": "ch21",
+      "readme_label": "(без подписи)",
+      "readme_notes": "1 tube; EXIF 20:05:29 near 21.7.2 (20:05:04) → likely ch21",
+      "temporal_inference": {
+        "inferred_channel": "ch21",
+        "inferred_sample": "21.7.2",
+        "confidence": "high",
+        "reason": "EXIF 20:05:29, 25s from labeled 21.7.2 (20:05:04)"
+      }
+    },
+    {
+      "file": "IMG_3339.jpg",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-07/photos/jpg/IMG_3339.jpg",
+      "patient": "patient-07",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Single tube close-up with deeper yellow plasma. Faint darker streaks and shadows in center suggest fibrin strand formation in early coagulation phase.",
+      "batch": 10,
+      "channel": "ch21",
+      "readme_label": "(без подписи)",
+      "readme_notes": "1 tube; EXIF 20:05:16 near 21.7.2 (20:05:04) → likely ch21",
+      "temporal_inference": {
+        "inferred_channel": "ch21",
+        "inferred_sample": "21.7.2",
+        "confidence": "high",
+        "reason": "EXIF 20:05:16, 12s from labeled 21.7.2 (20:05:04)"
+      }
+    },
+    {
+      "file": "IMG_3341.jpg",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-07/photos/jpg/IMG_3341.jpg",
+      "patient": "patient-07",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Single tube held vertically with label visible at top. Yellow plasma contains a distinct darker brownish aggregation in the lower-center, indicating a partial clot or concentrated fibrin mass.",
+      "batch": 10,
+      "channel": "control",
+      "readme_label": "(без подписи)",
+      "readme_notes": "1 tube; EXIF 20:09:55 near 0.7.1 (20:10:01) → likely control",
+      "temporal_inference": {
+        "inferred_channel": "control",
+        "inferred_sample": "0.7.1",
+        "confidence": "high",
+        "reason": "EXIF 20:09:55, 6s from labeled 0.7.1 (20:10:01)"
+      }
+    },
+    {
+      "file": "IMG_3342.jpg",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-07/photos/jpg/IMG_3342.jpg",
+      "patient": "patient-07",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Single tube lying horizontally with deeper yellow plasma. A prominent dark brownish area in the center indicates a developing clot with notable fibrin concentration.",
+      "batch": 10,
+      "channel": "control",
+      "readme_label": "(без подписи)",
+      "readme_notes": "1 tube; EXIF 20:09:35 near 0.7.1/0.7.2 → likely control",
+      "temporal_inference": {
+        "inferred_channel": "control",
+        "inferred_sample": "0.7.1",
+        "confidence": "medium",
+        "reason": "EXIF 20:09:35, 26s from 0.7.1 (20:10:01), 97s from 0.7.2 (20:07:58)"
+      }
+    },
+    {
+      "file": "IMG_3343.jpg",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-07/photos/jpg/IMG_3343.jpg",
+      "patient": "patient-07",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Single tube at diagonal angle showing wider view. Pale yellow plasma with a distinct darker yellowish-brown spot in the center suggesting a partial clot. Clear glass tube walls visible with good separation.",
+      "batch": 10,
+      "channel": "control",
+      "readme_label": "(без подписи)",
+      "readme_notes": "1 tube; EXIF 20:09:41 near 0.7.1 (20:10:01) → likely control",
+      "temporal_inference": {
+        "inferred_channel": "control",
+        "inferred_sample": "0.7.1",
+        "confidence": "high",
+        "reason": "EXIF 20:09:41, 20s from labeled 0.7.1 (20:10:01)"
+      }
+    },
+    {
+      "file": "IMG_3345.jpg",
+      "patient": "patient-07",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "none",
+      "plasma_clarity": "clear",
+      "description": "Single glass test tube held by hand, containing bright yellow plasma with good transparency. No clots or fibrin strands visible; plasma appears clean and well-separated after centrifugation.",
+      "batch": 11,
+      "channel": "control",
+      "readme_label": "(без подписи)",
+      "readme_notes": "1 tube; EXIF 20:09:06 near 0.7.2 (20:07:58) → likely control",
+      "temporal_inference": {
+        "inferred_channel": "control",
+        "inferred_sample": "0.7.2",
+        "confidence": "medium",
+        "reason": "EXIF 20:09:06, 68s from 0.7.2 (20:07:58), 55s from 0.7.1 (20:10:01)"
+      }
+    },
+    {
+      "file": "IMG_3346.jpg",
+      "patient": "patient-07",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "full_coagulation",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Single test tube backlit showing a large, well-defined yellowish-white clot mass suspended in slightly turbid plasma. The clot has an irregular rounded shape with visible internal structure, indicating full coagulation.",
+      "batch": 11,
+      "channel": "control",
+      "readme_label": "(без подписи)",
+      "readme_notes": "1 tube; EXIF 20:08:06 near 0.7.2 (20:07:58) → likely control",
+      "temporal_inference": {
+        "inferred_channel": "control",
+        "inferred_sample": "0.7.2",
+        "confidence": "high",
+        "reason": "EXIF 20:08:06, 8s from labeled 0.7.2 (20:07:58)"
+      }
+    },
+    {
+      "file": "IMG_3347.jpg",
+      "patient": "patient-07",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "none",
+      "plasma_clarity": "clear",
+      "description": "Single glass test tube held by hand with bright yellow plasma. Plasma is clear and uniformly colored with no visible clots or particulates; well-separated sample with laboratory equipment visible in the background.",
+      "batch": 11,
+      "channel": "control",
+      "readme_label": "(без подписи)",
+      "readme_notes": "1 tube; EXIF 20:07:48 near 0.7.2 (20:07:58) → likely control",
+      "temporal_inference": {
+        "inferred_channel": "control",
+        "inferred_sample": "0.7.2",
+        "confidence": "high",
+        "reason": "EXIF 20:07:48, 10s from labeled 0.7.2 (20:07:58)"
+      }
+    },
+    {
+      "file": "IMG_3348.jpg",
+      "patient": "patient-07",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": true,
+      "clot_count": "1",
+      "clot_stage": "full_coagulation",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Single test tube photographed horizontally and backlit, showing a large semi-transparent clot with brownish-yellow coloration and visible fibrin network. The clot occupies a significant portion of the tube interior, surrounded by slightly turbid plasma.",
+      "batch": 11,
+      "channel": "control",
+      "readme_label": "(без подписи)",
+      "readme_notes": "1 tube; EXIF 20:08:19 near 0.7.2 (20:07:58) → likely control",
+      "temporal_inference": {
+        "inferred_channel": "control",
+        "inferred_sample": "0.7.2",
+        "confidence": "high",
+        "reason": "EXIF 20:08:19, 21s from labeled 0.7.2 (20:07:58)"
+      }
+    }
+  ],
+  "multi_channel": [
+    {
+      "filename": "IMG_3273.jpg",
+      "patient": "patient-02",
+      "content_type": "multiple_tubes",
+      "likely_channel": "multiple",
+      "clots_visible": true,
+      "clot_count": "2-3",
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Three glass test tubes with yellow plasma backlit by LED panel. Faint dark shadow formations visible in the plasma suggesting early fibrin. Label 'G16' visible on leftmost tube (inverted). Comparison shot of all three channels.",
+      "batch": 7,
+      "channel": "multi_unknown",
+      "readme_label": "(без подписи)",
+      "readme_notes": "3 tubes series 2.1 (19.2.1, 0.2.1, 21.2.1) — inferred from description"
+    },
+    {
+      "filename": "IMG_3275.jpg",
+      "patient": "patient-02",
+      "content_type": "multiple_tubes",
+      "likely_channel": "multiple",
+      "clots_visible": true,
+      "clot_count": "many",
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Three test tubes at closer angle. Middle tube shows white film/clot on the plasma surface. Dark irregular formations visible suspended in the plasma of all tubes. Labels 'G16' and 'G14' partially visible (inverted).",
+      "batch": 7,
+      "channel": "multi_unknown",
+      "readme_label": "(без подписи)",
+      "readme_notes": "3 tubes series 2.1 close-up — inferred from description"
+    },
+    {
+      "filename": "IMG_3300.jpg",
+      "patient": "patient-03",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": true,
+      "clot_count": "2-3",
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Single tube close-up with pale yellow plasma. Visible fibrin strands running through the lower portion of the tube. Lighter color than patient-02 samples, suggesting different plasma composition or coagulation state.",
+      "batch": 7,
+      "channel": "multi_unknown",
+      "readme_label": "(без подписи)",
+      "readme_notes": "single tube, channel unknown"
+    },
+    {
+      "filename": "IMG_3301.jpg",
+      "patient": "patient-03",
+      "content_type": "poured_plasma",
+      "likely_channel": "unknown",
+      "clots_visible": true,
+      "clot_count": "2-3",
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Very close macro shot of plasma interior. Pale yellow with subtle fibrin strands visible as faint curved lines. Delicate early fibrin formations on an otherwise smooth background.",
+      "batch": 7,
+      "channel": "multi_unknown",
+      "readme_label": "(без подписи)",
+      "readme_notes": "single tube, channel unknown"
+    },
+    {
+      "file": "IMG_3327.jpg",
+      "patient": "patient-07",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-07/photos/jpg/IMG_3327.jpg",
+      "content_type": "multiple_tubes",
+      "likely_channel": "multiple",
+      "clots_visible": "yes",
+      "clot_count": "2-3",
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Two glass test tubes side by side with yellow plasma, backlit. The left tube shows a dark irregular fibrin mass floating in the lower portion. The right tube appears clearer but with minor suspended particles. Both tubes have similar plasma coloration suggesting same patient, different experimental channels.",
+      "batch": 9,
+      "channel": "multi",
+      "readme_label": "(без подписи)",
+      "readme_notes": "2 tubes, channel unknown",
+      "temporal_inference": {
+        "inferred_channel": "multi_19_21",
+        "inferred_sample": "19.7.1+21.7.1",
+        "confidence": "medium",
+        "reason": "EXIF 19:58:17, 85s before labeled 19+21 photo (IMG_3328 19:59:42); 2 tubes visible"
+      },
+      "channels_from_readme": [
+        "19",
+        "21"
+      ]
+    },
+    {
+      "file": "IMG_3350.jpg",
+      "patient": "patient-07",
+      "content_type": "multiple_tubes",
+      "likely_channel": "multiple",
+      "clots_visible": true,
+      "clot_count": "2-3",
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Three glass test tubes held together, each containing yellowish plasma with visible clot formations at the bottom. The clots appear as pale rounded masses; the left tube has the most yellow-tinted plasma while the right tube shows paler, more turbid plasma.",
+      "batch": 11,
+      "channel": "multi_unknown",
+      "readme_label": "(без подписи)",
+      "readme_notes": "3 tubes, channel assignment unknown"
+    },
+    {
+      "file": "IMG_3351.jpg",
+      "patient": "patient-07",
+      "content_type": "multiple_tubes",
+      "likely_channel": "multiple",
+      "clots_visible": true,
+      "clot_count": "2-3",
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Three test tubes held together showing yellowish plasma at different stages. Each tube has a visible pale clot mass at the bottom portion. The plasma varies in clarity across tubes, with some showing slight turbidity around the clot regions.",
+      "batch": 11,
+      "channel": "multi_unknown",
+      "readme_label": "(без подписи)",
+      "readme_notes": "3 tubes, channel assignment unknown"
+    },
+    {
+      "file": "IMG_3353.jpg",
+      "patient": "patient-07",
+      "content_type": "multiple_tubes",
+      "likely_channel": "multiple",
+      "clots_visible": true,
+      "clot_count": "2-3",
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "clear",
+      "description": "Close-up of two test tube bottoms showing bright yellow, clear plasma. The left tube has a visible clot with slight deformation at the surface; otherwise the plasma is predominantly clear and intensely yellow-colored.",
+      "batch": 11,
+      "channel": "multi_unknown",
+      "readme_label": "(без подписи)",
+      "readme_notes": "2 tubes, channel assignment unknown"
+    },
+    {
+      "file": "IMG_3354.jpg",
+      "patient": "patient-07",
+      "content_type": "multiple_tubes",
+      "likely_channel": "multiple",
+      "clots_visible": true,
+      "clot_count": "2-3",
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "clear",
+      "description": "Two test tubes lying horizontally, each containing a visible rounded yellowish clot mass inside clear yellow plasma. Condensation droplets visible on the glass surface; clots appear gelatinous with defined boundaries.",
+      "batch": 11,
+      "channel": "multi_unknown",
+      "readme_label": "(без подписи)",
+      "readme_notes": "2 tubes, channel assignment unknown"
+    },
+    {
+      "file": "IMG_3355.jpg",
+      "patient": "patient-07",
+      "content_type": "multiple_tubes",
+      "likely_channel": "multiple",
+      "clots_visible": true,
+      "clot_count": "2-3",
+      "clot_stage": "full_coagulation",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Two test tubes lying horizontally and backlit, each showing a well-formed dense clot with a pale yellowish-white appearance and defined edges. The upper clot appears larger and more opaque; surrounding plasma is slightly turbid with a yellowish tint.",
+      "batch": 11,
+      "channel": "multi_unknown",
+      "readme_label": "(без подписи)",
+      "readme_notes": "2 tubes, channel assignment unknown"
+    },
+    {
+      "filename": "IMG_3250.jpg",
+      "patient": "patient-01",
+      "channels_shown": [
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "left",
+          "clots_visible": false,
+          "clot_stage": "none",
+          "plasma_clarity": "clear",
+          "tube_description": "Glass test tube with yellow-green plasma, backlit from below. Plasma is clear and transparent with a uniform pale yellow-green color. No visible clots, fibrin strands, or sediment. Meniscus is smooth and well-defined. Small air bubble visible at the bottom curvature of the tube."
+        },
+        {
+          "tube_position": "right",
+          "clots_visible": false,
+          "clot_stage": "none",
+          "plasma_clarity": "clear",
+          "tube_description": "Glass test tube with yellow-green plasma, slightly brighter yellow tone than the left tube. Plasma is clear and transparent. No clots, fibrin strands, or sediment visible. Clean meniscus with a small air bubble at the bottom curvature. Overall appearance very similar to the left tube with marginally brighter coloration."
+        }
+      ],
+      "description": "Two glass test tubes side by side on a white backlight surface against a dark background. Both contain clear yellow-green plasma after centrifugation. The tubes appear nearly identical in plasma volume and clarity. The right tube shows a slightly brighter yellow hue. No coagulation signs in either tube. Channels 19 and 21.",
+      "batch": 12,
+      "channel": "multi",
+      "readme_label": "19.1.1/21.1.1",
+      "sample_ids": [
+        "19.1.1",
+        "21.1.1"
+      ],
+      "channels_from_readme": [
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3253.jpg",
+      "patient": "patient-01",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "top",
+          "clots_visible": true,
+          "clot_stage": "early_fibrin",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Top tube (control) held horizontally. Plasma is light amber/beige with slight turbidity. A small rounded clot-like formation is visible near the closed end of the tube - appears as a discrete amber-toned mass. The plasma surrounding it shows faint haziness. Indicates early fibrin formation beginning.",
+          "sample_id": "19.1.1",
+          "channel": "ch19"
+        },
+        {
+          "tube_position": "center",
+          "clots_visible": true,
+          "clot_stage": "early_fibrin",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Middle tube (ch19). Plasma is light amber/beige, slightly turbid. A small rounded clot formation is visible at the closed end, similar to but slightly smaller than the top tube. A tiny air bubble is visible adjacent to the clot. The plasma has a uniform slight haziness.",
+          "sample_id": "21.1.1",
+          "channel": "ch21"
+        },
+        {
+          "tube_position": "bottom",
+          "clots_visible": true,
+          "clot_stage": "early_fibrin",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Bottom tube (ch21) with label visible. Plasma is light amber/beige with slight turbidity similar to the other two tubes. A small rounded clot formation visible at the closed end. Overall appearance consistent with the other tubes showing early stage fibrin formation.",
+          "sample_id": "0.1.1",
+          "channel": "control"
+        }
+      ],
+      "description": "Three glass test tubes held horizontally in hand, showing all three experimental groups (control, ch19, ch21). Each tube contains light amber plasma with slight turbidity. All three tubes show small rounded clot formations near the closed ends, indicating early fibrin formation. The tubes appear relatively similar in plasma color and volume. Labels visible on tubes. Photographed against a white paper background with printed text visible underneath.",
+      "batch": 12,
+      "channel": "multi",
+      "readme_label": "Сверху вниз: 19.1.1,21.1.1,0.1.1",
+      "sample_ids": [
+        "19.1.1",
+        "21.1.1",
+        "0.1.1"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3254.jpg",
+      "patient": "patient-01",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "top",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Top tube (ch21, label reads '0.1.co 21.1.1') lying horizontally. Plasma is pale yellow-green with slight turbidity. Multiple clot formations visible - a larger irregular clot mass near the closed end and smaller satellite clots dispersed along the tube. The clots appear whitish-yellow and semi-solid, indicating partial coagulation."
+        },
+        {
+          "tube_position": "center",
+          "clots_visible": true,
+          "clot_stage": "early_fibrin",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Middle tube (ch19, label reads '19.1.1'). Plasma is pale yellow with slight turbidity. A single discrete rounded clot visible near the closed end, smaller than the top tube's formations. The plasma around it is relatively clear with slight haziness. Less coagulation than the top tube."
+        },
+        {
+          "tube_position": "bottom",
+          "clots_visible": true,
+          "clot_stage": "early_fibrin",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Bottom tube (control, label reads '0.'). Plasma is pale yellow-green with slight turbidity. A small rounded clot visible at the closed end. The clot is discrete and well-defined. Plasma is slightly hazier than completely clear but relatively homogeneous."
+        }
+      ],
+      "description": "Three labeled glass test tubes lying horizontally on white paper with printed Russian text visible. Tubes labeled for ch21 (top), ch19 (middle), and control (bottom). The ch21 tube shows the most advanced coagulation with multiple clot formations. The ch19 and control tubes show similar early fibrin stages with single small clots. All three have slightly turbid pale yellow plasma. Labels clearly visible on white tape.",
+      "batch": 12,
+      "channel": "multi",
+      "readme_label": "4 пробирки с этикетками: 0.1.2, 21.1.1, 19.1.1, 0.1...",
+      "sample_ids": [
+        "0.1.2",
+        "21.1.1",
+        "19.1.1",
+        "0.1.1"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3255.jpg",
+      "patient": "patient-01",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "top",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Top tube lying horizontally on dark surface. Plasma is pale yellowish-white with slight turbidity. A prominent rounded clot visible near the closed end, appearing as a whitish-yellow semi-solid mass that has partially detached from the tube wall. Additional smaller clot material visible. More advanced coagulation state."
+        },
+        {
+          "tube_position": "center",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Middle tube lying horizontally. Plasma is pale yellowish-white, slightly turbid. A well-defined rounded clot visible at the closed end, similar in size to the top tube's clot. The clot appears semi-solid with clear edges. Some smaller particulate matter visible in the plasma."
+        },
+        {
+          "tube_position": "bottom",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Bottom tube lying horizontally. Plasma is pale yellowish-white, slightly turbid. A rounded clot visible at the closed end, similar to the other tubes. The clot mass appears well-formed and semi-solid. Overall coagulation state comparable to the other two tubes in this photo."
+        }
+      ],
+      "description": "Three glass test tubes lying horizontally on a dark textured surface (control, ch19, ch21). All three show similar partial coagulation with well-defined rounded clots near the closed ends. The plasma in all tubes is pale yellowish-white with slight turbidity. The clots appear at a more advanced stage than in earlier photos - semi-solid and well-formed. This appears to be a later time point in the experiment. Dark background provides contrast for visualizing the pale plasma and clots.",
+      "batch": 12,
+      "channel": "multi",
+      "readme_label": "3 пробирки на тёмной поверхности",
+      "sample_ids": [
+        "21.1.1",
+        "19.1.1",
+        "0.1.1"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3256.jpg",
+      "patient": "patient-01",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "top",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Top tube lying horizontally, backlit. Plasma is pale yellow-beige with slight turbidity. A large rounded clot visible at the closed end, well-defined and amber-beige in color. The clot appears semi-solid and has settled to the bottom curvature of the tube. Plasma above is slightly hazy.",
+          "sample_id": "21.1.1",
+          "channel": "ch21"
+        },
+        {
+          "tube_position": "center",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Middle tube lying horizontally, backlit. Plasma is pale yellow-beige, similar to the top tube. A rounded clot visible at the closed end, appears slightly smaller than the top tube's clot. Well-defined semi-solid mass. Plasma surrounding is slightly turbid but relatively uniform.",
+          "sample_id": "19.1.1",
+          "channel": "ch19"
+        },
+        {
+          "tube_position": "bottom",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "clear",
+          "tube_description": "Bottom tube lying horizontally, backlit. Plasma is the clearest of the three tubes, pale yellow with good transparency. A rounded clot visible at the closed end, well-formed and similar in size to the middle tube. The plasma column appears more transparent than the upper two tubes.",
+          "sample_id": "0.1.1",
+          "channel": "control"
+        }
+      ],
+      "description": "Three glass test tubes lying horizontally with backlighting from below on a white surface (control, ch19, ch21). All three show partial coagulation with well-defined rounded clots at the closed ends. The top tube shows the most turbidity and largest clot, the middle is intermediate, and the bottom tube has the clearest plasma. The backlighting nicely reveals the plasma clarity differences between the three groups. All clots are at a similar partial coagulation stage.",
+      "batch": 12,
+      "channel": "multi",
+      "readme_label": "Сверху вниз: 21.1.1,19.1.1,0.1.1",
+      "sample_ids": [
+        "21.1.1",
+        "19.1.1",
+        "0.1.1"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3257.jpg",
+      "patient": "patient-01",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "left",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Left tube (label reads '0.1.1') held upright. Plasma is pale yellow, slightly turbid. A defined rounded amber clot visible at the bottom of the tube, settled by gravity. The clot appears moderately sized and semi-solid. Plasma above the clot shows slight haziness. Small dark particles visible on the glass near the clot region.",
+          "sample_id": "0.1.1",
+          "channel": "control"
+        },
+        {
+          "tube_position": "center",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Center tube (label reads '19.1' partial) held upright. Plasma is pale yellow, slightly turbid. A rounded clot settled at the bottom, appears slightly smaller or more compact than the left tube's clot. The clot is amber-colored and well-defined. Plasma column above is slightly hazy.",
+          "sample_id": "19.1.1",
+          "channel": "ch19"
+        },
+        {
+          "tube_position": "right",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Right tube (label reads '21.1.1') held upright. Plasma is pale yellow with slight turbidity. A rounded amber clot settled at the bottom, comparable in size to the other tubes. The clot appears well-formed and semi-solid. Slight dark specks visible on the glass near the bottom.",
+          "sample_id": "21.1.1",
+          "channel": "ch21"
+        }
+      ],
+      "description": "Three labeled glass test tubes held upright at a slight angle, photographed against a white paper background with printed text. Labels visible: 0.1.1 (control, left), 19.1 (ch19, center), 21.1.1 (ch21, right). All three show partial coagulation with amber-colored rounded clots settled at the bottom. Plasma in all tubes is pale yellow with slight turbidity. The clots are at similar stages across all three groups. This upright orientation shows the clots settled by gravity at the tube bottoms.",
+      "batch": 12,
+      "channel": "multi",
+      "readme_label": "Слева направо 0.1.1, 19.1.1,21.1.1",
+      "sample_ids": [
+        "0.1.1",
+        "19.1.1",
+        "21.1.1"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3258.jpg",
+      "patient": "patient-01",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "left",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "clear",
+          "tube_description": "Left tube (label '21.1.1' and '0.1.1' visible on labels) held upright in hand. Plasma is clear yellow, good transparency when backlit. A well-defined rounded yellow-amber clot visible at the bottom of the tube. The clot is moderately large and appears semi-solid, settled by gravity. Plasma column above is clear and transparent.",
+          "sample_id": "21.1.1",
+          "channel": "ch21"
+        },
+        {
+          "tube_position": "center",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "clear",
+          "tube_description": "Center tube held upright. Plasma is clear yellow with good transparency. A rounded clot visible at the bottom, similar in size and appearance to the left tube. The clot is yellow-amber and well-formed. Clear plasma above with no visible turbidity or suspended particles. Clean meniscus.",
+          "sample_id": "0.1.1",
+          "channel": "control"
+        },
+        {
+          "tube_position": "right",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "clear",
+          "tube_description": "Right tube held upright. Plasma is clear yellow, the brightest of the three tubes. A rounded clot at the bottom, well-defined and yellow-amber. The clot appears slightly smaller or more compact than the other tubes. Clear plasma above with good transparency.",
+          "sample_id": "19.1.1",
+          "channel": "ch19"
+        }
+      ],
+      "description": "Three glass test tubes held upright in hand against a dark laboratory background with blue gloves and blood collection tubes visible in the background. Labels visible including '21.1.1' and '0.1.1'. All three tubes show clear yellow plasma with well-defined rounded clots settled at the bottoms. The plasma is notably clearer than in some earlier photos - the backlit appearance shows good transparency. All clots are at a similar partial coagulation stage. This appears to be a later observation with the plasma having clarified while clots have consolidated at the bottom.",
+      "batch": 12,
+      "channel": "multi",
+      "readme_label": "Слева направо 21.1.1,0.1.1,19.1.1",
+      "sample_ids": [
+        "21.1.1",
+        "0.1.1",
+        "19.1.1"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3259.jpg",
+      "patient": "patient-01",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "top",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Top tube lying horizontally on a white backlit surface. Plasma is pale yellow-green with slight turbidity. A prominent irregular clot mass visible near the closed end, appearing as a whitish-yellow semi-solid formation with visible fibrin strands. The clot has a more irregular shape than a simple round mass, suggesting active fibrin network formation. Some smaller particulate matter dispersed near the clot."
+        },
+        {
+          "tube_position": "center",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Middle tube lying horizontally, backlit. Plasma is pale yellow-green, slightly turbid. A well-defined rounded clot visible at the closed end, amber-yellow in color. The clot appears more compact and regular in shape compared to the top tube. Surface of the clot shows some texture suggesting fibrin structure. Plasma surrounding shows slight haziness."
+        },
+        {
+          "tube_position": "bottom",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Bottom tube lying horizontally, backlit. Plasma is pale yellow-green with slight turbidity. A rounded clot visible at the closed end, well-defined and amber-yellow. The clot is similar in size and appearance to the middle tube. The plasma column shows slight haziness. Overall a consistent partial coagulation state."
+        }
+      ],
+      "description": "Three glass test tubes lying horizontally on a backlit white surface with printed Russian text visible through the paper (control, ch19, ch21). All three show partial coagulation with clots at the closed ends. The top tube shows the most irregular and prominent clot formation with visible fibrin strands, while the middle and bottom tubes have more compact rounded clots. All plasma is pale yellow-green with slight turbidity. Backlit viewing clearly reveals the clot structures and plasma clarity. Text beneath suggests these are placed on a laboratory protocol document.",
+      "batch": 12,
+      "channel": "multi",
+      "readme_label": "Сверху вниз: 19.1.1, 21.1.1, 0.1.1, 0.1.2",
+      "sample_ids": [
+        "19.1.1",
+        "21.1.1",
+        "0.1.1",
+        "0.1.2"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3260.jpg",
+      "patient": "patient-01",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "left",
+          "clots_visible": false,
+          "clot_stage": "none",
+          "plasma_clarity": "clear",
+          "tube_description": "Glass test tube with yellow plasma, approximately 1/3 filled. Plasma is transparent with a light yellow tint. No visible clots or fibrin strands. Clean meniscus at the top of the liquid.",
+          "sample_id": "21.1.1",
+          "channel": "ch21"
+        },
+        {
+          "tube_position": "center",
+          "clots_visible": false,
+          "clot_stage": "none",
+          "plasma_clarity": "clear",
+          "tube_description": "Glass test tube with yellow plasma at similar fill level to the left tube. Plasma appears clear and transparent with a uniform yellow color. No clots or particulate matter visible.",
+          "sample_id": "0.1.1",
+          "channel": "control"
+        },
+        {
+          "tube_position": "right",
+          "clots_visible": false,
+          "clot_stage": "none",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Glass test tube with yellow plasma. Very slightly more turbid than the other two tubes, with a marginally deeper yellow hue. No distinct clots visible but faint haziness near the bottom.",
+          "sample_id": "19.1.1",
+          "channel": "ch19"
+        }
+      ],
+      "description": "Three glass test tubes held vertically in hand, viewed from slightly below. All contain approximately 1/3 volume of yellow plasma after centrifugation. The plasma is generally clear across all tubes with a consistent light yellow color. Dark background. No significant coagulation observed in any tube.",
+      "batch": 13,
+      "channel": "multi",
+      "readme_label": "Слева направо 21.1.1, 0.1.1, 19.1.1",
+      "sample_ids": [
+        "21.1.1",
+        "0.1.1",
+        "19.1.1"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3261.jpg",
+      "patient": "patient-01",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "left",
+          "clots_visible": false,
+          "clot_stage": "none",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Test tube lying horizontally on a white surface, viewed from the rounded end. Plasma is brownish-yellow with slight turbidity. Small dark specks visible but no formed clots. The amber color is deeper than the other patient-01 photos.",
+          "sample_id": "0.1.1",
+          "channel": "control"
+        },
+        {
+          "tube_position": "center",
+          "clots_visible": false,
+          "clot_stage": "none",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Horizontal test tube with similar brownish-yellow plasma. Slight haze or turbidity visible throughout the plasma volume. Meniscus at the rounded bottom shows light refraction. No distinct clot structures.",
+          "sample_id": "21.1.1",
+          "channel": "ch21"
+        },
+        {
+          "tube_position": "right",
+          "clots_visible": false,
+          "clot_stage": "none",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Horizontal test tube with brownish-yellow plasma similar to the other two. Slight turbidity comparable to the center tube. Uniform coloring without localized clot formations.",
+          "sample_id": "19.1.1",
+          "channel": "ch19"
+        }
+      ],
+      "description": "Three glass test tubes lying horizontally on a white/light surface, photographed from the end showing the rounded bottoms. All tubes display brownish-yellow (amber) plasma that is slightly more turbid compared to the upright IMG_3260 photo. This may represent a different timepoint or lighting condition. Tubes appear similarly filled with uniform plasma quality across all three channels.",
+      "batch": 13,
+      "channel": "multi",
+      "readme_label": "Сверху вниз 0.1.1, 21.1.1,19.1.1",
+      "sample_ids": [
+        "0.1.1",
+        "21.1.1",
+        "19.1.1"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3262.jpg",
+      "patient": "patient-01",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "left",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "clear",
+          "tube_description": "Vertical test tube with clear yellow plasma. A distinct small whitish-yellow clot mass is visible sitting at the very bottom of the tube. The clot is rounded, approximately 5-7mm diameter. Plasma above is transparent and clear.",
+          "sample_id": "21.1.1",
+          "channel": "ch21"
+        },
+        {
+          "tube_position": "center",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "clear",
+          "tube_description": "Vertical test tube with clear yellow plasma. A similar whitish-yellow clot at the bottom, slightly larger than the left tube. The clot appears more spherical and well-formed. Clear yellow plasma above.",
+          "sample_id": "0.1.1",
+          "channel": "control"
+        },
+        {
+          "tube_position": "right",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "clear",
+          "tube_description": "Vertical test tube with clear yellow plasma. A whitish-yellow clot visible at the bottom, comparable in size to the center tube. The clot has a rounded shape and is clearly delineated against the clear plasma.",
+          "sample_id": "19.1.1",
+          "channel": "ch19"
+        }
+      ],
+      "description": "Three glass test tubes held vertically, viewed from slightly below with backlighting. All three tubes contain clear yellow plasma with distinct small clot masses settled at the bottom. This represents a later timepoint where fibrin clots have formed and settled. The clots are similar in size across all three channels, each appearing as a whitish-yellow rounded mass approximately 5-8mm in diameter.",
+      "batch": 13,
+      "channel": "multi",
+      "readme_label": "Слева направо 21.1.1, 0.1.1, 19.1.1",
+      "sample_ids": [
+        "21.1.1",
+        "0.1.1",
+        "19.1.1"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3274.jpg",
+      "patient": "patient-02",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "left",
+          "clots_visible": false,
+          "clot_stage": "none",
+          "plasma_clarity": "clear",
+          "tube_description": "Glass test tube on backlit white LED surface. Contains yellow-green plasma that is clear and transparent. Small label markings visible near the bottom. Approximately 1/3 filled. No clots or turbidity."
+        },
+        {
+          "tube_position": "center",
+          "clots_visible": false,
+          "clot_stage": "none",
+          "plasma_clarity": "clear",
+          "tube_description": "Glass test tube with similar yellow-green clear plasma on backlit surface. Slightly more volume than the left tube. Plasma is uniform and transparent throughout. No visible clots or fibrin."
+        },
+        {
+          "tube_position": "right",
+          "clots_visible": false,
+          "clot_stage": "none",
+          "plasma_clarity": "clear",
+          "tube_description": "Glass test tube with yellow-green plasma on backlit surface. Label partially visible. Plasma is clear and transparent, consistent with the other two tubes. No clots or particulate matter visible."
+        }
+      ],
+      "description": "Three glass test tubes standing on a backlit white LED strip against a dark background. Hand visible holding the tubes from above. All three contain clear, yellow-green plasma at similar fill levels. The backlighting reveals high transparency with no visible coagulation. This appears to be an early timepoint or freshly centrifuged plasma for patient-02.",
+      "batch": 13,
+      "channel": "multi",
+      "readme_label": "19.2.1 / 0.2.1 / 21.2.1",
+      "sample_ids": [
+        "19.2.1",
+        "0.2.1",
+        "21.2.1"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3276.jpg",
+      "patient": "patient-02",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "center",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "turbid",
+          "tube_description": "Extreme macro close-up of a single test tube bottom. A large whitish-yellow fibrin clot mass is visible at the center-bottom of the tube, surrounded by greenish-yellow turbid plasma. The clot has an irregular rounded shape with soft edges, approximately 10-12mm across. The surrounding plasma shows significant turbidity with a greenish tinge. Fibrin strands may extend from the main clot body."
+        }
+      ],
+      "description": "Extreme close-up macro photograph of a single test tube bottom from patient-02. Shows detailed view of a formed fibrin clot sitting in turbid greenish-yellow plasma. This is a detail shot capturing the clot morphology at high magnification. Only one tube is visible at this zoom level. The clot appears well-formed with a whitish-yellow core.",
+      "batch": 13,
+      "channel": "multi",
+      "readme_label": "19.2.2 / 0.2.2 / 21.2.2",
+      "sample_ids": [
+        "19.2.2",
+        "0.2.2",
+        "21.2.2"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3280.JPG",
+      "patient": "patient-02",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "left",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Plasma sample deposited in the upper-left area of the Petri dish. A small yellowish clot core is visible surrounded by a thin translucent film of plasma. The clot has a compact rounded shape with slight yellowish opacity. Surrounding plasma film is slightly turbid.",
+          "sample_id": "21.2.1",
+          "channel": "ch21"
+        },
+        {
+          "tube_position": "center",
+          "clots_visible": true,
+          "clot_stage": "early_fibrin",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Plasma sample at the lower-center of the Petri dish. Shows a small yellowish clot with a thin spread of plasma around it. The clot appears smaller and less defined than the left sample, suggesting earlier-stage fibrin formation.",
+          "sample_id": "19.2.1",
+          "channel": "ch19"
+        },
+        {
+          "tube_position": "right",
+          "clots_visible": true,
+          "clot_stage": "early_fibrin",
+          "plasma_clarity": "clear",
+          "tube_description": "Plasma sample at the upper-right area of the Petri dish. A small yellowish clot is visible with a surrounding thin transparent plasma film. The plasma appears clearer than the other two deposits. The clot is small and compact.",
+          "sample_id": "0.2.1",
+          "channel": "control"
+        }
+      ],
+      "description": "Glass Petri dish viewed from above against a dark surface, containing three separate plasma deposits from the three experimental channels. Each deposit shows a small clot surrounded by spread plasma. The samples are arranged around the dish: upper-left, upper-right, and lower-center. An air bubble is visible in the center of the dish. This appears to be plasma that has been transferred from tubes to the dish for observation. Photographer's hand and phone reflection visible.",
+      "batch": 13,
+      "channel": "multi",
+      "readme_label": "Слева 21, справа 19, снизу 0",
+      "sample_ids": [
+        "21.2.1",
+        "19.2.1",
+        "0.2.1"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ],
+      "readme_notes": "Petri dish, immediately after"
+    },
+    {
+      "filename": "IMG_3281.JPG",
+      "patient": "patient-02",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "left",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Plasma sample at the upper-left of the Petri dish. Shows a well-formed yellowish clot with visible wrinkled/folded fibrin texture extending in an elongated shape. The clot has a dense yellow core with translucent fibrin edges that show crinkled texture. More developed coagulation than IMG_3280."
+        },
+        {
+          "tube_position": "center",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Plasma sample at the lower-left of the Petri dish. Shows a curved, elongated clot with wrinkled fibrin texture similar to the upper-left sample. The clot has a yellow core with translucent fibrin membrane extending outward. Moderate coagulation evident."
+        },
+        {
+          "tube_position": "right",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Plasma sample at the right side of the Petri dish. Shows a more compact oval clot with a bright yellow core and surrounding translucent plasma/fibrin film. The clot appears denser and more consolidated than the left-side samples."
+        }
+      ],
+      "description": "Glass Petri dish from above with three plasma deposits showing more advanced coagulation compared to IMG_3280. All three samples display visible fibrin clot structures with wrinkled/textured membranes and yellow cores. Samples arranged at upper-left, lower-left, and right positions in the dish. Phone reflection and hand visible. The fibrin textures are more prominent and developed in this image.",
+      "batch": 13,
+      "channel": "multi",
+      "readme_label": "Спустя 6 часов",
+      "sample_ids": [
+        "19.2.1",
+        "0.2.1",
+        "21.2.1"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ],
+      "readme_notes": "Petri dish, +6h"
+    },
+    {
+      "filename": "IMG_3282.jpg",
+      "patient": "patient-02",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "left",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "turbid",
+          "tube_description": "Plasma sample at the upper-left of the Petri dish. Elongated clot with prominent wrinkled fibrin membrane structure. Yellow-green core with textured, crinkled edges extending outward. The fibrin structure shows complex folding patterns indicating substantial coagulation."
+        },
+        {
+          "tube_position": "center",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "turbid",
+          "tube_description": "Plasma sample at the lower-center of the Petri dish. Shows a rounded clot with a dense olive-yellow core and surrounding wrinkled fibrin membrane. The clot appears well-formed and consolidated with visible fibrin network texture."
+        },
+        {
+          "tube_position": "right",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Plasma sample at the right side of the Petri dish. Displays a compact clot with highly textured, wrinkled yellowish fibrin surface. The fibrin mesh pattern is clearly visible with a honeycomb-like wrinkled texture. Dense yellow core visible at center. Most textured of the three samples."
+        }
+      ],
+      "description": "Glass Petri dish from above with three plasma deposits showing the most developed coagulation structures in the patient-02 series. All samples show prominent fibrin clot formation with complex wrinkled/textured membranes. The clots appear more mature and consolidated compared to IMG_3280 and IMG_3281, with visible fibrin network patterns. Positioned at upper-left, lower-center, and right in the dish. This likely represents a later timepoint in the coagulation process.",
+      "batch": 13,
+      "channel": "multi",
+      "readme_label": "Спустя 16 часов",
+      "sample_ids": [
+        "19.2.1",
+        "0.2.1",
+        "21.2.1"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ],
+      "readme_notes": "Petri dish, +16h"
+    },
+    {
+      "filename": "IMG_3283.jpg",
+      "patient": "patient-02",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "left",
+          "clots_visible": true,
+          "clot_stage": "full_coagulation",
+          "plasma_clarity": "turbid",
+          "tube_description": "Extreme close-up/macro of tube bottom area. Yellowish-green turbid plasma with a dense whitish fibrin mass visible in the lower-left region. Plasma surrounding the clot is cloudy and yellow-green."
+        },
+        {
+          "tube_position": "right",
+          "clots_visible": true,
+          "clot_stage": "full_coagulation",
+          "plasma_clarity": "turbid",
+          "tube_description": "Prominent organized fibrin network with a striking scaly/reticulated pattern. Multiple circular fibrin nodules arranged in a curved chain-like formation. The structure is yellowish-white against dark greenish plasma. This is a highly developed coagulation pattern indicating advanced clot maturation."
+        }
+      ],
+      "description": "Extreme macro close-up of test tube bottoms from patient-02. The image shows two distinct regions: a turbid yellowish-green plasma zone on the left with a dense fibrin clot, and a remarkable organized fibrin network on the right with a reticulated scale-like pattern of circular nodules. This indicates advanced coagulation with highly structured fibrin formation. The photo orientation and extreme magnification make it difficult to distinguish individual tube boundaries clearly.",
+      "batch": 14,
+      "channel": "multi",
+      "readme_label": "Спустя 21 час",
+      "sample_ids": [
+        "19.2.1",
+        "0.2.1",
+        "21.2.1"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ],
+      "readme_notes": "Petri dish, +21h macro"
+    },
+    {
+      "filename": "IMG_3310.jpg",
+      "patient": "patient-04",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "left",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Top tube (lying horizontally). Yellow plasma with a prominent rounded yellowish-brown clot mass at the bottom. The clot has a darker brownish center with a lighter halo. Plasma is clear golden-yellow with slight turbidity near the clot. Faint marking visible on tube wall.",
+          "sample_id": "21.4.1",
+          "channel": "ch21"
+        },
+        {
+          "tube_position": "center",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Middle tube. Yellow plasma with a similar-sized rounded clot at the bottom. The clot appears slightly lighter in color compared to the top tube, with a yellowish-tan appearance. Marking 'C/5' or similar visible on tube. Plasma is golden-yellow.",
+          "sample_id": "0.4.1",
+          "channel": "control"
+        },
+        {
+          "tube_position": "right",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Bottom tube. Yellow plasma with a rounded clot mass at the bottom. The clot appears slightly smaller and paler than the other two tubes, with a more diffuse edge. Marking 'C/2' or similar visible. Plasma is golden-yellow, slightly less saturated than the middle tube.",
+          "sample_id": "19.4.1",
+          "channel": "ch19"
+        }
+      ],
+      "description": "Three glass test tubes from patient-04 lying horizontally on a backlit surface. All three contain golden-yellow plasma with visible rounded clot formations at their bottoms. The clots are of similar size (partial coagulation stage) with slight variations in color intensity: the top tube clot is darkest/brownish, the middle is medium, and the bottom is palest. Tube markings are faintly visible. Overall the plasma appears relatively similar across all three channels.",
+      "batch": 14,
+      "channel": "multi",
+      "readme_label": "Сверху вниз 21.4.1/0.4.1/19.4.1",
+      "sample_ids": [
+        "21.4.1",
+        "0.4.1",
+        "19.4.1"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3323.jpg",
+      "patient": "patient-06",
+      "channels_shown": [
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "left",
+          "clots_visible": true,
+          "clot_stage": "early_fibrin",
+          "plasma_clarity": "clear",
+          "tube_description": "Tube held in hand. Clear plasma with a small, pale yellowish-white fibrin clot at the bottom. The clot is relatively compact and light-colored with a slightly lumpy texture. Surrounding plasma is largely transparent/clear with minimal turbidity.",
+          "sample_id": "21.6.2",
+          "channel": "ch21"
+        },
+        {
+          "tube_position": "right",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Tube held adjacent to the left one. Contains a larger, more developed clot at the bottom with a distinct orange/amber-colored center surrounded by a yellowish-white halo. The clot is more substantial and more pigmented than the left tube. Plasma has a slight yellowish tint and shows some golden reflections.",
+          "sample_id": "19.6.2",
+          "channel": "ch19"
+        }
+      ],
+      "description": "Two test tubes from patient-06 held in a hand against a dark background. The left tube (ch19) shows early fibrin formation with a small pale clot, while the right tube (ch21) has a more advanced partial clot with distinctive orange-amber coloring at its center. Clear difference in coagulation progression between the two channels.",
+      "batch": 14,
+      "channel": "multi",
+      "readme_label": "Слева 21.6.2, справа 19.6.2",
+      "sample_ids": [
+        "21.6.2",
+        "19.6.2"
+      ],
+      "channels_from_readme": [
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3324.jpg",
+      "patient": "patient-06",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "left",
+          "clots_visible": true,
+          "clot_stage": "early_fibrin",
+          "plasma_clarity": "clear",
+          "tube_description": "Top tube (lying horizontally). Clear plasma with a small, pale yellowish clot visible at the bottom. The clot is relatively small and lightly colored. Plasma appears largely transparent."
+        },
+        {
+          "tube_position": "center",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Middle tube. Contains a more prominent clot with an orange-amber center and yellowish-white peripheral zone. This is the most developed clot of the three tubes. Some slight turbidity in the surrounding plasma. The clot is well-defined and rounded."
+        },
+        {
+          "tube_position": "right",
+          "clots_visible": true,
+          "clot_stage": "early_fibrin",
+          "plasma_clarity": "clear",
+          "tube_description": "Bottom tube. Contains a small, diffuse yellowish-white clot at the bottom. The clot is less defined than the middle tube, appearing more wispy and spread out. Plasma is relatively clear. A secondary small pale spot is visible nearby."
+        }
+      ],
+      "description": "Three test tubes from patient-06 lying horizontally. The top tube (likely control) and bottom tube (likely ch21) show early fibrin with small pale clots, while the middle tube (likely ch19) shows more advanced partial coagulation with an orange-amber centered clot. The variation in clot development is clearly visible across the three channels.",
+      "batch": 14,
+      "channel": "multi",
+      "readme_label": "Сверху вниз: 21.6.2, 0.6.2, 19.6.2, 21.6.1, 0.6.1, 19.6.1",
+      "sample_ids": [
+        "21.6.2",
+        "0.6.2",
+        "19.6.2",
+        "21.6.1",
+        "0.6.1",
+        "19.6.1"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3325.jpg",
+      "patient": "patient-06",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "left",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Left tube held in hand with backlight. Contains yellowish plasma with a whitish clot mass at the bottom. The clot appears somewhat pale and rounded. Plasma above is slightly turbid with a pale yellow color. Small sediment particles visible at the very bottom of the tube below the main clot.",
+          "sample_id": "21.6.1",
+          "channel": "ch21"
+        },
+        {
+          "tube_position": "center",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Center tube. Contains golden-yellow plasma with a yellowish clot mass suspended in the lower portion. The clot appears more yellowish than the left tube. Plasma has a warm golden-yellow tone and is slightly turbid.",
+          "sample_id": "0.6.1",
+          "channel": "control"
+        },
+        {
+          "tube_position": "right",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "clear",
+          "tube_description": "Right tube. Contains clear golden-yellow plasma with a distinct yellowish-orange clot at the bottom. The clot has the most vivid coloring of the three tubes. Plasma is the clearest of the three, with a bright golden-yellow appearance. Light reflection visible on the tube surface.",
+          "sample_id": "19.6.1",
+          "channel": "ch19"
+        }
+      ],
+      "description": "Three test tubes from patient-06 held in hand against a point light source (visible as lens flare on left). All three tubes show partial coagulation with clots of varying color: left (control) has a pale whitish clot, center (ch19) has a golden-yellow clot, and right (ch21) has the most vivid yellow-orange clot. The plasma color progresses from pale to golden across the tubes. Light source illuminates the tubes from behind.",
+      "batch": 14,
+      "channel": "multi",
+      "readme_label": "Слева направо: 21.6.1, 0.6.1, 19.6.1",
+      "sample_ids": [
+        "21.6.1",
+        "0.6.1",
+        "19.6.1"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3328.jpg",
+      "patient": "patient-07",
+      "channels_shown": [
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "left",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Left tube photographed against a dark background with backlight from below. Contains slightly turbid yellowish-green plasma with a prominent yellowish-white clot mass in the lower portion. The clot is rounded and well-defined. Plasma above the clot has a greenish-yellow tint.",
+          "sample_id": "19.7.1",
+          "channel": "ch19"
+        },
+        {
+          "tube_position": "right",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Right tube. Contains yellowish-green plasma with a large yellowish mass in the lower section. The plasma appears more yellow-green overall compared to the left tube. The clot/mass appears somewhat more diffuse and integrated with the plasma. Some fine particles visible in the plasma.",
+          "sample_id": "21.7.1",
+          "channel": "ch21"
+        }
+      ],
+      "description": "Two test tubes from patient-07 against a dark textured background with bottom backlighting. Both tubes contain yellowish-green slightly turbid plasma with partial clot formations. The left tube (ch19) has a more defined whitish clot, while the right tube (ch21) shows a more diffuse yellowish mass. Both are in partial coagulation stage.",
+      "batch": 14,
+      "channel": "multi",
+      "readme_label": "Слева 19.7.1, справа 21.7.1",
+      "sample_ids": [
+        "19.7.1",
+        "21.7.1"
+      ],
+      "channels_from_readme": [
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3352.jpg",
+      "patient": "patient-07",
+      "channels_shown": [
+        "0",
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "left",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Top tube (lying horizontally on backlight). Contains yellowish plasma with a large, prominent yellowish clot mass at the bottom. The clot has a slightly mottled/textured appearance with some darker patches within. Plasma is a pale greenish-yellow."
+        },
+        {
+          "tube_position": "center",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Middle tube. Contains yellowish plasma with a rounded clot mass at the bottom. The clot appears slightly greenish-yellow with some internal texture. Plasma surrounding the clot is slightly turbid. The tube appears held by fingers visible on the right side."
+        },
+        {
+          "tube_position": "right",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Bottom tube. Contains yellowish plasma with a clot mass at the bottom that appears slightly more diffuse and larger than the middle tube. The clot has a pale yellowish-green color with some texture. A small air bubble is visible near the tube bottom."
+        }
+      ],
+      "description": "Three test tubes from patient-07 lying horizontally on a backlit surface, held by fingers on the right side. All three tubes show partial coagulation with similar-looking yellowish clot formations at their bottoms. The clots are of comparable size with slight variations in texture and definition. Plasma in all tubes is slightly turbid with a pale greenish-yellow color. The overall coagulation state appears similar across all three channels for this patient.",
+      "batch": 14,
+      "channel": "multi",
+      "readme_label": "Слева направо 0,19,21",
+      "sample_ids": [
+        "0.7.1",
+        "0.7.2",
+        "19.7.1",
+        "19.7.2",
+        "21.7.1",
+        "21.7.2"
+      ],
+      "channels_from_readme": [
+        "0",
+        "19",
+        "21"
+      ]
+    },
+    {
+      "filename": "IMG_3356.jpg",
+      "patient": "patient-07",
+      "channels_shown": [
+        "19",
+        "21"
+      ],
+      "tubes": [
+        {
+          "tube_position": "left",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Top tube (lying horizontally on backlight). Contains yellowish plasma with a prominent, well-defined clot mass at the bottom. The clot is pale yellow with visible internal structure - appears to have some fibrin strands or surface cracking pattern. The clot is sizeable and fills a good portion of the tube bottom cross-section."
+        },
+        {
+          "tube_position": "right",
+          "clots_visible": true,
+          "clot_stage": "partial_clot",
+          "plasma_clarity": "slightly_turbid",
+          "tube_description": "Bottom tube. Contains yellowish plasma with a clot that appears slightly smaller and more diffuse than the top tube. The clot is pale yellow and less sharply defined. Plasma shows slight turbidity with a warm yellow tone."
+        }
+      ],
+      "description": "Two test tubes from patient-07 lying horizontally on a backlit surface, with a finger/thumb visible on the left side. Both tubes show partial coagulation stage. The top tube (ch19) has a larger, more structured clot with visible surface features, while the bottom tube (ch21) has a slightly smaller, more diffuse clot. Both contain slightly turbid yellowish plasma.",
+      "batch": 14,
+      "channel": "multi",
+      "readme_label": "Слева/снизу 19, справа/сверху 21",
+      "sample_ids": [
+        "19.7.1",
+        "19.7.2",
+        "21.7.1",
+        "21.7.2"
+      ],
+      "channels_from_readme": [
+        "19",
+        "21"
+      ]
+    }
+  ],
+  "truly_unclassified": [
+    {
+      "filename": "IMG_3264.JPG",
+      "patient": "patient-02",
+      "content_type": "poured_plasma",
+      "likely_channel": "unknown",
+      "clots_visible": false,
+      "clot_count": "0",
+      "clot_stage": "none",
+      "plasma_clarity": "clear",
+      "description": "Close-up of plasma poured into a white container or cuvette. Uniform deep yellow color, no visible clots or fibrin formations, smooth and transparent.",
+      "batch": 7,
+      "channel": "unclassified",
+      "readme_label": "(фото протокола / чек-листа)",
+      "readme_notes": "not a sample photo"
+    },
+    {
+      "filename": "IMG_3292.jpg",
+      "patient": "patient-03",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": true,
+      "clot_count": "many",
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "turbid",
+      "description": "Single tube close-up with deep amber/yellow plasma. Multiple dark irregular clot formations clearly visible suspended throughout the plasma volume. Notably turbid compared to patient-02 samples.",
+      "batch": 7,
+      "channel": "unclassified",
+      "readme_label": "(без подписи)",
+      "readme_notes": "single tube, channel unknown"
+    },
+    {
+      "filename": "IMG_3298.jpg",
+      "patient": "patient-03",
+      "content_type": "poured_plasma",
+      "likely_channel": "unknown",
+      "clots_visible": true,
+      "clot_count": "many",
+      "clot_stage": "full_coagulation",
+      "plasma_clarity": "turbid",
+      "description": "Plasma poured into a container viewed from above. Extensive whitish fibrin network visible throughout the pale yellow plasma, forming a dense web-like pattern. Advanced coagulation stage with fibrin covering most of the surface.",
+      "batch": 7,
+      "channel": "unclassified",
+      "readme_label": "(без подписи)",
+      "readme_notes": "single tube, channel unknown"
+    },
+    {
+      "file": "IMG_3303.jpg",
+      "patient": "patient-03",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-03/photos/jpg/IMG_3303.jpg",
+      "content_type": "poured_plasma",
+      "likely_channel": "unknown",
+      "clots_visible": "yes",
+      "clot_count": 1,
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Poured plasma in a dark container viewed from above, with a prominent yellowish-white fibrin clot mass in the center surrounded by pale yellow plasma. Fine translucent fibrin strands extend from the main clot, and a white object (likely a pipette tip or stirrer) is visible adjacent to the clot.",
+      "batch": 8,
+      "channel": "unclassified",
+      "readme_label": "(без подписи)",
+      "readme_notes": "single tube, channel unknown"
+    },
+    {
+      "file": "IMG_3304.jpg",
+      "patient": "patient-03",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-03/photos/jpg/IMG_3304.jpg",
+      "content_type": "poured_plasma",
+      "likely_channel": "unknown",
+      "clots_visible": "yes",
+      "clot_count": 1,
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Top-down view of poured plasma in a dark container showing a dense golden-yellow fibrin clot in the center with faint translucent fibrin strands radiating outward. The surrounding plasma is pale yellow with slight turbidity. A white instrument tip is visible at the right edge.",
+      "batch": 8,
+      "channel": "unclassified",
+      "readme_label": "(без подписи)",
+      "readme_notes": "single tube, channel unknown"
+    },
+    {
+      "file": "IMG_3312.jpg",
+      "patient": "patient-05",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-05/photos/jpg/IMG_3312.jpg",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": "no",
+      "clot_count": 0,
+      "clot_stage": "none",
+      "plasma_clarity": "clear",
+      "description": "Glass test tube viewed against LED backlight showing clear yellow plasma with no visible clots or fibrin structures. The plasma is uniformly transparent with a clean meniscus at the top, indicating a well-separated sample with no coagulation activity.",
+      "batch": 8,
+      "channel": "unclassified",
+      "readme_label": "(без подписи)",
+      "readme_notes": "single tube, channel unknown; tube on LED"
+    },
+    {
+      "file": "IMG_3313.jpg",
+      "patient": "patient-05",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-05/photos/jpg/IMG_3313.jpg",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": "no",
+      "clot_count": 0,
+      "clot_stage": "none",
+      "plasma_clarity": "clear",
+      "description": "Close-up side view of a glass test tube held by fingers, containing clear pale yellow plasma. No clots, fibrin strands, or particulate matter visible. The plasma column is uniformly transparent with no signs of coagulation.",
+      "batch": 8,
+      "channel": "unclassified",
+      "readme_label": "(без подписи)",
+      "readme_notes": "single tube, channel unknown; tube in hand"
+    },
+    {
+      "file": "IMG_3314.jpg",
+      "patient": "patient-05",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-05/photos/jpg/IMG_3314.jpg",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": "yes",
+      "clot_count": 1,
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Glass test tube close-up showing pale yellow plasma with a subtle whitish fibrin formation visible in the upper portion of the liquid. Faint translucent strands suggest early fibrin polymerization. The bulk of the plasma remains relatively clear but with mild turbidity near the fibrin structure.",
+      "batch": 8,
+      "channel": "unclassified",
+      "readme_label": "(без подписи)",
+      "readme_notes": "single tube, channel unknown; tube macro"
+    },
+    {
+      "file": "IMG_3316.jpg",
+      "patient": "patient-05",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-05/photos/jpg/IMG_3316.jpg",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": "no",
+      "clot_count": 0,
+      "clot_stage": "none",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Glass test tube viewed against LED backlight showing yellow-green plasma. There is a faint darker shadow in the center but no distinct fibrin clots or strands visible. The plasma has slight turbidity and is somewhat less transparent compared to fully clear samples, possibly indicating early protein aggregation or lipemia.",
+      "batch": 8,
+      "channel": "unclassified",
+      "readme_label": "(без подписи)",
+      "readme_notes": "single tube, channel unknown; tube on LED"
+    },
+    {
+      "file": "IMG_3317.jpg",
+      "patient": "patient-05",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-05/photos/jpg/IMG_3317.jpg",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": "yes",
+      "clot_count": 1,
+      "clot_stage": "early_fibrin",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Close-up of a glass test tube showing pale yellow plasma with a visible whitish fibrin strand or early clot formation in the upper center portion. The plasma has mild turbidity with a hazy appearance, suggesting early-stage coagulation. The fibrin structure is translucent and wispy rather than dense.",
+      "batch": 8,
+      "channel": "unclassified",
+      "readme_label": "(без подписи)",
+      "readme_notes": "single tube, channel unknown; tube macro"
+    },
+    {
+      "file": "IMG_3319.jpg",
+      "patient": "patient-05",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-05/photos/jpg/IMG_3319.jpg",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": "yes",
+      "clot_count": "many",
+      "clot_stage": "partial_clot",
+      "plasma_clarity": "slightly_turbid",
+      "description": "Close-up of a single glass test tube with yellow-green plasma, backlit. A large whitish fibrin mass is visible in the upper portion of the plasma volume, with wispy strands extending through the fluid, indicating active coagulation with partial clot formation.",
+      "batch": 9,
+      "channel": "unclassified",
+      "readme_label": "(без подписи)",
+      "readme_notes": "single tube, channel unknown; tube in hand"
+    },
+    {
+      "file": "IMG_3320.jpg",
+      "patient": "patient-05",
+      "path": "/home/liker/projects/ai-research/HyperbolicField-BloodPlasma-Study/data/patient-05/photos/jpg/IMG_3320.jpg",
+      "content_type": "single_tube",
+      "likely_channel": "unknown",
+      "clots_visible": "no",
+      "clot_count": 0,
+      "clot_stage": "none",
+      "plasma_clarity": "clear",
+      "description": "Single glass test tube with clear yellow plasma, backlit from below. The plasma appears homogeneous and transparent with no visible clots, fibrin strands, or turbidity. A subtle darker region near the bottom of the tube may be sediment from centrifugation.",
+      "batch": 9,
+      "channel": "unclassified",
+      "readme_label": "(без подписи)",
+      "readme_notes": "single tube, channel unknown; tube on LED"
+    }
+  ],
+  "statistics": {
+    "labeled": {
+      "control": {
+        "total": 13,
+        "with_clots": 8,
+        "clot_rate": "62%",
+        "stages": {
+          "none": 5,
+          "early_fibrin": 2,
+          "partial_clot": 5,
+          "full_coagulation": 1
+        }
+      },
+      "ch19": {
+        "total": 14,
+        "with_clots": 10,
+        "clot_rate": "71%",
+        "stages": {
+          "early_fibrin": 4,
+          "none": 4,
+          "full_coagulation": 3,
+          "lysis": 1,
+          "partial_clot": 2
+        }
+      },
+      "ch21": {
+        "total": 13,
+        "with_clots": 7,
+        "clot_rate": "54%",
+        "stages": {
+          "early_fibrin": 3,
+          "none": 6,
+          "full_coagulation": 3,
+          "partial_clot": 1
+        }
+      }
+    },
+    "inferred": {
+      "control": {
+        "total": 7,
+        "with_clots": 5,
+        "clot_rate": "71%",
+        "stages": {
+          "partial_clot": 3,
+          "none": 2,
+          "full_coagulation": 2
+        }
+      },
+      "ch19": {
+        "total": 4,
+        "with_clots": 4,
+        "clot_rate": "100%",
+        "stages": {
+          "partial_clot": 4
+        }
+      },
+      "ch21": {
+        "total": 4,
+        "with_clots": 0,
+        "clot_rate": "0%",
+        "stages": {
+          "early_fibrin": 4
+        }
+      }
+    },
+    "combined": {
+      "control": {
+        "total": 20,
+        "with_clots": 13,
+        "clot_rate": "65%",
+        "stages": {
+          "none": 7,
+          "early_fibrin": 2,
+          "partial_clot": 8,
+          "full_coagulation": 3
+        }
+      },
+      "ch19": {
+        "total": 18,
+        "with_clots": 14,
+        "clot_rate": "78%",
+        "stages": {
+          "early_fibrin": 4,
+          "none": 4,
+          "full_coagulation": 3,
+          "lysis": 1,
+          "partial_clot": 6
+        }
+      },
+      "ch21": {
+        "total": 17,
+        "with_clots": 7,
+        "clot_rate": "41%",
+        "stages": {
+          "early_fibrin": 7,
+          "none": 6,
+          "full_coagulation": 3,
+          "partial_clot": 1
+        }
+      }
+    }
+  }
+}

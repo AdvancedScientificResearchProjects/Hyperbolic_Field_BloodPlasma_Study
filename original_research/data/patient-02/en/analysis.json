@@ -1,0 +1,579 @@
+{
+  "patient_id": "02",
+  "donor_code": "02",
+  "blood_group": "III+",
+  "experiment_date": "2026-01-28",
+  "protocol": {
+    "start_time": "19:50",
+    "blood_collection": [
+      {
+        "tube": 1,
+        "start": "19:50:50",
+        "end": "19:51:30"
+      },
+      {
+        "tube": 2,
+        "start": "19:52:01",
+        "end": "19:52:19"
+      },
+      {
+        "tube": 3,
+        "start": "19:52:30",
+        "end": "19:53:11"
+      },
+      {
+        "tube": 4,
+        "start": "19:53:21",
+        "end": "19:54:16"
+      }
+    ],
+    "centrifugation": {
+      "rpm": 2000,
+      "duration_min": 5,
+      "start": "19:54:10",
+      "end": "20:00:10"
+    },
+    "plasma_volume_ml": 8.5,
+    "samples": [
+      {
+        "id": "0.2.1",
+        "number": 1,
+        "type": "control",
+        "label": "Control 1",
+        "volume_ml": 1.5,
+        "time": "20:06:05"
+      },
+      {
+        "id": "0.2.2",
+        "number": 2,
+        "type": "control",
+        "label": "Control 2",
+        "volume_ml": 1.0,
+        "time": "20:06:19"
+      },
+      {
+        "id": "19.2.1",
+        "number": 3,
+        "type": "sample",
+        "label": "Sample 1 (channel 19)",
+        "volume_ml": 1.5,
+        "time": "20:05:35"
+      },
+      {
+        "id": "19.2.2",
+        "number": 4,
+        "type": "sample",
+        "label": "Sample 2 (channel 19)",
+        "volume_ml": 1.0,
+        "time": "20:05:55"
+      },
+      {
+        "id": "21.2.1",
+        "number": 5,
+        "type": "sample",
+        "label": "Sample 3 (channel 21)",
+        "volume_ml": 1.5,
+        "time": "20:05:05"
+      },
+      {
+        "id": "21.2.2",
+        "number": 6,
+        "type": "sample",
+        "label": "Sample 4 (channel 21)",
+        "volume_ml": 1.0,
+        "time": "20:05:25"
+      }
+    ],
+    "radiation": {
+      "start": "20:09:50",
+      "end": "21:24:10"
+    }
+  },
+  "notes": {
+    "observation_day2": "Photos IMG_3282-IMG_3288 taken on 2026-01-29 (~17:15-17:29) show samples after ~20h incubation",
+    "morphology_notes": "In dried drop clinical morphology: coarse large cells = loose fibrin; dense fine mesh = dense fibrin; pronounced edge = active protein transport to periphery. Tubes 2.1 — first samples 1.5 ml in vacuum tubes after 20 hours"
+  },
+  "photos": [
+    {
+      "filename": "IMG_3264.JPG",
+      "exif_datetime": "2026-01-28 21:29:19",
+      "pdf_caption": "(protocol / checklist photo)",
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Close-up of container with collected blood plasma, top view at an angle. Plasma is in a white plastic container (likely a lid or tray)",
+        "sample_count": 0,
+        "view": "top at an angle",
+        "plasma": {
+          "color": "saturated yellow-golden",
+          "transparency": "translucent",
+          "clots": false,
+          "notes": "Homogeneous plasma without visible inclusions. Liquid is clear, uniform yellow color. Volume is significant -- visibly the pooled plasma before distribution into samples"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3265.HEIC",
+      "exif_datetime": "2026-01-28 21:30:20",
+      "pdf_caption": "19.2.1",
+      "samples_shown": [
+        "19.2.1"
+      ],
+      "visual_description": {
+        "scene": "Glass test tube with plasma, backlit against light. Test tube filled approximately 2/3",
+        "sample_count": 1,
+        "view": "side, macro, against light",
+        "plasma": {
+          "color": "yellow-olive, darker at bottom",
+          "transparency": "translucent",
+          "clots": false,
+          "notes": "Slight turbidity. Small condensation drops visible on test tube walls in upper part. Bottom marking visible through glass. No air bubbles observed. Liquid level clearly visible"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3266.HEIC",
+      "exif_datetime": "2026-01-28 21:31:38",
+      "pdf_caption": "19.2.1",
+      "samples_shown": [
+        "19.2.1"
+      ],
+      "visual_description": {
+        "scene": "Same test tube 19.2.1, different angle. Backlighting from behind, test tube slightly tilted",
+        "sample_count": 1,
+        "view": "side, macro, against light",
+        "plasma": {
+          "color": "light yellow with greenish tinge",
+          "transparency": "translucent",
+          "clots": false,
+          "notes": "Color is noticeably lighter than in previous photo -- likely different backlighting angle. Plasma appears homogeneous. Small drops on test tube walls above liquid level"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3267.HEIC",
+      "exif_datetime": "2026-01-28 21:32:23",
+      "pdf_caption": "19.2.2",
+      "samples_shown": [
+        "19.2.2"
+      ],
+      "visual_description": {
+        "scene": "Glass test tube with sample 19.2.2 against light. Liquid volume less than in 19.2.1 (1.0 ml vs 1.5 ml)",
+        "sample_count": 1,
+        "view": "side, macro, against light",
+        "plasma": {
+          "color": "yellow-olive",
+          "transparency": "translucent",
+          "clots": false,
+          "notes": "Plasma is homogeneous. Clear meniscus visible on surface. Slight opalescence. Upper part of test tube with condensation drops"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3268.HEIC",
+      "exif_datetime": "2026-01-28 21:33:17",
+      "pdf_caption": "0.2.1",
+      "samples_shown": [
+        "0.2.1"
+      ],
+      "visual_description": {
+        "scene": "Control test tube 0.2.1 against light. Volume 1.5 ml",
+        "sample_count": 1,
+        "view": "side, macro, against light",
+        "plasma": {
+          "color": "yellow-olive, saturated",
+          "transparency": "translucent",
+          "clots": false,
+          "notes": "Plasma visually resembles irradiated samples. Homogeneous, without stratification or sediment. Drops on walls in upper zone"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3269.HEIC",
+      "exif_datetime": "2026-01-28 21:34:06",
+      "pdf_caption": "0.2.2",
+      "samples_shown": [
+        "0.2.2"
+      ],
+      "visual_description": {
+        "scene": "Control test tube 0.2.2 against light. Volume 1.0 ml",
+        "sample_count": 1,
+        "view": "side, macro, against light",
+        "plasma": {
+          "color": "bright yellow with golden tinge",
+          "transparency": "translucent",
+          "clots": false,
+          "notes": "Plasma is homogeneous. Liquid level lower than in samples 2.1 (smaller volume). Dense golden color"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3270.HEIC",
+      "exif_datetime": "2026-01-28 21:34:20",
+      "pdf_caption": "21.2.1",
+      "samples_shown": [
+        "21.2.1"
+      ],
+      "visual_description": {
+        "scene": "Test tube with sample 21.2.1 (irradiation channel 21) against light. White film/clot visible on plasma surface",
+        "sample_count": 1,
+        "view": "side, macro, against light",
+        "plasma": {
+          "color": "yellow-olive",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Whitish film visible on plasma surface -- beginning of fibrin clot formation. This distinguishes this sample from control and from channel 19. The liquid itself under the film is homogeneous"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3271.HEIC",
+      "exif_datetime": "2026-01-28 21:35:43",
+      "pdf_caption": "21.2.1",
+      "samples_shown": [
+        "21.2.1"
+      ],
+      "visual_description": {
+        "scene": "Repeat shot of test tube 21.2.1, slightly different angle. Test tube tilted",
+        "sample_count": 1,
+        "view": "side at an angle, macro, against light",
+        "plasma": {
+          "color": "yellow with greenish tinge",
+          "transparency": "translucent",
+          "clots": false,
+          "notes": "At this angle the surface film is less noticeable. Test tube filled ~2/3. Single condensation drop on wall above liquid level"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3272.HEIC",
+      "exif_datetime": "2026-01-28 21:39:50",
+      "pdf_caption": "21.2.2",
+      "samples_shown": [
+        "21.2.2"
+      ],
+      "visual_description": {
+        "scene": "Test tube with sample 21.2.2 (irradiation channel 21, 1.0 ml) against light",
+        "sample_count": 1,
+        "view": "side, macro, against light",
+        "plasma": {
+          "color": "yellow-golden",
+          "transparency": "translucent",
+          "clots": false,
+          "notes": "Plasma appears homogeneous. Liquid level is low (1.0 ml). Clear meniscus. Minimal condensation on walls"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3273.HEIC",
+      "exif_datetime": "2026-01-28 21:40:18",
+      "pdf_caption": "(no caption)",
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Three glass test tubes side by side against light (1.5 ml samples -- series 2.1). Marking visible on left test tube. Test tubes held by hand",
+        "sample_count": 3,
+        "view": "side, group shot, against light",
+        "plasma": {
+          "color": "yellow-olive, homogeneous in all three",
+          "transparency": "translucent",
+          "clots": false,
+          "notes": "Comparative shot of three test tubes. Liquid levels approximately equal. Color and transparency visually indistinguishable between test tubes. Whitish film visible on surface of middle test tube"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3274.HEIC",
+      "exif_datetime": "2026-01-28 21:41:52",
+      "pdf_caption": "19.2.1 / 0.2.1 / 21.2.1",
+      "samples_shown": [
+        "19.2.1",
+        "0.2.1",
+        "21.2.1"
+      ],
+      "visual_description": {
+        "scene": "Three test tubes of series 2.1 (1.5 ml) against light: 19.2.1, 0.2.1, 21.2.1. More distant angle, test tubes fully visible",
+        "sample_count": 3,
+        "view": "side, group shot, against light",
+        "plasma": {
+          "color": "yellow-olive, identical in all three test tubes",
+          "transparency": "translucent",
+          "clots": false,
+          "notes": "Visually all three samples are indistinguishable by color and transparency. Liquid levels match. Marking visible on left test tube. Marking also visible on right test tube"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3275.HEIC",
+      "exif_datetime": "2026-01-28 21:41:58",
+      "pdf_caption": "(no caption)",
+      "samples_shown": [],
+      "visual_description": {
+        "scene": "Three test tubes of series 2.1 close-up from below against light. Lower part of test tubes with plasma clearly visible",
+        "sample_count": 3,
+        "view": "side from below, group shot, macro, against light",
+        "plasma": {
+          "color": "yellow-olive",
+          "transparency": "translucent",
+          "clots": false,
+          "notes": "Plasma is homogeneous in all test tubes. Marking visible on left and right test tubes. Middle test tube has whitish film on surface. Condensation droplets on walls. Color of all three visually matches"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3276.HEIC",
+      "exif_datetime": "2026-01-28 21:48:44",
+      "pdf_caption": "19.2.2 / 0.2.2 / 21.2.2",
+      "samples_shown": [
+        "19.2.2",
+        "0.2.2",
+        "21.2.2"
+      ],
+      "visual_description": {
+        "scene": "Three test tubes of series 2.2 (1.0 ml) against light: 19.2.2, 0.2.2, 21.2.2. Test tubes held by hand",
+        "sample_count": 3,
+        "view": "side, group shot, against light",
+        "plasma": {
+          "color": "yellow-olive, homogeneous",
+          "transparency": "translucent",
+          "clots": false,
+          "notes": "Smaller liquid volume compared to series 2.1. Levels in all three are approximately equal. No visual differences between control and irradiated samples. Markings on test tubes visible"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3277.HEIC",
+      "exif_datetime": "2026-01-28 21:49:17",
+      "pdf_caption": "19.2.2",
+      "samples_shown": [
+        "19.2.2"
+      ],
+      "visual_description": {
+        "scene": "Bottom of test tube 19.2.2 tilted -- view through bottom. Plasma poured onto glass, visible as a drop on dark surface",
+        "sample_count": 1,
+        "view": "through bottom of tilted test tube, macro",
+        "plasma": {
+          "color": "pale yellow with greenish tinge",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Plasma poured from test tube forming a drop on surface (likely a slide or Petri dish). A denser yellowish clot visible in center of drop, surrounded by transparent serous zone. Beginning of gelation process"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3278.HEIC",
+      "exif_datetime": "2026-01-28 21:50:39",
+      "pdf_caption": "0.2.2",
+      "samples_shown": [
+        "0.2.2"
+      ],
+      "visual_description": {
+        "scene": "Control sample 0.2.2 poured onto glass. Top-side view, plasma drop on dark surface",
+        "sample_count": 1,
+        "view": "top-side, macro",
+        "plasma": {
+          "color": "pale yellow",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Plasma drop on dark surface. Dense round yellow clot in center, surrounded by more transparent serous zone. Drop shape is teardrop-like. Clot is compact, well-formed"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3279.HEIC",
+      "exif_datetime": "2026-01-28 21:51:21",
+      "pdf_caption": "21.2.2",
+      "samples_shown": [
+        "21.2.2"
+      ],
+      "visual_description": {
+        "scene": "Sample 21.2.2 poured onto glass. Plasma drop on dark surface, top view",
+        "sample_count": 1,
+        "view": "top, macro",
+        "plasma": {
+          "color": "pale yellow with greenish tint",
+          "transparency": "translucent",
+          "clots": true,
+          "notes": "Plasma drop larger than previous ones. Yellowish clot in center. Serous zone around clot is extensive, transparent. Drop shape is more elongated. Several small air bubbles in central zone"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3280.JPG",
+      "exif_datetime": null,
+      "pdf_caption": "Left 21, right 19, bottom 0",
+      "samples_shown": [
+        "21.2.1",
+        "19.2.1",
+        "0.2.1"
+      ],
+      "visual_description": {
+        "scene": "Petri dish with three plasma drops of series 2.1 (1.5 ml). Drops positioned at edges of dish. Caption: left 21, right 19, bottom 0. Immediately after application",
+        "sample_count": 3,
+        "view": "top, general view",
+        "plasma": {
+          "color": "pale yellow, translucent",
+          "transparency": "translucent",
+          "clots": false,
+          "notes": "Three plasma drops applied to Petri dish. Drops are still liquid, just applied. Drop shape is teardrop-like, spread across surface. Petri dish is glass with green rim. Background is dark surface"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3281.JPG",
+      "exif_datetime": null,
+      "pdf_caption": "After 6 hours",
+      "samples_shown": [
+        "19.2.1",
+        "0.2.1",
+        "21.2.1"
+      ],
+      "visual_description": {
+        "scene": "Same Petri dish with three drops after ~6 hours of incubation. Reflection of hand and phone visible in glass",
+        "sample_count": 3,
+        "view": "top, general view",
+        "plasma": {
+          "color": "yellow-golden in center, whitish at edges",
+          "transparency": "turbid",
+          "clots": true,
+          "notes": "Drops have started drying. Fibrin structure formation visible -- drop edges have become whitish/turbid, yellow liquid component remains in center. Initial crystallization phase. Upper left drop (21) is elongated. All three drops have visually changed compared to initial state"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3282.HEIC",
+      "exif_datetime": "2026-01-29 17:15:31",
+      "pdf_caption": "After 16 hours",
+      "samples_shown": [
+        "19.2.1",
+        "0.2.1",
+        "21.2.1"
+      ],
+      "visual_description": {
+        "scene": "Petri dish after ~20 hours of incubation. Three dried drops with pronounced crystallization. General top view",
+        "sample_count": 3,
+        "view": "top, general view",
+        "plasma": {
+          "color": "yellow-brown in center, gray-white at periphery",
+          "transparency": "turbid",
+          "clots": true,
+          "notes": "Phase ~20 hours. Drops have completely dried. Dried drop morphology is clearly visible: pronounced peripheral belt (edge zone) with fibrin structures and central zone with residual yellow plasma. Upper left drop (channel 21) -- elongated, with large cells. Upper right (channel 19) -- more rounded with fine-celled structure. Lower (control 0) -- with pronounced peripheral zone"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3283.HEIC",
+      "exif_datetime": "2026-01-29 17:17:25",
+      "pdf_caption": "After 21 hours",
+      "samples_shown": [
+        "19.2.1",
+        "0.2.1",
+        "21.2.1"
+      ],
+      "visual_description": {
+        "scene": "Macro shot of one of the dried drops in a Petri dish (~20 hours). Detailed view of fibrin crystallization",
+        "sample_count": 1,
+        "view": "top, macro, close-up",
+        "plasma": {
+          "color": "yellow-olive in center, gray at periphery",
+          "transparency": "turbid",
+          "clots": true,
+          "notes": "Phase ~20 hours. Dried drop. Peripheral zone -- wide belt of large elongated fibrin cells (loose fibrin). Cells are elongated, oriented perpendicular to drop edge. Dark rounded inclusions (vacuoles or bubbles) visible in cells. Central zone -- fine-celled network (dense fibrin) with residual yellow plasma. Transition zone between center and edge is clearly defined. Radial cracks from center to edge"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3284.HEIC",
+      "exif_datetime": "2026-01-29 17:17:37",
+      "pdf_caption": "19",
+      "samples_shown": [
+        "19.2.1"
+      ],
+      "visual_description": {
+        "scene": "Close-up of dried drop of sample 19.2.1 (channel 19) after ~20 hours of incubation",
+        "sample_count": 1,
+        "view": "top, macro, detailed",
+        "plasma": {
+          "color": "gray-greenish at periphery, yellow in center",
+          "transparency": "turbid",
+          "clots": true,
+          "notes": "Phase ~20 hours, dried drop, sample channel 19. Pronounced edge zone with fibrin crystallization pattern. Peripheral belt contains: (1) chain of dark rounded vacuoles along inner edge, (2) radial cracks/grooves from center to edge, (3) fine crack network between large radial ones. Central zone -- residual yellow plasma, partially dried, with fine cracks. Transition between zones is sharp. Drop edge is smooth"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3285.HEIC",
+      "exif_datetime": "2026-01-29 17:17:47",
+      "pdf_caption": "21",
+      "samples_shown": [
+        "21.2.1"
+      ],
+      "visual_description": {
+        "scene": "Close-up of dried drop of sample 21.2.1 (channel 21) after ~20 hours of incubation",
+        "sample_count": 1,
+        "view": "top, macro, detailed",
+        "plasma": {
+          "color": "yellow-olive in center, gray-greenish at periphery",
+          "transparency": "turbid",
+          "clots": true,
+          "notes": "Phase ~20 hours, dried drop, sample channel 21. Morphology differs from channel 19: (1) peripheral belt is wider, with large elongated fibrin cells, (2) cells contain dark rounded inclusions/vacuoles positioned along inner edge, (3) central zone -- yellow clot with less pronounced crack network, more amorphous. Radial cracks less pronounced than in channel 19. Central zone surface is smoother. Drop is elongated in shape"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3286.HEIC",
+      "exif_datetime": "2026-01-29 17:28:57",
+      "pdf_caption": "0",
+      "samples_shown": [
+        "0.2.1"
+      ],
+      "visual_description": {
+        "scene": "Control sample 0.2.1 test tube in hand after ~20 hours of incubation. Side view. Daylight",
+        "sample_count": 1,
+        "view": "side, macro, daylight",
+        "plasma": {
+          "color": "pale yellow, nearly colorless on top, yellow clot at bottom",
+          "transparency": "turbid",
+          "clots": true,
+          "notes": "Phase ~20 hours. Pronounced stratification occurred in test tube: transparent pale serum on top, dense yellow fibrin clot on bottom. Clot has separated from walls, transparent liquid visible between clot and walls. Upper clot boundary is uneven with protrusions. Clot volume is approximately 1/3 of total volume"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3287.HEIC",
+      "exif_datetime": "2026-01-29 17:28:44",
+      "pdf_caption": "0.2.1",
+      "samples_shown": [
+        "0.2.1"
+      ],
+      "visual_description": {
+        "scene": "Control sample 0.2.1 test tube in hand, different angle. Clot retraction visible",
+        "sample_count": 1,
+        "view": "side, macro, daylight",
+        "plasma": {
+          "color": "pale yellow on top, saturated yellow clot at bottom",
+          "transparency": "turbid",
+          "clots": true,
+          "notes": "Phase ~20 hours. Clear clot retraction: dense yellow fibrin clot at bottom, surrounded by transparent serum. Clot boundary is sharp, whitish dense membrane along upper edge. Clot is compact, retracted from walls. Petri dish with dried drops visible in background"
+        }
+      }
+    },
+    {
+      "filename": "IMG_3288.HEIC",
+      "exif_datetime": "2026-01-29 17:28:25",
+      "pdf_caption": "19.2.1",
+      "samples_shown": [
+        "19.2.1"
+      ],
+      "visual_description": {
+        "scene": "Sample 19.2.1 (channel 19) test tube in hand after ~20 hours of incubation",
+        "sample_count": 1,
+        "view": "side, macro, daylight",
+        "plasma": {
+          "color": "pale yellow on top, yellow clot with whitish membrane at bottom",
+          "transparency": "turbid",
+          "clots": true,
+          "notes": "Phase ~20 hours. Similar clot retraction pattern: dense yellow clot at bottom of test tube, transparent serum on top. Whitish fibrin membrane on clot surface. Clot is visually similar in size and density to control (0.2.1). Petri dish and other test tubes visible blurred in background"
+        }
+      }
+    }
+  ]
+}
