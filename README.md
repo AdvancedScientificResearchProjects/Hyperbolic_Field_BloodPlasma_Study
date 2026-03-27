@@ -171,13 +171,13 @@ flowchart LR
 | **❓ Unclassified / Неклассифицированные** | 12 photos | No protocol label available / Нет метки протокола |
 
 **📁 Browse All Photos / Просмотреть Все Фото:**
-- [📂 data/patient-01/photos/](data/patient-01/photos/) — Patient 01 (13 photos)
-- [📂 data/patient-02/photos/](data/patient-02/photos/) — Patient 02 (25 photos)
-- [📂 data/patient-03/photos/](data/patient-03/photos/) — Patient 03 (16 photos)
-- [📂 data/patient-04/photos/](data/patient-04/photos/) — Patient 04 (4 photos)
-- [📂 data/patient-05/photos/](data/patient-05/photos/) — Patient 05 (10 photos)
-- [📂 data/patient-06/photos/](data/patient-06/photos/) — Patient 06 (3 photos)
-- [📂 data/patient-07/photos/](data/patient-07/photos/) — Patient 07 (30 photos)
+- [📂 original_research/data/patient-01/photos/](original_research/data/patient-01/photos/) — Patient 01 (13 photos)
+- [📂 original_research/data/patient-02/photos/](original_research/data/patient-02/photos/) — Patient 02 (25 photos)
+- [📂 original_research/data/patient-03/photos/](original_research/data/patient-03/photos/) — Patient 03 (16 photos)
+- [📂 original_research/data/patient-04/photos/](original_research/data/patient-04/photos/) — Patient 04 (4 photos)
+- [📂 original_research/data/patient-05/photos/](original_research/data/patient-05/photos/) — Patient 05 (10 photos)
+- [📂 original_research/data/patient-06/photos/](original_research/data/patient-06/photos/) — Patient 06 (3 photos)
+- [📂 original_research/data/patient-07/photos/](original_research/data/patient-07/photos/) — Patient 07 (30 photos)
 
 ---
 
