@@ -493,10 +493,10 @@ flowchart TD
 | # | Report / Отчёт | Date / Дата | Status / Статус | Link / Ссылка |
 |---|----------------|-------------|-----------------|---------------|
 | 1 | Experiment Protocol / Протокол Эксперимента | 2026-02 | ✅ Completed | [EN](original_research/reports/experiment_protocol_en.md) \| [RU](original_research/reports/experiment_protocol_ru.md) |
-| 2 | Multi-AI Image Analysis / Мультипровайдерный AI-анализ | 2026-02-25 | ✅ Completed | [View](original_research/reports/2026-02-25_ai-analysis/report_en.md) | [🇷🇺 RU](original_research/reports/2026-02-25_ai-analysis/report_ru.md) |
-| 3 | LLM Vision Clot Analysis / LLM Vision Анализ | 2026-02-26 | ✅ Completed | [View](original_research/reports/2026-02-26_llm-vision-analysis/report_en.md) | [🇷🇺 RU](original_research/reports/2026-02-26_llm-vision-analysis/report_ru.md) |
-| 4 | Comparative LLM Analysis / Сравнительный Анализ LLM | 2026-03-12 | ✅ Completed | [View](original_research/reports/2026-03-12_comparative-llm-analysis/report_en.md) | [🇷🇺 RU](original_research/reports/2026-03-12_comparative-llm-analysis/report_ru.md) |
-| 5 | CV/ML Analysis / Computer Vision + ML Анализ | 2026-03-14 | ✅ Completed | [View](original_research/reports/2026-03-14_cv-ml-analysis/report_en.md) | [🇷🇺 RU](original_research/reports/2026-03-14_cv-ml-analysis/report_ru.md) |
+| 2 | Multi-AI Image Analysis / Мультипровайдерный AI-анализ | 2026-02-25 | ✅ Completed | [EN](original_research/reports/2026-02-25_ai-analysis/report_en.md) | [RU](original_research/reports/2026-02-25_ai-analysis/report_ru.md) |
+| 3 | LLM Vision Clot Analysis / LLM Vision Анализ | 2026-02-26 | ✅ Completed | [EN](original_research/reports/2026-02-26_llm-vision-analysis/report_en.md) | [RU](original_research/reports/2026-02-26_llm-vision-analysis/report_ru.md) |
+| 4 | Comparative LLM Analysis / Сравнительный Анализ LLM | 2026-03-12 | ✅ Completed | [EN](original_research/reports/2026-03-12_comparative-llm-analysis/report_en.md) | [RU](original_research/reports/2026-03-12_comparative-llm-analysis/report_ru.md) |
+| 5 | CV/ML Analysis / Computer Vision + ML Анализ | 2026-03-14 | ✅ Completed | [EN](original_research/reports/2026-03-14_cv-ml-analysis/report_en.md) | [RU](original_research/reports/2026-03-14_cv-ml-analysis/report_ru.md) |
 
 ### 🧠 ML MODELS USED / ИСПОЛЬЗОВАННЫЕ МЛ МОДЕЛИ
 
