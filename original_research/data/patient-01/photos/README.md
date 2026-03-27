@@ -6,7 +6,7 @@
 
 ## 🎯 NAVIGATION / НАВИГАЦИЯ
 
-[Dataset Info / Инфо](#dataset-overview--описание-набора-данных) | [Photos / Фото](#photo-inventory--инвентаризация-фотографий) | [Protocol / Протокол](../protocol_part-01.pdf) | [All Patients / Все Пациенты](../../README.md) | [Data Hub / Хаб Данных](../../README.md)
+[Info / Инфо](#dataset-overview--описание-набора-данных) | [Photos / Фото](#photo-inventory--инвентаризация-фотографий) | [Protocol / Протокол](../protocol_part-01.pdf) | [All Patients / Все Пациенты](../../README.md) | [Data Hub / Хаб Данных](../../README.md)
 
 ---
 
@@ -64,32 +64,16 @@ timeline
 
 ## 📈 CHANNEL METRICS ANALYSIS / АНАЛИЗ МЕТРИК ПО КАНАЛАМ
 
-### Clot Detection Rate (LLM Vision) / Частота Обнаружения Сгустков
+### Photo Distribution by Channel / Распределение Фото по Каналам
 
 ```mermaid
 barChart
-    title Patient 01: Clot Detection by Channel / Пациент 01: Обнаружение по Каналам
+    title Patient 01: Photos per Channel / Пациент 01: Фото на Канал
     x-axis "Channel / Канал"
-    y-axis "Detection Rate % / Процент %"
-    bar "⏸️ Control\nControl" : 75
-    bar "⏩ Ch19\nAcceleration" : 80
-    bar "⏪ Ch21\nDeceleration" : 75
-```
-
-### Photo Distribution Timeline / Распределение Фото во Времени
-
-```mermaid
-gantt
-    title Patient 01: Photo Capture Timeline / Пациент 01: Временная Шкала Съёмки
-    dateFormat HH:mm:ss
-    axisFormat %H:%M
-    
-    section Pre-Irradiation
-    IMG_3250-3253 : 19:00:33, 4m
-    section During Irradiation
-    IMG_3254-3258 : 19:11:05, 20m
-    section Post-Irradiation
-    IMG_3259-3262 : 20:38:53, 8m
+    y-axis "Photos / Фото"
+    bar "⏸️ Control\nКонтроль" : 4
+    bar "⏩ Ch19\nКанал 19" : 5
+    bar "⏪ Ch21\nКанал 21" : 4
 ```
 
 ### Sample Comparison Matrix / Матрица Сравнения Образцов
@@ -97,15 +81,15 @@ gantt
 ```mermaid
 flowchart TB
     subgraph Control["⏸️ Control / Контроль"]
-        C1["2 samples / 2 образца<br/>0.1.1, 0.1.2<br/>4 photos / 4 фото<br/>Clot rate: 75%"]
+        C1["2 samples / 2 образца<br/>0.1.1, 0.1.2<br/>4 photos / 4 фото<br/>Clot rate: 75%<br/>Желто-зеленоватая плазма"]
     end
     
     subgraph Ch19["⏩ Channel 19 / Канал 19"]
-        A1["1 sample / 1 образец<br/>19.1.1<br/>5 photos / 5 фото<br/>Clot rate: 80%<br/>Yellow-olive plasma"]
+        A1["1 sample / 1 образец<br/>19.1.1<br/>5 photos / 5 фото<br/>Clot rate: 80%<br/>Желто-оливковая плазма"]
     end
     
     subgraph Ch21["⏪ Channel 21 / Канал 21"]
-        D1["1 sample / 1 образец<br/>21.1.1<br/>4 photos / 4 фото<br/>Clot rate: 75%<br/>Yellow-greenish plasma"]
+        D1["1 sample / 1 образец<br/>21.1.1<br/>4 photos / 4 фото<br/>Clot rate: 75%<br/>Желто-зеленоватая плазма"]
     end
     
     style Control fill:#5fcdff
@@ -174,6 +158,6 @@ flowchart TB
 
 ---
 
-**Last Updated / Последнее Обновление:** 2026-03-26 | **Dataset Version / Версия Набора Данных:** 2.0
+**Last Updated / Последнее Обновление:** 2026-03-26 | **Dataset Version / Версия Набора Данных:** 3.0
 
 **© 2026 Advanced Scientific Research Projects (ASRP) / Перспективные Научно-Исследовательские Разработки**
