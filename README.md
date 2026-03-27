@@ -13,7 +13,7 @@
 | [📸 Photo Gallery](#-photo-gallery--галерея-фотографий) | [📊 All Reports](#-reports--отчёты) | [👨‍🔬 Research Team](#-research-team--команда-исследования) | [📋 Issue #1: Protocol](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/1) |
 | [📁 Data Structure](#-data-structure--структура-данных) | [🧪 Biochemical Analysis](#-reports--отчёты) | [📞 Contacts](#-contact-information--контактная-информация) | [📷 Issue #3: Photography](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/3) |
 | [🗂️ All Folders](#-complete-folder-structure--полная-структура-папок) | [🤖 AI/ML Analysis](#-reports--отчёты) | [🔗 Patent Connection](#-patent-connection--связь-с-патентом) | [🧪 Issue #5: Biochemical](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/5) |
-| [📊 Results](#-key-results--ключевые-результаты) | [📝 Protocols](#-reports--отчёты) | [🌐 ASRP.drift Ecosystem](#-asrpdrift-ecosystem--экосистема-аспрдрифт) | [📑 Issue #8: Publication](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/8) |
+| [📊 Results](#-key-results--ключевые-результаты) | [📝 Protocols](#-reports--отчёты) | [🌐 ASRP Ecosystem](#-asrp-ecosystem--экосистема-аспрдрифт) | [📑 Issue #8: Publication](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/8) |
 
 ---
 
@@ -522,7 +522,7 @@ flowchart TD
 - [📄 Reports / Отчёты](#-reports--отчёты)
 - [👥 Research Team / Команда Исследования](#-research-team--команда-исследования)
 - [🔬 Active Issues / Текущие Задачи](#-active-issues--текущие-задачи)
-- [🌐 ASRP.drift Ecosystem / Экосистема ASRP.drift](#-asrpdrift-ecosystem--экосистема-аспрдрифт)
+- [🌐 ASRP Ecosystem / Экосистема ASRP](#-asrp-ecosystem--экосистема-аспрдрифт)
 - [📞 Contact Information / Контактная Информация](#-contact-information--контактная-информация)
 
 ---
