@@ -22,9 +22,9 @@ pie title Photo Distribution by Sample Type
 
 | Metric | Value |
 |--------|-------|
-| **📸 Photos** | 30 (largest / самый большой) |
+| **📸 Photos** | 30 (largest) |
 | **🩸 Blood** | no data |
-| **🧪 Samples** | 6 (2 control, 2 ch19, 2 ch21) |
+| **🧪 Samples** | 6 |
 | **⏰ Duration** | ~1h 21min |
 
 ---
