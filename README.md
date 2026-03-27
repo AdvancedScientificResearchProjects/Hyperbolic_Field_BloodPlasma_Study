@@ -6,6 +6,35 @@
 
 ---
 
+## 📊 RESEARCH AT A GLANCE / ИССЛЕДОВАНИЕ В ЦИФРАХ
+
+```mermaid
+pie title 101 Photos / 101 Фотография
+    "Patient 07 / Пациент 07" : 30
+    "Patient 02 / Пациент 02" : 25
+    "Patient 03 / Пациент 03" : 16
+    "Patient 01 / Пациент 01" : 13
+    "Patient 05 / Пациент 05" : 10
+    "Patient 04 / Пациент 04" : 4
+    "Patient 06 / Пациент 06" : 3
+```
+
+```mermaid
+barChart
+    title Channel Effects / Эффекты Каналов
+    x-axis "Metric"
+    y-axis "Change %"
+    bar "Ch19 Count\n−37%" : -37
+    bar "Ch19 Area\n−42%" : -42
+    bar "Ch21 Count\n−3%" : -3
+    bar "Ch21 Area\n−35%" : -35
+    bar "Ch19 Texture\n+28%" : 28
+    bar "Ch21 Edge\n+113%" : 113
+```
+
+
+---
+
 ## 📊 QUICK NAVIGATION / БЫСТРАЯ НАВИГАЦИЯ
 
 | 📁 **Data & Photos** / **Данные и Фото** | 📄 **Reports** / **Отчёты** | 👥 **Team** / **Команда** | 🔬 **Issues** / **Задачи** |
