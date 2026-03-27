@@ -83,6 +83,22 @@ flowchart LR
 
 ---
 
+## 📋 OSF PREREGISTRATION / ПРЕДВАРИТЕЛЬНАЯ РЕГИСТРАЦИЯ
+
+**✅ THIS STUDY WAS PREREGISTERED ON OSF BEFORE DATA COLLECTION:**
+
+| Parameter | Value |
+|-----------|-------|
+| **🔗 OSF Project** | [osf.io/8q42f](https://osf.io/8q42f) |
+| **📄 DOI** | [10.17605/OSF.IO/GWA9E](https://doi.org/10.17605/OSF.IO/GWA9E) |
+| **📅 Date** | January 25, 2026 |
+| **📋 Type** | OSF Preregistration |
+| **👥 Contributors** | Banchenko, Ovseannicova, Kapustin, Chirkova, Savelyev, et al. |
+
+👉 **[View Full Preregistration Details](OSF_PREREGISTRATION.md)**
+
+---
+
 ## 📊 KEY RESULTS / КЛЮЧЕВЫЕ РЕЗУЛЬТАТЫ
 
 ### 🎯 HYPOTHESIS VALIDATION / ВАЛИДАЦИЯ ГИПОТЕЗЫ
