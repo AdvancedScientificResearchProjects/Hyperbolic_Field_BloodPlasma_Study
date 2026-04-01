@@ -1,47 +1,45 @@
-# 📸 Patient 03 Photo Dataset
+#  Patient 03 Photo Dataset
 
 **Experiment Date:** 2026-01-29 | **Blood Group:** IV- | **Total Photos:** 16
 
 ---
 
-## 🎯 NAVIGATION
+##  NAVIGATION
 
 [Info](#overview) | [Photos](#photo-inventory) | [Protocol](../protocol_part-01.pdf) | [All Patients](../../README.md) | [Data Hub](../../README.md)
 
 ---
 
-## 📊 OVERVIEW / ОБЗОР
+##  OVERVIEW / ОБЗОР
 
 ```mermaid
 pie title Photo Distribution
-    "⏸️ Control" : 5
-    "⏩ Channel 19" : 5
-    "⏪ Channel 21" : 6
+    " Control" : 5
+    " Channel 19" : 5
+    " Channel 21" : 6
 ```
 
 | Metric | Value |
 |--------|-------|
-| **📸 Photos** | 16 |
-| **🩸 Blood** | IV- (Rh negative) |
-| **🧪 Samples** | 4 |
+| ** Photos** | 16 |
+| ** Blood** | IV- (Rh negative) |
+| ** Samples** | 4 |
 
-**⚠️ Note:** Rapid coagulation observed / Быстрое свёртывание
+** Note:** Rapid coagulation observed / Быстрое свёртывание
 
 ---
 
-## 📈 CHANNEL METRICS
+##  CHANNEL METRICS
 
 ### Photo Distribution
 
-```mermaid
-barChart
-    title Patient 03: Photos per Channel
-    x-axis "Channel"
-    y-axis "Count"
-    bar "⏸️ Control" : 5
-    bar "⏩ Ch19" : 5
-    bar "⏪ Ch21" : 6
-```
+**Patient 03: Photos per Channel**
+
+| Metric | Value |
+|---|---|
+|  Control | 5 |
+|  Ch19 | 5 |
+|  Ch21 | 6 |
 
 ### Timeline
 
@@ -57,15 +55,15 @@ timeline
 
 ---
 
-## 📁 PHOTOS (16)
+##  PHOTOS (16)
 
 | Files | Count | Preview |
 |-------|-------|---------|
-| `IMG_3290-3305` | 16 | [🖼️](jpg/) |
+| `IMG_3290-3305` | 16 | [](jpg/) |
 
 ---
 
-## 🔗 OTHERS
+##  OTHERS
 
 [P01](../../patient-01/) | [P02](../../patient-02/) | [P04](../../patient-04/) | [P05](../../patient-05/) | [P06](../../patient-06/) | [P07](../../patient-07/)
 

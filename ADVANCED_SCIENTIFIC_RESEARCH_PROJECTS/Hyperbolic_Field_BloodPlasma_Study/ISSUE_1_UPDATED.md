@@ -1,14 +1,14 @@
-# 📜 HYPERBOLIC FIELD BLOOD PLASMA COAGULATION STUDY PROTOCOL / ИССЛЕДОВАНИЕ СВЁРТЫВАЕМОСТИ ПЛАЗМЫ КРОВИ ПОД ВОЗДЕЙСТВИЕМ ГИПЕРБОЛИЧЕСКОГО ПОЛЯ
+#  HYPERBOLIC FIELD BLOOD PLASMA COAGULATION STUDY PROTOCOL / ИССЛЕДОВАНИЕ СВЁРТЫВАЕМОСТИ ПЛАЗМЫ КРОВИ ПОД ВОЗДЕЙСТВИЕМ ГИПЕРБОЛИЧЕСКОГО ПОЛЯ
 
 **ASRP RESEARCH MASTER PROTOCOL / МАСТЕР ПРОТОКОЛ ИССЛЕДОВАНИЯ ASRP**
 
 **Protocol Version / Версия Протокола:** 1.0  
 **Date / Дата:** January-February 2026 / Январь-Февраль 2026  
-**Status / Статус:** ✅ Complete / Завершено
+**Status / Статус:**  Complete / Завершено
 
 ---
 
-## 📋 TABLE OF CONTENTS / СОДЕРЖАНИЕ
+##  TABLE OF CONTENTS / СОДЕРЖАНИЕ
 
 | # | Section / Раздел | Link / Ссылка |
 |---|-----------------|---------------|
@@ -81,18 +81,18 @@ The Hyperbolic Field Blood Plasma Coagulation Study is an experimental research 
 
 | Name / Имя | Role / Роль | Responsibilities / Обязанности | Email |
 |------------|-------------|-------------------------------|-------|
-| **👨‍💼 BANCHENKO DENIS YURIEVICH / БАНЧЕНКО ДЕНИС ЮРЬЕВИЧ** | CEO ASRP / Генеральный Директор ASRP; Program Director / Директор Программы; Technology Co-Author / Соавтор Технологии | Hyperbolic field physics / Физика гиперболических полей; Excitation systems / Системы возбуждения; Lensing & focusing / Линзирование и фокусировка; Control software / ПО управления | [denisbanchenko@asrp.tech](mailto:denisbanchenko@asrp.tech) |
-| **👩‍⚕️ OVSEANNIKOVA VALERIA ALEXANDROVNA / ОВСЯННИКОВА ВАЛЕРИЯ АЛЕКСАНДРОВНА** | CBE (Chief Biomedical Engineer) / Главный Биомедицинский Инженер; Director of Biomedical Research / Руководитель Департамента Биомедицинских Исследований; Technology Co-Author / Соавтор Технологии | Lead Researcher / Ведущий исследователь; Experimental design / Дизайн эксперимента; Blood plasma protocol / Протокол работы с плазмой; Electronic control systems / Электронные системы управления | [valeriaovseannicova@asrp.tech](mailto:valeriaovseannicova@asrp.tech) |
-| **👨‍💻 KAPUSTIN MYKHAILO MYKHALOVICH / КАПУСТИН МИХАЙЛО МИХАЙЛОВИЧ** | CTO (Chief Technology Officer) / Технический Директор; Director of IT & AI / Директор Департамента ИТ и ИИ; Technology Co-Author / Соавтор Технологии | IT/AI Infrastructure / ИТ/ИИ инфраструктура; Data systems / Системы данных; Technical platform / Техническая платформа; Control systems / Системы управления | [mykhailokapustin@asrp.tech](mailto:mykhailokapustin@asrp.tech) |
-| **🔬 ZMIENKO KYRYL / ЗМИЕНКО КИРИЛЛ** | Chief AI Engineer / Главный ИИ Инженер | Neural Network Analysis / Анализ нейронными сетями; Multi-LLM coordination / Координация мульти-LLM; Specialized vision models / Специализированные vision модели; Statistical analysis / Статистический анализ | [kyrylzmiienko@asrp.tech](mailto:kyrylzmiienko@asrp.tech) |
-| **⚡ OVSYANNIKOV ALEXANDR / ОВСЯННИКОВ АЛЕКСАНДР** | Chief Electrical Engineer / Главный Инженер по Электронике; Technology Engineer / Инженер Технологии | Electrical & Power Systems / Электрические и силовые системы; Hyperbolic emitter excitation / Системы возбуждения гиперболических излучателей; Power components design / Проектирование силовых компонентов | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) |
+| ** BANCHENKO DENIS YURIEVICH / БАНЧЕНКО ДЕНИС ЮРЬЕВИЧ** | CEO ASRP / Генеральный Директор ASRP; Program Director / Директор Программы; Technology Co-Author / Соавтор Технологии | Hyperbolic field physics / Физика гиперболических полей; Excitation systems / Системы возбуждения; Lensing & focusing / Линзирование и фокусировка; Control software / ПО управления | [denisbanchenko@asrp.tech](mailto:denisbanchenko@asrp.tech) |
+| ** OVSEANNIKOVA VALERIA ALEXANDROVNA / ОВСЯННИКОВА ВАЛЕРИЯ АЛЕКСАНДРОВНА** | CBE (Chief Biomedical Engineer) / Главный Биомедицинский Инженер; Director of Biomedical Research / Руководитель Департамента Биомедицинских Исследований; Technology Co-Author / Соавтор Технологии | Lead Researcher / Ведущий исследователь; Experimental design / Дизайн эксперимента; Blood plasma protocol / Протокол работы с плазмой; Electronic control systems / Электронные системы управления | [valeriaovseannicova@asrp.tech](mailto:valeriaovseannicova@asrp.tech) |
+| ** KAPUSTIN MYKHAILO MYKHALOVICH / КАПУСТИН МИХАЙЛО МИХАЙЛОВИЧ** | CTO (Chief Technology Officer) / Технический Директор; Director of IT & AI / Директор Департамента ИТ и ИИ; Technology Co-Author / Соавтор Технологии | IT/AI Infrastructure / ИТ/ИИ инфраструктура; Data systems / Системы данных; Technical platform / Техническая платформа; Control systems / Системы управления | [mykhailokapustin@asrp.tech](mailto:mykhailokapustin@asrp.tech) |
+| ** ZMIENKO KYRYL / ЗМИЕНКО КИРИЛЛ** | Chief AI Engineer / Главный ИИ Инженер | Neural Network Analysis / Анализ нейронными сетями; Multi-LLM coordination / Координация мульти-LLM; Specialized vision models / Специализированные vision модели; Statistical analysis / Статистический анализ | [kyrylzmiienko@asrp.tech](mailto:kyrylzmiienko@asrp.tech) |
+| ** OVSYANNIKOV ALEXANDR / ОВСЯННИКОВ АЛЕКСАНДР** | Chief Electrical Engineer / Главный Инженер по Электронике; Technology Engineer / Инженер Технологии | Electrical & Power Systems / Электрические и силовые системы; Hyperbolic emitter excitation / Системы возбуждения гиперболических излучателей; Power components design / Проектирование силовых компонентов | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) |
 
 ### 2.2 COLLABORATORS / КОЛЛАБОРАТОРЫ
 
 | Name / Имя | Organization / Организация | Role / Роль | Email |
 |------------|---------------------------|-------------|-------|
-| **📚 SAVELYEV IVAN / САВЕЛЬЕВ ИВАН** | ASRP.science | Science Director / Директор по Науке; Editor-in-Chief / Главный Редактор | [ivansavelev@asrp.science](mailto:ivansavelev@asrp.science) |
-| **🔬 CHIRKIVA OLESYA / ЧИРКИВА ОЛЕСЯ** | SASU Point Rouge France | Independent Researcher / Независимый Исследователь; Blood Plasma Specialist / Специалист по Плазме Крови | [point.rouge.ch@gmail.com](mailto:point.rouge.ch@gmail.com) |
+| ** SAVELYEV IVAN / САВЕЛЬЕВ ИВАН** | ASRP.science | Science Director / Директор по Науке; Editor-in-Chief / Главный Редактор | [ivansavelev@asrp.science](mailto:ivansavelev@asrp.science) |
+| ** CHIRKIVA OLESYA / ЧИРКИВА ОЛЕСЯ** | SASU Point Rouge France | Independent Researcher / Независимый Исследователь; Blood Plasma Specialist / Специалист по Плазме Крови | [point.rouge.ch@gmail.com](mailto:point.rouge.ch@gmail.com) |
 
 ---
 
@@ -148,17 +148,17 @@ The Hyperbolic Field Blood Plasma Coagulation Study is an experimental research 
 
 ```mermaid
 flowchart TD
-    A[🩸 Blood Collection<br/>Забор Крови<br/>4 tubes per donor] --> B[🔄 Centrifugation<br/>Центрифугирование<br/>2000 RPM, 5 min]
-    B --> C[🧪 Plasma Separation<br/>Отбор Плазмы<br/>Redistribute to samples]
-    C --> D[⚡ Irradiation<br/>Облучение<br/>~1h 12min]
-    D --> E[📸 Photography<br/>Фотографирование<br/>Before, during, after]
-    E --> F[🤖 AI/ML Analysis<br/>Анализ ИИ/МЛ<br/>Multi-provider]
-    F --> G[📊 Statistics<br/>Статистика<br/>ANOVA, t-tests]
-    G --> H[📄 Reports<br/>Отчёты<br/>Scientific papers]
+    A[ Blood Collection<br/>Забор Крови<br/>4 tubes per donor] --> B[ Centrifugation<br/>Центрифугирование<br/>2000 RPM, 5 min]
+    B --> C[ Plasma Separation<br/>Отбор Плазмы<br/>Redistribute to samples]
+    C --> D[ Irradiation<br/>Облучение<br/>~1h 12min]
+    D --> E[ Photography<br/>Фотографирование<br/>Before, during, after]
+    E --> F[ AI/ML Analysis<br/>Анализ ИИ/МЛ<br/>Multi-provider]
+    F --> G[ Statistics<br/>Статистика<br/>ANOVA, t-tests]
+    G --> H[ Reports<br/>Отчёты<br/>Scientific papers]
     
-    D --> D1[Channel 19<br/>⏩ Acceleration]
-    D --> D2[Channel 21<br/>⏪ Deceleration]
-    D --> D3[Control<br/>⏸️ No exposure]
+    D --> D1[Channel 19<br/> Acceleration]
+    D --> D2[Channel 21<br/> Deceleration]
+    D --> D3[Control<br/> No exposure]
     
     style A fill:#ff6b6b
     style B fill:#4ecdc4
@@ -200,7 +200,7 @@ flowchart TD
 
 5. **Documentation / Документирование**
    - Photography before, during, and after irradiation / Фотографирование до, во время и после облучения
-   - iPhone 16 Pro Max (HEIC format, converted to JPG) / iPhone 16 Pro Max (формат HEIC, конвертировано в JPG)
+   - Smartphone camera (HEIC format, converted to JPG) / Камера смартфона (формат HEIC, конвертировано в JPG)
    - LED backlight panel for consistent illumination / LED панель подсветки для консистентного освещения
    - Glass test tubes for optical clarity / Стеклянные пробирки для оптической прозрачности
 
@@ -239,7 +239,7 @@ flowchart TD
 
 5. **Документирование**
    - Фотографирование до, во время и после облучения
-   - iPhone 16 Pro Max (формат HEIC, конвертировано в JPG)
+   - Камера смартфона (формат HEIC, конвертировано в JPG)
    - LED панель подсветки для консистентного освещения
    - Стеклянные пробирки для оптической прозрачности
 
@@ -258,7 +258,7 @@ flowchart TD
 |-------------------------|-----------------------------|---------------------|
 | **Centrifuge / Центрифуга** | 2000 RPM, 5 min | Plasma separation / Разделение плазмы |
 | **Hyperbolic Field Emitters / Излучатели Гиперболических Полей** | Channels 19 & 21 / Каналы 19 и 21 | Sample irradiation / Облучение образцов |
-| **iPhone 16 Pro Max** | HEIC → JPG conversion | Photography / Фотографирование |
+| **Smartphone camera / Камера смартфона** | HEIC → JPG conversion | Photography / Фотографирование |
 | **LED Backlight Panel / LED Панель Подсветки** | Constant illumination / Постоянное освещение | Sample imaging / Визуализация образцов |
 | **Glass Test Tubes / Стеклянные Пробирки** | Standard laboratory grade / Стандартная лабораторная категория | Sample containment / Содержание образцов |
 | **Smart Home System / Система Умного Дома** | Temperature monitoring / Мониторинг температуры | Environmental control (17°C) / Контроль среды (17°C) |
@@ -268,7 +268,7 @@ flowchart TD
 #### ENGLISH
 
 **Camera Settings / Настройки Камеры:**
-- **Device / Устройство:** iPhone 16 Pro Max
+- **Device / Устройство:** Smartphone camera / Камера смартфона
 - **Format / Формат:** HEIC (original) → JPG (converted for analysis) / HEIC (оригинал) → JPG (конвертировано для анализа)
 - **Lighting / Освещение:** LED panel from below + artificial lab lighting / LED панель снизу + искусственное лабораторное освещение
 - **Angles / Углы:** Variable (side, top, bottom macro, tilted) / Различные (сбоку, сверху, снизу макро, наклонные)
@@ -283,7 +283,7 @@ flowchart TD
 #### РУССКИЙ
 
 **Настройки Камеры:**
-- **Устройство:** iPhone 16 Pro Max
+- **Устройство:** Smartphone camera / Камера смартфона
 - **Формат:** HEIC (оригинал) → JPG (конвертировано для анализа)
 - **Освещение:** LED панель снизу + искусственное лабораторное освещение
 - **Углы:** Различные (сбоку, сверху, снизу макро, наклонные)
@@ -335,11 +335,11 @@ HyperbolicField-BloodPlasma-Study/
 
 | Data Type / Тип Данных | Volume / Объём | Location / Расположение |
 |------------------------|----------------|-------------------------|
-| **📸 Total Photos / Всего Фотографий** | 101 images / 101 изображение | `data/patient-XX/photos/` |
-| **📄 PDF Protocols / PDF Протоколы** | ~131 MB | `data/patient-01/` |
-| **📓 Jupyter Notebooks / Jupyter Ноутбуки** | 42.9 MB | `notebooks/` |
-| **📊 JSON Analysis Files / JSON Файлы Анализа** | ~1.2 MB | `data/patient-XX/`, `processed/` |
-| **📄 Reports / Отчёты** | Multiple / Несколько | `reports/` |
+| ** Total Photos / Всего Фотографий** | 101 images / 101 изображение | `data/patient-XX/photos/` |
+| ** PDF Protocols / PDF Протоколы** | ~131 MB | `data/patient-01/` |
+| ** Jupyter Notebooks / Jupyter Ноутбуки** | 42.9 MB | `notebooks/` |
+| ** JSON Analysis Files / JSON Файлы Анализа** | ~1.2 MB | `data/patient-XX/`, `processed/` |
+| ** Reports / Отчёты** | Multiple / Несколько | `reports/` |
 
 ### 6.3 PATIENT SUMMARY / СВОДКА ПО ПАЦИЕНТАМ
 
@@ -361,13 +361,13 @@ HyperbolicField-BloodPlasma-Study/
 
 ```mermaid
 flowchart TD
-    A[📸 Raw Images<br/>Сырые Изображения] --> B[🔄 Preprocessing<br/>Предобработка]
-    B --> C[🤖 Stage 1: CV Analysis<br/>SAM-2, SigLIP2, DINOv2]
-    B --> D[🧠 Stage 2: LLM Vision<br/>Claude Opus 4.6]
-    C --> E[📊 Stage 3: Comparative<br/>Cross-validation]
+    A[ Raw Images<br/>Сырые Изображения] --> B[ Preprocessing<br/>Предобработка]
+    B --> C[ Stage 1: CV Analysis<br/>SAM-2, SigLIP2, DINOv2]
+    B --> D[ Stage 2: LLM Vision<br/>Claude Opus 4.6]
+    C --> E[ Stage 3: Comparative<br/>Cross-validation]
     D --> E
-    E --> F[📈 Stage 4: Statistical<br/>ANOVA, t-tests, p-values]
-    F --> G[📄 Final Reports<br/>Научные Отчёты]
+    E --> F[ Stage 4: Statistical<br/>ANOVA, t-tests, p-values]
+    F --> G[ Final Reports<br/>Научные Отчёты]
     
     style A fill:#ff6b6b
     style B fill:#4ecdc4
@@ -442,14 +442,14 @@ flowchart TD
 
 | Provider / Провайдер | Model / Модель | Analysis Type / Тип Анализа | Status / Статус |
 |---------------------|----------------|----------------------------|-----------------|
-| **ASRP Science-LLM** | SAM-2 + SigLIP2 + DINOv2 | Computer Vision + ML / Компьютерное Зрение + МЛ | ✅ Complete / Завершено |
-| **Claude Opus 4.6** | Multimodal / Мультимодальный | LLM Vision / LLM Визион | ✅ Complete / Завершено |
-| **Gemini 2.5 Flash** | Google | LLM Vision / LLM Визион | ✅ Complete (p=0.027) |
-| **GPT-5** | OpenAI | LLM Vision / LLM Визион | ✅ Complete / Завершено |
-| **Perplexity** | Perplexity | LLM Vision / LLM Визион | ✅ Complete / Завершено |
-| **DINOv2 Linear Probe** | Meta | Computer Vision / Компьютерное Зрение | ✅ Complete (p=0.15) |
-| **BiomedCLIP** | Specialized Medical / Специализированный Медицинский | Medical CV / Медицинское CV | ❌ Chance level (36.8%) / Уровень случайности |
-| **MedSigLIP** | Specialized Medical / Специализированный Медицинский | Medical CV / Медицинское CV | ❌ Out-of-distribution / Вне распределения |
+| **ASRP Science-LLM** | SAM-2 + SigLIP2 + DINOv2 | Computer Vision + ML / Компьютерное Зрение + МЛ |  Complete / Завершено |
+| **Claude Opus 4.6** | Multimodal / Мультимодальный | LLM Vision / LLM Визион |  Complete / Завершено |
+| **Gemini 2.5 Flash** | Google | LLM Vision / LLM Визион |  Complete (p=0.027) |
+| **GPT-5** | OpenAI | LLM Vision / LLM Визион |  Complete / Завершено |
+| **Perplexity** | Perplexity | LLM Vision / LLM Визион |  Complete / Завершено |
+| **DINOv2 Linear Probe** | Meta | Computer Vision / Компьютерное Зрение |  Complete (p=0.15) |
+| **BiomedCLIP** | Specialized Medical / Специализированный Медицинский | Medical CV / Медицинское CV |  Chance level (36.8%) / Уровень случайности |
+| **MedSigLIP** | Specialized Medical / Специализированный Медицинский | Medical CV / Медицинское CV |  Out-of-distribution / Вне распределения |
 
 ---
 
@@ -457,14 +457,14 @@ flowchart TD
 
 ### 8.1 KEY METRICS / КЛЮЧЕВЫЕ МЕТРИКИ
 
-| Metric / Метрика | Control / Контроль | Channel 19 / Канал 19<br/>⏩ Acceleration / Ускорение | Channel 21 / Канал 21<br/>⏪ Deceleration / Замедление |
+| Metric / Метрика | Control / Контроль | Channel 19 / Канал 19<br/> Acceleration / Ускорение | Channel 21 / Канал 21<br/> Deceleration / Замедление |
 |-----------------|-------------------|---------------------------------------------------|-----------------------------------------------------|
-| **📊 Photos with Clots / Фото со Сгустками** | 62-65% | 71-78% | 41-54% |
-| **🔢 Clot Count (mean) / Количество Сгустков (среднее)** | 8.92 | 5.64 **(−37%)** 🔻 | 8.69 (−3%) |
-| **📏 Total Clot Area / Общая Площадь Сгустков** | 0.90% | 0.52% **(−42%)** 🔻 | 0.58% (−35%) |
-| **✨ Lysis Cases / Случаи Лизиса** | 0 | **1 (only channel)** 🎯 | 0 |
-| **🔍 GLCM Contrast / Текстурный Контраст** | 4.12 | 5.26 **(+28%)** 🔺 | 4.16 (+1%) |
-| **📐 Edge Density / Плотность Краёв** | 0.0016 | 0.0012 (−25%) 🔻 | 0.0034 **(+113%)** 🔺 |
+| ** Photos with Clots / Фото со Сгустками** | 62-65% | 71-78% | 41-54% |
+| ** Clot Count (mean) / Количество Сгустков (среднее)** | 8.92 | 5.64 **(−37%)**  | 8.69 (−3%) |
+| ** Total Clot Area / Общая Площадь Сгустков** | 0.90% | 0.52% **(−42%)**  | 0.58% (−35%) |
+| ** Lysis Cases / Случаи Лизиса** | 0 | **1 (only channel)**  | 0 |
+| ** GLCM Contrast / Текстурный Контраст** | 4.12 | 5.26 **(+28%)**  | 4.16 (+1%) |
+| ** Edge Density / Плотность Краёв** | 0.0016 | 0.0012 (−25%)  | 0.0034 **(+113%)**  |
 
 ### 8.2 KEY FINDINGS / КЛЮЧЕВЫЕ ВЫВОДЫ
 
@@ -518,13 +518,13 @@ flowchart TD
 
 #### ENGLISH
 
-**Hypothesis Supported / Гипотеза Подтверждена:** ✅
+**Hypothesis Supported / Гипотеза Подтверждена:** 
 
 Automated AI analysis found statistically distinguishable patterns between the three sample groups:
 
 **Автоматизированный ИИ анализ обнаружил статистически различимые паттерны между тремя группами образцов:**
 
-| Parameter / Параметр | Channel 19 / Канал 19<br/>⏩ Acceleration / Ускорение | Channel 21 / Канал 21<br/>⏪ Deceleration / Замедление |
+| Parameter / Параметр | Channel 19 / Канал 19<br/> Acceleration / Ускорение | Channel 21 / Канал 21<br/> Deceleration / Замедление |
 |---------------------|---------------------------------------------------|-----------------------------------------------------|
 | **Clot count / Количество сгустков** | ↓ −37% (broken down / разложились) | ≈ control / контроль (−3%) |
 | **Clot area / Площадь сгустков** | ↓ −42% | ↓ −35% (smaller, early / меньше, раньше) |
@@ -543,7 +543,7 @@ Automated AI analysis found statistically distinguishable patterns between the t
 | **Non-standardized photo angles / Нестандартизированные углы фото** | Adds noise to absolute metrics; relative comparisons valid / Добавляет шум к абсолютным метрикам; относительные сравнения валидны |
 | **No biochemical data / Нет биохимических данных** | Analysis based solely on visual features / Анализ основан только на визуальных признаках |
 | **2 patients on antibiotics / 2 пациента на антибиотиках** | Possible artifacts of accelerated clotting / Возможные артефакты ускоренного свёртывания |
-| **iPhone auto-settings / Авто-настройки iPhone** | Exposure and white balance vary shot-to-shot / Экспозиция и баланс белого варьируются от кадра к кадру |
+| **Auto-settings / Авто-настройки камеры** | Exposure and white balance vary shot-to-shot / Экспозиция и баланс белого варьируются от кадра к кадру |
 | **SigLIP2 zero-shot** | Model not trained on blood plasma; scores are relative / Модель не обучена на плазме крови; оценки относительные |
 
 ### 9.3 RECOMMENDATIONS FOR FUTURE STUDIES / РЕКОМЕНДАЦИИ ДЛЯ БУДУЩИХ ИССЛЕДОВАНИЙ
@@ -564,11 +564,11 @@ Automated AI analysis found statistically distinguishable patterns between the t
 
 | # | Report / Отчёт | Date / Дата | Status / Статус | Direct Link / Прямая Ссылка |
 |---|----------------|-------------|-----------------|----------------------------|
-| 1 | **📋 Experiment Protocol / Протокол Эксперимента** | 2026-02 | ✅ Complete | [🇬🇧 EN](original_research/reports/experiment_protocol_en.md) \| [🇷🇺 RU](original_research/reports/experiment_protocol_ru.md) |
-| 2 | **🤖 Multi-AI Image Analysis / Мультипровайдерный AI-анализ Изображений** | 2026-02-25 | ✅ Complete | [🇬🇧 EN](original_research/reports/2026-02-25_ai-analysis/) \| [🇷🇺 RU](original_research/reports/2026-02-25_ai-analysis/) |
-| 3 | **👁️ LLM Vision Clot Analysis / LLM Vision Анализ Сгустков** | 2026-02-26 | ✅ Complete | [🇬🇧 EN](original_research/reports/2026-02-26_llm-vision-analysis/) \| [🇷🇺 RU](original_research/reports/2026-02-26_llm-vision-analysis/) |
-| 4 | **📊 Comparative LLM Analysis / Сравнительный Анализ LLM** | 2026-03-12 | ✅ Complete | [🇬🇧 EN](original_research/reports/2026-03-12_comparative/) \| [🇷🇺 RU](original_research/reports/2026-03-12_comparative/) |
-| 5 | **👁️ CV/ML Analysis / Computer Vision + ML Анализ** | 2026-03-14 | ✅ Complete | [🇬🇧 EN](original_research/reports/2026-03-14_cv-ml-analysis/) \| [🇷🇺 RU](original_research/reports/2026-03-14_cv-ml-analysis/) |
+| 1 | ** Experiment Protocol / Протокол Эксперимента** | 2026-02 |  Complete | [ EN](original_research/reports/experiment_protocol_en.md) \| [ RU](original_research/reports/experiment_protocol_ru.md) |
+| 2 | ** Multi-AI Image Analysis / Мультипровайдерный AI-анализ Изображений** | 2026-02-25 |  Complete | [ EN](original_research/reports/2026-02-25_ai-analysis/) \| [ RU](original_research/reports/2026-02-25_ai-analysis/) |
+| 3 | ** LLM Vision Clot Analysis / LLM Vision Анализ Сгустков** | 2026-02-26 |  Complete | [ EN](original_research/reports/2026-02-26_llm-vision-analysis/) \| [ RU](original_research/reports/2026-02-26_llm-vision-analysis/) |
+| 4 | ** Comparative LLM Analysis / Сравнительный Анализ LLM** | 2026-03-12 |  Complete | [ EN](original_research/reports/2026-03-12_comparative/) \| [ RU](original_research/reports/2026-03-12_comparative/) |
+| 5 | ** CV/ML Analysis / Computer Vision + ML Анализ** | 2026-03-14 |  Complete | [ EN](original_research/reports/2026-03-14_cv-ml-analysis/) \| [ RU](original_research/reports/2026-03-14_cv-ml-analysis/) |
 
 ### 10.2 ML MODELS USED / ИСПОЛЬЗОВАННЫЕ МЛ МОДЕЛИ
 
@@ -601,6 +601,6 @@ Automated AI analysis found statistically distinguishable patterns between the t
 
 ---
 
-**🔬 ACTIVE RESEARCH / АКТИВНОЕ ИССЛЕДОВАНИЕ**  
-**📊 DATA-DRIVEN SCIENCE / НАУКА НА ОСНОВЕ ДАННЫХ**  
-**🌐 BILINGUAL DOCUMENTATION / ДВУЯЗЫЧНАЯ ДОКУМЕНТАЦИЯ**
+** ACTIVE RESEARCH / АКТИВНОЕ ИССЛЕДОВАНИЕ**  
+** DATA-DRIVEN SCIENCE / НАУКА НА ОСНОВЕ ДАННЫХ**  
+** BILINGUAL DOCUMENTATION / ДВУЯЗЫЧНАЯ ДОКУМЕНТАЦИЯ**

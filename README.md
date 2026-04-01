@@ -1,4 +1,4 @@
-# 🔬 Hyperbolic Field Blood Plasma Study / Исследование Кровяной Плазмы Гиперболических Полей
+# Hyperbolic Field Blood Plasma Study / Исследование Кровяной Плазмы Гиперболических Полей
 
 **Experimental datasets, imaging results and analytical materials from blood plasma exposure to hyperbolic field emitters. Includes raw data, controlled environment documentation and protocol references.**
 
@@ -6,60 +6,40 @@
 
 ---
 
-## 📊 RESEARCH AT A GLANCE / ИССЛЕДОВАНИЕ В ЦИФРАХ
+## RESEARCH AT A GLANCE / ИССЛЕДОВАНИЕ В ЦИФРАХ
 
-```mermaid
-pie title 101 Photos / 101 Фотография
-    "Patient 07 / Пациент 07" : 30
-    "Patient 02 / Пациент 02" : 25
-    "Patient 03 / Пациент 03" : 16
-    "Patient 01 / Пациент 01" : 13
-    "Patient 05 / Пациент 05" : 10
-    "Patient 04 / Пациент 04" : 4
-    "Patient 06 / Пациент 06" : 3
-```
+![Photos by Patient / Фотографии по пациентам](original_research/charts/photos_by_patient.png)
 
-```mermaid
-barChart
-    title Channel Effects / Эффекты Каналов
-    x-axis "Metric"
-    y-axis "Change %"
-    bar "Ch19 Count\n−37%" : -37
-    bar "Ch19 Area\n−42%" : -42
-    bar "Ch21 Count\n−3%" : -3
-    bar "Ch21 Area\n−35%" : -35
-    bar "Ch19 Texture\n+28%" : 28
-    bar "Ch21 Edge\n+113%" : 113
-```
+![Channel Effects / Эффекты каналов](original_research/charts/channel_effects.png)
 
 
 ---
 
-## 📊 QUICK NAVIGATION / БЫСТРАЯ НАВИГАЦИЯ
+## QUICK NAVIGATION / БЫСТРАЯ НАВИГАЦИЯ
 
-| 📁 **Data & Photos** / **Данные и Фото** | 📄 **Reports** / **Отчёты** | 👥 **Team** / **Команда** | 🔬 **Issues** / **Задачи** |
+| **Data & Photos** / **Данные и Фото** | **Reports** / **Отчёты** | **Team** / **Команда** | **Issues** / **Задачи** |
 |------------------------------------------|----------------------------|---------------------------|----------------------------|
-| [📸 Photo Gallery](#-photo-gallery--галерея-фотографий) | [📊 All Reports](#-reports--отчёты) | [👨‍🔬 Research Team](#-research-team--команда-исследования) | [📋 Issue #1: Protocol](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/1) |
-| [📁 Data Structure](#-data-structure--структура-данных) | [🧪 Biochemical Analysis](#-reports--отчёты) | [📞 Contacts](#-contact-information--контактная-информация) | [📷 Issue #3: Photography](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/3) |
-| [🗂️ All Folders](#-complete-folder-structure--полная-структура-папок) | [🤖 AI/ML Analysis](#-reports--отчёты) | [🔗 Patent Connection](#-patent-connection--связь-с-патентом) | [🧪 Issue #5: Biochemical](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/5) |
-| [📊 Results](#-key-results--ключевые-результаты) | [📝 Protocols](#-reports--отчёты) | [🌐 ASRP Ecosystem](#-asrp-ecosystem--экосистема-аспр) | [📑 Issue #8: Publication](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/8) |
+| [Photo Gallery](#photo-gallery-галерея-фотографий) | [All Reports](#all-reports-все-отчёты) | [Research Team](#research-team-команда-исследования) | [Issue #1: Protocol](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/1) |
+| [Data Structure](#data-structure-структура-данных) | [Biochemical Analysis](#all-reports-все-отчёты) | [Contacts](#contact-information-контактная-информация) | [Issue #3: Photography](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/3) |
+| [Data Volume](#data-volume-объём-данных) | [AI/ML Analysis](#aiml-analysis-иимл-анализ) | [Patent Connection](#patent-connection-связь-с-патентом) | [Issue #5: Biochemical](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/5) |
+| [Results](#key-results-ключевые-результаты) | [Protocols](#experimental-protocol-протокол-эксперимента) | [ASRP Ecosystem](#asrp-ecosystem-экосистема-asrpdrift) | [Issue #8: Publication](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/8) |
 
 ---
 
-## 🎯 RESEARCH OVERVIEW / ОБЗОР ИССЛЕДОВАНИЯ
+## RESEARCH OVERVIEW / ОБЗОР ИССЛЕДОВАНИЯ
 
 ```mermaid
 flowchart TB
-    A[🩸 Blood Donors<br/>7 Patients / 7 Пациентов] --> B[🧪 Plasma Separation<br/>Центрифугирование]
-    B --> C[⚡ Hyperbolic Field Exposure<br/>Воздействие Гиперболического Поля]
-    C --> D[📸 Time-Lapse Photography<br/>Покадровая Съёмка]
-    D --> E[🤖 AI/ML Analysis<br/>ИИ/МЛ Анализ]
-    E --> F[📊 Statistical Analysis<br/>Статистический Анализ]
-    F --> G[📄 Scientific Reports<br/>Научные Отчёты]
+    A[Blood Donors<br/>7 Patients / 7 Пациентов] --> B[Plasma Separation<br/>Центрифугирование]
+    B --> C[Hyperbolic Field Exposure<br/>Воздействие Гиперболического Поля]
+    C --> D[Time-Lapse Photography<br/>Покадровая Съёмка]
+    D --> E[AI/ML Analysis<br/>ИИ/МЛ Анализ]
+    E --> F[Statistical Analysis<br/>Статистический Анализ]
+    F --> G[Scientific Reports<br/>Научные Отчёты]
     
-    C --> C1[Channel 19<br/>Канал 19<br/>⏩ Time Acceleration]
-    C --> C2[Channel 21<br/>Канал 21<br/>⏪ Time Deceleration]
-    C --> C3[Control<br/>Контроль<br/>⏸️ No Exposure]
+    C --> C1[Channel 19<br/>Канал 19<br/> Time Acceleration]
+    C --> C2[Channel 21<br/>Канал 21<br/> Time Deceleration]
+    C --> C3[Control<br/>Контроль<br/> No Exposure]
     
     style A fill:#ff6b6b
     style B fill:#4ecdc4
@@ -73,31 +53,32 @@ flowchart TB
     style C3 fill:#5fcdff
 ```
 
-### 📋 KEY METRICS / КЛЮЧЕВЫЕ МЕТРИКИ
+### KEY METRICS / КЛЮЧЕВЫЕ МЕТРИКИ
 
 | Metric / Метрика | Value / Значение | Status / Статус |
 |------------------|------------------|-----------------|
-| **👥 Donors / Доноры** | 7 patients / 7 пациентов | ✅ Complete |
-| **📸 Total Photographs / Всего Фотографий** | 101 images / 101 изображение | ✅ Complete |
-| **🧪 Samples / Образцы** | 40+ single-channel / 40+ одноканальных | ✅ Complete |
-| **⏱️ Irradiation Duration / Длительность Облучения** | ~1h 12min per patient / ~1ч 12мин на пациента | ✅ Complete |
-| **🌡️ Temperature / Температура** | 17°C constant / 17°C постоянно | ✅ Monitored |
-| **🤖 AI Providers / ИИ Провайдеры** | 8 LLM + CV models / 8 моделей LLM + CV | ✅ Complete |
-| **📊 Statistical Significance / Статистическая Значимость** | p = 0.027 (Gemini) | ✅ Significant |
+| **Donors / Доноры** |7 patients / 7 пациентов | Complete |
+| **Total Photographs / Всего Фотографий** |101 images / 101 изображение | Complete |
+| **Samples / Образцы** |40+ single-channel / 40+ одноканальных | Complete |
+| **Irradiation Duration / Длительность Облучения** | ~1h 12min per patient / ~1ч 12мин на пациента | Complete |
+| **Temperature / Температура** |17°C constant / 17°C постоянно | Monitored |
+| **AI Providers / ИИ Провайдеры** |8 LLM + CV models / 8 моделей LLM + CV | Complete |
+| **Statistical Significance / Статистическая Значимость** |p = 0.027 (Gemini) | Significant |
 
 ---
 
-## 🔗 PATENT CONNECTION / СВЯЗЬ С ПАТЕНТОМ
+## PATENT CONNECTION / СВЯЗЬ С ПАТЕНТОМ
 
-**✅ THIS RESEARCH USES TECHNOLOGY PROTECTED BY PATENT:**
-**✅ ЭТО ИССЛЕДОВАНИЕ ИСПОЛЬЗУЕТ ТЕХНОЛОГИЮ ЗАЩИЩЕННУЮ ПАТЕНТОМ:**
+**THIS RESEARCH USES TECHNOLOGY PROTECTED BY PATENT:**
+
+**ЭТО ИССЛЕДОВАНИЕ ИСПОЛЬЗУЕТ ТЕХНОЛОГИЮ ЗАЩИЩЕННУЮ ПАТЕНТОМ:**
 
 ```mermaid
 flowchart LR
-    A[📜 KZ 2025/1095.1<br/>Fractal FBHFS Patent<br/>Фрактальная БСГП<br/>14 March 2025] -->|PROTECTS / ЗАЩИЩАЕТ| B[⚡ Hyperbolic Field Emitters<br/>Излучатели Гиперболических Полей]
-    B -->|USED IN / ИСПОЛЬЗУЮТСЯ В| C[🔬 Blood Plasma Study<br/>Исследование Кровяной Плазмы]
-    B -->|USED IN / ИСПОЛЬЗУЮТСЯ В| D[💎 DAAT Crystal Study<br/>Исследование Кристаллов]
-    B -->|USED IN / ИСПОЛЬЗУЮТСЯ В| E[🌱 Agricultural Study<br/>Сельскохозяйственное<br/>Исследование]
+    A[KZ 2025/1095.1<br/>Fractal FBHFS Patent<br/>Фрактальная БСГП<br/>14 March 2025] -->|PROTECTS / ЗАЩИЩАЕТ| B[Hyperbolic Field Emitters<br/>Излучатели Гиперболических Полей]
+    B -->|USED IN / ИСПОЛЬЗУЮТСЯ В| C[Blood Plasma Study<br/>Исследование Кровяной Плазмы]
+    B -->|USED IN / ИСПОЛЬЗУЮТСЯ В| D[DAAT Crystal Study<br/>Исследование Кристаллов]
+    B -->|USED IN / ИСПОЛЬЗУЮТСЯ В| E[Agricultural Study<br/>Сельскохозяйственное<br/>Исследование]
     
     style A fill:#ffd700,stroke:#000,stroke-width:3px
     style B fill:#ff6b6b
@@ -106,31 +87,31 @@ flowchart LR
     style E fill:#95e1d3
 ```
 
-**Patent Repository / Патентный Репозиторий:** [🔗 Kazpatent_Fractal_Biomedical_System_Patent](https://github.com/denisbanchenko/Kazpatent_Fractal_Biomedical_System_Patent)
+**Patent Repository / Патентный Репозиторий:** [Kazpatent_Fractal_Biomedical_System_Patent](https://github.com/denisbanchenko/Kazpatent_Fractal_Biomedical_System_Patent)
 
-**Patent Issue #6 (Research Connection) / Патент Issue #6 (Связь с Исследованиями):** [🔗 View Connection Diagram](https://github.com/denisbanchenko/Kazpatent_Fractal_Biomedical_System_Patent/issues/6)
+**Patent Issue #6 (Research Connection) / Патент Issue #6 (Связь с Исследованиями):** [View Connection Diagram](https://github.com/denisbanchenko/Kazpatent_Fractal_Biomedical_System_Patent/issues/6)
 
 ---
 
-## 📋 OSF PREREGISTRATION / ПРЕДВАРИТЕЛЬНАЯ РЕГИСТРАЦИЯ
+## OSF PREREGISTRATION / ПРЕДВАРИТЕЛЬНАЯ РЕГИСТРАЦИЯ
 
-**✅ THIS STUDY WAS PREREGISTERED ON OSF BEFORE DATA COLLECTION:**
+**THIS STUDY WAS PREREGISTERED ON OSF BEFORE DATA COLLECTION:**
 
 | Parameter | Value |
 |-----------|-------|
-| **🔗 OSF Project** | [osf.io/8q42f](https://osf.io/8q42f) |
-| **📄 DOI** | [10.17605/OSF.IO/GWA9E](https://doi.org/10.17605/OSF.IO/GWA9E) |
-| **📅 Date** | January 25, 2026 |
-| **📋 Type** | OSF Preregistration |
-| **👥 Contributors** | Banchenko, Ovseannicova, Kapustin, Chirkova, Savelyev, et al. |
+| **OSF Project** | [osf.io/8q42f](https://osf.io/8q42f) |
+| **DOI** | [10.17605/OSF.IO/GWA9E](https://doi.org/10.17605/OSF.IO/GWA9E) |
+| **Date** |January 25, 2026 |
+| **Type** |OSF Preregistration |
+| **Contributors** |Banchenko, Ovseannicova, Kapustin, Chirkova, Savelyev, et al. |
 
-👉 **[View Full Preregistration Details](OSF_PREREGISTRATION.md)**
+ **[View Full Preregistration Details](OSF_PREREGISTRATION.md)**
 
 ---
 
-## 📊 KEY RESULTS / КЛЮЧЕВЫЕ РЕЗУЛЬТАТЫ
+## KEY RESULTS / КЛЮЧЕВЫЕ РЕЗУЛЬТАТЫ
 
-### 🎯 HYPOTHESIS VALIDATION / ВАЛИДАЦИЯ ГИПОТЕЗЫ
+### HYPOTHESIS VALIDATION / ВАЛИДАЦИЯ ГИПОТЕЗЫ
 
 ```mermaid
 timeline
@@ -151,39 +132,41 @@ timeline
         Mar 14 : CV/ML Analysis<br/>CV/МЛ Анализ
 ```
 
-### 📈 COMPARATIVE RESULTS / СРАВНИТЕЛЬНЫЕ РЕЗУЛЬТАТЫ
+### COMPARATIVE RESULTS / СРАВНИТЕЛЬНЫЕ РЕЗУЛЬТАТЫ
 
-| Parameter / Параметр | Control / Контроль | Channel 19 / Канал 19<br/>⏩ Acceleration / Ускорение | Channel 21 / Канал 21<br/>⏪ Deceleration / Замедление |
-|---------------------|-------------------|---------------------------------------------------|-----------------------------------------------------|
-| **📊 Photos with Clots / Фото со Сгустками** | 62-65% | 71-78% | 41-54% |
-| **🔢 Clot Count (mean) / Количество Сгустков (среднее)** | 8.92 | 5.64 **(−37%)** 🔻 | 8.69 (−3%) |
-| **📏 Total Clot Area / Общая Площадь Сгустков** | 0.90% | 0.52% **(−42%)** 🔻 | 0.58% (−35%) |
-| **✨ Lysis Cases / Случаи Лизиса** | 0 | **1 (only channel)** 🎯 | 0 |
-| **🔍 GLCM Contrast / Текстурный Контраст** | 4.12 | 5.26 **(+28%)** 🔺 | 4.16 (+1%) |
-| **📐 Edge Density / Плотность Краёв** | 0.0016 | 0.0012 (−25%) 🔻 | 0.0034 **(+113%)** 🔺 |
+![Comparative Results / Сравнительные результаты](original_research/charts/comparative_results.png)
 
-### 🎯 KEY FINDINGS / КЛЮЧЕВЫЕ ВЫВОДЫ
+| Parameter / Параметр | Control / Контроль | Channel 19 / Канал 19 (Acceleration) | Channel 21 / Канал 21 (Deceleration) |
+|---|---|---|---|
+| **Photos with Clots / Фото со Сгустками** |62-65% | 71-78% | 41-54% |
+| **Clot Count (mean) / Кол-во Сгустков** | | 8.92 | 5.64 **(−37%)**8.69 (−3%) |
+| **Total Clot Area / Площадь Сгустков** | | 0.90% | 0.52% **(−42%)**0.58% (−35%) |
+| **Lysis Cases / Случаи Лизиса** | | 0 | **1 (only channel)**0 |
+| **GLCM Contrast / Текстурный Контраст** | | 4.12 | 5.26 **(+28%)**4.16 (+1%) |
+| **Edge Density / Плотность Краёв** |0.0016 | 0.0012 (−25%) | 0.0034 **(+113%)** |
+
+### KEY FINDINGS / КЛЮЧЕВЫЕ ВЫВОДЫ
 
 | Channel / Канал | Effect / Эффект | Interpretation / Интерпретация |
-|----------------|-----------------|-------------------------------|
-| **⏩ Channel 19 / Канал 19** | 37% fewer clots, 42% smaller area, ONLY channel with lysis | Samples appear "OLDER" — accelerated through coagulation lifecycle / Образцы выглядят "СТАРШЕ" — ускоренный жизненный цикл |
-| **⏪ Channel 21 / Канал 21** | 41% clot rate vs 65% control, dense formation | Samples appear "YOUNGER" — delayed coagulation onset / Образцы выглядят "МОЛОЖЕ" — замедленное начало |
-| **⏸️ Control / Контроль** | Baseline coagulation progression | Normal coagulation without exposure / Нормальное свёртывание без воздействия |
+|---|---|---|
+| **Channel 19 / Канал 19** |37% fewer clots, 42% smaller area, ONLY channel with lysis | Samples appear "OLDER" — accelerated coagulation lifecycle / Образцы выглядят "СТАРШЕ" — ускоренный жизненный цикл |
+| **Channel 21 / Канал 21** |41% clot rate vs 65% control, dense formation | Samples appear "YOUNGER" — delayed coagulation onset / Образцы выглядят "МОЛОЖЕ" — замедленное начало |
+| **Control / Контроль** |Baseline coagulation progression | Normal coagulation without exposure / Нормальное свёртывание без воздействия |
 
 ---
 
-## 📸 PHOTO GALLERY / ГАЛЕРЕЯ ФОТОГРАФИЙ
+## PHOTO GALLERY / ГАЛЕРЕЯ ФОТОГРАФИЙ
 
-### 🎥 TIME-LAPSE PHOTOGRAPHY SYSTEM / СИСТЕМА ПОКАДРОВОЙ СЪЁМКИ
+### TIME-LAPSE PHOTOGRAPHY SYSTEM / СИСТЕМА ПОКАДРОВОЙ СЪЁМКИ
 
 ```mermaid
 flowchart LR
-    A[🩸 Plasma Samples<br/>Образцы Плазмы] --> B[📷 Time-Lapse Camera<br/>Камера 4K]
-    B --> C[📸 Image Capture<br/>1 frame / 5 min]
-    C --> D[💾 Preprocessing<br/>Предобработка]
-    D --> E[🤖 LLM Analysis<br/>Анализ LLM]
-    D --> F[👁️ CV Analysis<br/>Анализ CV]
-    E --> G[📊 Comparison<br/>Сравнение]
+    A[Plasma Samples<br/>Образцы Плазмы] --> B[Time-Lapse Camera<br/>Камера 4K]
+    B --> C[Image Capture<br/>1 frame / 5 min]
+    C --> D[Preprocessing<br/>Предобработка]
+    D --> E[LLM Analysis<br/>Анализ LLM]
+    D --> F[CV Analysis<br/>Анализ CV]
+    E --> G[Comparison<br/>Сравнение]
     F --> G
     
     style A fill:#ff6b6b
@@ -195,134 +178,143 @@ flowchart LR
     style G fill:#45b7d1
 ```
 
-### 📷 IMAGING SPECIFICATIONS / СПЕЦИФИКАЦИИ ВИЗУАЛИЗАЦИИ
+### IMAGING SPECIFICATIONS / СПЕЦИФИКАЦИИ ВИЗУАЛИЗАЦИИ
 
 | Parameter / Параметр | Value / Значение |
 |---------------------|------------------|
-| **📷 Camera / Камера** | iPhone 16 Pro Max (High-resolution time-lapse) |
-| **📐 Resolution / Разрешение** | 4K (3840×2160) |
-| **⏱️ Frame Rate / Частота Кадров** | 1 frame per 5 minutes / 1 кадр в 5 минут |
-| **⏰ Duration / Длительность** | 24-48 hours per sample / 24-48 часа на образец |
-| **🧪 Samples / Образцы** | 19 triplets (5 patients) / 19 триплетов (5 пациентов) |
-| **📸 Total Frames / Всего Кадров** | ~500-1000 per sample / ~500-1000 на образец |
+| **Camera / Камера** |High-resolution smartphone camera |
+| **Resolution / Разрешение** |4032×3024 (12 MP) |
+| **Frame Rate / Частота Кадров** |1 frame per 5 minutes / 1 кадр в 5 минут |
+| **Duration / Длительность** |24-48 hours per sample / 24-48 часа на образец |
+| **Samples / Образцы** |19 triplets (5 patients) / 19 триплетов (5 пациентов) |
+| **Total Frames / Всего Кадров** | ~500-1000 per sample / ~500-1000 на образец |
 
-### 🗂️ PHOTO CATEGORIES / КАТЕГОРИИ ФОТОГРАФИЙ
+### PHOTO CATEGORIES / КАТЕГОРИИ ФОТОГРАФИЙ
 
 | Category / Категория | Count / Количество | Description / Описание |
 |---------------------|-------------------|------------------------|
-| **🏷️ Labeled Single-Channel / Маркированные Одноканальные** | 40 photos | 13 control, 14 ch19, 13 ch21 / 13 контроль, 14 канал19, 13 канал21 |
-| **📋 EXIF-Inferred Single-Channel / Выведенные из EXIF** | 15 photos | Patient-07 / Пациент-07 |
-| **🔀 Multi-Channel Comparison / Многоканальные Сравнения** | 34 photos | 2-6 tubes per photo, 75 tubes total / 2-6 пробирок на фото, 75 пробирок всего |
-| **❓ Unclassified / Неклассифицированные** | 12 photos | No protocol label available / Нет метки протокола |
+| **Labeled Single-Channel / Маркированные Одноканальные** |40 photos | 13 control, 14 ch19, 13 ch21 / 13 контроль, 14 канал19, 13 канал21 |
+| **EXIF-Inferred Single-Channel / Выведенные из EXIF** |15 photos | Patient-07 / Пациент-07 |
+| **Multi-Channel Comparison / Многоканальные Сравнения** |34 photos | 2-6 tubes per photo, 75 tubes total / 2-6 пробирок на фото, 75 пробирок всего |
+| **Unclassified / Неклассифицированные** |12 photos | No protocol label available / Нет метки протокола |
 
-**📁 Browse All Photos / Просмотреть Все Фото:**
-- [📂 original_research/data/patient-01/photos/](original_research/data/patient-01/photos/) — Patient 01 (13 photos)
-- [📂 original_research/data/patient-02/photos/](original_research/data/patient-02/photos/) — Patient 02 (25 photos)
-- [📂 original_research/data/patient-03/photos/](original_research/data/patient-03/photos/) — Patient 03 (16 photos)
-- [📂 original_research/data/patient-04/photos/](original_research/data/patient-04/photos/) — Patient 04 (4 photos)
-- [📂 original_research/data/patient-05/photos/](original_research/data/patient-05/photos/) — Patient 05 (10 photos)
-- [📂 original_research/data/patient-06/photos/](original_research/data/patient-06/photos/) — Patient 06 (3 photos)
-- [📂 original_research/data/patient-07/photos/](original_research/data/patient-07/photos/) — Patient 07 (30 photos)
+**Browse All Photos / Просмотреть Все Фото:**
+- [original_research/data/patient-01/photos/](original_research/data/patient-01/photos/) — Patient 01 (13 photos)
+- [original_research/data/patient-02/photos/](original_research/data/patient-02/photos/) — Patient 02 (25 photos)
+- [original_research/data/patient-03/photos/](original_research/data/patient-03/photos/) — Patient 03 (16 photos)
+- [original_research/data/patient-04/photos/](original_research/data/patient-04/photos/) — Patient 04 (4 photos)
+- [original_research/data/patient-05/photos/](original_research/data/patient-05/photos/) — Patient 05 (10 photos)
+- [original_research/data/patient-06/photos/](original_research/data/patient-06/photos/) — Patient 06 (3 photos)
+- [original_research/data/patient-07/photos/](original_research/data/patient-07/photos/) — Patient 07 (30 photos)
 
 ---
 
-## 📁 DATA STRUCTURE / СТРУКТУРА ДАННЫХ
+## DATA STRUCTURE / СТРУКТУРА ДАННЫХ
 
 ```
 Hyperbolic_Field_BloodPlasma_Study/
 │
-├── 📁 data/                          # Raw experimental data / Сырые экспериментальные данные
-│   ├── 📁 patient-01/                # Patient 01 data / Данные пациента 01
-│   │   ├── 📄 en/README.md           # English documentation
-│   │   ├── 📄 ru/README.md           # Russian documentation
-│   │   ├── 📄 analysis.json          # Analysis results
-│   │   ├── 📄 metadata.json          # Metadata
-│   │   ├── 📄 protocol_part-01.pdf   # Protocol PDF (93 MB)
-│   │   └── 📁 photos/                # Photos / Фотографии
-│   │       ├── 📁 original/          # HEIC format
-│   │       └── 📁 jpg/               # Converted JPG
-│   ├── 📁 patient-02/                # Patient 02 (25 photos, 6 samples)
-│   ├── 📁 patient-03/                # Patient 03 (16 photos)
-│   ├── 📁 patient-04/                # Patient 04 (4 photos)
-│   ├── 📁 patient-05/                # Patient 05 (10 photos)
-│   ├── 📁 patient-06/                # Patient 06 (3 photos)
-│   └── 📁 patient-07/                # Patient 07 (30 photos)
+├── original_research/
+│   ├── data/                              # Raw experimental data
+│   │   ├── patient-01/                    # Patient 01 (13 photos, 2 PDFs)
+│   │   │   ├── en/
+│   │   │   │   ├── README.md              # English documentation
+│   │   │   │   └── analysis.json          # Structured protocol data
+│   │   │   ├── ru/
+│   │   │   │   └── README.md              # Russian documentation
+│   │   │   ├── metadata.json              # EXIF metadata for all photos
+│   │   │   ├── protocol_part-01.pdf       # Protocol PDF (90 MB)
+│   │   │   ├── protocol_part-02.pdf       # Protocol PDF (37 MB)
+│   │   │   └── photos/
+│   │   │       ├── original/              # HEIC originals
+│   │   │       └── jpg/                   # Converted JPG
+│   │   ├── patient-02/ ... patient-07/    # Same structure per patient
+│   │   └── README.md                      # Patient data hub
+│   │
+│   ├── processed/
+│   │   └── en/all_patients.json           # Combined data (all patients)
+│   │
+│   ├── results/                           # LLM and CV analysis results
+│   │   ├── batch_blinded_openai/          # Batch analysis (blinded, OpenAI)
+│   │   ├── comparative_blinded_groq/      # Comparative (blinded, Groq)
+│   │   ├── fullres_comparative_blinded_gemini/  # Full-res (Gemini)
+│   │   ├── fullres_multi_tube_blinded_*/  # Multi-tube analysis
+│   │   └── ...                            # 40+ provider/mode combinations
+│   │
+│   ├── reports/
+│   │   ├── experiment_protocol_en.md
+│   │   ├── experiment_protocol_ru.md
+│   │   ├── 2026-02-25_ai-analysis/        # Multi-AI image analysis
+│   │   ├── 2026-02-26_llm-vision-analysis/  # LLM vision clot analysis
+│   │   ├── 2026-03-12_comparative-llm-analysis/  # Comparative LLM
+│   │   └── 2026-03-14_cv-ml-analysis/     # CV/ML analysis
+│   │
+│   ├── notebooks/
+│   │   └── cv_analysis.ipynb              # Computer Vision analysis (42.9 MB)
+│   │
+│   ├── scripts/
+│   │   ├── multi_llm_analysis.py          # Multi-LLM analysis
+│   │   ├── generate_charts.py             # Chart generation
+│   │   ├── llm_analysis/                  # LLM analysis module
+│   │   │   ├── providers.py, prompts.py, imaging.py, data.py, parsing.py
+│   │   │   ├── run_batch.py, run_comparative.py, run_multi_tube.py
+│   │   │   └── run_single.py
+│   │   └── cv_analysis/                   # CV analysis module
+│   │       ├── segment.py, ml_models.py
+│   │       └── ml_results/                # ML output data
+│   │
+│   ├── en/README.md                       # English documentation hub
+│   └── ru/README.md                       # Russian documentation hub
 │
-├── 📁 processed/                     # Processed data / Обработанные данные
-│   ├── 📄 en/all_patients.json       # Combined EN data
-│   └── 📄 ru/all_patients.json       # Combined RU data
+├── ADVANCED_SCIENTIFIC_RESEARCH_PROJECTS/ # ASRP research hub
+│   └── Hyperbolic_Field_BloodPlasma_Study/
+│       ├── README.md                      # Research program overview
+│       └── ISSUE_*_UPDATED.md             # Detailed issue documentation
 │
-├── 📁 results/                       # Analysis results / Результаты анализа
-│   ├── 📁 imaging/                   # Imaging results / Результаты визуализации
-│   ├── 📁 coagulation/               # Coagulation analysis / Анализ свёртывания
-│   └── 📁 statistical/               # Statistical analysis / Статистический анализ
+├── DENIS_BANCHENKO/                       # Patent documentation
+│   └── PATENTS/
+│       └── UNIFIED_STRUCTURE_STANDARD.md
 │
-├── 📁 reports/                       # Scientific reports / Научные отчёты
-│   ├── 📄 experiment_protocol_en.md  # Experiment protocol EN
-│   ├── 📄 experiment_protocol_ru.md  # Experiment protocol RU
-│   ├── 📁 2026-02-25_ai-analysis/    # AI analysis report
-│   ├── 📁 2026-02-26_llm-vision-analysis/  # LLM vision report
-│   ├── 📁 2026-03-12_comparative/    # Comparative analysis
-│   └── 📁 2026-03-14_cv-ml-analysis/ # CV/ML analysis
-│
-├── 📁 notebooks/                     # Jupyter notebooks / Jupyter ноутбуки
-│   ├── 📄 cv_analysis.ipynb          # Computer Vision analysis (42.9 MB)
-│   ├── 📄 statistical_analysis.ipynb # Statistical analysis
-│   └── 📄 data_visualization.ipynb   # Data visualization
-│
-├── 📁 scripts/                       # Python scripts / Python скрипты
-│   ├── 📄 multi_llm_analysis.py      # Multi-LLM analysis
-│   ├── 📄 generate_charts.py         # Chart generation
-│   ├── 📄 imaging.py                 # Image processing
-│   └── 📄 prompts.py                 # LLM prompts
-│
-├── 📁 en/                            # English documentation / Английская документация
-│   └── 📄 README.md                  # Main EN README
-│
-├── 📁 ru/                            # Russian documentation / Русская документация
-│   └── 📄 README.md                  # Main RU README
-│
-├── 📄 README.md                      # Main README (this file)
-├── 📄 .gitignore                     # Git ignore rules
-└── 📄 LICENSE                        # License / Лицензия
+├── README.md                              # Main README (this file)
+└── OSF_PREREGISTRATION.md                 # OSF preregistration details
 ```
 
-### 📊 DATA VOLUME / ОБЪЁМ ДАННЫХ
+### DATA VOLUME / ОБЪЁМ ДАННЫХ
 
 | Data Type / Тип Данных | Volume / Объём | Location / Расположение |
 |------------------------|----------------|-------------------------|
-| **📸 Total Photos / Всего Фотографий** | 101 images / 101 изображение | `data/patient-XX/photos/` |
-| **📄 PDF Protocols / PDF Протоколы** | ~131 MB | `data/patient-01/` |
-| **📓 Jupyter Notebooks / Jupyter Ноутбуки** | 42.9 MB | `notebooks/` |
-| **📊 JSON Analysis Files / JSON Файлы Анализа** | ~1.2 MB | `data/patient-XX/`, `processed/` |
-| **📄 Reports / Отчёты** | Multiple | `original_research/reports/` |
+| **Total Photos / Всего Фотографий** |101 images / 101 изображение | `original_research/data/patient-XX/photos/` |
+| **PDF Protocols / PDF Протоколы** | ~637 MB (11 files) | `original_research/data/patient-XX/` |
+| **Jupyter Notebooks / Jupyter Ноутбуки** |42.9 MB | `original_research/notebooks/` |
+| **JSON Analysis Files / JSON Файлы Анализа** | ~1.2 MB | `original_research/data/patient-XX/en/`, `original_research/processed/` |
+| **Reports / Отчёты** |4 complete + 1 in progress | `original_research/reports/` |
 
 ---
 
-## 📄 REPORTS / ОТЧЁТЫ
+## REPORTS / ОТЧЁТЫ
 
-### 🔬 ALL REPORTS / ВСЕ ОТЧЁТЫ
+### ALL REPORTS / ВСЕ ОТЧЁТЫ
 
 | # | Report / Отчёт | Date / Дата | Status / Статус | Direct Link / Прямая Ссылка |
 |---|----------------|-------------|-----------------|----------------------------|
-| 1 | **📋 Experiment Protocol / Протокол Эксперимента** | 2026-02 | ✅ Complete | [🇬🇧 EN](original_research/reports/experiment_protocol_en.md) \| [🇷🇺 RU](original_research/reports/experiment_protocol_ru.md) |
-| 2 | **🤖 Multi-AI Image Analysis / Мультипровайдерный AI-анализ Изображений** | 2026-02-25 | ✅ Complete | [🇬🇧 EN](original_research/reports/2026-02-25_ai-analysis/report_en.md) | [🇷🇺 RU](original_research/reports/2026-02-25_ai-analysis/report_ru.md)
-| 3 | **👁️ LLM Vision Clot Analysis / LLM Vision Анализ Сгустков** | 2026-02-26 | ✅ Complete | [🇬🇧 EN](original_research/reports/2026-02-26_llm-vision-analysis/report_en.md) | [🇷🇺 RU](original_research/reports/2026-02-26_llm-vision-analysis/report_ru.md)
-| 4 | **📊 Comparative LLM Analysis / Сравнительный Анализ LLM** | 2026-03-12 | ✅ Complete | [🇬🇧 EN](original_research/reports/2026-03-12_comparative-llm-analysis/report_en.md) | [🇷🇺 RU](original_research/reports/2026-03-12_comparative-llm-analysis/report_ru.md)
-| 5 | **👁️ CV/ML Analysis / Computer Vision + ML Анализ** | 2026-03-14 | ✅ Complete | [🇬🇧 EN](original_research/reports/2026-03-14_cv-ml-analysis/report_en.md) | [🇷🇺 RU](original_research/reports/2026-03-14_cv-ml-analysis/report_ru.md)
-| 6 | **🧪 Biochemical Analysis Integration / Интеграция Биохимического Анализа** | In Progress | 🟡 In Production | [📋 Issue #5](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/5) |
+| 1 | **Experiment Protocol / Протокол Эксперимента** |2026-02 | Complete | [EN](original_research/reports/experiment_protocol_en.md) \| [RU](original_research/reports/experiment_protocol_ru.md) |
+| 2 | **Multi-AI Image Analysis / Мультипровайдерный AI-анализ Изображений** |2026-02-25 | Complete | [EN](original_research/reports/2026-02-25_ai-analysis/report_en.md) \| [RU](original_research/reports/2026-02-25_ai-analysis/report_ru.md) |
+| 3 | **LLM Vision Clot Analysis / LLM Vision Анализ Сгустков** |2026-02-26 | Complete | [EN](original_research/reports/2026-02-26_llm-vision-analysis/report_en.md) \| [RU](original_research/reports/2026-02-26_llm-vision-analysis/report_ru.md) |
+| 4 | **Comparative LLM Analysis / Сравнительный Анализ LLM** |2026-03-12 | Complete | [EN](original_research/reports/2026-03-12_comparative-llm-analysis/report_en.md) \| [RU](original_research/reports/2026-03-12_comparative-llm-analysis/report_ru.md) |
+| 5 | **CV/ML Analysis / Computer Vision + ML Анализ** |2026-03-14 | Complete | [EN](original_research/reports/2026-03-14_cv-ml-analysis/report_en.md) \| [RU](original_research/reports/2026-03-14_cv-ml-analysis/report_ru.md) |
+| 6 | **Biochemical Analysis Integration / Интеграция Биохимического Анализа** |In Progress | In Production | [Issue #5](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/5) |
 
-### 📊 ANALYSIS PIPELINE / КОНВЕЙЕР АНАЛИЗА
+### ANALYSIS PIPELINE / КОНВЕЙЕР АНАЛИЗА
 
 ```mermaid
 flowchart TD
-    A[📸 Raw Images<br/>Сырые Изображения] --> B[🔄 Preprocessing<br/>Предобработка]
-    B --> C[🤖 Stage 1: CV Analysis<br/>SAM-2, SigLIP2, DINOv2]
-    B --> D[🧠 Stage 2: LLM Vision<br/>Claude Opus 4.6]
-    C --> E[📊 Stage 3: Comparative<br/>Cross-validation]
+    A[Raw Images<br/>Сырые Изображения] --> B[Preprocessing<br/>Предобработка]
+    B --> C[Stage 1: CV Analysis<br/>SAM-2, SigLIP2, DINOv2]
+    B --> D[Stage 2: LLM Vision<br/>Claude Opus 4.6]
+    C --> E[Stage 3: Comparative<br/>Cross-validation]
     D --> E
-    E --> F[📈 Stage 4: Statistical<br/>ANOVA, t-tests, p-values]
-    F --> G[📄 Final Reports<br/>Научные Отчёты]
+    E --> F[Stage 4: Statistical<br/>ANOVA, t-tests, p-values]
+    F --> G[Final Reports<br/>Научные Отчёты]
     
     style A fill:#ff6b6b
     style B fill:#4ecdc4
@@ -335,68 +327,69 @@ flowchart TD
 
 ---
 
-## 👥 RESEARCH TEAM / КОМАНДА ИССЛЕДОВАНИЯ
+## RESEARCH TEAM / КОМАНДА ИССЛЕДОВАНИЯ
 
-### 👨‍🔬 LEADERSHIP / РУКОВОДСТВО
+### LEADERSHIP / РУКОВОДСТВО
 
 | # | Name / Имя | Role / Роль | Responsibilities / Обязанности | Email |
 |---|------------|-------------|-------------------------------|-------|
-| **1** | **👩‍⚕️ OVSEANNIKOVA VALERIA ALEXANDROVNA / ОВСЯННИКОВА ВАЛЕРИЯ АЛЕКСАНДРОВНА** | CBE (Chief Biomedical Engineer) / Director of Biomedical Research Department / Руководитель Департамента Биомедицинских Исследований; Technology Co-Author / Соавтор технологии | Lead Researcher / Ведущий исследователь; Experimental design / Дизайн эксперимента; Blood plasma protocol / Протокол работы с плазмой; Electronic control systems / Электронные системы управления | [valeriaovseannicova@asrp.tech](mailto:valeriaovseannicova@asrp.tech) |
-| **2** | **👨‍💼 BANCHENKO DENIS YURIEVICH / БАНЧЕНКО ДЕНИС ЮРЬЕВИЧ** | CEO ASRP / Program Director / Директор Программы; Technology Co-Author / Соавтор технологии | Hyperbolic field physics / Физика гиперболических полей; Excitation systems / Системы возбуждения; Lensing & focusing / Линзирование и фокусировка; Control software / ПО управления | [denisbanchenko@asrp.tech](mailto:denisbanchenko@asrp.tech) |
-| **3** | **👨‍💻 KAPUSTIN MYKHAILO MYKHALOVICH / КАПУСТИН МИХАЙЛО МИХАЙЛОВИЧ** | CTO (Chief Technology Officer) / Director of IT & AI Department / Директор Департамента Информационных Технологий и ИИ; Technology Co-Author / Соавтор технологии | IT/AI Infrastructure / ИТ/ИИ инфраструктура; Data systems / Системы данных; Technical platform / Техническая платформа; Control systems / Системы управления | [mykhailokapustin@asrp.tech](mailto:mykhailokapustin@asrp.tech) |
-| **4** | **🔬 ZMIENKO KYRYL / ЗМИЕНКО КИРИЛЛ** | Chief AI Engineer / Главный ИИ Инженер | Neural Network Analysis / Анализ нейронными сетями; Multi-LLM coordination / Координация мульти-LLM; Specialized vision models / Специализированные vision модели | [kyrylzmiienko@asrp.tech](mailto:kyrylzmiienko@asrp.tech) |
-| **5** | **⚡ OVSYANNIKOV ALEXANDR / ОВСЯННИКОВ АЛЕКСАНДР** | Chief Electrical Engineer / Главный Инженер по Электронике; Technology Engineer / Инженер Технологии | Electrical & Power Systems / Электрические и силовые системы; Hyperbolic emitter excitation / Системы возбуждения гиперболических излучателей; Power components design / Проектирование силовых компонентов | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) |
+| **1** | | **OVSEANNIKOVA VALERIA ALEXANDROVNA / ОВСЯННИКОВА ВАЛЕРИЯ АЛЕКСАНДРОВНА**CBE (Chief Biomedical Engineer) / Director of Biomedical Research Department / Руководитель Департамента Биомедицинских Исследований; Technology Co-Author / Соавтор технологии | Lead Researcher / Ведущий исследователь; Experimental design / Дизайн эксперимента; Blood plasma protocol / Протокол работы с плазмой; Electronic control systems / Электронные системы управления | [valeriaovseannicova@asrp.tech](mailto:valeriaovseannicova@asrp.tech) |
+| **2** | | **BANCHENKO DENIS YURIEVICH / БАНЧЕНКО ДЕНИС ЮРЬЕВИЧ**CEO ASRP / Program Director / Директор Программы; Technology Co-Author / Соавтор технологии | Hyperbolic field physics / Физика гиперболических полей; Excitation systems / Системы возбуждения; Lensing & focusing / Линзирование и фокусировка; Control software / ПО управления | [denisbanchenko@asrp.tech](mailto:denisbanchenko@asrp.tech) |
+| **3** | | **KAPUSTIN MYKHAILO MYKHALOVICH / КАПУСТИН МИХАЙЛО МИХАЙЛОВИЧ**CTO (Chief Technology Officer) / Director of IT & AI Department / Директор Департамента Информационных Технологий и ИИ; Technology Co-Author / Соавтор технологии | IT/AI Infrastructure / ИТ/ИИ инфраструктура; Data systems / Системы данных; Technical platform / Техническая платформа; Control systems / Системы управления | [mykhailokapustin@asrp.tech](mailto:mykhailokapustin@asrp.tech) |
+| **4** | | **ZMIENKO KYRYL / ЗМИЕНКО КИРИЛЛ**Chief AI Engineer / Главный ИИ Инженер | Neural Network Analysis / Анализ нейронными сетями; Multi-LLM coordination / Координация мульти-LLM; Specialized vision models / Специализированные vision модели | [kyrylzmiienko@asrp.tech](mailto:kyrylzmiienko@asrp.tech) |
+| **5** | | **OVSYANNIKOV ALEXANDR / ОВСЯННИКОВ АЛЕКСАНДР**Chief Electrical Engineer / Главный Инженер по Электронике; Technology Engineer / Инженер Технологии | Electrical & Power Systems / Электрические и силовые системы; Hyperbolic emitter excitation / Системы возбуждения гиперболических излучателей; Power components design / Проектирование силовых компонентов | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) |
 
-### 👨‍🔬 COLLABORATORS / КОЛЛАБОРАТОРЫ
+### COLLABORATORS / КОЛЛАБОРАТОРЫ
 
 | Name / Имя | Organization / Организация | Role / Роль | Email |
 |------------|---------------------------|-------------|-------|
-| **📚 SAVELYEV IVAN / САВЕЛЬЕВ ИВАН** | ASRP.science | Science Director / Editor-in-Chief / Директор по Науке и Главный Редактор | [ivansavelev@asrp.science](mailto:ivansavelev@asrp.science) |
-| **🔬 CHIRKIVA OLESYA / ЧИРКИВА ОЛЕСЯ** | SASU Point Rouge France | Independent Researcher / Blood Plasma Specialist / Независимый Исследователь / Специалист по Плазме | [point.rouge.ch@gmail.com](mailto:point.rouge.ch@gmail.com) |
+| **SAVELYEV IVAN / САВЕЛЬЕВ ИВАН** |ASRP.science | Science Director / Editor-in-Chief / Директор по Науке и Главный Редактор | [ivansavelev@asrp.science](mailto:ivansavelev@asrp.science) |
+| **CHIRKIVA OLESYA / ЧИРКИВА ОЛЕСЯ** |SASU Point Rouge France | Independent Researcher / Blood Plasma Specialist / Независимый Исследователь / Специалист по Плазме | [point.rouge.ch@gmail.com](mailto:point.rouge.ch@gmail.com) |
 
 ---
 
-## 🔬 ACTIVE ISSUES & TASKS / ТЕКУЩИЕ ЗАДАЧИ
+## ACTIVE ISSUES & TASKS / ТЕКУЩИЕ ЗАДАЧИ
 
 | Issue # | Title / Название | Status / Статус | Priority / Приоритет | Assignees / Исполнители |
 |---------|------------------|-----------------|---------------------|-------------------------|
-| [#9](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/9) | 🔗 PATENT APPLICATION: FRACTAL BIOMEDICAL (KZ 2025/1095.1) | 🟡 Open | 🔴 Critical | Valeria Ovseannicova, Denis Banchenko, Mykhailo Kapustin |
-| [#8](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/8) | 📑 PEER REVIEW PUBLICATION PREPARATION / ПОДГОТОВКА НАУЧНОЙ СТАТЬИ | 🟡 Open | 🔴 High | Ivan Savelyev |
-| [#7](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/7) | 🙈 BLIND ANALYSIS PROTOCOL / ПРОТОКОЛ ОСЛЕПЛЕНИЯ | 🟡 Open | 🟡 Medium | Kyryl Zmiienko |
-| [#6](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/6) | 📷 TIME-LAPSE PHOTOGRAPHY SYSTEM / СИСТЕМА ПОКАДРОВОЙ СЪЁМКИ | 🟡 Open | 🟡 Medium | Valeria Ovseannicova, Kyryl Zmiienko |
-| [#5](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/5) | 🧪 BIOCHEMICAL ANALYSIS INTEGRATION / ИНТЕГРАЦИЯ БИОХИМИЧЕСКОГО АНАЛИЗА | 🟡 Open | 🟡 Medium | Valeria Ovseannicova |
-| [#4](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/4) | 👥 EXPAND DONOR BASE TO 30 PARTICIPANTS / РАСШИРЕНИЕ БАЗЫ ДОНОРОВ | 🟡 Open | 🟢 Low | Valeria Ovseannicova |
-| [#3](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/3) | 📋 BLOOD PLASMA PROTOCOL / ПРОТОКОЛ КРОВЯНОЙ ПЛАЗМЫ | 🟡 Open | 🟢 Low | Valeria Ovseannicova |
-| [#2](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/2) | 🔬 ASRP HYPERBOLIC FIELD RESEARCH PROGRAM 2026-2027 — MASTER HUB | 🟡 Open | 🟢 Low | Denis Banchenko |
-| [#1](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/1) | 📜 HYPERBOLIC FIELD BLOOD PLASMA COAGULATION STUDY PROTOCOL | 🟡 Open | 🟢 Low | Valeria Ovseannicova |
+| [#9](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/9) | PATENT APPLICATION: FRACTAL BIOMEDICAL (KZ 2025/1095.1) | Open | Critical | Valeria Ovseannicova, Denis Banchenko, Mykhailo Kapustin |
+| [#8](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/8) | PEER REVIEW PUBLICATION PREPARATION / ПОДГОТОВКА НАУЧНОЙ СТАТЬИ | Open | High | Ivan Savelyev |
+| [#7](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/7) | BLIND ANALYSIS PROTOCOL / ПРОТОКОЛ ОСЛЕПЛЕНИЯ | Open | Medium | Kyryl Zmiienko |
+| [#6](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/6) | TIME-LAPSE PHOTOGRAPHY SYSTEM / СИСТЕМА ПОКАДРОВОЙ СЪЁМКИ | Open | Medium | Valeria Ovseannicova, Kyryl Zmiienko |
+| [#5](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/5) | BIOCHEMICAL ANALYSIS INTEGRATION / ИНТЕГРАЦИЯ БИОХИМИЧЕСКОГО АНАЛИЗА | Open | Medium | Valeria Ovseannicova |
+| [#4](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/4) | EXPAND DONOR BASE TO 30 PARTICIPANTS / РАСШИРЕНИЕ БАЗЫ ДОНОРОВ | Open | Low | Valeria Ovseannicova |
+| [#3](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/3) | BLOOD PLASMA PROTOCOL / ПРОТОКОЛ КРОВЯНОЙ ПЛАЗМЫ | Open | Low | Valeria Ovseannicova |
+| [#2](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/2) | ASRP HYPERBOLIC FIELD RESEARCH PROGRAM 2026-2027 — MASTER HUB | Open | Low | Denis Banchenko |
+| [#1](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/1) | HYPERBOLIC FIELD BLOOD PLASMA COAGULATION STUDY PROTOCOL | Open | Low | Valeria Ovseannicova |
 
 ---
 
-## 🌐 ASRP ECOSYSTEM / ЭКОСИСТЕМА ASRP.DRIFT
+## ASRP ECOSYSTEM / ЭКОСИСТЕМА ASRP.DRIFT
 
-### 🔬 RELATED RESEARCH REPOSITORIES / СВЯЗАННЫЕ ИССЛЕДОВАТЕЛЬСКИЕ РЕПОЗИТОРИИ
+### RELATED RESEARCH REPOSITORIES / СВЯЗАННЫЕ ИССЛЕДОВАТЕЛЬСКИЕ РЕПОЗИТОРИИ
 
 **All repositories use hyperbolic field emitters protected by KZ 2025/1095.1 patent:**
+
 **Все репозитории используют излучатели гиперболических полей, защищенные патентом KZ 2025/1095.1:**
 
 | # | Repository / Репозиторий | Direct Link / Прямая Ссылка | Research Focus / Направление Исследования | Status / Статус |
 |---|-------------------------|----------------------------|------------------------------------------|-----------------|
-| 1 | **🔬 Blood Plasma Study** | [🔗 View](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study) | Blood coagulation / Свёртываемость крови | 🔬 Active |
-| 2 | **💎 DAAT Crystal Study** | [🔗 View](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study) | Human-crystal interaction / Взаимодействие человек-кристалл | 🔬 Active |
-| 3 | **🌱 Agricultural Study** | [🔗 View](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study) | Plant & fungi growth / Рост растений и грибов | 🌱 Growing |
-| 4 | **💻 Emitter Programs** | [🔗 View](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Emitter_Programs) | Emitter control software / ПО управления излучателями | 💻 Development |
+| 1 | **Blood Plasma Study** | [View](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study) | Blood coagulation / Свёртываемость крови | Active |
+| 2 | **DAAT Crystal Study** | [View](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study) | Human-crystal interaction / Взаимодействие человек-кристалл | Active |
+| 3 | **Agricultural Study** | [View](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study) | Plant & fungi growth / Рост растений и грибов | Growing |
+| 4 | **Emitter Programs** | [View](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Emitter_Programs) | Emitter control software / ПО управления излучателями | Development |
 
-### 📜 PATENT REPOSITORIES / ПАТЕНТНЫЕ РЕПОЗИТОРИИ
+### PATENT REPOSITORIES / ПАТЕНТНЫЕ РЕПОЗИТОРИИ
 
 | # | Repository / Репозиторий | Direct Link / Прямая Ссылка | Patent / Патент | Status / Статус |
 |---|-------------------------|----------------------------|-----------------|-----------------|
-| 1 | **Fractal FBHFS Patent** | [🔗 View](https://github.com/denisbanchenko/Kazpatent_Fractal_Biomedical_System_Patent) | KZ 2025/1095.1 | ✅ Filed |
+| 1 | **Fractal FBHFS Patent** | [View](https://github.com/denisbanchenko/Kazpatent_Fractal_Biomedical_System_Patent) | KZ 2025/1095.1 | Filed |
 
 ---
 
-## 📞 CONTACT INFORMATION / КОНТАКТНАЯ ИНФОРМАЦИЯ
+## CONTACT INFORMATION / КОНТАКТНАЯ ИНФОРМАЦИЯ
 
-### 🏢 CORPORATE CONTACT / КОРПОРАТИВНЫЙ КОНТАКТ
+### CORPORATE CONTACT / КОРПОРАТИВНЫЙ КОНТАКТ
 
 ```
 ТОО "Перспективные Научно-Исследовательские Разработки"
@@ -404,11 +397,11 @@ flowchart TD
 КЫЗЫЛОРДИНСКАЯ ОБЛАСТЬ, БАЙКОНУР
 Республика Казахстан, 468320
 
-📧 E-mail: info@asrp.tech
-🌐 Website: https://asrp.tech
+ E-mail: info@asrp.tech
+ Website: https://asrp.tech
 ```
 
-### 👥 TEAM CONTACTS / КОНТАКТЫ КОМАНДЫ
+### TEAM CONTACTS / КОНТАКТЫ КОМАНДЫ
 
 | Name / Имя | Email | Role / Роль |
 |------------|-------|-------------|
@@ -420,23 +413,23 @@ flowchart TD
 
 ---
 
-## 📊 RESEARCH METHODOLOGY / МЕТОДОЛОГИЯ ИССЛЕДОВАНИЯ
+## RESEARCH METHODOLOGY / МЕТОДОЛОГИЯ ИССЛЕДОВАНИЯ
 
-### 🧪 EXPERIMENTAL PROTOCOL / ПРОТОКОЛ ЭКСПЕРИМЕНТА
+### EXPERIMENTAL PROTOCOL / ПРОТОКОЛ ЭКСПЕРИМЕНТА
 
 ```mermaid
 flowchart TD
-    A[🩸 Blood Collection<br/>Забор Крови<br/>4 tubes per donor] --> B[🔄 Centrifugation<br/>Центрифугирование<br/>2000 RPM, 5 min]
-    B --> C[🧪 Plasma Separation<br/>Отбор Плазмы<br/>Redistribute to samples]
-    C --> D[⚡ Irradiation<br/>Облучение<br/>~1h 12min]
-    D --> E[📸 Photography<br/>Фотографирование<br/>Before, during, after]
-    E --> F[🤖 AI/ML Analysis<br/>Анализ ИИ/МЛ<br/>Multi-provider]
-    F --> G[📊 Statistics<br/>Статистика<br/>ANOVA, t-tests]
-    G --> H[📄 Reports<br/>Отчёты<br/>Scientific papers]
+    A[Blood Collection<br/>Забор Крови<br/>4 tubes per donor] --> B[Centrifugation<br/>Центрифугирование<br/>2000 RPM, 5 min]
+    B --> C[Plasma Separation<br/>Отбор Плазмы<br/>Redistribute to samples]
+    C --> D[Irradiation<br/>Облучение<br/>~1h 12min]
+    D --> E[Photography<br/>Фотографирование<br/>Before, during, after]
+    E --> F[AI/ML Analysis<br/>Анализ ИИ/МЛ<br/>Multi-provider]
+    F --> G[Statistics<br/>Статистика<br/>ANOVA, t-tests]
+    G --> H[Reports<br/>Отчёты<br/>Scientific papers]
     
-    D --> D1[Channel 19<br/>⏩ Acceleration]
-    D --> D2[Channel 21<br/>⏪ Deceleration]
-    D --> D3[Control<br/>⏸️ No exposure]
+    D --> D1[Channel 19<br/> Acceleration]
+    D --> D2[Channel 21<br/> Deceleration]
+    D --> D3[Control<br/> No exposure]
     
     style A fill:#ff6b6b
     style B fill:#4ecdc4
@@ -448,17 +441,17 @@ flowchart TD
     style H fill:#5fcdff
 ```
 
-### 📋 SAMPLE IDENTIFICATION / ИДЕНТИФИКАЦИЯ ОБРАЗЦОВ
+### SAMPLE IDENTIFICATION / ИДЕНТИФИКАЦИЯ ОБРАЗЦОВ
 
 **Sample ID Format / Формат ID Образца:** `{channel}.{patient}.{number}`
 
 | Component / Компонент | Value / Значение | Description / Описание |
 |----------------------|------------------|------------------------|
-| **Channel / Канал** | 0 | Control / Контроль — no irradiation |
+| **Channel / Канал** |0 | Control / Контроль — no irradiation |
 | | 19 | Channel 19 / Канал 19 — time acceleration |
 | | 21 | Channel 21 / Канал 21 — time deceleration |
-| **Patient / Пациент** | 1–7 | Donor number / Номер донора |
-| **Number / Номер** | 1, 2 | Sequential sample number / Порядковый номер образца |
+| **Patient / Пациент** |1–7 | Donor number / Номер донора |
+| **Number / Номер** |1, 2 | Sequential sample number / Порядковый номер образца |
 
 **Examples / Примеры:**
 - `0.2.1` — Control sample #1, patient 02 / Контрольный образец №1, пациент 02
@@ -467,22 +460,22 @@ flowchart TD
 
 ---
 
-## 🤖 AI/ML ANALYSIS / ИИ/МЛ АНАЛИЗ
+## AI/ML ANALYSIS / ИИ/МЛ АНАЛИЗ
 
-### 🧠 ANALYSIS PROVIDERS / ПРОВАЙДЕРЫ АНАЛИЗА
+### ANALYSIS PROVIDERS / ПРОВАЙДЕРЫ АНАЛИЗА
 
 | Provider / Провайдер | Model / Модель | Analysis Type / Тип Анализа | Status / Статус |
 |---------------------|----------------|----------------------------|-----------------|
-| **ASRP Science-LLM** | SAM-2 + SigLIP2 + DINOv2 | Computer Vision + ML | ✅ Complete |
-| **Claude Opus 4.6** | Multimodal | LLM Vision | ✅ Complete |
-| **Gemini 2.5 Flash** | Google | LLM Vision | ✅ Complete (p=0.027) |
-| **GPT-5** | OpenAI | LLM Vision | ✅ Complete |
-| **Perplexity** | Perplexity | LLM Vision | ✅ Complete |
-| **DINOv2 Linear Probe** | Meta | Computer Vision | ✅ Complete (p=0.15) |
-| **BiomedCLIP** | Specialized Medical | Medical CV | ❌ Chance level (36.8%) |
-| **MedSigLIP** | Specialized Medical | Medical CV | ❌ Out-of-distribution |
+| **ASRP Science-LLM** |SAM-2 + SigLIP2 + DINOv2 | Computer Vision + ML | Complete |
+| **Claude Opus 4.6** |Multimodal | LLM Vision | Complete |
+| **Gemini 2.5 Flash** |Google | LLM Vision | Complete (p=0.027) |
+| **GPT-5** |OpenAI | LLM Vision | Complete |
+| **Perplexity** |Perplexity | LLM Vision | Complete |
+| **DINOv2 Linear Probe** |Meta | Computer Vision | Complete (p=0.15) |
+| **BiomedCLIP** |Specialized Medical | Medical CV | Chance level (36.8%) |
+| **MedSigLIP** |Specialized Medical | Medical CV | Out-of-distribution |
 
-### 🎯 COAGULATION STAGE SCALE / ШКАЛА СТАДИЙ СВЁРТЫВАНИЯ
+### COAGULATION STAGE SCALE / ШКАЛА СТАДИЙ СВЁРТЫВАНИЯ
 
 | Stage / Стадия | Description / Описание |
 |---------------|------------------------|
@@ -494,16 +487,16 @@ flowchart TD
 
 ---
 
-## 📊 STATISTICAL SIGNIFICANCE / СТАТИСТИЧЕСКАЯ ЗНАЧИМОСТЬ
+## STATISTICAL SIGNIFICANCE / СТАТИСТИЧЕСКАЯ ЗНАЧИМОСТЬ
 
-### 🎯 LLM ANALYSIS RESULTS / РЕЗУЛЬТАТЫ АНАЛИЗА LLM
+### LLM ANALYSIS RESULTS / РЕЗУЛЬТАТЫ АНАЛИЗА LLM
 
 | Model / Модель | Accuracy / Точность | P-value / P-значение | Status / Статус |
 |---------------|---------------------|---------------------|-----------------|
-| **Gemini 2.5 Flash** | 57.9% | p = 0.027 | ✅ **Statistically significant** |
-| **DINOv2 Linear Probe** | 47.4% | p = 0.15 | 🟡 Suggestive |
-| **GPT-5 Batch** | 46.7% | - | 🟡 Consistent |
-| **Perplexity Batch** | 53.3% | - | 🟡 Consistent |
+| **Gemini 2.5 Flash** |57.9% | p = 0.027 | **Statistically significant**|
+| **DINOv2 Linear Probe** |47.4% | p = 0.15 | Suggestive |
+| **GPT-5 Batch** |46.7% | - | Consistent |
+| **Perplexity Batch** |53.3% | - | Consistent |
 
 **Conclusion / Вывод:**
 - If no effect existed, all models would show ~33% (chance level)
@@ -515,30 +508,30 @@ flowchart TD
 
 ---
 
-## 📚 REFERENCES / ССЫЛКИ
+## REFERENCES / ССЫЛКИ
 
-### 🔗 INTERNAL REPORTS / ВНУТРЕННИЕ ОТЧЁТЫ
+### INTERNAL REPORTS / ВНУТРЕННИЕ ОТЧЁТЫ
 
 | # | Report / Отчёт | Date / Дата | Status / Статус | Link / Ссылка |
 |---|----------------|-------------|-----------------|---------------|
-| 1 | Experiment Protocol / Протокол Эксперимента | 2026-02 | ✅ Completed | [EN](original_research/reports/experiment_protocol_en.md) \| [RU](original_research/reports/experiment_protocol_ru.md) |
-| 2 | Multi-AI Image Analysis / Мультипровайдерный AI-анализ | 2026-02-25 | ✅ Completed | [EN](original_research/reports/2026-02-25_ai-analysis/report_en.md) | [RU](original_research/reports/2026-02-25_ai-analysis/report_ru.md) |
-| 3 | LLM Vision Clot Analysis / LLM Vision Анализ | 2026-02-26 | ✅ Completed | [EN](original_research/reports/2026-02-26_llm-vision-analysis/report_en.md) | [RU](original_research/reports/2026-02-26_llm-vision-analysis/report_ru.md) |
-| 4 | Comparative LLM Analysis / Сравнительный Анализ LLM | 2026-03-12 | ✅ Completed | [EN](original_research/reports/2026-03-12_comparative-llm-analysis/report_en.md) | [RU](original_research/reports/2026-03-12_comparative-llm-analysis/report_ru.md) |
-| 5 | CV/ML Analysis / Computer Vision + ML Анализ | 2026-03-14 | ✅ Completed | [EN](original_research/reports/2026-03-14_cv-ml-analysis/report_en.md) | [RU](original_research/reports/2026-03-14_cv-ml-analysis/report_ru.md) |
+| 1 | Experiment Protocol / Протокол Эксперимента | 2026-02 | Completed | [EN](original_research/reports/experiment_protocol_en.md) \| [RU](original_research/reports/experiment_protocol_ru.md) |
+| 2 | Multi-AI Image Analysis / Мультипровайдерный AI-анализ | 2026-02-25 | Completed | [EN](original_research/reports/2026-02-25_ai-analysis/report_en.md) \| [RU](original_research/reports/2026-02-25_ai-analysis/report_ru.md) |
+| 3 | LLM Vision Clot Analysis / LLM Vision Анализ | 2026-02-26 | Completed | [EN](original_research/reports/2026-02-26_llm-vision-analysis/report_en.md) \| [RU](original_research/reports/2026-02-26_llm-vision-analysis/report_ru.md) |
+| 4 | Comparative LLM Analysis / Сравнительный Анализ LLM | 2026-03-12 | Completed | [EN](original_research/reports/2026-03-12_comparative-llm-analysis/report_en.md) \| [RU](original_research/reports/2026-03-12_comparative-llm-analysis/report_ru.md) |
+| 5 | CV/ML Analysis / Computer Vision + ML Анализ | 2026-03-14 | Completed | [EN](original_research/reports/2026-03-14_cv-ml-analysis/report_en.md) \| [RU](original_research/reports/2026-03-14_cv-ml-analysis/report_ru.md) |
 
-### 🧠 ML MODELS USED / ИСПОЛЬЗОВАННЫЕ МЛ МОДЕЛИ
+### ML MODELS USED / ИСПОЛЬЗОВАННЫЕ МЛ МОДЕЛИ
 
 | Model / Модель | Developer / Разработчик | Type / Тип | Purpose / Назначение |
 |---------------|------------------------|------------|---------------------|
-| **SAM-2** | Meta | Segmentation | Clot segmentation / Сегментация сгустков |
-| **SigLIP2-base** | Google | Zero-shot classification | Coagulation stage classification / Классификация стадий |
-| **DINOv2-small** | Meta | Image embeddings | Feature extraction / Извлечение признаков |
-| **Claude Opus 4.6** | Anthropic | Multimodal LLM | Direct vision analysis / Прямой визуальный анализ |
+| **SAM-2** |Meta | Segmentation | Clot segmentation / Сегментация сгустков |
+| **SigLIP2-base** |Google | Zero-shot classification | Coagulation stage classification / Классификация стадий |
+| **DINOv2-small** |Meta | Image embeddings | Feature extraction / Извлечение признаков |
+| **Claude Opus 4.6** |Anthropic | Multimodal LLM | Direct vision analysis / Прямой визуальный анализ |
 
 ---
 
-## 📄 LICENSE / ЛИЦЕНЗИЯ
+## LICENSE / ЛИЦЕНЗИЯ
 
 **© 2026 Advanced Scientific Research Projects (ASRP). All Rights Reserved.**
 
@@ -546,32 +539,34 @@ flowchart TD
 
 ---
 
-**Last Updated / Последнее обновление:** 26 March 2026  
-**Standard / Стандарт:** UNIFIED_STRUCTURE_STANDARD.md v4.0  
-**Status / Статус:** 🔬 Active Research / Активное Исследование  
+**Last Updated / Последнее обновление:** 26 March 2026
+**Standard / Стандарт:** UNIFIED_STRUCTURE_STANDARD.md v4.0
+**Status / Статус:** Active Research / Активное Исследование
 **Documentation Language / Язык Документации:** English \| Русский (Full Bilingual / Полный Двуязычный)
 
 ---
 
-## 🎯 NAVIGATION INDEX / ИНДЕКС НАВИГАЦИИ
+## NAVIGATION INDEX / ИНДЕКС НАВИГАЦИИ
 
-### 📁 QUICK LINKS / БЫСТРЫЕ ССЫЛКИ
+### QUICK LINKS / БЫСТРЫЕ ССЫЛКИ
 
-- [🔝 Back to Top / Наверх](#-hyperbolic-field-blood-plasma-study--исследование-кровяной-плазмы-гиперболических-полей)
-- [📊 Quick Navigation / Быстрая Навигация](#-quick-navigation--быстрая-навигация)
-- [🎯 Research Overview / Обзор Исследования](#-research-overview--обзор-исследования)
-- [🔗 Patent Connection / Связь с Патентом](#-patent-connection--связь-с-патентом)
-- [📊 Key Results / Ключевые Результаты](#-key-results--ключевые-результаты)
-- [📸 Photo Gallery / Галерея Фотографий](#-photo-gallery--галерея-фотографий)
-- [📁 Data Structure / Структура Данных](#-data-structure--структура-данных)
-- [📄 Reports / Отчёты](#-reports--отчёты)
-- [👥 Research Team / Команда Исследования](#-research-team--команда-исследования)
-- [🔬 Active Issues / Текущие Задачи](#-active-issues--текущие-задачи)
-- [🌐 ASRP Ecosystem / Экосистема ASRP](#-asrp-ecosystem--экосистема-аспр)
-- [📞 Contact Information / Контактная Информация](#-contact-information--контактная-информация)
+- [Back to Top / Наверх](#hyperbolic-field-blood-plasma-study-исследование-кровяной-плазмы-гиперболических-полей)
+- [Quick Navigation / Быстрая Навигация](#quick-navigation-быстрая-навигация)
+- [Research Overview / Обзор Исследования](#research-overview-обзор-исследования)
+- [Patent Connection / Связь с Патентом](#patent-connection-связь-с-патентом)
+- [Key Results / Ключевые Результаты](#key-results-ключевые-результаты)
+- [Photo Gallery / Галерея Фотографий](#photo-gallery-галерея-фотографий)
+- [Data Structure / Структура Данных](#data-structure-структура-данных)
+- [Reports / Отчёты](#reports-отчёты)
+- [Research Team / Команда Исследования](#research-team-команда-исследования)
+- [Active Issues / Текущие Задачи](#active-issues-текущие-задачи)
+- [ASRP Ecosystem / Экосистема ASRP](#asrp-ecosystem-экосистема-аспр)
+- [Contact Information / Контактная Информация](#contact-information-контактная-информация)
 
 ---
 
-**🔬 ACTIVE RESEARCH / АКТИВНОЕ ИССЛЕДОВАНИЕ**  
-**📊 DATA-DRIVEN SCIENCE / НАУКА НА ОСНОВЕ ДАННЫХ**  
-**🌐 BILINGUAL DOCUMENTATION / ДВУЯЗЫЧНАЯ ДОКУМЕНТАЦИЯ**
+**ACTIVE RESEARCH / АКТИВНОЕ ИССЛЕДОВАНИЕ**
+
+**DATA-DRIVEN SCIENCE / НАУКА НА ОСНОВЕ ДАННЫХ**
+
+**BILINGUAL DOCUMENTATION / ДВУЯЗЫЧНАЯ ДОКУМЕНТАЦИЯ**

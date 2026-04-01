@@ -1,16 +1,16 @@
-# 📸 Patient 04 Photo Dataset
+#  Patient 04 Photo Dataset
 
 **Experiment Date: 2026-01-30 | Blood Group: IV+ | Total Photos: 4**
 
 ---
 
-## 🎯 NAVIGATION
+##  NAVIGATION
 
 [Dataset Info](#dataset-overview) | [Photo List](#photo-inventory) | [Protocol](../protocol_part-01.pdf) | [All Patients](../../README.md)
 
 ---
 
-## 📊 DATASET OVERVIEW
+##  DATASET OVERVIEW
 
 ```mermaid
 pie title Photo Distribution
@@ -22,40 +22,40 @@ pie title Photo Distribution
 
 | Metric | Value |
 |--------|-------|
-| **📸 Total Photos** | 4 images |
-| **🩸 Blood Group** | IV+ |
-| **🧪 Samples** | 4 (2 control, 1 ch19, 1 ch21) |
-| **⏰ Duration** | ~1h 34min |
+| ** Total Photos** | 4 images |
+| ** Blood Group** | IV+ |
+| ** Samples** | 4 (2 control, 1 ch19, 1 ch21) |
+| ** Duration** | ~1h 34min |
 
 ---
 
-## ⏰ TIMELINE
+##  TIMELINE
 
 ```mermaid
 timeline
     title Patient 04 Timeline
     section Centrifugation
-        16:00:40 — 16:06:02 : 🔄 Centrifuge
+        16:00:40 — 16:06:02 :  Centrifuge
     section Irradiation
-        16:13:41 — 17:47:32 : ⚡ Hyperbolic Field
+        16:13:41 — 17:47:32 :  Hyperbolic Field
     section Photography
-        17:36:05 — 17:39:01 : 📸 4 photos
+        17:36:05 — 17:39:01 :  4 photos
 ```
 
 ---
 
-## 🧪 SAMPLES
+##  SAMPLES
 
 | Sample ID | Type |
 |-----------|------|
-| `0.4.1` | ⏸️ Control |
-| `0.4.2` | ⏸️ Control |
-| `19.4.1` | ⏩ Channel 19 |
-| `21.4.1` | ⏪ Channel 21 |
+| `0.4.1` |  Control |
+| `0.4.2` |  Control |
+| `19.4.1` |  Channel 19 |
+| `21.4.1` |  Channel 21 |
 
 ---
 
-## 📁 PHOTO INVENTORY (4 photos)
+##  PHOTO INVENTORY (4 photos)
 
 | # | File | Time | Samples | PDF |
 |---|------|------|---------|-----|
@@ -74,7 +74,7 @@ timeline
 
 ---
 
-## 📄 PROTOCOL
+##  PROTOCOL
 
 | Parameter | Value |
 |-----------|-------|
@@ -84,7 +84,7 @@ timeline
 
 ---
 
-## 🔗 OTHER PATIENTS
+##  OTHER PATIENTS
 
 [P01](../../patient-01/) | [P02](../../patient-02/) | [P03](../../patient-03/) | [P05](../../patient-05/) | [P06](../../patient-06/) | [P07](../../patient-07/)
 

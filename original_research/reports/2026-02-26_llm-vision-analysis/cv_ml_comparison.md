@@ -63,7 +63,7 @@ Generated: 2026-02-25T16:19:13.450701
 Ch21 (deceleration) samples should look 'younger' (early formation, denser clots).
 
 - Control stage: **none**
-- Ch19 stage: **none** (expect: lysis or late)
-- Ch21 stage: **none** (expect: early_fibrin or early)
+- Ch19 stage: **none**(expect: lysis or late)
+- Ch21 stage: **none**(expect: early_fibrin or early)
 - Ch19 clot count vs control: -36.77%
 - Ch21 clot count vs control: -2.58%

@@ -1,13 +1,13 @@
-# 🎯 HYPERBOLIC FIELD BLOODPLASMA STUDY - REPOSITORY ENHANCEMENT COMPLETE GUIDE
-# 🔬 ИССЛЕДОВАНИЕ КРОВЯНОЙ ПЛАЗМЫ ГИПЕРБОЛИЧЕСКИХ ПОЛЕЙ - ПОЛНОЕ РУКОВОДСТВО ПО УЛУЧШЕНИЮ РЕПОЗИТОРИЯ
+#  HYPERBOLIC FIELD BLOODPLASMA STUDY - REPOSITORY ENHANCEMENT COMPLETE GUIDE
+#  ИССЛЕДОВАНИЕ КРОВЯНОЙ ПЛАЗМЫ ГИПЕРБОЛИЧЕСКИХ ПОЛЕЙ - ПОЛНОЕ РУКОВОДСТВО ПО УЛУЧШЕНИЮ РЕПОЗИТОРИЯ
 
 **Date / Дата:** 26 March 2026  
-**Status / Статус:** ✅ Complete Enhancement / Полное Улучшение  
+**Status / Статус:**  Complete Enhancement / Полное Улучшение  
 **Standard / Стандарт:** UNIFIED_STRUCTURE_STANDARD.md v4.0
 
 ---
 
-## 📋 TABLE OF CONTENTS / СОДЕРЖАНИЕ
+##  TABLE OF CONTENTS / СОДЕРЖАНИЕ
 
 1. [Overview / Обзор](#1-overview--обзор)
 2. [What Was Created / Что Было Создано](#2-what-was-created--что-было-создано)
@@ -50,50 +50,50 @@
 
 ## 2. WHAT WAS CREATED / ЧТО БЫЛО СОЗДАНО
 
-### 📄 FILES CREATED / СОЗДАННЫЕ ФАЙЛЫ
+###  FILES CREATED / СОЗДАННЫЕ ФАЙЛЫ
 
 | File / Файл | Purpose / Назначение | Status / Статус |
 |------------|---------------------|-----------------|
-| **README.md** | Main interactive repository homepage / Главная интерактивная страница репозитория | ✅ Enhanced / Улучшено |
-| **ISSUE_1_UPDATED.md** | Full bilingual protocol documentation / Полная двуязычная документация протокола | ✅ Created / Создано |
-| **ISSUE_2_UPDATED.md** | Complete team documentation (all 5 members) / Полная документация команды (все 5 членов) | ✅ Created / Создано |
-| **ISSUE_3_UPDATED.md** | Blood plasma protocol with photo navigation / Протокол плазмы крови с навигацией по фото | ✅ Created / Создано |
-| **ISSUE_5_UPDATED.md** | Biochemical analysis integration / Интеграция биохимического анализа | ✅ Created / Создано |
-| **ISSUE_6_UPDATED.md** | Time-lapse photography system with gallery / Система покадровой съёмки с галереей | ✅ Created / Создано |
-| **ISSUE_8_UPDATED.md** | Peer review publication preparation / Подготовка рецензируемой публикации | ✅ Created / Создано |
-| **REPOSITORY_ENHANCEMENT_COMPLETE.md** | This summary document / Этот суммирующий документ | ✅ Created / Создано |
+| **README.md** | Main interactive repository homepage / Главная интерактивная страница репозитория |  Enhanced / Улучшено |
+| **ISSUE_1_UPDATED.md** | Full bilingual protocol documentation / Полная двуязычная документация протокола |  Created / Создано |
+| **ISSUE_2_UPDATED.md** | Complete team documentation (all 5 members) / Полная документация команды (все 5 членов) |  Created / Создано |
+| **ISSUE_3_UPDATED.md** | Blood plasma protocol with photo navigation / Протокол плазмы крови с навигацией по фото |  Created / Создано |
+| **ISSUE_5_UPDATED.md** | Biochemical analysis integration / Интеграция биохимического анализа |  Created / Создано |
+| **ISSUE_6_UPDATED.md** | Time-lapse photography system with gallery / Система покадровой съёмки с галереей |  Created / Создано |
+| **ISSUE_8_UPDATED.md** | Peer review publication preparation / Подготовка рецензируемой публикации |  Created / Создано |
+| **REPOSITORY_ENHANCEMENT_COMPLETE.md** | This summary document / Этот суммирующий документ |  Created / Создано |
 
 ---
 
 ## 3. MAIN README.MD IMPROVEMENTS / УЛУЧШЕНИЯ ГЛАВНОГО README.MD
 
-### ✅ BEFORE / ДО
+###  BEFORE / ДО
 
 **Problems / Проблемы:**
-- ❌ Simple folder listing / Простой список папок
-- ❌ No visual elements / Нет визуальных элементов
-- ❌ Limited navigation / Ограниченная навигация
-- ❌ Basic structure / Базовая структура
-- ❌ No interactive elements / Нет интерактивных элементов
+-  Simple folder listing / Простой список папок
+-  No visual elements / Нет визуальных элементов
+-  Limited navigation / Ограниченная навигация
+-  Basic structure / Базовая структура
+-  No interactive elements / Нет интерактивных элементов
 
-### ✅ AFTER / ПОСЛЕ
+###  AFTER / ПОСЛЕ
 
 **Improvements / Улучшения:**
-- ✅ **Quick Navigation Table / Таблица Быстрой Навигации** - Links to all sections / Ссылки на все разделы
-- ✅ **Mermaid Flowchart / Блок-схема Mermaid** - Visual research workflow / Визуальный рабочий процесс исследования
-- ✅ **Key Metrics Table / Таблица Ключевых Метрик** - All statistics at a glance / Вся статистика с первого взгляда
-- ✅ **Patent Connection Diagram / Диаграмма Связи с Патентом** - Visual patent-research link / Визуальная связь патент-исследование
-- ✅ **Key Results with Icons / Ключевые Результаты с Иконками** - Easy-to-read findings / Легко читаемые находки
-- ✅ **Photo Gallery Navigation / Навигация по Галерее Фото** - Direct links to all patient photos / Прямые ссылки на все фото пациентов
-- ✅ **Data Structure Tree / Дерево Структуры Данных** - Complete folder hierarchy / Полная иерархия папок
-- ✅ **Reports Table / Таблица Отчётов** - All reports with direct links / Все отчёты с прямыми ссылками
-- ✅ **Complete Team Table / Полная Таблица Команды** - All 5 members with roles / Все 5 членов с ролями
-- ✅ **Active Issues Table / Таблица Активных Задач** - All issues with status / Все задачи со статусом
-- ✅ **ASRP.drift Ecosystem / Экосистема ASRP.drift** - Related repositories / Связанные репозитории
-- ✅ **Contact Information / Контактная Информация** - Full team contacts / Полные контакты команды
-- ✅ **Mermaid Timeline / Временная Шкала Mermaid** - Research timeline / Временная шкала исследования
-- ✅ **AI/ML Analysis Section / Секция Анализа ИИ/МЛ** - All providers and results / Все провайдеры и результаты
-- ✅ **Navigation Index / Индекс Навигации** - Quick links to all sections / Быстрые ссылки на все разделы
+-  **Quick Navigation Table / Таблица Быстрой Навигации** - Links to all sections / Ссылки на все разделы
+-  **Mermaid Flowchart / Блок-схема Mermaid** - Visual research workflow / Визуальный рабочий процесс исследования
+-  **Key Metrics Table / Таблица Ключевых Метрик** - All statistics at a glance / Вся статистика с первого взгляда
+-  **Patent Connection Diagram / Диаграмма Связи с Патентом** - Visual patent-research link / Визуальная связь патент-исследование
+-  **Key Results with Icons / Ключевые Результаты с Иконками** - Easy-to-read findings / Легко читаемые находки
+-  **Photo Gallery Navigation / Навигация по Галерее Фото** - Direct links to all patient photos / Прямые ссылки на все фото пациентов
+-  **Data Structure Tree / Дерево Структуры Данных** - Complete folder hierarchy / Полная иерархия папок
+-  **Reports Table / Таблица Отчётов** - All reports with direct links / Все отчёты с прямыми ссылками
+-  **Complete Team Table / Полная Таблица Команды** - All 5 members with roles / Все 5 членов с ролями
+-  **Active Issues Table / Таблица Активных Задач** - All issues with status / Все задачи со статусом
+-  **ASRP.drift Ecosystem / Экосистема ASRP.drift** - Related repositories / Связанные репозитории
+-  **Contact Information / Контактная Информация** - Full team contacts / Полные контакты команды
+-  **Mermaid Timeline / Временная Шкала Mermaid** - Research timeline / Временная шкала исследования
+-  **AI/ML Analysis Section / Секция Анализа ИИ/МЛ** - All providers and results / Все провайдеры и результаты
+-  **Navigation Index / Индекс Навигации** - Quick links to all sections / Быстрые ссылки на все разделы
 
 ---
 
@@ -101,7 +101,7 @@
 
 ### ISSUE #1: PROTOCOL / ПРОТОКОЛ
 
-**✅ FIXED / ИСПРАВЛЕНО:**
+** FIXED / ИСПРАВЛЕНО:**
 - Every sentence now bilingual (EN/RU) / Каждое предложение теперь двуязычное (EN/RU)
 - Complete experimental protocol / Полный экспериментальный протокол
 - All team members listed / Все члены команды перечислены
@@ -110,7 +110,7 @@
 
 ### ISSUE #2: TEAM / КОМАНДА
 
-**✅ FIXED / ИСПРАВЛЕНО:**
+** FIXED / ИСПРАВЛЕНО:**
 - **ALL 5 team members now fully documented / ВСЕ 5 членов команды теперь полностью задокументированы:**
   1. **Denis Banchenko** - CEO, Physics, Co-Author / Генеральный Директор, Физика, Соавтор
   2. **Valeria Ovseannicova** - CBE, Biomedical, Co-Author / Главный Биомедицинский Инженер, Биомедицина, Соавтор
@@ -124,7 +124,7 @@
 
 ### ISSUE #3: BLOOD PLASMA PROTOCOL / ПРОТОКОЛ КРОВЯНОЙ ПЛАЗМЫ
 
-**✅ FIXED / ИСПРАВЛЕНО:**
+** FIXED / ИСПРАВЛЕНО:**
 - Complete bilingual protocol / Полный двуязычный протокол
 - Photo gallery navigation by patient / Навигация по галерее фото по пациентам
 - Direct links to all 101 photos / Прямые ссылки на все 101 фото
@@ -133,7 +133,7 @@
 
 ### ISSUE #5: BIOCHEMICAL ANALYSIS / БИОХИМИЧЕСКИЙ АНАЛИЗ
 
-**✅ FIXED / ИСПРАВЛЕНО:**
+** FIXED / ИСПРАВЛЕНО:**
 - Every sentence bilingual / Каждое предложение двуязычное
 - Complete biochemical markers table / Полная таблица биохимических маркеров
 - Integration workflow diagram / Диаграмма рабочего процесса интеграции
@@ -142,7 +142,7 @@
 
 ### ISSUE #6: TIME-LAPSE PHOTOGRAPHY / ПОКАДРОВАЯ СЪЁМКА
 
-**✅ FIXED / ИСПРАВЛЕНО:**
+** FIXED / ИСПРАВЛЕНО:**
 - Full bilingual documentation / Полная двуязычная документация
 - Complete imaging specifications / Полные спецификации визуализации
 - **Photo gallery navigation table / Таблица навигации по галерее фото:**
@@ -154,7 +154,7 @@
 
 ### ISSUE #8: PUBLICATION / ПУБЛИКАЦИЯ
 
-**✅ FIXED / ИСПРАВЛЕНО:**
+** FIXED / ИСПРАВЛЕНО:**
 - **EVERY sentence fully bilingual (EN/RU) / КАЖДОЕ предложение полностью двуязычное (EN/RU)**
 - Complete publication timeline (Gantt chart) / Полная временная шкала публикации (диаграмма Ганта)
 - Publication structure table / Таблица структуры публикации
@@ -170,7 +170,7 @@
 
 ## 5. BILINGUAL STANDARDS / ДВУЯЗЫЧНЫЕ СТАНДАРТЫ
 
-### ✅ CRITICAL RULE: ENGLISH FIRST, THEN RUSSIAN / КРИТИЧЕСКОЕ ПРАВИЛО: АНГЛИЙСКИЙ ПЕРВЫЙ, ЗАТЕМ РУССКИЙ
+###  CRITICAL RULE: ENGLISH FIRST, THEN RUSSIAN / КРИТИЧЕСКОЕ ПРАВИЛО: АНГЛИЙСКИЙ ПЕРВЫЙ, ЗАТЕМ РУССКИЙ
 
 **ALL content follows this format / ВСЁ содержимое следует этому формату:**
 
@@ -184,7 +184,7 @@ English text with **Russian translations in parentheses / Русские пер�
 Русский текст с **English translations in parentheses / Английские переводы в скобках**
 ```
 
-### ✅ TABLE HEADERS / ЗАГОЛОВКИ ТАБЛИЦ
+###  TABLE HEADERS / ЗАГОЛОВКИ ТАБЛИЦ
 
 **Format / Формат:** `English / Русский`
 
@@ -198,40 +198,40 @@ English text with **Russian translations in parentheses / Русские пер�
 - `Photos / Фото`
 - `Date / Дата`
 
-### ✅ STATUS VALUES / ЗНАЧЕНИЯ СТАТУСА
+###  STATUS VALUES / ЗНАЧЕНИЯ СТАТУСА
 
 **Format / Формат:** `Emoji English / Русский`
 
 **Examples / Примеры:**
-- `✅ Complete / Завершено`
-- `🟡 In Progress / В Производстве`
-- `🔴 Critical / Критично`
-- `🟢 Low / Низкий`
+- ` Complete / Завершено`
+- ` In Progress / В Производстве`
+- ` Critical / Критично`
+- ` Low / Низкий`
 
 ---
 
 ## 6. INTERACTIVE NAVIGATION / ИНТЕРАКТИВНАЯ НАВИГАЦИЯ
 
-### ✅ DIRECT LINKS FORMAT / ФОРМАТ ПРЯМЫХ ССЫЛОК
+###  DIRECT LINKS FORMAT / ФОРМАТ ПРЯМЫХ ССЫЛОК
 
 **All links use GitHub blob format for direct file access:**
 
 ```markdown
-[📄 View File](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/path/to/file.md)
-[📂 View Folder](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/tree/main/path/to/folder/)
-[🔗 External Link](https://example.com)
+[ View File](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/path/to/file.md)
+[ View Folder](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/tree/main/path/to/folder/)
+[ External Link](https://example.com)
 ```
 
-### ✅ NAVIGATION TABLES / ТАБЛИЦЫ НАВИГАЦИИ
+###  NAVIGATION TABLES / ТАБЛИЦЫ НАВИГАЦИИ
 
 **Quick Navigation Table / Таблица Быстрой Навигации:**
 
-| 📁 Data & Photos | 📄 Reports | 👥 Team | 🔬 Issues |
+|  Data & Photos |  Reports |  Team |  Issues |
 |-----------------|-----------|---------|----------|
 | [Photo Gallery](#-photo-gallery) | [All Reports](#-reports) | [Research Team](#-team) | [Issue #1](link) |
 | [Data Structure](#-data) | [Biochemical](#-reports) | [Contacts](#-contacts) | [Issue #3](link) |
 
-### ✅ PHOTO GALLERY NAVIGATION / НАВИГАЦИЯ ПО ГАЛЕРЕЕ ФОТО
+###  PHOTO GALLERY NAVIGATION / НАВИГАЦИЯ ПО ГАЛЕРЕЕ ФОТО
 
 **Each patient has a dedicated row with:**
 - Patient number / Номер пациента
@@ -244,7 +244,7 @@ English text with **Russian translations in parentheses / Русские пер�
 
 ## 7. VISUAL DIAGRAMS / ВИЗУАЛЬНЫЕ ДИАГРАММЫ
 
-### ✅ MERMAID DIAGRAMS CREATED / СОЗДАННЫЕ ДИАГРАММЫ MERMAID
+###  MERMAID DIAGRAMS CREATED / СОЗДАННЫЕ ДИАГРАММЫ MERMAID
 
 1. **Research Workflow Flowchart / Блок-схема Рабочего Процесса Исследования**
    - Shows complete research pipeline / Показывает полный конвейер исследования
@@ -275,7 +275,7 @@ English text with **Russian translations in parentheses / Русские пер�
 
 ## 8. NEXT STEPS / СЛЕДУЮЩИЕ ШАГИ
 
-### ✅ FOR GITHUB UPLOAD / ДЛЯ ЗАГРУЗКИ В GITHUB
+###  FOR GITHUB UPLOAD / ДЛЯ ЗАГРУЗКИ В GITHUB
 
 1. **Review all created files / Просмотреть все созданные файлы**
    - README.md (main page) / README.md (главная страница)
@@ -326,62 +326,62 @@ English text with **Russian translations in parentheses / Русские пер�
 
 ---
 
-## ✅ COMPLIANCE CHECKLIST / КОНТРОЛЬНЫЙ СПИСОК СООТВЕТСТВИЯ
+##  COMPLIANCE CHECKLIST / КОНТРОЛЬНЫЙ СПИСОК СООТВЕТСТВИЯ
 
 ### BILINGUAL STANDARDS / ДВУЯЗЫЧНЫЕ СТАНДАРТЫ
 
-- [x] ✅ ALL headers bilingual (EN/RU) / ВСЕ заголовки двуязычные (EN/RU)
-- [x] ✅ EVERY sentence has both languages / КАЖДОЕ предложение имеет оба языка
-- [x] ✅ English first, then Russian / Английский первый, затем русский
-- [x] ✅ ALL table headers bilingual / ВСЕ заголовки таблиц двуязычные
-- [x] ✅ ALL status values bilingual / ВСЕ значения статуса двуязычные
+- [x]  ALL headers bilingual (EN/RU) / ВСЕ заголовки двуязычные (EN/RU)
+- [x]  EVERY sentence has both languages / КАЖДОЕ предложение имеет оба языка
+- [x]  English first, then Russian / Английский первый, затем русский
+- [x]  ALL table headers bilingual / ВСЕ заголовки таблиц двуязычные
+- [x]  ALL status values bilingual / ВСЕ значения статуса двуязычные
 
 ### INTERACTIVE NAVIGATION / ИНТЕРАКТИВНАЯ НАВИГАЦИЯ
 
-- [x] ✅ Quick navigation table / Таблица быстрой навигации
-- [x] ✅ Direct links to all photos / Прямые ссылки на все фото
-- [x] ✅ Direct links to all reports / Прямые ссылки на все отчёты
-- [x] ✅ Direct links to all data / Прямые ссылки на все данные
-- [x] ✅ Photo gallery by patient / Галерея фото по пациентам
+- [x]  Quick navigation table / Таблица быстрой навигации
+- [x]  Direct links to all photos / Прямые ссылки на все фото
+- [x]  Direct links to all reports / Прямые ссылки на все отчёты
+- [x]  Direct links to all data / Прямые ссылки на все данные
+- [x]  Photo gallery by patient / Галерея фото по пациентам
 
 ### VISUAL ELEMENTS / ВИЗУАЛЬНЫЕ ЭЛЕМЕНТЫ
 
-- [x] ✅ Mermaid flowcharts / Блок-схемы Mermaid
-- [x] ✅ Mermaid timelines / Временные шкалы Mermaid
-- [x] ✅ Mermaid Gantt charts / Диаграммы Ганта Mermaid
-- [x] ✅ Icons and emojis / Иконки и эмодзи
-- [x] ✅ Color-coded tables / Цветовые таблицы
+- [x]  Mermaid flowcharts / Блок-схемы Mermaid
+- [x]  Mermaid timelines / Временные шкалы Mermaid
+- [x]  Mermaid Gantt charts / Диаграммы Ганта Mermaid
+- [x]  Icons and emojis / Иконки и эмодзи
+- [x]  Color-coded tables / Цветовые таблицы
 
 ### TEAM DOCUMENTATION / ДОКУМЕНТАЦИЯ КОМАНДЫ
 
-- [x] ✅ All 5 members documented / Все 5 членов задокументированы
-- [x] ✅ Full responsibilities / Полные обязанности
-- [x] ✅ Email contacts / Email контакты
-- [x] ✅ Project assignments / Назначения по проектам
+- [x]  All 5 members documented / Все 5 членов задокументированы
+- [x]  Full responsibilities / Полные обязанности
+- [x]  Email contacts / Email контакты
+- [x]  Project assignments / Назначения по проектам
 
 ### ISSUE FIXES / ИСПРАВЛЕНИЯ ЗАДАЧ
 
-- [x] ✅ Issue #1: Full bilingual protocol / Полный двуязычный протокол
-- [x] ✅ Issue #2: All 5 team members / Все 5 членов команды
-- [x] ✅ Issue #3: Photo navigation / Навигация по фото
-- [x] ✅ Issue #5: Biochemical integration / Интеграция биохимии
-- [x] ✅ Issue #6: Time-lapse gallery / Галерея покадровой съёмки
-- [x] ✅ Issue #8: Every sentence bilingual / Каждое предложение двуязычное
+- [x]  Issue #1: Full bilingual protocol / Полный двуязычный протокол
+- [x]  Issue #2: All 5 team members / Все 5 членов команды
+- [x]  Issue #3: Photo navigation / Навигация по фото
+- [x]  Issue #5: Biochemical integration / Интеграция биохимии
+- [x]  Issue #6: Time-lapse gallery / Галерея покадровой съёмки
+- [x]  Issue #8: Every sentence bilingual / Каждое предложение двуязычное
 
 ---
 
-## 🎉 CONCLUSION / ЗАКЛЮЧЕНИЕ
+##  CONCLUSION / ЗАКЛЮЧЕНИЕ
 
 ### ENGLISH
 
 **The Hyperbolic_Field_BloodPlasma_Study repository has been completely transformed from a simple folder structure into a professional, interactive, bilingual research hub that meets all ASRP standards.**
 
 **All documentation is now:**
-- ✅ Fully bilingual (English/Russian) in every sentence
-- ✅ Interactive with direct navigation to all resources
-- ✅ Visual with Mermaid diagrams and professional formatting
-- ✅ Complete with all 5 team members documented
-- ✅ Compliant with UNIFIED_STRUCTURE_STANDARD.md v4.0
+-  Fully bilingual (English/Russian) in every sentence
+-  Interactive with direct navigation to all resources
+-  Visual with Mermaid diagrams and professional formatting
+-  Complete with all 5 team members documented
+-  Compliant with UNIFIED_STRUCTURE_STANDARD.md v4.0
 
 **The repository is now ready for:**
 - GitHub upload and public viewing
@@ -394,11 +394,11 @@ English text with **Russian translations in parentheses / Русские пер�
 **Репозиторий Hyperbolic_Field_BloodPlasma_Study был полностью трансформирован из простой структуры папок в профессиональный, интерактивный, двуязычный исследовательский хаб, соответствующий всем стандартам ASRP.**
 
 **Вся документация теперь:**
-- ✅ Полностью двуязычная (английский/русский) в каждом предложении
-- ✅ Интерактивная с прямой навигацией ко всем ресурсам
-- ✅ Визуальная с диаграммами Mermaid и профессиональным форматированием
-- ✅ Полная со всеми 5 членами команды задокументирована
-- ✅ Соответствует UNIFIED_STRUCTURE_STANDARD.md v4.0
+-  Полностью двуязычная (английский/русский) в каждом предложении
+-  Интерактивная с прямой навигацией ко всем ресурсам
+-  Визуальная с диаграммами Mermaid и профессиональным форматированием
+-  Полная со всеми 5 членами команды задокументирована
+-  Соответствует UNIFIED_STRUCTURE_STANDARD.md v4.0
 
 **Репозиторий теперь готов для:**
 - Загрузки в GitHub и публичного просмотра
@@ -409,13 +409,13 @@ English text with **Russian translations in parentheses / Русские пер�
 ---
 
 **Last Updated / Последнее обновление:** 26 March 2026  
-**Status / Статус:** ✅ Complete Enhancement / Полное Улучшение  
+**Status / Статус:**  Complete Enhancement / Полное Улучшение  
 **Standard / Стандарт:** UNIFIED_STRUCTURE_STANDARD.md v4.0  
 **Documentation Language / Язык Документации:** English \| Русский (Full Bilingual / Полный Двуязычный)
 
 ---
 
-**🔬 ACTIVE RESEARCH / АКТИВНОЕ ИССЛЕДОВАНИЕ**  
-**📊 DATA-DRIVEN SCIENCE / НАУКА НА ОСНОВЕ ДАННЫХ**  
-**🌐 BILINGUAL DOCUMENTATION / ДВУЯЗЫЧНАЯ ДОКУМЕНТАЦИЯ**  
-**✨ REPOSITORY ENHANCED / РЕПОЗИТОРИЙ УЛУЧШЕН**
+** ACTIVE RESEARCH / АКТИВНОЕ ИССЛЕДОВАНИЕ**  
+** DATA-DRIVEN SCIENCE / НАУКА НА ОСНОВЕ ДАННЫХ**  
+** BILINGUAL DOCUMENTATION / ДВУЯЗЫЧНАЯ ДОКУМЕНТАЦИЯ**  
+** REPOSITORY ENHANCED / РЕПОЗИТОРИЙ УЛУЧШЕН**

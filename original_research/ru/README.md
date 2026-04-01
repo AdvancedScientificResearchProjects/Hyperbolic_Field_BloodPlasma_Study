@@ -1,53 +1,53 @@
-# 🔬 Исследование Кровяной Плазмы Гиперболических Полей
+#  Исследование Кровяной Плазмы Гиперболических Полей
 
 **Экспериментальные наборы данных, результаты визуализации и аналитические материалы воздействия излучателей гиперболических полей на кровяную плазму.**
 
 ---
 
-## 📊 ИССЛЕДОВАНИЕ В ЦИФРАХ
+##  ИССЛЕДОВАНИЕ В ЦИФРАХ
 
-- **👥 Доноры:** 7 пациентов
-- **📸 Всего Фотографий:** 101 изображение
-- **🧪 Образцы:** 40+ одноканальных
-- **⏱️ Длительность Облучения:** ~1ч 12мин на пациента
-- **🌡️ Температура:** 17°C постоянно
+- ** Доноры:** 7 пациентов
+- ** Всего Фотографий:** 101 изображение
+- ** Образцы:** 40+ одноканальных
+- ** Длительность Облучения:** ~1ч 12мин на пациента
+- ** Температура:** 17°C постоянно
 
 ---
 
-## 📋 БЫСТРАЯ НАВИГАЦИЯ
+##  БЫСТРАЯ НАВИГАЦИЯ
 
-| 📁 Данные | 📄 Отчёты | 👥 Команда |
+|  Данные |  Отчёты |  Команда |
 |-----------|----------|------------|
 | [Структура Данных](#-структура-данных) | [Протокол Эксперимента](reports/experiment_protocol_ru.md) | [Контакты](#-контактная-информация) |
 | [Галерея Фотографий](#-галерея-фотографий) | [AI Анализ](reports/2026-02-25_ai-analysis/report_ru.md) | [Экосистема ASRP](#-экосистема-аспр) |
 
 ---
 
-## 📁 СТРУКТУРА ДАННЫХ
+##  СТРУКТУРА ДАННЫХ
 
 ```
 original_research/
-├── 📁 data/                          # Сырые экспериментальные данные
-│   ├── 📁 patient-01/                # Данные пациента 01 (13 фото)
-│   ├── 📁 patient-02/                # Данные пациента 02 (25 фото)
-│   ├── 📁 patient-03/                # Данные пациента 03 (16 фото)
-│   ├── 📁 patient-04/                # Данные пациента 04 (4 фото)
-│   ├── 📁 patient-05/                # Данные пациента 05 (10 фото)
-│   ├── 📁 patient-06/                # Данные пациента 06 (3 фото)
-│   └── 📁 patient-07/                # Данные пациента 07 (30 фото)
+├──  data/                          # Сырые экспериментальные данные
+│   ├──  patient-01/                # Данные пациента 01 (13 фото)
+│   ├──  patient-02/                # Данные пациента 02 (25 фото)
+│   ├──  patient-03/                # Данные пациента 03 (16 фото)
+│   ├──  patient-04/                # Данные пациента 04 (4 фото)
+│   ├──  patient-05/                # Данные пациента 05 (10 фото)
+│   ├──  patient-06/                # Данные пациента 06 (3 фото)
+│   └──  patient-07/                # Данные пациента 07 (30 фото)
 │
-├── 📁 reports/                       # Научные отчёты
-│   ├── 📄 experiment_protocol_ru.md  # Протокол эксперимента
-│   └── 📁 2026-02-25_ai-analysis/    # AI анализ
+├──  reports/                       # Научные отчёты
+│   ├──  experiment_protocol_ru.md  # Протокол эксперимента
+│   └──  2026-02-25_ai-analysis/    # AI анализ
 │
-├── 📁 notebooks/                     # Jupyter ноутбуки
-├── 📁 scripts/                       # Python скрипты
-└── 📁 results/                       # Результаты анализа
+├──  notebooks/                     # Jupyter ноутбуки
+├──  scripts/                       # Python скрипты
+└──  results/                       # Результаты анализа
 ```
 
 ---
 
-## 📊 КЛЮЧЕВЫЕ РЕЗУЛЬТАТЫ
+##  КЛЮЧЕВЫЕ РЕЗУЛЬТАТЫ
 
 | Параметр | Контроль | Канал 19 | Канал 21 |
 |----------|----------|----------|----------|
@@ -57,33 +57,33 @@ original_research/
 
 ---
 
-## 📸 ГАЛЕРЕЯ ФОТОГРАФИЙ
+##  ГАЛЕРЕЯ ФОТОГРАФИЙ
 
 **Просмотреть фотографии по пациентам:**
 
-- [📂 patient-01/photos/](data/patient-01/photos/) — 13 фото
-- [📂 patient-02/photos/](data/patient-02/photos/) — 25 фото
-- [📂 patient-03/photos/](data/patient-03/photos/) — 16 фото
-- [📂 patient-04/photos/](data/patient-04/photos/) — 4 фото
-- [📂 patient-05/photos/](data/patient-05/photos/) — 10 фото
-- [📂 patient-06/photos/](data/patient-06/photos/) — 3 фото
-- [📂 patient-07/photos/](data/patient-07/photos/) — 30 фото
+- [ patient-01/photos/](data/patient-01/photos/) — 13 фото
+- [ patient-02/photos/](data/patient-02/photos/) — 25 фото
+- [ patient-03/photos/](data/patient-03/photos/) — 16 фото
+- [ patient-04/photos/](data/patient-04/photos/) — 4 фото
+- [ patient-05/photos/](data/patient-05/photos/) — 10 фото
+- [ patient-06/photos/](data/patient-06/photos/) — 3 фото
+- [ patient-07/photos/](data/patient-07/photos/) — 30 фото
 
 ---
 
-## 📄 ОТЧЁТЫ
+##  ОТЧЁТЫ
 
 | # | Отчёт | Дата | Статус |
 |---|-------|------|--------|
-| 1 | [Протокол Эксперимента](reports/experiment_protocol_ru.md) | 2026-02 | ✅ Завершено |
-| 2 | [AI Анализ Изображений](reports/2026-02-25_ai-analysis/report_ru.md) | 2026-02-25 | ✅ Завершено |
-| 3 | [LLM Vision Анализ](reports/2026-02-26_llm-vision-analysis/report_ru.md) | 2026-02-26 | ✅ Завершено |
-| 4 | [Сравнительный Анализ](reports/2026-03-12_comparative-llm-analysis/report_ru.md) | 2026-03-12 | ✅ Завершено |
-| 5 | [CV/ML Анализ](reports/2026-03-14_cv-ml-analysis/report_ru.md) | 2026-03-14 | ✅ Завершено |
+| 1 | [Протокол Эксперимента](reports/experiment_protocol_ru.md) | 2026-02 |  Завершено |
+| 2 | [AI Анализ Изображений](reports/2026-02-25_ai-analysis/report_ru.md) | 2026-02-25 |  Завершено |
+| 3 | [LLM Vision Анализ](reports/2026-02-26_llm-vision-analysis/report_ru.md) | 2026-02-26 |  Завершено |
+| 4 | [Сравнительный Анализ](reports/2026-03-12_comparative-llm-analysis/report_ru.md) | 2026-03-12 |  Завершено |
+| 5 | [CV/ML Анализ](reports/2026-03-14_cv-ml-analysis/report_ru.md) | 2026-03-14 |  Завершено |
 
 ---
 
-## 👥 КОМАНДА ИССЛЕДОВАНИЯ
+##  КОМАНДА ИССЛЕДОВАНИЯ
 
 | Имя | Роль | Email |
 |-----|-----|-------|
@@ -94,23 +94,23 @@ original_research/
 
 ---
 
-## 🔗 СВЯЗЬ С ПАТЕНТОМ
+##  СВЯЗЬ С ПАТЕНТОМ
 
 **Патент KZ 2025/1095.1 - Фрактальная БСГП**
 
-[🔗 Репозиторий Патента](https://github.com/denisbanchenko/Kazpatent_Fractal_Biomedical_System_Patent)
+[ Репозиторий Патента](https://github.com/denisbanchenko/Kazpatent_Fractal_Biomedical_System_Patent)
 
 ---
 
-## 🌐 ЭКОСИСТЕМА ASRP
+##  ЭКОСИСТЕМА ASRP
 
-- [🔬 Исследование Кровяной Плазмы](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study)
-- [💎 Исследование Кристаллов DAAT](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study)
-- [🌱 Сельскохозяйственное Исследование](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study)
+- [ Исследование Кровяной Плазмы](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study)
+- [ Исследование Кристаллов DAAT](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study)
+- [ Сельскохозяйственное Исследование](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study)
 
 ---
 
-## 📞 КОНТАКТНАЯ ИНФОРМАЦИЯ
+##  КОНТАКТНАЯ ИНФОРМАЦИЯ
 
 ```
 ТОО "Перспективные Научно-Исследовательские Разработки"
@@ -118,18 +118,18 @@ original_research/
 КЫЗЫЛОРДИНСКАЯ ОБЛАСТЬ, БАЙКОНУР
 Республика Казахстан, 468320
 
-📧 E-mail: info@asrp.tech
-🌐 Website: https://asrp.tech
+ E-mail: info@asrp.tech
+ Website: https://asrp.tech
 ```
 
 ---
 
-## 📄 ЛИЦЕНЗИЯ
+##  ЛИЦЕНЗИЯ
 
 **© 2026 Перспективные Научно-Исследовательские Разработки (ПНИР). Все Права Защищены.**
 
 ---
 
 **Последнее обновление:** 29 марта 2026  
-**Статус:** 🔬 Активное Исследование  
+**Статус:**  Активное Исследование  
 **Язык:** Русский

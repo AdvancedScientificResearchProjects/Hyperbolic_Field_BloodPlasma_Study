@@ -29,7 +29,7 @@ Irradiation duration: ~1 hour 12 minutes. Sample volume: 1–1.5 ml. Constant te
 
 ### 1.3. Photographic Material
 
-101 photographs taken with iPhone 16 Pro Max (HEIC → JPG conversion). Glass test tubes illuminated from below using an LED panel. Photos include:
+101 photographs taken with Smartphone camera / Камера смартфона (HEIC → JPG conversion). Glass test tubes illuminated from below using an LED panel. Photos include:
 
 - **40** labeled single-channel (13 control, 14 ch19, 13 ch21)
 - **15** single-channel inferred from EXIF temporal proximity (patient-07)

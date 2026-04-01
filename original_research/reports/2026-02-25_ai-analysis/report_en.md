@@ -38,7 +38,7 @@ The study examines the effect of a hyperbolic emitter on the dynamics of fibrin 
   - Channel 21: 13 photos (patients 01, 02, 03, 04, 05, 07)
 - **Excluded:** 61 photos with multiple channels in frame
 
-**Imaging equipment:** iPhone 16 Pro Max, LED panel underlighting, artificial lighting.
+**Imaging equipment:** Smartphone camera / Камера смартфона, LED panel underlighting, artificial lighting.
 
 ## 3. Analysis methodology
 
@@ -144,7 +144,7 @@ Automated AI analysis found **statistically distinguishable patterns** between t
 2. **Non-standardized angles:** photos were taken from different angles (side, top, bottom macro, tilted) and under different conditions across patients. This adds noise to absolute metrics. However, **within each patient** angles are consistent across all three channels (control, ch19, ch21 photographed in the same session), so **relative comparisons between channels are valid**
 3. **No biochemical data:** analysis is based solely on visual features
 4. **2 patients on antibiotics:** possible artifacts of accelerated clotting
-5. **iPhone photos:** automatic camera settings (exposure, white balance) vary shot to shot
+5. **Smartphone photos:** automatic camera settings (exposure, white balance) vary shot to shot
 6. **SigLIP2 zero-shot:** model is not trained specifically on blood plasma; scores are relative
 
 ### 5.3. Recommendations for the next experiment

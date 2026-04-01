@@ -1,19 +1,19 @@
-# 📸 Patient 01 Photo Dataset / Фото Dataset Пациента 01
+#  Patient 01 Photo Dataset / Фото Dataset Пациента 01
 
 **Experiment Date: 2026-01-24 | Blood Group: II+ | Total Photos: 13**
 
 ---
 
-## 🎯 QUICK NAVIGATION / БЫСТРАЯ НАВИГАЦИЯ
+##  QUICK NAVIGATION / БЫСТРАЯ НАВИГАЦИЯ
 
-| 📊 **Overview** | 📁 **Files** | 📋 **Protocol** | 🔗 **Links** |
+|  **Overview** |  **Files** |  **Protocol** |  **Links** |
 |-----------------|--------------|-----------------|--------------|
 | [Dataset Info](#dataset-overview) | [Photo List](#photo-inventory) | [Protocol](#experiment-protocol) | [Back to Main](../../../README.md) |
 | [Timeline](#experiment-timeline) | [Samples](#samples) | [PDF](../protocol_part-01.pdf) | [All Patients](../../README.md) |
 
 ---
 
-## 📊 DATASET OVERVIEW
+##  DATASET OVERVIEW
 
 ```mermaid
 pie title Photo Distribution by Sample Type
@@ -24,43 +24,43 @@ pie title Photo Distribution by Sample Type
 
 | Metric | Value |
 |--------|-------|
-| **📸 Total Photos** | 13 images |
-| **🩸 Blood Group** | II+ (Rh positive) |
-| **🧪 Samples** | 4 (2 control, 1 ch19, 1 ch21) |
-| **⏰ Experiment Duration** | ~1h 12min irradiation |
-| **📷 Camera** | iPhone 16 Pro Max |
+| ** Total Photos** | 13 images |
+| ** Blood Group** | II+ (Rh positive) |
+| ** Samples** | 4 (2 control, 1 ch19, 1 ch21) |
+| ** Experiment Duration** | ~1h 12min irradiation |
+| ** Camera** | Smartphone camera / Камера смартфона |
 
 ---
 
-## ⏰ EXPERIMENT TIMELINE
+##  EXPERIMENT TIMELINE
 
 ```mermaid
 timeline
     title Patient 01 Experiment Timeline
     section Blood Collection
-        18:56:10 — 18:59:59 : 🩸 Blood Draw
+        18:56:10 — 18:59:59 :  Blood Draw
     section Centrifugation
-        19:00:30 — 19:06:10 : 🔄 Centrifuge
+        19:00:30 — 19:06:10 :  Centrifuge
     section Irradiation
-        19:18:29 — 20:30:00 : ⚡ Hyperbolic Field
+        19:18:29 — 20:30:00 :  Hyperbolic Field
     section Photography
-        19:00:33 — 20:30:00 : 📸 13 photos
+        19:00:33 — 20:30:00 :  13 photos
 ```
 
 ---
 
-## 🧪 SAMPLES
+##  SAMPLES
 
 | Sample ID | Type | Collection Time |
 |-----------|------|-----------------|
-| `0.1.1` | ⏸️ Control | 19:12:30 |
-| `0.1.2` | ⏸️ Control | 19:14:20 |
-| `19.1.1` | ⏩ Channel 19 | 19:13:25 |
-| `21.1.1` | ⏪ Channel 21 | 19:13:40 |
+| `0.1.1` |  Control | 19:12:30 |
+| `0.1.2` |  Control | 19:14:20 |
+| `19.1.1` |  Channel 19 | 19:13:25 |
+| `21.1.1` |  Channel 21 | 19:13:40 |
 
 ---
 
-## 📁 PHOTO INVENTORY
+##  PHOTO INVENTORY
 
 | # | File | Time | Samples | PDF Page |
 |---|------|------|---------|----------|
@@ -80,7 +80,7 @@ timeline
 
 ---
 
-## 📄 EXPERIMENT PROTOCOL
+##  EXPERIMENT PROTOCOL
 
 | Parameter | Value |
 |-----------|-------|
@@ -91,12 +91,12 @@ timeline
 | **Temperature** | 17°C constant |
 
 ### Protocol PDFs
-- [📄 protocol_part-01.pdf](../protocol_part-01.pdf) (~93 MB)
-- [📄 protocol_part-02.pdf](../protocol_part-02.pdf) (~38 MB)
+- [ protocol_part-01.pdf](../protocol_part-01.pdf) (~93 MB)
+- [ protocol_part-02.pdf](../protocol_part-02.pdf) (~38 MB)
 
 ---
 
-## 🔗 RELATED DATASETS
+##  RELATED DATASETS
 
 | Patient | Photos | Date | Blood Group |
 |---------|--------|------|-------------|
@@ -109,7 +109,7 @@ timeline
 
 ---
 
-## 📞 CONTACT
+##  CONTACT
 
 | Role | Name | Email |
 |------|------|-------|

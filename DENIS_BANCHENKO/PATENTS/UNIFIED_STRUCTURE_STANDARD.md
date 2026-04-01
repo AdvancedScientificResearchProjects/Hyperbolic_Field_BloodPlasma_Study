@@ -1,4 +1,4 @@
-# 🎯 UNIFIED PATENT REPOSITORY STRUCTURE STANDARD
+#  UNIFIED PATENT REPOSITORY STRUCTURE STANDARD
 # ЕДИНЫЙ СТАНДАРТ СТРУКТУРЫ ПАТЕНТНОГО РЕПОЗИТОРИЯ
 
 **Version / Версия:** 4.0
@@ -7,14 +7,14 @@
 
 ---
 
-## 🌐 CRITICAL BILINGUAL STANDARD / КРИТИЧЕСКИЙ ДВУЯЗЫЧНЫЙ СТАНДАРТ
+##  CRITICAL BILINGUAL STANDARD / КРИТИЧЕСКИЙ ДВУЯЗЫЧНЫЙ СТАНДАРТ
 
-### ⚠️ ABSOLUTE RULE #1: BILINGUAL ORDER / АБСОЛЮТНОЕ ПРАВИЛО №1: ДВУЯЗЫЧНЫЙ ПОРЯДОК
+###  ABSOLUTE RULE #1: BILINGUAL ORDER / АБСОЛЮТНОЕ ПРАВИЛО №1: ДВУЯЗЫЧНЫЙ ПОРЯДОК
 
 **ENGLISH FIRST, THEN RUSSIAN - EVERYWHERE!**
 **АНГЛИЙСКИЙ ПЕРВЫЙ, ЗАТЕМ РУССКИЙ - ВЕЗДЕ!**
 
-| Element / Элемент | ❌ WRONG / НЕПРАВИЛЬНО | ✅ CORRECT / ПРАВИЛЬНО |
+| Element / Элемент |  WRONG / НЕПРАВИЛЬНО |  CORRECT / ПРАВИЛЬНО |
 |------------------|------------------------|------------------------|
 | **Issue Titles** | RU then EN / RU потом EN | **EN then RU / EN потом RU** |
 | **Table Headers** | `Name / ФИО` | **`Name / ФИО`** (EN first!) |
@@ -23,14 +23,14 @@
 
 **CRITICAL EXAMPLE / КРИТИЧЕСКИЙ ПРИМЕР:**
 
-❌ **WRONG ISSUE TITLE / НЕПРАВИЛЬНОЕ НАЗВАНИЕ ISSUE:**
+ **WRONG ISSUE TITLE / НЕПРАВИЛЬНОЕ НАЗВАНИЕ ISSUE:**
 ```
-📋 KZ327274 - Система Оценки Произведений Искусства / System for Evaluating Works of Art
+ KZ327274 - Система Оценки Произведений Искусства / System for Evaluating Works of Art
 ```
 
-✅ **CORRECT ISSUE TITLE / ПРАВИЛЬНОЕ НАЗВАНИЕ ISSUE:**
+ **CORRECT ISSUE TITLE / ПРАВИЛЬНОЕ НАЗВАНИЕ ISSUE:**
 ```
-📋 KZ327274 - System for Evaluating Works of Art / Система Оценки Произведений Искусства
+ KZ327274 - System for Evaluating Works of Art / Система Оценки Произведений Искусства
 ```
 
 **WHY THIS MATTERS FOR INVESTORS:**
@@ -41,7 +41,7 @@
 
 ---
 
-### ⚠️ ABSOLUTE RULE #2: CORRESPONDENCE DOCUMENTATION / АБСОЛЮТНОЕ ПРАВИЛО №2: ДОКУМЕНТАЦИЯ ПЕРЕПИСКИ
+###  ABSOLUTE RULE #2: CORRESPONDENCE DOCUMENTATION / АБСОЛЮТНОЕ ПРАВИЛО №2: ДОКУМЕНТАЦИЯ ПЕРЕПИСКИ
 
 **EVERY REPOSITORY MUST HAVE CORRESPONDENCE_FLOW_EN_RU.md!**
 **КАЖДЫЙ РЕПОЗИТОРИЙ ДОЛЖЕН ИМЕТЬ CORRESPONDENCE_FLOW_EN_RU.md!**
@@ -68,51 +68,51 @@
 
 ---
 
-### ⚠️ ABSOLUTE RULE #4: MANDATORY VERIFICATION / АБСОЛЮТНОЕ ПРАВИЛО №4: ОБЯЗАТЕЛЬНАЯ ПРОВЕРКА
+###  ABSOLUTE RULE #4: MANDATORY VERIFICATION / АБСОЛЮТНОЕ ПРАВИЛО №4: ОБЯЗАТЕЛЬНАЯ ПРОВЕРКА
 
 **BEFORE MARKING TASK AS COMPLETE / ПЕРЕД ТЕМ КАК ОТМЕТИТЬ ЗАДАЧУ КАК ЗАВЕРШЕННУЮ:**
 
 **CRITICAL VERIFICATION CHECKLIST / КРИТИЧЕСКИЙ КОНТРОЛЬНЫЙ СПИСОК ПРОВЕРКИ:**
 
-1. **✅ Check EVERY repository / Проверить КАЖДЫЙ репозиторий**
+1. ** Check EVERY repository / Проверить КАЖДЫЙ репозиторий**
    - Open EACH of the 5 patent repositories / Открыть КАЖДЫЙ из 5 патентных репозиториев
    - Verify structure matches ASRP.art / Проверить соответствие структуры ASRP.art
    - Check EVERY folder / Проверить КАЖДУЮ папку
 
-2. **✅ Check EVERY Issue / Проверить КАЖДЫЙ Issue**
+2. ** Check EVERY Issue / Проверить КАЖДЫЙ Issue**
    - Open EVERY Issue in repository / Открыть КАЖДЫЙ Issue в репозитории
    - Verify ALL tables are bilingual (EN/RU) / Проверить ЧТО ВСЕ таблицы двуязычные (EN/RU)
    - Verify ALL links work / Проверить ЧТО ВСЕ ссылки работают
    - Verify ALL documents have links / Проверить ЧТО ВСЕ документы имеют ссылки
 
-3. **✅ Check EVERY table / Проверить КАЖДУЮ таблицу**
+3. ** Check EVERY table / Проверить КАЖДУЮ таблицу**
    - EVERY header has EN/RU / КАЖДЫЙ заголовок имеет EN/RU
    - EVERY cell has correct data / КАЖДАЯ ячейка имеет правильные данные
    - NO "Pending" if documents uploaded / НЕТ "Pending" если документы загружены
    - ALL uploaded documents have DIRECT links / ВСЕ загруженные документы имеют ПРЯМЫЕ ссылки
 
-4. **✅ Check abbreviations / Проверить сокращения**
+4. ** Check abbreviations / Проверить сокращения**
    - Russian abbreviation matches Russian name / Русское сокращение соответствует русскому названию
    - English abbreviation matches English name / Английское сокращение соответствует английскому названию
    - NO mixing languages in abbreviations / НЕТ смешивания языков в сокращениях
 
-5. **✅ Check visual diagrams / Проверить визуальные схемы**
+5. ** Check visual diagrams / Проверить визуальные схемы**
    - Mermaid diagrams present / Диаграммы Mermaid присутствуют
    - Flow charts match ASRP.art standard / Блок-схемы соответствуют стандарту ASRP.art
    - All correspondence visually represented / Вся переписка визуально представлена
    - Timeline diagrams included / Диаграммы временной шкалы включены
    - Payment timeline diagrams included / Диаграммы временной шкалы платежей включены
 
-6. **✅ RE-CHECK EVERYTHING / ПЕРЕПРОВЕРИТЬ ВСЁ**
+6. ** RE-CHECK EVERYTHING / ПЕРЕПРОВЕРИТЬ ВСЁ**
    - Go through ALL checks AGAIN / Пройти ВСЕ проверки СНОВА
    - Then AGAIN / Затем ЕЩЁ РАЗ
    - Do NOT stop until EVERYTHING is perfect / НЕ останавливаться пока ВСЁ не будет идеально
 
-**⚠️ NEVER STOP UNTIL 100% COMPLIANT / НИКОГДА НЕ ОСТАНАВЛИВАЙСЯ ПОКА НЕ БУДЕТ 100% СООТВЕТСТВИЯ**
+** NEVER STOP UNTIL 100% COMPLIANT / НИКОГДА НЕ ОСТАНАВЛИВАЙСЯ ПОКА НЕ БУДЕТ 100% СООТВЕТСТВИЯ**
 
 ---
 
-### ⚠️ ABSOLUTE RULE #5: DOCUMENT NAMING CONVENTION / АБСОЛЮТНОЕ ПРАВИЛО №5: КОНВЕНЦИЯ ИМЕНОВАНИЯ ДОКУМЕНТОВ
+###  ABSOLUTE RULE #5: DOCUMENT NAMING CONVENTION / АБСОЛЮТНОЕ ПРАВИЛО №5: КОНВЕНЦИЯ ИМЕНОВАНИЯ ДОКУМЕНТОВ
 
 **ALL documents MUST follow chronological naming convention / ВСЕ документы ДОЛЖНЫ следовать хронологической конвенции именования**
 
@@ -130,29 +130,29 @@ YYYY-MM-DD_DocumentType_ApplicationNumber_Version_Description_Language.ext
 - `Language` = RU, EN, KZ, RU_EN / Язык
 - `ext` = pdf, docx, doc / Расширение
 
-**✅ CORRECT EXAMPLES FROM ASRP.art / ПРАВИЛЬНЫЕ ПРИМЕРЫ ИЗ ASRP.art:**
+** CORRECT EXAMPLES FROM ASRP.art / ПРАВИЛЬНЫЕ ПРИМЕРЫ ИЗ ASRP.art:**
 
 ```
-✅ 2025-06-20_Application_KZ380648_v1_Original_RU.pdf
-✅ 2025-09-15_Description_KZ380648_v2_Final_RU.pdf
-✅ 2026-03-07_Description_PCT412362_v1_Editable_RU.docx
-✅ 2025-11-08_Application_KZ2025-1095.1_v1_Original_RU.pdf
-✅ 2026-01-06_Incoming_KZ2025-1095.1_FormalExamQuery_Barcode3805316.pdf
-✅ 2026-03-18_Outgoing_KZ2025-1095.1_ResponseToFormalExam_Barcode3900449.pdf
+ 2025-06-20_Application_KZ380648_v1_Original_RU.pdf
+ 2025-09-15_Description_KZ380648_v2_Final_RU.pdf
+ 2026-03-07_Description_PCT412362_v1_Editable_RU.docx
+ 2025-11-08_Application_KZ2025-1095.1_v1_Original_RU.pdf
+ 2026-01-06_Incoming_KZ2025-1095.1_FormalExamQuery_Barcode3805316.pdf
+ 2026-03-18_Outgoing_KZ2025-1095.1_ResponseToFormalExam_Barcode3900449.pdf
 ```
 
-**❌ WRONG EXAMPLES / НЕПРАВИЛЬНЫЕ ПРИМЕРЫ:**
+** WRONG EXAMPLES / НЕПРАВИЛЬНЫЕ ПРИМЕРЫ:**
 
 ```
-❌ OpisanieSynchroV1.docx           ← No date, no application number
-❌ FormulaSynchroV1.docx            ← No date, no application number
-❌ ReferatSynchroV1.docx            ← No date, no application number
-❌ Figure1SynchroV1.pdf             ← No date, no application number
-❌ 2026-03-24_Description.docx      ← No application number, no version
-❌ Application.pdf                   ← No date, no application number, no version
+ OpisanieSynchroV1.docx           ← No date, no application number
+ FormulaSynchroV1.docx            ← No date, no application number
+ ReferatSynchroV1.docx            ← No date, no application number
+ Figure1SynchroV1.pdf             ← No date, no application number
+ 2026-03-24_Description.docx      ← No application number, no version
+ Application.pdf                   ← No date, no application number, no version
 ```
 
-**⚠️ CRITICAL CHECKLIST / КРИТИЧЕСКИЙ КОНТРОЛЬНЫЙ СПИСОК:**
+** CRITICAL CHECKLIST / КРИТИЧЕСКИЙ КОНТРОЛЬНЫЙ СПИСОК:**
 
 Before uploading ANY document / Перед загрузкой ЛЮБОГО документа:
 
@@ -163,7 +163,7 @@ Before uploading ANY document / Перед загрузкой ЛЮБОГО до�
 - [ ] **Language specified / Язык указан** (RU, EN, KZ)
 - [ ] **File extension correct / Расширение файла правильное** (.pdf, .docx, .doc)
 
-**📋 VERSION CODES / КОДЫ ВЕРСИЙ:**
+** VERSION CODES / КОДЫ ВЕРСИЙ:**
 
 | Version Code / Код Версии | Meaning / Значение | When to Use / Когда Использовать |
 |--------------------------|-------------------|----------------------------------|
@@ -174,67 +174,67 @@ Before uploading ANY document / Перед загрузкой ЛЮБОГО до�
 
 ---
 
-### ⚠️ ABSOLUTE RULE #4.1: ISSUE TABLE BILINGUAL REQUIREMENTS / АБСОЛЮТНОЕ ПРАВИЛО №4.1: ТРЕБОВАНИЯ К ДВУЯЗЫЧНЫМ ТАБЛИЦАМ В ISSUE
+###  ABSOLUTE RULE #4.1: ISSUE TABLE BILINGUAL REQUIREMENTS / АБСОЛЮТНОЕ ПРАВИЛО №4.1: ТРЕБОВАНИЯ К ДВУЯЗЫЧНЫМ ТАБЛИЦАМ В ISSUE
 
 **EVERY Issue MUST have:**
 **КАЖДЫЙ Issue ДОЛЖЕН ИМЕТЬ:**
 
-1. **✅ ALL table headers bilingual / ВСЕ заголовки таблиц двуязычные**
+1. ** ALL table headers bilingual / ВСЕ заголовки таблиц двуязычные**
    - Format: `English / Русский`
    - Example: `Document Type / Тип Документа`
    - Example: `Status / Статус`
    - Example: `Direct Link / Прямая Ссылка`
 
-2. **✅ ALL status values bilingual / ВСЕ значения статуса двуязычные**
-   - Example: `✅ Paid / Оплачено`
-   - Example: `⏳ Pending / Ожидается`
-   - Example: `✅ Uploaded / Загружено`
+2. ** ALL status values bilingual / ВСЕ значения статуса двуязычные**
+   - Example: ` Paid / Оплачено`
+   - Example: ` Pending / Ожидается`
+   - Example: ` Uploaded / Загружено`
 
-3. **✅ ALL links DIRECT to files / ВСЕ ссылки ПРЯМЫЕ на файлы**
-   - Format: `[📄 PDF](https://github.com/.../blob/main/path/to/FILENAME.EXT)`
-   - **❌ NEVER link to folder:** `[📄 PDF](docs/drawings/)` ← WRONG! Leads to folder listing!
-   - **✅ ALWAYS link to specific file:** `[📄 PDF](https://github.com/.../blob/main/docs/drawings/2025-09-20_Figure1_KZ2025-0914.1_v1.pdf)` ← CORRECT!
+3. ** ALL links DIRECT to files / ВСЕ ссылки ПРЯМЫЕ на файлы**
+   - Format: `[ PDF](https://github.com/.../blob/main/path/to/FILENAME.EXT)`
+   - ** NEVER link to folder:** `[ PDF](docs/drawings/)` ← WRONG! Leads to folder listing!
+   - ** ALWAYS link to specific file:** `[ PDF](https://github.com/.../blob/main/docs/drawings/2025-09-20_Figure1_KZ2025-0914.1_v1.pdf)` ← CORRECT!
    - **MUST include FULL filename with extension** / ДОЛЖЕН включать ПОЛНОЕ имя файла с расширением
    - **MUST lead to actual file, not folder!** / ДОЛЖЕН вести на фактический файл, а не папку!
 
-4. **✅ Mermaid diagrams included / Диаграммы Mermaid включены**
+4. ** Mermaid diagrams included / Диаграммы Mermaid включены**
    - `sequenceDiagram` for correspondence flow / sequenceDiagram для потока переписки
    - `timeline` for payment/timeline / timeline для платежей/временной шкалы
    - `flowchart` for process flow / flowchart для процесса
 
-5. **✅ Corporate contact info / Корпоративная контактная информация**
+5. ** Corporate contact info / Корпоративная контактная информация**
    - Email: info@asrp.tech (NOT personal email!)
    - Company: ТОО "Перспективные Научно-Исследовательские Разработки"
 
-**❌ WRONG EXAMPLES / НЕПРАВИЛЬНЫЕ ПРИМЕРЫ:**
+** WRONG EXAMPLES / НЕПРАВИЛЬНЫЕ ПРИМЕРЫ:**
 
 ```markdown
-❌ | Document | Link |
+ | Document | Link |
    ^ Only English!
 
-❌ [📄 PDF](docs/drawings/)
+ [ PDF](docs/drawings/)
    ^ Leads to FOLDER, not file! User sees folder listing!
 
-❌ [📄 PDF](https://github.com/.../tree/main/docs/drawings)
+ [ PDF](https://github.com/.../tree/main/docs/drawings)
    ^ Leads to FOLDER (tree), not file (blob)!
 
-❌ [📄 PDF](https://github.com/.../issues/5)
+ [ PDF](https://github.com/.../issues/5)
    ^ Leads back to same issue, circular link!
 ```
 
-**✅ CORRECT EXAMPLES / ПРАВИЛЬНЫЕ ПРИМЕРЫ:**
+** CORRECT EXAMPLES / ПРАВИЛЬНЫЕ ПРИМЕРЫ:**
 
 ```markdown
-✅ | Document Type / Тип Документа | Direct Link / Прямая Ссылка |
+ | Document Type / Тип Документа | Direct Link / Прямая Ссылка |
 
-✅ [📄 PDF](https://github.com/denisbanchenko/Kazpatent_Inspira-X_Respiratory_Analysis_Patent/blob/main/docs/drawings/2025-09-20_Figure1_KZ2025-0914.1_v1.pdf)
+ [ PDF](https://github.com/denisbanchenko/Kazpatent_Inspira-X_Respiratory_Analysis_Patent/blob/main/docs/drawings/2025-09-20_Figure1_KZ2025-0914.1_v1.pdf)
    ^ Direct link to ACTUAL PDF file with FULL filename!
 
-✅ [🇬🇧 EN](https://github.com/denisbanchenko/Kazpatent_Inspira-X_Respiratory_Analysis_Patent/blob/main/translations/2025-11-17_FormalExamQuery_EN_RU.md)
+ [ EN](https://github.com/denisbanchenko/Kazpatent_Inspira-X_Respiratory_Analysis_Patent/blob/main/translations/2025-11-17_FormalExamQuery_EN_RU.md)
    ^ Direct link to ACTUAL translation file with FULL filename!
 ```
 
-**⚠️ CRITICAL CHECKLIST / КРИТИЧЕСКИЙ КОНТРОЛЬНЫЙ СПИСОК:**
+** CRITICAL CHECKLIST / КРИТИЧЕСКИЙ КОНТРОЛЬНЫЙ СПИСОК:**
 
 Before publishing ANY Issue table with links / Перед публикацией ЛЮБОЙ таблицы Issue со ссылками:
 
@@ -249,62 +249,62 @@ Before publishing ANY Issue table with links / Перед публикацией
 **EVERY Issue MUST have:**
 **КАЖДЫЙ Issue ДОЛЖЕН ИМЕТЬ:**
 
-1. **✅ ALL table headers bilingual / ВСЕ заголовки таблиц двуязычные**
+1. ** ALL table headers bilingual / ВСЕ заголовки таблиц двуязычные**
    - Format: `English / Русский`
    - Example: `Document Type / Тип Документа`
    - Example: `Status / Статус`
    - Example: `Direct Link / Прямая Ссылка`
 
-2. **✅ ALL status values bilingual / ВСЕ значения статуса двуязычные**
-   - Example: `✅ Paid / Оплачено`
-   - Example: `⏳ Pending / Ожидается`
-   - Example: `✅ Uploaded / Загружено`
+2. ** ALL status values bilingual / ВСЕ значения статуса двуязычные**
+   - Example: ` Paid / Оплачено`
+   - Example: ` Pending / Ожидается`
+   - Example: ` Uploaded / Загружено`
 
-3. **✅ ALL links DIRECT to files / ВСЕ ссылки ПРЯМЫЕ на файлы**
-   - Format: `[📄 PDF](https://github.com/.../blob/main/path/to/FILENAME.EXT)`
-   - **❌ NEVER link to folder:** `[📄 PDF](docs/drawings/)` ← WRONG! Leads to folder listing!
-   - **✅ ALWAYS link to specific file:** `[📄 PDF](https://github.com/.../blob/main/docs/drawings/2025-09-20_Figure1_KZ2025-0914.1_v1.pdf)` ← CORRECT!
+3. ** ALL links DIRECT to files / ВСЕ ссылки ПРЯМЫЕ на файлы**
+   - Format: `[ PDF](https://github.com/.../blob/main/path/to/FILENAME.EXT)`
+   - ** NEVER link to folder:** `[ PDF](docs/drawings/)` ← WRONG! Leads to folder listing!
+   - ** ALWAYS link to specific file:** `[ PDF](https://github.com/.../blob/main/docs/drawings/2025-09-20_Figure1_KZ2025-0914.1_v1.pdf)` ← CORRECT!
    - **MUST include FULL filename with extension** / ДОЛЖЕН включать ПОЛНОЕ имя файла с расширением
    - **MUST lead to actual file, not folder!** / ДОЛЖЕН вести на實際ный файл, а не папку!
 
-4. **✅ Mermaid diagrams included / Диаграммы Mermaid включены**
+4. ** Mermaid diagrams included / Диаграммы Mermaid включены**
    - `sequenceDiagram` for correspondence flow / sequenceDiagram для потока переписки
    - `timeline` for payment/timeline / timeline для платежей/временной шкалы
    - `flowchart` for process flow / flowchart для процесса
 
-5. **✅ Corporate contact info / Корпоративная контактная информация**
+5. ** Corporate contact info / Корпоративная контактная информация**
    - Email: info@asrp.tech (NOT personal email!)
    - Company: ТОО "Перспективные Научно-Исследовательские Разработки"
 
-**❌ WRONG EXAMPLES / НЕПРАВИЛЬНЫЕ ПРИМЕРЫ:**
+** WRONG EXAMPLES / НЕПРАВИЛЬНЫЕ ПРИМЕРЫ:**
 
 ```markdown
-❌ | Document | Link |
+ | Document | Link |
    ^ Only English!
 
-❌ [📄 PDF](docs/drawings/)
+ [ PDF](docs/drawings/)
    ^ Leads to FOLDER, not file! User sees folder listing!
 
-❌ [📄 PDF](https://github.com/.../tree/main/docs/drawings)
+ [ PDF](https://github.com/.../tree/main/docs/drawings)
    ^ Leads to FOLDER (tree), not file (blob)!
 
-❌ [📄 PDF](https://github.com/.../issues/5)
+ [ PDF](https://github.com/.../issues/5)
    ^ Leads back to same issue, circular link!
 ```
 
-**✅ CORRECT EXAMPLES / ПРАВИЛЬНЫЕ ПРИМЕРЫ:**
+** CORRECT EXAMPLES / ПРАВИЛЬНЫЕ ПРИМЕРЫ:**
 
 ```markdown
-✅ | Document Type / Тип Документа | Direct Link / Прямая Ссылка |
+ | Document Type / Тип Документа | Direct Link / Прямая Ссылка |
 
-✅ [📄 PDF](https://github.com/denisbanchenko/Kazpatent_Inspira-X_Respiratory_Analysis_Patent/blob/main/docs/drawings/2025-09-20_Figure1_KZ2025-0914.1_v1.pdf)
+ [ PDF](https://github.com/denisbanchenko/Kazpatent_Inspira-X_Respiratory_Analysis_Patent/blob/main/docs/drawings/2025-09-20_Figure1_KZ2025-0914.1_v1.pdf)
    ^ Direct link to ACTUAL PDF file with FULL filename!
 
-✅ [🇬🇧 EN](https://github.com/denisbanchenko/Kazpatent_Inspira-X_Respiratory_Analysis_Patent/blob/main/translations/2025-11-17_FormalExamQuery_EN_RU.md)
+ [ EN](https://github.com/denisbanchenko/Kazpatent_Inspira-X_Respiratory_Analysis_Patent/blob/main/translations/2025-11-17_FormalExamQuery_EN_RU.md)
    ^ Direct link to ACTUAL translation file with FULL filename!
 ```
 
-**⚠️ CRITICAL CHECKLIST / КРИТИЧЕСКИЙ КОНТРОЛЬНЫЙ СПИСОК:**
+** CRITICAL CHECKLIST / КРИТИЧЕСКИЙ КОНТРОЛЬНЫЙ СПИСОК:**
 
 Before publishing ANY Issue table with links / Перед публикацией ЛЮБОЙ таблицы Issue со ссылками:
 
@@ -316,53 +316,53 @@ Before publishing ANY Issue table with links / Перед публикацией
 
 ---
 
-### ⚠️ ABSOLUTE RULE #2.1: ISSUE TABLE BILINGUAL STANDARD / АБСОЛЮТНОЕ ПРАВИЛО №2.1: ДВУЯЗЫЧНЫЙ СТАНДАРТ ТАБЛИЦ В ISSUE
+###  ABSOLUTE RULE #2.1: ISSUE TABLE BILINGUAL STANDARD / АБСОЛЮТНОЕ ПРАВИЛО №2.1: ДВУЯЗЫЧНЫЙ СТАНДАРТ ТАБЛИЦ В ISSUE
 
 **EVERY WORD in EVERY table header MUST be bilingual!**
 **КАЖДОЕ СЛОВО в КАЖДОМ заголовке таблицы ДОЛЖНО быть двуязычным!**
 
-**❌ WRONG EXAMPLES FROM ISSUE #7 (Fractal Repo):**
+** WRONG EXAMPLES FROM ISSUE #7 (Fractal Repo):**
 
 ```markdown
-❌ WRONG - Only English:
+ WRONG - Only English:
 | Document Type | Status |
 |--------------|--------|
-| Application Form | ⏳ Pending |
+| Application Form |  Pending |
 
-❌ WRONG - Mixed:
+ WRONG - Mixed:
 | Document Type / Тип документа | Status |
 |------------------------------|--------|
-| Application Form | ⏳ Pending |
+| Application Form |  Pending |
 ```
 
-**✅ CORRECT FORMAT:**
+** CORRECT FORMAT:**
 
 ```markdown
-✅ CORRECT - EVERY word is bilingual:
+ CORRECT - EVERY word is bilingual:
 | Document Type / Тип Документа | Status / Статус |
 |------------------------------|-----------------|
-| Application Form / Заявление | ⏳ Pending / Ожидается |
-| Description / Описание | ⏳ Pending / Ожидается |
-| Claims / Формула | ⏳ Pending / Ожидается |
-| Abstract / Реферат | ⏳ Pending / Ожидается |
-| Correspondence / Переписка | ⏳ Pending / Ожидается |
-| Payments / Платежи | ⏳ Pending / Ожидается |
-| Figures / Чертежи | ⏳ Pending / Ожидается |
+| Application Form / Заявление |  Pending / Ожидается |
+| Description / Описание |  Pending / Ожидается |
+| Claims / Формула |  Pending / Ожидается |
+| Abstract / Реферат |  Pending / Ожидается |
+| Correspondence / Переписка |  Pending / Ожидается |
+| Payments / Платежи |  Pending / Ожидается |
+| Figures / Чертежи |  Pending / Ожидается |
 ```
 
-**❌ WRONG EXAMPLES FROM ISSUE #5 (Fractal Repo):**
+** WRONG EXAMPLES FROM ISSUE #5 (Fractal Repo):**
 
 ```markdown
-❌ WRONG - Only English:
+ WRONG - Only English:
 | Name | Role | Responsibilities |
 |------|------|----------------|
 | BANCHENKO DENIS | Co-Inventor | Hyperbolic field physics |
 ```
 
-**✅ CORRECT FORMAT:**
+** CORRECT FORMAT:**
 
 ```markdown
-✅ CORRECT - EVERY word is bilingual:
+ CORRECT - EVERY word is bilingual:
 | Имя / Name | Роль / Role | Обязанности / Responsibilities |
 |------------|-------------|-------------------------------|
 | БАНЧЕНКО ДЕНИС ЮРЬЕВИЧ / BANCHENKO DENIS YURIEVICH | Соавтор / Co-Inventor | Физика гиперболических полей / Hyperbolic field physics |
@@ -398,28 +398,28 @@ Before publishing ANY Issue table with links / Перед публикацией
 
 ---
 
-### ⚠️ ABSOLUTE RULE #3: DOCUMENT PRESERVATION / АБСОЛЮТНОЕ ПРАВИЛО №3: СОХРАНЕНИЕ ДОКУМЕНТОВ
+###  ABSOLUTE RULE #3: DOCUMENT PRESERVATION / АБСОЛЮТНОЕ ПРАВИЛО №3: СОХРАНЕНИЕ ДОКУМЕНТОВ
 
 **NEVER DELETE DOCUMENTS - EVER!**
 **НИКОГДА НЕ УДАЛЯЙТЕ ДОКУМЕНТЫ - НИКОГДА!**
 
-| Action / Действие | ❌ WRONG | ✅ CORRECT |
+| Action / Действие |  WRONG |  CORRECT |
 |------------------|----------|------------|
 | **Reorganizing** | Delete old files | **Move to `archive/`** |
 | **Renaming** | `git rm` + new file | **`git mv` old new** |
 | **Updating** | Replace file | **Keep old, add new version** |
 
 **VIOLATION CONSEQUENCES / ПОСЛЕДСТВИЯ НАРУШЕНИЯ:**
-- ❌ Loss of official patent documents
-- ❌ Need to re-upload everything
-- ❌ Wasted hours of work
-- ❌ Broken links in issues
+-  Loss of official patent documents
+-  Need to re-upload everything
+-  Wasted hours of work
+-  Broken links in issues
 
 ---
 
-## 🏷️ PROJECT NAMING & BRANDING STANDARD / СТАНДАРТ ИМЕНОВАНИЯ И БРЕНДИНГА ПРОЕКТОВ
+##  PROJECT NAMING & BRANDING STANDARD / СТАНДАРТ ИМЕНОВАНИЯ И БРЕНДИНГА ПРОЕКТОВ
 
-### ⚠️ CRITICAL RULE / КРИТИЧЕСКОЕ ПРАВИЛО:
+###  CRITICAL RULE / КРИТИЧЕСКОЕ ПРАВИЛО:
 
 **ALL project names MUST follow the unified format across:**
 **ВСЕ названия проектов ДОЛЖНЫ следовать единому формату:**
@@ -430,20 +430,20 @@ Before publishing ANY Issue table with links / Перед публикацией
 
 ---
 
-### 📋 OFFICIAL PROJECT NAMES / ОФИЦИАЛЬНЫЕ НАЗВАНИЯ ПРОЕКТОВ
+###  OFFICIAL PROJECT NAMES / ОФИЦИАЛЬНЫЕ НАЗВАНИЯ ПРОЕКТОВ
 
 | Short Code (EN) | Short Code (RU) | Full English Name | Full Russian Name | Emoji | Repository Name |
 |-----------------|-----------------|------------------|-------------------|-------|-----------------|
-| **ASRP.art** | **ПНИР.Искусство** | Axionetic Sensing Reactions Platform in Art | Платформа ноогенетического измерения реакций на искусство | 🧬 | `Kazpatent_Axionetic_Sensing_Reactions_Platform_in_Art_Patent` |
-| **Fractal HFS** | **Фрактальная ГСФ** | Fractal Biomedical Hyperbolic Field System | Фрактальная биомедицинская система гиперболических полей | 🔬 | `Kazpatent_Fractal_Biomedical_System_Patent` |
-| **GFS** | **ГСП** | Global Forecasting System | Глобальная система прогнозирования | 📊 | `Kazpatent_Global_Forecasting_System_Patent` |
-| **Biophotonic** | **Биофотонная** | Biophotonic Optical Neurodiagnostic System | Биофотонная оптическая нейродиагностическая система | 🧬 | `Kazpatent_Biophotonic_Neurodiagnostic_System_Patent` |
+| **ASRP.art** | **ПНИР.Искусство** | Axionetic Sensing Reactions Platform in Art | Платформа ноогенетического измерения реакций на искусство |  | `Kazpatent_Axionetic_Sensing_Reactions_Platform_in_Art_Patent` |
+| **Fractal HFS** | **Фрактальная ГСФ** | Fractal Biomedical Hyperbolic Field System | Фрактальная биомедицинская система гиперболических полей |  | `Kazpatent_Fractal_Biomedical_System_Patent` |
+| **GFS** | **ГСП** | Global Forecasting System | Глобальная система прогнозирования |  | `Kazpatent_Global_Forecasting_System_Patent` |
+| **Biophotonic** | **Биофотонная** | Biophotonic Optical Neurodiagnostic System | Биофотонная оптическая нейродиагностическая система |  | `Kazpatent_Biophotonic_Neurodiagnostic_System_Patent` |
 
 ---
 
-### 🏷️ REPOSITORY NAMING RULE / ПРАВИЛО ИМЕНОВАНИЯ РЕПОЗИТОРИЕВ
+###  REPOSITORY NAMING RULE / ПРАВИЛО ИМЕНОВАНИЯ РЕПОЗИТОРИЕВ
 
-**⚠️ CRITICAL RULE / КРИТИЧЕСКОЕ ПРАВИЛО:**
+** CRITICAL RULE / КРИТИЧЕСКОЕ ПРАВИЛО:**
 
 **ALL patent repositories MUST use FULL English name (no abbreviations)!**
 **ВСЕ патентные репозитории ДОЛЖНЫ использовать ПОЛНОЕ английское название (без сокращений)!**
@@ -455,9 +455,9 @@ Kazpatent_<Full_English_Name>_Patent
 
 | Wrong / Неправильно | Correct / Правильно |
 |---------------------|---------------------|
-| ❌ `Kazpatent_Inspira-X_Patent` | ✅ `Kazpatent_Inspira-X_Respiratory_Analysis_Patent` |
-| ❌ `Kazpatent_GFS_Patent` | ✅ `Kazpatent_Global_Forecasting_System_Patent` |
-| ❌ `Kazpatent_Fractal_Patent` | ✅ `Kazpatent_Fractal_Biomedical_System_Patent` |
+|  `Kazpatent_Inspira-X_Patent` |  `Kazpatent_Inspira-X_Respiratory_Analysis_Patent` |
+|  `Kazpatent_GFS_Patent` |  `Kazpatent_Global_Forecasting_System_Patent` |
+|  `Kazpatent_Fractal_Patent` |  `Kazpatent_Fractal_Biomedical_System_Patent` |
 
 **Russian Translation / Русский Перевод:**
 - Repository name is in English / Название репозитория на английском
@@ -470,18 +470,18 @@ Kazpatent_<Full_English_Name>_Patent
 
 ---
 
-### 📊 ISSUE DESCRIPTION REQUIREMENTS / ТРЕБОВАНИЯ К ОПИСАНИЮ ISSUE
+###  ISSUE DESCRIPTION REQUIREMENTS / ТРЕБОВАНИЯ К ОПИСАНИЮ ISSUE
 
-**⚠️ CRITICAL RULE / КРИТИЧЕСКОЕ ПРАВИЛО:**
+** CRITICAL RULE / КРИТИЧЕСКОЕ ПРАВИЛО:**
 
 **ALL Issues MUST have FULL description with tables, links, and structure!**
 **ВСЕ Issue ДОЛЖНЫ иметь ПОЛНОЕ описание с таблицами, ссылками и структурой!**
 
 ---
 
-### 🌐 BILINGUAL TABLE HEADERS RULE / ПРАВИЛО ДВУЯЗЫЧНЫХ ЗАГОЛОВКОВ ТАБЛИЦ
+###  BILINGUAL TABLE HEADERS RULE / ПРАВИЛО ДВУЯЗЫЧНЫХ ЗАГОЛОВКОВ ТАБЛИЦ
 
-**⚠️ CRITICAL RULE / КРИТИЧЕСКОЕ ПРАВИЛО:**
+** CRITICAL RULE / КРИТИЧЕСКОЕ ПРАВИЛО:**
 
 **EVERY table header MUST be bilingual (EN/RU) - EVERY WORD!**
 **КАЖДЫЙ заголовок таблицы ДОЛЖЕН быть двуязычным (EN/RU) - КАЖДОЕ СЛОВО!**
@@ -493,37 +493,37 @@ Kazpatent_<Full_English_Name>_Patent
 | Content / Содержание | Content / Содержание | Content / Содержание |
 ```
 
-**✅ CORRECT / ПРАВИЛЬНО:**
+** CORRECT / ПРАВИЛЬНО:**
 ```markdown
 | Date / Дата | Event / Событие | Barcode / Штрихкод | Status / Статус |
 |-------------|-----------------|-------------------|-----------------|
-| 2025-09-20 | Application Filed / Подача Заявки | 3675364 | ✅ Complete |
+| 2025-09-20 | Application Filed / Подача Заявки | 3675364 |  Complete |
 ```
 
-**❌ WRONG / НЕПРАВИЛЬНО:**
+** WRONG / НЕПРАВИЛЬНО:**
 ```markdown
 | Date | Event | Barcode | Status |
 |------|-------|---------|--------|
-| 2025-09-20 | Application Filed | 3675364 | ✅ Complete |
+| 2025-09-20 | Application Filed | 3675364 |  Complete |
 ```
 
-**⚠️ EVERY WORD MUST BE BILINGUAL / КАЖДОЕ СЛОВО ДОЛЖНО БЫТЬ ДВУЯЗЫЧНЫМ:**
-- ❌ `Date` → ✅ `Date / Дата`
-- ❌ `Event` → ✅ `Event / Событие`
-- ❌ `Barcode` → ✅ `Barcode / Штрихкод`
-- ❌ `Status` → ✅ `Status / Статус`
-- ❌ `Name` → ✅ `Name / ФИО`
-- ❌ `Country` → ✅ `Country / Страна`
-- ❌ `Role` → ✅ `Role / Роль`
-- ❌ `Purpose` → ✅ `Purpose / Назначение`
-- ❌ `Title` → ✅ `Title / Название`
-- ❌ `Link` → ✅ `Link / Ссылка`
-- ❌ `Document` → ✅ `Document / Документ`
-- ❌ `Amount` → ✅ `Amount / Сумма`
-- ❌ `Payment ID` → ✅ `Payment ID / ID Платежа`
-- ❌ `Total` → ✅ `Total / Всего`
-- ❌ `Uploaded` → ✅ `Uploaded / Загружено`
-- ❌ `Pending` → ✅ `Pending / Ожидается`
+** EVERY WORD MUST BE BILINGUAL / КАЖДОЕ СЛОВО ДОЛЖНО БЫТЬ ДВУЯЗЫЧНЫМ:**
+-  `Date` →  `Date / Дата`
+-  `Event` →  `Event / Событие`
+-  `Barcode` →  `Barcode / Штрихкод`
+-  `Status` →  `Status / Статус`
+-  `Name` →  `Name / ФИО`
+-  `Country` →  `Country / Страна`
+-  `Role` →  `Role / Роль`
+-  `Purpose` →  `Purpose / Назначение`
+-  `Title` →  `Title / Название`
+-  `Link` →  `Link / Ссылка`
+-  `Document` →  `Document / Документ`
+-  `Amount` →  `Amount / Сумма`
+-  `Payment ID` →  `Payment ID / ID Платежа`
+-  `Total` →  `Total / Всего`
+-  `Uploaded` →  `Uploaded / Загружено`
+-  `Pending` →  `Pending / Ожидается`
 
 **This applies to ALL tables in ALL Issues / Это применяется ко ВСЕМ таблицам во ВСЕХ Issue**
 
@@ -531,7 +531,7 @@ Kazpatent_<Full_English_Name>_Patent
 
 1. **Status Badge / Значок Статуса:**
    ```markdown
-   **Status / Статус:** ✅ Complete / Завершено
+   **Status / Статус:**  Complete / Завершено
    **Last Updated / Последнее обновление:** 24 March 2026
    **Total Files / Всего файлов:** 4 documents
    ```
@@ -547,10 +547,10 @@ Kazpatent_<Full_English_Name>_Patent
    ```markdown
    ```
    Repository/
-   ├── 📄 README.md
-   ├── 📁 docs/
-   ├── 📁 correspondence/
-   └── 📁 payment-receipts/
+   ├──  README.md
+   ├──  docs/
+   ├──  correspondence/
+   └──  payment-receipts/
    ```
    ```
 
@@ -568,13 +568,13 @@ Kazpatent_<Full_English_Name>_Patent
    **Repository:** https://github.com/...
    ```
 
-**❌ WRONG / НЕПРАВИЛЬНО:**
+** WRONG / НЕПРАВИЛЬНО:**
 - Empty Issue body / Пустое тело Issue
 - No tables / Нет таблиц
 - No links / Нет ссылок
 - No structure / Нет структуры
 
-**✅ CORRECT / ПРАВИЛЬНО:**
+** CORRECT / ПРАВИЛЬНО:**
 - Full description with tables / Полное описание с таблицами
 - Direct links to documents / Прямые ссылки на документы
 - Repository structure diagram / Диаграмма структуры репозитория
@@ -583,9 +583,9 @@ Kazpatent_<Full_English_Name>_Patent
 
 ---
 
-### 🌐 BILINGUAL NAMING RULE / ПРАВИЛО ДВУЯЗЫЧНЫХ НАЗВАНИЙ
+###  BILINGUAL NAMING RULE / ПРАВИЛО ДВУЯЗЫЧНЫХ НАЗВАНИЙ
 
-**⚠️ CRITICAL RULE / КРИТИЧЕСКОЕ ПРАВИЛО:**
+** CRITICAL RULE / КРИТИЧЕСКОЕ ПРАВИЛО:**
 
 **ALL Issue titles MUST be FULLY BILINGUAL - Russian AND English!**
 **ВСЕ названия Issue ДОЛЖНЫ быть ПОЛНОСТЬЮ ДВУЯЗЫЧНЫМИ - Русский И Английский!**
@@ -597,19 +597,19 @@ Kazpatent_<Full_English_Name>_Patent
 
 | Wrong / Неправильно | Correct / Правильно |
 |---------------------|---------------------|
-| ❌ `📋 KZ327274 - Система Оценки Произведений Искусства (Отозвано)` | ✅ `📋 KZ327274 - Система Оценки Произведений Искусства / System for Evaluating Works of Art (Отозвано / Withdrawn)` |
-| ❌ `📋 KZ327274 - System for Evaluating Works of Art (Withdrawn)` | ✅ `📋 KZ327274 - Система Оценки Произведений Искусства / System for Evaluating Works of Art (Отозвано / Withdrawn)` |
-| ❌ Russian ONLY | ✅ Russian / English |
-| ❌ English ONLY | ✅ Russian / English |
+|  ` KZ327274 - Система Оценки Произведений Искусства (Отозвано)` |  ` KZ327274 - Система Оценки Произведений Искусства / System for Evaluating Works of Art (Отозвано / Withdrawn)` |
+|  ` KZ327274 - System for Evaluating Works of Art (Withdrawn)` |  ` KZ327274 - Система Оценки Произведений Искусства / System for Evaluating Works of Art (Отозвано / Withdrawn)` |
+|  Russian ONLY |  Russian / English |
+|  English ONLY |  Russian / English |
 
-**✅ CORRECT FORMAT / ПРАВИЛЬНЫЙ ФОРМАТ:**
+** CORRECT FORMAT / ПРАВИЛЬНЫЙ ФОРМАТ:**
 ```
-📋 KZ327274 - Система Оценки Произведений Искусства / System for Evaluating Works of Art (Отозвано / Withdrawn)
-🟡 KZ380648 - Платформа Ноогенетического Измерения Реакций / Platform for Noogenetic Measurement of Reactions
-🌍 PCT412362 - Платформа Ноогенетического Измерения / Platform for Noogenetic Measurement (PCT International)
-📅 Временная Шкала и Дедлайны / Timeline and Deadlines
-💰 Платежи и Кредитный Баланс / Payments and Credit Balance
-📥 ВХОДЯЩИЕ - Репозиторий Документов / INCOMING - Document Repository
+ KZ327274 - Система Оценки Произведений Искусства / System for Evaluating Works of Art (Отозвано / Withdrawn)
+ KZ380648 - Платформа Ноогенетического Измерения Реакций / Platform for Noogenetic Measurement of Reactions
+ PCT412362 - Платформа Ноогенетического Измерения / Platform for Noogenetic Measurement (PCT International)
+ Временная Шкала и Дедлайны / Timeline and Deadlines
+ Платежи и Кредитный Баланс / Payments and Credit Balance
+ ВХОДЯЩИЕ - Репозиторий Документов / INCOMING - Document Repository
 ```
 
 **Key Rules / Ключевые Правила:**
@@ -620,18 +620,18 @@ Kazpatent_<Full_English_Name>_Patent
 
 ---
 
-### 🚫 NO _EN_RU SUFFIX RULE / ПРАВИЛО ОТСУТСТВИЯ СУФФИКСА _EN_RU
+###  NO _EN_RU SUFFIX RULE / ПРАВИЛО ОТСУТСТВИЯ СУФФИКСА _EN_RU
 
-**⚠️ CRITICAL RULE / КРИТИЧЕСКОЕ ПРАВИЛО:**
+** CRITICAL RULE / КРИТИЧЕСКОЕ ПРАВИЛО:**
 
 **NEVER add `_EN_RU` suffix to Issue titles!**
 **НИКОГДА не добавляйте суффикс `_EN_RU` к названиям Issue!**
 
 | Wrong / Неправильно | Correct / Правильно |
 |---------------------|---------------------|
-| ❌ `📥 INBOX - Document Repository_EN_RU` | ✅ `📥 INBOX - Document Repository / Репозиторий документов` |
-| ❌ `Timeline_EN_RU` | ✅ `Timeline & Deadlines / Сроки и дедлайны` |
-| ❌ `Issue_Title_EN_RU` | ✅ `Issue_Title / Название_На_Русском` |
+|  ` INBOX - Document Repository_EN_RU` |  ` INBOX - Document Repository / Репозиторий документов` |
+|  `Timeline_EN_RU` |  `Timeline & Deadlines / Сроки и дедлайны` |
+|  `Issue_Title_EN_RU` |  `Issue_Title / Название_На_Русском` |
 
 **Reason / Причина:**
 - Issue titles are ALREADY bilingual (EN/RU) with `/` separator
@@ -641,29 +641,29 @@ Kazpatent_<Full_English_Name>_Patent
 
 ---
 
-### 📊 BILINGUAL TABLES RULE / ПРАВИЛО ДВУЯЗЫЧНЫХ ТАБЛИЦ
+###  BILINGUAL TABLES RULE / ПРАВИЛО ДВУЯЗЫЧНЫХ ТАБЛИЦ
 
-**⚠️ CRITICAL RULE / КРИТИЧЕСКОЕ ПРАВИЛО:**
+** CRITICAL RULE / КРИТИЧЕСКОЕ ПРАВИЛО:**
 
 **ALL tables MUST be fully bilingual - BOTH headers AND content!**
 **ВСЕ таблицы ДОЛЖНЫ быть полностью двуязычными - ОБА заголовки И содержимое!**
 
 | Wrong / Неправильно | Correct / Правильно |
 |---------------------|---------------------|
-| ❌ `Name / ФИО` `Role / Роль` `Responsibilities / Обязанности` | ✅ `Имя / Name` `Роль / Role` `Обязанности / Responsibilities` |
-| ❌ English headers with Russian content | ✅ Russian headers FIRST, then English |
-| ❌ Mixed languages in same column | ✅ Consistent language per column |
+|  `Name / ФИО` `Role / Роль` `Responsibilities / Обязанности` |  `Имя / Name` `Роль / Role` `Обязанности / Responsibilities` |
+|  English headers with Russian content |  Russian headers FIRST, then English |
+|  Mixed languages in same column |  Consistent language per column |
 
 **Table Format Standard / Стандарт Формата Таблиц:**
 
 ```markdown
-✅ CORRECT / ПРАВИЛЬНО:
+ CORRECT / ПРАВИЛЬНО:
 | Имя / Name | Роль / Role | Обязанности / Responsibilities |
 |------------|-------------|-------------------------------|
 | БАНЧЕНКО ДЕНИС ЮРЬЕВИЧ | Соавтор | Физика гиперболических полей |
 | BANCHENKO DENIS YURIEVICH | Co-Inventor | Hyperbolic field physics |
 
-❌ WRONG / НЕПРАВИЛЬНО:
+ WRONG / НЕПРАВИЛЬНО:
 | Name / ФИО | Role / Роль | Responsibilities / Обязанности |
 |------------|-------------|-------------------------------|
 | BANCHENKO DENIS YURIEVICH / БАНЧЕНКО ДЕНИС ЮРЬЕВИЧ | Co-Inventor / Соавтор | ...
@@ -686,7 +686,7 @@ Kazpatent_<Full_English_Name>_Patent
 
 ---
 
-### 📝 README TITLE FORMAT / ФОРМАТ ЗАГОЛОВКОВ README
+###  README TITLE FORMAT / ФОРМАТ ЗАГОЛОВКОВ README
 
 ```markdown
 # [EMOJI] Short Name EN / Short Name RU
@@ -695,31 +695,31 @@ Kazpatent_<Full_English_Name>_Patent
 > **Русский:** Полное русское название
 ```
 
-**✅ CORRECT EXAMPLES / ПРАВИЛЬНЫЕ ПРИМЕРЫ:**
+** CORRECT EXAMPLES / ПРАВИЛЬНЫЕ ПРИМЕРЫ:**
 
 ```markdown
-# 🧬 ASRP.art / ПНИР.Искусство
+#  ASRP.art / ПНИР.Искусство
 
 > **English:** Axionetic Sensing Reactions Platform in Art
 > **Русский:** Платформа ноогенетического измерения реакций на искусство
 ```
 
 ```markdown
-# 🔬 Fractal HFS / Фрактальная ГСФ
+#  Fractal HFS / Фрактальная ГСФ
 
 > **English:** Fractal Biomedical Hyperbolic Field System
 > **Русский:** Фрактальная биомедицинская система гиперболических полей
 ```
 
 ```markdown
-# 📊 GFS / ГСП
+#  GFS / ГСП
 
 > **English:** Global Forecasting System
 > **Русский:** Глобальная система прогнозирования
 ```
 
 ```markdown
-# 🧬 Biophotonic / Биофотонная
+#  Biophotonic / Биофотонная
 
 > **English:** Biophotonic Optical Neurodiagnostic System
 > **Русский:** Биофотонная оптическая нейродиагностическая система
@@ -727,22 +727,22 @@ Kazpatent_<Full_English_Name>_Patent
 
 ### Examples / Примеры:
 
-**✅ CORRECT / ПРАВИЛЬНО:**
+** CORRECT / ПРАВИЛЬНО:**
 ```markdown
-# 🧬 ASRP.art Patent Portfolio / Патентный Портфель ASRP.art
+#  ASRP.art Patent Portfolio / Патентный Портфель ASRP.art
 
 > **English:** Axionetic Sensing Reactions Platform in Art
 > **Русский:** Платформа аксионетического сенсоринга реакций на искусство
 ```
 
 ```markdown
-# 🔬 Fractal HFS Patent Portfolio / Патентный Портфель Fractal HFS
+#  Fractal HFS Patent Portfolio / Патентный Портфель Fractal HFS
 
 > **English:** Fractal Biomedical Hyperbolic Field System
 > **Русский:** Фрактальная биомедицинская система гиперболических полей
 ```
 
-**❌ WRONG / НЕПРАВИЛЬНО:**
+** WRONG / НЕПРАВИЛЬНО:**
 ```markdown
 # Kazpatent Patent Application: Fractal Biomedical Hyperbolic Field System
 ## Патентная заявка: Фрактальная Биомедицинская Система Гиперболических Полей
@@ -750,32 +750,32 @@ Kazpatent_<Full_English_Name>_Patent
 
 ---
 
-### 🎨 STANDARD EMOJIS / СТАНДАРТНЫЕ ЭМОДЗИ
+###  STANDARD EMOJIS / СТАНДАРТНЫЕ ЭМОДЗИ
 
 | Category / Категория | Emoji | Usage / Использование |
 |---------------------|-------|----------------------|
-| **Neuro/Brain** | 🧬 | ASRP.art (neuro-art analysis) |
-| **Medical/Bio** | 🔬 | Fractal HFS, Biophotonic |
-| **Forecast/Data** | 📊 | GFS |
-| **Patent** | 📋 | Applications, documents |
-| **Money** | 💰 | Payments, fees |
-| **Time** | 📅 | Timeline, deadlines |
-| **Upload** | 📥 | INBOX, uploads |
-| **Connection** | 🔗 | Project links |
+| **Neuro/Brain** |  | ASRP.art (neuro-art analysis) |
+| **Medical/Bio** |  | Fractal HFS, Biophotonic |
+| **Forecast/Data** |  | GFS |
+| **Patent** |  | Applications, documents |
+| **Money** |  | Payments, fees |
+| **Time** |  | Timeline, deadlines |
+| **Upload** |  | INBOX, uploads |
+| **Connection** |  | Project links |
 
 ---
 
-## ⚠️ CRITICAL DOCUMENT PRESERVATION RULE / КРИТИЧЕСКОЕ ПРАВИЛО СОХРАНЕНИЯ ДОКУМЕНТОВ
+##  CRITICAL DOCUMENT PRESERVATION RULE / КРИТИЧЕСКОЕ ПРАВИЛО СОХРАНЕНИЯ ДОКУМЕНТОВ
 
-### 🚫 NEVER DELETE DOCUMENTS / НИКОГДА НЕ УДАЛЯЙТЕ ДОКУМЕНТЫ
+###  NEVER DELETE DOCUMENTS / НИКОГДА НЕ УДАЛЯЙТЕ ДОКУМЕНТЫ
 
 **ABSOLUTE RULE / АБСОЛЮТНОЕ ПРАВИЛО:**
-- ❌ **NEVER** delete documents from repository / **НИКОГДА** не удаляйте документы из репозитория
-- ❌ **NEVER** remove files without explicit user confirmation / **НИКОГДА** не удаляйте файлы без явного подтверждения пользователя
-- ✅ **ALWAYS** preserve all uploaded documents / **ВСЕГДА** сохраняйте все загруженные документы
-- ✅ **ALWAYS** move to `archive/` if reorganization needed / **ВСЕГДА** перемещайте в `archive/` если нужна реорганизация
+-  **NEVER** delete documents from repository / **НИКОГДА** не удаляйте документы из репозитория
+-  **NEVER** remove files without explicit user confirmation / **НИКОГДА** не удаляйте файлы без явного подтверждения пользователя
+-  **ALWAYS** preserve all uploaded documents / **ВСЕГДА** сохраняйте все загруженные документы
+-  **ALWAYS** move to `archive/` if reorganization needed / **ВСЕГДА** перемещайте в `archive/` если нужна реорганизация
 
-### 📁 DOCUMENT REORGANIZATION / РЕОРГАНИЗАЦИЯ ДОКУМЕНТОВ
+###  DOCUMENT REORGANIZATION / РЕОРГАНИЗАЦИЯ ДОКУМЕНТОВ
 
 When restructuring folders / При реструктуризации папок:
 
@@ -791,59 +791,59 @@ When restructuring folders / При реструктуризации папок:
    - Old versions → `archive/versions/`
    - New versions → appropriate folders / Новые версии → соответствующие папки
 
-**💀 VIOLATION CONSEQUENCES / ПОСЛЕДСТВИЯ НАРУШЕНИЯ:**
+** VIOLATION CONSEQUENCES / ПОСЛЕДСТВИЯ НАРУШЕНИЯ:**
 - Loss of official patent documents / Потеря официальных патентных документов
 - Need to re-upload all documents / Необходимость повторной загрузки всех документов
 - Wasted hours of work / Потеря часов работы
 
 ---
 
-## 📁 STANDARD DIRECTORY STRUCTURE / СТАНДАРТНАЯ СТРУКТУРА КАТАЛОГОВ
+##  STANDARD DIRECTORY STRUCTURE / СТАНДАРТНАЯ СТРУКТУРА КАТАЛОГОВ
 
 ```
 Kazpatent_<ProjectName>_Patent/
 │
-├── 📄 ROOT FILES / КОРНЕВЫЕ ФАЙЛЫ
+├──  ROOT FILES / КОРНЕВЫЕ ФАЙЛЫ
 │   ├── README.md                      # Main repository description
 │   ├── DOCUMENT_INDEX_EN_RU.md        # Complete document registry
 │   ├── DOCUMENT_UPLOAD_TRACKER.md     # Upload status tracker
 │   └── .gitignore                     # Git ignore rules
 │
-├── 📂 docs/                           # CORE PATENT DOCUMENTS
+├──  docs/                           # CORE PATENT DOCUMENTS
 │   ├── applications/                  # Application forms (Заявления)
 │   ├── descriptions/                  # Description of invention (Описания)
 │   ├── claims/                        # Claims (Формула изобретения)
 │   ├── abstracts/                     # Abstracts (Рефераты)
 │   └── drawings/                      # Drawings/Figures (Чертежи)
 │
-├── 📂 correspondence/                 # OFFICIAL CORRESPONDENCE
+├──  correspondence/                 # OFFICIAL CORRESPONDENCE
 │   ├── incoming/                      # From Kazpatent (Входящие)
 │   └── outgoing/                      # From applicant (Исходящие)
 │
-├── 📂 payment-receipts/               # PAYMENT DOCUMENTS
+├──  payment-receipts/               # PAYMENT DOCUMENTS
 │   ├── filing-fees/                   # Filing fee receipts
 │   ├── exam-fees/                     # Examination fee receipts
 │   └── maintenance-fees/              # Maintenance fee receipts
 │
-├── 📂 legal/                          # LEGAL DOCUMENTS
+├──  legal/                          # LEGAL DOCUMENTS
 │   ├── assignments/                   # Rights assignments
 │   ├── licenses/                      # License agreements
 │   └── disputes/                      # Dispute documents
 │
-├── 📂 translations/                   # TRANSLATION DOCUMENTS
+├──  translations/                   # TRANSLATION DOCUMENTS
 │   ├── en/                            # English versions
 │   └── ru/                            # Russian versions
 │
-├── 📂 INBOX/                          # NEW DOCUMENTS (to be sorted)
+├──  INBOX/                          # NEW DOCUMENTS (to be sorted)
 │   └── .gitkeep                       # Placeholder
 │
-└── 📂 archive/                        # ARCHIVED DOCUMENTS (old versions)
+└──  archive/                        # ARCHIVED DOCUMENTS (old versions)
     └── .gitkeep                       # Placeholder
 ```
 
 ---
 
-## 📝 DOCUMENT NAMING CONVENTION / КОНВЕНЦИЯ ИМЕНОВАНИЯ ДОКУМЕНТОВ
+##  DOCUMENT NAMING CONVENTION / КОНВЕНЦИЯ ИМЕНОВАНИЯ ДОКУМЕНТОВ
 
 ### Format / Формат:
 ```
@@ -860,9 +860,9 @@ YYYY-MM-DD_DocumentType_ApplicationNumber_Version_Description_Language.ext
 
 ---
 
-## 🐛 GITHUB ISSUES & MILESTONES STANDARD / СТАНДАРТ ISSUE И ВЕХ
+##  GITHUB ISSUES & MILESTONES STANDARD / СТАНДАРТ ISSUE И ВЕХ
 
-### ⚠️ CRITICAL RULE / КРИТИЧЕСКОЕ ПРАВИЛО:
+###  CRITICAL RULE / КРИТИЧЕСКОЕ ПРАВИЛО:
 
 **ALL Issue titles MUST be bilingual (EN/RU) starting with English:**
 **ВСЕ названия Issue ДОЛЖНЫ быть двуязычными (EN/RU) начиная с английского:**
@@ -875,11 +875,11 @@ YYYY-MM-DD_DocumentType_ApplicationNumber_Version_Description_Language.ext
 
 | Category / Категория | Format / Формат | Example / Пример |
 |---------------------|-----------------|------------------|
-| **Application Documents** | `📋 Application: English / Русский` | `📋 Application: KZ 2025/1095.1 - Complete Application Package / Полный Пакет Заявки` |
-| **Formal Examination** | `🔍 Formal Exam: English / Русский` | `🔍 Formal Exam: Response to Query #1 / Ответ на Запрос #1` |
-| **Payment Documents** | `💰 Payment: English / Русский` | `💰 Payment: Filing Fee Receipt / Квитанция Пошлины` |
-| **Correspondence** | `📨 Correspondence: English / Русский` | `📨 Correspondence: Incoming from Kazpatent / Входящее от Казпатент` |
-| **Missing Documents** | `🔴 Missing: English / Русский` | `🔴 Missing: Payment Receipts / Квитанции об Оплате` |
+| **Application Documents** | ` Application: English / Русский` | ` Application: KZ 2025/1095.1 - Complete Application Package / Полный Пакет Заявки` |
+| **Formal Examination** | ` Formal Exam: English / Русский` | ` Formal Exam: Response to Query #1 / Ответ на Запрос #1` |
+| **Payment Documents** | ` Payment: English / Русский` | ` Payment: Filing Fee Receipt / Квитанция Пошлины` |
+| **Correspondence** | ` Correspondence: English / Русский` | ` Correspondence: Incoming from Kazpatent / Входящее от Казпатент` |
+| **Missing Documents** | ` Missing: English / Русский` | ` Missing: Payment Receipts / Квитанции об Оплате` |
 
 ### Milestone Naming / Названия Вех
 
@@ -904,17 +904,17 @@ Milestone N: English Title / Русский Название
 
 | Label / Метка | Color / Цвет | Description / Описание |
 |--------------|--------------|----------------------|
-| `📄 documents/документы` | #1D76DB | Document-related issues |
-| `💰 payment/оплата` | #2ECC71 | Payment receipts |
-| `🔍 examination/экспертиза` | #F39C12 | Examination process |
-| `📨 correspondence/переписка` | #9B59B6 | Official letters |
-| `🔴 missing/отсутствует` | #E74C3C | Missing documents |
-| `✅ complete/завершено` | #27AE60 | Completed tasks |
-| `⏳ pending/в ожидании` | #F1C40F | Pending actions |
+| ` documents/документы` | #1D76DB | Document-related issues |
+| ` payment/оплата` | #2ECC71 | Payment receipts |
+| ` examination/экспертиза` | #F39C12 | Examination process |
+| ` correspondence/переписка` | #9B59B6 | Official letters |
+| ` missing/отсутствует` | #E74C3C | Missing documents |
+| ` complete/завершено` | #27AE60 | Completed tasks |
+| ` pending/в ожидании` | #F1C40F | Pending actions |
 
 ---
 
-## 📊 DOCUMENT INDEX STRUCTURE / СТРУКТУРА ИНДЕКСА ДОКУМЕНТОВ
+##  DOCUMENT INDEX STRUCTURE / СТРУКТУРА ИНДЕКСА ДОКУМЕНТОВ
 
 Each `DOCUMENT_INDEX_EN_RU.md` must contain:
 
@@ -926,7 +926,7 @@ Each `DOCUMENT_INDEX_EN_RU.md` must contain:
 
 2. **Document Chronology Table / Хронологическая таблица:**
    - Grouped by date / Сгруппировано по датам
-   - Status indicators: ✅ Uploaded/Загружено, ⏳ Pending/Ожидается, 🔴 Missing/Отсутствует
+   - Status indicators:  Uploaded/Загружено,  Pending/Ожидается,  Missing/Отсутствует
 
 3. **Folder Structure Diagram / Диаграмма структуры папок**
 
@@ -937,7 +937,7 @@ Each `DOCUMENT_INDEX_EN_RU.md` must contain:
 
 ---
 
-## ✅ COMPLIANCE CHECKLIST / КОНТРОЛЬНЫЙ СПИСОК СООТВЕТСТВИЯ
+##  COMPLIANCE CHECKLIST / КОНТРОЛЬНЫЙ СПИСОК СООТВЕТСТВИЯ
 
 ### Directory Structure / Структура каталогов:
 - [ ] All repositories have identical root structure

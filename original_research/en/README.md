@@ -3,17 +3,17 @@ Experimental datasets, imaging results and analytical materials from blood plasm
 
 ## How to browse data
 
-1. **Select a patient** → table below, click on the number
-2. **Patient README** — main file:
+1. **Select a patient**→ table below, click on the number
+2. **Patient README**— main file:
    - Protocol (blood group, collection time, centrifugation, irradiation)
    - Sample table (ID, volume, collection time)
    - Photo table with PDF protocol mapping (file → page → caption → samples)
    - EXIF parameters for each photo
    - Photo descriptions (scene, number of samples, plasma morphology)
-3. **Photos** → `photos/jpg/` — JPG for browser viewing, `photos/original/` — original HEIC files
-4. **PDF protocol** → `protocol_part-*.pdf` — experiment checklist with photos
-5. **Structured data** → `analysis.json` — all README data in machine-readable format (including visual photo descriptions)
-6. **All-patient summary** → [`processed/all_patients.json`](../processed/en/all_patients.json)
+3. **Photos**→ `photos/jpg/` — JPG for browser viewing, `photos/original/` — original HEIC files
+4. **PDF protocol**→ `protocol_part-*.pdf` — experiment checklist with photos
+5. **Structured data**→ `analysis.json` — all README data in machine-readable format (including visual photo descriptions)
+6. **All-patient summary**→ [`processed/all_patients.json`](../processed/en/all_patients.json)
 
 ## Patients
 
@@ -51,8 +51,8 @@ Each plasma sample is identified by a code in the format **`{channel}.{patient}.
 | Component | Value | Description |
 |-----------|-------|-------------|
 | Channel | `0` | Control — no irradiation exposure |
-| | `19` | Exposure on **channel 19** |
-| | `21` | Exposure on **channel 21** |
+| | `19` | Exposure on **channel 19**|
+| | `21` | Exposure on **channel 21**|
 | Patient | `1`–`7` | Donor (subject) number |
 | Number | `1`, `2` | Sequential sample number of this type |
 
@@ -77,8 +77,8 @@ Each plasma sample is identified by a code in the format **`{channel}.{patient}.
 ## Experiment protocol
 
 General sequence for each patient:
-1. **Blood collection** — 4 tubes for centrifuge
-2. **Centrifugation** — 2000 rpm, 5 min
-3. **Plasma extraction** — distribution into sample tubes (control + irradiated)
-4. **Irradiation** — hyperbolic field exposure on channels 19 and 21
-5. **Documentation** — photos of samples before/during/after irradiation
+1. **Blood collection**— 4 tubes for centrifuge
+2. **Centrifugation**— 2000 rpm, 5 min
+3. **Plasma extraction**— distribution into sample tubes (control + irradiated)
+4. **Irradiation**— hyperbolic field exposure on channels 19 and 21
+5. **Documentation**— photos of samples before/during/after irradiation

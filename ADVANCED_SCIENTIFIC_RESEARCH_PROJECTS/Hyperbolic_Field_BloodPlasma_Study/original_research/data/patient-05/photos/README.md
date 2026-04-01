@@ -1,16 +1,16 @@
-# 📸 Patient 05 Photo Dataset
+#  Patient 05 Photo Dataset
 
 **Experiment Date: 2026-01-31 | Blood Group: no data | Total Photos: 10**
 
 ---
 
-## 🎯 NAVIGATION
+##  NAVIGATION
 
 [Dataset Info](#dataset-overview) | [Photo List](#photo-inventory) | [Protocol](../protocol_part-01.pdf) | [All Patients](../../README.md)
 
 ---
 
-## 📊 DATASET OVERVIEW
+##  DATASET OVERVIEW
 
 ```mermaid
 pie title Photo Distribution
@@ -21,39 +21,39 @@ pie title Photo Distribution
 
 | Metric | Value |
 |--------|-------|
-| **📸 Total Photos** | 10 images |
-| **🩸 Blood Group** | no data |
-| **🧪 Samples** | 3 (1 control, 1 ch19, 1 ch21) |
-| **⏰ Duration** | Night session |
+| ** Total Photos** | 10 images |
+| ** Blood Group** | no data |
+| ** Samples** | 3 (1 control, 1 ch19, 1 ch21) |
+| ** Duration** | Night session |
 
 ---
 
-## ⏰ TIMELINE
+##  TIMELINE
 
 ```mermaid
 timeline
     title Patient 05 Timeline
     section Night Session
-        Late Night : 🌙 Night Experiment
+        Late Night :  Night Experiment
     section Irradiation
-        Until 01:21:41 : ⚡ Hyperbolic Field
+        Until 01:21:41 :  Hyperbolic Field
     section Photography
-        01:37:50 — 01:47:10 : 📸 10 photos
+        01:37:50 — 01:47:10 :  10 photos
 ```
 
 ---
 
-## 🧪 SAMPLES
+##  SAMPLES
 
 | Sample ID | Type | Volume |
 |-----------|------|--------|
-| `0.5.1` | ⏸️ Control | 1.5 ml |
-| `19.5.1` | ⏩ Channel 19 | 1.5 ml |
-| `21.5.1` | ⏪ Channel 21 | 1.5 ml |
+| `0.5.1` |  Control | 1.5 ml |
+| `19.5.1` |  Channel 19 | 1.5 ml |
+| `21.5.1` |  Channel 21 | 1.5 ml |
 
 ---
 
-## 📁 PHOTO INVENTORY (10 photos)
+##  PHOTO INVENTORY (10 photos)
 
 | # | File | Time | Samples | PDF |
 |---|------|------|---------|-----|
@@ -70,7 +70,7 @@ timeline
 
 ---
 
-## 📄 PROTOCOL
+##  PROTOCOL
 
 | Parameter | Value |
 |-----------|-------|
@@ -81,7 +81,7 @@ timeline
 
 ---
 
-## 🔗 OTHER PATIENTS
+##  OTHER PATIENTS
 
 [P01](../../patient-01/) | [P02](../../patient-02/) | [P03](../../patient-03/) | [P04](../../patient-04/) | [P06](../../patient-06/) | [P07](../../patient-07/)
 

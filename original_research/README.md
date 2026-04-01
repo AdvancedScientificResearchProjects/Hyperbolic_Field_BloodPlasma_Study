@@ -13,7 +13,7 @@ original_research/
 ├── data/                          # Raw experimental data (7 patients, 101 photos)
 │   └── patient-XX/
 │       ├── photos/
-│       │   ├── original/          # HEIC (iPhone 16 Pro Max, 4032×3024)
+│       │   ├── original/          # HEIC (Smartphone camera / Камера смартфона, 4032×3024)
 │       │   └── jpg/               # JPG conversions
 │       ├── protocol_part-*.pdf    # Physical experiment protocols with embedded photos
 │       ├── metadata.json          # EXIF data
@@ -80,6 +80,6 @@ original_research/
 
 `{channel}.{patient}.{number}` — e.g. `19.2.1` = Channel 19, Patient 02, Sample 1
 
-- **Channel 0** — Control (no exposure)
-- **Channel 19** — Time-acceleration hyperbolic field
-- **Channel 21** — Time-deceleration hyperbolic field
+- **Channel 0**— Control (no exposure)
+- **Channel 19**— Time-acceleration hyperbolic field
+- **Channel 21**— Time-deceleration hyperbolic field

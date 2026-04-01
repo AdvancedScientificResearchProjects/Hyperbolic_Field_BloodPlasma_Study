@@ -1,41 +1,41 @@
-# 📸 Patient 06 Photo Dataset
+#  Patient 06 Photo Dataset
 
 **Experiment Date:** 2026-02-01 | **Blood Group:** I+ | **Total Photos:** 3
 
 ---
 
-## 🎯 NAVIGATION
+##  NAVIGATION
 
 [Info](#overview) | [Photos](#photo-inventory) | [Protocol](../protocol_part-01.pdf) | [All Patients](../../README.md) | [Data Hub](../../README.md)
 
 ---
 
-## 📊 OVERVIEW / ОБЗОР
+##  OVERVIEW / ОБЗОР
 
 ```mermaid
 pie title Photo Distribution
-    "⏸️ Control" : 1
-    "⏩ Channel 19" : 1
-    "⏪ Channel 21" : 1
+    " Control" : 1
+    " Channel 19" : 1
+    " Channel 21" : 1
 ```
 
 | Metric | Value |
 |--------|-------|
-| **📸 Photos** | 3 (smallest / самый маленький) |
-| **🩸 Blood** | I+ |
-| **🧪 Samples** | 6 (2 control, 2 ch19, 2 ch21) |
-| **⏰ Session** | Evening / Вечерняя |
+| ** Photos** | 3 (smallest / самый маленький) |
+| ** Blood** | I+ |
+| ** Samples** | 6 (2 control, 2 ch19, 2 ch21) |
+| ** Session** | Evening / Вечерняя |
 
 ---
 
-## 📈 CHANNEL METRICS
+##  CHANNEL METRICS
 
 ### Efficient Multi-Sample Coverage
 
 ```mermaid
 flowchart LR
-    A[📸 3 Photos] --> B[🧪 6 Samples]
-    B --> C[✅ 100% Coverage]
+    A[ 3 Photos] --> B[ 6 Samples]
+    B --> C[ 100% Coverage]
     
     style A fill:#ff6b6b
     style B fill:#4ecdc4
@@ -44,29 +44,27 @@ flowchart LR
 
 ### Photo Distribution
 
-```mermaid
-barChart
-    title Patient 06: Photos per Channel
-    x-axis "Channel"
-    y-axis "Count"
-    bar "⏸️ Control" : 1
-    bar "⏩ Ch19" : 1
-    bar "⏪ Ch21" : 1
-```
+**Patient 06: Photos per Channel**
+
+| Metric | Value |
+|---|---|
+|  Control | 1 |
+|  Ch19 | 1 |
+|  Ch21 | 1 |
 
 ---
 
-## 📁 PHOTOS (3)
+##  PHOTOS (3)
 
 | File | Time | Samples | Description | Preview |
 |------|------|---------|-------------|---------|
-| `IMG_3323` | 22:29:11 | 21.6.2, 19.6.2 | 1.5ml samples | [🖼️](jpg/IMG_3323.jpg) |
-| `IMG_3324` | 22:27:42 | All 6 | Complete set | [🖼️](jpg/IMG_3324.jpg) |
-| `IMG_3325` | 22:25:48 | 21.6.1, 0.6.1, 19.6.1 | 1ml samples | [🖼️](jpg/IMG_3325.jpg) |
+| `IMG_3323` | 22:29:11 | 21.6.2, 19.6.2 | 1.5ml samples | [](jpg/IMG_3323.jpg) |
+| `IMG_3324` | 22:27:42 | All 6 | Complete set | [](jpg/IMG_3324.jpg) |
+| `IMG_3325` | 22:25:48 | 21.6.1, 0.6.1, 19.6.1 | 1ml samples | [](jpg/IMG_3325.jpg) |
 
 ---
 
-## 🔗 OTHERS
+##  OTHERS
 
 [P01](../../patient-01/) | [P02](../../patient-02/) | [P03](../../patient-03/) | [P04](../../patient-04/) | [P05](../../patient-05/) | [P07](../../patient-07/)
 

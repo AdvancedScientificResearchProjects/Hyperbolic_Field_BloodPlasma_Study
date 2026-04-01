@@ -34,9 +34,9 @@ Where Y = sequential sample number of the given type.
 ## EXIF parameters
 | File (orig.) | Exposure | Aperture | ISO | Focal length | Camera | GPS |
 |-------------|----------|----------|-----|--------------|--------|-----|
-| `photos/original/IMG_3323.HEIC` | 1/99 | f/2.2 | no data | 2.22 mm | iPhone 16 Pro Max | no data |
-| `photos/original/IMG_3324.HEIC` | 1/50 | f/2.2 | no data | 2.22 mm | iPhone 16 Pro Max | no data |
-| `photos/original/IMG_3325.HEIC` | 1/171 | f/2.2 | no data | 2.22 mm | iPhone 16 Pro Max | no data |
+| `photos/original/IMG_3323.HEIC` | 1/99 | f/2.2 | no data | 2.22 mm | Smartphone camera / Камера смартфона | no data |
+| `photos/original/IMG_3324.HEIC` | 1/50 | f/2.2 | no data | 2.22 mm | Smartphone camera / Камера смартфона | no data |
+| `photos/original/IMG_3325.HEIC` | 1/171 | f/2.2 | no data | 2.22 mm | Smartphone camera / Камера смартфона | no data |
 
 ## Photo descriptions
 | File | Scene | Samples | Plasma |

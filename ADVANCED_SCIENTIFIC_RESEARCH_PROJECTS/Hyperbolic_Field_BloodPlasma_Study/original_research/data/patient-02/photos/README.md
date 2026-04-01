@@ -1,17 +1,17 @@
-# 📸 Patient 02 Photo Dataset
+#  Patient 02 Photo Dataset
 
 **Experiment Date: 2026-01-28 | Blood Group: III+ | Total Photos: 25**
 
 ---
 
-## 🎯 QUICK NAVIGATION
+##  QUICK NAVIGATION
 
 | [Dataset Info](#dataset-overview) | [Photo List](#photo-inventory) | [Protocol](../protocol_part-01.pdf) | [All Patients](../../README.md) |
 |-----------------------------------|--------------------------------|-------------------------------------|--------------------------------|
 
 ---
 
-## 📊 DATASET OVERVIEW
+##  DATASET OVERVIEW
 
 ```mermaid
 pie title Photo Distribution
@@ -23,44 +23,44 @@ pie title Photo Distribution
 
 | Metric | Value |
 |--------|-------|
-| **📸 Total Photos** | 25 images |
-| **🩸 Blood Group** | III+ |
-| **🧪 Samples** | 6 (2 control, 2 ch19, 2 ch21) |
-| **⏰ Duration** | ~1h 14min |
+| ** Total Photos** | 25 images |
+| ** Blood Group** | III+ |
+| ** Samples** | 6 (2 control, 2 ch19, 2 ch21) |
+| ** Duration** | ~1h 14min |
 
 ---
 
-## ⏰ EXPERIMENT TIMELINE
+##  EXPERIMENT TIMELINE
 
 ```mermaid
 timeline
     title Patient 02 Timeline
     section Blood Collection
-        19:50:50 — 19:54:16 : 🩸 Blood Draw
+        19:50:50 — 19:54:16 :  Blood Draw
     section Centrifugation
-        19:54:10 — 20:00:10 : 🔄 Centrifuge
+        19:54:10 — 20:00:10 :  Centrifuge
     section Irradiation
-        20:09:50 — 21:24:10 : ⚡ Hyperbolic Field
+        20:09:50 — 21:24:10 :  Hyperbolic Field
     section Photography
-        21:29:19 — Next Day : 📸 25 photos
+        21:29:19 — Next Day :  25 photos
 ```
 
 ---
 
-## 🧪 SAMPLES
+##  SAMPLES
 
 | Sample ID | Type | Volume | Time |
 |-----------|------|--------|------|
-| `0.2.1` | ⏸️ Control | 1.5 ml | 20:06:05 |
-| `0.2.2` | ⏸️ Control | 1.0 ml | 20:06:19 |
-| `19.2.1` | ⏩ Channel 19 | 1.5 ml | 20:05:35 |
-| `19.2.2` | ⏩ Channel 19 | 1.0 ml | 20:05:55 |
-| `21.2.1` | ⏪ Channel 21 | 1.5 ml | 20:05:05 |
-| `21.2.2` | ⏪ Channel 21 | 1.0 ml | 20:05:25 |
+| `0.2.1` |  Control | 1.5 ml | 20:06:05 |
+| `0.2.2` |  Control | 1.0 ml | 20:06:19 |
+| `19.2.1` |  Channel 19 | 1.5 ml | 20:05:35 |
+| `19.2.2` |  Channel 19 | 1.0 ml | 20:05:55 |
+| `21.2.1` |  Channel 21 | 1.5 ml | 20:05:05 |
+| `21.2.2` |  Channel 21 | 1.0 ml | 20:05:25 |
 
 ---
 
-## 📁 PHOTO INVENTORY (25 photos)
+##  PHOTO INVENTORY (25 photos)
 
 | # | File | Time | Samples | PDF |
 |---|------|------|---------|-----|
@@ -92,7 +92,7 @@ timeline
 
 ---
 
-## 📄 PROTOCOL
+##  PROTOCOL
 
 | Parameter | Value |
 |-----------|-------|
@@ -108,7 +108,7 @@ timeline
 
 ---
 
-## 🔗 OTHER PATIENTS
+##  OTHER PATIENTS
 
 | Patient | Photos | Link |
 |---------|--------|------|

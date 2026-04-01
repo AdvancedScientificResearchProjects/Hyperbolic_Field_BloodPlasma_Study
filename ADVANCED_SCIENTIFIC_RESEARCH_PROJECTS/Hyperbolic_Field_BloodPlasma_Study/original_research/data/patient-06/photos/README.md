@@ -1,16 +1,16 @@
-# 📸 Patient 06 Photo Dataset
+#  Patient 06 Photo Dataset
 
 **Experiment Date: 2026-02-01 | Blood Group: I+ | Total Photos: 3**
 
 ---
 
-## 🎯 NAVIGATION
+##  NAVIGATION
 
 [Dataset Info](#dataset-overview) | [Photo List](#photo-inventory) | [Protocol](../protocol_part-01.pdf) | [All Patients](../../README.md)
 
 ---
 
-## 📊 DATASET OVERVIEW
+##  DATASET OVERVIEW
 
 ```mermaid
 pie title Photo Distribution
@@ -21,42 +21,42 @@ pie title Photo Distribution
 
 | Metric | Value |
 |--------|-------|
-| **📸 Total Photos** | 3 images |
-| **🩸 Blood Group** | I+ |
-| **🧪 Samples** | 6 (2 control, 2 ch19, 2 ch21) |
-| **⏰ Duration** | Evening session |
+| ** Total Photos** | 3 images |
+| ** Blood Group** | I+ |
+| ** Samples** | 6 (2 control, 2 ch19, 2 ch21) |
+| ** Duration** | Evening session |
 
 ---
 
-## ⏰ TIMELINE
+##  TIMELINE
 
 ```mermaid
 timeline
     title Patient 06 Timeline
     section Evening Session
-        Evening : 🌙 Evening Experiment
+        Evening :  Evening Experiment
     section Irradiation
-        Until 22:17:03 : ⚡ Hyperbolic Field
+        Until 22:17:03 :  Hyperbolic Field
     section Photography
-        22:25:48 — 22:29:11 : 📸 3 photos
+        22:25:48 — 22:29:11 :  3 photos
 ```
 
 ---
 
-## 🧪 SAMPLES
+##  SAMPLES
 
 | Sample ID | Type | Volume |
 |-----------|------|--------|
-| `0.6.1` | ⏸️ Control | 1 ml |
-| `0.6.2` | ⏸️ Control | 1.5 ml |
-| `19.6.1` | ⏩ Channel 19 | 1 ml |
-| `19.6.2` | ⏩ Channel 19 | 1.5 ml |
-| `21.6.1` | ⏪ Channel 21 | 1 ml |
-| `21.6.2` | ⏪ Channel 21 | 1.5 ml |
+| `0.6.1` |  Control | 1 ml |
+| `0.6.2` |  Control | 1.5 ml |
+| `19.6.1` |  Channel 19 | 1 ml |
+| `19.6.2` |  Channel 19 | 1.5 ml |
+| `21.6.1` |  Channel 21 | 1 ml |
+| `21.6.2` |  Channel 21 | 1.5 ml |
 
 ---
 
-## 📁 PHOTO INVENTORY (3 photos)
+##  PHOTO INVENTORY (3 photos)
 
 | # | File | Time | Samples | PDF |
 |---|------|------|---------|-----|
@@ -68,7 +68,7 @@ timeline
 
 ---
 
-## 📄 PROTOCOL
+##  PROTOCOL
 
 | Parameter | Value |
 |-----------|-------|
@@ -77,7 +77,7 @@ timeline
 
 ---
 
-## 🔗 OTHER PATIENTS
+##  OTHER PATIENTS
 
 [P01](../../patient-01/) | [P02](../../patient-02/) | [P03](../../patient-03/) | [P04](../../patient-04/) | [P05](../../patient-05/) | [P07](../../patient-07/)
 

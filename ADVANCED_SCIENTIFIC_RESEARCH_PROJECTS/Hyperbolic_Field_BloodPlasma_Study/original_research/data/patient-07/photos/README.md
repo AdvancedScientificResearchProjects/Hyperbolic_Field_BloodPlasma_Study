@@ -1,16 +1,16 @@
-# 📸 Patient 07 Photo Dataset
+#  Patient 07 Photo Dataset
 
 **Experiment Date: 2026-02-07 | Blood Group: no data | Total Photos: 30**
 
 ---
 
-## 🎯 NAVIGATION
+##  NAVIGATION
 
 [Dataset Info](#dataset-overview) | [Photo List](#photo-inventory) | [Protocol](../protocol_part-01.pdf) | [All Patients](../../README.md)
 
 ---
 
-## 📊 DATASET OVERVIEW
+##  DATASET OVERVIEW
 
 ```mermaid
 pie title Photo Distribution
@@ -22,44 +22,44 @@ pie title Photo Distribution
 
 | Metric | Value |
 |--------|-------|
-| **📸 Total Photos** | 30 images |
-| **🩸 Blood Group** | no data |
-| **🧪 Samples** | 6 (2 control, 2 ch19, 2 ch21) |
-| **⏰ Duration** | ~1h 21min |
+| ** Total Photos** | 30 images |
+| ** Blood Group** | no data |
+| ** Samples** | 6 (2 control, 2 ch19, 2 ch21) |
+| ** Duration** | ~1h 21min |
 
 ---
 
-## ⏰ TIMELINE
+##  TIMELINE
 
 ```mermaid
 timeline
     title Patient 07 Timeline
     section Blood Collection
-        19:57:47 — 20:03:17 : 🩸 Blood Draw
+        19:57:47 — 20:03:17 :  Blood Draw
     section Centrifugation
-        20:03:45 — 20:09:15 : 🔄 Centrifuge
+        20:03:45 — 20:09:15 :  Centrifuge
     section Irradiation
-        20:15:10 — 21:36:07 : ⚡ Hyperbolic Field
+        20:15:10 — 21:36:07 :  Hyperbolic Field
     section Photography
-        19:58:17 — 20:34:35 : 📸 30 photos
+        19:58:17 — 20:34:35 :  30 photos
 ```
 
 ---
 
-## 🧪 SAMPLES
+##  SAMPLES
 
 | Sample ID | Type | Volume | Time |
 |-----------|------|--------|------|
-| `0.7.1` | ⏸️ Control | 1 ml | 20:10:41 |
-| `0.7.2` | ⏸️ Control | 1.5 ml | 20:09:59 |
-| `19.7.1` | ⏩ Channel 19 | 1.5 ml | 20:10:15 |
-| `19.7.2` | ⏩ Channel 19 | 1 ml | 20:11:31 |
-| `21.7.1` | ⏪ Channel 21 | 1.5 ml | 20:11:07 |
-| `21.7.2` | ⏪ Channel 21 | 1 ml | 20:11:56 |
+| `0.7.1` |  Control | 1 ml | 20:10:41 |
+| `0.7.2` |  Control | 1.5 ml | 20:09:59 |
+| `19.7.1` |  Channel 19 | 1.5 ml | 20:10:15 |
+| `19.7.2` |  Channel 19 | 1 ml | 20:11:31 |
+| `21.7.1` |  Channel 21 | 1.5 ml | 20:11:07 |
+| `21.7.2` |  Channel 21 | 1 ml | 20:11:56 |
 
 ---
 
-## 📁 PHOTO INVENTORY (30 photos)
+##  PHOTO INVENTORY (30 photos)
 
 ### Part 1
 
@@ -103,7 +103,7 @@ timeline
 
 ---
 
-## 📄 PROTOCOL
+##  PROTOCOL
 
 | Parameter | Value |
 |-----------|-------|
@@ -114,7 +114,7 @@ timeline
 
 ---
 
-## 🔗 OTHER PATIENTS
+##  OTHER PATIENTS
 
 [P01](../../patient-01/) | [P02](../../patient-02/) | [P03](../../patient-03/) | [P04](../../patient-04/) | [P05](../../patient-05/) | [P06](../../patient-06/)
 

@@ -42,19 +42,19 @@ Where Y = sequential sample number of the given type.
 ## EXIF parameters
 | File (orig.) | Exposure | Aperture | ISO | Focal length | Camera | GPS |
 |-------------|----------|----------|-----|--------------|--------|-----|
-| `photos/original/IMG_3250.HEIC` | 1/3125 | f/2.2 | 40 | 2.22 mm | iPhone 16 Pro Max | no data |
-| `photos/original/IMG_3251.HEIC` | 1/4065 | f/2.2 | 40 | 2.22 mm | iPhone 16 Pro Max | no data |
-| `photos/original/IMG_3252.HEIC` | 1/4065 | f/2.2 | 40 | 2.22 mm | iPhone 16 Pro Max | no data |
-| `photos/original/IMG_3253.HEIC` | 1/99 | f/2.2 | 100 | 2.22 mm | iPhone 16 Pro Max | no data |
-| `photos/original/IMG_3254.HEIC` | 1/437 | f/2.2 | 40 | 2.22 mm | iPhone 16 Pro Max | no data |
-| `photos/original/IMG_3255.HEIC` | 1/99 | f/2.2 | 64 | 2.22 mm | iPhone 16 Pro Max | no data |
-| `photos/original/IMG_3256.HEIC` | 1/124 | f/2.2 | 40 | 2.22 mm | iPhone 16 Pro Max | no data |
-| `photos/original/IMG_3257.HEIC` | 1/243 | f/2.2 | 40 | 2.22 mm | iPhone 16 Pro Max | no data |
-| `photos/original/IMG_3258.HEIC` | 1/100 | f/2.2 | 500 | 2.22 mm | iPhone 16 Pro Max | no data |
-| `photos/original/IMG_3259.HEIC` | 1/229 | f/2.2 | 40 | 2.22 mm | iPhone 16 Pro Max | no data |
-| `photos/original/IMG_3260.HEIC` | 1/150 | f/2.2 | 12 | 2.22 mm | iPhone 16 Pro Max | no data |
-| `photos/original/IMG_3261.HEIC` | 1/706 | f/2.2 | 12 | 2.22 mm | iPhone 16 Pro Max | no data |
-| `photos/original/IMG_3262.HEIC` | 1/100 | f/2.2 | 250 | 2.22 mm | iPhone 16 Pro Max | no data |
+| `photos/original/IMG_3250.HEIC` | 1/3125 | f/2.2 | 40 | 2.22 mm | Smartphone camera / Камера смартфона | no data |
+| `photos/original/IMG_3251.HEIC` | 1/4065 | f/2.2 | 40 | 2.22 mm | Smartphone camera / Камера смартфона | no data |
+| `photos/original/IMG_3252.HEIC` | 1/4065 | f/2.2 | 40 | 2.22 mm | Smartphone camera / Камера смартфона | no data |
+| `photos/original/IMG_3253.HEIC` | 1/99 | f/2.2 | 100 | 2.22 mm | Smartphone camera / Камера смартфона | no data |
+| `photos/original/IMG_3254.HEIC` | 1/437 | f/2.2 | 40 | 2.22 mm | Smartphone camera / Камера смартфона | no data |
+| `photos/original/IMG_3255.HEIC` | 1/99 | f/2.2 | 64 | 2.22 mm | Smartphone camera / Камера смартфона | no data |
+| `photos/original/IMG_3256.HEIC` | 1/124 | f/2.2 | 40 | 2.22 mm | Smartphone camera / Камера смартфона | no data |
+| `photos/original/IMG_3257.HEIC` | 1/243 | f/2.2 | 40 | 2.22 mm | Smartphone camera / Камера смартфона | no data |
+| `photos/original/IMG_3258.HEIC` | 1/100 | f/2.2 | 500 | 2.22 mm | Smartphone camera / Камера смартфона | no data |
+| `photos/original/IMG_3259.HEIC` | 1/229 | f/2.2 | 40 | 2.22 mm | Smartphone camera / Камера смартфона | no data |
+| `photos/original/IMG_3260.HEIC` | 1/150 | f/2.2 | 12 | 2.22 mm | Smartphone camera / Камера смартфона | no data |
+| `photos/original/IMG_3261.HEIC` | 1/706 | f/2.2 | 12 | 2.22 mm | Smartphone camera / Камера смартфона | no data |
+| `photos/original/IMG_3262.HEIC` | 1/100 | f/2.2 | 250 | 2.22 mm | Smartphone camera / Камера смартфона | no data |
 
 ## Photo descriptions
 | File | Scene | Samples | Plasma |
