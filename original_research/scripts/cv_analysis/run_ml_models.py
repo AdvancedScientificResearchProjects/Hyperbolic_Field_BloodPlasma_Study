@@ -15,6 +15,9 @@ import time
 from collections import Counter
 from pathlib import Path
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
 from ml_models import (
     run_dinov2,
     run_siglip2,

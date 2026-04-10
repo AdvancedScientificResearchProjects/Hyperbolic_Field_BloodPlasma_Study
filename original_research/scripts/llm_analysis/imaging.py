@@ -1,7 +1,6 @@
 """Image loading and base64 encoding for LLM vision APIs."""
 
 import base64
-import io
 import logging
 from pathlib import Path
 

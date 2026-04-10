@@ -7,11 +7,8 @@ import numpy as np
 from pathlib import Path
 
 OUT = Path(__file__).parent
-DATA = Path(__file__).parents[2] / "processed" / ".." / ".." / "asrp.science-llm" / "scripts" / "experiment_results"
 
-# Find latest results
-results_files = sorted(Path("/home/liker/projects/ai-research/asrp.science-llm/scripts/experiment_results").glob("results_*.json"))
-with open(results_files[-1]) as f:
+with open(Path(__file__).parent / "results.json") as f:
     data = json.load(f)
 
 agg = data["channel_aggregates"]

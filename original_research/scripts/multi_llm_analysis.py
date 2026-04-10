@@ -756,8 +756,8 @@ def build_results_json(claude, chatgpt, gemini,
 def main():
     print("Loading data...")
     claude, claude_existing_stats = load_claude()
-    chatgpt = load_external(CHATGPT_FILE)
-    gemini = load_external(GEMINI_FILE)
+    chatgpt = load_external(CHATGPT_FILE) if CHATGPT_FILE.exists() else []
+    gemini = load_external(GEMINI_FILE) if GEMINI_FILE.exists() else []
 
     print(f"  Claude:  {len(claude)} photos")
     print(f"  ChatGPT: {len(chatgpt)} photos")

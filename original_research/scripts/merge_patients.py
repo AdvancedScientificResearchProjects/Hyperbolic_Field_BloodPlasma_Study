@@ -38,7 +38,7 @@ METADATA = {
 
 def main():
     parser = argparse.ArgumentParser(description="Merge patient analysis.json files")
-    parser.add_argument("--lang", choices=["en", "ru"], default="ru", help="Language version (default: ru)")
+    parser.add_argument("--lang", choices=["en", "ru"], default="en", help="Language version (default: ru)")
     args = parser.parse_args()
 
     lang = args.lang
