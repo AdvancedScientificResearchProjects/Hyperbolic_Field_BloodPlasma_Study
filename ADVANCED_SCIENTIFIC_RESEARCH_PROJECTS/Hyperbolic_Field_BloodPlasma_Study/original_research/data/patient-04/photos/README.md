@@ -6,7 +6,7 @@
 
 ##  NAVIGATION
 
-[Dataset Info](#dataset-overview) | [Photo List](#photo-inventory) | [Protocol](../protocol_part-01.pdf) | [All Patients](../../README.md)
+[Dataset Info](#dataset-overview) | [Photo List](#photo-inventory) | [Protocol](../../../../../../original_research/data/patient-04/protocol_part-01.pdf) | [All Patients](../../README.md)
 
 ---
 

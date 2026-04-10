@@ -8,8 +8,8 @@
 
 |  **Overview** |  **Files** |  **Protocol** |  **Links** |
 |-----------------|--------------|-----------------|--------------|
-| [Dataset Info](#dataset-overview) | [Photo List](#photo-inventory) | [Protocol](#experiment-protocol) | [Back to Main](../../../README.md) |
-| [Timeline](#experiment-timeline) | [Samples](#samples) | [PDF](../protocol_part-01.pdf) | [All Patients](../../README.md) |
+| [Dataset Info](#dataset-overview) | [Photo List](#photo-inventory) | [Protocol](#experiment-protocol) | [Back to Main](../../../../README.md) |
+| [Timeline](#experiment-timeline) | [Samples](#samples) | [PDF](../../../../../../original_research/data/patient-01/protocol_part-01.pdf) | [All Patients](../../README.md) |
 
 ---
 
@@ -91,8 +91,8 @@ timeline
 | **Temperature** | 17°C constant |
 
 ### Protocol PDFs
-- [ protocol_part-01.pdf](../protocol_part-01.pdf) (~93 MB)
-- [ protocol_part-02.pdf](../protocol_part-02.pdf) (~38 MB)
+- [ protocol_part-01.pdf](../../../../../../original_research/data/patient-01/protocol_part-01.pdf) (~93 MB)
+- [ protocol_part-02.pdf](../../../../../../original_research/data/patient-01/protocol_part-02.pdf) (~38 MB)
 
 ---
 

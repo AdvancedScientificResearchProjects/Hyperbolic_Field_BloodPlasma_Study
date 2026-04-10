@@ -8,7 +8,7 @@
 
 |  **Patients** |  **Statistics** |  **Protocols** |
 |-----------------|-------------------|------------------|
-| [All Patients](#patient-datasets) | [Dataset Stats](#dataset-statistics) | [Protocol](../original_research/reports/experiment_protocol_en.md) |
+| [All Patients](#patient-datasets) | [Dataset Stats](#dataset-statistics) | [Protocol](../../../../original_research/reports/experiment_protocol_en.md) |
 
 ---
 
@@ -70,9 +70,9 @@ timeline
 
 | Resource | Link |
 |----------|------|
-| ** Main README** | [View](../README.md) |
-| ** Original Research** | [View](../original_research/) |
-| ** Reports** | [View](../original_research/reports/) |
+| ** Main README** | [View](../../../../README.md) |
+| ** Original Research** | [View](../../../../original_research/) |
+| ** Reports** | [View](../../../../original_research/reports/) |
 
 ---
 

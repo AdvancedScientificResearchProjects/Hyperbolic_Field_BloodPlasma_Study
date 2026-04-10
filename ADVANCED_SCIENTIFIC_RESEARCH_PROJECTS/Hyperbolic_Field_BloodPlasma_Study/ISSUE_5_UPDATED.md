@@ -165,11 +165,11 @@ flowchart LR
 
 | Data Type / Тип Данных | Location / Расположение | Direct Link / Прямая Ссылка |
 |------------------------|-------------------------|----------------------------|
-| **Raw Biochemical Data / Сырые Биохимические Данные** | `data/biochemical/` | [ View](data/biochemical/) |
-| **Processed Data / Обработанные Данные** | `processed/biochemical/` | [ View](processed/biochemical/) |
-| **Analysis Scripts / Скрипты Анализа** | `scripts/biochemical_analysis.py` | [ View](original_research/scripts/biochemical_analysis.py) |
-| **Results / Результаты** | `results/biochemical/` | [ View](results/biochemical/) |
-| **Reports / Отчёты** | `reports/biochemical_integration/` | [ View](original_research/reports/biochemical_integration/) |
+| **Raw Biochemical Data / Сырые Биохимические Данные** | `data/biochemical/` | [ View (planned)](data/biochemical/) |
+| **Processed Data / Обработанные Данные** | `processed/biochemical/` | [ View (planned)](processed/biochemical/) |
+| **Analysis Scripts / Скрипты Анализа** | `scripts/biochemical_analysis.py` | [ View (planned)](../../original_research/scripts/biochemical_analysis.py) |
+| **Results / Результаты** | `results/biochemical/` | [ View (planned)](results/biochemical/) |
+| **Reports / Отчёты** | `reports/biochemical_integration/` | [ View (planned)](../../original_research/reports/biochemical_integration/) |
 
 ### РУССКИЙ
 
@@ -177,11 +177,11 @@ flowchart LR
 
 | Тип Данных | Расположение | Прямая Ссылка |
 |-----------|-------------|--------------|
-| **Сырые Биохимические Данные** | `data/biochemical/` | [ Просмотр](data/biochemical/) |
-| **Обработанные Данные** | `processed/biochemical/` | [ Просмотр](processed/biochemical/) |
-| **Скрипты Анализа** | `scripts/biochemical_analysis.py` | [ Просмотр](original_research/scripts/biochemical_analysis.py) |
-| **Результаты** | `results/biochemical/` | [ Просмотр](results/biochemical/) |
-| **Отчёты** | `reports/biochemical_integration/` | [ Просмотр](original_research/reports/biochemical_integration/) |
+| **Сырые Биохимические Данные** | `data/biochemical/` | [ Просмотр (planned)](data/biochemical/) |
+| **Обработанные Данные** | `processed/biochemical/` | [ Просмотр (planned)](processed/biochemical/) |
+| **Скрипты Анализа** | `scripts/biochemical_analysis.py` | [ Просмотр (planned)](../../original_research/scripts/biochemical_analysis.py) |
+| **Результаты** | `results/biochemical/` | [ Просмотр (planned)](results/biochemical/) |
+| **Отчёты** | `reports/biochemical_integration/` | [ Просмотр (planned)](../../original_research/reports/biochemical_integration/) |
 
 ---
 
@@ -225,8 +225,8 @@ flowchart LR
 
 | # | Report / Отчёт | Date / Дата | Status / Статус | Direct Link / Прямая Ссылка |
 |---|----------------|-------------|-----------------|----------------------------|
-| 1 | ** Biochemical Analysis Protocol / Протокол Биохимического Анализа** | 2026-03 |  In Progress | [ EN](original_research/reports/biochemical_protocol_en.md) \| [ RU](original_research/reports/biochemical_protocol_ru.md) |
-| 2 | ** Correlation Analysis / Корреляционный Анализ** | 2026-03 |  In Progress | [ EN](original_research/reports/correlation_analysis_en.md) \| [ RU](original_research/reports/correlation_analysis_ru.md) |
+| 1 | ** Biochemical Analysis Protocol / Протокол Биохимического Анализа** | 2026-03 |  In Progress | [ EN (planned)](../../original_research/reports/biochemical_protocol_en.md) \| [ RU (planned)](../../original_research/reports/biochemical_protocol_ru.md) |
+| 2 | ** Correlation Analysis / Корреляционный Анализ** | 2026-03 |  In Progress | [ EN (planned)](../../original_research/reports/correlation_analysis_en.md) \| [ RU (planned)](../../original_research/reports/correlation_analysis_ru.md) |
 
 ---
 

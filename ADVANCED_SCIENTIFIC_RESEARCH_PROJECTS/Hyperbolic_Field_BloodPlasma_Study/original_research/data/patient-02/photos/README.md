@@ -6,7 +6,7 @@
 
 ##  QUICK NAVIGATION
 
-| [Dataset Info](#dataset-overview) | [Photo List](#photo-inventory) | [Protocol](../protocol_part-01.pdf) | [All Patients](../../README.md) |
+| [Dataset Info](#dataset-overview) | [Photo List](#photo-inventory) | [Protocol](../../../../../../original_research/data/patient-02/protocol_part-01.pdf) | [All Patients](../../README.md) |
 |-----------------------------------|--------------------------------|-------------------------------------|--------------------------------|
 
 ---
@@ -102,9 +102,9 @@ timeline
 | **Irradiation** | 20:09:50 — 21:24:10 |
 
 ### PDFs
-- [protocol_part-01.pdf](../protocol_part-01.pdf)
-- [protocol_part-02.pdf](../protocol_part-02.pdf)
-- [protocol_part-03.pdf](../protocol_part-03.pdf)
+- [protocol_part-01.pdf](../../../../../../original_research/data/patient-02/protocol_part-01.pdf)
+- [protocol_part-02.pdf](../../../../../../original_research/data/patient-02/protocol_part-02.pdf)
+- [protocol_part-03.pdf](../../../../../../original_research/data/patient-02/protocol_part-03.pdf)
 
 ---
 

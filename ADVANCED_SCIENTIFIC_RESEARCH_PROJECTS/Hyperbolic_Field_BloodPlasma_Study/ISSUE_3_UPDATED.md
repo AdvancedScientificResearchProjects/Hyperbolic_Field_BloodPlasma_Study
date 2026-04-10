@@ -178,13 +178,13 @@ flowchart TD
 
 | Patient / Пациент | Photos / Фото | Samples / Образцы | Direct Link / Прямая Ссылка |
 |-------------------|---------------|-------------------|----------------------------|
-| **Patient 01 / Пациент 01** | 13 | 0.1.1, 0.1.2, 19.1.1, 21.1.1 | [ View Photos](original_research/data/patient-01/photos/) |
-| **Patient 02 / Пациент 02** | 25 | 0.2.1, 0.2.2, 19.2.1, 19.2.2, 21.2.1, 21.2.2 | [ View Photos](original_research/data/patient-02/photos/) |
-| **Patient 03 / Пациент 03** | 16 | 0.3.1, 0.3.2, 19.3.1, 21.3.1 | [ View Photos](original_research/data/patient-03/photos/) |
-| **Patient 04 / Пациент 04** | 4 | 0.4.1, 0.4.2, 19.4.1, 21.4.1 | [ View Photos](original_research/data/patient-04/photos/) |
-| **Patient 05 / Пациент 05** | 10 | 0.5.1, 19.5.1, 21.5.1 | [ View Photos](original_research/data/patient-05/photos/) |
-| **Patient 06 / Пациент 06** | 3 | 0.6.1, 0.6.2, 19.6.1, 21.6.1, 19.6.2, 21.6.2 | [ View Photos](original_research/data/patient-06/photos/) |
-| **Patient 07 / Пациент 07** | 30 | 0.7.1, 0.7.2, 19.7.1, 21.7.1, 19.7.2, 21.7.2 | [ View Photos](original_research/data/patient-07/photos/) |
+| **Patient 01 / Пациент 01** | 13 | 0.1.1, 0.1.2, 19.1.1, 21.1.1 | [ View Photos](../../original_research/data/patient-01/photos/) |
+| **Patient 02 / Пациент 02** | 25 | 0.2.1, 0.2.2, 19.2.1, 19.2.2, 21.2.1, 21.2.2 | [ View Photos](../../original_research/data/patient-02/photos/) |
+| **Patient 03 / Пациент 03** | 16 | 0.3.1, 0.3.2, 19.3.1, 21.3.1 | [ View Photos](../../original_research/data/patient-03/photos/) |
+| **Patient 04 / Пациент 04** | 4 | 0.4.1, 0.4.2, 19.4.1, 21.4.1 | [ View Photos](../../original_research/data/patient-04/photos/) |
+| **Patient 05 / Пациент 05** | 10 | 0.5.1, 19.5.1, 21.5.1 | [ View Photos](../../original_research/data/patient-05/photos/) |
+| **Patient 06 / Пациент 06** | 3 | 0.6.1, 0.6.2, 19.6.1, 21.6.1, 19.6.2, 21.6.2 | [ View Photos](../../original_research/data/patient-06/photos/) |
+| **Patient 07 / Пациент 07** | 30 | 0.7.1, 0.7.2, 19.7.1, 21.7.1, 19.7.2, 21.7.2 | [ View Photos](../../original_research/data/patient-07/photos/) |
 
 **TOTAL / ВСЕГО:** 101 photographs / 101 фотография
 
@@ -192,9 +192,9 @@ flowchart TD
 
 | Document / Документ | Language / Язык | Direct Link / Прямая Ссылка |
 |---------------------|-----------------|----------------------------|
-| ** Experiment Protocol / Протокол Эксперимента** | [ EN](original_research/reports/experiment_protocol_en.md) \| [ RU](original_research/reports/experiment_protocol_ru.md) | [View Protocol](original_research/reports/experiment_protocol_en.md) |
-| ** Patient Summary / Сводка по Пациентам** | EN/RU | [View Summary](processed/en/all_patients.json) |
-| ** Analysis Results / Результаты Анализа** | EN/RU | [View Results](original_research/reports/2026-02-25_ai-analysis/) |
+| ** Experiment Protocol / Протокол Эксперимента** | [ EN](../../original_research/reports/experiment_protocol_en.md) \| [ RU](../../original_research/reports/experiment_protocol_ru.md) | [View Protocol](../../original_research/reports/experiment_protocol_en.md) |
+| ** Patient Summary / Сводка по Пациентам** | EN/RU | [View Summary](../../original_research/processed/en/all_patients.json) |
+| ** Analysis Results / Результаты Анализа** | EN/RU | [View Results](../../original_research/reports/2026-02-25_ai-analysis/) |
 
 ---
 
@@ -204,11 +204,11 @@ flowchart TD
 
 | # | Report / Отчёт | Date / Дата | Status / Статус | Direct Link / Прямая Ссылка |
 |---|----------------|-------------|-----------------|----------------------------|
-| 1 | ** Experiment Protocol / Протокол Эксперимента** | 2026-02 |  Complete | [ EN](original_research/reports/experiment_protocol_en.md) \| [ RU](original_research/reports/experiment_protocol_ru.md) |
-| 2 | ** Multi-AI Image Analysis / Мультипровайдерный AI-анализ** | 2026-02-25 |  Complete | [ EN](original_research/reports/2026-02-25_ai-analysis/) \| [ RU](original_research/reports/2026-02-25_ai-analysis/) |
-| 3 | ** LLM Vision Clot Analysis / LLM Vision Анализ Сгустков** | 2026-02-26 |  Complete | [ EN](original_research/reports/2026-02-26_llm-vision-analysis/) \| [ RU](original_research/reports/2026-02-26_llm-vision-analysis/) |
-| 4 | ** Comparative LLM Analysis / Сравнительный Анализ LLM** | 2026-03-12 |  Complete | [ EN](original_research/reports/2026-03-12_comparative/) \| [ RU](original_research/reports/2026-03-12_comparative/) |
-| 5 | ** CV/ML Analysis / Computer Vision + ML Анализ** | 2026-03-14 |  Complete | [ EN](original_research/reports/2026-03-14_cv-ml-analysis/) \| [ RU](original_research/reports/2026-03-14_cv-ml-analysis/) |
+| 1 | ** Experiment Protocol / Протокол Эксперимента** | 2026-02 |  Complete | [ EN](../../original_research/reports/experiment_protocol_en.md) \| [ RU](../../original_research/reports/experiment_protocol_ru.md) |
+| 2 | ** Multi-AI Image Analysis / Мультипровайдерный AI-анализ** | 2026-02-25 |  Complete | [ EN](../../original_research/reports/2026-02-25_ai-analysis/) \| [ RU](../../original_research/reports/2026-02-25_ai-analysis/) |
+| 3 | ** LLM Vision Clot Analysis / LLM Vision Анализ Сгустков** | 2026-02-26 |  Complete | [ EN](../../original_research/reports/2026-02-26_llm-vision-analysis/) \| [ RU](../../original_research/reports/2026-02-26_llm-vision-analysis/) |
+| 4 | ** Comparative LLM Analysis / Сравнительный Анализ LLM** | 2026-03-12 |  Complete | [ EN](../../original_research/reports/2026-03-12_comparative-llm-analysis/) \| [ RU](../../original_research/reports/2026-03-12_comparative-llm-analysis/) |
+| 5 | ** CV/ML Analysis / Computer Vision + ML Анализ** | 2026-03-14 |  Complete | [ EN](../../original_research/reports/2026-03-14_cv-ml-analysis/) \| [ RU](../../original_research/reports/2026-03-14_cv-ml-analysis/) |
 
 ---
 

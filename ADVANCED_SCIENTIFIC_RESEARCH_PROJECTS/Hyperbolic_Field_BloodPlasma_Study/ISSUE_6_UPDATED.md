@@ -79,13 +79,13 @@ flowchart LR
 
 | Patient / Пациент | Photos / Фото | Samples / Образцы | Date / Дата | Direct Link / Прямая Ссылка |
 |-------------------|---------------|-------------------|-------------|----------------------------|
-| **Patient 01 / Пациент 01** | 13 | 0.1.1, 0.1.2, 19.1.1, 21.1.1 | 2026-01-24 | [ View Photos](original_research/data/patient-01/photos/) |
-| **Patient 02 / Пациент 02** | 25 | 0.2.1, 0.2.2, 19.2.1, 19.2.2, 21.2.1, 21.2.2 | 2026-01-28 | [ View Photos](original_research/data/patient-02/photos/) |
-| **Patient 03 / Пациент 03** | 16 | 0.3.1, 0.3.2, 19.3.1, 21.3.1 | 2026-01-29 | [ View Photos](original_research/data/patient-03/photos/) |
-| **Patient 04 / Пациент 04** | 4 | 0.4.1, 0.4.2, 19.4.1, 21.4.1 | 2026-01-30 | [ View Photos](original_research/data/patient-04/photos/) |
-| **Patient 05 / Пациент 05** | 10 | 0.5.1, 19.5.1, 21.5.1 | 2026-01-31 | [ View Photos](original_research/data/patient-05/photos/) |
-| **Patient 06 / Пациент 06** | 3 | 0.6.1, 0.6.2, 19.6.1, 21.6.1, 19.6.2, 21.6.2 | 2026-02-01 | [ View Photos](original_research/data/patient-06/photos/) |
-| **Patient 07 / Пациент 07** | 30 | 0.7.1, 0.7.2, 19.7.1, 21.7.1, 19.7.2, 21.7.2 | 2026-02-07 | [ View Photos](original_research/data/patient-07/photos/) |
+| **Patient 01 / Пациент 01** | 13 | 0.1.1, 0.1.2, 19.1.1, 21.1.1 | 2026-01-24 | [ View Photos](../../original_research/data/patient-01/photos/) |
+| **Patient 02 / Пациент 02** | 25 | 0.2.1, 0.2.2, 19.2.1, 19.2.2, 21.2.1, 21.2.2 | 2026-01-28 | [ View Photos](../../original_research/data/patient-02/photos/) |
+| **Patient 03 / Пациент 03** | 16 | 0.3.1, 0.3.2, 19.3.1, 21.3.1 | 2026-01-29 | [ View Photos](../../original_research/data/patient-03/photos/) |
+| **Patient 04 / Пациент 04** | 4 | 0.4.1, 0.4.2, 19.4.1, 21.4.1 | 2026-01-30 | [ View Photos](../../original_research/data/patient-04/photos/) |
+| **Patient 05 / Пациент 05** | 10 | 0.5.1, 19.5.1, 21.5.1 | 2026-01-31 | [ View Photos](../../original_research/data/patient-05/photos/) |
+| **Patient 06 / Пациент 06** | 3 | 0.6.1, 0.6.2, 19.6.1, 21.6.1, 19.6.2, 21.6.2 | 2026-02-01 | [ View Photos](../../original_research/data/patient-06/photos/) |
+| **Patient 07 / Пациент 07** | 30 | 0.7.1, 0.7.2, 19.7.1, 21.7.1, 19.7.2, 21.7.2 | 2026-02-07 | [ View Photos](../../original_research/data/patient-07/photos/) |
 
 **TOTAL / ВСЕГО:** 101 photographs / 101 фотография
 
@@ -95,13 +95,13 @@ flowchart LR
 
 | Пациент | Фото | Образцы | Дата | Прямая Ссылка |
 |---------|------|---------|-----|--------------|
-| **Пациент 01** | 13 | 0.1.1, 0.1.2, 19.1.1, 21.1.1 | 2026-01-24 | [ Просмотр Фото](original_research/data/patient-01/photos/) |
-| **Пациент 02** | 25 | 0.2.1, 0.2.2, 19.2.1, 19.2.2, 21.2.1, 21.2.2 | 2026-01-28 | [ Просмотр Фото](original_research/data/patient-02/photos/) |
-| **Пациент 03** | 16 | 0.3.1, 0.3.2, 19.3.1, 21.3.1 | 2026-01-29 | [ Просмотр Фото](original_research/data/patient-03/photos/) |
-| **Пациент 04** | 4 | 0.4.1, 0.4.2, 19.4.1, 21.4.1 | 2026-01-30 | [ Просмотр Фото](original_research/data/patient-04/photos/) |
-| **Пациент 05** | 10 | 0.5.1, 19.5.1, 21.5.1 | 2026-01-31 | [ Просмотр Фото](original_research/data/patient-05/photos/) |
-| **Пациент 06** | 3 | 0.6.1, 0.6.2, 19.6.1, 21.6.1, 19.6.2, 21.6.2 | 2026-02-01 | [ Просмотр Фото](original_research/data/patient-06/photos/) |
-| **Пациент 07** | 30 | 0.7.1, 0.7.2, 19.7.1, 21.7.1, 19.7.2, 21.7.2 | 2026-02-07 | [ Просмотр Фото](original_research/data/patient-07/photos/) |
+| **Пациент 01** | 13 | 0.1.1, 0.1.2, 19.1.1, 21.1.1 | 2026-01-24 | [ Просмотр Фото](../../original_research/data/patient-01/photos/) |
+| **Пациент 02** | 25 | 0.2.1, 0.2.2, 19.2.1, 19.2.2, 21.2.1, 21.2.2 | 2026-01-28 | [ Просмотр Фото](../../original_research/data/patient-02/photos/) |
+| **Пациент 03** | 16 | 0.3.1, 0.3.2, 19.3.1, 21.3.1 | 2026-01-29 | [ Просмотр Фото](../../original_research/data/patient-03/photos/) |
+| **Пациент 04** | 4 | 0.4.1, 0.4.2, 19.4.1, 21.4.1 | 2026-01-30 | [ Просмотр Фото](../../original_research/data/patient-04/photos/) |
+| **Пациент 05** | 10 | 0.5.1, 19.5.1, 21.5.1 | 2026-01-31 | [ Просмотр Фото](../../original_research/data/patient-05/photos/) |
+| **Пациент 06** | 3 | 0.6.1, 0.6.2, 19.6.1, 21.6.1, 19.6.2, 21.6.2 | 2026-02-01 | [ Просмотр Фото](../../original_research/data/patient-06/photos/) |
+| **Пациент 07** | 30 | 0.7.1, 0.7.2, 19.7.1, 21.7.1, 19.7.2, 21.7.2 | 2026-02-07 | [ Просмотр Фото](../../original_research/data/patient-07/photos/) |
 
 **ВСЕГО:** 101 фотография
 
@@ -115,10 +115,10 @@ flowchart LR
 
 | Category / Категория | Count / Количество | Description / Описание | Direct Link / Прямая Ссылка |
 |---------------------|-------------------|------------------------|----------------------------|
-| ** Labeled Single-Channel / Маркированные Одноканальные** | 40 photos | 13 control, 14 ch19, 13 ch21 / 13 контроль, 14 канал19, 13 канал21 | [ View](data/) |
-| ** EXIF-Inferred Single-Channel / Выведенные из EXIF** | 15 photos | Patient-07 / Пациент-07 | [ View](original_research/data/patient-07/photos/) |
-| ** Multi-Channel Comparison / Многоканальные Сравнения** | 34 photos | 2-6 tubes per photo, 75 tubes total / 2-6 пробирок на фото, 75 пробирок всего | [ View](data/) |
-| ** Unclassified / Неклассифицированные** | 12 photos | No protocol label available / Нет метки протокола | [ View](data/) |
+| ** Labeled Single-Channel / Маркированные Одноканальные** | 40 photos | 13 control, 14 ch19, 13 ch21 / 13 контроль, 14 канал19, 13 канал21 | [ View](../../original_research/data/) |
+| ** EXIF-Inferred Single-Channel / Выведенные из EXIF** | 15 photos | Patient-07 / Пациент-07 | [ View](../../original_research/data/patient-07/photos/) |
+| ** Multi-Channel Comparison / Многоканальные Сравнения** | 34 photos | 2-6 tubes per photo, 75 tubes total / 2-6 пробирок на фото, 75 пробирок всего | [ View](../../original_research/data/) |
+| ** Unclassified / Неклассифицированные** | 12 photos | No protocol label available / Нет метки протокола | [ View](../../original_research/data/) |
 
 ### РУССКИЙ
 
@@ -126,10 +126,10 @@ flowchart LR
 
 | Категория | Количество | Описание | Прямая Ссылка |
 |-----------|------------|----------|--------------|
-| ** Маркированные Одноканальные** | 40 фото | 13 контроль, 14 канал19, 13 канал21 | [ Просмотр](data/) |
-| ** Выведенные из EXIF** | 15 фото | Пациент-07 | [ Просмотр](original_research/data/patient-07/photos/) |
-| ** Многоканальные Сравнения** | 34 фото | 2-6 пробирок на фото, 75 пробирок всего | [ Просмотр](data/) |
-| ** Неклассифицированные** | 12 фото | Нет метки протокола | [ Просмотр](data/) |
+| ** Маркированные Одноканальные** | 40 фото | 13 контроль, 14 канал19, 13 канал21 | [ Просмотр](../../original_research/data/) |
+| ** Выведенные из EXIF** | 15 фото | Пациент-07 | [ Просмотр](../../original_research/data/patient-07/photos/) |
+| ** Многоканальные Сравнения** | 34 фото | 2-6 пробирок на фото, 75 пробирок всего | [ Просмотр](../../original_research/data/) |
+| ** Неклассифицированные** | 12 фото | Нет метки протокола | [ Просмотр](../../original_research/data/) |
 
 ---
 
@@ -185,10 +185,10 @@ flowchart LR
 
 | Data Type / Тип Данных | Location / Расположение | Direct Link / Прямая Ссылка |
 |------------------------|-------------------------|----------------------------|
-| ** Raw Images / Сырые Изображения** | `results/imaging/time-lapse/` | [ View](results/imaging/time-lapse/) |
-| ** Processed Images / Обработанные Изображения** | `processed/imaging/` | [ View](processed/imaging/) |
-| ** Analysis Scripts / Скрипты Анализа** | `scripts/imaging.py` | [ View](original_research/scripts/imaging.py) |
-| ** Reports / Отчёты** | `reports/imaging/` | [ View](original_research/reports/imaging/) |
+| ** Raw Images / Сырые Изображения** | `results/imaging/time-lapse/` | [ View (planned)](results/imaging/time-lapse/) |
+| ** Processed Images / Обработанные Изображения** | `processed/imaging/` | [ View (planned)](processed/imaging/) |
+| ** Analysis Scripts / Скрипты Анализа** | `scripts/imaging.py` | [ View](../../original_research/scripts/llm_analysis/imaging.py) |
+| ** Reports / Отчёты** | `reports/imaging/` | [ View (planned)](../../original_research/reports/imaging/) |
 
 ### РУССКИЙ
 
@@ -196,10 +196,10 @@ flowchart LR
 
 | Тип Данных | Расположение | Прямая Ссылка |
 |-----------|-------------|--------------|
-| ** Сырые Изображения** | `results/imaging/time-lapse/` | [ Просмотр](results/imaging/time-lapse/) |
-| ** Обработанные Изображения** | `processed/imaging/` | [ Просмотр](processed/imaging/) |
-| ** Скрипты Анализа** | `scripts/imaging.py` | [ Просмотр](original_research/scripts/imaging.py) |
-| ** Отчёты** | `reports/imaging/` | [ Просмотр](original_research/reports/imaging/) |
+| ** Сырые Изображения** | `results/imaging/time-lapse/` | [ Просмотр (planned)](results/imaging/time-lapse/) |
+| ** Обработанные Изображения** | `processed/imaging/` | [ Просмотр (planned)](processed/imaging/) |
+| ** Скрипты Анализа** | `scripts/imaging.py` | [ Просмотр](../../original_research/scripts/llm_analysis/imaging.py) |
+| ** Отчёты** | `reports/imaging/` | [ Просмотр (planned)](../../original_research/reports/imaging/) |
 
 ---
 
@@ -207,9 +207,9 @@ flowchart LR
 
 | # | Report / Отчёт | Date / Дата | Status / Статус | Direct Link / Прямая Ссылка |
 |---|----------------|-------------|-----------------|----------------------------|
-| 1 | ** Imaging Protocol / Протокол Визуализации** | 2026-03 |  Complete | [ EN](original_research/reports/imaging_protocol_en.md) \| [ RU](original_research/reports/imaging_protocol_ru.md) |
-| 2 | ** Time-Lapse Analysis / Анализ Покадровой Съёмки** | 2026-03 |  In Progress | [ EN](original_research/reports/time-lapse_analysis_en.md) \| [ RU](original_research/reports/time-lapse_analysis_ru.md) |
-| 3 | ** LLM Vision Analysis / LLM Vision Анализ** | 2026-02-26 |  Complete | [ EN](original_research/reports/2026-02-26_llm-vision-analysis/) \| [ RU](original_research/reports/2026-02-26_llm-vision-analysis/) |
+| 1 | ** Imaging Protocol / Протокол Визуализации** | 2026-03 |  Complete | [ EN (planned)](../../original_research/reports/imaging_protocol_en.md) \| [ RU (planned)](../../original_research/reports/imaging_protocol_ru.md) |
+| 2 | ** Time-Lapse Analysis / Анализ Покадровой Съёмки** | 2026-03 |  In Progress | [ EN (planned)](../../original_research/reports/time-lapse_analysis_en.md) \| [ RU (planned)](../../original_research/reports/time-lapse_analysis_ru.md) |
+| 3 | ** LLM Vision Analysis / LLM Vision Анализ** | 2026-02-26 |  Complete | [ EN](../../original_research/reports/2026-02-26_llm-vision-analysis/) \| [ RU](../../original_research/reports/2026-02-26_llm-vision-analysis/) |
 
 ---
 
