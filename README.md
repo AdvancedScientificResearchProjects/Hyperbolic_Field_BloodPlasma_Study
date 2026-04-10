@@ -22,7 +22,7 @@
 | [Photo Gallery](#photo-gallery-галерея-фотографий) | [All Reports](#all-reports-все-отчёты) | [Research Team](#research-team-команда-исследования) | [Issue #1: Protocol](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/1) |
 | [Data Structure](#data-structure-структура-данных) | [Biochemical Analysis](#all-reports-все-отчёты) | [Contacts](#contact-information-контактная-информация) | [Issue #3: Photography](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/3) |
 | [Data Volume](#data-volume-объём-данных) | [AI/ML Analysis](#aiml-analysis-иимл-анализ) | [Patent Connection](#patent-connection-связь-с-патентом) | [Issue #5: Biochemical](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/5) |
-| [Results](#key-results-ключевые-результаты) | [Protocols](#experimental-protocol-протокол-эксперимента) | [ASRP Ecosystem](#asrp-ecosystem-экосистема-asrpdrift) | [Issue #8: Publication](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/8) |
+| [Results](#key-results-ключевые-результаты) | [Protocols](#experimental-protocol--протокол-эксперимента) | [ASRP Ecosystem](#asrp-ecosystem-экосистема-asrpdrift) | [Issue #8: Publication](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/8) |
 
 ---
 

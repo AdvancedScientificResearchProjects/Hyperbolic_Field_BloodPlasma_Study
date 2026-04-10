@@ -74,7 +74,7 @@ original_research/
 | 06 | 2026-02-01 | I+ | 3 | 1 PDF |
 | 07 | 2026-02-07 | — | 30 | 2 PDF |
 
-**Total: 101 photographs, 10 PDF protocols, 7 patients**
+**Total: 101 photographs, 11 PDF protocols, 7 patients**
 
 ## Sample ID Format
 
