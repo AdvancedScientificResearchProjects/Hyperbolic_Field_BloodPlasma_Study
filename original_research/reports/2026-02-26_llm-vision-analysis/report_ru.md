@@ -106,7 +106,7 @@ Claude Opus 4.6 (мультимодальная LLM) напрямую иссле
 | Стадия: full_coagulation | 3 | 3 | 3 |
 | Стадия: lysis | 0 | **1** | 0 |
 
-![Частота сгустков по каналам](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/reports/2026-02-26_llm-vision-analysis/chart_clot_frequency.png)
+![Частота сгустков по каналам](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/reports/2026-02-26_llm-vision-analysis/chart_clot_frequency.png)
 
 ### 3.3. Анализ распределения стадий
 
@@ -116,7 +116,7 @@ Claude Opus 4.6 (мультимодальная LLM) напрямую иссле
 
 **Ch21 (замедление)**: Бимодальное распределение — либо отсутствие видимой коагуляции (35%), либо early_fibrin (41%). Только 1 partial_clot из 17. Когда полная коагуляция наступает (вылитые образцы), она плотная и непрозрачная.
 
-![Распределение стадий по каналам](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/reports/2026-02-26_llm-vision-analysis/chart_stage_distribution.png)
+![Распределение стадий по каналам](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/reports/2026-02-26_llm-vision-analysis/chart_stage_distribution.png)
 
 ### 3.4. Многоканальные сравнительные фотографии (34 фото, 75 пробирок)
 
@@ -147,25 +147,25 @@ Ch19 показывает в 1,9 раза более высокую частот
 
 ### 4.2. Лизис исключительно в Ch19
 
-**[IMG_3284](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3284.jpg)** (пациент-02, ch19, образец 19.2.1) — единственная фотография из 101, показывающая лизис — растрескавшуюся фибриновую сеть с характерным мозаичным узором, указывающим на распад сгустка.
+**[IMG_3284](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3284.jpg)** (пациент-02, ch19, образец 19.2.1) — единственная фотография из 101, показывающая лизис — растрескавшуюся фибриновую сеть с характерным мозаичным узором, указывающим на распад сгустка.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/data/patient-02/photos/jpg/IMG_3284.jpg" width="400"><br>
+<img src="https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/data/patient-02/photos/jpg/IMG_3284.jpg" width="400"><br>
 <em>IMG_3284 — Лизис: мозаичный узор растрескавшегося фибрина (пациент-02, ch19)</em>
 </p>
 
 Это согласуется с гипотезой ускорения: если биологическое время ускорено, цикл коагуляции прогрессирует быстрее, достигая фазы распада в пределах окна наблюдения.
 
 Пациент-02 ch19 демонстрирует полный жизненный цикл коагуляции:
-- [IMG_3265](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3265.jpg)–3266: `none` (прозрачная плазма)
-- [IMG_3267](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3267.jpg): `early_fibrin` (белёсое помутнение у мениска)
-- [IMG_3277](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3277.jpg): `full_coagulation` (желеобразный сгусток, отделившийся от сыворотки)
-- **[IMG_3284](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3284.jpg)**: `lysis` (растрескавшаяся фибриновая сеть)
-- [IMG_3288](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3288.jpg): `full_coagulation` (другой образец/момент времени)
+- [IMG_3265](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3265.jpg)–3266: `none` (прозрачная плазма)
+- [IMG_3267](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3267.jpg): `early_fibrin` (белёсое помутнение у мениска)
+- [IMG_3277](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3277.jpg): `full_coagulation` (желеобразный сгусток, отделившийся от сыворотки)
+- **[IMG_3284](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3284.jpg)**: `lysis` (растрескавшаяся фибриновая сеть)
+- [IMG_3288](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3288.jpg): `full_coagulation` (другой образец/момент времени)
 
 Ни один другой канал не показывает прогрессию за пределы `full_coagulation`.
 
-![Жизненный цикл коагуляции пациента-02 Ch19](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/reports/2026-02-26_llm-vision-analysis/chart_lifecycle.png)
+![Жизненный цикл коагуляции пациента-02 Ch19](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/reports/2026-02-26_llm-vision-analysis/chart_lifecycle.png)
 
 ### 4.3. Ch21: Отложенная, но плотная коагуляция
 
@@ -178,7 +178,7 @@ Ch21 демонстрирует характерный паттерн:
 Интерпретация: При замедлении начало коагуляции откладывается. Но как только достигается пороговая концентрация фибрина, сгусток формируется быстро и полностью — минуя постепенную парциальную фазу, наблюдаемую в контрольных образцах.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/data/patient-05/photos/jpg/IMG_3321.jpg" width="400"><br>
+<img src="https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/data/patient-05/photos/jpg/IMG_3321.jpg" width="400"><br>
 <em>IMG_3321 — Плотный куполообразный сгусток после разлива (пациент-05, ch21)</em>
 </p>
 
@@ -188,16 +188,16 @@ Ch21 демонстрирует характерный паттерн:
 
 | Фото | Момент времени | Наблюдение |
 |------|---------------|------------|
-| [IMG_3280](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3280.JPG) | Сразу после разлива | Мелкие ядра сгустков с тонкими плазменными плёнками |
-| [IMG_3281](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3281.JPG) | +6 часов | Развитые фибриновые мембраны со сморщенной текстурой |
-| [IMG_3282](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3282.jpg) | +16 часов | Высохшие структуры со сложными узорами кристаллизации |
-| [IMG_3283](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3283.jpg) | +21 час | Макро-деталь — сетчатый фибрин с чешуйчатыми узелками |
+| [IMG_3280](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3280.JPG) | Сразу после разлива | Мелкие ядра сгустков с тонкими плазменными плёнками |
+| [IMG_3281](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3281.JPG) | +6 часов | Развитые фибриновые мембраны со сморщенной текстурой |
+| [IMG_3282](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3282.jpg) | +16 часов | Высохшие структуры со сложными узорами кристаллизации |
+| [IMG_3283](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3283.jpg) | +21 час | Макро-деталь — сетчатый фибрин с чешуйчатыми узелками |
 
 Эта серия демонстрирует видимую прогрессию коагуляции на протяжении 21 часа в идентичных условиях окружающей среды.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/data/patient-02/photos/jpg/IMG_3280.JPG" width="350">
-<img src="https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/data/patient-02/photos/jpg/IMG_3282.jpg" width="350"><br>
+<img src="https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/data/patient-02/photos/jpg/IMG_3280.JPG" width="350">
+<img src="https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/data/patient-02/photos/jpg/IMG_3282.jpg" width="350"><br>
 <em>Слева: IMG_3280 — сразу после разлива (0ч). Справа: IMG_3282 — узоры кристаллизации (+16ч)</em>
 </p>
 
@@ -214,9 +214,9 @@ Ch21 демонстрирует характерный паттерн:
 
 Пациент-07 предоставляет сильнейшее попациентное свидетельство с 15 выведенными фото, подтверждающими градиент: ch19 100% сгустков, контроль 71%, ch21 0%.
 
-![Тепловая карта по пациентам](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/reports/2026-02-26_llm-vision-analysis/chart_patient_heatmap.png)
+![Тепловая карта по пациентам](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/reports/2026-02-26_llm-vision-analysis/chart_patient_heatmap.png)
 
-![Градиент пациента-07](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/reports/2026-02-26_llm-vision-analysis/chart_patient07_gradient.png)
+![Градиент пациента-07](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/reports/2026-02-26_llm-vision-analysis/chart_patient07_gradient.png)
 
 ---
 
@@ -229,7 +229,7 @@ Ch21 демонстрирует характерный паттерн:
 | **CV-детекция сгустков** | Контроль: 8,9 сгустков, Ch19: 5,6, Ch21: 8,7 | Контр-интуитивные результаты; детектирует артефакты стекла |
 | **LLM Vision** (данный отчёт) | Ch19 78% > Контроль 65% > Ch21 41% | Единственный метод, корректно различающий стадии |
 
-![Сравнение методов](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/reports/2026-02-26_llm-vision-analysis/chart_method_comparison.png)
+![Сравнение методов](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/reports/2026-02-26_llm-vision-analysis/chart_method_comparison.png)
 
 LLM Vision — на данный момент единственный валидированный подход для классификации стадий коагуляции в этом датасете. Традиционные CV-методы не справляются из-за прозрачности стекла и оптического сходства плазмы. Zero-shot CLIP-модели не имеют доменно-специфичного обучения для стадий коагуляции плазмы.
 
@@ -271,56 +271,56 @@ LLM Vision — на данный момент единственный вали�
 
 | Фото | Пациент | Сгустки | Кол-во | Стадия | Прозрачность | Описание |
 |------|---------|:---:|--------|--------|-------------|----------|
-| [IMG_3268](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3268.jpg) | p02 | нет | 0 | none | clear | Золотисто-жёлтая плазма, без фибрина |
-| [IMG_3269](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3269.jpg) | p02 | нет | 0 | none | slightly_turbid | Та же пробирка, слабые полосы (артефакты стекла) |
-| [IMG_3278](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3278.jpg) | p02 | нет | 0 | none | clear | Вид сверху, прозрачная бледно-жёлтая |
-| [IMG_3286](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3286.jpg) | p02 | да | 1 | early_fibrin | slightly_turbid | Белёсая фибриновая плёнка на границе воздух-плазма |
-| [IMG_3287](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3287.jpg) | p02 | да | 1 | partial_clot | slightly_turbid | Утолщённое фибриновое кольцо у мениска |
-| [IMG_3293](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-03/photos/jpg/IMG_3293.jpg) | p03 | да | 1 | partial_clot | slightly_turbid | Жёлто-оранжевая плотная масса, плавающая в плазме |
-| [IMG_3294](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-03/photos/jpg/IMG_3294.jpg) | p03 | да | 2–3 | early_fibrin | slightly_turbid | Паутинообразные фибриновые нити, оранжево-коричневый осадок |
-| [IMG_3295](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-03/photos/jpg/IMG_3295.jpg) | p03 | нет | 0 | none | slightly_turbid | Однородная, только воздушные пузыри |
-| [IMG_3305](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-03/photos/jpg/IMG_3305.jpg) | p03 | да | 1 | full_coagulation | turbid | Крупная плотная коричнево-бежевая масса с отростками |
-| [IMG_3307](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-04/photos/jpg/IMG_3307.jpg) | p04 | да | 1 | partial_clot | slightly_turbid | Тёмная зеленоватая масса вблизи центра |
-| [IMG_3318](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-05/photos/jpg/IMG_3318.jpg) | p05 | нет | 0 | none | clear | Прозрачная однородная плазма |
-| [IMG_3344](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3344.jpg) | p07 | да | 1 | partial_clot | slightly_turbid | Белёсая облаковидная фибриновая масса |
-| [IMG_3349](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3349.jpg) | p07 | да | 2–3 | partial_clot | slightly_turbid | Паутинообразные фибриновые нити, более тёмная центральная область |
+| [IMG_3268](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3268.jpg) | p02 | нет | 0 | none | clear | Золотисто-жёлтая плазма, без фибрина |
+| [IMG_3269](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3269.jpg) | p02 | нет | 0 | none | slightly_turbid | Та же пробирка, слабые полосы (артефакты стекла) |
+| [IMG_3278](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3278.jpg) | p02 | нет | 0 | none | clear | Вид сверху, прозрачная бледно-жёлтая |
+| [IMG_3286](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3286.jpg) | p02 | да | 1 | early_fibrin | slightly_turbid | Белёсая фибриновая плёнка на границе воздух-плазма |
+| [IMG_3287](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3287.jpg) | p02 | да | 1 | partial_clot | slightly_turbid | Утолщённое фибриновое кольцо у мениска |
+| [IMG_3293](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-03/photos/jpg/IMG_3293.jpg) | p03 | да | 1 | partial_clot | slightly_turbid | Жёлто-оранжевая плотная масса, плавающая в плазме |
+| [IMG_3294](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-03/photos/jpg/IMG_3294.jpg) | p03 | да | 2–3 | early_fibrin | slightly_turbid | Паутинообразные фибриновые нити, оранжево-коричневый осадок |
+| [IMG_3295](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-03/photos/jpg/IMG_3295.jpg) | p03 | нет | 0 | none | slightly_turbid | Однородная, только воздушные пузыри |
+| [IMG_3305](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-03/photos/jpg/IMG_3305.jpg) | p03 | да | 1 | full_coagulation | turbid | Крупная плотная коричнево-бежевая масса с отростками |
+| [IMG_3307](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-04/photos/jpg/IMG_3307.jpg) | p04 | да | 1 | partial_clot | slightly_turbid | Тёмная зеленоватая масса вблизи центра |
+| [IMG_3318](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-05/photos/jpg/IMG_3318.jpg) | p05 | нет | 0 | none | clear | Прозрачная однородная плазма |
+| [IMG_3344](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3344.jpg) | p07 | да | 1 | partial_clot | slightly_turbid | Белёсая облаковидная фибриновая масса |
+| [IMG_3349](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3349.jpg) | p07 | да | 2–3 | partial_clot | slightly_turbid | Паутинообразные фибриновые нити, более тёмная центральная область |
 
 ### Ch19 — Ускорение времени (14 фото)
 
 | Фото | Пациент | Сгустки | Кол-во | Стадия | Прозрачность | Описание |
 |------|---------|:---:|--------|--------|-------------|----------|
-| [IMG_3252](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-01/photos/jpg/IMG_3252.jpg) | p01 | да | 1 | early_fibrin | slightly_turbid | Более плотная область на дне, раннее накопление |
-| [IMG_3265](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3265.jpg) | p02 | нет | 0 | none | slightly_turbid | Однородная, конденсат на стекле |
-| [IMG_3266](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3266.jpg) | p02 | нет | 0 | none | clear | Прозрачная светло-жёлтая, без фибрина |
-| [IMG_3267](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3267.jpg) | p02 | да | 1 | early_fibrin | slightly_turbid | Белёсое помутнение на поверхности мениска |
-| [IMG_3277](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3277.jpg) | p02 | да | 1 | full_coagulation | clear | Крупный желеобразный сгусток, отделившийся от сыворотки |
-| [IMG_3284](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3284.jpg) | p02 | да | много | **lysis** | turbid | Растрескавшаяся фибриновая сеть, мозаичный узор |
-| [IMG_3288](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3288.jpg) | p02 | да | 1 | full_coagulation | clear | Сплошной белёсый сгусток, взвешенный в прозрачной сыворотке |
-| [IMG_3296](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-03/photos/jpg/IMG_3296.jpg) | p03 | да | 1 | early_fibrin | slightly_turbid | Белёсая плёнка на мениске |
-| [IMG_3297](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-03/photos/jpg/IMG_3297.jpg) | p03 | да | 1 | partial_clot | slightly_turbid | Паутинообразная фибриновая сеть под поверхностью |
-| [IMG_3302](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-03/photos/jpg/IMG_3302.jpg) | p03 | да | 2–3 | early_fibrin | clear | Тонкие фибриновые нити в рыхлом паутинном узоре |
-| [IMG_3308](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-04/photos/jpg/IMG_3308.jpg) | p04 | нет | 0 | none | slightly_turbid | Диффузная мутность, нет явных сгустков |
-| [IMG_3315](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-05/photos/jpg/IMG_3315.jpg) | p05 | да | 1 | full_coagulation | slightly_turbid | Крупный желеобразный сгусток, заполняющий пробирку |
-| [IMG_3331](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3331.jpg) | p07 | да | 1 | partial_clot | turbid | Аморфная масса с размытыми границами |
-| [IMG_3334](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3334.jpg) | p07 | нет | 0 | none | clear | Ярко-жёлтая, заметно прозрачная |
+| [IMG_3252](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-01/photos/jpg/IMG_3252.jpg) | p01 | да | 1 | early_fibrin | slightly_turbid | Более плотная область на дне, раннее накопление |
+| [IMG_3265](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3265.jpg) | p02 | нет | 0 | none | slightly_turbid | Однородная, конденсат на стекле |
+| [IMG_3266](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3266.jpg) | p02 | нет | 0 | none | clear | Прозрачная светло-жёлтая, без фибрина |
+| [IMG_3267](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3267.jpg) | p02 | да | 1 | early_fibrin | slightly_turbid | Белёсое помутнение на поверхности мениска |
+| [IMG_3277](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3277.jpg) | p02 | да | 1 | full_coagulation | clear | Крупный желеобразный сгусток, отделившийся от сыворотки |
+| [IMG_3284](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3284.jpg) | p02 | да | много | **lysis** | turbid | Растрескавшаяся фибриновая сеть, мозаичный узор |
+| [IMG_3288](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3288.jpg) | p02 | да | 1 | full_coagulation | clear | Сплошной белёсый сгусток, взвешенный в прозрачной сыворотке |
+| [IMG_3296](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-03/photos/jpg/IMG_3296.jpg) | p03 | да | 1 | early_fibrin | slightly_turbid | Белёсая плёнка на мениске |
+| [IMG_3297](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-03/photos/jpg/IMG_3297.jpg) | p03 | да | 1 | partial_clot | slightly_turbid | Паутинообразная фибриновая сеть под поверхностью |
+| [IMG_3302](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-03/photos/jpg/IMG_3302.jpg) | p03 | да | 2–3 | early_fibrin | clear | Тонкие фибриновые нити в рыхлом паутинном узоре |
+| [IMG_3308](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-04/photos/jpg/IMG_3308.jpg) | p04 | нет | 0 | none | slightly_turbid | Диффузная мутность, нет явных сгустков |
+| [IMG_3315](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-05/photos/jpg/IMG_3315.jpg) | p05 | да | 1 | full_coagulation | slightly_turbid | Крупный желеобразный сгусток, заполняющий пробирку |
+| [IMG_3331](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3331.jpg) | p07 | да | 1 | partial_clot | turbid | Аморфная масса с размытыми границами |
+| [IMG_3334](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3334.jpg) | p07 | нет | 0 | none | clear | Ярко-жёлтая, заметно прозрачная |
 
 ### Ch21 — Замедление времени (13 фото)
 
 | Фото | Пациент | Сгустки | Кол-во | Стадия | Прозрачность | Описание |
 |------|---------|:---:|--------|--------|-------------|----------|
-| [IMG_3251](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-01/photos/jpg/IMG_3251.jpg) | p01 | да | 1 | early_fibrin | slightly_turbid | Тонкие фибриновые нити на дне |
-| [IMG_3270](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3270.jpg) | p02 | нет | 0 | none | slightly_turbid | Белёсая пена только сверху |
-| [IMG_3271](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3271.jpg) | p02 | нет | 0 | none | clear | Золотисто-жёлтая, без фибрина |
-| [IMG_3272](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3272.jpg) | p02 | нет | 0 | none | slightly_turbid | Три пробирки, все без сгустков |
-| [IMG_3279](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3279.jpg) | p02 | нет | 0 | none | clear | Вид сверху, прозрачные маленькие лужицы |
-| [IMG_3285](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3285.jpg) | p02 | да | много | full_coagulation | opaque | Плотная фибриновая сеть на поверхности (макро) |
-| [IMG_3290](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-03/photos/jpg/IMG_3290.jpg) | p03 | да | 1 | early_fibrin | clear | Слабые более тёмные нити в нижней части |
-| [IMG_3291](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-03/photos/jpg/IMG_3291.jpg) | p03 | да | 1 | partial_clot | slightly_turbid | Округлая плотная масса в центре |
-| [IMG_3299](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-03/photos/jpg/IMG_3299.jpg) | p03 | да | 1 | full_coagulation | opaque | Крупный плотный сгусток на поверхности |
-| [IMG_3309](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-04/photos/jpg/IMG_3309.jpg) | p04 | да | 1 | early_fibrin | slightly_turbid | Очень тонкие слабые фибриновые нити |
-| [IMG_3321](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-05/photos/jpg/IMG_3321.jpg) | p05 | да | 1 | full_coagulation | opaque | Куполообразная затвердевшая масса плазмы |
-| [IMG_3337](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3337.jpg) | p07 | нет | 0 | none | clear | Ярко-жёлтая, полностью прозрачная |
-| [IMG_3340](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3340.jpg) | p07 | нет | 0 | none | clear | Прозрачная ярко-жёлтая, чистый мениск |
+| [IMG_3251](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-01/photos/jpg/IMG_3251.jpg) | p01 | да | 1 | early_fibrin | slightly_turbid | Тонкие фибриновые нити на дне |
+| [IMG_3270](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3270.jpg) | p02 | нет | 0 | none | slightly_turbid | Белёсая пена только сверху |
+| [IMG_3271](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3271.jpg) | p02 | нет | 0 | none | clear | Золотисто-жёлтая, без фибрина |
+| [IMG_3272](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3272.jpg) | p02 | нет | 0 | none | slightly_turbid | Три пробирки, все без сгустков |
+| [IMG_3279](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3279.jpg) | p02 | нет | 0 | none | clear | Вид сверху, прозрачные маленькие лужицы |
+| [IMG_3285](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3285.jpg) | p02 | да | много | full_coagulation | opaque | Плотная фибриновая сеть на поверхности (макро) |
+| [IMG_3290](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-03/photos/jpg/IMG_3290.jpg) | p03 | да | 1 | early_fibrin | clear | Слабые более тёмные нити в нижней части |
+| [IMG_3291](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-03/photos/jpg/IMG_3291.jpg) | p03 | да | 1 | partial_clot | slightly_turbid | Округлая плотная масса в центре |
+| [IMG_3299](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-03/photos/jpg/IMG_3299.jpg) | p03 | да | 1 | full_coagulation | opaque | Крупный плотный сгусток на поверхности |
+| [IMG_3309](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-04/photos/jpg/IMG_3309.jpg) | p04 | да | 1 | early_fibrin | slightly_turbid | Очень тонкие слабые фибриновые нити |
+| [IMG_3321](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-05/photos/jpg/IMG_3321.jpg) | p05 | да | 1 | full_coagulation | opaque | Куполообразная затвердевшая масса плазмы |
+| [IMG_3337](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3337.jpg) | p07 | нет | 0 | none | clear | Ярко-жёлтая, полностью прозрачная |
+| [IMG_3340](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3340.jpg) | p07 | нет | 0 | none | clear | Прозрачная ярко-жёлтая, чистый мениск |
 
 ---
 
@@ -330,21 +330,21 @@ LLM Vision — на данный момент единственный вали�
 
 | Фото | Канал | Образец | Уверенность | Сгустки | Стадия | Близость |
 |------|-------|---------|:---:|:---:|--------|----------|
-| [IMG_3329](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3329.jpg) | ch19 | 19.7.1 | высокая | да | partial_clot | 57с от размеченного |
-| [IMG_3330](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3330.jpg) | ch19 | 19.7.1 | высокая | да | partial_clot | 27с от размеченного |
-| [IMG_3332](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3332.jpg) | ch19 | 19.7.2 | высокая | да | partial_clot | 80с от размеченного |
-| [IMG_3333](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3333.jpg) | ch19 | 19.7.2 | высокая | да | partial_clot | 71с от размеченного |
-| [IMG_3335](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3335.jpg) | ch21 | 21.7.1 | высокая | нет | early_fibrin | 8с от размеченного |
-| [IMG_3336](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3336.jpg) | ch21 | 21.7.1 | высокая | нет | early_fibrin | 16с от размеченного |
-| [IMG_3338](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3338.jpg) | ch21 | 21.7.2 | высокая | нет | early_fibrin | 25с от размеченного |
-| [IMG_3339](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3339.jpg) | ch21 | 21.7.2 | высокая | нет | early_fibrin | 12с от размеченного |
-| [IMG_3341](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3341.jpg) | контроль | 0.7.1 | высокая | да | partial_clot | 6с от размеченного |
-| [IMG_3342](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3342.jpg) | контроль | 0.7.1 | средняя | да | partial_clot | 26с от размеченного |
-| [IMG_3343](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3343.jpg) | контроль | 0.7.1 | высокая | да | partial_clot | 20с от размеченного |
-| [IMG_3345](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3345.jpg) | контроль | 0.7.2 | средняя | нет | none | 68с от размеченного |
-| [IMG_3346](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3346.jpg) | контроль | 0.7.2 | высокая | да | full_coagulation | 8с от размеченного |
-| [IMG_3347](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3347.jpg) | контроль | 0.7.2 | высокая | нет | none | 10с от размеченного |
-| [IMG_3348](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-07/photos/jpg/IMG_3348.jpg) | контроль | 0.7.2 | высокая | да | full_coagulation | 21с от размеченного |
+| [IMG_3329](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3329.jpg) | ch19 | 19.7.1 | высокая | да | partial_clot | 57с от размеченного |
+| [IMG_3330](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3330.jpg) | ch19 | 19.7.1 | высокая | да | partial_clot | 27с от размеченного |
+| [IMG_3332](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3332.jpg) | ch19 | 19.7.2 | высокая | да | partial_clot | 80с от размеченного |
+| [IMG_3333](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3333.jpg) | ch19 | 19.7.2 | высокая | да | partial_clot | 71с от размеченного |
+| [IMG_3335](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3335.jpg) | ch21 | 21.7.1 | высокая | нет | early_fibrin | 8с от размеченного |
+| [IMG_3336](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3336.jpg) | ch21 | 21.7.1 | высокая | нет | early_fibrin | 16с от размеченного |
+| [IMG_3338](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3338.jpg) | ch21 | 21.7.2 | высокая | нет | early_fibrin | 25с от размеченного |
+| [IMG_3339](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3339.jpg) | ch21 | 21.7.2 | высокая | нет | early_fibrin | 12с от размеченного |
+| [IMG_3341](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3341.jpg) | контроль | 0.7.1 | высокая | да | partial_clot | 6с от размеченного |
+| [IMG_3342](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3342.jpg) | контроль | 0.7.1 | средняя | да | partial_clot | 26с от размеченного |
+| [IMG_3343](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3343.jpg) | контроль | 0.7.1 | высокая | да | partial_clot | 20с от размеченного |
+| [IMG_3345](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3345.jpg) | контроль | 0.7.2 | средняя | нет | none | 68с от размеченного |
+| [IMG_3346](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3346.jpg) | контроль | 0.7.2 | высокая | да | full_coagulation | 8с от размеченного |
+| [IMG_3347](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3347.jpg) | контроль | 0.7.2 | высокая | нет | none | 10с от размеченного |
+| [IMG_3348](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-07/photos/jpg/IMG_3348.jpg) | контроль | 0.7.2 | высокая | да | full_coagulation | 21с от размеченного |
 
 **Сводка по пациенту-07**: Ch19 — 4/4 (100%) сгустков, все partial_clot. Ch21 — 0/4 (0%) сгустков, все early_fibrin. Контроль — 5/7 (71%) сгустков. Это убедительно подтверждает градиент Ch19 > Контроль > Ch21.
 
@@ -356,18 +356,18 @@ LLM Vision — на данный момент единственный вали�
 
 | Фото | Пациент | Сгустки | Стадия | Примечания |
 |------|---------|:---:|--------|------------|
-| [IMG_3264](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-02/photos/jpg/IMG_3264.JPG) | p02 | нет | none | Фото протокольного чек-листа (не образец) |
-| [IMG_3292](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-03/photos/jpg/IMG_3292.jpg) | p03 | да | partial_clot | Одна пробирка, без маркировки |
-| [IMG_3298](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-03/photos/jpg/IMG_3298.jpg) | p03 | да | full_coagulation | Одна пробирка, без маркировки |
-| [IMG_3303](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-03/photos/jpg/IMG_3303.jpg) | p03 | да | partial_clot | Одна пробирка, без маркировки |
-| [IMG_3304](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-03/photos/jpg/IMG_3304.jpg) | p03 | да | partial_clot | Одна пробирка, без маркировки |
-| [IMG_3312](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-05/photos/jpg/IMG_3312.jpg) | p05 | да | none | Одна пробирка на LED |
-| [IMG_3313](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-05/photos/jpg/IMG_3313.jpg) | p05 | да | none | Одна пробирка в руке |
-| [IMG_3314](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-05/photos/jpg/IMG_3314.jpg) | p05 | да | early_fibrin | Одна пробирка, макро |
-| [IMG_3316](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-05/photos/jpg/IMG_3316.jpg) | p05 | да | none | Одна пробирка на LED |
-| [IMG_3317](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-05/photos/jpg/IMG_3317.jpg) | p05 | да | early_fibrin | Одна пробирка, макро |
-| [IMG_3319](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-05/photos/jpg/IMG_3319.jpg) | p05 | да | partial_clot | Одна пробирка в руке |
-| [IMG_3320](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/data/patient-05/photos/jpg/IMG_3320.jpg) | p05 | да | none | Одна пробирка на LED |
+| [IMG_3264](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-02/photos/jpg/IMG_3264.JPG) | p02 | нет | none | Фото протокольного чек-листа (не образец) |
+| [IMG_3292](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-03/photos/jpg/IMG_3292.jpg) | p03 | да | partial_clot | Одна пробирка, без маркировки |
+| [IMG_3298](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-03/photos/jpg/IMG_3298.jpg) | p03 | да | full_coagulation | Одна пробирка, без маркировки |
+| [IMG_3303](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-03/photos/jpg/IMG_3303.jpg) | p03 | да | partial_clot | Одна пробирка, без маркировки |
+| [IMG_3304](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-03/photos/jpg/IMG_3304.jpg) | p03 | да | partial_clot | Одна пробирка, без маркировки |
+| [IMG_3312](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-05/photos/jpg/IMG_3312.jpg) | p05 | да | none | Одна пробирка на LED |
+| [IMG_3313](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-05/photos/jpg/IMG_3313.jpg) | p05 | да | none | Одна пробирка в руке |
+| [IMG_3314](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-05/photos/jpg/IMG_3314.jpg) | p05 | да | early_fibrin | Одна пробирка, макро |
+| [IMG_3316](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-05/photos/jpg/IMG_3316.jpg) | p05 | да | none | Одна пробирка на LED |
+| [IMG_3317](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-05/photos/jpg/IMG_3317.jpg) | p05 | да | early_fibrin | Одна пробирка, макро |
+| [IMG_3319](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-05/photos/jpg/IMG_3319.jpg) | p05 | да | partial_clot | Одна пробирка в руке |
+| [IMG_3320](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/blob/main/original_research/data/patient-05/photos/jpg/IMG_3320.jpg) | p05 | да | none | Одна пробирка на LED |
 
 ---
 
