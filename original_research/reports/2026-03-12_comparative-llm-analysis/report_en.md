@@ -122,6 +122,8 @@ Groq is the most stable (31.6–36.8% range). Perplexity is noisiest (~74% parse
 
 **Gemini** is the clear leader: 57.9% ch19 identification — nearly double the chance rate. **Mistral** also identifies ch19 well above chance (44.4%). **Perplexity** is slightly above chance (36.4%). **Groq** is at exactly chance level (33.3%) but shows strong control bias (45.6% ctrl). **GPT-5** has a consistent ch21 bias across all 3 runs (52.7% ch21) — see Section 6.
 
+![CH19 win rate by provider (blinded comparative)](charts/chart_ch19_winrate.png)
+
 ### 3.2. Multi-Tube Blinded (1 photo per set, 22 sets)
 
 | Provider | ch19 wins | ch21 wins | ctrl wins | ch19 % |
@@ -161,6 +163,8 @@ Mistral leads in multi-tube blinded. Notably, GPT-5 performs **better** in multi
 CH19 is the only channel reaching `full_coagulation`. Clear progression:
 **CH19 (partial_clot) > CH21 (early_fibrin) > Control (none)**
 
+![Coagulation stage distribution by channel](charts/chart_stage_distribution.png)
+
 ### 3.5. Per-Patient Results (Mistral, all datasets, 512px)
 
 | Patient | Sets | ch19 wins | ch21 wins | ctrl wins | null/tie | ch19 win % |
@@ -174,6 +178,8 @@ CH19 is the only channel reaching `full_coagulation`. Clear progression:
 | P07 | 14 | 7 | 2 | 1 | 4 | **70%** |
 
 CH19 leads in **6 of 7 patients**. P03 is the only tie (3 each).
+
+![Per-patient CH19 win rate breakdown](charts/chart_per_patient.png)
 
 ---
 
@@ -214,6 +220,8 @@ Both providers identify ch19 above the 33% chance baseline. Control is consisten
 Both providers show substantially higher ch19 identification in batch mode. When seeing all patients simultaneously, models detect the **cross-patient pattern** that is harder to see when evaluating triplets one at a time.
 
 **GPT-5 correction**: In comparative blinded mode, GPT-5 consistently selects ch21 (52.7% across 3 runs). But in batch blinded mode, GPT-5 selects ch19 (46.7%). Cross-patient context overrides the processing artifact that causes the comparative reversal.
+
+![Difference rating: batch vs comparative blinded](charts/chart_difference_rating.png)
 
 ### 4.4. Batch Qualitative Notes
 
@@ -272,6 +280,8 @@ Models interpret "deceleration" as "more time for coagulation to develop" → se
 
 Three providers (Gemini, Groq, Perplexity) show **higher** ch19 in unblinded — the "acceleration" label primes toward ch19. GPT-5 shows the **opposite** — "deceleration" label primes toward ch21.
 
+![Blinded vs unblinded CH19 identification rates](charts/chart_blinded_vs_unblinded.png)
+
 ### 6.3. Batch: Most Striking Priming Demonstration
 
 | Provider | Batch blinded ch19 % | Batch unblinded ch19 % | Batch unblinded ch21 % |
@@ -317,6 +327,8 @@ Based on Tier 1 blinded providers:
 | Mistral blinded comp. (512px) | **44.4%** | 22.2% | 11.1% |
 | Clot detection (Mistral, 512px) | **56.8%** | 29.7% | 9.5% |
 | Dominant clot stage | partial_clot | early_fibrin | none |
+
+![Clot detection rates by channel](charts/chart_clot_detection.png)
 
 ### 7.3. Batch Mode Amplifies Signal
 
