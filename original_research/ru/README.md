@@ -18,8 +18,8 @@
 
 |  Данные |  Отчёты |  Команда |
 |-----------|----------|------------|
-| [Структура Данных](#-структура-данных) | [Протокол Эксперимента](reports/experiment_protocol_ru.md) | [Контакты](#-контактная-информация) |
-| [Галерея Фотографий](#-галерея-фотографий) | [AI Анализ](reports/2026-02-25_ai-analysis/report_ru.md) | [Экосистема ASRP](#-экосистема-аспр) |
+| [Структура Данных](#-структура-данных) | [Протокол Эксперимента](../reports/experiment_protocol_ru.md) | [Контакты](#-контактная-информация) |
+| [Галерея Фотографий](#-галерея-фотографий) | [AI Анализ](../reports/2026-02-25_ai-analysis/report_ru.md) | [Экосистема ASRP](#-экосистема-аспр) |
 
 ---
 
@@ -61,13 +61,13 @@ original_research/
 
 **Просмотреть фотографии по пациентам:**
 
-- [ patient-01/photos/](data/patient-01/photos/) — 13 фото
-- [ patient-02/photos/](data/patient-02/photos/) — 25 фото
-- [ patient-03/photos/](data/patient-03/photos/) — 16 фото
-- [ patient-04/photos/](data/patient-04/photos/) — 4 фото
-- [ patient-05/photos/](data/patient-05/photos/) — 10 фото
-- [ patient-06/photos/](data/patient-06/photos/) — 3 фото
-- [ patient-07/photos/](data/patient-07/photos/) — 30 фото
+- [ patient-01/photos/](../data/patient-01/photos/) — 13 фото
+- [ patient-02/photos/](../data/patient-02/photos/) — 25 фото
+- [ patient-03/photos/](../data/patient-03/photos/) — 16 фото
+- [ patient-04/photos/](../data/patient-04/photos/) — 4 фото
+- [ patient-05/photos/](../data/patient-05/photos/) — 10 фото
+- [ patient-06/photos/](../data/patient-06/photos/) — 3 фото
+- [ patient-07/photos/](../data/patient-07/photos/) — 30 фото
 
 ---
 
@@ -75,11 +75,11 @@ original_research/
 
 | # | Отчёт | Дата | Статус |
 |---|-------|------|--------|
-| 1 | [Протокол Эксперимента](reports/experiment_protocol_ru.md) | 2026-02 |  Завершено |
-| 2 | [AI Анализ Изображений](reports/2026-02-25_ai-analysis/report_ru.md) | 2026-02-25 |  Завершено |
-| 3 | [LLM Vision Анализ](reports/2026-02-26_llm-vision-analysis/report_ru.md) | 2026-02-26 |  Завершено |
-| 4 | [Сравнительный Анализ](reports/2026-03-12_comparative-llm-analysis/report_ru.md) | 2026-03-12 |  Завершено |
-| 5 | [CV/ML Анализ](reports/2026-03-14_cv-ml-analysis/report_ru.md) | 2026-03-14 |  Завершено |
+| 1 | [Протокол Эксперимента](../reports/experiment_protocol_ru.md) | 2026-02 |  Завершено |
+| 2 | [AI Анализ Изображений](../reports/2026-02-25_ai-analysis/report_ru.md) | 2026-02-25 |  Завершено |
+| 3 | [LLM Vision Анализ](../reports/2026-02-26_llm-vision-analysis/report_ru.md) | 2026-02-26 |  Завершено |
+| 4 | [Сравнительный Анализ](../reports/2026-03-12_comparative-llm-analysis/report_ru.md) | 2026-03-12 |  Завершено |
+| 5 | [CV/ML Анализ](../reports/2026-03-14_cv-ml-analysis/report_ru.md) | 2026-03-14 |  Завершено |
 
 ---
 

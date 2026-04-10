@@ -73,6 +73,8 @@ Each plasma sample is identified by a code in the format **`{channel}.{patient}.
 | [Experiment protocol](../reports/experiment_protocol_en.md) | 2026-02 | Experiment setup, channels, key observations |
 | [AI analysis (8 providers)](../reports/2026-02-25_ai-analysis/report_en.md) | 2026-02-25 | Multi-AI image analysis: 8 Vision API providers, MoA synthesis, CV + ML metrics |
 | [LLM Vision clot analysis](../reports/2026-02-26_llm-vision-analysis/report_en.md) | 2026-02-26 | 101-photo clot analysis by Claude Opus 4.6, README-enriched channel mapping, coagulation staging |
+| [Comparative LLM analysis](../reports/2026-03-12_comparative-llm-analysis/report_en.md) | 2026-03-12 | Multi-provider comparative analysis: blinded/unblinded, full-resolution, batch and multi-tube protocols |
+| [CV/ML analysis](../reports/2026-03-14_cv-ml-analysis/report_en.md) | 2026-03-14 | Computer vision and ML pipeline: DINOv2, SigLIP2, SAM2 segmentation, multi-chain analysis |
 
 ## Experiment protocol
 
