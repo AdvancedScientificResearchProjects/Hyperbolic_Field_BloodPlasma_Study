@@ -221,7 +221,7 @@ CH19 лидирует у **6 из 7 пациентов**. P03 — единств
 
 ![Разница оценок: batch vs сравнительный ослеплённый](charts/chart_difference_rating.png)
 
-### 4.3. Качественные наблюдения batch
+### 4.4. Качественные наблюдения batch
 
 Наблюдения GPT-5 (ослеплённый):
 - *"Sample B has a bulky opaque coagulum with diffuse cloudiness"*

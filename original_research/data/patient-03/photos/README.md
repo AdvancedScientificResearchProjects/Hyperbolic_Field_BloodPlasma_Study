@@ -1,4 +1,4 @@
-#  Patient 03 Photo Dataset
+#  Patient 03 Photo Dataset / Фото Dataset Пациента 03
 
 **Experiment Date:** 2026-01-29 | **Blood Group:** IV- | **Total Photos:** 16
 
@@ -6,7 +6,7 @@
 
 ##  NAVIGATION
 
-[Info](#overview) | [Photos](#photo-inventory) | [Protocol](../protocol_part-01.pdf) | [All Patients](../../README.md) | [Data Hub](../../README.md)
+[Info / Инфо](#overview--обзор) | [Photos / Фото](#photos-16) | [Protocol / Протокол](../protocol_part-01.pdf) | [All Patients / Все Пациенты](../../README.md) | [Data Hub / Хаб Данных](../../README.md)
 
 ---
 
@@ -44,13 +44,10 @@ pie title Photo Distribution
 ### Timeline
 
 ```mermaid
-timeline
-    title Patient 03 Timeline
-    section Evening
-        21:17 : Blood
-        21:22 : Centrifuge
-        21:35 : Irradiation
-        20:41 : Photos (16)
+flowchart LR
+    A["Blood<br/>21:17"] --> B["Centrifuge<br/>21:22"]
+    B --> C["Irradiation<br/>21:35"]
+    C --> D["Photos<br/>20:41<br/>16 photos"]
 ```
 
 ---

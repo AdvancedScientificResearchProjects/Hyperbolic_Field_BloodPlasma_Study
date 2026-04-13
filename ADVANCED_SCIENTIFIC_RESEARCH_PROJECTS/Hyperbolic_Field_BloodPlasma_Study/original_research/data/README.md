@@ -51,17 +51,13 @@ pie title Total Photos by Patient
 ##  EXPERIMENT TIMELINE
 
 ```mermaid
-timeline
-    title Experiment Timeline
-    section January 2026
-        Jan 24 : Patient 01 (13 photos)
-        Jan 28 : Patient 02 (25 photos)
-        Jan 29 : Patient 03 (16 photos)
-        Jan 30 : Patient 04 (4 photos)
-        Jan 31 : Patient 05 (10 photos)
-    section February 2026
-        Feb 01 : Patient 06 (3 photos)
-        Feb 07 : Patient 07 (30 photos)
+flowchart LR
+    A["Jan 24<br/>P01 (13)"] --> B["Jan 28<br/>P02 (25)"]
+    B --> C["Jan 29<br/>P03 (16)"]
+    C --> D["Jan 30<br/>P04 (4)"]
+    D --> E["Jan 31<br/>P05 (10)"]
+    E --> F["Feb 01<br/>P06 (3)"]
+    F --> G["Feb 07<br/>P07 (30)"]
 ```
 
 ---

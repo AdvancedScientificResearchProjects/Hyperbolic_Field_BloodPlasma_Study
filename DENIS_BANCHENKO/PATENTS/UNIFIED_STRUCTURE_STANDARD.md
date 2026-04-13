@@ -199,7 +199,7 @@ Before uploading ANY document / Перед загрузкой ЛЮБОГО до�
 
 4. ** Mermaid diagrams included / Диаграммы Mermaid включены**
    - `sequenceDiagram` for correspondence flow / sequenceDiagram для потока переписки
-   - `timeline` for payment/timeline / timeline для платежей/временной шкалы
+   - `gantt` for payment/timeline / gantt для платежей/временной шкалы
    - `flowchart` for process flow / flowchart для процесса
 
 5. ** Corporate contact info / Корпоративная контактная информация**
@@ -269,7 +269,7 @@ Before publishing ANY Issue table with links / Перед публикацией
 
 4. ** Mermaid diagrams included / Диаграммы Mermaid включены**
    - `sequenceDiagram` for correspondence flow / sequenceDiagram для потока переписки
-   - `timeline` for payment/timeline / timeline для платежей/временной шкалы
+   - `gantt` for payment/timeline / gantt для платежей/временной шкалы
    - `flowchart` for process flow / flowchart для процесса
 
 5. ** Corporate contact info / Корпоративная контактная информация**

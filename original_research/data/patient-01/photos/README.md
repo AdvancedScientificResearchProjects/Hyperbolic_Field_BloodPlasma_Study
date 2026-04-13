@@ -33,18 +33,11 @@ pie title Photo Distribution by Sample Type / Распределение Фот�
 ##  EXPERIMENT TIMELINE / ВРЕМЕННАЯ ШКАЛА ЭКСПЕРИМЕНТА
 
 ```mermaid
-timeline
-    title Patient 01 Timeline / Временная Шкала Пациента 01
-    section Blood Collection / Забор Крови
-        18:56:10 — 18:59:59 :  4 test tubes / 4 пробирки
-    section Centrifugation / Центрифугирование
-        19:00:30 — 19:06:10 :  2000 rpm, 5 min
-    section Sample Prep / Подготовка Образцов
-        19:12:30 — 19:14:20 :  4 samples / 4 образца
-    section Irradiation / Облучение
-        19:18:29 — 20:30:00 :  Ch19 + Ch21
-    section Photography / Фотографирование
-        19:00:33 — 20:30:00 :  13 photos / 13 фото
+flowchart LR
+    A["Забор Крови<br/>Blood Collection<br/>18:56 - 18:59<br/>4 пробирки"] --> B["Центрифугирование<br/>Centrifugation<br/>19:00 - 19:06<br/>2000 rpm, 5 min"]
+    B --> C["Подготовка<br/>Sample Prep<br/>19:12 - 19:14<br/>4 образца"]
+    C --> D["Облучение<br/>Irradiation<br/>19:18 - 20:30<br/>Ch19 + Ch21"]
+    D --> E["Фото<br/>Photography<br/>19:00 - 20:30<br/>13 photos"]
 ```
 
 ---
@@ -151,7 +144,7 @@ flowchart TB
 
 | Role / Роль | Name / Имя | Email |
 |-------------|------------|-------|
-| **Lead Researcher / Ведущий Исследователь** | Ovseannikova Valeria / Овсянникова Валерия | valeriaovseannicova@asrp.tech |
+| **Lead Researcher / Ведущий Исследователь** | Ovseannicova Valeria / Овсянникова Валерия | valeriaovseannicova@asrp.tech |
 | **Program Director / Директор Программы** | Banchenko Denis / Банченко Денис | denisbanchenko@asrp.tech |
 
 ---

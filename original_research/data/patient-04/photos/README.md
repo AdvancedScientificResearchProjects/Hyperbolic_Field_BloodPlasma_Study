@@ -1,4 +1,4 @@
-#  Patient 04 Photo Dataset
+#  Patient 04 Photo Dataset / Фото Dataset Пациента 04
 
 **Experiment Date:** 2026-01-30 | **Blood Group:** IV+ | **Total Photos:** 4
 
@@ -6,7 +6,7 @@
 
 ##  NAVIGATION
 
-[Info](#overview) | [Photos](#photo-inventory) | [Protocol](../protocol_part-01.pdf) | [All Patients](../../README.md) | [Data Hub](../../README.md)
+[Info / Инфо](#overview--обзор) | [Photos / Фото](#photos-4) | [Protocol / Протокол](../protocol_part-01.pdf) | [All Patients / Все Пациенты](../../README.md) | [Data Hub / Хаб Данных](../../README.md)
 
 ---
 

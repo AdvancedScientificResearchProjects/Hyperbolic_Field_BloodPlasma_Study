@@ -1,4 +1,4 @@
-#  Patient 05 Photo Dataset
+#  Patient 05 Photo Dataset / Фото Dataset Пациента 05
 
 **Experiment Date:** 2026-01-31 | **Blood Group:** no data | **Total Photos:** 10
 
@@ -6,7 +6,7 @@
 
 ##  NAVIGATION
 
-[Info](#overview) | [Photos](#photo-inventory) | [Protocol](../protocol_part-01.pdf) | [All Patients](../../README.md) | [Data Hub](../../README.md)
+[Info / Инфо](#overview--обзор) | [Photos / Фото](#photos-10) | [Protocol / Протокол](../protocol_part-01.pdf) | [All Patients / Все Пациенты](../../README.md) | [Data Hub / Хаб Данных](../../README.md)
 
 ---
 
@@ -33,12 +33,9 @@ pie title Photo Distribution
 ### Night Session Timeline
 
 ```mermaid
-timeline
-    title Patient 05: Night Session
-    section Late Night
-        01:21 : Irradiation end
-        01:37 : Photos start
-        01:47 : Photos end
+flowchart LR
+    A["Irradiation End<br/>01:21"] --> B["Photos Start<br/>01:37"]
+    B --> C["Photos End<br/>01:47"]
 ```
 
 ### Photo Distribution

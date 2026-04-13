@@ -35,16 +35,10 @@ pie title Photo Distribution by Sample Type
 ##  EXPERIMENT TIMELINE
 
 ```mermaid
-timeline
-    title Patient 01 Experiment Timeline
-    section Blood Collection
-        18:56:10 — 18:59:59 :  Blood Draw
-    section Centrifugation
-        19:00:30 — 19:06:10 :  Centrifuge
-    section Irradiation
-        19:18:29 — 20:30:00 :  Hyperbolic Field
-    section Photography
-        19:00:33 — 20:30:00 :  13 photos
+flowchart LR
+    A["Blood Collection<br/>18:56 - 18:59"] --> B["Centrifugation<br/>19:00 - 19:06"]
+    B --> C["Irradiation<br/>19:18 - 20:30"]
+    C --> D["Photography<br/>19:00 - 20:30<br/>13 photos"]
 ```
 
 ---
@@ -113,7 +107,7 @@ timeline
 
 | Role | Name | Email |
 |------|------|-------|
-| Lead Researcher | Ovseannikova Valeria | valeriaovseannicova@asrp.tech |
+| Lead Researcher | Ovseannicova Valeria | valeriaovseannicova@asrp.tech |
 | Program Director | Banchenko Denis | denisbanchenko@asrp.tech |
 
 ---

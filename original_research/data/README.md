@@ -41,51 +41,51 @@ pie title Total Photos by Patient / Всего Фото по Пациентам
 
 **Mean Clot Count by Channel / Среднее Количество Сгустков**
 
-| Metric | Value |
+| Metric / Метрика | Value / Значение |
 |---|---|
-|  Control 8.92 | 8.92 |
-|  Ch19 5.64 (−37%) | 5.64 |
-|  Ch21 8.69 (−3%) | 8.69 |
+| Control / Контроль | 8.92 |
+| Ch19 (−37%) | 5.64 |
+| Ch21 (−3%) | 8.69 |
 
 ### Clot Area Percentage / Процент Площади Сгустков
 
 **Total Clot Area (% of sample) / Общая Площадь Сгустков (%)**
 
-| Metric | Value |
+| Metric / Метрика | Value / Значение |
 |---|---|
-|  Control 0.90% | 0.90 |
-|  Ch19 0.52% (−42%) | 0.52 |
-|  Ch21 0.58% (−35%) | 0.58 |
+| Control / Контроль | 0.90 |
+| Ch19 (−42%) | 0.52 |
+| Ch21 (−35%) | 0.58 |
 
 ### Texture Analysis (GLCM Contrast) / Текстурный Анализ
 
 **GLCM Texture Contrast / Текстурный Контраст**
 
-| Metric | Value |
+| Metric / Метрика | Value / Значение |
 |---|---|
-|  Control 4.12 | 4.12 |
-|  Ch19 5.26 (+28%) | 5.26 |
-|  Ch21 4.16 (+1%) | 4.16 |
+| Control / Контроль | 4.12 |
+| Ch19 (+28%) | 5.26 |
+| Ch21 (+1%) | 4.16 |
 
 ### Edge Density Comparison / Плотность Краёв
 
 **Edge Density (Canny) / Плотность Краёв**
 
-| Metric | Value |
+| Metric / Метрика | Value / Значение |
 |---|---|
-|  Control 0.0016 | 0.0016 |
-|  Ch19 0.0012 (−25%) | 0.0012 |
-|  Ch21 0.0034 (+113%) | 0.0034 |
+| Control / Контроль | 0.0016 |
+| Ch19 (−25%) | 0.0012 |
+| Ch21 (+113%) | 0.0034 |
 
 ### LLM Clot Detection Rate / Частота Обнаружения (LLM)
 
 **Clot Detection Rate (LLM Vision) / Обнаружение Сгустков (LLM)**
 
-| Metric | Value |
+| Metric / Метрика | Value / Значение |
 |---|---|
-|  Control 65% | 65 |
-|  Ch19 78% (+13%) | 78 |
-|  Ch21 41% (−24%) | 41 |
+| Control / Контроль | 65 |
+| Ch19 (+13%) | 78 |
+| Ch21 (−24%) | 41 |
 
 ---
 
@@ -149,7 +149,7 @@ flowchart LR
 
 ##  PATIENT DATASETS / НАБОРЫ ДАННЫХ ПАЦИЕНТОВ
 
-| # | Patient | Photos | Date | Blood | Key Feature | Link |
+| # | Patient / Пациент | Photos / Фото | Date / Дата | Blood / Кровь | Key Feature / Особенность | Link / Ссылка |
 |---|---------|--------|------|-------|-------------|------|
 | 1 | **Patient 01** |  13 | Jan 24 | II+ | First experiment | [View](patient-01/photos/) |
 | 2 | **Patient 02** |  25 | Jan 28 | III+ | Petri dish + LYSIS | [View](patient-02/photos/) |
@@ -164,24 +164,20 @@ flowchart LR
 ##  EXPERIMENT TIMELINE / ВРЕМЕННАЯ ШКАЛА
 
 ```mermaid
-timeline
-    title Experiment Timeline
-    section January 2026
-        Jan 24 : P01 (13 photos)
-        Jan 28 : P02 (25 photos)
-        Jan 29 : P03 (16 photos)
-        Jan 30 : P04 (4 photos)
-        Jan 31 : P05 (10 photos)
-    section February 2026
-        Feb 01 : P06 (3 photos)
-        Feb 07 : P07 (30 photos)
+flowchart LR
+    A["Jan 24<br/>P01 (13)"] --> B["Jan 28<br/>P02 (25)"]
+    B --> C["Jan 29<br/>P03 (16)"]
+    C --> D["Jan 30<br/>P04 (4)"]
+    D --> E["Jan 31<br/>P05 (10)"]
+    E --> F["Feb 01<br/>P06 (3)"]
+    F --> G["Feb 07<br/>P07 (30)"]
 ```
 
 ---
 
 ##  KEY FINDINGS SUMMARY / СВОДКА НАХОДОК
 
-| Metric | Control | Ch19 | Ch21 |
+| Metric / Метрика | Control / Контроль | Ch19 / Канал 19 | Ch21 / Канал 21 |
 |--------|---------|------|------|
 | **Clot Count** | 8.92 | 5.64 (−37%)  | 8.69 (−3%) |
 | **Clot Area** | 0.90% | 0.52% (−42%)  | 0.58% (−35%)  |
@@ -192,7 +188,7 @@ timeline
 
 ### Statistical Significance
 
-| Analysis | Result | P-value | Status |
+| Analysis / Анализ | Result / Результат | P-value / P-значение | Status / Статус |
 |----------|--------|---------|--------|
 | Gemini LLM | 57.9% ch19 | p = 0.027 |  Significant |
 | DINOv2 Probe | 47.4% ch19 | p = 0.146 |  Suggestive |
@@ -201,7 +197,7 @@ timeline
 
 ##  NAVIGATION LINKS / ССЫЛКИ
 
-| Resource | Link |
+| Resource / Ресурс | Link / Ссылка |
 |----------|------|
 | ** Main README** | [View](../../README.md) |
 | ** Original Research** | [View](../) |
@@ -212,10 +208,11 @@ timeline
 
 ##  CONTACT / КОНТАКТЫ
 
-| Role | Name | Email |
+| Role / Роль | Name / Имя | Email / Почта |
 |------|------|-------|
-| Lead Researcher | Ovseannikova Valeria | valeriaovseannicova@asrp.tech |
-| Program Director | Banchenko Denis | denisbanchenko@asrp.tech |
+| Lead Researcher / Ведущий Исследователь | Ovseannicova Valeria / Овсянникова Валерия | valeriaovseannicova@asrp.tech |
+| Program Director / Директор Программы | Banchenko Denis / Банченко Денис | denisbanchenko@asrp.tech |
+| Head Hardware Engineer / Главный Инженер | Ovsyannikov Alexandr / Овсянников Александр | alexandrovsyannikov@asrp.tech |
 
 ---
 

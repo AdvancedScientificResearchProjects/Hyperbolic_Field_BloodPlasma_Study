@@ -1,4 +1,4 @@
-#  Patient 07 Photo Dataset
+#  Patient 07 Photo Dataset / Фото Dataset Пациента 07
 
 **Experiment Date:** 2026-02-07 | **Blood Group:** no data | **Total Photos:** 30
 
@@ -6,7 +6,7 @@
 
 ##  NAVIGATION
 
-[Info](#overview) | [Photos](#photo-inventory) | [Protocol](../protocol_part-01.pdf) | [All Patients](../../README.md) | [Data Hub](../../README.md)
+[Info / Инфо](#overview--обзор) | [Photos / Фото](#photos-30) | [Protocol / Протокол](../protocol_part-01.pdf) | [All Patients / Все Пациенты](../../README.md) | [Data Hub / Хаб Данных](../../README.md)
 
 ---
 
@@ -45,16 +45,10 @@ pie title Photo Distribution by Sample Type
 ### Timeline
 
 ```mermaid
-timeline
-    title Patient 07 Timeline
-    section Blood
-        19:57-20:03 : Collection
-    section Centrifuge
-        20:03-20:09 : 2000 rpm
-    section Irradiation
-        20:15-21:36 : Ch19+Ch21
-    section Photos
-        19:58-20:34 : 30 photos
+flowchart LR
+    A["Blood<br/>19:57-20:03"] --> B["Centrifuge<br/>20:03-20:09<br/>2000 rpm"]
+    B --> C["Irradiation<br/>20:15-21:36<br/>Ch19+Ch21"]
+    C --> D["Photos<br/>19:58-20:34<br/>30 photos"]
 ```
 
 ---

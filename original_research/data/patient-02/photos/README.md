@@ -6,7 +6,7 @@
 
 ##  NAVIGATION / НАВИГАЦИЯ
 
-[Info / Инфо](#dataset-overview) | [Photos / Фото](#photo-inventory) | [Protocol / Протокол](../protocol_part-01.pdf) | [All Patients / Все Пациенты](../../README.md) | [Data Hub / Хаб Данных](../../README.md)
+[Info / Инфо](#dataset-overview--описание-набора-данных) | [Photos / Фото](#photos--фото-25) | [Protocol / Протокол](../protocol_part-01.pdf) | [All Patients / Все Пациенты](../../README.md) | [Data Hub / Хаб Данных](../../README.md)
 
 ---
 
@@ -44,14 +44,9 @@ pie title Photo Distribution / Распределение Фото
 ### Temporal Coverage / Временное Покрытие
 
 ```mermaid
-timeline
-    title Patient 02: Photo Timeline / Пациент 02: Временная Шкала
-    section Immediate
-        21:29 : First photo / Первое фото
-    section +6 Hours
-        Next day : Petri dish / Чашка Петри
-    section +16-21 Hours
-        Next day : Macro analysis / Макро анализ
+flowchart LR
+    A["Immediate<br/>21:29<br/>Первое фото"] --> B["+6 Hours<br/>Petri dish<br/>Чашка Петри"]
+    B --> C["+16-21 Hours<br/>Macro analysis<br/>Макро анализ"]
 ```
 
 ### Key Finding: LYSIS CASE / Ключевая Находка: ЛИЗИС

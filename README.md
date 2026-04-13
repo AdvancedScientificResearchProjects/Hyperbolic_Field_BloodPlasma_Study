@@ -1,4 +1,4 @@
-# Hyperbolic Field Blood Plasma Study / Исследование Плазмы Крови после воздейсвия Гиперболических Полей
+# Hyperbolic Field Blood Plasma Study / Исследование Плазмы Крови после воздействия Гиперболических Полей
 
 **Experimental datasets, imaging results and analytical materials from blood plasma exposure to hyperbolic field emitters. Includes raw data, controlled environment documentation and protocol references.**
 
@@ -19,10 +19,10 @@
 
 | **Data & Photos** / **Данные и Фото** | **Reports** / **Отчёты** | **Team** / **Команда** | **Issues** / **Задачи** |
 |------------------------------------------|----------------------------|---------------------------|----------------------------|
-| [Photo Gallery](#photo-gallery-галерея-фотографий) | [All Reports](#all-reports-все-отчёты) | [Research Team](#research-team-команда-исследования) | [Issue #1: Protocol](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/1) |
-| [Data Structure](#data-structure-структура-данных) | [Biochemical Analysis](#all-reports-все-отчёты) | [Contacts](#contact-information-контактная-информация) | [Issue #3: Photography](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/3) |
-| [Data Volume](#data-volume-объём-данных) | [AI/ML Analysis](#aiml-analysis-иимл-анализ) | [Patent Connection](#patent-connection-связь-с-патентом) | [Issue #5: Biochemical](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/5) |
-| [Results](#key-results-ключевые-результаты) | [Protocols](#experimental-protocol--протокол-эксперимента) | [ASRP Ecosystem](#asrp-ecosystem-экосистема-asrp) | [Issue #8: Publication](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/8) |
+| [Photo Gallery](#photo-gallery--галерея-фотографий) | [All Reports](#all-reports--все-отчёты) | [Research Team](#research-team--команда-исследования) | [Issue #1: Protocol](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/1) |
+| [Data Structure](#data-structure--структура-данных) | [Biochemical Analysis](#all-reports--все-отчёты) | [Contacts](#contact-information--контактная-информация) | [Issue #3: Photography](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/3) |
+| [Data Volume](#data-volume--объём-данных) | [AI/ML Analysis](#aiml-analysis--иимл-анализ) | [Patent Connection](#patent-connection--связь-с-патентом) | [Issue #5: Biochemical](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/5) |
+| [Results](#key-results--ключевые-результаты) | [Protocols](#experimental-protocol--протокол-эксперимента) | [ASRP Ecosystem](#asrp-ecosystem--экосистема-asrp) | [Issue #8: Publication](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/8) |
 
 ---
 
@@ -97,7 +97,7 @@ flowchart LR
 
 **THIS STUDY WAS PREREGISTERED ON OSF BEFORE DATA COLLECTION:**
 
-| Parameter | Value |
+| Parameter / Параметр | Value / Значение |
 |-----------|-------|
 | **OSF Project** | [osf.io/8q42f](https://osf.io/8q42f) |
 | **DOI** | [10.17605/OSF.IO/GWA9E](https://doi.org/10.17605/OSF.IO/GWA9E) |
@@ -145,10 +145,10 @@ flowchart LR
 | Parameter / Параметр | Control / Контроль | Channel 19 / Канал 19 (Acceleration) | Channel 21 / Канал 21 (Deceleration) |
 |---|---|---|---|
 | **Photos with Clots / Фото со Сгустками** |62-65% | 71-78% | 41-54% |
-| **Clot Count (mean) / Кол-во Сгустков** | | 8.92 | 5.64 **(−37%)**8.69 (−3%) |
-| **Total Clot Area / Площадь Сгустков** | | 0.90% | 0.52% **(−42%)**0.58% (−35%) |
-| **Lysis Cases / Случаи Лизиса** | | 0 | **1 (only channel)**0 |
-| **GLCM Contrast / Текстурный Контраст** | | 4.12 | 5.26 **(+28%)**4.16 (+1%) |
+| **Clot Count (mean) / Кол-во Сгустков** | 8.92 | 5.64 **(−37%)** | 8.69 (−3%) |
+| **Total Clot Area / Площадь Сгустков** | 0.90% | 0.52% **(−42%)** | 0.58% (−35%) |
+| **Lysis Cases / Случаи Лизиса** | 0 | **1 (only channel)** | 0 |
+| **GLCM Contrast / Текстурный Контраст** | 4.12 | 5.26 **(+28%)** | 4.16 (+1%) |
 | **Edge Density / Плотность Краёв** |0.0016 | 0.0012 (−25%) | 0.0034 **(+113%)** |
 
 ### KEY FINDINGS / КЛЮЧЕВЫЕ ВЫВОДЫ
@@ -339,18 +339,18 @@ flowchart TD
 
 | # | Name / Имя | Role / Роль | Responsibilities / Обязанности | Email |
 |---|------------|-------------|-------------------------------|-------|
-| **1** | | **OVSEANNIKOVA VALERIA ALEXANDROVNA / ОВСЯННИКОВА ВАЛЕРИЯ АЛЕКСАНДРОВНА**CBE (Chief Biomedical Engineer) / Director of Biomedical Research Department / Руководитель Департамента Биомедицинских Исследований; Technology Co-Author / Соавтор технологии | Lead Researcher / Ведущий исследователь; Experimental design / Дизайн эксперимента; Blood plasma protocol / Протокол работы с плазмой; Electronic control systems / Электронные системы управления | [valeriaovseannicova@asrp.tech](mailto:valeriaovseannicova@asrp.tech) |
-| **2** | | **BANCHENKO DENIS YURIEVICH / БАНЧЕНКО ДЕНИС ЮРЬЕВИЧ**CEO ASRP / Program Director / Директор Программы; Technology Co-Author / Соавтор технологии | Hyperbolic field physics / Физика гиперболических полей; Excitation systems / Системы возбуждения; Lensing & focusing / Линзирование и фокусировка; Control software / ПО управления | [denisbanchenko@asrp.tech](mailto:denisbanchenko@asrp.tech) |
-| **3** | | **KAPUSTIN MYKHAILO MYKHALOVICH / КАПУСТИН МИХАЙЛО МИХАЙЛОВИЧ**CTO (Chief Technology Officer) / Director of IT & AI Department / Директор Департамента Информационных Технологий и ИИ; Technology Co-Author / Соавтор технологии | IT/AI Infrastructure / ИТ/ИИ инфраструктура; Data systems / Системы данных; Technical platform / Техническая платформа; Control systems / Системы управления | [mykhailokapustin@asrp.tech](mailto:mykhailokapustin@asrp.tech) |
-| **4** | | **ZMIENKO KYRYL / ЗМИЕНКО КИРИЛЛ**Chief AI Engineer / Главный ИИ Инженер | Neural Network Analysis / Анализ нейронными сетями; Multi-LLM coordination / Координация мульти-LLM; Specialized vision models / Специализированные vision модели | [kyrylzmiienko@asrp.tech](mailto:kyrylzmiienko@asrp.tech) |
-| **5** | | **OVSYANNIKOV ALEXANDR / ОВСЯННИКОВ АЛЕКСАНДР**Head Hardware Engineer / Главный Инженер по Аппаратному Обеспечению; Technology Engineer / Инженер Технологии | Electrical & Power Systems / Электрические и силовые системы; Hyperbolic emitter excitation / Системы возбуждения гиперболических излучателей; Power components design / Проектирование силовых компонентов | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) |
+| **1** | **OVSEANNICOVA VALERIA ALEXANDROVNA / ОВСЯННИКОВА ВАЛЕРИЯ АЛЕКСАНДРОВНА** | CBE (Chief Biomedical Engineer) / Director of Biomedical Research Department / Руководитель Департамента Биомедицинских Исследований; Technology Co-Author / Соавтор технологии | Lead Researcher / Ведущий исследователь; Experimental design / Дизайн эксперимента; Blood plasma protocol / Протокол работы с плазмой; Electronic control systems / Электронные системы управления | [valeriaovseannicova@asrp.tech](mailto:valeriaovseannicova@asrp.tech) |
+| **2** | **BANCHENKO DENIS YURIEVICH / БАНЧЕНКО ДЕНИС ЮРЬЕВИЧ** | CEO ASRP / Program Director / Директор Программы; Technology Co-Author / Соавтор технологии | Hyperbolic field physics / Физика гиперболических полей; Excitation systems / Системы возбуждения; Lensing & focusing / Линзирование и фокусировка; Control software / ПО управления | [denisbanchenko@asrp.tech](mailto:denisbanchenko@asrp.tech) |
+| **3** | **KAPUSTIN MYKHAILO MYKHALOVICH / КАПУСТИН МИХАЙЛО МИХАЙЛОВИЧ** | CTO (Chief Technology Officer) / Director of IT & AI Department / Директор Департамента Информационных Технологий и ИИ; Technology Co-Author / Соавтор технологии | IT/AI Infrastructure / ИТ/ИИ инфраструктура; Data systems / Системы данных; Technical platform / Техническая платформа; Control systems / Системы управления | [mykhailokapustin@asrp.tech](mailto:mykhailokapustin@asrp.tech) |
+| **4** | **ZMIENKO KYRYL / ЗМИЕНКО КИРИЛЛ** | Chief AI Engineer / Главный ИИ Инженер | Neural Network Analysis / Анализ нейронными сетями; Multi-LLM coordination / Координация мульти-LLM; Specialized vision models / Специализированные vision модели | [kyrylzmiienko@asrp.tech](mailto:kyrylzmiienko@asrp.tech) |
+| **5** | **OVSYANNIKOV ALEXANDR / ОВСЯННИКОВ АЛЕКСАНДР** | Head Hardware Engineer / Главный Инженер по Аппаратному Обеспечению; Technology Engineer / Инженер Технологии | Electrical & Power Systems / Электрические и силовые системы; Hyperbolic emitter excitation / Системы возбуждения гиперболических излучателей; Power components design / Проектирование силовых компонентов | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) |
 
 ### COLLABORATORS / КОЛЛАБОРАТОРЫ
 
 | Name / Имя | Organization / Организация | Role / Роль | Email |
 |------------|---------------------------|-------------|-------|
 | **SAVELYEV IVAN / САВЕЛЬЕВ ИВАН** |ASRP.science | Science Director / Editor-in-Chief / Директор по Науке и Главный Редактор | [ivansavelev@asrp.science](mailto:ivansavelev@asrp.science) |
-| **CHIRKIVA OLESYA / ЧИРКИВА ОЛЕСЯ** |SASU Point Rouge France | Independent Researcher / Blood Plasma Specialist / Независимый Исследователь / Специалист по Плазме | [point.rouge.ch@gmail.com](mailto:point.rouge.ch@gmail.com) |
+| **CHIRKOVA OLESYA / ЧИРКОВА ОЛЕСЯ** |SASU Point Rouge France | Independent Researcher / Blood Plasma Specialist / Независимый Исследователь / Специалист по Плазме | [point.rouge.ch@gmail.com](mailto:point.rouge.ch@gmail.com) |
 
 ---
 
@@ -416,6 +416,7 @@ flowchart TD
 | **Mykhailo Kapustin / Михайло Капустин** | [mykhailokapustin@asrp.tech](mailto:mykhailokapustin@asrp.tech) | CTO / IT & AI |
 | **Kyryl Zmiienko / Кирилл Змиенко** | [kyrylzmiienko@asrp.tech](mailto:kyrylzmiienko@asrp.tech) | Chief AI Engineer |
 | **Ivan Savelyev / Иван Савельев** | [ivansavelev@asrp.science](mailto:ivansavelev@asrp.science) | Science Director / ASRP.science |
+| **Alexandr Ovsyannikov / Александр Овсянников** | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) | Head Hardware Engineer |
 
 ---
 
@@ -516,16 +517,6 @@ flowchart TD
 
 ## REFERENCES / ССЫЛКИ
 
-### INTERNAL REPORTS / ВНУТРЕННИЕ ОТЧЁТЫ
-
-| # | Report / Отчёт | Date / Дата | Status / Статус | Link / Ссылка |
-|---|----------------|-------------|-----------------|---------------|
-| 1 | Experiment Protocol / Протокол Эксперимента | 2026-02 | Completed | [EN](original_research/reports/experiment_protocol_en.md) \| [RU](original_research/reports/experiment_protocol_ru.md) |
-| 2 | Multi-AI Image Analysis / Мультипровайдерный AI-анализ | 2026-02-25 | Completed | [EN](original_research/reports/2026-02-25_ai-analysis/report_en.md) \| [RU](original_research/reports/2026-02-25_ai-analysis/report_ru.md) |
-| 3 | LLM Vision Clot Analysis / LLM Vision Анализ | 2026-02-26 | Completed | [EN](original_research/reports/2026-02-26_llm-vision-analysis/report_en.md) \| [RU](original_research/reports/2026-02-26_llm-vision-analysis/report_ru.md) |
-| 4 | Comparative LLM Analysis / Сравнительный Анализ LLM | 2026-03-12 | Completed | [EN](original_research/reports/2026-03-12_comparative-llm-analysis/report_en.md) \| [RU](original_research/reports/2026-03-12_comparative-llm-analysis/report_ru.md) |
-| 5 | CV/ML Analysis / Computer Vision + ML Анализ | 2026-03-14 | Completed | [EN](original_research/reports/2026-03-14_cv-ml-analysis/report_en.md) \| [RU](original_research/reports/2026-03-14_cv-ml-analysis/report_ru.md) |
-
 ### ML MODELS USED / ИСПОЛЬЗОВАННЫЕ МЛ МОДЕЛИ
 
 | Model / Модель | Developer / Разработчик | Type / Тип | Purpose / Назначение |
@@ -556,18 +547,18 @@ flowchart TD
 
 ### QUICK LINKS / БЫСТРЫЕ ССЫЛКИ
 
-- [Back to Top / Наверх](#hyperbolic-field-blood-plasma-study-исследование-кровяной-плазмы-гиперболических-полей)
-- [Quick Navigation / Быстрая Навигация](#quick-navigation-быстрая-навигация)
-- [Research Overview / Обзор Исследования](#research-overview-обзор-исследования)
-- [Patent Connection / Связь с Патентом](#patent-connection-связь-с-патентом)
-- [Key Results / Ключевые Результаты](#key-results-ключевые-результаты)
-- [Photo Gallery / Галерея Фотографий](#photo-gallery-галерея-фотографий)
-- [Data Structure / Структура Данных](#data-structure-структура-данных)
-- [Reports / Отчёты](#reports-отчёты)
-- [Research Team / Команда Исследования](#research-team-команда-исследования)
-- [Active Issues / Текущие Задачи](#active-issues-текущие-задачи)
-- [ASRP Ecosystem / Экосистема ASRP](#asrp-ecosystem-экосистема-аспр)
-- [Contact Information / Контактная Информация](#contact-information-контактная-информация)
+- [Back to Top / Наверх](#hyperbolic-field-blood-plasma-study--исследование-плазмы-крови-после-воздействия-гиперболических-полей)
+- [Quick Navigation / Быстрая Навигация](#quick-navigation--быстрая-навигация)
+- [Research Overview / Обзор Исследования](#research-overview--обзор-исследования)
+- [Patent Connection / Связь с Патентом](#patent-connection--связь-с-патентом)
+- [Key Results / Ключевые Результаты](#key-results--ключевые-результаты)
+- [Photo Gallery / Галерея Фотографий](#photo-gallery--галерея-фотографий)
+- [Data Structure / Структура Данных](#data-structure--структура-данных)
+- [Reports / Отчёты](#reports--отчёты)
+- [Research Team / Команда Исследования](#research-team--команда-исследования)
+- [Active Issues / Текущие Задачи](#active-issues--tasks--текущие-задачи)
+- [ASRP Ecosystem / Экосистема ASRP](#asrp-ecosystem--экосистема-asrp)
+- [Contact Information / Контактная Информация](#contact-information--контактная-информация)
 
 ---
 

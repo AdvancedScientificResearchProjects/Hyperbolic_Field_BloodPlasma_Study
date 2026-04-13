@@ -13,7 +13,7 @@
 | [ Photo Gallery](#-photo-gallery--галерея-фотографий) | [ All Reports](#-reports--отчёты) | [ Research Team](#-research-team--команда-исследования) | [ Issue #1: Protocol](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/1) |
 | [ Data Structure](#-data-structure--структура-данных) | [ Biochemical Analysis](#-reports--отчёты) | [ Contacts](#-contact-information--контактная-информация) | [ Issue #3: Photography](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/3) |
 | [ All Folders](#-complete-folder-structure--полная-структура-папок) | [ AI/ML Analysis](#-reports--отчёты) | [ Patent Connection](#-patent-connection--связь-с-патентом) | [ Issue #5: Biochemical](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/5) |
-| [ Results](#-key-results--ключевые-результаты) | [ Protocols](#-reports--отчёты) | [ ASRP Ecosystem](#-asrp-ecosystem--экосистема-асрп) | [ Issue #8: Publication](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/8) |
+| [ Results](#-key-results--ключевые-результаты) | [ Protocols](#-reports--отчёты) | [ ASRP Ecosystem](#-asrp-ecosystem--экосистема-asrp) | [ Issue #8: Publication](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/8) |
 
 ---
 
@@ -88,22 +88,17 @@ flowchart LR
 ###  HYPOTHESIS VALIDATION / ВАЛИДАЦИЯ ГИПОТЕЗЫ
 
 ```mermaid
-timeline
-    title Research Timeline / Временная Шкала Исследования
-    section January 2026
-        Jan 24 : Patient 01<br/>Пациент 01
-        Jan 28 : Patient 02<br/>Пациент 02
-        Jan 29 : Patient 03<br/>Пациент 03
-        Jan 30 : Patient 04<br/>Пациент 04
-        Jan 31 : Patient 05<br/>Пациент 05
-    section February 2026
-        Feb 01 : Patient 06<br/>Пациент 06
-        Feb 07 : Patient 07<br/>Пациент 07
-    section Analysis
-        Feb 25 : AI Analysis<br/>ИИ Анализ
-        Feb 26 : LLM Vision<br/>LLM Визион
-        Mar 12 : Comparative<br/>Сравнительный
-        Mar 14 : CV/ML Analysis<br/>CV/МЛ Анализ
+flowchart LR
+    A["Jan 24: P01<br/>Пациент 01"] --> B["Jan 28: P02<br/>Пациент 02"]
+    B --> C["Jan 29: P03<br/>Пациент 03"]
+    C --> D["Jan 30: P04<br/>Пациент 04"]
+    D --> E["Jan 31: P05<br/>Пациент 05"]
+    E --> F["Feb 01: P06<br/>Пациент 06"]
+    F --> G["Feb 07: P07<br/>Пациент 07"]
+    G --> H["Feb 25: AI Analysis<br/>ИИ Анализ"]
+    H --> I["Feb 26: LLM Vision<br/>LLM Визион"]
+    I --> J["Mar 12: Comparative<br/>Сравнительный"]
+    J --> K["Mar 14: CV/ML<br/>CV/МЛ Анализ"]
 ```
 
 ###  COMPARATIVE RESULTS / СРАВНИТЕЛЬНЫЕ РЕЗУЛЬТАТЫ
@@ -261,10 +256,10 @@ Hyperbolic_Field_BloodPlasma_Study/
 | # | Report / Отчёт | Date / Дата | Status / Статус | Direct Link / Прямая Ссылка |
 |---|----------------|-------------|-----------------|----------------------------|
 | 1 | ** Experiment Protocol / Протокол Эксперимента** | 2026-02 |  Complete | [ EN](../../original_research/reports/experiment_protocol_en.md) \| [ RU](../../original_research/reports/experiment_protocol_ru.md) |
-| 2 | ** Multi-AI Image Analysis / Мультипровайдерный AI-анализ Изображений** | 2026-02-25 |  Complete | [ EN](../../original_research/reports/2026-02-25_ai-analysis/) \| [ RU](../../original_research/reports/2026-02-25_ai-analysis/) |
-| 3 | ** LLM Vision Clot Analysis / LLM Vision Анализ Сгустков** | 2026-02-26 |  Complete | [ EN](../../original_research/reports/2026-02-26_llm-vision-analysis/) \| [ RU](../../original_research/reports/2026-02-26_llm-vision-analysis/) |
-| 4 | ** Comparative LLM Analysis / Сравнительный Анализ LLM** | 2026-03-12 |  Complete | [ EN](../../original_research/reports/2026-03-12_comparative-llm-analysis/) \| [ RU](../../original_research/reports/2026-03-12_comparative-llm-analysis/) |
-| 5 | ** CV/ML Analysis / Computer Vision + ML Анализ** | 2026-03-14 |  Complete | [ EN](../../original_research/reports/2026-03-14_cv-ml-analysis/) \| [ RU](../../original_research/reports/2026-03-14_cv-ml-analysis/) |
+| 2 | ** Multi-AI Image Analysis / Мультипровайдерный AI-анализ Изображений** | 2026-02-25 |  Complete | [ EN](../../original_research/reports/2026-02-25_ai-analysis/report_en.md) \| [ RU](../../original_research/reports/2026-02-25_ai-analysis/report_ru.md) |
+| 3 | ** LLM Vision Clot Analysis / LLM Vision Анализ Сгустков** | 2026-02-26 |  Complete | [ EN](../../original_research/reports/2026-02-26_llm-vision-analysis/report_en.md) \| [ RU](../../original_research/reports/2026-02-26_llm-vision-analysis/report_ru.md) |
+| 4 | ** Comparative LLM Analysis / Сравнительный Анализ LLM** | 2026-03-12 |  Complete | [ EN](../../original_research/reports/2026-03-12_comparative-llm-analysis/report_en.md) \| [ RU](../../original_research/reports/2026-03-12_comparative-llm-analysis/report_ru.md) |
+| 5 | ** CV/ML Analysis / Computer Vision + ML Анализ** | 2026-03-14 |  Complete | [ EN](../../original_research/reports/2026-03-14_cv-ml-analysis/report_en.md) \| [ RU](../../original_research/reports/2026-03-14_cv-ml-analysis/report_ru.md) |
 | 6 | ** Biochemical Analysis Integration / Интеграция Биохимического Анализа** | In Progress |  In Production | [ Issue #5](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/5) |
 
 ###  ANALYSIS PIPELINE / КОНВЕЙЕР АНАЛИЗА
@@ -297,7 +292,7 @@ flowchart TD
 | # | Name / Имя | Role / Роль | Responsibilities / Обязанности | Email |
 |---|------------|-------------|-------------------------------|-------|
 | **1** | ** BANCHENKO DENIS YURIEVICH / БАНЧЕНКО ДЕНИС ЮРЬЕВИЧ** | CEO ASRP / Program Director / Директор Программы; Technology Co-Author / Соавтор технологии | Hyperbolic field physics / Физика гиперболических полей; Excitation systems / Системы возбуждения; Lensing & focusing / Линзирование и фокусировка; Control software / ПО управления | [denisbanchenko@asrp.tech](mailto:denisbanchenko@asrp.tech) |
-| **2** | ** OVSEANNIKOVA VALERIA ALEXANDROVNA / ОВСЯННИКОВА ВАЛЕРИЯ АЛЕКСАНДРОВНА** | CBE (Chief Biomedical Engineer) / Director of Biomedical Research Department / Руководитель Департамента Биомедицинских Исследований; Technology Co-Author / Соавтор технологии | Lead Researcher / Ведущий исследователь; Experimental design / Дизайн эксперимента; Blood plasma protocol / Протокол работы с плазмой; Electronic control systems / Электронные системы управления | [valeriaovseannicova@asrp.tech](mailto:valeriaovseannicova@asrp.tech) |
+| **2** | ** OVSEANNICOVA VALERIA ALEXANDROVNA / ОВСЯННИКОВА ВАЛЕРИЯ АЛЕКСАНДРОВНА** | CBE (Chief Biomedical Engineer) / Director of Biomedical Research Department / Руководитель Департамента Биомедицинских Исследований; Technology Co-Author / Соавтор технологии | Lead Researcher / Ведущий исследователь; Experimental design / Дизайн эксперимента; Blood plasma protocol / Протокол работы с плазмой; Electronic control systems / Электронные системы управления | [valeriaovseannicova@asrp.tech](mailto:valeriaovseannicova@asrp.tech) |
 | **3** | ** KAPUSTIN MYKHAILO MYKHALOVICH / КАПУСТИН МИХАЙЛО МИХАЙЛОВИЧ** | CTO (Chief Technology Officer) / Director of IT & AI Department / Директор Департамента Информационных Технологий и ИИ; Technology Co-Author / Соавтор технологии | IT/AI Infrastructure / ИТ/ИИ инфраструктура; Data systems / Системы данных; Technical platform / Техническая платформа; Control systems / Системы управления | [mykhailokapustin@asrp.tech](mailto:mykhailokapustin@asrp.tech) |
 | **4** | ** ZMIENKO KYRYL / ЗМИЕНКО КИРИЛЛ** | Chief AI Engineer / Главный ИИ Инженер | Neural Network Analysis / Анализ нейронными сетями; Multi-LLM coordination / Координация мульти-LLM; Specialized vision models / Специализированные vision модели | [kyrylzmiienko@asrp.tech](mailto:kyrylzmiienko@asrp.tech) |
 | **5** | ** OVSYANNIKOV ALEXANDR / ОВСЯННИКОВ АЛЕКСАНДР** | Head Hardware Engineer / Главный Инженер по Аппаратному Обеспечению; Technology Engineer / Инженер Технологии | Electrical & Power Systems / Электрические и силовые системы; Hyperbolic emitter excitation / Системы возбуждения гиперболических излучателей; Power components design / Проектирование силовых компонентов | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) |
@@ -307,7 +302,7 @@ flowchart TD
 | Name / Имя | Organization / Организация | Role / Роль | Email |
 |------------|---------------------------|-------------|-------|
 | ** SAVELYEV IVAN / САВЕЛЬЕВ ИВАН** | ASRP.science | Science Director / Editor-in-Chief / Директор по Науке и Главный Редактор | [ivansavelev@asrp.science](mailto:ivansavelev@asrp.science) |
-| ** CHIRKIVA OLESYA / ЧИРКИВА ОЛЕСЯ** | SASU Point Rouge France | Independent Researcher / Blood Plasma Specialist / Независимый Исследователь / Специалист по Плазме | [point.rouge.ch@gmail.com](mailto:point.rouge.ch@gmail.com) |
+| ** CHIRKOVA OLESYA / ЧИРКОВА ОЛЕСЯ** | SASU Point Rouge France | Independent Researcher / Blood Plasma Specialist / Независимый Исследователь / Специалист по Плазме | [point.rouge.ch@gmail.com](mailto:point.rouge.ch@gmail.com) |
 
 ---
 
@@ -477,10 +472,10 @@ flowchart TD
 | # | Report / Отчёт | Date / Дата | Status / Статус | Link / Ссылка |
 |---|----------------|-------------|-----------------|---------------|
 | 1 | Experiment Protocol / Протокол Эксперимента | 2026-02 |  Completed | [EN](../../original_research/reports/experiment_protocol_en.md) \| [RU](../../original_research/reports/experiment_protocol_ru.md) |
-| 2 | Multi-AI Image Analysis / Мультипровайдерный AI-анализ | 2026-02-25 |  Completed | [View](../../original_research/reports/2026-02-25_ai-analysis/) |
-| 3 | LLM Vision Clot Analysis / LLM Vision Анализ | 2026-02-26 |  Completed | [View](../../original_research/reports/2026-02-26_llm-vision-analysis/) |
-| 4 | Comparative LLM Analysis / Сравнительный Анализ LLM | 2026-03-12 |  Completed | [View](../../original_research/reports/2026-03-12_comparative-llm-analysis/) |
-| 5 | CV/ML Analysis / Computer Vision + ML Анализ | 2026-03-14 |  Completed | [View](../../original_research/reports/2026-03-14_cv-ml-analysis/) |
+| 2 | Multi-AI Image Analysis / Мультипровайдерный AI-анализ | 2026-02-25 |  Completed | [EN](../../original_research/reports/2026-02-25_ai-analysis/report_en.md) \| [RU](../../original_research/reports/2026-02-25_ai-analysis/report_ru.md) |
+| 3 | LLM Vision Clot Analysis / LLM Vision Анализ | 2026-02-26 |  Completed | [EN](../../original_research/reports/2026-02-26_llm-vision-analysis/report_en.md) \| [RU](../../original_research/reports/2026-02-26_llm-vision-analysis/report_ru.md) |
+| 4 | Comparative LLM Analysis / Сравнительный Анализ LLM | 2026-03-12 |  Completed | [EN](../../original_research/reports/2026-03-12_comparative-llm-analysis/report_en.md) \| [RU](../../original_research/reports/2026-03-12_comparative-llm-analysis/report_ru.md) |
+| 5 | CV/ML Analysis / Computer Vision + ML Анализ | 2026-03-14 |  Completed | [EN](../../original_research/reports/2026-03-14_cv-ml-analysis/report_en.md) \| [RU](../../original_research/reports/2026-03-14_cv-ml-analysis/report_ru.md) |
 
 ###  ML MODELS USED / ИСПОЛЬЗОВАННЫЕ МЛ МОДЕЛИ
 
@@ -522,7 +517,7 @@ flowchart TD
 - [ Reports / Отчёты](#-reports--отчёты)
 - [ Research Team / Команда Исследования](#-research-team--команда-исследования)
 - [ Active Issues / Текущие Задачи](#-active-issues--текущие-задачи)
-- [ ASRP Ecosystem / Экосистема ASRP](#-asrp-ecosystem--экосистема-асрп)
+- [ ASRP Ecosystem / Экосистема ASRP](#-asrp-ecosystem--экосистема-asrp)
 - [ Contact Information / Контактная Информация](#-contact-information--контактная-информация)
 
 ---

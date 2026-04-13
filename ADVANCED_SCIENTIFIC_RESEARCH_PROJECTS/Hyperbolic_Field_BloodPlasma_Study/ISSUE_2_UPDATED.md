@@ -46,7 +46,7 @@ flowchart TB
 | # | Name / Имя | Primary Role / Основная Роль | Secondary Role / Вторая Роль | Responsibilities / Обязанности | Email |
 |---|------------|-----------------------------|------------------------------|-------------------------------|-------|
 | **1** | ** BANCHENKO DENIS YURIEVICH / БАНЧЕНКО ДЕНИС ЮРЬЕВИЧ** | CEO ASRP / Генеральный Директор ASRP | Program Director / Директор Программы; Technology Co-Author / Соавтор Технологии | **Physics & Engineering / Физика и Инженерия:**<br>• Hyperbolic field physics / Физика гиперболических полей<br>• Excitation systems development / Разработка систем возбуждения<br>• Hyperbolic field generator development / Разработка генераторов гиперболических полей<br>• Lensing and focusing systems / Системы линзирования и фокусировки<br>• Morphogenetic field emitters / Излучатели морфогенетических полей<br>• Form effect field emitters / Излучатели полей эффекта формы<br>• Modulation systems development / Разработка систем модуляции<br>• Control software creation / Создание программного обеспечения<br><br>**Management / Управление:**<br>• Overall strategic direction / Общее стратегическое руководство<br>• Project management / Управление проектом<br>• Technology co-authorship / Соавторство технологии | [denisbanchenko@asrp.tech](mailto:denisbanchenko@asrp.tech) |
-| **2** | ** OVSEANNIKOVA VALERIA ALEXANDROVNA / ОВСЯННИКОВА ВАЛЕРИЯ АЛЕКСАНДРОВНА** | CBE (Chief Biomedical Engineer) / Главный Биомедицинский Инженер | Director of Biomedical Research Department / Руководитель Департамента Биомедицинских Исследований; Technology Co-Author / Соавтор Технологии | **Biomedical Research / Биомедицинские Исследования:**<br>• Lead Researcher / Ведущий исследователь<br>• Experimental design and execution / Дизайн и выполнение эксперимента<br>• Blood plasma protocol development / Разработка протокола работы с плазмой<br>• Coagulation analysis methodology / Методология анализа свёртывания<br>• Biochemical marker integration / Интеграция биохимических маркеров<br><br>**Engineering / Инженерия:**<br>• Electronic control systems for hyperbolic emitters / Электронные системы управления гиперболическими излучателями<br>• Time-lapse photography system / Система покадровой съёмки<br>• Laboratory equipment management / Управление лабораторным оборудованием<br><br>**Management / Управление:**<br>• Biomedical department leadership / Руководство биомедицинским департаментом<br>• Donor recruitment and screening / Набор и скрининг доноров | [valeriaovseannicova@asrp.tech](mailto:valeriaovseannicova@asrp.tech) |
+| **2** | ** OVSEANNICOVA VALERIA ALEXANDROVNA / ОВСЯННИКОВА ВАЛЕРИЯ АЛЕКСАНДРОВНА** | CBE (Chief Biomedical Engineer) / Главный Биомедицинский Инженер | Director of Biomedical Research Department / Руководитель Департамента Биомедицинских Исследований; Technology Co-Author / Соавтор Технологии | **Biomedical Research / Биомедицинские Исследования:**<br>• Lead Researcher / Ведущий исследователь<br>• Experimental design and execution / Дизайн и выполнение эксперимента<br>• Blood plasma protocol development / Разработка протокола работы с плазмой<br>• Coagulation analysis methodology / Методология анализа свёртывания<br>• Biochemical marker integration / Интеграция биохимических маркеров<br><br>**Engineering / Инженерия:**<br>• Electronic control systems for hyperbolic emitters / Электронные системы управления гиперболическими излучателями<br>• Time-lapse photography system / Система покадровой съёмки<br>• Laboratory equipment management / Управление лабораторным оборудованием<br><br>**Management / Управление:**<br>• Biomedical department leadership / Руководство биомедицинским департаментом<br>• Donor recruitment and screening / Набор и скрининг доноров | [valeriaovseannicova@asrp.tech](mailto:valeriaovseannicova@asrp.tech) |
 | **3** | ** KAPUSTIN MYKHAILO MYKHALOVICH / КАПУСТИН МИХАЙЛО МИХАЙЛОВИЧ** | CTO (Chief Technology Officer) / Технический Директор | Director of IT & AI Department / Директор Департамента Информационных Технологий и ИИ; Technology Co-Author / Соавтор Технологии | **IT Infrastructure / ИТ Инфраструктура:**<br>• Data systems and storage / Системы данных и хранения<br>• Technical platform architecture / Архитектура технической платформы<br>• Cloud infrastructure / Облачная инфраструктура<br>• Version control (Git/GitHub) / Контроль версий<br><br>**AI & Software / ИИ и Программное Обеспечение:**<br>• Emitter control software / ПО управления излучателями<br>• AI algorithms development / Разработка ИИ алгоритмов<br>• Agricultural applications / Сельскохозяйственные приложения<br>• Plant & fungi growth monitoring / Мониторинг роста растений и грибов<br><br>**Management / Управление:**<br>• IT department leadership / Руководство ИТ департаментом<br>• Technical strategy / Техническая стратегия | [mykhailokapustin@asrp.tech](mailto:mykhailokapustin@asrp.tech) |
 | **4** | ** ZMIENKO KYRYL / ЗМИЕНКО КИРИЛЛ** | Chief AI Engineer / Главный ИИ Инженер | AI/ML Specialist / Специалист по ИИ/МЛ | **AI/ML Engineering / Инженерия ИИ/МЛ:**<br>• Neural Network Analysis / Анализ нейронными сетями<br>• Multi-LLM coordination / Координация мульти-LLM<br>• Specialized vision models / Специализированные vision модели<br>• Computer Vision pipelines / Конвейеры компьютерного зрения<br>• SAM-2, SigLIP2, DINOv2 implementation / Внедрение SAM-2, SigLIP2, DINOv2<br>• Statistical analysis / Статистический анализ<br>• Data visualization / Визуализация данных<br><br>**Analysis / Анализ:**<br>• LLM Vision analysis / LLM Vision анализ<br>• Comparative analysis / Сравнительный анализ<br>• Blinded protocol implementation / Внедрение слепого протокола | [kyrylzmiienko@asrp.tech](mailto:kyrylzmiienko@asrp.tech) |
 | **5** | ** OVSYANNIKOV ALEXANDR / ОВСЯННИКОВ АЛЕКСАНДР** | Head Hardware Engineer / Главный Инженер по Аппаратному Обеспечению | Technology Engineer / Инженер Технологии; Electrical Systems Lead / Руководитель Электрических Систем | **Electrical Engineering / Электрическая Инженерия:**<br>• Electrical and Power Systems Development / Разработка электрических и силовых систем<br>• Hyperbolic emitter excitation systems / Системы возбуждения гиперболических излучателей<br>• Power components design and improvement / Проектирование и совершенствование силовых компонентов<br>• Circuit design and optimization / Проектирование и оптимизация схем<br>• High-voltage systems / Высоковольтные системы<br>• Power supply design / Проектирование источников питания<br><br>**Hardware / Оборудование:**<br>• Emitter hardware development / Разработка оборудования излучателей<br>• Electronic component selection / Выбор электронных компонентов<br>• Safety systems / Системы безопасности<br>• Testing and validation / Тестирование и валидация | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) |
@@ -58,7 +58,7 @@ flowchart TB
 | Name / Имя | Organization / Организация | Role / Роль | Responsibilities / Обязанности | Email |
 |------------|---------------------------|-------------|-------------------------------|-------|
 | ** SAVELYEV IVAN / САВЕЛЬЕВ ИВАН** | ASRP.science | Science Director / Директор по Науке; Editor-in-Chief / Главный Редактор | Scientific Paper Author / Автор научной статьи; Data interpretation / Интерпретация данных; Scientific supervision / Научное руководство; Peer review coordination / Координация рецензирования | [ivansavelev@asrp.science](mailto:ivansavelev@asrp.science) |
-| ** CHIRKIVA OLESYA / ЧИРКИВА ОЛЕСЯ** | SASU Point Rouge France | Independent Researcher / Независимый Исследователь; Blood Plasma Specialist / Специалист по Плазме Крови | Laboratory Execution / Лабораторное выполнение; Blood collection and centrifugation / Забор крови и центрифугирование; Sample preparation / Подготовка образцов; Scientific consulting / Научное консультирование; Laboratory equipment provision / Предоставление лабораторного оборудования | [point.rouge.ch@gmail.com](mailto:point.rouge.ch@gmail.com) |
+| ** CHIRKOVA OLESYA / ЧИРКОВА ОЛЕСЯ** | SASU Point Rouge France | Independent Researcher / Независимый Исследователь; Blood Plasma Specialist / Специалист по Плазме Крови | Laboratory Execution / Лабораторное выполнение; Blood collection and centrifugation / Забор крови и центрифугирование; Sample preparation / Подготовка образцов; Scientific consulting / Научное консультирование; Laboratory equipment provision / Предоставление лабораторного оборудования | [point.rouge.ch@gmail.com](mailto:point.rouge.ch@gmail.com) |
 
 ---
 
@@ -203,7 +203,7 @@ flowchart TB
 | Name / Имя | Email | Role / Роль | Department / Департамент |
 |------------|-------|-------------|-------------------------|
 | ** BANCHENKO DENIS YURIEVICH / БАНЧЕНКО ДЕНИС ЮРЬЕВИЧ** | [denisbanchenko@asrp.tech](mailto:denisbanchenko@asrp.tech) | CEO / Program Director / Директор Программы | Executive / Руководство |
-| ** OVSEANNIKOVA VALERIA ALEXANDROVNA / ОВСЯННИКОВА ВАЛЕРИЯ АЛЕКСАНДРОВНА** | [valeriaovseannicova@asrp.tech](mailto:valeriaovseannicova@asrp.tech) | CBE / Director of Biomedical Research | Biomedical / Биомедицинский |
+| ** OVSEANNICOVA VALERIA ALEXANDROVNA / ОВСЯННИКОВА ВАЛЕРИЯ АЛЕКСАНДРОВНА** | [valeriaovseannicova@asrp.tech](mailto:valeriaovseannicova@asrp.tech) | CBE / Director of Biomedical Research | Biomedical / Биомедицинский |
 | ** KAPUSTIN MYKHAILO MYKHALOVICH / КАПУСТИН МИХАЙЛО МИХАЙЛОВИЧ** | [mykhailokapustin@asrp.tech](mailto:mykhailokapustin@asrp.tech) | CTO / Director of IT & AI | IT & AI / ИТ и ИИ |
 | ** ZMIENKO KYRYL / ЗМИЕНКО КИРИЛЛ** | [kyrylzmiienko@asrp.tech](mailto:kyrylzmiienko@asrp.tech) | Chief AI Engineer / Главный ИИ Инженер | IT & AI / ИТ и ИИ |
 | ** OVSYANNIKOV ALEXANDR / ОВСЯННИКОВ АЛЕКСАНДР** | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) | Head Hardware Engineer / Главный Инженер по Аппаратному Обеспечению | Engineering / Инженерия |
@@ -234,27 +234,13 @@ flowchart TB
 ##  RESEARCH TIMELINE / ВРЕМЕННАЯ ШКАЛА ИССЛЕДОВАНИЯ
 
 ```mermaid
-timeline
-    title ASRP Hyperbolic Field Research Program 2026-2027
-    section January 2026
-        Jan 24-31 : Blood Plasma Data Collection<br/>Сбор Данных Кровяной Плазмы
-        Jan 24 : Patient 01
-        Jan 28 : Patient 02
-        Jan 29 : Patient 03
-        Jan 30 : Patient 04
-        Jan 31 : Patient 05
-    section February 2026
-        Feb 01 : Patient 06
-        Feb 07 : Patient 07
-        Feb 25-26 : AI/LLM Analysis
-    section March 2026
-        Mar 12-14 : Comparative Analysis
-        Mar 18 : Issues Created
-        Mar 26 : Repository Enhancement
-    section April-May 2026
-        Apr-May : Peer Review Publication<br/>Публикация Рецензируемой Статьи
-    section Future
-        Future : Expand to 30 Donors<br/>Расширение до 30 Доноров
+flowchart LR
+    A["Jan 24-31<br/>Data Collection<br/>Сбор Данных"] --> B["Feb 01-07<br/>P06, P07"]
+    B --> C["Feb 25-26<br/>AI/LLM Analysis"]
+    C --> D["Mar 12-14<br/>Comparative Analysis"]
+    D --> E["Mar 18-26<br/>Issues & Repo"]
+    E --> F["Apr-May<br/>Peer Review<br/>Публикация"]
+    F --> G["Future<br/>30 Donors<br/>30 Доноров"]
 ```
 
 ---
@@ -280,13 +266,13 @@ timeline
 **Все исследовательские репозитории являются частью экосистемы ASRP:**
 
 ```
-ASRP.drift / ПНИР.дрифт
+ASRP / ПНИР
 ├──  Hyperbolic Field Research / Исследование Гиперболических Полей
 │   ├── Blood Plasma Study / Исследование Кровяной Плазмы
 │   ├── DAAT Crystal Study / Исследование Кристаллов DAAT
 │   ├── Agricultural Study / Сельскохозяйственное Исследование
 │   └── Emitter Programs / Программы Излучателей
-├──  Patent Portfolio / Патфельный Портфель
+├──  Patent Portfolio / Патентный Портфель
 │   └── Fractal FBHFS KZ 2025/1095.1
 └──  Data & Analytics / Данные и Аналитика
     ├── Multi-LLM Analysis / Мульти-LLM Анализ

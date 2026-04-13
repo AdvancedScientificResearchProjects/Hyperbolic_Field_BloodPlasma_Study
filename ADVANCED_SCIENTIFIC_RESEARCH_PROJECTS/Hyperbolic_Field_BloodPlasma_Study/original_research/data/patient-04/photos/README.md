@@ -32,14 +32,9 @@ pie title Photo Distribution
 ##  TIMELINE
 
 ```mermaid
-timeline
-    title Patient 04 Timeline
-    section Centrifugation
-        16:00:40 — 16:06:02 :  Centrifuge
-    section Irradiation
-        16:13:41 — 17:47:32 :  Hyperbolic Field
-    section Photography
-        17:36:05 — 17:39:01 :  4 photos
+flowchart LR
+    A["Centrifugation<br/>16:00 - 16:06"] --> B["Irradiation<br/>16:13 - 17:47"]
+    B --> C["Photography<br/>17:36 - 17:39<br/>4 photos"]
 ```
 
 ---

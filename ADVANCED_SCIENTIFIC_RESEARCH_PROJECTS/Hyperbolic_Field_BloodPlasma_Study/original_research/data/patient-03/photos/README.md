@@ -31,16 +31,10 @@ pie title Photo Distribution
 ##  TIMELINE
 
 ```mermaid
-timeline
-    title Patient 03 Timeline
-    section Blood Collection
-        21:17:30 — 21:21:30 :  Blood Draw
-    section Centrifugation
-        21:22:10 — 21:28:00 :  Centrifuge
-    section Irradiation
-        21:35:10 — 22:43:32 :  Hyperbolic Field
-    section Photography
-        20:41:07 — 21:05:04 :  16 photos
+flowchart LR
+    A["Blood Collection<br/>21:17 - 21:21"] --> B["Centrifugation<br/>21:22 - 21:28"]
+    B --> C["Irradiation<br/>21:35 - 22:43"]
+    C --> D["Photography<br/>20:41 - 21:05<br/>16 photos"]
 ```
 
 **Note:** Plasma samples coagulated rapidly; initial clots visible from moment of pouring.
