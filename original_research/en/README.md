@@ -17,7 +17,7 @@ Experimental datasets, imaging results and analytical materials from blood plasm
 
 ## Patients
 
-| Patient | Date | Blood group | Samples | Photos | Irradiation |
+| Patient / Пациент | Date / Дата | Blood group / Группа крови | Samples / Образцы | Photos / Фото | Irradiation / Облучение |
 |---------|------|-------------|---------|--------|-------------|
 | [01](../data/patient-01/) | 2026-01-24 | II+ | 0.1.1, 0.1.2, 19.1.1, 21.1.1 | 13 | 19:18–20:30 |
 | [02](../data/patient-02/) | 2026-01-28 | III+ | 0.2.1, 0.2.2, 19.2.1, 19.2.2, 21.2.1, 21.2.2 | 25 | 20:09–21:24 |
@@ -48,7 +48,7 @@ data/patient-XX/
 
 Each plasma sample is identified by a code in the format **`{channel}.{patient}.{number}`**.
 
-| Component | Value | Description |
+| Component / Компонент | Value / Значение | Description / Описание |
 |-----------|-------|-------------|
 | Channel | `0` | Control — no irradiation exposure |
 | | `19` | Exposure on **channel 19**|
@@ -68,7 +68,7 @@ Each plasma sample is identified by a code in the format **`{channel}.{patient}.
 
 ## Reports
 
-| Report | Date | Description |
+| Report / Отчёт | Date / Дата | Description / Описание |
 |--------|------|-------------|
 | [Experiment protocol](../reports/experiment_protocol_en.md) | 2026-02 | Experiment setup, channels, key observations |
 | [AI analysis (8 providers)](../reports/2026-02-25_ai-analysis/report_en.md) | 2026-02-25 | Multi-AI image analysis: 8 Vision API providers, MoA synthesis, CV + ML metrics |

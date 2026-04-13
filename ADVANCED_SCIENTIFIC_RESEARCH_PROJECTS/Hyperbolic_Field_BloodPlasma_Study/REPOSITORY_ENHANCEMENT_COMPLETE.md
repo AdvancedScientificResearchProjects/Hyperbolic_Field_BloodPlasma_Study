@@ -89,7 +89,7 @@
 -  **Reports Table / Таблица Отчётов** - All reports with direct links / Все отчёты с прямыми ссылками
 -  **Complete Team Table / Полная Таблица Команды** - All 5 members with roles / Все 5 членов с ролями
 -  **Active Issues Table / Таблица Активных Задач** - All issues with status / Все задачи со статусом
--  **ASRP.drift Ecosystem / Экосистема ASRP.drift** - Related repositories / Связанные репозитории
+-  **ASRP Ecosystem / Экосистема ASRP** - Related repositories / Связанные репозитории
 -  **Contact Information / Контактная Информация** - Full team contacts / Полные контакты команды
 -  **Mermaid Timeline / Временная Шкала Mermaid** - Research timeline / Временная шкала исследования
 -  **AI/ML Analysis Section / Секция Анализа ИИ/МЛ** - All providers and results / Все провайдеры и результаты
@@ -116,7 +116,7 @@
   2. **Valeria Ovseannicova** - CBE, Biomedical, Co-Author / Главный Биомедицинский Инженер, Биомедицина, Соавтор
   3. **Mykhailo Kapustin** - CTO, IT & AI, Co-Author / Технический Директор, ИТ и ИИ, Соавтор
   4. **Kyryl Zmiienko** - Chief AI Engineer / Главный ИИ Инженер
-  5. **Alexandr Ovsyannikov** - Chief Electrical Engineer / Главный Инженер по Электронике
+  5. **Alexandr Ovsyannikov** - Head Hardware Engineer / Главный Инженер по Аппаратному Обеспечению
 - Full responsibilities for each member / Полные обязанности для каждого члена
 - Email contacts for all / Email контакты для всех
 - Project assignments / Назначения по проектам

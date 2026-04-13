@@ -22,7 +22,7 @@
 | [Photo Gallery](#photo-gallery-галерея-фотографий) | [All Reports](#all-reports-все-отчёты) | [Research Team](#research-team-команда-исследования) | [Issue #1: Protocol](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/1) |
 | [Data Structure](#data-structure-структура-данных) | [Biochemical Analysis](#all-reports-все-отчёты) | [Contacts](#contact-information-контактная-информация) | [Issue #3: Photography](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/3) |
 | [Data Volume](#data-volume-объём-данных) | [AI/ML Analysis](#aiml-analysis-иимл-анализ) | [Patent Connection](#patent-connection-связь-с-патентом) | [Issue #5: Biochemical](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/5) |
-| [Results](#key-results-ключевые-результаты) | [Protocols](#experimental-protocol--протокол-эксперимента) | [ASRP Ecosystem](#asrp-ecosystem-экосистема-asrpdrift) | [Issue #8: Publication](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/8) |
+| [Results](#key-results-ключевые-результаты) | [Protocols](#experimental-protocol--протокол-эксперимента) | [ASRP Ecosystem](#asrp-ecosystem-экосистема-asrp) | [Issue #8: Publication](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/8) |
 
 ---
 
@@ -114,22 +114,28 @@ flowchart LR
 ### HYPOTHESIS VALIDATION / ВАЛИДАЦИЯ ГИПОТЕЗЫ
 
 ```mermaid
-timeline
-    title Research Timeline / Временная Шкала Исследования
-    section January 2026
-        Jan 24 : Patient 01<br/>Пациент 01
-        Jan 28 : Patient 02<br/>Пациент 02
-        Jan 29 : Patient 03<br/>Пациент 03
-        Jan 30 : Patient 04<br/>Пациент 04
-        Jan 31 : Patient 05<br/>Пациент 05
-    section February 2026
-        Feb 01 : Patient 06<br/>Пациент 06
-        Feb 07 : Patient 07<br/>Пациент 07
-    section Analysis
-        Feb 25 : AI Analysis<br/>ИИ Анализ
-        Feb 26 : LLM Vision<br/>LLM Визион
-        Mar 12 : Comparative<br/>Сравнительный
-        Mar 14 : CV/ML Analysis<br/>CV/МЛ Анализ
+flowchart LR
+    P1["2026-01-24<br/>Patient 01<br/>Пациент 01"] --> P2["2026-01-28<br/>Patient 02<br/>Пациент 02"]
+    P2 --> P3["2026-01-29<br/>Patient 03<br/>Пациент 03"]
+    P3 --> P4["2026-01-30<br/>Patient 04<br/>Пациент 04"]
+    P4 --> P5["2026-01-31<br/>Patient 05<br/>Пациент 05"]
+    P5 --> P6["2026-02-01<br/>Patient 06<br/>Пациент 06"]
+    P6 --> P7["2026-02-07<br/>Patient 07<br/>Пациент 07"]
+    P7 --> A1["2026-02-25<br/>AI Analysis<br/>ИИ Анализ"]
+    A1 --> A2["2026-02-26<br/>LLM Vision<br/>LLM Визион"]
+    A2 --> A3["2026-03-12<br/>Comparative<br/>Сравнительный"]
+    A3 --> A4["2026-03-14<br/>CV/ML Analysis<br/>CV/МЛ Анализ"]
+    style P1 fill:#e8f5e9
+    style P2 fill:#e8f5e9
+    style P3 fill:#e8f5e9
+    style P4 fill:#e8f5e9
+    style P5 fill:#e8f5e9
+    style P6 fill:#c8e6c9
+    style P7 fill:#c8e6c9
+    style A1 fill:#bbdefb
+    style A2 fill:#bbdefb
+    style A3 fill:#bbdefb
+    style A4 fill:#bbdefb
 ```
 
 ### COMPARATIVE RESULTS / СРАВНИТЕЛЬНЫЕ РЕЗУЛЬТАТЫ
@@ -337,7 +343,7 @@ flowchart TD
 | **2** | | **BANCHENKO DENIS YURIEVICH / БАНЧЕНКО ДЕНИС ЮРЬЕВИЧ**CEO ASRP / Program Director / Директор Программы; Technology Co-Author / Соавтор технологии | Hyperbolic field physics / Физика гиперболических полей; Excitation systems / Системы возбуждения; Lensing & focusing / Линзирование и фокусировка; Control software / ПО управления | [denisbanchenko@asrp.tech](mailto:denisbanchenko@asrp.tech) |
 | **3** | | **KAPUSTIN MYKHAILO MYKHALOVICH / КАПУСТИН МИХАЙЛО МИХАЙЛОВИЧ**CTO (Chief Technology Officer) / Director of IT & AI Department / Директор Департамента Информационных Технологий и ИИ; Technology Co-Author / Соавтор технологии | IT/AI Infrastructure / ИТ/ИИ инфраструктура; Data systems / Системы данных; Technical platform / Техническая платформа; Control systems / Системы управления | [mykhailokapustin@asrp.tech](mailto:mykhailokapustin@asrp.tech) |
 | **4** | | **ZMIENKO KYRYL / ЗМИЕНКО КИРИЛЛ**Chief AI Engineer / Главный ИИ Инженер | Neural Network Analysis / Анализ нейронными сетями; Multi-LLM coordination / Координация мульти-LLM; Specialized vision models / Специализированные vision модели | [kyrylzmiienko@asrp.tech](mailto:kyrylzmiienko@asrp.tech) |
-| **5** | | **OVSYANNIKOV ALEXANDR / ОВСЯННИКОВ АЛЕКСАНДР**Chief Electrical Engineer / Главный Инженер по Электронике; Technology Engineer / Инженер Технологии | Electrical & Power Systems / Электрические и силовые системы; Hyperbolic emitter excitation / Системы возбуждения гиперболических излучателей; Power components design / Проектирование силовых компонентов | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) |
+| **5** | | **OVSYANNIKOV ALEXANDR / ОВСЯННИКОВ АЛЕКСАНДР**Head Hardware Engineer / Главный Инженер по Аппаратному Обеспечению; Technology Engineer / Инженер Технологии | Electrical & Power Systems / Электрические и силовые системы; Hyperbolic emitter excitation / Системы возбуждения гиперболических излучателей; Power components design / Проектирование силовых компонентов | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) |
 
 ### COLLABORATORS / КОЛЛАБОРАТОРЫ
 
@@ -364,7 +370,7 @@ flowchart TD
 
 ---
 
-## ASRP ECOSYSTEM / ЭКОСИСТЕМА ASRP.DRIFT
+## ASRP ECOSYSTEM / ЭКОСИСТЕМА ASRP
 
 ### RELATED RESEARCH REPOSITORIES / СВЯЗАННЫЕ ИССЛЕДОВАТЕЛЬСКИЕ РЕПОЗИТОРИИ
 

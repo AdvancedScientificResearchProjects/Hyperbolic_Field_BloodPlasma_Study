@@ -73,7 +73,7 @@ original_research/
 
 ##  ОТЧЁТЫ
 
-| # | Отчёт | Дата | Статус |
+| # | Report / Отчёт | Date / Дата | Status / Статус |
 |---|-------|------|--------|
 | 1 | [Протокол Эксперимента](../reports/experiment_protocol_ru.md) | 2026-02 |  Завершено |
 | 2 | [AI Анализ Изображений](../reports/2026-02-25_ai-analysis/report_ru.md) | 2026-02-25 |  Завершено |
@@ -85,12 +85,13 @@ original_research/
 
 ##  КОМАНДА ИССЛЕДОВАНИЯ
 
-| Имя | Роль | Email |
+| Name / Имя | Role / Роль | Email |
 |-----|-----|-------|
 | **Валерия Овсянникова** | Руководитель Департамента Биомедицинских Исследований | valeriaovseannicova@asrp.tech |
 | **Денис Банченко** | CEO / Директор Программы | denisbanchenko@asrp.tech |
 | **Михайло Капустин** | Директор Департамента ИТ и ИИ | mykhailokapustin@asrp.tech |
 | **Кирилл Змиенко** | Главный ИИ Инженер | kyrylzmiienko@asrp.tech |
+| **Александр Овсянников** | Head Hardware Engineer / Главный Инженер по Аппаратному Обеспечению | alexandrovsyannikov@asrp.tech |
 
 ---
 

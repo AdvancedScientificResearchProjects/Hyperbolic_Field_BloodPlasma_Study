@@ -49,7 +49,7 @@ flowchart TB
 | **2** | ** OVSEANNIKOVA VALERIA ALEXANDROVNA / ОВСЯННИКОВА ВАЛЕРИЯ АЛЕКСАНДРОВНА** | CBE (Chief Biomedical Engineer) / Главный Биомедицинский Инженер | Director of Biomedical Research Department / Руководитель Департамента Биомедицинских Исследований; Technology Co-Author / Соавтор Технологии | **Biomedical Research / Биомедицинские Исследования:**<br>• Lead Researcher / Ведущий исследователь<br>• Experimental design and execution / Дизайн и выполнение эксперимента<br>• Blood plasma protocol development / Разработка протокола работы с плазмой<br>• Coagulation analysis methodology / Методология анализа свёртывания<br>• Biochemical marker integration / Интеграция биохимических маркеров<br><br>**Engineering / Инженерия:**<br>• Electronic control systems for hyperbolic emitters / Электронные системы управления гиперболическими излучателями<br>• Time-lapse photography system / Система покадровой съёмки<br>• Laboratory equipment management / Управление лабораторным оборудованием<br><br>**Management / Управление:**<br>• Biomedical department leadership / Руководство биомедицинским департаментом<br>• Donor recruitment and screening / Набор и скрининг доноров | [valeriaovseannicova@asrp.tech](mailto:valeriaovseannicova@asrp.tech) |
 | **3** | ** KAPUSTIN MYKHAILO MYKHALOVICH / КАПУСТИН МИХАЙЛО МИХАЙЛОВИЧ** | CTO (Chief Technology Officer) / Технический Директор | Director of IT & AI Department / Директор Департамента Информационных Технологий и ИИ; Technology Co-Author / Соавтор Технологии | **IT Infrastructure / ИТ Инфраструктура:**<br>• Data systems and storage / Системы данных и хранения<br>• Technical platform architecture / Архитектура технической платформы<br>• Cloud infrastructure / Облачная инфраструктура<br>• Version control (Git/GitHub) / Контроль версий<br><br>**AI & Software / ИИ и Программное Обеспечение:**<br>• Emitter control software / ПО управления излучателями<br>• AI algorithms development / Разработка ИИ алгоритмов<br>• Agricultural applications / Сельскохозяйственные приложения<br>• Plant & fungi growth monitoring / Мониторинг роста растений и грибов<br><br>**Management / Управление:**<br>• IT department leadership / Руководство ИТ департаментом<br>• Technical strategy / Техническая стратегия | [mykhailokapustin@asrp.tech](mailto:mykhailokapustin@asrp.tech) |
 | **4** | ** ZMIENKO KYRYL / ЗМИЕНКО КИРИЛЛ** | Chief AI Engineer / Главный ИИ Инженер | AI/ML Specialist / Специалист по ИИ/МЛ | **AI/ML Engineering / Инженерия ИИ/МЛ:**<br>• Neural Network Analysis / Анализ нейронными сетями<br>• Multi-LLM coordination / Координация мульти-LLM<br>• Specialized vision models / Специализированные vision модели<br>• Computer Vision pipelines / Конвейеры компьютерного зрения<br>• SAM-2, SigLIP2, DINOv2 implementation / Внедрение SAM-2, SigLIP2, DINOv2<br>• Statistical analysis / Статистический анализ<br>• Data visualization / Визуализация данных<br><br>**Analysis / Анализ:**<br>• LLM Vision analysis / LLM Vision анализ<br>• Comparative analysis / Сравнительный анализ<br>• Blinded protocol implementation / Внедрение слепого протокола | [kyrylzmiienko@asrp.tech](mailto:kyrylzmiienko@asrp.tech) |
-| **5** | ** OVSYANNIKOV ALEXANDR / ОВСЯННИКОВ АЛЕКСАНДР** | Chief Electrical Engineer / Главный Инженер по Электронике | Technology Engineer / Инженер Технологии; Electrical Systems Lead / Руководитель Электрических Систем | **Electrical Engineering / Электрическая Инженерия:**<br>• Electrical and Power Systems Development / Разработка электрических и силовых систем<br>• Hyperbolic emitter excitation systems / Системы возбуждения гиперболических излучателей<br>• Power components design and improvement / Проектирование и совершенствование силовых компонентов<br>• Circuit design and optimization / Проектирование и оптимизация схем<br>• High-voltage systems / Высоковольтные системы<br>• Power supply design / Проектирование источников питания<br><br>**Hardware / Оборудование:**<br>• Emitter hardware development / Разработка оборудования излучателей<br>• Electronic component selection / Выбор электронных компонентов<br>• Safety systems / Системы безопасности<br>• Testing and validation / Тестирование и валидация | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) |
+| **5** | ** OVSYANNIKOV ALEXANDR / ОВСЯННИКОВ АЛЕКСАНДР** | Head Hardware Engineer / Главный Инженер по Аппаратному Обеспечению | Technology Engineer / Инженер Технологии; Electrical Systems Lead / Руководитель Электрических Систем | **Electrical Engineering / Электрическая Инженерия:**<br>• Electrical and Power Systems Development / Разработка электрических и силовых систем<br>• Hyperbolic emitter excitation systems / Системы возбуждения гиперболических излучателей<br>• Power components design and improvement / Проектирование и совершенствование силовых компонентов<br>• Circuit design and optimization / Проектирование и оптимизация схем<br>• High-voltage systems / Высоковольтные системы<br>• Power supply design / Проектирование источников питания<br><br>**Hardware / Оборудование:**<br>• Emitter hardware development / Разработка оборудования излучателей<br>• Electronic component selection / Выбор электронных компонентов<br>• Safety systems / Системы безопасности<br>• Testing and validation / Тестирование и валидация | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) |
 
 ---
 
@@ -73,7 +73,7 @@ flowchart LR
         V[Valeria Ovseannicova<br/>CBE / Biomedical]
         M[Mykhailo Kapustin<br/>CTO / IT & AI]
         K[Kyryl Zmiienko<br/>Chief AI Engineer]
-        A[Alexandr Ovsyannikov<br/>Chief Electrical Engineer]
+        A[Alexandr Ovsyannikov<br/>Head Hardware Engineer]
     end
     
     subgraph Projects[ Projects / Проекты]
@@ -206,7 +206,7 @@ flowchart TB
 | ** OVSEANNIKOVA VALERIA ALEXANDROVNA / ОВСЯННИКОВА ВАЛЕРИЯ АЛЕКСАНДРОВНА** | [valeriaovseannicova@asrp.tech](mailto:valeriaovseannicova@asrp.tech) | CBE / Director of Biomedical Research | Biomedical / Биомедицинский |
 | ** KAPUSTIN MYKHAILO MYKHALOVICH / КАПУСТИН МИХАЙЛО МИХАЙЛОВИЧ** | [mykhailokapustin@asrp.tech](mailto:mykhailokapustin@asrp.tech) | CTO / Director of IT & AI | IT & AI / ИТ и ИИ |
 | ** ZMIENKO KYRYL / ЗМИЕНКО КИРИЛЛ** | [kyrylzmiienko@asrp.tech](mailto:kyrylzmiienko@asrp.tech) | Chief AI Engineer / Главный ИИ Инженер | IT & AI / ИТ и ИИ |
-| ** OVSYANNIKOV ALEXANDR / ОВСЯННИКОВ АЛЕКСАНДР** | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) | Chief Electrical Engineer / Главный Инженер по Электронике | Engineering / Инженерия |
+| ** OVSYANNIKOV ALEXANDR / ОВСЯННИКОВ АЛЕКСАНДР** | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) | Head Hardware Engineer / Главный Инженер по Аппаратному Обеспечению | Engineering / Инженерия |
 | ** SAVELYEV IVAN / САВЕЛЬЕВ ИВАН** | [ivansavelev@asrp.science](mailto:ivansavelev@asrp.science) | Science Director / Директор по Науке | ASRP.science |
 
 ---
@@ -274,10 +274,10 @@ timeline
 
 ---
 
-##  ASRP.DRIFT ECOSYSTEM / ЭКОСИСТЕМА ASRP.DRIFT
+##  ASRP ECOSYSTEM / ЭКОСИСТЕМА ASRP
 
-**All research repositories are part of the ASRP.drift ecosystem:**
-**Все исследовательские репозитории являются частью экосистемы ASRP.drift:**
+**All research repositories are part of the ASRP ecosystem:**
+**Все исследовательские репозитории являются частью экосистемы ASRP:**
 
 ```
 ASRP.drift / ПНИР.дрифт

@@ -13,7 +13,7 @@
 | ** Registration DOI** | [10.17605/OSF.IO/GWA9E](https://doi.org/10.17605/OSF.IO/GWA9E) |
 | ** Date Registered / Дата Регистрации** | January 25, 2026 / 25 января 2026 |
 | ** Title / Название** | Chrono-Regulatory and Biochronal Therapeutics: A Framework for Temporal Regulation in Human Physiology |
-| ** Contributors / Авторы** | Denis Banchenko, Valeria Ovseannicova, Mykhailo Kapustin, Olesia Chirkova, Ivan Savelyev, Galina Ovseannicova, Alexandr Ovseannicov |
+| ** Contributors / Авторы** | Denis Banchenko, Valeria Ovseannicova, Mykhailo Kapustin, Olesia Chirkova, Ivan Savelyev, Galina Ovseannicova, Alexandr Ovsyannikov |
 | ** Study Type / Тип Исследования** | Experiment (Mixed Design) |
 | ** Blinding / Ослепление** | Data analysts blinded / Аналитики ослеплены |
 | ** License / Лицензия** | CC-BY Attribution-NonCommercial-NoDerivatives 4.0 International |

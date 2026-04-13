@@ -13,7 +13,7 @@
 | [ Photo Gallery](#-photo-gallery--галерея-фотографий) | [ All Reports](#-reports--отчёты) | [ Research Team](#-research-team--команда-исследования) | [ Issue #1: Protocol](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/1) |
 | [ Data Structure](#-data-structure--структура-данных) | [ Biochemical Analysis](#-reports--отчёты) | [ Contacts](#-contact-information--контактная-информация) | [ Issue #3: Photography](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/3) |
 | [ All Folders](#-complete-folder-structure--полная-структура-папок) | [ AI/ML Analysis](#-reports--отчёты) | [ Patent Connection](#-patent-connection--связь-с-патентом) | [ Issue #5: Biochemical](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/5) |
-| [ Results](#-key-results--ключевые-результаты) | [ Protocols](#-reports--отчёты) | [ ASRP.drift Ecosystem](#-asrpdrift-ecosystem--экосистема-аспрдрифт) | [ Issue #8: Publication](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/8) |
+| [ Results](#-key-results--ключевые-результаты) | [ Protocols](#-reports--отчёты) | [ ASRP Ecosystem](#-asrp-ecosystem--экосистема-асрп) | [ Issue #8: Publication](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/8) |
 
 ---
 
@@ -300,7 +300,7 @@ flowchart TD
 | **2** | ** OVSEANNIKOVA VALERIA ALEXANDROVNA / ОВСЯННИКОВА ВАЛЕРИЯ АЛЕКСАНДРОВНА** | CBE (Chief Biomedical Engineer) / Director of Biomedical Research Department / Руководитель Департамента Биомедицинских Исследований; Technology Co-Author / Соавтор технологии | Lead Researcher / Ведущий исследователь; Experimental design / Дизайн эксперимента; Blood plasma protocol / Протокол работы с плазмой; Electronic control systems / Электронные системы управления | [valeriaovseannicova@asrp.tech](mailto:valeriaovseannicova@asrp.tech) |
 | **3** | ** KAPUSTIN MYKHAILO MYKHALOVICH / КАПУСТИН МИХАЙЛО МИХАЙЛОВИЧ** | CTO (Chief Technology Officer) / Director of IT & AI Department / Директор Департамента Информационных Технологий и ИИ; Technology Co-Author / Соавтор технологии | IT/AI Infrastructure / ИТ/ИИ инфраструктура; Data systems / Системы данных; Technical platform / Техническая платформа; Control systems / Системы управления | [mykhailokapustin@asrp.tech](mailto:mykhailokapustin@asrp.tech) |
 | **4** | ** ZMIENKO KYRYL / ЗМИЕНКО КИРИЛЛ** | Chief AI Engineer / Главный ИИ Инженер | Neural Network Analysis / Анализ нейронными сетями; Multi-LLM coordination / Координация мульти-LLM; Specialized vision models / Специализированные vision модели | [kyrylzmiienko@asrp.tech](mailto:kyrylzmiienko@asrp.tech) |
-| **5** | ** OVSYANNIKOV ALEXANDR / ОВСЯННИКОВ АЛЕКСАНДР** | Chief Electrical Engineer / Главный Инженер по Электронике; Technology Engineer / Инженер Технологии | Electrical & Power Systems / Электрические и силовые системы; Hyperbolic emitter excitation / Системы возбуждения гиперболических излучателей; Power components design / Проектирование силовых компонентов | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) |
+| **5** | ** OVSYANNIKOV ALEXANDR / ОВСЯННИКОВ АЛЕКСАНДР** | Head Hardware Engineer / Главный Инженер по Аппаратному Обеспечению; Technology Engineer / Инженер Технологии | Electrical & Power Systems / Электрические и силовые системы; Hyperbolic emitter excitation / Системы возбуждения гиперболических излучателей; Power components design / Проектирование силовых компонентов | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) |
 
 ###  COLLABORATORS / КОЛЛАБОРАТОРЫ
 
@@ -327,7 +327,7 @@ flowchart TD
 
 ---
 
-##  ASRP.DRIFT ECOSYSTEM / ЭКОСИСТЕМА ASRP.DRIFT
+##  ASRP ECOSYSTEM / ЭКОСИСТЕМА ASRP
 
 ###  RELATED RESEARCH REPOSITORIES / СВЯЗАННЫЕ ИССЛЕДОВАТЕЛЬСКИЕ РЕПОЗИТОРИИ
 
@@ -522,7 +522,7 @@ flowchart TD
 - [ Reports / Отчёты](#-reports--отчёты)
 - [ Research Team / Команда Исследования](#-research-team--команда-исследования)
 - [ Active Issues / Текущие Задачи](#-active-issues--текущие-задачи)
-- [ ASRP.drift Ecosystem / Экосистема ASRP.drift](#-asrpdrift-ecosystem--экосистема-аспрдрифт)
+- [ ASRP Ecosystem / Экосистема ASRP](#-asrp-ecosystem--экосистема-асрп)
 - [ Contact Information / Контактная Информация](#-contact-information--контактная-информация)
 
 ---

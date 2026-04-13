@@ -64,7 +64,7 @@ original_research/
 
 ## Patients
 
-| # | Date | Blood Group | Photos | Protocols |
+| # | Date / Дата | Blood Group / Группа крови | Photos / Фото | Protocols / Протоколы |
 |---|------|-------------|--------|-----------|
 | 01 | 2026-01-24 | II+ | 13 | 2 PDF |
 | 02 | 2026-01-28 | III+ | 25 | 3 PDF |
