@@ -12,13 +12,7 @@
 
 ##  OVERVIEW / ОБЗОР
 
-```mermaid
-pie title Photo Distribution by Sample Type
-    " Control" : 6
-    " Channel 19" : 9
-    " Channel 21" : 8
-    " Multi-Sample" : 7
-```
+![Diagram 1](mermaid/p07retry_1.png)
 
 | Metric | Value |
 |--------|-------|
@@ -44,12 +38,7 @@ pie title Photo Distribution by Sample Type
 
 ### Timeline
 
-```mermaid
-flowchart LR
-    A["Blood<br/>19:57-20:03"] --> B["Centrifuge<br/>20:03-20:09<br/>2000 rpm"]
-    B --> C["Irradiation<br/>20:15-21:36<br/>Ch19+Ch21"]
-    C --> D["Photos<br/>19:58-20:34<br/>30 photos"]
-```
+![Diagram 2](mermaid/p07_2.png)
 
 ---
 

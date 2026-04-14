@@ -12,13 +12,7 @@
 
 ##  OVERVIEW / ОБЗОР
 
-```mermaid
-pie title Photo Distribution
-    " Control" : 1
-    " Channel 19" : 1
-    " Channel 21" : 1
-    " Triplet" : 1
-```
+![Diagram 1](mermaid/p04_1.png)
 
 | Metric | Value |
 |--------|-------|
@@ -32,17 +26,7 @@ pie title Photo Distribution
 
 ### Key Finding: NO CLOTS in Ch21
 
-```mermaid
-flowchart LR
-    A[ Sample 21.4.1<br/>Channel 21] --> B[ Time Deceleration<br/>Замедление Времени]
-    B --> C[ NO CLOTS VISIBLE<br/>БЕЗ СГУСТКОВ]
-    C --> D[ Unique in dataset<br/>Уникально]
-    
-    style A fill:#54a0ff
-    style B fill:#54a0ff
-    style C fill:#4ecdc4
-    style D fill:#ffe66d
-```
+![Diagram 2](mermaid/p04_2.png)
 
 ### Photo Distribution
 

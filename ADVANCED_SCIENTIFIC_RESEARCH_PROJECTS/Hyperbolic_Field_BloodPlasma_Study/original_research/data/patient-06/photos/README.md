@@ -12,12 +12,7 @@
 
 ##  DATASET OVERVIEW
 
-```mermaid
-pie title Photo Distribution
-    "Control (0.6.Y)" : 1
-    "Channel 19 (19.6.Y)" : 1
-    "Channel 21 (21.6.Y)" : 1
-```
+![Diagram 1](../../../../charts/mermaid/advp06_1.png)
 
 | Metric | Value |
 |--------|-------|
@@ -30,11 +25,7 @@ pie title Photo Distribution
 
 ##  TIMELINE
 
-```mermaid
-flowchart LR
-    A["Evening Session"] --> B["Irradiation<br/>Until 22:17:03"]
-    B --> C["Photography<br/>22:25:48 - 22:29:11<br/>3 photos"]
-```
+![Diagram 2](../../../../charts/mermaid/advp06_2.png)
 
 ---
 

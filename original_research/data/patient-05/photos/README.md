@@ -12,12 +12,7 @@
 
 ##  OVERVIEW / ОБЗОР
 
-```mermaid
-pie title Photo Distribution
-    " Control" : 3
-    " Channel 19" : 4
-    " Channel 21" : 3
-```
+![Diagram 1](mermaid/p05_1.png)
 
 | Metric | Value |
 |--------|-------|
@@ -32,11 +27,7 @@ pie title Photo Distribution
 
 ### Night Session Timeline
 
-```mermaid
-flowchart LR
-    A["Irradiation End<br/>01:21"] --> B["Photos Start<br/>01:37"]
-    B --> C["Photos End<br/>01:47"]
-```
+![Diagram 1](mermaid/p05retry_1.png)
 
 ### Photo Distribution
 

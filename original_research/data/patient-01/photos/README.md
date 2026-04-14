@@ -12,12 +12,7 @@
 
 ##  DATASET OVERVIEW / ОПИСАНИЕ НАБОРА ДАННЫХ
 
-```mermaid
-pie title Photo Distribution by Sample Type / Распределение Фото по Типам Образцов
-    " Control / Контроль" : 4
-    " Channel 19 / Канал 19" : 5
-    " Channel 21 / Канал 21" : 4
-```
+![Diagram 1](mermaid/p01_1.png)
 
 | Metric / Метрика | Value / Значение |
 |------------------|------------------|
@@ -32,13 +27,7 @@ pie title Photo Distribution by Sample Type / Распределение Фот�
 
 ##  EXPERIMENT TIMELINE / ВРЕМЕННАЯ ШКАЛА ЭКСПЕРИМЕНТА
 
-```mermaid
-flowchart LR
-    A["Забор Крови<br/>Blood Collection<br/>18:56 - 18:59<br/>4 пробирки"] --> B["Центрифугирование<br/>Centrifugation<br/>19:00 - 19:06<br/>2000 rpm, 5 min"]
-    B --> C["Подготовка<br/>Sample Prep<br/>19:12 - 19:14<br/>4 образца"]
-    C --> D["Облучение<br/>Irradiation<br/>19:18 - 20:30<br/>Ch19 + Ch21"]
-    D --> E["Фото<br/>Photography<br/>19:00 - 20:30<br/>13 photos"]
-```
+![Diagram 2](mermaid/p01_2.png)
 
 ---
 
@@ -69,24 +58,7 @@ flowchart LR
 
 ### Sample Comparison Matrix / Матрица Сравнения Образцов
 
-```mermaid
-flowchart TB
-    subgraph Control[" Control / Контроль"]
-        C1["2 samples / 2 образца<br/>0.1.1, 0.1.2<br/>4 photos / 4 фото<br/>Clot rate: 75%<br/>Желто-зеленоватая плазма"]
-    end
-    
-    subgraph Ch19[" Channel 19 / Канал 19"]
-        A1["1 sample / 1 образец<br/>19.1.1<br/>5 photos / 5 фото<br/>Clot rate: 80%<br/>Желто-оливковая плазма"]
-    end
-    
-    subgraph Ch21[" Channel 21 / Канал 21"]
-        D1["1 sample / 1 образец<br/>21.1.1<br/>4 photos / 4 фото<br/>Clot rate: 75%<br/>Желто-зеленоватая плазма"]
-    end
-    
-    style Control fill:#5fcdff
-    style Ch19 fill:#ff9ff3
-    style Ch21 fill:#54a0ff
-```
+![Diagram 3](mermaid/p01_3.png)
 
 ---
 

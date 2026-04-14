@@ -14,16 +14,7 @@
 
 ##  DATASET OVERVIEW
 
-```mermaid
-pie title Total Photos by Patient
-    "Patient 01" : 13
-    "Patient 02" : 25
-    "Patient 03" : 16
-    "Patient 04" : 4
-    "Patient 05" : 10
-    "Patient 06" : 3
-    "Patient 07" : 30
-```
+![Diagram 1](../../charts/mermaid/advdataretry_1.png)
 
 | Metric | Value |
 |--------|-------|
@@ -50,15 +41,7 @@ pie title Total Photos by Patient
 
 ##  EXPERIMENT TIMELINE
 
-```mermaid
-flowchart LR
-    A["Jan 24<br/>P01 (13)"] --> B["Jan 28<br/>P02 (25)"]
-    B --> C["Jan 29<br/>P03 (16)"]
-    C --> D["Jan 30<br/>P04 (4)"]
-    D --> E["Jan 31<br/>P05 (10)"]
-    E --> F["Feb 01<br/>P06 (3)"]
-    F --> G["Feb 07<br/>P07 (30)"]
-```
+![Diagram 2](../../charts/mermaid/advdata_2.png)
 
 ---
 

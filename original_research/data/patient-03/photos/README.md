@@ -12,12 +12,7 @@
 
 ##  OVERVIEW / ОБЗОР
 
-```mermaid
-pie title Photo Distribution
-    " Control" : 5
-    " Channel 19" : 5
-    " Channel 21" : 6
-```
+![Diagram 1](mermaid/p03_1.png)
 
 | Metric | Value |
 |--------|-------|
@@ -43,12 +38,7 @@ pie title Photo Distribution
 
 ### Timeline
 
-```mermaid
-flowchart LR
-    A["Blood<br/>21:17"] --> B["Centrifuge<br/>21:22"]
-    B --> C["Irradiation<br/>21:35"]
-    C --> D["Photos<br/>20:41<br/>16 photos"]
-```
+![Diagram 2](mermaid/p03_2.png)
 
 ---
 

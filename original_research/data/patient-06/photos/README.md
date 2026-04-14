@@ -12,12 +12,7 @@
 
 ##  OVERVIEW / ОБЗОР
 
-```mermaid
-pie title Photo Distribution
-    " Control" : 1
-    " Channel 19" : 1
-    " Channel 21" : 1
-```
+![Diagram 1](mermaid/p06_1.png)
 
 | Metric | Value |
 |--------|-------|
@@ -32,15 +27,7 @@ pie title Photo Distribution
 
 ### Efficient Multi-Sample Coverage
 
-```mermaid
-flowchart LR
-    A[ 3 Photos] --> B[ 6 Samples]
-    B --> C[ 100% Coverage]
-    
-    style A fill:#ff6b6b
-    style B fill:#4ecdc4
-    style C fill:#5fcdff
-```
+![Diagram 2](mermaid/p06_2.png)
 
 ### Photo Distribution
 

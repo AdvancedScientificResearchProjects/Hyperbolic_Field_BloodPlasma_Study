@@ -8,31 +8,7 @@
 
 ##  RESEARCH PROGRAM OVERVIEW / ОБЗОР ИССЛЕДОВАТЕЛЬСКОЙ ПРОГРАММЫ
 
-```mermaid
-flowchart TB
-    A[ ASRP Hyperbolic Field<br/>Research Program 2026-2027<br/>Программа Исследования<br/>Гиперболических Полей] --> B[ Blood Plasma Study<br/>Исследование Кровяной Плазмы]
-    A --> C[ DAAT Crystal Study<br/>Исследование Кристаллов DAAT]
-    A --> D[ Agricultural Study<br/>Сельскохозяйственное Исследование]
-    A --> E[ Emitter Programs<br/>Программы Излучателей]
-    
-    B --> B1[Coagulation Analysis<br/>Анализ Свёртываемости]
-    B --> B2[Time-Lapse Imaging<br/>Покадровая Съёмка]
-    B --> B3[Biochemical Analysis<br/>Биохимический Анализ]
-    
-    C --> C1[Human-Crystal<br/>Interaction<br/>Взаимодействие<br/>Человек-Кристалл]
-    
-    D --> D1[Plant Growth<br/>Рост Растений]
-    D --> D2[Fungi Cultivation<br/>Выращивание Грибов]
-    
-    E --> E1[Control Software<br/>ПО Управления]
-    E --> E2[AI Algorithms<br/>ИИ Алгоритмы]
-    
-    style A fill:#ffd700,stroke:#000,stroke-width:3px
-    style B fill:#ff6b6b
-    style C fill:#4ecdc4
-    style D fill:#95e1d3
-    style E fill:#45b7d1
-```
+![Diagram 1](charts/mermaid/issue_2_1.png)
 
 ---
 
@@ -66,41 +42,7 @@ flowchart TB
 
 ###  ALL PROJECTS WITH COMPLETE TEAM ASSIGNMENTS
 
-```mermaid
-flowchart LR
-    subgraph Team[ Team / Команда]
-        D[Denis Banchenko<br/>CEO / Physics]
-        V[Valeria Ovseannicova<br/>CBE / Biomedical]
-        M[Mykhailo Kapustin<br/>CTO / IT & AI]
-        K[Kyryl Zmiienko<br/>Chief AI Engineer]
-        A[Alexandr Ovsyannikov<br/>Head Hardware Engineer]
-    end
-    
-    subgraph Projects[ Projects / Проекты]
-        P1[ Blood Plasma<br/>Valeria + Denis]
-        P2[ DAAT Crystal<br/>Denis]
-        P3[ Agricultural<br/>Mykhailo]
-        P4[ Emitter Programs<br/>Mykhailo + Alexandr]
-    end
-    
-    D --> P1
-    D --> P2
-    V --> P1
-    M --> P3
-    M --> P4
-    K --> P1
-    A --> P4
-    
-    style D fill:#ffd700
-    style V fill:#ff6b6b
-    style M fill:#4ecdc4
-    style K fill:#45b7d1
-    style A fill:#ffe66d
-    style P1 fill:#f38181
-    style P2 fill:#aa96da
-    style P3 fill:#95e1d3
-    style P4 fill:#5fcdff
-```
+![Diagram 2](charts/mermaid/issue_2_2.png)
 
 | # | Project / Проект | Repository / Репозиторий | Status / Статус | Lead / Руководитель | Team / Команда |
 |---|------------------|-------------------------|-----------------|---------------------|----------------|
@@ -113,45 +55,7 @@ flowchart LR
 
 ##  BLOOD PLASMA STUDY - DETAILED WORKFLOW / ДЕТАЛЬНЫЙ РАБОЧИЙ ПРОЦЕСС
 
-```mermaid
-flowchart TB
-    subgraph Data[ Data / Данные]
-        D1[Raw Data<br/>Сырые Данные]
-        D2[Processed<br/>Обработанные]
-        D3[Results<br/>Результаты]
-    end
-    
-    subgraph Analysis[ Analysis / Анализ]
-        A1[Notebooks<br/>Jupyter]
-        A2[Scripts<br/>Python]
-        A3[Reports<br/>Отчёты]
-    end
-    
-    subgraph Team[ Team / Команда]
-        T1[Valeria<br/>Lead]
-        T2[Denis<br/>Physics]
-        T3[Kyryl<br/>AI/ML]
-        T4[Alexandr<br/>Electrical]
-    end
-    
-    D1 --> D2 --> D3 --> A1 --> A2 --> A3
-    
-    T1 --> Data
-    T2 --> Data
-    T3 --> Analysis
-    T4 --> Data
-    
-    style D1 fill:#ff6b6b
-    style D2 fill:#4ecdc4
-    style D3 fill:#45b7d1
-    style A1 fill:#ffe66d
-    style A2 fill:#95e1d3
-    style A3 fill:#f38181
-    style T1 fill:#ff9ff3
-    style T2 fill:#54a0ff
-    style T3 fill:#5fcdff
-    style T4 fill:#ffd700
-```
+![Diagram 1](charts/mermaid/issue_2retry_1.png)
 
 ###  DATA STRUCTURE / СТРУКТУРА ДАННЫХ
 
@@ -233,15 +137,7 @@ flowchart TB
 
 ##  RESEARCH TIMELINE / ВРЕМЕННАЯ ШКАЛА ИССЛЕДОВАНИЯ
 
-```mermaid
-flowchart LR
-    A["Jan 24-31<br/>Data Collection<br/>Сбор Данных"] --> B["Feb 01-07<br/>P06, P07"]
-    B --> C["Feb 25-26<br/>AI/LLM Analysis"]
-    C --> D["Mar 12-14<br/>Comparative Analysis"]
-    D --> E["Mar 18-26<br/>Issues & Repo"]
-    E --> F["Apr-May<br/>Peer Review<br/>Публикация"]
-    F --> G["Future<br/>30 Donors<br/>30 Доноров"]
-```
+![Diagram 4](charts/mermaid/issue_2_4.png)
 
 ---
 
@@ -284,7 +180,6 @@ ASRP / ПНИР
 **Last Updated / Последнее обновление:** 26 March 2026  
 **Organization / Организация:** Advanced Scientific Research Projects (ASRP)  
 **Website / Вебсайт:** https://asrp.tech  
-**Standard / Стандарт:** UNIFIED_STRUCTURE_STANDARD.md v4.0  
 **Status / Статус:**  Active Research / Активное Исследование  
 **Documentation Language / Язык Документации:** English \| Русский (Full Bilingual / Полный Двуязычный)
 

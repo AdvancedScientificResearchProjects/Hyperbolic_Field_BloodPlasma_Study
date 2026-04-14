@@ -16,24 +16,7 @@
 
 ##  IMAGING WORKFLOW / РАБОЧИЙ ПРОЦЕСС
 
-```mermaid
-flowchart LR
-    A[ Plasma Samples<br/>Образцы Плазмы] --> B[ Time-Lapse Camera<br/>Камера]
-    B --> C[ Image Capture<br/>Захват]
-    C --> D[ Preprocessing<br/>Предобработка]
-    D --> E[ LLM Analysis<br/>Анализ LLM]
-    D --> F[ CV Analysis<br/>Анализ CV]
-    E --> G[ Comparison<br/>Сравнение]
-    F --> G
-    
-    style A fill:#ff6b6b
-    style B fill:#4ecdc4
-    style C fill:#ffe66d
-    style D fill:#95e1d3
-    style E fill:#f38181
-    style F fill:#aa96da
-    style G fill:#45b7d1
-```
+![Diagram 1](charts/mermaid/issue_6_1.png)
 
 ---
 

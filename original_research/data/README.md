@@ -14,16 +14,7 @@
 
 ##  DATASET OVERVIEW / ОБЗОР НАБОРОВ ДАННЫХ
 
-```mermaid
-pie title Total Photos by Patient / Всего Фото по Пациентам
-    "Patient 01" : 13
-    "Patient 02" : 25
-    "Patient 03" : 16
-    "Patient 04" : 4
-    "Patient 05" : 10
-    "Patient 06" : 3
-    "Patient 07" : 30
-```
+![Diagram 1](../charts/mermaid/data_1.png)
 
 | Metric / Метрика | Value / Значение |
 |------------------|------------------|
@@ -93,57 +84,11 @@ pie title Total Photos by Patient / Всего Фото по Пациентам
 
 ### Complete Effect Summary / Полная Сводка Эффектов
 
-```mermaid
-flowchart TB
-    subgraph Control[" Control / Контроль<br/>BASELINE"]
-        C1["Clot Count: 8.92"]
-        C2["Area: 0.90%"]
-        C3["Texture: 4.12"]
-        C4["Edge: 0.0016"]
-        C5["LLM: 65%"]
-    end
-    
-    subgraph Ch19[" Channel 19<br/>TIME ACCELERATION"]
-        A1["Count: 5.64  −37%"]
-        A2["Area: 0.52%  −42%"]
-        A3["Texture: 5.26  +28%"]
-        A4["Edge: 0.0012  −25%"]
-        A5["LLM: 78%  +13%"]
-        A6[" LYSIS CASE"]
-    end
-    
-    subgraph Ch21[" Channel 21<br/>TIME DECELERATION"]
-        D1["Count: 8.69 −3%"]
-        D2["Area: 0.58%  −35%"]
-        D3["Texture: 4.16 +1%"]
-        D4["Edge: 0.0034  +113%"]
-        D5["LLM: 41%  −24%"]
-    end
-    
-    style Control fill:#5fcdff
-    style Ch19 fill:#ff9ff3
-    style Ch21 fill:#54a0ff
-```
+![Diagram 2](../charts/mermaid/data_2.png)
 
 ### Time Effect Visualization / Визуализация Временных Эффектов
 
-```mermaid
-flowchart LR
-    A[ Plasma Samples] --> B[ Control<br/>Normal Time<br/>Норма]
-    A --> C[ Channel 19<br/>Faster Time<br/>Быстрее]
-    A --> D[ Channel 21<br/>Slower Time<br/>Медленнее]
-    
-    B --> E[8.92 clots<br/>0.90% area]
-    C --> F[5.64 clots <br/>0.52% area <br/>+28% texture]
-    D --> G[8.69 clots<br/>0.58% area <br/>+113% edge]
-    
-    style B fill:#5fcdff
-    style C fill:#ff9ff3
-    style D fill:#54a0ff
-    style E fill:#5fcdff
-    style F fill:#ff9ff3
-    style G fill:#54a0ff
-```
+![Diagram 3](../charts/mermaid/data_3.png)
 
 ---
 
@@ -163,15 +108,7 @@ flowchart LR
 
 ##  EXPERIMENT TIMELINE / ВРЕМЕННАЯ ШКАЛА
 
-```mermaid
-flowchart LR
-    A["Jan 24<br/>P01 (13)"] --> B["Jan 28<br/>P02 (25)"]
-    B --> C["Jan 29<br/>P03 (16)"]
-    C --> D["Jan 30<br/>P04 (4)"]
-    D --> E["Jan 31<br/>P05 (10)"]
-    E --> F["Feb 01<br/>P06 (3)"]
-    F --> G["Feb 07<br/>P07 (30)"]
-```
+![Diagram 4](../charts/mermaid/data_4.png)
 
 ---
 

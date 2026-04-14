@@ -12,13 +12,7 @@
 
 ##  DATASET OVERVIEW
 
-```mermaid
-pie title Photo Distribution
-    "Control (0.4.Y)" : 1
-    "Channel 19 (19.4.Y)" : 1
-    "Channel 21 (21.4.Y)" : 1
-    "All Three" : 1
-```
+![Diagram 1](../../../../charts/mermaid/advp04retry_1.png)
 
 | Metric | Value |
 |--------|-------|
@@ -31,11 +25,7 @@ pie title Photo Distribution
 
 ##  TIMELINE
 
-```mermaid
-flowchart LR
-    A["Centrifugation<br/>16:00 - 16:06"] --> B["Irradiation<br/>16:13 - 17:47"]
-    B --> C["Photography<br/>17:36 - 17:39<br/>4 photos"]
-```
+![Diagram 2](../../../../charts/mermaid/advp04_2.png)
 
 ---
 

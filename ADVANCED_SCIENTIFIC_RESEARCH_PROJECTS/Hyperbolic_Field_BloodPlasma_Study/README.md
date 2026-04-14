@@ -10,39 +10,16 @@
 
 |  **Data & Photos** / **Данные и Фото** |  **Reports** / **Отчёты** |  **Team** / **Команда** |  **Issues** / **Задачи** |
 |------------------------------------------|----------------------------|---------------------------|----------------------------|
-| [ Photo Gallery](#-photo-gallery--галерея-фотографий) | [ All Reports](#-reports--отчёты) | [ Research Team](#-research-team--команда-исследования) | [ Issue #1: Protocol](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/1) |
-| [ Data Structure](#-data-structure--структура-данных) | [ Biochemical Analysis](#-reports--отчёты) | [ Contacts](#-contact-information--контактная-информация) | [ Issue #3: Photography](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/3) |
-| [ All Folders](#-complete-folder-structure--полная-структура-папок) | [ AI/ML Analysis](#-reports--отчёты) | [ Patent Connection](#-patent-connection--связь-с-патентом) | [ Issue #5: Biochemical](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/5) |
-| [ Results](#-key-results--ключевые-результаты) | [ Protocols](#-reports--отчёты) | [ ASRP Ecosystem](#-asrp-ecosystem--экосистема-asrp) | [ Issue #8: Publication](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/8) |
+| [ Photo Gallery](#photo-gallery--галерея-фотографий) | [ All Reports](#reports--отчёты) | [ Research Team](#research-team--команда-исследования) | [ Issue #1: Protocol](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/1) |
+| [ Data Structure](#data-structure--структура-данных) | [ Biochemical Analysis](#reports--отчёты) | [ Contacts](#contact-information--контактная-информация) | [ Issue #3: Photography](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/3) |
+| [ All Folders](#data-structure--структура-данных) | [ AI/ML Analysis](#reports--отчёты) | [ Patent Connection](#patent-connection--связь-с-патентом) | [ Issue #5: Biochemical](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/5) |
+| [ Results](#key-results--ключевые-результаты) | [ Protocols](#reports--отчёты) | [ ASRP Ecosystem](#asrp-ecosystem--экосистема-asrp) | [ Issue #8: Publication](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/8) |
 
 ---
 
 ##  RESEARCH OVERVIEW / ОБЗОР ИССЛЕДОВАНИЯ
 
-```mermaid
-flowchart TB
-    A[ Blood Donors<br/>7 Patients / 7 Пациентов] --> B[ Plasma Separation<br/>Центрифугирование]
-    B --> C[ Hyperbolic Field Exposure<br/>Воздействие Гиперболического Поля]
-    C --> D[ Time-Lapse Photography<br/>Покадровая Съёмка]
-    D --> E[ AI/ML Analysis<br/>ИИ/МЛ Анализ]
-    E --> F[ Statistical Analysis<br/>Статистический Анализ]
-    F --> G[ Scientific Reports<br/>Научные Отчёты]
-    
-    C --> C1[Channel 19<br/>Канал 19<br/> Time Acceleration]
-    C --> C2[Channel 21<br/>Канал 21<br/> Time Deceleration]
-    C --> C3[Control<br/>Контроль<br/> No Exposure]
-    
-    style A fill:#ff6b6b
-    style B fill:#4ecdc4
-    style C fill:#45b7d1
-    style D fill:#ffe66d
-    style E fill:#95e1d3
-    style F fill:#f38181
-    style G fill:#aa96da
-    style C1 fill:#ff9ff3
-    style C2 fill:#54a0ff
-    style C3 fill:#5fcdff
-```
+![Diagram 1](charts/mermaid/advreadme_1.png)
 
 ###  KEY METRICS / КЛЮЧЕВЫЕ МЕТРИКИ
 
@@ -63,19 +40,7 @@ flowchart TB
 ** THIS RESEARCH USES TECHNOLOGY PROTECTED BY PATENT:**
 ** ЭТО ИССЛЕДОВАНИЕ ИСПОЛЬЗУЕТ ТЕХНОЛОГИЮ ЗАЩИЩЕННУЮ ПАТЕНТОМ:**
 
-```mermaid
-flowchart LR
-    A[ KZ 2025/1095.1<br/>Fractal FBHFS Patent<br/>Фрактальная БСГП<br/>14 March 2025] -->|PROTECTS / ЗАЩИЩАЕТ| B[ Hyperbolic Field Emitters<br/>Излучатели Гиперболических Полей]
-    B -->|USED IN / ИСПОЛЬЗУЮТСЯ В| C[ Blood Plasma Study<br/>Исследование Кровяной Плазмы]
-    B -->|USED IN / ИСПОЛЬЗУЮТСЯ В| D[ DAAT Crystal Study<br/>Исследование Кристаллов]
-    B -->|USED IN / ИСПОЛЬЗУЮТСЯ В| E[ Agricultural Study<br/>Сельскохозяйственное<br/>Исследование]
-    
-    style A fill:#ffd700,stroke:#000,stroke-width:3px
-    style B fill:#ff6b6b
-    style C fill:#4ecdc4
-    style D fill:#45b7d1
-    style E fill:#95e1d3
-```
+![Diagram 2](charts/mermaid/advreadme_2.png)
 
 **Patent Repository / Патентный Репозиторий:** [ Kazpatent_Fractal_Biomedical_System_Patent](https://github.com/denisbanchenko/Kazpatent_Fractal_Biomedical_System_Patent)
 
@@ -87,19 +52,7 @@ flowchart LR
 
 ###  HYPOTHESIS VALIDATION / ВАЛИДАЦИЯ ГИПОТЕЗЫ
 
-```mermaid
-flowchart LR
-    A["Jan 24: P01<br/>Пациент 01"] --> B["Jan 28: P02<br/>Пациент 02"]
-    B --> C["Jan 29: P03<br/>Пациент 03"]
-    C --> D["Jan 30: P04<br/>Пациент 04"]
-    D --> E["Jan 31: P05<br/>Пациент 05"]
-    E --> F["Feb 01: P06<br/>Пациент 06"]
-    F --> G["Feb 07: P07<br/>Пациент 07"]
-    G --> H["Feb 25: AI Analysis<br/>ИИ Анализ"]
-    H --> I["Feb 26: LLM Vision<br/>LLM Визион"]
-    I --> J["Mar 12: Comparative<br/>Сравнительный"]
-    J --> K["Mar 14: CV/ML<br/>CV/МЛ Анализ"]
-```
+![Diagram 3](charts/mermaid/advreadme_3.png)
 
 ###  COMPARATIVE RESULTS / СРАВНИТЕЛЬНЫЕ РЕЗУЛЬТАТЫ
 
@@ -126,24 +79,7 @@ flowchart LR
 
 ###  TIME-LAPSE PHOTOGRAPHY SYSTEM / СИСТЕМА ПОКАДРОВОЙ СЪЁМКИ
 
-```mermaid
-flowchart LR
-    A[ Plasma Samples<br/>Образцы Плазмы] --> B[ Time-Lapse Camera<br/>Камера 4K]
-    B --> C[ Image Capture<br/>1 frame / 5 min]
-    C --> D[ Preprocessing<br/>Предобработка]
-    D --> E[ LLM Analysis<br/>Анализ LLM]
-    D --> F[ CV Analysis<br/>Анализ CV]
-    E --> G[ Comparison<br/>Сравнение]
-    F --> G
-    
-    style A fill:#ff6b6b
-    style B fill:#4ecdc4
-    style C fill:#ffe66d
-    style D fill:#95e1d3
-    style E fill:#f38181
-    style F fill:#aa96da
-    style G fill:#45b7d1
-```
+![Diagram 4](charts/mermaid/advreadme_4.png)
 
 ###  IMAGING SPECIFICATIONS / СПЕЦИФИКАЦИИ ВИЗУАЛИЗАЦИИ
 
@@ -264,24 +200,7 @@ Hyperbolic_Field_BloodPlasma_Study/
 
 ###  ANALYSIS PIPELINE / КОНВЕЙЕР АНАЛИЗА
 
-```mermaid
-flowchart TD
-    A[ Raw Images<br/>Сырые Изображения] --> B[ Preprocessing<br/>Предобработка]
-    B --> C[ Stage 1: CV Analysis<br/>SAM-2, SigLIP2, DINOv2]
-    B --> D[ Stage 2: LLM Vision<br/>Claude Opus 4.6]
-    C --> E[ Stage 3: Comparative<br/>Cross-validation]
-    D --> E
-    E --> F[ Stage 4: Statistical<br/>ANOVA, t-tests, p-values]
-    F --> G[ Final Reports<br/>Научные Отчёты]
-    
-    style A fill:#ff6b6b
-    style B fill:#4ecdc4
-    style C fill:#45b7d1
-    style D fill:#ffe66d
-    style E fill:#95e1d3
-    style F fill:#f38181
-    style G fill:#aa96da
-```
+![Diagram 5](charts/mermaid/advreadme_5.png)
 
 ---
 
@@ -374,29 +293,7 @@ flowchart TD
 
 ###  EXPERIMENTAL PROTOCOL / ПРОТОКОЛ ЭКСПЕРИМЕНТА
 
-```mermaid
-flowchart TD
-    A[ Blood Collection<br/>Забор Крови<br/>4 tubes per donor] --> B[ Centrifugation<br/>Центрифугирование<br/>2000 RPM, 5 min]
-    B --> C[ Plasma Separation<br/>Отбор Плазмы<br/>Redistribute to samples]
-    C --> D[ Irradiation<br/>Облучение<br/>~1h 12min]
-    D --> E[ Photography<br/>Фотографирование<br/>Before, during, after]
-    E --> F[ AI/ML Analysis<br/>Анализ ИИ/МЛ<br/>Multi-provider]
-    F --> G[ Statistics<br/>Статистика<br/>ANOVA, t-tests]
-    G --> H[ Reports<br/>Отчёты<br/>Scientific papers]
-    
-    D --> D1[Channel 19<br/> Acceleration]
-    D --> D2[Channel 21<br/> Deceleration]
-    D --> D3[Control<br/> No exposure]
-    
-    style A fill:#ff6b6b
-    style B fill:#4ecdc4
-    style C fill:#45b7d1
-    style D fill:#ffe66d
-    style E fill:#95e1d3
-    style F fill:#f38181
-    style G fill:#aa96da
-    style H fill:#5fcdff
-```
+![Diagram 6](charts/mermaid/advreadme_6.png)
 
 ###  SAMPLE IDENTIFICATION / ИДЕНТИФИКАЦИЯ ОБРАЗЦОВ
 
@@ -497,7 +394,6 @@ flowchart TD
 ---
 
 **Last Updated / Последнее обновление:** 26 March 2026  
-**Standard / Стандарт:** UNIFIED_STRUCTURE_STANDARD.md v4.0  
 **Status / Статус:**  Active Research / Активное Исследование  
 **Documentation Language / Язык Документации:** English \| Русский (Full Bilingual / Полный Двуязычный)
 
@@ -507,18 +403,18 @@ flowchart TD
 
 ###  QUICK LINKS / БЫСТРЫЕ ССЫЛКИ
 
-- [ Back to Top / Наверх](#-hyperbolic-field-blood-plasma-study--исследование-кровяной-плазмы-гиперболических-полей)
-- [ Quick Navigation / Быстрая Навигация](#-quick-navigation--быстрая-навигация)
-- [ Research Overview / Обзор Исследования](#-research-overview--обзор-исследования)
-- [ Patent Connection / Связь с Патентом](#-patent-connection--связь-с-патентом)
-- [ Key Results / Ключевые Результаты](#-key-results--ключевые-результаты)
-- [ Photo Gallery / Галерея Фотографий](#-photo-gallery--галерея-фотографий)
-- [ Data Structure / Структура Данных](#-data-structure--структура-данных)
-- [ Reports / Отчёты](#-reports--отчёты)
-- [ Research Team / Команда Исследования](#-research-team--команда-исследования)
-- [ Active Issues / Текущие Задачи](#-active-issues--текущие-задачи)
-- [ ASRP Ecosystem / Экосистема ASRP](#-asrp-ecosystem--экосистема-asrp)
-- [ Contact Information / Контактная Информация](#-contact-information--контактная-информация)
+- [ Back to Top / Наверх](#hyperbolic-field-blood-plasma-study--исследование-кровяной-плазмы-гиперболических-полей)
+- [ Quick Navigation / Быстрая Навигация](#quick-navigation--быстрая-навигация)
+- [ Research Overview / Обзор Исследования](#research-overview--обзор-исследования)
+- [ Patent Connection / Связь с Патентом](#patent-connection--связь-с-патентом)
+- [ Key Results / Ключевые Результаты](#key-results--ключевые-результаты)
+- [ Photo Gallery / Галерея Фотографий](#photo-gallery--галерея-фотографий)
+- [ Data Structure / Структура Данных](#data-structure--структура-данных)
+- [ Reports / Отчёты](#reports--отчёты)
+- [ Research Team / Команда Исследования](#research-team--команда-исследования)
+- [ Active Issues / Текущие Задачи](#active-issues--tasks--текущие-задачи)
+- [ ASRP Ecosystem / Экосистема ASRP](#asrp-ecosystem--экосистема-asrp)
+- [ Contact Information / Контактная Информация](#contact-information--контактная-информация)
 
 ---
 

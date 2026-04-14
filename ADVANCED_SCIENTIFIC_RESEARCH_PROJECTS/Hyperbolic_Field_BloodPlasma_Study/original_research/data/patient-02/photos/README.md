@@ -13,13 +13,7 @@
 
 ##  DATASET OVERVIEW
 
-```mermaid
-pie title Photo Distribution
-    "Control (0.2.Y)" : 6
-    "Channel 19 (19.2.Y)" : 9
-    "Channel 21 (21.2.Y)" : 7
-    "Petri Dish" : 3
-```
+![Diagram 1](../../../../charts/mermaid/advp02_1.png)
 
 | Metric | Value |
 |--------|-------|
@@ -32,12 +26,7 @@ pie title Photo Distribution
 
 ##  EXPERIMENT TIMELINE
 
-```mermaid
-flowchart LR
-    A["Blood Collection<br/>19:50 - 19:54"] --> B["Centrifugation<br/>19:54 - 20:00"]
-    B --> C["Irradiation<br/>20:09 - 21:24"]
-    C --> D["Photography<br/>21:29 - Next Day<br/>25 photos"]
-```
+![Diagram 2](../../../../charts/mermaid/advp02_2.png)
 
 ---
 

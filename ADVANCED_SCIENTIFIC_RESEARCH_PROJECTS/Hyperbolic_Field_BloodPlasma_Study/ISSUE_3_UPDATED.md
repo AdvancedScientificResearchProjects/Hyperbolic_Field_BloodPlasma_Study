@@ -16,31 +16,7 @@
 
 ##  EXPERIMENTAL PROTOCOL WORKFLOW / РАБОЧИЙ ПРОЦЕСС ЭКСПЕРИМЕНТА
 
-```mermaid
-flowchart TD
-    A[ Donor Recruitment<br/>Набор Доноров] --> B[ Blood Collection<br/>Забор Крови]
-    B --> C[ Plasma Separation<br/>Разделение Плазмы]
-    C --> D[ Triplet Prep<br/>Подготовка Триплетов]
-    D --> E[ HF Exposure<br/>Воздействие ГП]
-    E --> F[ Time-Lapse<br/>Покадровая Съёмка]
-    F --> G[ Coagulation Analysis<br/>Анализ Свёртываемости]
-    G --> H[ Biochemical Markers<br/>Биохимические Маркеры]
-    H --> I[ LLM/CV Analysis<br/>Анализ LLM/CV]
-    I --> J[ Statistics<br/>Статистика]
-    J --> K[ Final Report<br/>Финальный Отчёт]
-    
-    style A fill:#ff6b6b
-    style B fill:#4ecdc4
-    style C fill:#45b7d1
-    style D fill:#ffe66d
-    style E fill:#95e1d3
-    style F fill:#f38181
-    style G fill:#aa96da
-    style H fill:#5fcdff
-    style I fill:#ffd700
-    style J fill:#ff9ff3
-    style K fill:#54a0ff
-```
+![Diagram 1](charts/mermaid/issue_3_1.png)
 
 ---
 

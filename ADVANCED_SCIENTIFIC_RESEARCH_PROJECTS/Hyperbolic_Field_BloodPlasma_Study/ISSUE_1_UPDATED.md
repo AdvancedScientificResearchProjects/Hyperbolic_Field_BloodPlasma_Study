@@ -146,29 +146,7 @@ The Hyperbolic Field Blood Plasma Coagulation Study is an experimental research 
 
 ### 4.2 EXPERIMENTAL PROTOCOL / ПРОТОКОЛ ЭКСПЕРИМЕНТА
 
-```mermaid
-flowchart TD
-    A[ Blood Collection<br/>Забор Крови<br/>4 tubes per donor] --> B[ Centrifugation<br/>Центрифугирование<br/>2000 RPM, 5 min]
-    B --> C[ Plasma Separation<br/>Отбор Плазмы<br/>Redistribute to samples]
-    C --> D[ Irradiation<br/>Облучение<br/>~1h 12min]
-    D --> E[ Photography<br/>Фотографирование<br/>Before, during, after]
-    E --> F[ AI/ML Analysis<br/>Анализ ИИ/МЛ<br/>Multi-provider]
-    F --> G[ Statistics<br/>Статистика<br/>ANOVA, t-tests]
-    G --> H[ Reports<br/>Отчёты<br/>Scientific papers]
-    
-    D --> D1[Channel 19<br/> Acceleration]
-    D --> D2[Channel 21<br/> Deceleration]
-    D --> D3[Control<br/> No exposure]
-    
-    style A fill:#ff6b6b
-    style B fill:#4ecdc4
-    style C fill:#45b7d1
-    style D fill:#ffe66d
-    style E fill:#95e1d3
-    style F fill:#f38181
-    style G fill:#aa96da
-    style H fill:#5fcdff
-```
+![Diagram 1](charts/mermaid/issue_1_1.png)
 
 #### ENGLISH
 
@@ -359,24 +337,7 @@ HyperbolicField-BloodPlasma-Study/
 
 ### 7.1 ANALYSIS PIPELINE / КОНВЕЙЕР АНАЛИЗА
 
-```mermaid
-flowchart TD
-    A[ Raw Images<br/>Сырые Изображения] --> B[ Preprocessing<br/>Предобработка]
-    B --> C[ Stage 1: CV Analysis<br/>SAM-2, SigLIP2, DINOv2]
-    B --> D[ Stage 2: LLM Vision<br/>Claude Opus 4.6]
-    C --> E[ Stage 3: Comparative<br/>Cross-validation]
-    D --> E
-    E --> F[ Stage 4: Statistical<br/>ANOVA, t-tests, p-values]
-    F --> G[ Final Reports<br/>Научные Отчёты]
-    
-    style A fill:#ff6b6b
-    style B fill:#4ecdc4
-    style C fill:#45b7d1
-    style D fill:#ffe66d
-    style E fill:#95e1d3
-    style F fill:#f38181
-    style G fill:#aa96da
-```
+![Diagram 2](charts/mermaid/issue_1_2.png)
 
 #### ENGLISH
 

@@ -12,13 +12,7 @@
 
 ##  DATASET OVERVIEW / ОПИСАНИЕ НАБОРА ДАННЫХ
 
-```mermaid
-pie title Photo Distribution / Распределение Фото
-    " Control / Контроль" : 6
-    " Channel 19 / Канал 19" : 9
-    " Channel 21 / Канал 21" : 7
-    " Petri Dish Time-Lapse" : 3
-```
+![Diagram 1](mermaid/p02_1.png)
 
 | Metric / Метрика | Value / Значение |
 |------------------|------------------|
@@ -43,25 +37,11 @@ pie title Photo Distribution / Распределение Фото
 
 ### Temporal Coverage / Временное Покрытие
 
-```mermaid
-flowchart LR
-    A["Immediate<br/>21:29<br/>Первое фото"] --> B["+6 Hours<br/>Petri dish<br/>Чашка Петри"]
-    B --> C["+16-21 Hours<br/>Macro analysis<br/>Макро анализ"]
-```
+![Diagram 2](mermaid/p02_2.png)
 
 ### Key Finding: LYSIS CASE / Ключевая Находка: ЛИЗИС
 
-```mermaid
-flowchart LR
-    A[ Sample 19.2.1<br/>Канал 19] --> B[ Time Acceleration<br/>Ускорение Времени]
-    B --> C[ IMG_3284<br/>LYSIS STAGE<br/>СТАДИЯ ЛИЗИСА]
-    C --> D[ Cracked fibrin mosaic<br/>Трещины фибрина]
-    
-    style A fill:#ff6b6b
-    style B fill:#ff9ff3
-    style C fill:#ffe66d
-    style D fill:#4ecdc4
-```
+![Diagram 3](mermaid/p02_3.png)
 
 ** UNIQUE:** Only lysis case in entire study (101 photos) / Единственный случай лизиса во всём исследовании (101 фото)
 

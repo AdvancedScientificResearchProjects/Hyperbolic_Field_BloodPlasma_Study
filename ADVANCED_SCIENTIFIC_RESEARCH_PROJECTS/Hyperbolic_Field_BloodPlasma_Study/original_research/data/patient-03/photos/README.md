@@ -12,12 +12,7 @@
 
 ##  DATASET OVERVIEW
 
-```mermaid
-pie title Photo Distribution
-    "Control (0.3.Y)" : 5
-    "Channel 19 (19.3.Y)" : 5
-    "Channel 21 (21.3.Y)" : 6
-```
+![Diagram 1](../../../../charts/mermaid/advp03_1.png)
 
 | Metric | Value |
 |--------|-------|
@@ -30,12 +25,7 @@ pie title Photo Distribution
 
 ##  TIMELINE
 
-```mermaid
-flowchart LR
-    A["Blood Collection<br/>21:17 - 21:21"] --> B["Centrifugation<br/>21:22 - 21:28"]
-    B --> C["Irradiation<br/>21:35 - 22:43"]
-    C --> D["Photography<br/>20:41 - 21:05<br/>16 photos"]
-```
+![Diagram 2](../../../../charts/mermaid/advp03_2.png)
 
 **Note:** Plasma samples coagulated rapidly; initial clots visible from moment of pouring.
 

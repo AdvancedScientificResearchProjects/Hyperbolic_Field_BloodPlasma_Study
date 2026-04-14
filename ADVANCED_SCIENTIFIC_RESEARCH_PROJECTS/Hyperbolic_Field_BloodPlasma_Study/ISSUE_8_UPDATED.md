@@ -16,20 +16,7 @@
 
 ##  PUBLICATION TIMELINE / СРОКИ ПУБЛИКАЦИИ
 
-```mermaid
-gantt
-    title Publication Timeline / Сроки Публикации
-    dateFormat  YYYY-MM-DD
-    
-    section Preparation / Подготовка
-    Manuscript Draft :active, des1, 2026-03-01, 30d
-    Internal Review : des2, after des1, 14d
-    External Peer Review : des3, after des2, 30d
-    
-    section Publication / Публикация
-    Final Edits : des4, after des3, 7d
-    Publication : des5, after des4, 7d
-```
+![Diagram 1](charts/mermaid/issue_8_1.png)
 
 ### ENGLISH
 

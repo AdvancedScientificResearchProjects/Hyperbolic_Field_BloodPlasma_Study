@@ -44,24 +44,7 @@
 
 ##  INTEGRATION WORKFLOW / ИНТЕГРАЦИЯ
 
-```mermaid
-flowchart LR
-    A[ Plasma<br/>Плазма] --> B[ Coagulation<br/>Свёртываемость]
-    A --> C[ Biochemical<br/>Биохимия]
-    B --> D[ Image Analysis<br/>Анализ Изображений]
-    C --> D
-    D --> E[ LLM/CV<br/>Корреляция]
-    E --> F[ Statistics<br/>Статистика]
-    F --> G[ Report<br/>Отчёт]
-    
-    style A fill:#ff6b6b
-    style B fill:#4ecdc4
-    style C fill:#45b7d1
-    style D fill:#ffe66d
-    style E fill:#95e1d3
-    style F fill:#f38181
-    style G fill:#aa96da
-```
+![Diagram 1](charts/mermaid/issue_5_1.png)
 
 ### ENGLISH
 

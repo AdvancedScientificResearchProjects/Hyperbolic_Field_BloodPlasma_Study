@@ -15,12 +15,7 @@
 
 ##  DATASET OVERVIEW
 
-```mermaid
-pie title Photo Distribution by Sample Type
-    "Control (0.1.Y)" : 4
-    "Channel 19 (19.1.Y)" : 5
-    "Channel 21 (21.1.Y)" : 4
-```
+![Diagram 1](../../../../charts/mermaid/advp01_1.png)
 
 | Metric | Value |
 |--------|-------|
@@ -34,12 +29,7 @@ pie title Photo Distribution by Sample Type
 
 ##  EXPERIMENT TIMELINE
 
-```mermaid
-flowchart LR
-    A["Blood Collection<br/>18:56 - 18:59"] --> B["Centrifugation<br/>19:00 - 19:06"]
-    B --> C["Irradiation<br/>19:18 - 20:30"]
-    C --> D["Photography<br/>19:00 - 20:30<br/>13 photos"]
-```
+![Diagram 2](../../../../charts/mermaid/advp01_2.png)
 
 ---
 
