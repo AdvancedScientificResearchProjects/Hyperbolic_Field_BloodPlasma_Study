@@ -8,9 +8,9 @@
 
 ## RESEARCH AT A GLANCE / ИССЛЕДОВАНИЕ В ЦИФРАХ
 
-![Photos by Patient / Фотографии по пациентам](original_research/charts/photos_by_patient.png)
+![Photos by Patient / Фотографии по пациентам](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/charts/photos_by_patient.png)
 
-![Channel Effects / Эффекты каналов](original_research/charts/channel_effects.png)
+![Channel Effects / Эффекты каналов](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/charts/channel_effects.png)
 
 
 ---
@@ -28,7 +28,7 @@
 
 ## RESEARCH OVERVIEW / ОБЗОР ИССЛЕДОВАНИЯ
 
-![Diagram 1](original_research/charts/mermaid/root_1.png)
+![Diagram 1](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/charts/mermaid/root_1.png)
 
 ### KEY METRICS / КЛЮЧЕВЫЕ МЕТРИКИ
 
@@ -50,7 +50,7 @@
 
 **ЭТО ИССЛЕДОВАНИЕ ИСПОЛЬЗУЕТ ТЕХНОЛОГИЮ ЗАЩИЩЕННУЮ ПАТЕНТОМ:**
 
-![Diagram 2](original_research/charts/mermaid/root_2.png)
+![Diagram 2](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/charts/mermaid/root_2.png)
 
 **Patent Repository / Патентный Репозиторий:** [Kazpatent_Fractal_Biomedical_System_Patent](https://github.com/denisbanchenko/Kazpatent_Fractal_Biomedical_System_Patent)
 
@@ -78,11 +78,11 @@
 
 ### HYPOTHESIS VALIDATION / ВАЛИДАЦИЯ ГИПОТЕЗЫ
 
-![Diagram 3](original_research/charts/mermaid/root_3.png)
+![Diagram 3](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/charts/mermaid/root_3.png)
 
 ### COMPARATIVE RESULTS / СРАВНИТЕЛЬНЫЕ РЕЗУЛЬТАТЫ
 
-![Comparative Results / Сравнительные результаты](original_research/charts/comparative_results.png)
+![Comparative Results / Сравнительные результаты](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/charts/comparative_results.png)
 
 | Parameter / Параметр | Control / Контроль | Channel 19 / Канал 19 (Acceleration) | Channel 21 / Канал 21 (Deceleration) |
 |---|---|---|---|
@@ -107,7 +107,7 @@
 
 ### TIME-LAPSE PHOTOGRAPHY SYSTEM / СИСТЕМА ПОКАДРОВОЙ СЪЁМКИ
 
-![Diagram 4](original_research/charts/mermaid/root_4.png)
+![Diagram 4](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/charts/mermaid/root_4.png)
 
 ### IMAGING SPECIFICATIONS / СПЕЦИФИКАЦИИ ВИЗУАЛИЗАЦИИ
 
@@ -233,7 +233,7 @@ Hyperbolic_Field_BloodPlasma_Study/
 
 ### ANALYSIS PIPELINE / КОНВЕЙЕР АНАЛИЗА
 
-![Diagram 5](original_research/charts/mermaid/root_5.png)
+![Diagram 5](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/charts/mermaid/root_5.png)
 
 ---
 
@@ -329,7 +329,7 @@ Hyperbolic_Field_BloodPlasma_Study/
 
 ### EXPERIMENTAL PROTOCOL / ПРОТОКОЛ ЭКСПЕРИМЕНТА
 
-![Diagram 6](original_research/charts/mermaid/root_6.png)
+![Diagram 6](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/main/original_research/charts/mermaid/root_6.png)
 
 ### SAMPLE IDENTIFICATION / ИДЕНТИФИКАЦИЯ ОБРАЗЦОВ
 
