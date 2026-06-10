@@ -288,6 +288,7 @@ Hyperbolic_Field_BloodPlasma_Study/
 | 2 | **DAAT Crystal Study** | [View](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study) | Human-crystal interaction / Взаимодействие человек-кристалл | Active / Активно |
 | 3 | **Agricultural Study** | [View](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study) | Plant & fungi growth / Рост растений и грибов | Growing / Расширяется |
 | 4 | **Emitter Programs** | [View](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Emitter_Programs) | Emitter control software / ПО управления излучателями | Development / Разработка |
+| 5 | **Saccharomyces cerevisiae Study / Исследование Дрожжей** | [View](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_SaccharomycesCerevisiae_Study) | Yeast cell division dynamics — companion study, shared CH17/19/21 / Динамика деления дрожжей — сопутствующее исследование, общие каналы CH17/19/21 | Active / Активно |
 
 ### PATENT REPOSITORIES / ПАТЕНТНЫЕ РЕПОЗИТОРИИ
 

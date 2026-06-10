@@ -42,5 +42,6 @@
 | ** Registration DOI / DOI Регистрации** | [10.17605/OSF.IO/GWA9E](https://doi.org/10.17605/OSF.IO/GWA9E) |
 | ** Internet Archive / Архив Интернета** | [View Archive](https://archive.org/details/osf-registrations-gwa9e-v1) |
 | ** OSF Components / Компоненты OSF** | Data, Analytic Code, Materials, Papers, Supplements / Данные, Аналитический Код, Материалы, Статьи, Приложения |
+| **Related Study: Yeast / Связанное Исследование: Дрожжи** | [osf.io/vxkum](https://osf.io/vxkum) — Saccharomyces cerevisiae (companion study, CH17/19/21) |
 
 ---
