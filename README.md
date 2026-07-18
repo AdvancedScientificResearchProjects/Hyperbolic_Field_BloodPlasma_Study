@@ -1,8 +1,34 @@
 # Hyperbolic Field Blood Plasma Study / Исследование Плазмы Крови после воздействия Гиперболических Полей
 
+<div align="center">
+
 **Experimental datasets, imaging results and analytical materials from blood plasma exposure to hyperbolic field emitters. Includes raw data, controlled environment documentation and protocol references.**
 
 **Экспериментальные наборы данных, результаты визуализации и аналитические материалы воздействия излучателей гиперболических полей на кровяную плазму. Включает исходные данные, документацию контролируемой среды и ссылки на протоколы.**
+
+[![ASRP](https://img.shields.io/badge/ASRP-Research-blue)](https://github.com/AdvancedScientificResearchProjects)
+![Language](https://img.shields.io/badge/Language-EN%2FRU-brightgreen)
+![Status](https://img.shields.io/badge/Status-Active-green)
+
+**Part of Advanced Scientific Research Projects (ASRP) Ecosystem**
+
+**Часть Экосистемы ASRP**
+
+</div>
+
+---
+
+<div align="center">
+
+[![💛 Support our work / Поддержать](https://img.shields.io/badge/💛%20Support%20our%20work-asrp.tech%2Fpatrons-FBBF24?style=for-the-badge)](https://asrp.tech/en/patrons)
+
+> **EN:** **If this work is valuable to you — support us.** 7 patron tiers from Principal Philanthropist to Individual Contributor.
+> **RU:** **Если эта работа вам полезна — поддержите нас.** 7 уровней меценатства — от Главного Филантропа до Индивидуального Вкладчика.
+>
+> **Support / Поддержать:** <https://asrp.tech/en/patrons>
+> **Investment inquiries / Инвестиционные запросы:** _pending — provide URL when available / в ожидании — добавляется при предоставлении_
+
+</div>
 
 ---
 
@@ -16,6 +42,21 @@
 ---
 
 ## QUICK NAVIGATION / БЫСТРАЯ НАВИГАЦИЯ
+
+| Section / Раздел | Description / Описание | Status / Статус |
+|------------------|-------------------------|------------------|
+| [Research Overview / Обзор](#research-overview--обзор-исследования) | Study design, hypothesis, key metrics / Дизайн, гипотеза, ключевые метрики | Complete / Завершено |
+| [Patent Connection / Патент](#patent-connection--связь-с-патентом) | KZ 2025/1095.1 hyperbolic-field patent link / Связь с патентом KZ 2025/1095.1 | Filed / Подан |
+| [Key Results / Результаты](#key-results--ключевые-результаты) | Coagulation comparative results & findings / Сравнительные результаты свёртывания | Preliminary / Предварительно |
+| [Photo Gallery / Галерея](#photo-gallery--галерея-фотографий) | 101 time-lapse photos across 7 donors / 101 фото по 7 донорам | Complete / Завершено |
+| [Data Structure / Данные](#data-structure--структура-данных) | Repo layout, data volume / Структура репозитория, объём данных | Complete / Завершено |
+| [Reports / Отчёты](#reports--отчёты) | 5 complete analysis reports, 1 in progress / 5 завершённых отчётов, 1 в работе | Active / Активно |
+| [Research Team / Команда](#research-team--команда-исследования) | Leadership & collaborators / Руководство и соавторы | Complete / Завершено |
+| [Security / Безопасность](#security--безопасность) | Data classification tiers / Уровни классификации данных | Complete / Завершено |
+| [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) | Sibling studies & patent portfolio / Смежные исследования и патенты | Complete / Завершено |
+| [Contact / Контакты](#contact-information--контактная-информация) | Corporate & team contacts / Корпоративные и командные контакты | Complete / Завершено |
+
+### QUICK LINKS / БЫСТРЫЕ ССЫЛКИ
 
 | **Data & Photos** / **Данные и Фото** | **Reports** / **Отчёты** | **Team** / **Команда** | **Issues** / **Задачи** |
 |------------------------------------------|----------------------------|---------------------------|----------------------------|
@@ -274,6 +315,19 @@ Hyperbolic_Field_BloodPlasma_Study/
 
 ---
 
+## SECURITY / БЕЗОПАСНОСТЬ
+
+### Data Classification / Классификация данных
+
+| Level / Уровень | Access / Доступ | Marking / Маркировка | Description / Описание |
+|-------------------|-------------------|--------------------------|----------------------------|
+| **PUBLIC / ПУБЛИЧНЫЙ** | Open / Открытый | GREEN / ЗЕЛЁНЫЙ | General information / Общая информация |
+| **RESEARCH / ИССЛЕДОВАТЕЛЬСКИЙ** | Team Only / Только команда | YELLOW / ЖЁЛТЫЙ | Research data / Исследовательские данные |
+| **RESTRICTED / ОГРАНИЧЕННЫЙ** | Core Team / Основная команда | RED / КРАСНЫЙ | Sensitive analysis / Конфиденциальный анализ |
+| **INTERNAL / ВНУТРЕННИЙ** | Director Only / Только директор | BLACK / ЧЁРНЫЙ | Director-level review only / Только обзор уровня директора |
+
+---
+
 ## ASRP ECOSYSTEM / ЭКОСИСТЕМА ASRP
 
 ### RELATED RESEARCH REPOSITORIES / СВЯЗАННЫЕ ИССЛЕДОВАТЕЛЬСКИЕ РЕПОЗИТОРИИ
@@ -302,15 +356,12 @@ Hyperbolic_Field_BloodPlasma_Study/
 
 ### CORPORATE CONTACT / КОРПОРАТИВНЫЙ КОНТАКТ
 
-```
-ТОО "Перспективные Научно-Исследовательские Разработки" / LLP "Advanced Scientific Research Projects"
-УЛИЦА Комарова 37, 56 / Komarova Street 37, 56
-КЫЗЫЛОРДИНСКАЯ ОБЛАСТЬ, БАЙКОНУР / Kyzylorda Region, Baikonur
-Республика Казахстан, 468320 / Republic of Kazakhstan, 468320
-
- E-mail: info@asrp.tech
- Website: https://asrp.tech
-```
+| Field / Поле | Value / Значение |
+|-----------------|----------------------|
+| **Organization / Организация** | ТОО "Перспективные Научно-Исследовательские Разработки" / Advanced Scientific Research Projects LLP |
+| **Country / Страна** | Republic of Kazakhstan / Республика Казахстан |
+| **Website / Веб-сайт** | [asrp.tech](https://asrp.tech) |
+| **Email** | info@asrp.tech |
 
 ### TEAM CONTACTS / КОНТАКТЫ КОМАНДЫ
 
@@ -439,6 +490,7 @@ Hyperbolic_Field_BloodPlasma_Study/
 - [Reports / Отчёты](#reports--отчёты)
 - [Research Team / Команда Исследования](#research-team--команда-исследования)
 - [Active Issues / Текущие Задачи](#active-issues--tasks--текущие-задачи)
+- [Security / Безопасность](#security--безопасность)
 - [ASRP Ecosystem / Экосистема ASRP](#asrp-ecosystem--экосистема-asrp)
 - [Contact Information / Контактная Информация](#contact-information--контактная-информация)
 
