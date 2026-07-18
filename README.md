@@ -295,7 +295,7 @@ Hyperbolic_Field_BloodPlasma_Study/
 | Name / Имя | Organization / Организация | Role / Роль | Email |
 |------------|---------------------------|-------------|-------|
 | **SAVELYEV IVAN / САВЕЛЬЕВ ИВАН** |ASRP.science | Science Director / Editor-in-Chief / Директор по Науке и Главный Редактор | [ivansavelev@asrp.science](mailto:ivansavelev@asrp.science) |
-| **CHIRKOVA OLESYA / ЧИРКОВА ОЛЕСЯ** |SASU Point Rouge France | Independent Researcher / Blood Plasma Specialist / Независимый Исследователь / Специалист по Плазме | [point.rouge.ch@gmail.com](mailto:point.rouge.ch@gmail.com) |
+| **CHIRKOVA OLESYA / ЧИРКОВА ОЛЕСЯ** |SASU Point Rouge France | Independent Researcher / Blood Plasma Specialist / Независимый Исследователь / Специалист по Плазме | via ASRP / через ASRP |
 
 ---
 
