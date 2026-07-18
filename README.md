@@ -360,6 +360,7 @@ Hyperbolic_Field_BloodPlasma_Study/
 |-----------------|----------------------|
 | **Organization / Организация** | ТОО "Перспективные Научно-Исследовательские Разработки" / Advanced Scientific Research Projects LLP |
 | **Country / Страна** | Republic of Kazakhstan / Республика Казахстан |
+| **Address / Адрес** | Komarova St. 37, Apt 56, Baikonur, 468320 / Ул. Комарова 37, кв. 56, г. Байконур, 468320 |
 | **Website / Веб-сайт** | [asrp.tech](https://asrp.tech) |
 | **Email** | info@asrp.tech |
 
