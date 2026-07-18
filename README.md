@@ -1,8 +1,34 @@
 # Hyperbolic Field Blood Plasma Study / Исследование Плазмы Крови после воздействия Гиперболических Полей
 
+<div align="center">
+
 **Experimental datasets, imaging results and analytical materials from blood plasma exposure to hyperbolic field emitters. Includes raw data, controlled environment documentation and protocol references.**
 
 **Экспериментальные наборы данных, результаты визуализации и аналитические материалы воздействия излучателей гиперболических полей на кровяную плазму. Включает исходные данные, документацию контролируемой среды и ссылки на протоколы.**
+
+[![ASRP](https://img.shields.io/badge/ASRP-Research-blue)](https://github.com/AdvancedScientificResearchProjects)
+![Language](https://img.shields.io/badge/Language-EN%2FRU-brightgreen)
+![Status](https://img.shields.io/badge/Status-Active-green)
+
+**Part of Advanced Scientific Research Projects (ASRP) Ecosystem**
+
+**Часть Экосистемы ASRP**
+
+</div>
+
+---
+
+<div align="center">
+
+[![💛 Support our work / Поддержать](https://img.shields.io/badge/💛%20Support%20our%20work-asrp.tech%2Fpatrons-FBBF24?style=for-the-badge)](https://asrp.tech/en/patrons)
+
+> **EN:** **If this work is valuable to you — support us.** 7 patron tiers from Principal Philanthropist to Individual Contributor.
+> **RU:** **Если эта работа вам полезна — поддержите нас.** 7 уровней меценатства — от Главного Филантропа до Индивидуального Вкладчика.
+>
+> **Support / Поддержать:** <https://asrp.tech/en/patrons>
+> **Investment inquiries / Инвестиционные запросы:** _pending — provide URL when available / в ожидании — добавляется при предоставлении_
+
+</div>
 
 ---
 
@@ -16,6 +42,21 @@
 ---
 
 ## QUICK NAVIGATION / БЫСТРАЯ НАВИГАЦИЯ
+
+| Section / Раздел | Description / Описание | Status / Статус |
+|------------------|-------------------------|------------------|
+| [Research Overview / Обзор](#research-overview--обзор-исследования) | Study design, hypothesis, key metrics / Дизайн, гипотеза, ключевые метрики | Complete / Завершено |
+| [Patent Connection / Патент](#patent-connection--связь-с-патентом) | KZ 2025/1095.1 hyperbolic-field patent link / Связь с патентом KZ 2025/1095.1 | Filed / Подан |
+| [Key Results / Результаты](#key-results--ключевые-результаты) | Coagulation comparative results & findings / Сравнительные результаты свёртывания | Preliminary / Предварительно |
+| [Photo Gallery / Галерея](#photo-gallery--галерея-фотографий) | 101 time-lapse photos across 7 donors / 101 фото по 7 донорам | Complete / Завершено |
+| [Data Structure / Данные](#data-structure--структура-данных) | Repo layout, data volume / Структура репозитория, объём данных | Complete / Завершено |
+| [Reports / Отчёты](#reports--отчёты) | 5 complete analysis reports, 1 in progress / 5 завершённых отчётов, 1 в работе | Active / Активно |
+| [Research Team / Команда](#research-team--команда-исследования) | Leadership & collaborators / Руководство и соавторы | Complete / Завершено |
+| [Security / Безопасность](#security--безопасность) | Data classification tiers / Уровни классификации данных | Complete / Завершено |
+| [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) | Sibling studies & patent portfolio / Смежные исследования и патенты | Complete / Завершено |
+| [Contact / Контакты](#contact-information--контактная-информация) | Corporate & team contacts / Корпоративные и командные контакты | Complete / Завершено |
+
+### QUICK LINKS / БЫСТРЫЕ ССЫЛКИ
 
 | **Data & Photos** / **Данные и Фото** | **Reports** / **Отчёты** | **Team** / **Команда** | **Issues** / **Задачи** |
 |------------------------------------------|----------------------------|---------------------------|----------------------------|
@@ -244,7 +285,7 @@ Hyperbolic_Field_BloodPlasma_Study/
 | # | Name / Имя | Role / Роль | Responsibilities / Обязанности | Email |
 |---|------------|-------------|-------------------------------|-------|
 | **1** | **OVSEANNICOVA VALERIA ALEXANDROVNA / ОВСЯННИКОВА ВАЛЕРИЯ АЛЕКСАНДРОВНА** | CBE (Chief Biomedical Engineer) / Director of Biomedical Research Department / Руководитель Департамента Биомедицинских Исследований; Chief Researcher & Head of Experimental Work / Главный исследователь и руководитель экспериментальных работ; Technology Co-Author / Соавтор технологии | Author of the experimental program and methodology / Автор экспериментальной программы и методологии; Research infrastructure and hardware development / Разработчик исследовательской инфраструктуры и аппаратных установок; Full-cycle research / Проведение исследований полного цикла; Hyperbolic field physics / Физика гиперболических полей | [valeriaovseannicova@asrp.tech](mailto:valeriaovseannicova@asrp.tech) |
-| **2** | **BANCHENKO DENIS YURIEVICH / БАНЧЕНКО ДЕНИС ЮРЬЕВИЧ** | CEO ASRP / Program Director / Директор Программы; Technology Co-Author / Соавтор технологии | Hyperbolic field physics / Физика гиперболических полей; Excitation systems / Системы возбуждения; Lensing & focusing / Линзирование и фокусировка; Control software / ПО управления | [denisbanchenko@asrp.tech](mailto:denisbanchenko@asrp.tech) |
+| **2** | **BANCHENKO DENIS YURIEVICH / БАНЧЕНКО ДЕНИС ЮРЬЕВИЧ** | CEO ASRP / Program Director / Директор Программы; Technology Co-Author / Соавтор технологии | Hyperbolic field physics / Физика гиперболических полей; Excitation systems / Системы возбуждения; Lensing & focusing / Линзирование и фокусировка; Control software / ПО управления | [info@asrp.tech](mailto:info@asrp.tech) |
 | **3** | **KAPUSTIN MYKHAILO MYKHALOVICH / КАПУСТИН МИХАЙЛО МИХАЙЛОВИЧ** | CTO (Chief Technology Officer) / Director of IT & AI Department / Директор Департамента Информационных Технологий и ИИ; Technology Co-Author / Соавтор технологии | IT/AI Infrastructure / ИТ/ИИ инфраструктура; Data systems / Системы данных; Technical platform / Техническая платформа; Control systems / Системы управления | [mykhailokapustin@asrp.tech](mailto:mykhailokapustin@asrp.tech) |
 | **4** | **ZMIENKO KYRYL / ЗМИЕНКО КИРИЛЛ** | Chief AI Engineer / Главный ИИ Инженер | Neural Network Analysis / Анализ нейронными сетями; Multi-LLM coordination / Координация мульти-LLM; Specialized vision models / Специализированные vision модели | [kyrylzmiienko@asrp.tech](mailto:kyrylzmiienko@asrp.tech) |
 | **5** | **OVSYANNIKOV ALEXANDR / ОВСЯННИКОВ АЛЕКСАНДР** | Head Hardware Engineer / Главный Инженер по Аппаратному Обеспечению; Technology Engineer / Инженер Технологии | Electrical & Power Systems / Электрические и силовые системы; Hyperbolic emitter excitation / Системы возбуждения гиперболических излучателей; Power components design / Проектирование силовых компонентов | [alexandrovsyannikov@asrp.tech](mailto:alexandrovsyannikov@asrp.tech) |
@@ -254,7 +295,7 @@ Hyperbolic_Field_BloodPlasma_Study/
 | Name / Имя | Organization / Организация | Role / Роль | Email |
 |------------|---------------------------|-------------|-------|
 | **SAVELYEV IVAN / САВЕЛЬЕВ ИВАН** |ASRP.science | Science Director / Editor-in-Chief / Директор по Науке и Главный Редактор | [ivansavelev@asrp.science](mailto:ivansavelev@asrp.science) |
-| **CHIRKOVA OLESYA / ЧИРКОВА ОЛЕСЯ** |SASU Point Rouge France | Independent Researcher / Blood Plasma Specialist / Независимый Исследователь / Специалист по Плазме | [point.rouge.ch@gmail.com](mailto:point.rouge.ch@gmail.com) |
+| **CHIRKOVA OLESYA / ЧИРКОВА ОЛЕСЯ** |SASU Point Rouge France | Independent Researcher / Blood Plasma Specialist / Независимый Исследователь / Специалист по Плазме | via ASRP / через ASRP |
 
 ---
 
@@ -271,6 +312,19 @@ Hyperbolic_Field_BloodPlasma_Study/
 | [#3](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/3) | BLOOD PLASMA PROTOCOL / ПРОТОКОЛ КРОВЯНОЙ ПЛАЗМЫ | Open / Открыто | Low / Низкий | Valeria Ovseannicova |
 | [#2](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/2) | ASRP HYPERBOLIC FIELD RESEARCH PROGRAM 2026-2027 — MASTER HUB / ПРОГРАММА ИССЛЕДОВАНИЙ ГИПЕРБОЛИЧЕСКИХ ПОЛЕЙ ASRP 2026-2027 — ГЛАВНЫЙ ХАБ | Open / Открыто | Low / Низкий | Denis Banchenko |
 | [#1](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study/issues/1) | HYPERBOLIC FIELD BLOOD PLASMA COAGULATION STUDY PROTOCOL / ПРОТОКОЛ ИССЛЕДОВАНИЯ СВЁРТЫВАНИЯ ПЛАЗМЫ КРОВИ ПОД ГИПЕРБОЛИЧЕСКИМИ ПОЛЯМИ | Open / Открыто | Low / Низкий | Valeria Ovseannicova |
+
+---
+
+## SECURITY / БЕЗОПАСНОСТЬ
+
+### Data Classification / Классификация данных
+
+| Level / Уровень | Access / Доступ | Marking / Маркировка | Description / Описание |
+|-------------------|-------------------|--------------------------|----------------------------|
+| **PUBLIC / ПУБЛИЧНЫЙ** | Open / Открытый | GREEN / ЗЕЛЁНЫЙ | General information / Общая информация |
+| **RESEARCH / ИССЛЕДОВАТЕЛЬСКИЙ** | Team Only / Только команда | YELLOW / ЖЁЛТЫЙ | Research data / Исследовательские данные |
+| **RESTRICTED / ОГРАНИЧЕННЫЙ** | Core Team / Основная команда | RED / КРАСНЫЙ | Sensitive analysis / Конфиденциальный анализ |
+| **INTERNAL / ВНУТРЕННИЙ** | Director Only / Только директор | BLACK / ЧЁРНЫЙ | Director-level review only / Только обзор уровня директора |
 
 ---
 
@@ -302,22 +356,20 @@ Hyperbolic_Field_BloodPlasma_Study/
 
 ### CORPORATE CONTACT / КОРПОРАТИВНЫЙ КОНТАКТ
 
-```
-ТОО "Перспективные Научно-Исследовательские Разработки" / LLP "Advanced Scientific Research Projects"
-УЛИЦА Комарова 37, 56 / Komarova Street 37, 56
-КЫЗЫЛОРДИНСКАЯ ОБЛАСТЬ, БАЙКОНУР / Kyzylorda Region, Baikonur
-Республика Казахстан, 468320 / Republic of Kazakhstan, 468320
-
- E-mail: info@asrp.tech
- Website: https://asrp.tech
-```
+| Field / Поле | Value / Значение |
+|-----------------|----------------------|
+| **Organization / Организация** | ТОО "Перспективные Научно-Исследовательские Разработки" / Advanced Scientific Research Projects LLP |
+| **Country / Страна** | Republic of Kazakhstan / Республика Казахстан |
+| **Address / Адрес** | Komarova St. 37, Apt 56, Baikonur, 468320 / Ул. Комарова 37, кв. 56, г. Байконур, 468320 |
+| **Website / Веб-сайт** | [asrp.tech](https://asrp.tech) |
+| **Email** | info@asrp.tech |
 
 ### TEAM CONTACTS / КОНТАКТЫ КОМАНДЫ
 
 | Name / Имя | Email | Role / Роль |
 |------------|-------|-------------|
 | **Valeria Ovseannicova / Валерия Овсянникова** | [valeriaovseannicova@asrp.tech](mailto:valeriaovseannicova@asrp.tech) | CBE / Director of Biomedical Research Department, Chief Researcher & Head of Experimental Work / Руководитель Департамента Биомедицинских Исследований, главный исследователь и руководитель экспериментальных работ |
-| **Denis Banchenko / Денис Банченко** | [denisbanchenko@asrp.tech](mailto:denisbanchenko@asrp.tech) | CEO / Program Director / Программный Директор |
+| **Denis Banchenko / Денис Банченко** | [info@asrp.tech](mailto:info@asrp.tech) | CEO / Program Director / Программный Директор |
 | **Mykhailo Kapustin / Михайло Капустин** | [mykhailokapustin@asrp.tech](mailto:mykhailokapustin@asrp.tech) | CTO / IT & AI / ИТ и ИИ |
 | **Kyryl Zmiienko / Кирилл Змиенко** | [kyrylzmiienko@asrp.tech](mailto:kyrylzmiienko@asrp.tech) | Chief AI Engineer / Главный Инженер ИИ |
 | **Ivan Savelyev / Иван Савельев** | [ivansavelev@asrp.science](mailto:ivansavelev@asrp.science) | Science Director / Директор по Науке / ASRP.science |
@@ -439,6 +491,7 @@ Hyperbolic_Field_BloodPlasma_Study/
 - [Reports / Отчёты](#reports--отчёты)
 - [Research Team / Команда Исследования](#research-team--команда-исследования)
 - [Active Issues / Текущие Задачи](#active-issues--tasks--текущие-задачи)
+- [Security / Безопасность](#security--безопасность)
 - [ASRP Ecosystem / Экосистема ASRP](#asrp-ecosystem--экосистема-asrp)
 - [Contact Information / Контактная Информация](#contact-information--контактная-информация)
 
